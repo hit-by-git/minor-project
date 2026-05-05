@@ -1,0 +1,45 @@
+{
+  "topic_id": 54,
+  "label": "T054",
+  "label_full": "multimodal, manipulation",
+  "keywords": [
+    "multimodal",
+    "manipulation",
+    "hammer",
+    "reasoning",
+    "dgm4",
+    "decontextualization",
+    "imagetext",
+    "modalities",
+    "grounding",
+    "shallow"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 58,
+      "score": null,
+      "abstract": "Misinformation has become a pressing issue. Fake media, in both visual and textual forms, is widespread on the web. While various DeepFake detection and text\nfake news detection methods have been proposed, they are only designed for single-modality forgery based on binary classification, let alone analyzing and reasoning subtle forgery\ntraces across different modalities. In , we highlight a new research problem for multi-modal fake media, namely Detecting and Grounding Multi-Modal Media Manipulation (DGM4 4).\nDGM4 4 aims to not only detect the authenticity of multi-modal media, but also ground the manipulated content (i.e., image bounding boxes and text tokens),\nwhich requires deeper reasoning of multi-modal media manipulation. To support a large-scale investigation, we construct the first DGM4 4 dataset, where image-text pairs are manipulated\nby various approaches, with rich annotation of diverse manipulations. Moreover, we propose a novel HierArchical Multi-modal Manipulation rEasoning tRansformer (HAMMER) to fully capture the fine-grained\ninteraction between different modalities. HAMMER performs: 1) manipulation-aware contrastive learning between two uni-modal encoders as shallow manipulation reasoning and 2) modality-aware cross-attention by multi-modal aggregator\nas deep manipulation reasoning. Dedicated manipulation detection and grounding heads are integrated from shallow to deep levels based on the interacted multi-modal information. To exploit\nmore fine-grained contrastive learning for cross-modal semantic alignment, we further integrate Manipulation-Aware Contrastive Loss with Local View and construct a more advanced model HAMMER++. Finally,\nwe build an extensive benchmark and set up rigorous evaluation metrics for this new research problem. Comprehensive experiments demonstrate the superiority of HAMMER and HAMMER++;\nseveral valuable observations are also revealed to facilitate future research in multi-modal media manipulation. © 1979-2012 IEEE."
+    },
+    {
+      "document_id": 287,
+      "score": null,
+      "abstract": "Misinformation has become a pressing issue. Fake media, in both visual and textual forms, is widespread on the web. While various deepfake detection and text\nfake news detection methods have been proposed, they are only designed for single-modality forgery based on binary classification, let alone analyzing and reasoning subtle forgery\ntraces across different modalities. In , we high-light a new research problem for multi-modal fake media, namely Detecting and Grounding Multi-Modal Media Manipulation (DGM4). DGM4\naims to not only detect the authenticity of multi-modal media, but also ground the manipulated content (i.e., image bounding boxes and text tokens), which requires\ndeeper reasoning of multi-modal media manipulation. To support a large-scale investigation, we construct the first DGM4 dataset, where image-text pairs are manipulated by various approaches,\nwith rich annotation of diverse manipulations. Moreover, we propose a novel HierArchical Multi-modal Manipulation rEasoning tRansformer (HAMMER) to fully capture the fine-grained interaction between different\nmodalities. HAMMER performs 1) manipulation-aware contrastive learning between two uni-modal encoders as shallow manipulation reasoning, and 2) modality-aware cross-attention by multi-modal aggregator as deep manipulation\nreasoning. Dedicated manipulation detection and grounding heads are integrated from shallow to deep levels based on the interacted multi-modal information. Finally, we build an extensive\nbench-mark and set up rigorous evaluation metrics for this new research problem. Comprehensive experiments demonstrate the superiority of our model; several valuable observations are also\nrevealed to facilitate future research in multi-modal media manipulation. © 2023 IEEE."
+    },
+    {
+      "document_id": 378,
+      "score": null,
+      "abstract": "Misuse of real photographs with conflicting image captions in news items is one case of out-of-context (OOC) misuse of media. To detect out-of-context given pair\nof news (i.e., captions) and attached image, people should determine the truthfulness of the statement and evaluate whether the triplet talks to the same event.\npresents a new method to detect the OOC media challenge introduced in ACMMM'22 Grand Challenge on Detecting Cheapfakes. For $Task_1$ (i.e., detect conflicting image-caption triplets),\nour approach uses bottom-up attention with visual semantic reasoning to extract global features of the image to perform comprehensive image-text matching, multiple models of natural\nlanguage processing to extract semantic relation of the caption and utilize boosting to improve the accuracy of the performance. Our method achieved an 85.5\\% accuracy\nscore on 80\\% of the testing dataset and has 4.5\\% higher accuracy than baseline. For Task2 (i.e., determine whether a given (Image, Caption) pair is\nreal or fake), we detect the veracity of captioned image base semantic features and correlation between image/caption and achieve 76\\% accuracy. Our source code is\navailable at Docker for submission is available at"
+    },
+    {
+      "document_id": 463,
+      "score": null,
+      "abstract": "Text-image de-contextualization, which uses inconsistent image-text pairs, is an emerging form of misinformation and drawing increasing attention due to the great threat to information authenticity.\nWith real content but semantic mismatch in multiple modalities, the detection of de-contextualization is a challenging problem in media forensics. Inspired by the recent advances\nin vision-language models with powerful relationship learning between images and texts, we leverage the vision-language models to the media de-contextualization detection task. Two popular models,\nnamely CLIP and VinVL, are evaluated and compared on several news and social media datasets to show their performance in detecting image-text inconsistency in de-contextualization.\nWe also summarize interesting observations and shed lights to the use of vision-language models in de-contextualization detection. © 2022 IEEE"
+    },
+    {
+      "document_id": 558,
+      "score": null,
+      "abstract": "studies an emerging and important problem of identifying misleading COVID-19 short videos where the misleading content is jointly expressed in the visual, audio, and textual\ncontent of videos. Existing solutions for misleading video detection mainly focus on the authenticity of videos or audios against AI algorithms (e.g., deepfake) or video\nmanipulation, and are insufficient to address our problem where most videos are user-generated and intentionally edited. Two critical challenges exist in solving our problem: i)\nhow to effectively extract information from the distractive and manipulated visual content in TikTok videos? ii) How to efficiently aggregate heterogeneous information across different modalities\nin short videos? To address the above challenges, we develop TikTec, a multimodal misinformation detection framework that explicitly exploits the captions to accurately capture the\nkey information from the distractive video content, and effectively learns the composed misinformation that is jointly conveyed by the visual and audio content. We evaluate\nTikTec on a real-world COVID- 19 video dataset collected from TikTok. Evaluation results show that TikTec achieves significant performance gains compared to state-of-the-art baselines in\naccurately detecting misleading COVID-19 short videos. © 2021 IEEE."
+    }
+  ]
+}

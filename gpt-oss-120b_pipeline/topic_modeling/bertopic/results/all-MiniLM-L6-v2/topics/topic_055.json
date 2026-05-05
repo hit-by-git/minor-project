@@ -1,0 +1,45 @@
+{
+  "topic_id": 55,
+  "label": "T055",
+  "label_full": "evidence, pipeline",
+  "keywords": [
+    "evidence",
+    "pipeline",
+    "claim",
+    "retrieval",
+    "fever",
+    "pipelines",
+    "claims",
+    "languages",
+    "sentence",
+    "portions"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 54,
+      "score": null,
+      "abstract": "This article presents a pipeline for automated fact-checking leveraging publicly available language models and data. The objective is to assess the accuracy of textual claims\nusing evidence from a ground-truth evidence corpus. The pipeline consists of two main modules—the evidence retrieval and the claim veracity evaluation. Our primary focus is\non the ease of deployment in various languages that remain unexplored in the field of automated fact-checking. Unlike most similar pipelines, which work with evidence\nsentences, our pipeline processes data on a paragraph level, simplifying the overall architecture and data requirements. Given the high cost of annotating language-specific fact-checking training\ndata, our solution builds on the question answering for claim generation method, which we adapt and use to generate the data for all models of\nthe pipeline. Our strategy enables the introduction of new languages through machine translation of only two fixed datasets of moderate size. Subsequently, any number of\ntraining samples can be generated based on an evidence corpus in the target language. We provide open access to all data and fine-tuned models for\nCzech, English, Polish, and Slovak pipelines, as well as to our codebase that may be used to reproduce the results. We comprehensively evaluate the pipelines\nfor all four languages, including human annotations and per-sample difficulty assessment using Pointwise V-information. The presented experiments are based on full snapshots to promote reproducibility.\nTo facilitate implementation and user interaction, we develop the FactSearch application featuring the proposed pipeline and the preliminary feedback on its performance. © The Author(s)\n2024."
+    },
+    {
+      "document_id": 357,
+      "score": null,
+      "abstract": "Modern fact verification systems have distanced themselves from the black box paradigm by providing the evidence used to infer their veracity judgments. Hence, evidence-backed fact\nverification systems’ performance heavily depends on the capabilities of their retrieval component to identify these facts. A popular evaluation benchmark for these systems is the\nFEVER task, which consists of determining the veracity of short claims using sentences extracted from . In , we present a novel approach to the\nthe retrieval steps of the FEVER task leveraging the graph structure of . The retrieval models surpass state of the art results at both sentence\nand document level. Additionally, we show that by feeding our retrieved evidence to the best-performing textual entailment model, we set a new state of the\nart in the FEVER competition. © 2023 Association for Computational Linguistics."
+    },
+    {
+      "document_id": 397,
+      "score": null,
+      "abstract": "Verifying the veracity of claims requires reasoning over a large knowledge base, often in the form of corpora of trustworthy sources. A common approach consists\nin retrieving short portions of relevant text from the reference documents and giving them as input to a natural language inference module that determines whether\nthe claim can be inferred or contradicted from them. This approach, however, struggles when multiple pieces of evidence need to be collected and combined from\ndifferent documents, since the single documents are often barely related to the target claim and hence they are left out by the retrieval module. We\nconjecture that a graph-based approach can be beneficial to identify fragmented evidence. We tested this hypothesis by building, over the whole corpus, a large graph\nthat interconnects text portions by means of mentioned entities and exploiting such a graph for identifying candidate sets of evidence from multiple sources. Our experiments\nshow that leveraging on a graph structure is beneficial in identifying a reasonably small portion of passages related to a claim. © 2022, The Author(s),\nunder exclusive license to Springer Nature Switzerland AG."
+    },
+    {
+      "document_id": 515,
+      "score": null,
+      "abstract": "In Automated Claim Verification, we retrieve evidence from a knowledge base to determine the veracity of a claim. Intuitively, the retrieval of the correct evidence\nplays a crucial role in this process. Often, evidence selection is tackled as a pairwise sentence classification task, i.e., we train a model to predict\nfor each sentence individually whether it is evidence for a claim. In , we fine-tune document level transformers to extract all evidence from a document\nat once. We show that this approach performs better than a comparable model classifying sentences individually on all relevant evidence selection metrics in FEVER. Our\ncomplete pipeline building on this evidence selection procedure produces a new state-of-the-art result on FEVER, a popular claim verification benchmark. © 2021 Association for Computational\nLinguistics."
+    },
+    {
+      "document_id": 598,
+      "score": null,
+      "abstract": "Most existing work on automated fact checking is concerned with predicting the veracity of claims based on metadata, social network spread, language used in claims,\nand, more recently, evidence supporting or denying claims. A crucial piece of the puzzle that is still missing is to understand how to automate the\nmost elaborate part of the process - generating justifications for verdicts on claims. provides the first study of how these explanations can be generated automatically\nbased on available claim context, and how this task can be modelled jointly with veracity prediction. Our results indicate that optimising both objectives at the\nsame time, rather than training them separately, improves the performance of a fact checking system. The results of a manual evaluation further suggest that the\ninformativeness, coverage and overall quality of the generated explanations are also improved in the multi-task model. © 2020 Association for Computational Linguistics"
+    }
+  ]
+}

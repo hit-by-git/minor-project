@@ -1,0 +1,65 @@
+{
+  "topic_id": 37,
+  "label": "T037",
+  "label_full": "Misinformation & Propaganda",
+  "keywords": [
+    "spanish",
+    "news",
+    "fake",
+    "proposal",
+    "datasets",
+    "deceptive",
+    "pattern",
+    "language",
+    "structure",
+    "methodological"
+  ],
+  "n_docs": 9,
+  "documents": [
+    {
+      "document_id": 216,
+      "score": null,
+      "abstract": "Fake news poses significant threats, ranging from manipulating election outcomes to disseminating harmful misinformation. Leveraging machine learning can be instrumental in countering the proliferation of\nfake news by scrutinizing extensive datasets and identifying discernible patterns indicative of false or deceptive information. Below are the key steps involved investigating fake news\nthrough machine learning: data collection, data preprocessing, pattern removal, pattern training, pattern evaluation, and pattern distribution. The contemporary landscape underscores the need for a sophisticated\nmachine learning model capable of preemptively identifying and mitigating the distribution of false news. While major social media platform has endeavored to address this issue,\nthere are instances where their existing models fall short in capturing deceptive content. Some platforms rely on predefined datasets to determine the authenticity of news,\nwhile others merely scan news articles for specific keywords, revealing the inadequacy of current approaches. To enhance the effectiveness of the model, it is crucial\nto integrate both historical and current datasets, incorporating keywords pertinent to the news and considering factors such as context, location, and data type. These aspects\nare often overlooked in existing models, contributing to their limitations in accurately discerning fake news. Furthermore, recognizing the inherent imperfections of machine-based models, it is\nimperative to incorporate a mechanism for cross-referencing with authentic news sources. By comparing news items with current data, the model can reach a commendable precision\nrate, with the potential to identify up to 76% of fake news instances. This emphasizes the importance of incorporating comparative assessment feature into the model,\nenhancing its overall efficacy. © Grenze Scientific Society, 2024."
+    },
+    {
+      "document_id": 358,
+      "score": null,
+      "abstract": "This chapter presents the methodological considerations, the challenges and the opportunities, of investigating the language of fake news across cultures. The methodological considerations are based\non the Fakespeak project, an interdisciplinary project involving linguists and computer scientists whose objectives are, firstly, to reveal the language and style of fake news\nin English, Norwegian, and Russian and, secondly, to see whether the findings can help improve existing fake news detection systems. The procedure of collecting data\nin the three languages representing three different cultures (e.g. English in the USA) presented several methodological challenges, which required innovative solutions. The challenges were quite\ndifferent in each case, with access to quality data (collections of fake and genuine news individually labelled for veracity by experts) being especially limited for\nNorwegian and Russian, albeit for different reasons. The datasets that have emerged from the Fakespeak project so far are very diverse, including both large datasets\nwith news written by a mix of authors (so-called general datasets) and smaller datasets with fake and genuine news written by the same author (single-authored\nand hybrid, multiauthored datasets). The diversity of data types is important for linguistic analyses of fake news so that meaningful comparisons with genuine news can\nbe made, as well as for the subsequent development of automatic detection systems. © 2024 selection and editorial matter, Stefania M. Maci, Massimiliano Demata, Mark\nMcGlashan and Philip Seargeant individual chapters, the contributors."
+    },
+    {
+      "document_id": 359,
+      "score": null,
+      "abstract": "Today, with so much free information online, it becomes increasingly difficult to make sense of what content is based on fact, half-truths or lies. Furthermore,\nin accordance with the events (e.g., COVID-19) that are increasingly alarming, the speed of false news spread is unprecedented. Of course, fake news impairs social\nstability and public trust, which calls for increasing demand for their detection. How to spot as faithful as possible fake news? The response that this\narticle gives, by exploring the textual features using artificial intelligence and machine learning. This research addresses the problem of automatic fake news detection for Romanian\nlanguage. First, we present a new corpus for automatic fake news detection that contains two subsets of 977 and 29 154 news articles in Romanian,\nseparated according to labelling and collection methods. Second, we explore several text-based approaches for automatic fake news detection by using machine learning and artificial intelligence\nwhich resulted in an accuracy of 93%. © 2023 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY-NC-ND\nlicense ("
+    },
+    {
+      "document_id": 599,
+      "score": null,
+      "abstract": "presents a novel architecture for dealing with Automatic Fake News detection. The architecture factors in the discourse structure of news in traditional digital media and\nis based on two premises. First, fake news tends to mix true and false information with the purpose of confusing readers. Second, this research is\nfocused on fake news delivered in traditional digital media, so our approach considers the influence of the journalistic structure of news, and the way journalists\ntend to introduce the essential content in a news story using 5W1H answer. Considering both premises, this proposal deals with the news components separately because\nsome may be true or false, instead of considering the veracity value of the news article as a unit. A two-layer architecture is proposed, Structure\nand Veracity layers. To demonstrate the validity of the proposal, a new dataset was created and annotated with a new fine-grained annotation scheme (FNDeepML) that\nconsiders the different elements of the news document and their veracity. Due to the severity of the COVID-19 pandemic crisis, health is the chosen domain,\nand Spanish is the language used to validate the architecture, given the lack of research in this language. However, the proposal can be applied to\nany other language or domain. The performance of the Veracity layer of our proposal, which factors in the traditional news article structure and the 5W1H\nannotation, is capable of delivering a result of F1=0.807. This represents a strong improvement when compared to the baseline, which uses the whole document with\na single veracity value, obtaining F1=0.605. These findings validate the suitability and effectiveness of our approach. © 2020 Elsevier Ltd"
+    },
+    {
+      "document_id": 660,
+      "score": null,
+      "abstract": "explains our participation in the IberLEF2021 shared task 7: Fake News Detection Task. The goal of this task is to analyze a corpus of Spanish\nNews and determine the authenticity of its content. The threat of false information is designed to negatively affect people, by disseminating information that does not\nmatch the facts, so that users can accept biased or erroneous information. Therefore, fake news becomes particularly important. For this task, mainly discusses different methods\nof fake news detection. We chose the ALBERT Model. On this basis we made a simple modification to the upper structure of the ALBERT model.\nIn the end, our system got 63.16 % F1 score in the task. Although our proposal did not reach the best, it provides a new\nidea for fake news detection. © 2021 CEUR-WS. All rights reserved."
+    },
+    {
+      "document_id": 661,
+      "score": null,
+      "abstract": "With the rapid development of Internet technology, the net- work makes the transmission of information no longer limited due to the long distance. All kinds\nof information can be transmitted conveniently and quickly on the Internet. People can view and send all kinds of in- formation around the world with\nonly a mobile network device. A lot of things happen in the world every day, so this information contains a lot of news information, and\npeople can understand what is happening in the world through news information. However, there is much fake news information mixed in this news information. This\nfake news will interfere with our cognition and judgment. Therefore, we need more attention to distinguish the authenticity of this news item. This also poses\ncertain challenges to our work tasks. In , we describe the method used for the Fake News Detection in Spanish in IberLEF 2021. We fine-tuned\nthe XLM-Roberta pre-training model based on the data sets provided by the host, Spanish, and obtained good results. The F1 score of our model in\nSpanish tasks reached 0.7053 and ranking seventh. © 2021 CEUR-WS. All rights reserved."
+    },
+    {
+      "document_id": 692,
+      "score": null,
+      "abstract": "The creators of fake news often use facts from verified news sources and layer them with misinformation to confuse the reader, either intentionally or unintentionally.\nIt can be increasingly seen as a threat to democracy, public order and free debate that can cause confusion and provoke unrest. Several websites have\ntaken on the mission of fact-checking rumors and claims - particularly those that get thousands of views and likes before being debunked and dismissed by\nexpert sources. To prevent fake news from being spread among online users, a near real-time reaction is crucial. Fact-checking websites are often not fast enough\nto verify the content of all the news being spread. Fake news detection is a challenging task aiming to reduce human time and effort to\ncheck the truthfulness of news. In , we propose an approach that is able to identify possible fake news spreaders on social media as a\nfirst step towards preventing fake news from being propagated among online users. Therefore, we conduct different learning experiments from a multilingual perspective, English and Spanish.\nWe evaluate different textual features that are primarily not tied to a specific language and compare different machine learning algorithms. Our results indicate that language-independent\nfeatures can be used to distinguish between possible fake news spreaders and users who share credible information with an average detection accuracy of 78% for\nthe English and 87% for the Spanish corpus. © 2020 IEEE."
+    },
+    {
+      "document_id": 787,
+      "score": null,
+      "abstract": "Fake news has become an important topic of research in a variety of disciplines including linguistics and computer science. In , we explain how the\nproblem is approached from the perspective of natural language processing, with the goal of building a system to automatically detect misinformation in news. The main\nchallenge in this line of research is collecting quality data, i.e., instances of fake and real news articles on a balanced distribution of topics. We\nreview available datasets and introduce the MisInfoText repository as a contribution of our lab to the community. We make available the full text of the\nnews articles, together with veracity labels previously assigned based on manual assessment of the articles’ truth content. We also perform a topic modelling experiment to\nelaborate on the gaps and sources of imbalance in currently available datasets to guide future efforts. We appeal to the community to collect more data\nand to make it available for research purposes. © The Author(s) 2019."
+    },
+    {
+      "document_id": 917,
+      "score": null,
+      "abstract": "A fake news detection system aims to assist users in detecting and filtering out varieties of potentially deceptive news. The prediction of the chances that\na particular news item is intentionally deceptive is based on the analysis of previously seen truthful and deceptive news. A scarcity of deceptive news, available\nas corpora for predictive modeling, is a major stumbling block in this field of natural language processing (NLP) and deception detection. discusses three types of\nfake news, each in contrast to genuine serious reporting, and weighs their pros and cons as a corpus for text analytics and predictive modeling. Filtering,\nvetting, and verifying online information continues to be essential in library and information science (LIS), as the lines between traditional news and online information are\nblurring."
+    }
+  ]
+}

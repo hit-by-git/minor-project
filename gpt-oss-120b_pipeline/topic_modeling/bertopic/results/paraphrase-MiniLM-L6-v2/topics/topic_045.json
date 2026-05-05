@@ -1,0 +1,45 @@
+{
+  "topic_id": 45,
+  "label": "T045",
+  "label_full": "retrieval, task",
+  "keywords": [
+    "retrieval",
+    "task",
+    "temporal",
+    "time",
+    "fever",
+    "precise",
+    "fact",
+    "documents",
+    "facts",
+    "ptsf"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 209,
+      "score": null,
+      "abstract": "FEVEROUS is a benchmark and research initiative focused on fact extraction and verification tasks involving unstructured text and structured tabular data. In FEVEROUS, existing works\noften rely on extensive preprocessing and utilize rule-based transformations of data, leading to potential context loss or misleading encodings. introduces a simple yet powerful model\nthat nullifies the need for modality conversion, thereby preserving the original evidence's context. By leveraging pre-trained models on diverse text and tabular datasets and by\nincorporating a lightweight attention-based mechanism, our approach efficiently exploits latent connections between different data types, thereby yielding comprehensive and reliable verdict predictions. The model's modular\nstructure adeptly manages multi-modal information, ensuring the integrity and authenticity of the original evidence are uncompromised. Comparative analyses reveal that our approach exhibits competitive performance,\naligning itself closely with top-tier models on the FEVEROUS benchmark. © 2024 ELRA Language Resource Association: CC BY-NC 4.0."
+    },
+    {
+      "document_id": 357,
+      "score": null,
+      "abstract": "Modern fact verification systems have distanced themselves from the black box paradigm by providing the evidence used to infer their veracity judgments. Hence, evidence-backed fact\nverification systems’ performance heavily depends on the capabilities of their retrieval component to identify these facts. A popular evaluation benchmark for these systems is the\nFEVER task, which consists of determining the veracity of short claims using sentences extracted from . In , we present a novel approach to the\nthe retrieval steps of the FEVER task leveraging the graph structure of . The retrieval models surpass state of the art results at both sentence\nand document level. Additionally, we show that by feeding our retrieved evidence to the best-performing textual entailment model, we set a new state of the\nart in the FEVER competition. © 2023 Association for Computational Linguistics."
+    },
+    {
+      "document_id": 496,
+      "score": null,
+      "abstract": "We study the fact-checking problem, which aims to identify the veracity of a given claim. Specifically, we focus on the task of Fact Extraction and\nVERification (FEVER) and its accompanied dataset. The task consists of the subtasks of retrieving the relevant documents (and sentences) from and validating whether the information\nin the documents supports or refutes a given claim. This task is essential and can be the building block of applications such as fake news\ndetection and medical claim verification. In this article, we aim at a better understanding of the challenges of the task by presenting the literature in\na structured and comprehensive way. We describe the proposed methods by analyzing the technical perspectives of the different approaches and discussing the performance results on\nthe FEVER dataset, which is the most well-studied and formally structured dataset on the fact extraction and verification task. We also conduct the largest experimental\nstudy to date on identifying beneficial loss functions for the sentence retrieval component. Our analysis indicates that sampling negative sentences is important for improving the\nperformance and decreasing the computational complexity. Finally, we describe open issues and future challenges, and we motivate future research in the task."
+    },
+    {
+      "document_id": 516,
+      "score": null,
+      "abstract": "Given current levels of misinformation spread, never before have fact-checking frameworks been so critical. Unfortunately, the performance of Automated Fact-checking systems is still poor due\nto the complexity of the task. In , we present an ablation study of a framework submitted to the FEVER 1.0 challenge. Based on our\nfindings, we explore how triple-based information retrieval, coreference resolution, and recent language model representations can impact the performance of each subtask. We show the importance\nof recall and precision in the retrieval of documents and sentences that can be provided to justify the veracity of a given claim. We reach\nstate-of-the-art results in the Document Retrieval task and we show promising results when using coreference resolution to improve the Sentence Retrieval task. © 2021 Owner/Author."
+    },
+    {
+      "document_id": 593,
+      "score": null,
+      "abstract": "The task of temporal slot filling (TSF) is to extract values of specific attributes for a given entity, called “facts”, as well as temporal tags\nof the facts, from text data. While existing work denoted the temporal tags as single time slots, in , we introduce and study the task\nof Precise TSF (PTSF), that is to fill two precise temporal slots including the beginning and ending time points. Based on our observation from a\nnews corpus, most of the facts should have the two points, however, fewer than 0.1% of them have time expressions in the documents. On the\nother hand, the documents’ post time, though often available, is not as precise as the time expressions of being the time a fact was valid.\nTherefore, directly decomposing the time expressions or using an arbitrary post-time period cannot provide accurate results for PTSF. The challenge of PTSF lies in finding\nprecise time tags in noisy and incomplete temporal contexts in the text. To address the challenge, we propose an unsupervised approach based on the philosophy\nof truth finding. The approach has two modules that mutually enhance each other: One is a reliability estimator of fact extractors conditionally on the temporal\ncontexts; the other is a fact trustworthiness estimator based on the extractor’s reliability. Commonsense knowledge (e.g., one country has only one president at a specific\ntime) was automatically generated from data and used for inferring false claims based on trustworthy facts. For the purpose of evaluation, we manually collect hundreds\nof temporal facts from as ground truth, including country’s presidential terms and sport team’s player career history. Experiments on a large news dataset demonstrate the\naccuracy and efficiency of our proposed algorithm. © 2020, Springer-Verlag London Ltd., part of Springer Nature."
+    }
+  ]
+}

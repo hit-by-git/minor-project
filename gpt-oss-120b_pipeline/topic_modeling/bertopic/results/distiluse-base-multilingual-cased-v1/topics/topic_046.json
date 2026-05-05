@@ -1,0 +1,45 @@
+{
+  "topic_id": 46,
+  "label": "T046",
+  "label_full": "feedback, immediate",
+  "keywords": [
+    "feedback",
+    "immediate",
+    "deep",
+    "nonphysical",
+    "news",
+    "learning",
+    "experiment",
+    "samples",
+    "recognition",
+    "classifier"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 300,
+      "score": null,
+      "abstract": "The purpose of this approach is to find out the effects and efficiently detect fake news by using a publicly available dataset. However, it is\ndifficult for human beings to judge an article's truthfulness manually, which is why mainly wanted to cure the effect and to found out an automated\nfake news detection system with benchmark accuracy by using a machine learning classifier, which must be higher than other recent research works. In essence, ’s\ntarget is to find out an efficient way to detect fake and real news, and it also the target is to compare with existing work\nwhere researchers used machine learning classifiers and deep learning architecture. The proposed approach depended on a systematic literature review and a publicly available dataset where\n7796 news data are recorded with 50% real and 50% fake news. The best and benchmark accuracy is 93.61%, achieved by the Support Vector Machine\n(SVM) among the used Random Forest, Decision Tree, KNN, and Logistics Regression classifiers, and the achieved accuracy is better than the exciting recent research works.\nMoreover, fake news is detected, people are able to differentiate between fake or real news, and effects are cured when people used SVM. © 2023\nby the authors. Licensee ESJ, Italy."
+    },
+    {
+      "document_id": 456,
+      "score": null,
+      "abstract": "The objective of this research was to analyze the effect of immediate feedback on the detection and recognition memory of false and true news, using\nthe Signal Detection Theory. For this, two experiments were carried out; in experiment one no feedback was presented; in experiment 2 immediate feedback was included.\nThe experiments were divided into 2 phases: discrimination and news recognition memory. It included the participation of 93 young people, who judged the veracity or\nfalsity of the news using a forced choice task, in 24 news with two types of attributes, physical and non-physical. The results indicated in experiment\none, that the non-physical attributes alter the detection and memory recognition of the news, making the physical attribute of the font color irrelevant. In experiment\n2, immediate feedback was found to improve detection, but not recognition, which is impaired by non-physical attributes as in experiment one. These findings show the\nneed to present news readers with different sources of immediate verification to improve their detection, as well as the need to generate good information verification\npractices in the communication sector. © 2022, Sociedad Interamericana de Psicologia. All rights reserved."
+    },
+    {
+      "document_id": 575,
+      "score": null,
+      "abstract": "One effective approach to fight fake news is to automatically filter it out using computational approaches. However, current approaches have neglected to identify the intention\nbehind posting fake news leading to errors in flagging fake news. , following the design science approach, we propose a novel deep-learning framework for detecting\nonline fake news by incorporating theories of deceptive intention. Specifically, we first develop a transfer-learning model that identifies deceptive intention reflected in text and apply\nit to distinguish two subclasses of fake news: deceptive and non-deceptive fake news. Then, these two classes of fake news, along with an observed class\nof non-fake news (i.e., true news), are used to train deep bidirectional transformers whose goal is to determine news veracity. Our framework is empirically evaluated\nand benchmarked against cutting-edge deep learning models. Our analysis reveals that the models incorporating our deceptive-intention-based design significantly outperform state-of-the-art baselines. © 2021 42nd International\nConference on Information Systems, ICIS 2021 TREOs: \"Building Sustainability and Resilience with IS: A Call for Action\". All Rights Reserved."
+    },
+    {
+      "document_id": 684,
+      "score": null,
+      "abstract": "The primary objective of this project is to detect the authenticity of a news article based on the content of the same. As the classification\nis purely based on the article’s contents, the project uses various NLP techniques for pre-processing the text before performing classification. To make the project more\nuser-friendly, Raspberry Pi’s Pi camera module is used to capture images of news articles which are automatically converted to text, thereby saving the hassle of\ntyping the whole news article for the user. A comparative analysis of various machine learning and deep learning classification models is presented. also presents two\nnew approaches for article authenticity detection using deep LSTM network and deep bidirectional LSTM network. These outperform the existing approaches for detecting article authenticity and\na 3.26% improvement in the F1 score from the standard existing bidirectional LSTM model is obtained. © BEIESP."
+    },
+    {
+      "document_id": 727,
+      "score": null,
+      "abstract": "The objective of a news veracity detection system is to identify various types of potentially misleading or false information, typically in a digital platform. A\ncritical challenge in this scenario is that there are large volumes of data available online. However, obtaining samples with annotations (i.e. ground-truth labels) is difficult\nand a known limiting factor for many data analytic tasks including the current problem of news veracity detection. In , we propose a human-machine collaborative\nlearning system to evaluate the veracity of a news content, with a limited amount of annotated data samples. In a semi-supervised scenario, an initial classifier\nis learnt on a small, limited amount of the annotated data followed by an interactive approach to gradually update the model by shortlisting only relevant\nsamples from the large pool of unlabeled data that are most likely to improve the classifier performance. Our prioritized active learning solution achieves faster convergence\nin terms of the classification performance, while requiring about 1-2 orders of magnitude fewer annotated samples compared to fully supervised solutions to attain a reasonably\nacceptable accuracy of nearly 80%. Unlike traditional deep learning architecture, the proposed active learning based deep model designed with a smaller number of more localized\nfilters per layer can efficiently learn from small relevant sample batches that can effectively improve performance in the weakly-supervised learning environment and thus is more\nsuitable for several practical applications. An effective dynamic domain adaptive feature weighting scheme can adjust the relative importance of feature dimensions iteratively. Insightful initial feedback\ngathered from two independent learning modules (a NLP shallow feature based classifier and a deep classifier), modeled to capture complementary information about data characteristics are\nfinally fused together to achieve an impressive 25% average gain in the detection performance. © 2017 IEEE."
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "topic_id": 24,
+  "label": "T024",
+  "label_full": "Fact-Checking & Verification",
+  "keywords": [
+    "retrieval",
+    "summarization",
+    "factcheck",
+    "evidence",
+    "argumentation",
+    "multimodal",
+    "generation",
+    "claim",
+    "input",
+    "factchecking"
+  ],
+  "n_docs": 9,
+  "documents": [
+    {
+      "document_id": 29,
+      "score": null,
+      "abstract": "The increasing proliferation of misinformation and its alarming impact have motivated both industry and academia to develop approaches for misinformation detection and fact checking. Recent\nadvances on large language models (LLMs) have shown remarkable performance in various tasks, but their potential in misinformation detection remains relatively underexplored. Most of existing\nstate-of-the-art approaches either do not consider evidence and solely focus on claim related features or assume the evidence is provided. Few approaches consider evidence retrieval\nas part of the misinformation detection but rely on fine-tuning models. In , we investigate the potential of LLMs for misinformation detection in a zero-shot\nsetting. We incorporate an evidence retrieval component as it is crucial to gather pertinent information from various sources to detect the veracity of claims. To\nthis end, we propose a novel re-ranking approach for multimodal evidence retrieval using both LLMs and large vision-language models (LVLM). The retrieved evidence samples (images\nand texts) serve as the input for an LVLM-based approach for multimodal fact verification (LVLM4FV). To enable a fair evaluation, we address the issue of\nincomplete ground truth in an existing evidence retrieval dataset by annotating a more complete set of evidence samples for both image and text retrieval. Our\nexperimental results on two datasets demonstrate the superiority of the proposed approach in both evidence retrieval and fact verification tasks, with a better generalization capability."
+    },
+    {
+      "document_id": 35,
+      "score": null,
+      "abstract": "Fact-check consumers can have different preferences regarding the amount of text being used for explaining the claim veracity verdict. Dynamically adapting the size of a\nfact-check report is thus an important functionality for systems designed to convey claim verification explainability. Recent works have experimented with applying transformers-based or LLM-based text\nsummarization methods in a zero-shot or few-shot manner, making use of some existing texts available in the summary parts of fact-check reports (e.g., called \"justification''\nin PolitiFact). However, for complex fact-checks, the purely sub-symbolic summarizers tend to either omit some elements of the fact-checker's argumentation chains or include contextual statements\nthat may not be essential at the given level of granularity. In , we propose a new method for enhancing fact-check summarization with the aim\nof injecting elements of structured fact-checker argumentation. This argumentation is, in turn, not only captured at the discourse level but tied to an entity graph\nrepresenting the fact-check, for which we employ the PURO diagrammatic language. We have empirically performed a manual analysis of fact-check reports from two fact-checker websites,\nyielding (1) textual snippets containing the argumentation essence of the fact-check report and (2) categorized argumentation elements tied to entity graphs. These snippets are then\nfed to a state-of-the-art hybrid summarizer which has previously produced accurate fact-check summaries, as an additional input. We observe mild improvements on various ROUGE metrics,\neven if the validity of the results is limited given the small size of the dataset. We also compare the human-provided argumentation element categories with\nthose returned, for the given fact-check ground truth summary, using a pre-trained language model upon both basic and augmented prompting. This yields a moderate accuracy\nas the model often fails to comply with the explicit given instructions."
+    },
+    {
+      "document_id": 197,
+      "score": null,
+      "abstract": "Fact-checking real-world claims often requires reviewing multiple multimodal documents to assess a claim's truthfulness, which is a highly laborious and time-consuming task. In , we\npresent a summarization model designed to generate claim-specific summaries useful for fact-checking from multimodal, multi-document datasets. The model takes inputs in the form of documents,\nimages, and a claim, with the objective of assisting in fact-checking tasks. We introduce a dynamic perceiver-based model that can handle inputs from multiple modalities\nof arbitrary lengths. To train our model, we leverage a novel reinforcement learning-based entailment objective to generate summaries that provide evidence distinguishing between different truthfulness\nlabels. To assess the efficacy of our approach, we conduct experiments on both an existing benchmark and a new dataset of multi-document claims that we\ncontribute. Our approach outperforms the SOTA approach by 4.6% in the claim verification task on the MOCHEG dataset and demonstrates strong performance on our new\nMulti-News-Fact-Checking dataset. © 2024 Association for Computational Linguistics."
+    },
+    {
+      "document_id": 229,
+      "score": null,
+      "abstract": "Automated evaluation of text generation systems has recently seen increasing attention, particularly checking whether generated text stays truthful to input sources. Existing methods frequently rely\non an evaluation using task-specific language models, which in turn allows for little interpretability of generated scores. We introduce SRLScore, a reference-free evaluation metric designed\nwith text summarization in mind. Our approach generates fact tuples constructed from Semantic Role Labels, applied to both input and summary texts.A final factuality score\nis computed by an adjustable scoring mechanism, which allows for easy adaption of the method across domains. Correlation with human judgments on English summarization datasets\nshows that SRLScore is competitive with state-of-the-art methods and exhibits stable generalization across datasets without requiring further training or hyperparameter tuning. We experiment with an\noptional co-reference resolution step, but find that the performance boost is mostly outweighed by the additional compute required. Our metric is available online at:"
+    },
+    {
+      "document_id": 247,
+      "score": null,
+      "abstract": "We propose end-to-end multimodal fact-checking and explanation generation, where the input is a claim and a large collection of web sources, including articles, images, videos,\nand tweets, and the goal is to assess the truthfulness of the claim by retrieving relevant evidence and predicting a truthfulness label (e.g., support, refute\nor not enough information), and to generate a statement to summarize and explain the reasoning and ruling process. To support this research, we construct MOCHEG,\na large-scale dataset consisting of 15,601 claims where each claim is annotated with a truthfulness label and a ruling statement, and 33,880 textual paragraphs and\n12,112 images in total as evidence. To establish baseline performances on MOCHEG, we experiment with several state-of-the-art neural architectures on the three pipelined subtasks: multimodal\nevidence retrieval, claim verification, and explanation generation, and demonstrate that the performance of the state-of-the-art end-to-end multimodal fact-checking does not provide satisfactory outcomes. To the\nbest of our knowledge, we are the first to build the benchmark dataset and solutions for end-to-end multimodal fact-checking and explanation generation. The dataset, source\ncode and model checkpoints are available at"
+    },
+    {
+      "document_id": 270,
+      "score": null,
+      "abstract": "Fighting misinformation is a challenging, yet crucial, task. Despite the growing number of experts being involved in manual fact-checking, this activity is time-consuming and cannot\nkeep up with the ever-increasing amount of fake news produced daily. Hence, automating this process is necessary to help curb misinformation. Thus far, researchers have\nmainly focused on claim veracity classification. In , instead, we address the generation of justifications (textual explanation of why a claim is classified as either\ntrue or false) and benchmark it with novel datasets and advanced baselines. In particular, we focus on summarization approaches over unstructured knowledge (i.e., news articles)\nand we experiment with several extractive and abstractive strategies. We employed two datasets with different styles and structures, in order to assess the generalizability of\nour findings. Results show that in justification production summarization benefits from the claim information, and, in particular, that a claim-driven extractive step improves abstractive summarization\nperformances. Finally, we show that although cross-dataset experiments suffer from performance degradation, a unique model trained on a combination of the two datasets is able\nto retain style information in an efficient manner. © 2023, MIT Press Journals. All rights reserved."
+    },
+    {
+      "document_id": 396,
+      "score": null,
+      "abstract": "As demonstrated by GPT-3 and T5, transformers grow in capability as parameter spaces become larger and larger. However, for tasks that require a large amount\nof knowledge, non-parametric memory allows models to grow dramatically with a sub-linear increase in computational cost and GPU memory requirements. Recent models such as RAG\nand REALM have introduced retrieval into conditional generation. These models incorporate neural initial retrieval from a corpus of passages. We build on this line of\nresearch, proposing Re2G, which combines both neural initial retrieval and reranking into a BART-based sequence-to-sequence generation. Our reranking approach also permits merging retrieval results from\nsources with incomparable scores, enabling an ensemble of BM25 and neural initial retrieval. To train our system end-to-end, we introduce a novel variation of knowledge\ndistillation to train the initial retrieval, reranker and generation using only ground truth on the target sequence output. We find large gains in four diverse\ntasks: zero-shot slot filling, question answering, fact checking and dialog, with relative gains of 9% to 34% over the previous state-of-the-art on the KILT leaderboard.\nWe make our code available as open source."
+    },
+    {
+      "document_id": 546,
+      "score": null,
+      "abstract": "In , we present the Logically submissions to De-Factify 2 challenge (DE-FACTIFY 2023) on task 1 of Multi-Modal Fact Checking. We describe our submission to\nthis challenge including explored evidence retrieval and selection techniques, pre-trained cross-modal and unimodal models, and a cross-modal veracity model based on the well established Transformer\nEncoder (TE) architecture which heavily relies on the concept of self-attention. Exploratory analysis is also conducted on the Factify 2 data set that uncovers the\nsalient multi-modal patterns and hypothesis motivating the architecture proposed in . A series of preliminary experiments were done to investigate and benchmark different pre-trained embedding\nmodels, evidence retrieval settings and thresholds. The final system, a standard two-stage evidence based veracity detection system, yielded a weighted average F1 score of 0.79\non both the validation set and final blind test set of task 1, which achieved 3rd place with a small margin to the top performing\nsystems on the leaderboard among 9 participants. © 2023 Copyright for by its authors."
+    },
+    {
+      "document_id": 747,
+      "score": null,
+      "abstract": "As part of the CheckThat! 2020 Task 2, we investigated sentence similarity using transformer models. In Task 2, the goal was to effectively rank claims\nbased on their relevancy compared to an input tweet. While setting our baseline on sentence similarity for fact-checking, we gathered insights we felt compelled to\nshare in . We learned how multi-modal data utilization could foster significant uplifts in model performance. We also gained knowledge on which hybrid training and\nstrong sampling worked best for fact-checking applications, and wanted to share our interpretation of the results we got. Finally, we want to explain our recommendations\non data augmentations. All of the above allowed us to set our baseline in fact-checking in the CLEF Checkthat! 2020 Task 2 competition. Copyright ©\n2020 for by its authors."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "topic_id": 59,
+  "label": "T059",
+  "label_full": "Fact-Checking & Verification",
+  "keywords": [
+    "claim",
+    "factchecking",
+    "automated",
+    "procedure",
+    "checkworthy",
+    "checkworthiness",
+    "checking",
+    "statements",
+    "systems",
+    "afc"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 82,
+      "score": null,
+      "abstract": "Automated Fact-Checking (AFC) is the automated verification of claim accuracy. AFC is crucial in discerning truth from misinformation, especially given the huge amounts of content\nare generated online daily. Current research focuses on predicting claim veracity through metadata analysis and language scrutiny, with an emphasis on justifying verdicts. surveys recent\nmethodologies, proposing a comprehensive taxonomy and presenting the evolution of research in that landscape. A comparative analysis of methodologies and future directions for improving fact-checking\nexplain-ability are also discussed. © 2024 Association for Computational Linguistics."
+    },
+    {
+      "document_id": 566,
+      "score": null,
+      "abstract": "The rise of Internet has made it a major source of information. Unfortunately, not all information online is true, and thus a number of fact-checking\ninitiatives have been launched, both manual and automatic, to deal with the problem. Here, we present our contribution in this regard: WhatTheWikiFact, a system for\nautomatic claim verification using Wikipedia. The system can predict the veracity of an input claim, and it further shows the evidence it has retrieved as\npart of the verification process. It shows confidence scores and a list of relevant Wikipedia articles, together with detailed information about each article, including the\nphrase used to retrieve it, the most relevant sentences extracted from it and their stance with respect to the input claim, as well as the\nassociated probabilities. The system supports several languages: Bulgarian, English, and Russian."
+    },
+    {
+      "document_id": 694,
+      "score": null,
+      "abstract": "Increasing concerns about the prevalence of false information and fake news has led to calls for automated fact-checking systems that are capable of verifying the\ntruthfulness of statements, especially on the internet. Most previous automated fact-checking systems have focused on the use of grammar rules only for determining the properties\nof the language used in statements. Here, we demonstrate a novel approach to the fact-checking of natural language text, which uses a combination of all\nthe following techniques: knowledge extraction to establish a knowledge base, logical inference for fact-checking of claims not explicitly mentioned in the text through the verification\nof the consistency of a set of beliefs with established trusted knowledge, and a re-querying approach that enables continuous learning. The approach that is presented\nhere addresses the limitations of existing automated fact-checking systems via this novel procedure. This procedure is as follows: the approach investigates the consistency of presented\nfacts or claims while using probabilistic soft logic and a Knowledge Base, which is continuously updated through continuous learning strategies. We demonstrate this approach by\nfocusing on the task of checking facts about family-tree relationships against a corpus of web resources concerned with the UK Royal Family. © 2020 by\nthe authors."
+    },
+    {
+      "document_id": 698,
+      "score": null,
+      "abstract": "Public, professional and academic interest in automated fact-checking has drastically increased over the past decade, with many aiming to automate one of the first steps\nin a fact-check procedure: the selection of so-called checkworthy claims. However, there is little agreement on the definition and characteristics of checkworthiness among fact-checkers, which\nis consequently reflected in the datasets used for training and testing checkworthy claim detection models. After elaborate analysis of checkworthy claim selection procedures in fact-check\norganisations and analysis of state-of-the-art claim detection datasets, checkworthiness is defined as the concept of having a spatiotemporal and context-dependent worth and need to have\nthe correctness of the objectivity it conveys verified. This is irrespective of the claim’s perceived veracity judgement by an individual based on prior knowledge and\nbeliefs. Concerning the characteristics of current datasets, it is argued that the data is not only highly imbalanced and noisy, but also too limited in\nscope and language. Furthermore, we believe that the subjective concept of checkworthiness might not be a suitable filter for claim detection. © 2020, Springer Nature\nSwitzerland AG."
+    },
+    {
+      "document_id": 938,
+      "score": null,
+      "abstract": "In we introduce the task of fact checking, i.e. the assessment of the truthfulness of a claim. The task is commonly performed manually by journalists\nverifying the claims made by public figures. Furthermore, ordinary citizens need to assess the truthfulness of the increasing volume of statements they consume. Thus, developing\nfact checking systems is likely to be of use to various members of society. We first define the task and detail the construction of a\npublicly available dataset using statements fact-checked by journalists available online. Then, we discuss baseline approaches for the task and the challenges that need to be\naddressed. Finally, we discuss how fact checking relates to mainstream natural language processing tasks and can stimulate further research. © 2014 Association for Computational Linguistics"
+    }
+  ]
+}

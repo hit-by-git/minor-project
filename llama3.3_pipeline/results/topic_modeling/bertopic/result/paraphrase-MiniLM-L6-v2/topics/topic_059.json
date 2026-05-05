@@ -1,0 +1,45 @@
+{
+  "topic_id": 59,
+  "label": "T059",
+  "label_full": "Misinformation & Propaganda",
+  "keywords": [
+    "commitment",
+    "news",
+    "polynomial",
+    "data",
+    "fake",
+    "internet",
+    "spanish",
+    "real",
+    "lot",
+    "owners"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 338,
+      "score": null,
+      "abstract": "The rapid development of the Internet and Internet of Things has rapidly introduced human society into the information age, and the way of fake news\nproduction has been updated, which has greatly affected the normal life of human beings. In order to identify worthless fake news and trace massive fake\nnews data from unknown sources, and share valuable news data to fully disseminate effective real news, news owners usually store news data in cloud. Users\nof IoT terminals can access news data on demand without storing it locally. However, the authenticity of the fictive newspaper numbers source, which is easy\nto destroy, and the social media platform. Besides, when massive news data is saved on cloud server, the news owners have to at the risk\nof lose physical control over news data and it will face the risk of fake news being disseminated and real news being falsified. Thus, proposes\na novel mechanism for secure storage of news data using blockchain technology. Firstly, traceability and verification of fake news data is improved by the cooperative\nstorage model on and off the chain. Secondly due to the inability of past polynomial commitment to update the commitment, we will be a hindrance\nto use polynomial commitment to build a secure authentication protocol. Therefore, in , we design the update algorithm for polynomial commitment in order to be\nable to guarantee the consistency of on-chain and blockchain database news data. © 2023"
+    },
+    {
+      "document_id": 339,
+      "score": null,
+      "abstract": "Technological development combined with the evolution of the Internet has made it possible to reach an increasing number of people over the years and given\nthem the opportunity to access information published on the network. The growth in the number of fake news generated daily, combined with the simplicity with\nwhich it is possible to share them, has created such a large phenomenon that it has become immediately uncontrollable. Furthermore, the quality with which malicious\ncontent is made is increasingly high so even professional experts, such as journalists, have difficulty recognizing which news is fake and which is real. aims\nto implement an architecture that provides a service to final users that assures the reliability of news providers and the quality of news based on\ninnovative tools. The proposed models take advantage of several Machine Learning approaches for fake news detection tasks and take into account well-known attacks on trust.\nFinally, the implemented architecture is tested with a well-known dataset and shows how the proposed models can effectively identify fake news and isolate malicious sources.\n© 2008-2012 IEEE."
+    },
+    {
+      "document_id": 480,
+      "score": null,
+      "abstract": "We live in the age of the internet here; everyone relies on different online resources for information about the world. Social media sites like Facebook,\nand others are becoming more and more popular, any news can travel among millions of users within a matter of seconds. Many people acknowledge what\nthey have read without verifying its authenticity. The uncontrolled spread of fake news can cause severe social and national damage with catastrophic impacts. Thus, the\nstretch of far-reaching impact any fake news has is a matter of heavy concern. In , we aim to categorize diverse news (fake or real)\npieces known in our data set while implementing concepts of Machine Learning in python programming language. We aim to provide the user with a system\nthat can differentiate any news piece as fake or real. The proliferation of fake news has triggered numerous issues in our society recently. As a\nresult, a lot of scholars have been trying to figure out how to spot fake news. Many fake information detection systems utilize the linguistic component\nof the news piece. They have, however, had trouble spotting highly vague fake news, which can only be spotted after figuring out the meaning and\nmost recent information related to it. The paper proposes a fake news detection system that uses machine learning to address this issue. The bogus news\ndiscovery model is created using steps like data collection, data pre-processing, feature removal, and ultimately classification using various classifiers. This is accomplished by using Python\nprogramming language-based Machine Learning Algorithm principles. We employ various Machine Learning classification approaches to produce the most accurate outcomes. © 2022 IEEE."
+    },
+    {
+      "document_id": 661,
+      "score": null,
+      "abstract": "With the rapid development of Internet technology, the net- work makes the transmission of information no longer limited due to the long distance. All kinds\nof information can be transmitted conveniently and quickly on the Internet. People can view and send all kinds of in- formation around the world with\nonly a mobile network device. A lot of things happen in the world every day, so this information contains a lot of news information, and\npeople can understand what is happening in the world through news information. However, there is much fake news information mixed in this news information. This\nfake news will interfere with our cognition and judgment. Therefore, we need more attention to distinguish the authenticity of this news item. This also poses\ncertain challenges to our work tasks. In , we describe the method used for the Fake News Detection in Spanish in IberLEF 2021. We fine-tuned\nthe XLM-Roberta pre-training model based on the data sets provided by the host, Spanish, and obtained good results. The F1 score of our model in\nSpanish tasks reached 0.7053 and ranking seventh. © 2021 CEUR-WS. All rights reserved."
+    },
+    {
+      "document_id": 719,
+      "score": null,
+      "abstract": "Internet is a supreme one-stop source of information that enables the sharing of news and curated user-content at a rapid, effortless, and in a routine\nmanner. News is a global medium of daily events worldwide, offering absorption of quick information. With ample availability of news content online, these news articles\nhas by-products in information generation in both ways-real and fake news. Considering the context and volume of information shared online, it is challenging to establish\nauthenticity of news. This leads to the immense growth of fake news on various websites, which can lead to serious concerns in society, fading away\nthe correct news content to reach the users creating misconceptions and deceived views of the readers. To ensure the readers have the credibility of the\ncontent, we propose a web-based extension enabling them to distinguish from the fake and real news content. The proposed web extension in the paper uses\nmultiple deep learning models. The first is based on our model trained on LSTM, and the other uses OPEN AI's well-developed AI-generated text classifier GPT-2.\nThe devised web-extension displays both probabilities of news being either AI-generated or written by an individual. © 2020 IEEE."
+    }
+  ]
+}

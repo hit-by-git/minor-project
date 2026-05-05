@@ -1,0 +1,50 @@
+{
+  "topic_id": 44,
+  "label": "T044",
+  "label_full": "Credibility Assessment",
+  "keywords": [
+    "trustworthiness",
+    "source",
+    "web",
+    "evaluation",
+    "provider",
+    "credibility",
+    "probability",
+    "information",
+    "facts",
+    "attribute"
+  ],
+  "n_docs": 6,
+  "documents": [
+    {
+      "document_id": 114,
+      "score": null,
+      "abstract": "In a permanently connected society where everyone can share and discuss information of every kind, recognizing credible news or news sources has been demonstrated to\nbe hard. Recent research is going toward the definition of tools that try to automate cognitive processes behind the evaluation of content trustworthiness and simplify\npeople's lives. However, despite recent efforts to identify fake or misleading content, analyzing sources of information in their entirety remains marginal or only a manual\ntask. aims to define a systematic approach for scoring the credibility of web domains. Specifically, it assesses the Multifactorial Source Credibility Score (MSCS) that, through\ncollecting domain pages as a stream, estimates multiple factors such as the quality of content, the author's trustworthiness, the presence of biases and advertisements, the\nsource traffic, etc. Then, it evaluates a weighted moving average of web page scores to attribute an overall score to the domain, taking into account\nscores over time. Through experiments conducted on a real dataset, the study presents promising results by showcasing a notable correlation between the proposed indicator and\na manually assigned score by NewsGuard. © 2024 IEEE."
+    },
+    {
+      "document_id": 627,
+      "score": null,
+      "abstract": "In today's Internet information explosion, all kinds of information floods in people's daily life. Meanwhile, the credibility of news has become one of the key\nissues that people pay attention to. In order to realize the evaluation of news credibility, mainly uses k-means clustering method to carry out quantitative analysis\non the training set data. After defining and judging indicators of different attributes, it carries out binomial distribution mapping of quantized attribute indicators, taking 0\nor 1 as the parameters of direct evaluation indicators. The optimized Bayes formula is used to calculate the probability of news credibility corresponding to different\nindicators, and the prior probability and posterior probability of news credibility of each attribute are obtained. After the evaluation, the appropriate probability is selected to\nrepresent. Finally, the sum of the confidence probabilities corresponding to the binomial distribution mapping of each index in each article is calculated and multiplied with\nthe correction parameters to obtain the final quantitative evaluation result of network news credibility. In , a mathematical model is established based on the given\ndata set. The model score is compared with the expert score, and the accuracy of the evaluation of the authenticity of each piece of news\nis evaluated by the residual squared and response model. Based on the established indicator framework of online news credibility evaluation, some Suggestions and Suggestions on\nhow to improve news credibility are proposed to news publishers or social media. © 2020 IEEE."
+    },
+    {
+      "document_id": 718,
+      "score": null,
+      "abstract": "Online knowledge repositories typically rely on their users or dedicated editors to evaluate the reliability of their content. These evaluations can be viewed as noisy\nmeasurements of both information reliability and information source trustworthiness. Can we leverage these noisy evaluations, often biased, to distill a robust, unbiased and interpretable measure\nof both notions?In this talk, I will first argue that the temporal traces left by these noisy evaluations give cues on the reliability of the\ninformation and the trustworthiness of the sources. Then, I will introduce a temporal point process modeling framework that links these temporal traces to robust, unbiased\nand interpretable notions of information reliability and source trustworthiness. Finally, I will elaborate on large-scale experiments on real-world data gathered from and Stack Overflow and\nshow that our modeling framework accurately predicts evaluation events, provides an interpretable measure of information reliability and source trustworthiness, and yields interesting insights about real-world\nevents."
+    },
+    {
+      "document_id": 761,
+      "score": null,
+      "abstract": "The quality of web sources has been traditionally evaluated using exogenous signals such as the hyperlink structure of the graph. We propose a new approach\nthat relies on endogenous signals, namely, the correctness of factual information provided by the source. A source that has few false facts is considered to\nbe trustworthy.The facts are automatically extracted from each source by information extraction methods commonly used to construct knowledge bases. We propose a way to distinguish\nerrors made in the extraction process from factual errors in the web source per se, by using joint inference in a novel multi-layer probabilistic model.We\ncall the trustworthiness score we computed Knowledge-Based Trust (KBT). On synthetic data, we show that our method can reliably compute the true trustworthiness levels of\nthe sources. We then apply it to a database of 2.8B facts extracted from the web, and thereby estimate the trustworthiness of 119M webpages. Manual\nevaluation of a subset of the results confirms the effectiveness of the method."
+    },
+    {
+      "document_id": 794,
+      "score": null,
+      "abstract": "Web provides rich information about a variety of objects. Trustability is a major concern on the web. Truth establishment is an important task so as\nto provide the right information to the user from the most trustworthy source. Trustworthiness of information provider and the confidence of the facts it provides\nare inter-dependent on each other and hence can be expressed iteratively in terms of each other. However, a single information provider may not be the\nmost trustworthy for all kinds of information. Every information provider has its own area of competence where it can perform better than others. We derive\na model that can evaluate trustability on objects and information providers based on clusters (groups). We propose a method which groups the set of objects\nfor which similar set of providers provide \"good\" facts, and provides better accuracy in addition to high quality object clusters."
+    },
+    {
+      "document_id": 804,
+      "score": null,
+      "abstract": "The need to assess the trustworthiness of a piece of information has become a prevalent issue due to web vandalism and the openness of platforms\nsuch as wikis. In we introduce the notion of contextual accountability: Holding the author of a given statement accountable by deriving a path from the\nstatement to the author's credentials. We present our own trust vector model as a combination of the assessment of these credentials covering two aspects; knowledgeability\nand social acceptance. This model is put to the test using two datasets and the results are presented and discussed."
+    }
+  ]
+}

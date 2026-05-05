@@ -1,0 +1,50 @@
+{
+  "topic_id": 40,
+  "label": "T040",
+  "label_full": "reviews, ecommerce",
+  "keywords": [
+    "reviews",
+    "ecommerce",
+    "review",
+    "gpt4",
+    "manipulated",
+    "online",
+    "purchasing",
+    "consumers",
+    "consumer",
+    "buying"
+  ],
+  "n_docs": 6,
+  "documents": [
+    {
+      "document_id": 321,
+      "score": null,
+      "abstract": "In recent years, the exponential growth of e-commerce has transformed consumer purchasing behavior, with online reviews playing a crucial role in shaping buying decisions. Unfortunately,\nthe prevalence of manipulated reviews has become a significant challenge, undermining the integrity of consumer feedback and eroding trust in e-commerce platforms. This research paper\nfocuses on developing an advanced solution to address the issue of manipulated reviews using the innovative language model, GPT-4. The primary objective of this study\nis to investigate the effectiveness of GPT-4 in identifying and flagging manipulated reviews within the context of e-commerce platforms. GPT-4 is a state-of-the-art language model\nwith superior natural language processing capabilities, making it an ideal candidate for automated review analysis. The research methodology encompasses a large-scale data collection process, where\ndiverse e-commerce reviews are gathered from various platforms. To simulate real-world scenarios, manipulated reviews are artificially injected into the dataset, representing different degrees of sophistication.\nThe dataset is then annotated by expert reviewers to establish ground truth labels for comparison. Next, GPT-4 is fine-tuned using transfer learning to specialize in\ndetecting manipulated reviews. The fine-tuning process involves exposing the model to both genuine and manipulated review samples, allowing it to learn patterns and features indicative\nof manipulation. The fine-tuned model's performance is then evaluated using various metrics, including precision, recall, F1 score, and accuracy, against the ground truth dataset. The\nresults of the experiment demonstrate the efficacy of GPT-4 in distinguishing between authentic and manipulated reviews. GPT-4 showcases remarkable accuracy and robustness in detecting increasingly\nsophisticated manipulation techniques, outperforming previous iterations of language models and traditional detection methods. Furthermore, the research delves into the characteristics of manipulated reviews that render\nthem distinguishable from genuine reviews. These insights aid in understanding the vulnerabilities of e-commerce platforms to manipulation and offer valuable information for future research and\nplatform enhancement efforts. The implications of this study are significant for e-commerce businesses, consumers, and platform administrators alike. By leveraging GPT-4's detection capabilities, e-commerce platforms\ncan implement more robust review validation systems, ensuring the authenticity and reliability of consumer feedback. This, in turn, fosters greater trust among consumers, leading to\ninformed purchasing decisions and improved overall user experience. In conclusion, this research paper contributes to the existing body of knowledge by showcasing the potential of\nGPT-4 in combatting manipulated reviews and strengthening the integrity of e-commerce platforms. With the rise of AI-driven technologies, the proposed approach presents a promising step\ntowards a more transparent and trustworthy e-commerce ecosystem. © 2023 IEEE."
+    },
+    {
+      "document_id": 327,
+      "score": null,
+      "abstract": "In the realm of purchasing and business decisions, the significance of online reviews has soared, particularly within the hotel industry. The authenticity of these reviews\nis paramount, yet suspicions of deception have emerged, casting a shadow over their reliability. The recognition of deceptive reviews has gained traction, posing a potential\nthreat to shaping readers' opinions and steering their purchase choices. To counter this issue, introduces a sophisticated machine learning predictive model tailored for assessing hotel\nreviews' genuineness. Employing Support Vector Machine, Logistic Regression, and Multinomial Naïve Bayes models, an exhaustive experimentation was conducted. The empirical findings underscore the supremacy of\nthe Support Vector Machine, boasting an impressive 90% accuracy in discerning deceptive reviews - a notable achievement in enhancing the reliability of online feedback. ©\n2023 IEEE."
+    },
+    {
+      "document_id": 462,
+      "score": null,
+      "abstract": "Online reviews are becoming more and more popular among consumers. Taking advantage of the Internet, consumers can read online reviews related to products or services,\nin order to make their purchase journey easier. In online review context, trust towards online reviews is an important determinant of customers’ purchase intentions. The\nauthenticity of online reviews can be a critical element in building trust toward reviews. However, based on prior experiences of consumers, online reviews may not\nalways provide authentic information. Occasionally, fake reviews which do not reflect authentic product experiences, arrive on websites. In this regard, the detection, and thus prevention\nof fake reviews, gains great importance. The purpose of this study is to propose a new way to predict fake reviews by implementing supervised machine\nlearning models. To achieve this, a dataset consisting of 1,600 reviews was used, and features were extracted from this dataset. A variety of supervised learning\nclassifiers were trained by using features from the dataset, and then tested. The performance of each prediction model was compared using certain metrics, and the\nbest result was acquired using the Random Forest (RF) Classifier. © 2022, The Author(s), under exclusive license to Springer Nature Switzerland AG."
+    },
+    {
+      "document_id": 729,
+      "score": null,
+      "abstract": "Online reviews are becoming one of the vital components of e-commerce in recent years as so many people consider having different opinions prior to buying\nonline products or apprehending any online service. Nowadays, in the era of web 2.0, it is completely understandable that people rely on online reviews more\nthan ever while taking a decision. However, guaranteeing the authenticity of these sensitive and valuable information is hardly visible. Due to fulfill some immoral benefits,\nmany people post fake review or fabricated opinion to uphold or devalue a certain product or service which certainly hampers the ingenuousness of the real\nfact. To detect fake reviews, many methodologies were introduced by harvesting the obvious content features, rating consistency, empirical conditions, helpfulness voting etc. The most of\nthem are supervised models which mostly rely on pseudo fake reviews and the scarcity of good quality largescale labeled dataset is still a hindrance. In\n, we introduce an ensemble learning approach which combines two different types of learning methods (active and supervised) by creating a hybrid dataset of both\nreal-life and pseudo reviews. This model holds 3 different filtering phases that is based on KL and JS distance, TF-IDF features and n-gram features of\nthe review content. It achieves phenomenal results while working on almost 3600 reviews from different domains. In the best case, the precision, recall and f-score\nare above 95% and the accuracy it achieved is slightly above 88%. In the process, about 2000 reviews were manually labeled. After evaluating and comparing\nthe results with other successful methods, it is quite clear that this detecting method is efficient and very promising. © 2016 IEEE."
+    },
+    {
+      "document_id": 781,
+      "score": null,
+      "abstract": "Online reviews have been popularly adopted in many applications. Since they can either promote or harm the reputation of a product or a service, buying\nand selling fake reviews becomes a profitable business and a big threat. In , we introduce a very simple, but powerful review spamming technique that\ncould fail the existing feature-based detection algorithms easily. It uses one truthful review as a template, and replaces its sentences with those from other reviews\nin a repository. Fake reviews generated by this mechanism are extremely hard to detect: Both the state-of-the-art computational approaches and human readers acquire an error\nrate of 35\\%-48\\%, just slightly better than a random guess. While it is challenging to detect such fake reviews, we have made solid progress in\nsuppressing them. A novel defense method that leverages the difference of semantic flows between synthetic and truthful reviews is developed, which is able to reduce\nthe detection error rate to approximately 22\\%, a significant improvement over the performance of existing approaches. Nevertheless, it is still a challenging research task to\nfurther decrease the error rate.Synthetic Review Spamming Demo:"
+    },
+    {
+      "document_id": 789,
+      "score": null,
+      "abstract": "More and more customers used to share reviews in online communities. Moreover, the rise of online communities has changed consumer purchasing decision making process, especially\nfor the travel sector. However, these reviews are not fully reliable since all reviews are generated by users without specific author information. In addition, there\nis no absolutely fair judge framework exists until now. For this reason, we purpose the novel method to solve review spam problem of the travel\ncommunity. Our method consider three concepts simultaneously, namely, social network, behaviors of the reviewer, features of the review. The result shows that the effectiveness in\nfinding out review spam of the purposed method. © 2012 IEEE."
+    }
+  ]
+}

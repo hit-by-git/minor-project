@@ -1,0 +1,50 @@
+{
+  "topic_id": 53,
+  "label": "T053",
+  "label_full": "medical, claims",
+  "keywords": [
+    "medical",
+    "claims",
+    "health",
+    "hclaime",
+    "healthrelated",
+    "headlines",
+    "dv",
+    "nouns",
+    "iv",
+    "extracting"
+  ],
+  "n_docs": 6,
+  "documents": [
+    {
+      "document_id": 95,
+      "score": null,
+      "abstract": "Disinformation in the medical field is a growing problem that carries a significant risk. Therefore, it is crucial to detect and combat it effectively. In\nthis article, we provide three elements to aid in this fight: 1) a new framework that collects health-related articles from verification entities and facilitates their\ncheck-worthiness and fact-checking annotation at the sentence level; 2) a corpus generated using this framework, composed of 10335 sentences annotated in these two concepts and\ngrouped into 327 articles, which we call KEANE (faKe nEws At seNtence lEvel); and 3) a new model for verifying fake news that combines specific\nidentifiers of the medical domain with triplets subject-predicate-object, using Transformers and feedforward neural networks at the sentence level. This model predicts the fact-checking of sentences\nand evaluates the veracity of the entire article. After training this model on our corpus, we achieved remarkable results in the binary classification of sentences\n(check-worthiness F1: 0.749, fact-checking F1: 0.698) and in the final classification of complete articles (F1: 0.703). We also tested its performance against another public dataset\nand found that it performed better than most systems evaluated on that dataset. Moreover, the corpus we provide differs from other existing corpora in its\nduality of sentence-article annotation, which can provide an additional level of justification of the prediction of truth or untruth made by the model. © 2024\nMartinez-Rico et al. This is an open access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and\nreproduction in any medium, provided the original author and source are credited."
+    },
+    {
+      "document_id": 186,
+      "score": null,
+      "abstract": "With the widespread accessibility of the Internet, individuals can effortlessly access health-related information from online social platforms. However, the veracity of such health-related content is\noften questionable, posing a significant challenge in ensuring the content quality and reliability. The exponential growth in daily data generation necessitates the integration of artificial\nintelligence to assess the reliability of content shared on these platforms. In , we focus on Large Language Models (LLMs) due to their outstanding performance.\nWe introduce Health-BERT, a novel model built upon the BERT architecture. We fine-tuned Health-BERT using a carefully curated dataset from a prominent health information forum.\nOur experiments demonstrate the remarkable capabilities of our model, achieving an impressive accuracy rate of 94% even with relatively limited training data. This highlights the\nexceptional knowledge transfer capabilities of LLMs when applied to health-related content. Our model will be open-sourced, with the hope that this initiative will improve the\nidentification of content reliability in health contexts. © The Author(s), under exclusive license to Springer Nature Switzerland AG 2024."
+    },
+    {
+      "document_id": 194,
+      "score": null,
+      "abstract": "In the digital age, seeking health advice on the Internet has become a common practice. At the same time, determining the trustworthiness of online medical\ncontent is increasingly challenging. Fact-checking has emerged as an approach to assess the veracity of factual claims using evidence from credible knowledge sources. To help\nadvance automated Natural Language Processing (NLP) solutions for this task, in we introduce a novel dataset HealthFC. It consists of 750 health-related claims in German\nand English, labeled for veracity by medical experts and backed with evidence from systematic reviews and clinical trials. We provide an analysis of the dataset,\nhighlighting its characteristics and challenges. The dataset can be used for NLP tasks related to automated fact-checking, such as evidence retrieval, claim verification, or explanation\ngeneration. For testing purposes, we provide baseline systems based on different approaches, examine their performance, and discuss the findings. We show that the dataset is\na challenging test bed with a high potential for future use. © 2024 ELRA Language Resource Association: CC BY-NC 4.0."
+    },
+    {
+      "document_id": 202,
+      "score": null,
+      "abstract": "Evidence-based medicine is the practise of making medical decisions that adhere to the latest, and best known evidence at that time. Currently, the best evidence\nis often found in the form of documents, such as randomized control trials, meta-analyses and systematic reviews. This research focuses on aligning medical claims made\non social media platforms with this medical evidence. By doing so, individuals without medical expertise can more effectively assess the veracity of such medical claims.\nWe study three core tasks: identifying medical claims, extracting medical vocabulary from these claims, and retrieving evidence relevant to those identified medical claims. We propose\na novel system that can generate synthetic medical claims to aid each of these core tasks. We additionally introduce a novel dataset produced by our\nsynthetic generator that, when applied to these tasks, demonstrates not only a more flexible and holistic approach, but also an improvement in all comparable metrics.\nWe make our dataset, the Expansive Medical Claim Corpus (EMCC), available at © 2024 ELRA Language Resource Association: CC BY-NC 4.0."
+    },
+    {
+      "document_id": 382,
+      "score": null,
+      "abstract": "Fact-checking of health-related claims has become necessary in this digital age, where any information posted online is easily available to everyone. The most effective way\nto verify such claims is by using evidences obtained from reliable sources of medical knowledge, such as PubMed. Recent advances in the field of NLP\nhave helped automate such fact-checking tasks. In , we propose a domain-specific BERT-based model using a transfer learning approach for the task of predicting the\nveracity of claim-evidence pairs for the verification of health-related facts. We also improvise on a method to combine multiple evidences retrieved for a single claim,\ntaking into consideration conflicting evidences as well. We also show how our model can be exploited when labelled data is available and how backtranslation can\nbe used to augment data when there is data scarcity. © 2023 Association for Computational Linguistics."
+    },
+    {
+      "document_id": 775,
+      "score": null,
+      "abstract": "This study tackles the problem of extracting health claims from health research news headlines, in order to carry out veracity check. A health claim can\nbe formally defined as a triplet consisting of an independent variable (IV – namely, what is being manipulated), a dependent variable (DV – namely, what\nis being measured), and the relation between the two. , we develop HClaimE, an information extraction tool for identifying health claims in news headlines. Unlike\nthe existing open information extraction (OpenIE) systems that rely on verbs as relation indicators, HClaimE focuses on finding relations between nouns, and draws on the\nlinguistic characteristics of news headlines. HClaimE uses a Naïve Bayes classifier that combines syntactic and lexical features for identifying IV and DV nouns, and recognizes\nrelations between IV and DV through a rule-based method. We conducted an evaluation on a set of health news headlines from ScienceDaily.com, and the results\nshow that HClaimE outperforms current OpenIE systems: the F-measures for identifying headlines without health claims is 0.60 and that for extracting IV-relation-DV is 0.69. Our\nstudy shows that nouns can provide more clues than verbs for identifying health claims in news headlines. Furthermore, it also shows that dependency relations and\nbag-of-words can distinguish IV-DV noun pairs from other noun pairs. In practice, HClaimE can be used as a helpful tool to identifying health claims in\nnews headlines, which can then be further compared against authoritative health claims for veracity. Given the linguistic similarity between health claims and other causal claims,\ne.g., impacts of pollution on the environment, HClaimE may also be applicable for extracting claims in other domains. © 2019 Elsevier Ltd"
+    }
+  ]
+}

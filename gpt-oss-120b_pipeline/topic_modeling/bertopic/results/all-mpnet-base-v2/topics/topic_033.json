@@ -1,0 +1,55 @@
+{
+  "topic_id": 33,
+  "label": "T033",
+  "label_full": "Fact-Checking & Verification",
+  "keywords": [
+    "claim",
+    "leaked",
+    "retrieval",
+    "afc",
+    "evidence",
+    "stances",
+    "claimverif",
+    "claims",
+    "unreliable",
+    "factchecking"
+  ],
+  "n_docs": 7,
+  "documents": [
+    {
+      "document_id": 18,
+      "score": null,
+      "abstract": "Automated fact-checking (AFC) is garnering increasing attention by researchers aiming to help fact-checkers combat the increasing spread of misinformation online. While many existing AFC methods\nincorporate external information from the Web to help examine the veracity of claims, they often overlook the importance of verifying the source and quality of\ncollected “evidence”. One overlooked challenge involves the reliance on “leaked evidence”, information gathered directly from fact-checking websites and used to train AFC systems, resulting in\nan unrealistic setting for early misinformation detection. Similarly, the inclusion of information from unreliable sources can undermine the effectiveness of AFC systems. To address these\nchallenges, we present a comprehensive approach to evidence verification and filtering. We create the “CREDible, Unreliable or LEaked” (CREDULE) dataset, which consists of 91,632 articles\nclassified as Credible, Unreliable and Fact-checked (Leaked). Additionally, we introduce the EVidence VERification Network (EVVER-Net), trained on CREDULE to detect leaked and unreliable evidence in\nboth short and long texts. EVVER-Net can be used to filter evidence collected from the Web, thus enhancing the robustness of end-to-end AFC systems. We\nexperiment with various language models and show that EVVER-Net can demonstrate impressive performance of up to 91.5\\% and 94.4\\% accuracy, while leveraging domain credibility scores\nalong with short or long texts, respectively. Finally, we assess the evidence provided by widely-used fact-checking datasets including LIAR-PLUS, MOCHEG, , NewsCLIPpings+ and VERITE, some\nof which exhibit concerning rates of leaked and unreliable evidence."
+    },
+    {
+      "document_id": 244,
+      "score": null,
+      "abstract": "In , we examine several methods of acquiring Czech data for automated fact-checking, which is a task commonly modeled as a classification of textual claim\nveracity w.r.t. a corpus of trusted ground truths. We attempt to collect sets of data in form of a factual claim, evidence within the ground\ntruth corpus, and its veracity label (supported, refuted or not enough info). As a first attempt, we generate a Czech version of the large-scale FEVER\ndataset built on top of corpus. We take a hybrid approach of machine translation and document alignment; the approach and the tools we provide can\nbe easily applied to other languages. We discuss its weaknesses, propose a future strategy for their mitigation and publish the 127k resulting translations, as well\nas a version of such dataset reliably applicable for the Natural Language Inference task—the CsFEVER-NLI. Furthermore, we collect a novel dataset of 3,097 claims, which\nis annotated using the corpus of 2.2 M articles of Czech News Agency. We present an extended dataset annotation methodology based on the FEVER approach,\nand, as the underlying corpus is proprietary, we also publish a standalone version of the dataset for the task of Natural Language Inference we call\nCTKFactsNLI. We analyze both acquired datasets for spurious cues—annotation patterns leading to model overfitting. CTKFacts is further examined for inter-annotator agreement, thoroughly cleaned, and a\ntypology of common annotator errors is extracted. Finally, we provide baseline models for all stages of the fact-checking pipeline and publish the NLI datasets, as\nwell as our annotation platform and other experimental data. © 2023, The Author(s)."
+    },
+    {
+      "document_id": 482,
+      "score": null,
+      "abstract": "During the COVID-19 pandemic, the spread of misinformation on online social media has grown exponentially. Unverified bogus claims on these platforms regularly mislead people, leading\nthem to believe in half-baked truths. The current vogue is to employ manual fact-checkers to verify claims to combat this avalanche of misinformation. However, establishing\nsuch claims’ veracity is becoming increasingly challenging, partly due to the plethora of information available, which is difficult to process manually. Thus, it becomes imperative\nto verify claims automatically without human interventions. To cope up with this issue, we propose an automated claim verification solution encompassing two steps – document\nretrieval and veracity prediction. For the retrieval module, we employ a hybrid search-based system with BM25 as a base retriever and experiment with recent state-of-the-art\ntransformer-based models for re-ranking. Furthermore, we use a BART-based textual entailment architecture to authenticate the retrieved documents in the later step. We report experimental findings,\ndemonstrating that our retrieval module outperforms the best baseline system by 10.32 NDCG@100 points. We escort a demonstration to assess the efficacy and impact of\nour suggested solution. As a byproduct of this study, we present an open-source, easily deployable, and user-friendly Python API that the community can adopt. ©\n2022 Association for Computational Linguistics."
+    },
+    {
+      "document_id": 516,
+      "score": null,
+      "abstract": "Given current levels of misinformation spread, never before have fact-checking frameworks been so critical. Unfortunately, the performance of Automated Fact-checking systems is still poor due\nto the complexity of the task. In , we present an ablation study of a framework submitted to the FEVER 1.0 challenge. Based on our\nfindings, we explore how triple-based information retrieval, coreference resolution, and recent language model representations can impact the performance of each subtask. We show the importance\nof recall and precision in the retrieval of documents and sentences that can be provided to justify the veracity of a given claim. We reach\nstate-of-the-art results in the Document Retrieval task and we show promising results when using coreference resolution to improve the Sentence Retrieval task. © 2021 Owner/Author."
+    },
+    {
+      "document_id": 635,
+      "score": null,
+      "abstract": "The alarming spread of fake news in social media, together with the impossibility of scaling manual fact verification, motivated the development of natural language processing\ntechniques to automatically verify the veracity of claims. Most approaches perform a claim-evidence classification without providing any insights about why the claim is trustworthy or\nnot. We propose, instead, a model-agnostic framework that consists of two modules: (1) a span extractor, which identifies the crucial information connecting claim and evidence;\nand (2) a classifier that combines claim, evidence, and the extracted spans to predict the veracity of the claim. We show that the spans are\ninformative for the classifier, improving performance and robustness. Tested on several state-of-the-art models over the FEVER dataset, the enhanced classifiers consistently achieve higher accuracy while\nalso showing reduced sensitivity to artifacts in the claims. © 2020 Association for Computational Linguistics."
+    },
+    {
+      "document_id": 688,
+      "score": null,
+      "abstract": "Rapid increase of misinformation online has emerged as one of the biggest challenges in this post-truth era. This has given rise to many fact-checking websites\nthat manually assess doubtful claims. However, the speed and scale at which misinformation spreads in online media inherently limits manual verification. Hence, the problem of\nautomatic credibility assessment has attracted great attention. In , we present CredEye, a system for automatic credibility assessment. It takes a natural language claim as\ninput from the user and automatically analyzes its credibility by considering relevant articles from the Web. Our system captures joint interaction between language style of\narticles, their stance towards a claim and the trustworthiness of the sources. In addition, extraction of supporting evidence in the form of enriched snippets makes\nthe verdicts of CredEye transparent and interpretable."
+    },
+    {
+      "document_id": 713,
+      "score": null,
+      "abstract": "Our society is increasingly digitalized. Every day, a tremendous amount of information is being created, shared, and digested through all kinds of cyber channels. Although\npeople can easily acquire information from various sources (social media, news articles, etc.), the truthfulness of most received information remains unverified. In many real-life scenarios,\nfalse information has become the de facto cause that leads to detrimental decision makings, and techniques that can automatically filter false information are highly demanded.\nHowever, verifying whether a piece of information is trustworthy is difficult because: (1) selecting candidate snippets for fact checking is nontrivial; and (2) detecting supporting\nevidences, i.e. stances, suffers from the difficulty of measuring the similarity between claims and related evidences. We build ClaimVerif, a claim verification system that not\nonly provides credibility assessment for any user-given query claim, but also rationales the assessment results with supporting evidences. ClaimVerif can automatically select the stances from\nmillions of documents and employs two-step training to justify the opinions of the stances. Furthermore, combined with the credibility of stances sources, ClaimVerif degrades the\nscore of stances from untrustworthy sources and alleviates the negative effects from rumor spreaders. Our empirical evaluations show that ClaimVerif achieves both high accuracy and\nefficiency in different claim verification tasks. It can be highly useful in practical applications by providing multi-dimension analysis for the suspicious statements, including the stances,\nopinions, source credibility and estimated judgements."
+    }
+  ]
+}

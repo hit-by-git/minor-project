@@ -1,0 +1,45 @@
+{
+  "topic_id": 56,
+  "label": "T056",
+  "label_full": "bdo, ilp",
+  "keywords": [
+    "bdo",
+    "ilp",
+    "style",
+    "rules",
+    "logic",
+    "attacks",
+    "models",
+    "logical",
+    "llms",
+    "news"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 30,
+      "score": null,
+      "abstract": "It is commonly perceived that fake news and real news exhibit distinct writing styles, such as the use of sensationalist versus objective language. However, we\nemphasize that style-related features can also be exploited for style-based attacks. Notably, the advent of powerful Large Language Models (LLMs) has empowered malicious actors to\nmimic the style of trustworthy news sources, doing so swiftly, cost-effectively, and at scale. Our analysis reveals that LLM-camouflaged fake news content significantly undermines the\neffectiveness of state-of-the-art text-based detectors (up to 38\\% decrease in F1 Score), implying a severe vulnerability to stylistic variations. To address this, we introduce SheepDog,\na style-robust fake news detector that prioritizes content over style in determining news veracity. SheepDog achieves this resilience through (1) LLM-empowered news reframings that inject\nstyle diversity into the training process by customizing articles to match different styles; (2) a style-agnostic training scheme that ensures consistent veracity predictions across style-diverse\nreframings; and (3) content-focused veracity attributions that distill content-centric guidelines from LLMs for debunking fake news, offering supplementary cues and potential intepretability that assist veracity\nprediction. Extensive experiments on three real-world benchmarks demonstrate SheepDog's style robustness and adaptability to various backbones."
+    },
+    {
+      "document_id": 134,
+      "score": null,
+      "abstract": "The integration of Inductive Logic Programming (ILP) and Bottlenose Dolphin Optimization (BDO) in this research addresses a pressing issue in today's information-saturated landscape: the proliferation\nof fake news. In an era where misleading information can spread rapidly, traditional methods often fall short in effectively identifying deceptive content. To combat this\nchallenge, our approach harnesses the synergies of ILP and BDO. ILP plays a crucial role in constructing logical rules that capture intricate relationships within news\ndata. By doing so, it delves deep into the content, seeking out patterns and inconsistencies that may not be obvious at first glance. BDO, on\nthe other hand, takes inspiration from the social behavior of bottlenose dolphins to optimize the process of generating these rules. Just as dolphins collaborate and\ncommunicate to solve complex problems, BDO helps refine the logical rules for better accuracy. Ultimately, this research underscores the potential of bio-inspired optimization, such as\nBDO, combined with the precision of logic programming (ILP) to strengthen the integrity of information dissemination platforms. In an age where the veracity of information\nis paramount, this innovative approach offers a promising solution to combat the spread of fake news and promote the dissemination of authentic, reliable information. ©\n2024 IEEE."
+    },
+    {
+      "document_id": 216,
+      "score": null,
+      "abstract": "The proliferation of fake news has emerged as a severe societal problem, raising significant interest from industry and academia. While existing deep-learning based methods have\nmade progress in detecting fake news accurately, their reliability may be compromised caused by the non-transparent reasoning processes, poor generalization abilities and inherent risks of\nintegration with large language models (LLMs). To address this challenge, we propose TELLER, a novel framework for trustworthy fake news detection that prioritizes explainability, generalizability\nand controllability of models. This is achieved via a dual-system framework that integrates cognition and decision systems, adhering to the principles above. The cognition system\nharnesses human expertise to generate logical predicates, which guide LLMs in generating human-readable logic atoms. Meanwhile, the decision system deduces generalizable logic rules to aggregate\nthese atoms, enabling the identification of the truthfulness of the input news across diverse domains and enhancing transparency in the decision-making process. Finally, we present\ncomprehensive evaluation results on four datasets, demonstrating the feasibility and trustworthiness of our proposed framework. Our implementation is available at this link. © 2024 Association\nfor Computational Linguistics."
+    },
+    {
+      "document_id": 568,
+      "score": null,
+      "abstract": "Fake news refers to deceptive online content and is a problem which causes social harm [1]. Early detection of fake news is therefore a critical\nbut challenging problem. In we attempt to determine if state-of-the-art models, trained on the LIAR dataset [2] can be leveraged to reliably classify short claims\naccording to 6 levels of veracity that range from “True” to “Pants on Fire” (absolute lies). We investigate the application of transformer models BERT [3],\nRoBERTa [4] and ALBERT [5] that have previously performed significantly well on several natural language processing tasks including text classification. A simple neural network (FcNN)\nwas also used to enhance each model's result by utilising the sources' reputation scores. We achieved higher accuracy than previous studies that used more data\nor more complex models. Yet, after evaluating the models' behaviour, numerous flaws appeared. These include bias and the fact that they do not really model\nveracity which makes them prone to adversarial attacks. We also consider the possibility that language-based, fake news classification, on such short statements is an ill-posed\nproblem. © 2021 Copyright for by its authors. Use permitted under Creative Commons License Attribution 4.0 International (CC BY 4.0)."
+    },
+    {
+      "document_id": 653,
+      "score": null,
+      "abstract": ", we examine the impact of time on state-of-the-art news veracity classifiers. We show that, as time progresses, classification performance for both unreliable and hyper-partisan\nnews classification slowly degrade. While this degradation does happen, it happens slower than expected, illustrating that hand-crafted, content-based features, such as style of writing, are\nfairly robust to changes in the news cycle.We show that this small degradation can bemitigated using online learning. Last, we examine the impact of adversarial\ncontent manipulation by malicious news producers. Specifically, we test three types of attack based on changes in the input space and data availability. We show\nthat static models are susceptible to content manipulation attacks, but online models can recover from such attacks. © 2019 Association for Computing Machinery."
+    }
+  ]
+}

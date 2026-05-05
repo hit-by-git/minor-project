@@ -1,0 +1,50 @@
+{
+  "topic_id": 50,
+  "label": "T050",
+  "label_full": "Rumor on Social Media",
+  "keywords": [
+    "tweets",
+    "classification",
+    "nonfake",
+    "dataset",
+    "untrustworthy",
+    "twitter",
+    "event",
+    "straightforward",
+    "largescale",
+    "false"
+  ],
+  "n_docs": 6,
+  "documents": [
+    {
+      "document_id": 106,
+      "score": null,
+      "abstract": "Automatic detection of fake content in social media such as Twitter is an enduring challenge. Technically, determining fake news on social media platforms is a\nstraightforward binary classification problem. However, manually fact-checking even a small fraction of daily tweets would be nearly impossible due to the sheer volume. To address\nthis challenge, we crawled and crowd-sourced one of the most extensive ground-truth tweet datasets. Utilizing Politifact and expert labeling as a base, it contains more\nthan 180 000 labels from 2009 to 2022, creating five- and three-label classification using Amazon Mechanical Turk. We utilized multiple levels of validation to ensure\nan accurate ground-truth benchmark dataset. Then, we created and implemented numerous machine learning and deep learning algorithms, including different variations of bidirectional encoder representations from\ntransformers (BERT)-based models and classical machine learning algorithms on the data to test the accuracy of real/fake tweet detection with both categories. Then, determining which\nversions gave us the highest result metrics. Further analysis is performed on the dataset by explicitly utilizing the DBSCAN text clustering algorithm combined with the\nYAKE keyword creation algorithm to determine topics' clustering and relationships. Finally, we analyzed each user in the dataset, determining their bot score, credibility score, and\ninfluence score for a better understanding of what type of Twitter user posts, their influence with each of their tweets, and if there were any\nunderlying patterns to be drawn from each score concerning the truthfulness of the tweet. The experiment's results illustrated profound improvement for models dealing with short-length\ntext in solving a real-life classification problem, such as automatically detecting fake content in social media. © 2014 IEEE."
+    },
+    {
+      "document_id": 573,
+      "score": null,
+      "abstract": "With the prevalence and rapid proliferation of SNS, dissemination of false information has become a big problem. In , targeting Twitter, we propose a two-step\napproach for early detection of false information based on machine learning, which considers the event occurrence scale and the time series of tweets that compose\nthe event. In Step 1, in the early stage of an event, whether it is false or true is decided if the prediction probability is\nhigh enough. In Step 2, the events whose authenticity cannot be determined in Step 1 are targeted for tracking, and their authenticity is ascertained as\nthe tweets related to the events increase gradually. The experimental results comparing five machine learning models show that SVM is the optimal model for both\nsteps and that our approach can achieve early detection of false information."
+    },
+    {
+      "document_id": 616,
+      "score": null,
+      "abstract": "The problem of automatic detection of fake news in social media, e.g., on Twitter, has recently drawn some attention. Although, from a technical perspective, it\ncan be regarded as a straight-forward, binary classification problem, the major challenge is the collection of large enough training corpora, since manual annotation of tweets\nas fake or non-fake news is an expensive and tedious endeavor, and recent approaches utilizing distributional semantics require large training corpora. In , we introduce\nan alternative approach for creating a large-scale dataset for tweet classification with minimal user intervention. The approach relies on weak supervision and automatically collects a\nlarge-scale, but very noisy, training dataset comprising hundreds of thousands of tweets. As a weak supervision signal, we label tweets by their source, i.e., trustworthy\nor untrustworthy source, and train a classifier on this dataset. We then use that classifier for a different classification target, i.e., the classification of fake\nand non-fake tweets. Although the labels are not accurate according to the new classification target (not all tweets by an untrustworthy source need to be\nfake news, and vice versa), we show that despite this unclean, inaccurate dataset, the results are comparable to those achieved using a manually labeled set\nof tweets. Moreover, we show that the combination of the large-scale noisy dataset with a human labeled one yields more advantageous results than either of\nthe two alone. © 2021 by the author. Licensee MDPI, Basel, Switzerland."
+    },
+    {
+      "document_id": 686,
+      "score": null,
+      "abstract": "The problem of automatic detection of fake news in social media, e.g., on Twitter, has recently drawn some attention. Although, from a technical perspective, it\ncan be regarded as a straight-forward, binary classification problem, the major challenge is the collection of large enough training corpora, since manual annotation of tweets\nas fake or non-fake news is an expensive and tedious endeavor. In , we discuss a weakly supervised approach, which automatically collects a large-scale, but\nvery noisy training dataset comprising hundreds of thousands of tweets. During collection, we automatically label tweets by their source, i.e., trustworthy or untrustworthy source, and\ntrain a classifier on this dataset. We then use that classifier for a different classification target, i.e., the classification of fake and non-fake tweets. Although\nthe labels are not accurate according to the new classification target (not all tweets by an untrustworthy source need to be fake news, and vice\nversa), we show that despite this unclean inaccurate dataset, it is possible to detect fake news with an F1 score of up to 0.9."
+    },
+    {
+      "document_id": 751,
+      "score": null,
+      "abstract": "In we investigate automated methods for understanding false news dissemination on Twitter in relation to one particular event: the 2019 Indonesian presidential election. We collected\na sample of 2,360 tweets related to topics addressed by fact-checking websites. The tweets were hand-labeled according to their trustworthiness. We trained several classification models\non the human-labelled data, using three groups of text features. The word n-gram features appeared to be the most effective, reaching a recall of 85%\nfor true news and 62% for false news. With this classifier we labeled a larger sample of tweets related to fact-checking topics in the context\nof the 2019 Indonesian presidential elections. We then analysed the dissemination of true news and false news in the underlying Twitter network using community detection\nand centrality measures. The top influential users in the network disseminate more false news, including a government institution account and a verified politician's account. Our\nresults show that the combination of text features and social network analysis can provide valuable insights in detecting and preventing the dissemination of false news.\nMoreover, we make the dataset used in this research available for reuse by the community. © 2020 CEUR-WS. All rights reserved."
+    },
+    {
+      "document_id": 894,
+      "score": null,
+      "abstract": "News professionals are facing the challenge of discovering news from more diverse and unreliable information in the age of social media. More and more news\nevents break on social media first and are picked up by news media subsequently. The recent Brussels attack is such an example. At Reuters, a\nglobal news agency, we have observed the necessity of providing a more effective tool that can help our journalists to quickly discover news on social\nmedia, verify them and then inform the public.In , we describe Reuters Tracer, a system for sifting through all noise to detect news events on\nTwitter and assessing their veracity. We disclose the architecture of our system and discuss the various design strategies that facilitate the implementation of machine learning\nmodels for noise filtering and event detection. These techniques have been implemented at large scale and successfully discovered breaking news faster than traditional journalism"
+    }
+  ]
+}

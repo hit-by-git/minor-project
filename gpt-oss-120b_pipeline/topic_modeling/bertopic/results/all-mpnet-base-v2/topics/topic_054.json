@@ -1,0 +1,45 @@
+{
+  "topic_id": 54,
+  "label": "T054",
+  "label_full": "Misinformation & Propaganda",
+  "keywords": [
+    "news",
+    "model",
+    "5l",
+    "learning",
+    "fake",
+    "media",
+    "sequential",
+    "lstm",
+    "able",
+    "linguistic"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 418,
+      "score": null,
+      "abstract": "With the advent of websites and social media technologies, the internet has been a great method of transmitting news and information around the globe. However,\ndue to lack of editorial scrutiny and monitoring by the media authorities, the news distribution has been seriously abused leading to the fast spreading of\nfake news. Fake news involves misleading broadcasting of information from sources that target to intentionally manipulate the way how people view some events or statements.\nThis study seeks to develop a fake news detection model which will be able to analyze the title and text information attached to the news\narticles. From the researches done by previous scholars, it showed that the models did not perform very well because of the lack of sufficient feature\nextraction and fine tuning of the classification of the text. This research will therefore, articulate the gap by employing 5L- deep learning model which will\nuse inbuilt tokenizers for word embedding and will show better accuracy compared to the traditional machine learning models. In , we compare machine learning algorithms\n(Decision trees, Random Forest, Logistic Regression & Naive Bayes) and deep learning algorithms (RNN, 5L- & LSTM) to classify the authenticity of news articles. The\nmodel developed in attained the best accuracy with 5L- which had a result of 99.99%. © 2022 IEEE."
+    },
+    {
+      "document_id": 428,
+      "score": null,
+      "abstract": "Everyone relies on many online resources for news in today's world, where the internet is pervasive. As the use of social media platforms such as\nTwitter, , and others has grown, news has traveled quickly among millions of users in a short amount of time. Fake news has far-reaching effects,\nranging from the formation of biased opinions to manipulating election outcomes in favor of specific politicians. Furthermore, spammers profit from click-bait ads by utilizing appealing\nnews headlines. Sometimes, humans find it more difficult to determine the article’s authenticity without additional verification. In , we developed a classification model with the\nhelp of Deep Learning and Natural Language Processing Techniques, that classifies the article as real or fake news. The model has been tested on Indian\nnews source - Times Of India along with other sources such as and was able to give decent accuracy in verifying the authenticity of the\nnews. © 2022, The Author(s), under exclusive license to Springer Nature Switzerland AG."
+    },
+    {
+      "document_id": 429,
+      "score": null,
+      "abstract": "In today’s era, fake news has become a rising threat. Fake news could be defined as news which involves deliberate lies or flaws, spread via\ntraditional news media. The spread and propagation of such fake news poses significant threats to the individual as well as the national security. Moreover, the\nauthenticity of social media article is never been verified frequently. A variety of approaches have been proposed so far with respect to fake news recognition,\nto avoid the victims of deceptive social media. presented a data-driven perspective using natural language processing method, machine learning and deep learning approaches to detect\nfake tweets. We have analyzed the performance of various statistical classifier algorithms like logistics regression, random forest and Naïve Bayes with different performance features like\ncount vectorizer and tf-idf. Also, we analyzed the performance of long short-term memory (LSTM) model, convolutional neural network and hybrid approach to improve the overall\naccuracy. © 2022, The Author(s), under exclusive license to Springer Nature Singapore Pte Ltd."
+    },
+    {
+      "document_id": 534,
+      "score": null,
+      "abstract": "Social media is used as a dominant source of news distribution among users. The world's preeminent decisions such as politics are acclaimed by social media\nto influence users for enclosing users' decisions in their favor. However, the adoption of social media is much needed for awareness but the authenticity of\ncontent is an unknown factor in the current scenario. Therefore, this research work finds it imperative to propose a solution to fake news detection and\nclassification. In the case of fake news, content is the prime entity that captures the human mind towards trust for specific news. Therefore, a linguistic\nmodel is proposed to find out the properties of content that will generate language-driven features. This linguistic model extracts syntactic, grammatical, sentimental, and readability features\nof particular news. Language driven model requires an approach to handle time-consuming and handcrafted features problems in order to deal with the curse of dimensionality\nproblem. Therefore, the neural-based sequential learning model is used to achieve superior results for fake news detection. The results are drawn to validate the importance\nof the linguistic model extracted features and finally combined linguistic feature-driven model is able to achieve the average accuracy of 86% for fake news detection\nand classification. The sequential neural model results are compared with machine learning based models and LSTM based word embedding based fake news detection model as\nwell. Comparative results show that features based sequential model is able to achieve comparable evaluation performance in discernable less time. © 2020 Elsevier Ltd"
+    },
+    {
+      "document_id": 549,
+      "score": null,
+      "abstract": "Due to the popularity of online media and especially social media, accessing news online through social media platforms has become the preferred way for people\nto obtain their news. However, it is now widely recognized that there is an increasing amount of fake news on the Internet. Fake news can\nbe very similar to real news, so it is often difficult for readers to distinguish the truth/veracity of the news they read. Machine learning and\ndeep learning models can help in this regard. In , we compare and analyse the performance of four machine learning models (Logistic regression, Random Forest,\nSupport Vector Machines (SVM), Naïve Bayes) and three deep learning models (Recurrent Neural Network (RNN), Long Short-Term Memory (LSTM) and BERT) on data sets comprising\nboth true and fake news. We explore different methods for extracting language features from the news and evaluate the performance of the model using accuracy\nas an evaluation indicator. We identified that the BERT model reached an accuracy of 86.76 and was most effective. © 2021 IEEE"
+    }
+  ]
+}

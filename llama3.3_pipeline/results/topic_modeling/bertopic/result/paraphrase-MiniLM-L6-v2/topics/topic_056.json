@@ -1,0 +1,45 @@
+{
+  "topic_id": 56,
+  "label": "T056",
+  "label_full": "deceptive, truthful",
+  "keywords": [
+    "deceptive",
+    "truthful",
+    "deception",
+    "word",
+    "opinions",
+    "review",
+    "rst",
+    "storys",
+    "ngram",
+    "character"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 681,
+      "score": null,
+      "abstract": "Opinions in reviews about the quality of products or services can be important information for readers. Unfortunately, such opinions may include deceptive ones posted for\nsome business reasons. To keep the opinions as a valuable and trusted source of information, we propose an approach to detecting deceptive and truthful opinions.\nSpecifically, we explore the use of word and character n-gram combinations, function words, and word syntactic n-grams (word sn-grams) as features for classifiers to deal\nwith this task. We also consider applying word correction to our utilized dataset. Our experiments show that classification results of using the word and character\nn-gram combination features could perform better than those of employing other features. Although the experiments indicate that applying the word correction might be insignificant, we\nnote that the deceptive opinions tend to have a smaller number of error words than the truthful ones. To examine robustness of our features, we\nthen perform cross-classification tests. Our latter experiments results suggest that using the word and character n-gram combination features could work well in detecting deceptive and\ntruthful opinions. Interestingly, the latter experimental results also indicate that using the word sn-grams as combination features could give good performance."
+    },
+    {
+      "document_id": 792,
+      "score": null,
+      "abstract": "presents a review of detecting false information and its role in decision making spread across online content. The authenticity of information is an emerging issue\nthat affects society and individuals and has a negative impact on people’s decision-making capabilities. The purpose is to understand how different techniques can be used\nto address the challenge. The approach used for the identification of published articles between 2014 and 2018 is the systematic literature review in which 30\npapers were identified and the relevant articles were selected by applying inclusion–exclusion criteria. This review classifies the false information, spreading on social media, into four\ntypes. Furthermore, we describe four deep learning and eight machine learning techniques for false information detection. The outcomes of this review will provide the researchers\nwith an insight into the different types of false information, associated detection techniques, and the relationship between false information and decision making. In the field\nof false information detection, previous studies provided a review of the literature. However, we conducted a systematic literature review by providing specific answers to the\nproposed research questions. Therefore, our contribution is novel to the field because this type of study is not performed previously. © 2019, Springer-Verlag GmbH Austria,\npart of Springer Nature."
+    },
+    {
+      "document_id": 926,
+      "score": null,
+      "abstract": "furthers the development of methods to distinguish truth from deception in textual data. We use rhetorical structure theory (RST) as the analytic framework to identify\nsystematic differences between deceptive and truthful stories in terms of their coherence and structure. A sample of 36 elicited personal stories, self-ranked as truthful or\ndeceptive, is manually analyzed by assigning RST discourse relations among each story's constituent parts. A vector space model (VSM) assesses each story's position in multidimensional\nRST space with respect to its distance from truthful and deceptive centers as measures of the story's level of deception and truthfulness. Ten human judges\nevaluate independently whether each story is deceptive and assign their confidence levels (360 evaluations total), producing measures of the expected human ability to recognize deception.\nAs a robustness check, a test sample of 18 truthful stories (with 180 additional evaluations) is used to determine the reliability of our RST-VSM method\nin determining deception. The contribution is in demonstration of the discourse structure analysis as a significant method for automated deception detection and an effective complement\nto lexicosemantic analysis. The potential is in developing novel discourse-based tools to alert information users to potential deception in computer-mediated texts. © 2014 ASIS&T."
+    },
+    {
+      "document_id": 952,
+      "score": null,
+      "abstract": "One of the novel research directions in Natural Language Processing and Machine Learning involves creating and developing methods for automatic discernment of deceptive messages from\ntruthful ones. Mistaking intentionally deceptive pieces of information for authentic ones (true to the writer's beliefs) can create negative consequences, since our everyday decision-making, actions,\nand mood are often impacted by information we encounter. Such research is vital today as it aims to develop tools for the automated recognition of\ndeceptive, disingenuous or fake information (the kind intended to create false beliefs or conclusions in the reader's mind). The ultimate goal is to support truthfulness\nratings that signal the trustworthiness of the retrieved information, or alert information seekers to potential deception. To proceed with this agenda, we require elicitation techniques\nfor obtaining samples of both deceptive and truthful messages from study participants in various subject areas. A data collection, or a corpus of truths and\nlies, should meet certain basic criteria to allow for meaningful analysis and comparison of socio-linguistic behaviors. In we propose solutions and weigh pros and cons\nof various experimental set-ups in the art of corpus building. The outcomes of three experiments demonstrate certain limitations with using online crowdsourcing for data collection\nof this type. Incorporating motivation in the task descriptions, and the role of visual context in creating deceptive narratives are other factors that should be\naddressed in future efforts to build a quality dataset. Copyright © 2010 Victoria L. Rubin and Niall J. Conroy."
+    },
+    {
+      "document_id": 976,
+      "score": null,
+      "abstract": "Our goal is to use natural language processing to identify deceptive and non-deceptive passages in transcribed narratives. We begin by motivating an analysis of language-based\ndeception that relies on specific linguistic indicators to discover deceptive statements. The indicator tags are assigned to a document using a mix of automated and\nmanual methods. Once the tags are assigned, an interpreter automatically discriminates between deceptive and truthful statements based on tag densities. The texts used in our\nstudy come entirely from \"real world\" sources---criminal statements, police interrogations and legal testimony. The corpus was hand-tagged for the truth value of all propositions that\ncould be externally verified as true or false. Classification and Regression Tree techniques suggest that the approach is feasible, with the model able to identify\n74.9\\% of the T/F propositions correctly. Implementation of an automatic tagger with a large subset of tags performed well on test data, producing an average\nscore of 68.6\\% recall and 85.3\\% precision when compared to the performance of human taggers on the same subset."
+    }
+  ]
+}

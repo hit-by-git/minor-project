@@ -1,0 +1,55 @@
+{
+  "topic_id": 35,
+  "label": "T035",
+  "label_full": "Credibility Assessment",
+  "keywords": [
+    "trust",
+    "social",
+    "media",
+    "multicriteria",
+    "trustworthiness",
+    "user",
+    "users",
+    "subjective",
+    "credibility",
+    "information"
+  ],
+  "n_docs": 7,
+  "documents": [
+    {
+      "document_id": 79,
+      "score": null,
+      "abstract": "Social media include diverse interaction metrics related to user popularity, the most evident example being the number of user followers. The latter has raised concerns\nabout the credibility of the posts by the most popular creators. However, most existing approaches to assess credibility in social media strictly consider this problem\na binary classification, often based on a priori information, without checking if actual real-world facts back the users’ comments. In addition, they do not provide\nautomatic explanations of their predictions to foster their trustworthiness. In , we propose a credibility assessment solution for financial creators in social media that combines\nNatural Language Processing and Machine Learning. The reputation of the contributors is assessed by automatically classifying their forecasts on asset values by type and verifying\nthese predictions with actual market data to approximate their probability of success. The outcome of this verification is a continuous credibility score instead of a\nbinary result, an entirely novel contribution by . Moreover, social media metrics (i.e., user context) are exploited by calculating their correlation with the credibility rankings,\nproviding insights on the interest of the end-users in financial posts and their forecasts (i.e., drop or rise). Finally, the system provides natural language explanations\nof its decisions based on a model-agnostic analysis of relevant features. © 2024 The Author(s)"
+    },
+    {
+      "document_id": 407,
+      "score": null,
+      "abstract": "Social Networks represent a cornerstone of our daily life, where the so-called social reviewing systems (SRSs) play a key role in our daily lives and\nare used to access data typically in the form of reviews. Due to their importance, social networks must be trustworthy and secure, so that their\nshared information can be used by the people without any concerns, and must be protected against possible attacks and misuses. One of the most critical\nattacks against the reputation system is represented by mendacious reviews. As this kind of attacks can be conducted by legitimate users of the network, a\nparticularly powerful solution is to exploit trust management, by assigning a trust degree to users, so that people can weigh the gathered data based on\nsuch trust degrees. Trust management within the context of SRSs is particularly challenging, as determining incorrect behaviors is subjective and hard to be fully automatized.\nSeveral attempts in the current literature have been proposed; however, such an issue is still far from been completely resolved. , we propose a solution\nagainst mendacious reviews that combines fuzzy logic and the theory of evidence by modeling trust management as a multicriteria multiexpert decision making and exploiting the\nnovel concept of time-dependent and content-dependent crown consensus. We empirically proved that our approach outperforms the main related works approaches, also in dealing with sockpuppet\nattacks. © 2013 IEEE."
+    },
+    {
+      "document_id": 433,
+      "score": null,
+      "abstract": "By now people's opinions and actions are more and more strongly influenced by what is posted and shared on the various social networks. Thus, malicious\nusers can purposely manipulate other users posting fake news/reviews. In order to face this challenge, modern online social networks are beginning to adopt tool for\nuser trustworthiness assessment. Current assessment solutions mainly adopt multi-criteria frameworks for user trustworthiness assessment but fail at properly dealing with uncertainty and vagueness in computed/collected\nscores and aggregating them in a robust manner. In , we propose a larger set of criteria than existing related works, and the use of\nsubjective logic to represent and combine subjective and objective scores. Specifically, several of assessment criteria are introduced for verifying user trust from different point of\nviews (usefulness and quality of user reviews, users’ influence/importance in terms of activities and centrality within the social network, time dependent crown consensus investigating aspect-based\nsentiments and opinions of reviews w.r.t. the majority), aiming at improving accuracy and precision in trust estimation. The available fusion operators in the literature of\nsubjective logic have been compared so as to find the best one fitting the needs of trust estimation. The proposed solution has been implemented and\nevaluated against public Yelp data-sets so as to prove its effectiveness and efficiency w.r.t. existing related works within the literature. © 2021 Elsevier B.V."
+    },
+    {
+      "document_id": 665,
+      "score": null,
+      "abstract": "Information trustworthiness assessment on political social media discussions is crucial to maintain the order of society, especially during emergent situations. The polarity nature of political\ntopics and the echo chamber effect by social media platforms allow for a deceptive and a dividing environment. During a political crisis, a vast amount\nof information is being propagated on social media, that leads up to a high level of polarization and deception by the beneficial parties. The traditional\napproaches to tackling misinformation on social media usually lack a comprehensive problem definition due to its complication. proposes a probabilistic graphical model as a theoretical\nview on the problem of normal users credibility on social media during a political crisis, where polarization and deception are keys properties. Such noisy signals\ndramatically influence any attempts for misinformation detection. Hence, we introduce a causal Bayesian network, inspired by the potential main entities that would be part of\nthe process dynamics. Our methodology examines the problem solution in a causal manner which considers the task of misinformation detection as a question of cause\nand effect rather than just a classification task. Our causality-based approach provides a practical road map for some sub-problems in real-world scenarios such as individual\npolarization level, misinformation detection, and sensitivity analysis of the problem. Moreover, it facilitates intervention simulations which would unveil both positive and negative effects on the\ndeception level over the network. © 2019 FRUCT."
+    },
+    {
+      "document_id": 671,
+      "score": null,
+      "abstract": "Social media have become increasingly popular for the sharing and spreading of user-generated content due to their easy access, fast dissemination, and low cost. Meanwhile,\nsocial media also enable the wide propagation of cyber frauds, which leverage fake information sources to reach an ulterior goal. The prevalence of untrustworthy information\nsources on social media can have significant negative societal effects. In a trustworthy social media system, trust calculation technology has become a key demand for\nthe identification of information sources. Trust, as one of the most complex concepts in network communities, has multi-criteria properties. However, the existing work only focuses\non single trust factor, and does not consider the complexity of trust relationships in social computing completely. In , a multi-criteria trustworthiness calculation mechanism called\nInfo-Trust is proposed for information sources, in which identity-based trust, behavior-based trust, relation-based trust, and feedback-based trust factors are incorporated to present an accuracy-enhanced full\nview of trustworthiness evaluation of information sources. More importantly, the weights of these factors are dynamically assigned by the ordered weighted averaging and weighted moving\naverage (OWA-WMA) combination algorithm. This mechanism surpasses the limitations of existing approaches in which the weights are assigned subjectively. The experimental results based on the\nreal-world datasets from Sina demonstrate that the proposed mechanism achieves greater accuracy and adaptability in trustworthiness identification of the network information. © 2019 IEEE."
+    },
+    {
+      "document_id": 700,
+      "score": null,
+      "abstract": "Information on social media platform suffers from lack of monitoring. So the evaluation of information credibility on the social media platform is an important subject.\nSpecifically, social media have become popular for news consumption. News in its purest form, unbiased and trustworthiness is a big challenge. Through social media the\ninformation spread at such a fast rate, that false information perceives potential to cause real-world impacts on millions of users within a minute. Despite its\nimportance, research has not taken its upliftment to mitigate the factors influencing information quality. In , we will review the content dimension by studying Information\nquality of news on social media. We discuss this problem by presenting a dimension and levels to IQ. We test and validate the proposed model\nby computing IQI through distribution. The results show that based on user responses we can provide an IQ index to the news article. Providing a\nscale to measure the credibility of content. The prediction that a particular news article to what extent it is trustworthy based on the analysis of\nuser responses to the dimension of IQ can be an important step to fight against digital misinformation. © 2018 IEEE."
+    },
+    {
+      "document_id": 773,
+      "score": null,
+      "abstract": "There are both positive and negative aspects in the use of social media in news and information dissemination. To deal with the negative aspects, such\nas the spread of rumours and fake news, the flow of information should implicitly be filtered and marked to specific criteria such as credibility, trustworthiness,\nreputation, popularity, influence, and authenticity. proposes an approach that can enhance trustworthiness and content validity in the presence of information overload. We introduce Alethiometer, a\nframework for assessing truthfulness in social media that can be used by professional and general news users alike. We present different measures that delve into\nthe detailed analysis of the content, the contributors of the content and the underlying context. We further propose an approach for deriving a single metric\nthat considers, in a unified manner, the quality of a contributor and of the content provided by that contributor. Finally, we present some preliminary statistical\nresults from the examination of a set of 10 million twitter users, that provide useful insights on the characteristics of social media data."
+    }
+  ]
+}

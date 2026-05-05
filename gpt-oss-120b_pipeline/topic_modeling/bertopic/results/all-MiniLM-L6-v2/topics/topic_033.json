@@ -1,0 +1,55 @@
+{
+  "topic_id": 33,
+  "label": "T033",
+  "label_full": "Journalism & Media Studies",
+  "keywords": [
+    "islamic",
+    "trustworthiness",
+    "systems",
+    "information",
+    "authoring",
+    "credentials",
+    "collaborative",
+    "social",
+    "online",
+    "media"
+  ],
+  "n_docs": 7,
+  "documents": [
+    {
+      "document_id": 44,
+      "score": null,
+      "abstract": "With the primary goal of raising readers’ awareness of misinformation phenomena, extensive efforts have been made by both academic institutions and independent organizations to develop\nmethodologies for assessing the trustworthiness of online news publishers. Unfortunately, existing approaches are costly and face critical scalability challenges. This study presents a novel framework\nfor assessing the trustworthiness of online news publishers using user interactions on social media platforms. The proposed methodology provides a versatile solution that serves the\ndual purpose of i) identifying verifiable online publishers and ii) automatically performing an initial estimation of the trustworthiness of previously unclassified online news outlets."
+    },
+    {
+      "document_id": 344,
+      "score": null,
+      "abstract": "Social media platforms do not usually demonstrate responsibilities for published content. In recent years, an increasing number of individuals are now serving as sources of\ninformation that sparks public concern as it is considered to have lack of online quality control mechanisms. These mechanisms include the credentials of authors and\ninformation editorial teams. aims to identify and develop an Islamic information credibility scale to examine the reliability of Islamic postings on social media, by acquiring\nthe experts’ views and agreement on the elements in the proposed model by leveraging the Fuzzy Delphi process. A total of 15 experts from academic\nand related stakeholders participated in the verification of items through the questionnaire instrument's 7-point linguistic scale by purposive sampling. Outcome of the study indicate that\nthe appropriate criteria to evaluate the credibility of Islamic information on social media incline on the top four indicators, which are of the source of\nwriting, accuracy, authority and authenticity of information. The result demonstrates the importance for referring to the source and content of information i.e., Quran and authentic\nhadith in the process to evaluate authentic Islamic information posting on social media, as opposed to the influence of the social environment. This study's value\nlies in its contribution to the conceptualization and development of new Islamic information credibility scale through the screening and selection process of Fuzzy Delphi method\napproach. In future research, this scale should be explored to test new media credibility, as an emerging and promising approach to identifying and evaluating Islamic\nnew media credibility. © The Author(s) 2023."
+    },
+    {
+      "document_id": 645,
+      "score": null,
+      "abstract": "In online communication, it is often difficult to judge if an unknown person is competent, telling the truth or interested in honestly helping others. This\nleads to mistrust and social phenomena like echo chambers and misinformation campaigns. Creating transparency by introducing contributive social capital (CSC), a metric encompassing the competence,\ntrustworthiness, and social responsibility of a user, could alleviate this problem. We investigate the utility of social capital market systems as information sources for the\nassessment of CSC."
+    },
+    {
+      "document_id": 712,
+      "score": null,
+      "abstract": "The social media are increasingly becoming the main reference and having important implications on virtual community. Parts of the information published in the social media\ncould be useful and some could be misleading. Therefore, there is a need to develop an approach that can verify the trustworthiness of online information\nto minimise the dissemination of misleading information. presents a study that develops an objective approach to determine the level of trustworthiness of information. Based on\nfour parameters derived from literature and empirical data, an algorithm to determine the level of trustworthiness has been developed. This algorithm measurement of trustworthiness was\nthen realised through an automated tool called TrustCrawler. The functionality of the tool was demonstrated using online information on Government Service Tax (GST) of Malaysian\ndrawn from Twitter. It was found that the tool is able to provide consistent results on the level of trustworthiness of online information based on\nthe four parameters. It is anticipated that this tool is able to help social media users to determine level of trustworthiness of the information, hence\nbecoming informed, safe and ethical users of media content. © 2005 – ongoing JATIT & LLS."
+    },
+    {
+      "document_id": 802,
+      "score": null,
+      "abstract": "has become a very popular destination for Web surfers seeking knowledge about a wide variety of subjects. While it contains many helpful articles with accurate\ninformation, it also consists of unreliable articles with inaccurate or incomplete information. A casual observer might not be able to differentiate between the good and\nthe bad. In , we identify the necessity and challenges for trust assessment in , and propose a framework that can help address these challenges\nby identifying relevant features and providing empirical means to meet the requirements for such an evaluation. We select relevant variables and perform experiments to evaluate\nour approach. The results demonstrate promising performance that is better than comparable approaches and could possibly be replicated with other social media applications. Copyright 2009\nACM."
+    },
+    {
+      "document_id": 804,
+      "score": null,
+      "abstract": "The need to assess the trustworthiness of a piece of information has become a prevalent issue due to web vandalism and the openness of platforms\nsuch as wikis. In we introduce the notion of contextual accountability: Holding the author of a given statement accountable by deriving a path from the\nstatement to the author's credentials. We present our own trust vector model as a combination of the assessment of these credentials covering two aspects; knowledgeability\nand social acceptance. This model is put to the test using two datasets and the results are presented and discussed."
+    },
+    {
+      "document_id": 807,
+      "score": null,
+      "abstract": "Open collaborative authoring systems have become increasingly popular within the past decade. The benefits of such systems is best demonstrated by the Wiki and some\nof the tremendously popular applications build on Wiki technology, in particular the , which is a free encyclopaedia collaboratively edited by Internet users with a\nminimum of administration. One of the most serious problems that have emerged in open collaborative authoring systems relates to the quality, especially completeness and correctness\nof information. Inaccuracies in the have been rumoured to cause students to fail courses, innocent people have been associated with the killing of John F.\nKennedy, etc. Improving the correctness, completeness and integrity of information in collaboratively authored documents is therefore of vital importance to the continued success of such\nsystems. In we propose an integrity mechanism for open collaborative authoring systems based on a combination of classic integrity mechanisms from computer security and reputation\nsystems. While the mechanism provides a reputation based assessment of the trustworthiness of the information in a document, the primary purpose is to prevent untrustworthy\nauthors from compromising the integrity of the document. © 2007 International Federation for Information Processing."
+    }
+  ]
+}

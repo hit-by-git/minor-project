@@ -1,0 +1,45 @@
+{
+  "topic_id": 54,
+  "label": "T054",
+  "label_full": "1a, task",
+  "keywords": [
+    "1a",
+    "task",
+    "subtasks",
+    "tweets",
+    "checkthat",
+    "lab",
+    "respectively",
+    "participated",
+    "spanish",
+    "1b"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 236,
+      "score": null,
+      "abstract": "In , we highlight our approach for the “Arabic AI Tasks Evaluation (ArAiEval) Shared Task 2023”. We present our approaches for task 1-A and task\n2-A of the shared task which focus on persuasion technique detection and disinformation detection respectively. Detection of persuasion techniques and disinformation has become imperative to\navoid distortion of authentic information. The tasks use multigenre snippets of tweets and news articles for the given binary classification problem. We experiment with several\ntransformer-based models that were pre-trained on the Arabic language. We fine-tune these state-of-the-art models on the provided dataset. Ensembling is employed to enhance the performance\nof the systems. We achieved a micro F1-score of 0.742 on task 1-A (8th rank on the leaderboard) and 0.901 on task 2-A (7th rank\non the leaderboard) respectively."
+    },
+    {
+      "document_id": 531,
+      "score": null,
+      "abstract": "The paper presents an overview of our submission to the fifth edition of the CheckThat! Lab challenge. Specifically, our team participated in subtasks 1A, 1B\nand 1C under task 1, which aimed to identify relevant claims in tweets. More specifically, the three subtasks deal with evaluating the check-worthiness, presence of\nverifiable facts and presence of harmful content in the tweets, respectively. The lab provided us datasets for the three subtasks in multiple languages including English,\nDutch and Bulgarian. A total of 14, 10 and 12 teams participated in the subtasks 1A, 1B and 1C respectively, out of which we ranked\n9th, 2nd and 2nd, respectively. In , we discuss our methodology for the subtasks, which includes data augmentation to increase the size of our training\ndataset, followed by preprocessing of the tweets and feature extraction for the tweets from the Twitter API to gain more data points that can help\ngauge the credibility and/or authenticity of the tweet. Finally, we discuss the structure of our Multimodal model which uses numerical and categorical features in addition\nto the textual data from tweets. © 2022 Copyright for by its authors."
+    },
+    {
+      "document_id": 536,
+      "score": null,
+      "abstract": "We present an overview of CheckThat! lab 2022 Task 1, part of the 2022 Conference and Labs of the Evaluation Forum (CLEF). Task 1 asked\nto predict which posts in a Twitter stream are worth fact-checking, focusing on COVID-19 and politics in six languages: Arabic, Bulgarian, Dutch, English, Spanish, and\nTurkish. A total of 19 teams participated and most submissions managed to achieve sizable improvements over the baselines using Transformer-based models such as BERT and\nGPT-3. Across the four subtasks, approaches that targetted multiple languages (be it individually or in conjunction, in general obtained the best performance. We describe the\ndataset and the task setup, including the evaluation settings, and we give a brief overview of the participating systems. As usual in the CheckThat! lab,\nwe release to the research community all datasets from the lab as well as the evaluation scripts, which should enable further research on finding relevant\ntweets that can help different stakeholders such as fact-checkers, journalists, and policymakers. © 2022 Copyright for by its authors."
+    },
+    {
+      "document_id": 663,
+      "score": null,
+      "abstract": "This article describes the different approaches used by the NLPIR@UNED team in the CLEF2021 CheckThat! Lab to tackle the tasks 1A-English, 1A-Spanish and 3A-English. The\ngoal of Task 1A in English is to determine which tweets within a set of COVID-19 related tweets are worth checking. Task 1A in Spanish\nis similar but in this case the tweets are related to political issues in Spain. In both tasks, transformer models have been used to identify\ncheck-worthy tweets, obtaining the first place in the task in English and the fourth place in the task in Spanish. Task 3A is focused on\ndetermining the veracity of a news article. It is a multi-class classification problem with four possible values: true, partially false, false, and other. For this\ntask we have used two different approaches: a gradient-boosting classifier with TF-IDF and LIWC features, and a transformer model fed with the first tokens of\neach news article. We got the fourth place out of 25 participants in this task. © 2021 Copyright for by its authors. Use permitted under\nCreative Commons License Attribution 4.0 International (CC BY 4.0)."
+    },
+    {
+      "document_id": 747,
+      "score": null,
+      "abstract": "As part of the CheckThat! 2020 Task 2, we investigated sentence similarity using transformer models. In Task 2, the goal was to effectively rank claims\nbased on their relevancy compared to an input tweet. While setting our baseline on sentence similarity for fact-checking, we gathered insights we felt compelled to\nshare in . We learned how multi-modal data utilization could foster significant uplifts in model performance. We also gained knowledge on which hybrid training and\nstrong sampling worked best for fact-checking applications, and wanted to share our interpretation of the results we got. Finally, we want to explain our recommendations\non data augmentations. All of the above allowed us to set our baseline in fact-checking in the CLEF Checkthat! 2020 Task 2 competition. Copyright ©\n2020 for by its authors."
+    }
+  ]
+}

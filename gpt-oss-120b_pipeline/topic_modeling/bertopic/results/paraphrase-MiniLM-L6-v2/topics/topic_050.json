@@ -1,0 +1,45 @@
+{
+  "topic_id": 50,
+  "label": "T050",
+  "label_full": "detectysf, learning",
+  "keywords": [
+    "detectysf",
+    "learning",
+    "fend",
+    "fjd",
+    "adversarial",
+    "machine",
+    "detection",
+    "prompttuning",
+    "iwdmt",
+    "supervised"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 59,
+      "score": null,
+      "abstract": "With the rapid growth of social media, fake news (rumors) are rampant online, seriously endangering the health of mainstream social consciousness. Fake news detection (FEND),\nas a machine learning solution for automatically identifying fake news on Internet, is increasingly gaining the attentions of academic community and researchers. Recently, the mainstream\nFEND approaches relying on deep learning primarily involves fully supervised fine-tuning paradigms based on pre-trained language models (PLMs), relying on large annotated datasets. In many\nreal scenarios, obtaining high-quality annotated corpora are time-consuming, expertise-required, labor-intensive, and expensive, which presents challenges in obtaining a competitive automatic rumor detection system. Therefore, developing\nand enhancing FEND towards data-scarce scenarios is becoming increasingly essential. In , inspired by the superiority of semi-/self- supervised learning, we propose a novel few-shot\nrumor detection framework based on semi-supervised adversarial learning and self-supervised contrastive learning, named Detection Yet See Few (DetectYSF). DetectYSF synergizes contrastive self-supervised learning and adversarial\nsemi-supervised learning to achieve accurate and efficient FEND capabilities with limited supervised data. DetectYSF uses Transformer-based PLMs (e.g., BERT, RoBERTa) as its backbone and employs\na Masked LM-based pseudo prompt learning paradigm for model tuning (prompt-tuning). Specifically, during DetectYSF training, the enhancement measures for DetectYSF are as follows: (1) We\ndesign a simple but efficient self-supervised contrastive learning strategy to optimize sentence-level semantic embedding representations obtained from PLMs; (2) We construct a Generation Adversarial Network\n(GAN), utilizing random noises and negative fake news samples as inputs, and employing Multi-Layer Perceptrons (MLPs) and an extra independent PLM encoder to generate abundant\nadversarial embeddings. Then, incorporated with the adversarial embeddings, we utilize semi-supervised adversarial learning to further optimize the output embeddings of DetectYSF during its prompt-tuning procedure.\nFrom the news veracity dissemination perspective, we found that the authenticity of the news shared by these collectives tends to remain consistent, either mostly genuine\nor predominantly fake, a theory we refer to as “news veracity dissemination consistency”. By employing an adjacent sub-graph feature aggregation algorithm, we infuse the authenticity\ncharacteristics from neighboring news nodes of the constructed veracity dissemination network during DetectYSF inference. It integrates the external supervisory signals from “news veracity dissemination consistency”\nto further refine the news authenticity detection results of PLM prompt-tuning, thereby enhancing the accuracy of fake news detection. Furthermore, extensive baseline comparisons and ablated\nexperiments on three widely-used benchmarks demonstrate the effectiveness and superiority of DetectYSF for few-shot fake new detection under low-resource scenarios. © The Author(s) 2024."
+    },
+    {
+      "document_id": 64,
+      "score": null,
+      "abstract": "The advent of the internet has facilitated the wide spread of online disinformation and thus poses severe threats to the trustworthiness of cyberspace. Two types\nof methods are proposed to detect online disinformation: traditional machine learning-based and deep learning-based, where the former is limited due to the shallow representation and\nthe latter is hindered by its lack of interpretability. , we develop a novel model named interpretable wide and deep model for text (IWDMT) for\ndisinformation detection which incorporates the interpretability benefits of traditional machine learning and the representation advantages of deep learning. Furthermore, we advance the interpretability of existing\nmodels by utilizing neural topic models to capture topical semantic representations and the attention mechanism to extract sequential syntactic representations. The proposed IWDMT is a\nmixture of a generative model and a discriminative model, and we devise a novel learning algorithm for it. Experiments on deceptive reviews and fraudulent emails\ndemonstrated the proposed IWDMT not only outperformed baselines but was also able to provide a rich set of angles of interpretation for management insights. The\nhigher accuracy and improved interpretability in detecting online disinformation will benefit four stakeholder groups: internet users, managers, researchers, and the government. © 2023"
+    },
+    {
+      "document_id": 111,
+      "score": null,
+      "abstract": "In the modern online society, where social networks are increasingly developed, the authenticity of information is one of the essential needs. There are many problems\nwith detecting fake information, such as fake news detection, fake review detection, etc. Fake job description (FJD) detection is an interesting problem many groups have\nstudied recently. However, current studies still need improvement in predictability. Therefore, this study develops a new method named NLP2FJD that utilizes deep learning-based NLP techniques\nfor improving FJD detection. Firstly, we utilize the pre-trained Word2Vec to extract features from textual information from the dataset. Next, combining textual information and meta-information\nin the experimental dataset to improve the performance of FJD detection. The above two improvements will help the recommender system significantly improve the predictive ability\nof the proposed model. Finally, the empirical experiments are conducted to confirm the effectiveness of the proposed method on the experimental dataset compared with cutting-edge\nmethods. The experimental results demonstrate that the NLP2FJD framework transcends other experimental methods for FJD detection on the experimental dataset. Besides, this study also conducts\nROC curve analysis to show how to determine the optimal threshold for distinguishing the fake or real job description on the experimental dataset. © 2024\nThe Author(s). Published by Informa UK Limited, trading as Taylor & Francis Group."
+    },
+    {
+      "document_id": 295,
+      "score": null,
+      "abstract": "In this digital era, where we are connected to everyone through the Internet and various social media platforms, we require authentic knowledge, data and information\nsources. But it is very hard to find or detect it easily. However, there are multiple tools available to detect such trustworthiness. However, they lack\nthe proper detection of fake news. Hence sometimes, the detection does not happen up to a satisfactory level. In , we propose a scheme for\nthe detection of fake news. We use the machine learning models with the most recent data set available at authentic source. Further, the performance of\nthe proposed technique is estimated under various machine learning models, i.e., naive bayes classifier, logistic regression, and support vector machine (SVM). The proposed technique has\nperformed well under the support vector machine, achieving the highest accuracy value under this model. © 2023 IEEE."
+    },
+    {
+      "document_id": 335,
+      "score": null,
+      "abstract": "focuses on the detection of fake digital information using various machine learning and deep learning algorithms to prevent its spread through Internet of Things (IoT)\ndevices and systems. The research highlights the significance of detecting and preventing false or misleading information in critical areas such as healthcare, public safety, and\nemergency response. The study compares the performance of several supervised machine learning algorithms and identifies logistic regression as the most accurate (98.03%). The empirical analysis\nused data from The Indian Express, , and Kaggle and leveraged natural language processing (NLP) to prepare, clean, and model the data. To detect fraudulent\nposts, the study employed random forest, a supervised machine learning algorithm, which achieved an impressive accuracy rate of 99.71% on a Kaggle dataset. The research\nalso developed a model for detecting false reporting related to COVID-19, utilizing the support vector machine technique, which achieved an accuracy rate of 78.69%. The\npresented work also determined the authenticity of images through convolutional neural networks (CNNs). Lastly, a content-based recommendation system was developed to enhance people’s security and\nconfidence. © 2023 Rutvij Jhaveri, et al."
+    }
+  ]
+}

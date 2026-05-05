@@ -1,0 +1,7 @@
+model_a_file: results_gpt-oss-120b copy.csv
+model_b_file: result_llama_80b.csv
+pre_yes_rows: 812
+matched_output_rows: 715
+matched_unique_pre_rows: 715
+matched_unique_doi: 715
+unmatched_pre_rows: 97

@@ -1,0 +1,45 @@
+{
+  "topic_id": 61,
+  "label": "T061",
+  "label_full": "Journalism & Media Studies",
+  "keywords": [
+    "communities",
+    "media",
+    "social",
+    "method",
+    "viewpoints",
+    "similarity",
+    "contrastive",
+    "avoid",
+    "conflicting",
+    "posts"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 1,
+      "score": null,
+      "abstract": "Social media users are more likely to be exposed to similar views and tend to avoid contrasting views, especially when they are part of a\ncommunity of social media users. , we investigate the presence of user communities and leverage them as a tool to detect misinformation on social media,\nspecifically on X (formerly known as Twitter). We propose a misinformation detection framework, namely Similarity-based Misinformation Detection (SiMiD) that employs microblogs and utilizes user-follower interactions\nwithin a social network. Our approach extracts important textual features of social media posts using a transformer-based language model. We use contrastive learning and pseudo-labeling\nto fine-tune the language model. Then, we measure the similarity for each social media post based on its relevance to each user in the communities.\nFinally, we train a machine learning model to identify the truthfulness of social media posts using these similarity scores. We evaluate our approach on three\nsocial media datasets, compare our method with twelve state-of-the-art approaches, and answer five research questions. The experimental results, supported by statistical tests, show that contrastive\nlearning and user communities can enhance the detection of misinformation on social media. Our model can identify misinformation content by achieving a consistently high weighted\nF1 score of over 90\\% across all datasets, even employing only a small number of users in communities. We make our implementations publicly available and\nprovide all details that are necessary for the reproducibility of experiments.1"
+    },
+    {
+      "document_id": 175,
+      "score": null,
+      "abstract": "This study conducts an in-depth verification and analysis of the authenticity of information in WeChat group chats by integrating Latent Dirichlet Allocation (LDA) topic modeling\nwith advanced Natural Language Processing (NLP) techniques such as XLNet and BERT. Leveraging LDA, the thematic structure of group chat content is revealed, and through\nthe integration of NLP technologies like XLNet and BERT, a comprehensive analysis of the information is achieved. Experimental results demonstrate that our developed model performs\nexceptionally well in identifying the authenticity of information, confirming the effectiveness of this method in the domain of social media information verification. This research not\nonly deepens our understanding of the authenticity of information in WeChat group chats but also provides a more effective tool for social media platforms to\ndetect and prevent the spread of false information. It opens up a new perspective on social media information authentication research and points out future research\ndirections. © 2024 IEEE."
+    },
+    {
+      "document_id": 377,
+      "score": null,
+      "abstract": "Social media users often find themselves exposed to similar viewpoints and tend to avoid contrasting opinions, particularly when connected within a community. , we leverage\nthe presence of communities in misinformation detection on social media. For this purpose, we propose a similarity-based method that utilizes user-follower interactions within a social\nnetwork to identify and combat misinformation spread. The method first extracts important textual features of social media posts via contrastive learning and then measures the\ncosine similarity per social media post based on their relevance to each user in the community. Next, we train a classifier to assess the truthfulness\nof social media posts using these similarity scores. We evaluate our approach on three real-world datasets and compare our method with six baselines. The experimental\nresults and statistical tests show that contrastive learning and leveraging communities can effectively enhance the detection of misinformation on social media. © 2023 IEEE."
+    },
+    {
+      "document_id": 838,
+      "score": null,
+      "abstract": "An increasing amount of posts on social media are used for disseminating news information and are accompanied by multimedia content. Such content may often be\nmisleading or be digitally manipulated. More often than not, such pieces of content reach the front pages of major news outlets, having a detrimental effect\non their credibility. To avoid such effects, there is profound need for automated methods that can help debunk and verify online content in very short\ntime. To this end, we present a comparative study of three such methods that are catered for Twitter, a major social media platform used for\nnews sharing. Those include: a) a method that uses textual patterns to extract claims about whether a tweet is fake or real and attribution statements\nabout the source of the content; b) a method that exploits the information that same-topic tweets should be also similar in terms of credibility; and\nc) a method that uses a semi-supervised learning scheme that leverages the decisions of two independent credibility classifiers. We perform a comprehensive comparative evaluation of\nthese approaches on datasets released by the Verifying Multimedia Use (VMU) task organized in the context of the 2015 and 2016 MediaEval benchmark. In addition\nto comparatively evaluating the three presented methods, we devise and evaluate a combined method based on their outputs, which outperforms all three of them. We\ndiscuss these findings and provide insights to guide future generations of verification tools for media professionals. © 2017, Springer Science+Business Media, LLC."
+    },
+    {
+      "document_id": 910,
+      "score": null,
+      "abstract": "Fake news spreading in social media severely jeopardizes the veracity of online content. Fortunately, with the interactive and open features of microblogs, skeptical and opposing\nvoices against fake news always arise along with it. The conflicting information, ignored by existing studies, is crucial for news verification. In , we take\nadvantage of this \"wisdom of crowds\" information to improve news verification by mining conflicting viewpoints in microblogs. First, we discover conflicting viewpoints in news tweets\nwith a topic model method. Based on identified tweets' viewpoints, we then build a credibility propagation network of tweets linked with supporting or opposing relations.\nFinally, with iterative deduction, the credibility propagation on the network generates the final evaluation result for news. Experiments conducted on a real-world data set show\nthat the news verification performance of our approach significantly outperforms those of the baseline approaches. © 2016, Association for the Advancement of Artificial Intelligence (\nAll rights reserved."
+    }
+  ]
+}

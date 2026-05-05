@@ -1,0 +1,5 @@
+embedding_model,n_cohesive_topics,cv_overall
+all-MiniLM-L6-v2,51,0.4565740805298327
+all-mpnet-base-v2,50,0.49354913607134226
+distiluse-base-multilingual-cased-v1,48,0.4282993213808591
+paraphrase-MiniLM-L6-v2,50,0.4423365866519506

@@ -1,0 +1,45 @@
+{
+  "topic_id": 55,
+  "label": "T055",
+  "label_full": "trustworthiness, sources",
+  "keywords": [
+    "trustworthiness",
+    "sources",
+    "source",
+    "information",
+    "provider",
+    "reasons",
+    "objects",
+    "ratings",
+    "provides",
+    "facts"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 795,
+      "score": null,
+      "abstract": "The problem of determining what information to trust is crucial in many contexts that admit uncertainty and polarization. In , we propose a method to\nsystematically reason on the trustworthiness of sources. While not aiming at establishing their veracity, the method allows creating a relative reference system to determine the\ntrustworthiness of information sources by reasoning on their knowledgeability, popularity, and reputation. We further propose a formal rule-based set of strategies to establish possibly negative\ntrust on contradictory contents that use such source evaluation. The strategies answer to criteria of higher trustworthiness score, majority or consensus on the set of\nsources. We evaluate our model through a real-case scenario. © IFIP International Federation for Information Processing 2019."
+    },
+    {
+      "document_id": 869,
+      "score": null,
+      "abstract": "Online knowledge repositories typically rely on their users or dedicated editors to evaluate the reliability of their content. These evaluations can be viewed as noisy\nmeasurements of both information reliability and information source trustworthiness. Can we leverage these noisy evaluations, often biased, to distill a robust, unbiased and interpretable measure\nof both notions?In this talk, I will first argue that the temporal traces left by these noisy evaluations give cues on the reliability of the\ninformation and the trustworthiness of the sources. Then, I will introduce a temporal point process modeling framework that links these temporal traces to robust, unbiased\nand interpretable notions of information reliability and source trustworthiness. Finally, I will elaborate on large-scale experiments on real-world data gathered from Wikipedia and Stack Overflow\nand show that our modeling framework accurately predicts evaluation events, provides an interpretable measure of information reliability and source trustworthiness, and yields interesting insights about\nreal-world events."
+    },
+    {
+      "document_id": 915,
+      "score": null,
+      "abstract": "The quality of web sources has been traditionally evaluated using exogenous signals such as the hyperlink structure of the graph. We propose a new approach\nthat relies on endogenous signals, namely, the correctness of factual information provided by the source. A source that has few false facts is considered to\nbe trustworthy.The facts are automatically extracted from each source by information extraction methods commonly used to construct knowledge bases. We propose a way to distinguish\nerrors made in the extraction process from factual errors in the web source per se, by using joint inference in a novel multi-layer probabilistic model.We\ncall the trustworthiness score we computed Knowledge-Based Trust (KBT). On synthetic data, we show that our method can reliably compute the true trustworthiness levels of\nthe sources. We then apply it to a database of 2.8B facts extracted from the web, and thereby estimate the trustworthiness of 119M webpages. Manual\nevaluation of a subset of the results confirms the effectiveness of the method."
+    },
+    {
+      "document_id": 942,
+      "score": null,
+      "abstract": "In recent years, information trustworthiness has become a serious issue when user-generated contents prevail in our information world. In , we investigate the important problem\nof estimating information trustworthiness from the perspective of correlating and comparing multiple data sources. To a certain extent, the consistency degree is an indicator of\ninformation reliability--Information unanimously agreed by all the sources is more likely to be reliable. Based on this principle, we develop an effective computational approach to\nidentify consistent information from multiple data sources. Particularly, we analyze vast amounts of information collected from multiple review platforms (multiple sources) in which people can\nrate and review the items they have purchased. The major challenge is that different platforms attract diverse sets of users, and thus information cannot be\ncompared directly at the surface. However, latent reasons hidden in user ratings are mostly shared by multiple sources, and thus inconsistency about an item only\nappears when some source provides ratings deviating from the common latent reasons. Therefore, we propose a novel two-step procedure to calculate information consistency degrees for\na set of items which are rated by multiple sets of users on different platforms. We first build a Multi-Source Deep Belief Network (MSDBN) to\nidentify the common reasons hidden in multi-source rating data, and then calculate a consistency score for each item by comparing individual sources with the reconstructed\ndata derived from the latent reasons. We conduct experiments on real user ratings collected from Orbitz, Priceline and TripAdvisor on all the hotels in Las\nVegas and New York City. Experimental results demonstrate that the proposed approach successfully finds the hotels that receive inconsistent, and possibly unreliable, ratings."
+    },
+    {
+      "document_id": 957,
+      "score": null,
+      "abstract": "Web provides rich information about a variety of objects. Trustability is a major concern on the web. Truth establishment is an important task so as\nto provide the right information to the user from the most trustworthy source. Trustworthiness of information provider and the confidence of the facts it provides\nare inter-dependent on each other and hence can be expressed iteratively in terms of each other. However, a single information provider may not be the\nmost trustworthy for all kinds of information. Every information provider has its own area of competence where it can perform better than others. We derive\na model that can evaluate trustability on objects and information providers based on clusters (groups). We propose a method which groups the set of objects\nfor which similar set of providers provide \"good\" facts, and provides better accuracy in addition to high quality object clusters."
+    }
+  ]
+}

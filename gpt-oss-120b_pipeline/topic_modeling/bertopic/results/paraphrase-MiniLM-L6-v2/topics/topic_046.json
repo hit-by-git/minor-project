@@ -1,0 +1,45 @@
+{
+  "topic_id": 46,
+  "label": "T046",
+  "label_full": "Misinformation & Propaganda",
+  "keywords": [
+    "news",
+    "fake",
+    "problem",
+    "technologies",
+    "brand",
+    "ormrod",
+    "increasingly",
+    "2018",
+    "new",
+    "2007"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 110,
+      "score": null,
+      "abstract": "False information that is reported as news and frequently intended to harm reputations or make money is called fake news. It has been used to\nrefer to all types of misleading information since it was first introduced in the 1890s and is frequently produced by adversarial foreign actors. Due to\nthe variety of fake news kinds, experts increasingly prefer the term “information disorder” as a neutral and educational word. The study addresses information overload and\nfiltering issues on social media by introducing a new approach to assessing news reliability. It uses Cosine Similarity based Retriever Augmented Generation (RAG) technique and\nclassification deep learning algorithm to classify news as fake or real, with the best-performing feature predicting its authenticity. The system achieved 91% accuracy in testing.\n© 2024 Taylor & Francis Group, London."
+    },
+    {
+      "document_id": 314,
+      "score": null,
+      "abstract": "People are finding it simpler to find and ingest news as a result of the information’s easy access, quick expansion, and profusion on social media\nand in traditional news outlets. However, it is becoming increasingly difficult to distinguish between true and false information, which has resulted in the proliferation of\nfake news. Fake news is a term that refers to comments and journalism that intentionally mislead readers. Additionally, the legitimacy of social media sites, where\nthis news is primarily shared, is at stake. These fake news stories can have significant negative effects on society, so it is becoming increasingly important\nfor researchers to focus on how to identify them. In this research paper, we have compared ensemble learning models for identifying fake news by analyzing\na report’s accuracy and determining its veracity. The paper’s objective is to use natural language processing (NLP) and machine learning (ML) algorithms to identify false\nnews based on the content of news stories. The algorithms like decision trees, random forests, AdaBoost, and XGBoost classification are used for the project. A\nweb application has been developed using Python Flask framework to mitigate the challenges associated with identifying false information. © The Author(s), under exclusive license to\nSpringer Nature Singapore Pte Ltd 2023."
+    },
+    {
+      "document_id": 612,
+      "score": null,
+      "abstract": "The problem of fake news is a complex problem and is accompanied with social and economic ramifications. Targeted individuals and entities may lose trustworthiness, credibility\nand ultimately, suffer from reputation damages to their brand. Economically, an individual or brand may see fluctuations in revenue streams. In addition, the complex nature\nof the human language makes the problem of fake news a complex problem to solve for currently available computational remedies. The fight against the spread\nof fake news is a multi-disciplinary effort that will require research, collaboration and rapid development of tools and paradigms aimed at understanding and combating false\ninformation dissemination. This study explores fake news detection techniques using machine learning technology. Using a feature set which captures article structure, readability, and the similarity\nbetween the title and body, we show such features can deliver promising results. In the experiment, we select 6 machine learning algorithms, namely, AdaBoost as\nAB, Decision Tree as DT, K-Nearest Neighbour as KNN, Random Forest as RF, Support Vector Machine as SVM and XGBoost as XGB. To quantify a\nclassifier's performance, we use the confusion matrix model and other performance metrics. Given the structure of the experiment, we show the Support Vector Machine classifier\nprovided the best overall results. © 2020 IEEE."
+    },
+    {
+      "document_id": 615,
+      "score": null,
+      "abstract": "In a world flooded with information, often irrelevant, lucidity is power. Never as in this historical period can anyone, thanks to new technologies, participate as\na protagonist in the debates raised about events and issues that affect our society. In this flood of information, remaining lucid and knowing how to\ndiscriminate between real and false becomes fundamental. In this scenario, a leading role is played by Fake News, information that is partly or entirely untrue,\ndivulged through the Web, the media, or digital communication technologies. Fake news is characterized by an apparent plausibility, the latter fed by a distorted system\nof public opinion expectations, and by an amplification of the prejudices based on it, which facilitates its sharing and diffusion even in the absence of\nverification of the sources. Fake News is becoming a severe problem that affects various sectors of society: medicine, politics, culture, history are some of the\nareas that suffer most from the phenomenon of fake news, which can often generate significant social problems. will introduce a probabilistic approach to determining the\ndegree of truthfulness of the information. The system is based on the definition of some features, identified after an analysis of fake news in the\nliterature through NLP-based approaches and statistical methods. The specified features will highlight the syntactic, semantic, and social features of the information. These features are combined\nin a Bayesian Network, previously trained on a dataset composed of fake news, to provide a probabilistic level of the truthfulness of the information analyzed.\nThe proposed method has been tested in some real cases with very satisfactory results. © 2020, Springer Nature Switzerland AG."
+    },
+    {
+      "document_id": 618,
+      "score": null,
+      "abstract": "The misleading and propagandistic tendencies in American news reporting have been a part of public discussion from its earliest days as a republic (Innis, 2007;\nSheppard, 2007). “Fake news” is hardly new (McKernon, 1925), and the term has been applied to a variety of distinct phenomenon ranging from satire to\nnews, which one may find disagreeable (Jankowski, 2018; Tandoc et al., 2018). However, this problem has become increasingly acute in recent years with the Macquarie\nDictionary declaring “fake news” the word of the year in 2016 (Lavoipierre, 2017). The international recognition of fake news as a problem (Pomerantsev and Weiss,\n2014; Applebaum and Lucas, 2016) has led to a number of initiatives to mitigate perceived causes, with varying levels of success (Flanagin and Metzger, 2014;\nHorne and Adali, 2017; Sample et al., 2018). The inability to create a holistic solution continues to stymie researchers and vested parties. A significant contributor\nto the problem is the interdisciplinary nature of digital deception. While technology enables the rapid and wide dissemination of digitally deceptive data, the design and\nconsumption of data rely on a mixture of psychology, sociology, political science, economics, linguistics, marketing, and fine arts. The authors for this effort discuss deception’s\nhistory, both old and new, from an interdisciplinary viewpoint and then proceed to discuss how various disciplines contribute to aiding in the detection and countering\nof fake news narratives. A discussion of various fake news types (printed, staged events, altered photographs, and deep fakes) ensues with the various technologies being\nused to identify these; the shortcomings of those technologies and finally the insights offered by the other disciplines can be incorporated to improve outcomes. A\nthree-point evaluation model that focuses on contextual data evaluation, pattern spread, and archival analysis of both the author and publication archives is introduced. While the\nmodel put forth cannot determine fact from fiction, the ability to measure distance from fact across various domains provides a starting point for evaluating the\nveracity of a new story. © Copyright © 2020 Sample, Jensen, Scott, McAlaney, Fitchpatrick, Brockinton, Ormrod and Ormrod."
+    }
+  ]
+}

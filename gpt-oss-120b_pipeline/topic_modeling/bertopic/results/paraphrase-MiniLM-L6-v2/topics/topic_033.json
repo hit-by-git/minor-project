@@ -1,0 +1,55 @@
+{
+  "topic_id": 33,
+  "label": "T033",
+  "label_full": "Credibility Assessment",
+  "keywords": [
+    "twitter",
+    "tweets",
+    "centrality",
+    "credibility",
+    "tweet",
+    "features",
+    "events",
+    "used",
+    "verifier",
+    "extreme"
+  ],
+  "n_docs": 7,
+  "documents": [
+    {
+      "document_id": 385,
+      "score": null,
+      "abstract": "Occurrences of catastrophes such as natural or man-made disasters trigger the spread of rumours over social media at a rapid pace. Presenting a trustworthy and\nsummarized account of the unfolding event in near real-time to the consumers of such potentially unreliable information thus becomes an important task. In , we\npropose MTLTS, the first end-to-end solution for the task that jointly determines the credibility and summary-worthiness of tweets. Our credibility verifier is designed to recursively\nlearn the structural properties of a Twitter conversation cascade, along with the stances of replies towards the source tweet. We then take a hierarchical multi-task\nlearning approach, where the verifier is trained at a lower layer, and the summarizer is trained at a deeper layer where it utilizes the verifier\npredictions to determine the salience of a tweet. Different from existing disaster-specific summarizers, we model tweet summarization as a supervised task. Such an approach can\nautomatically learn summary-worthy features, and can therefore generalize well across domains. When trained on the PHEME dataset [29], not only do we outperform the strongest\nbaselines for the auxiliary task of verification/rumour detection, we also achieve 21 - 35% gains in the verified ratio of summary tweets, and 16 -\n20% gains in ROUGE1-F1 scores over the existing state-of-the-art solutions for the primary task of trustworthy summarization."
+    },
+    {
+      "document_id": 472,
+      "score": null,
+      "abstract": "Twitter has become a popular platform to receive daily updates. The more the people rely on it, the more critical it becomes to get genuine\ninformation out. False information can easily be shared on Twitter, which influences people's feelings, especially if fake information is linked to COVID-19. Therefore, it is\nof utmost importance to detect fake information before it becomes uncontrollable. Real-time tweets were used as part of this study. A few features like tweet’s\ntext, sentiment etc., were extracted and analyzed. The project returns a set of statistics determining the tweet’s veracity. , various classifiers have been used to\nsee which of them works best with the proposed model in classifying the used dataset. The proposed model achieved the best accuracy of 84.54% and\nthe highest F1-score of 0.842 with Random Forest. With careful analysis while feature selection and using few features, the model developed is equivalent in performance\nto the other models that use a lot of features. This confirms that the model developed is less complex and highly dependable. © 2022, The\nAuthor(s), under exclusive licence to Springer Nature Singapore Pte Ltd."
+    },
+    {
+      "document_id": 580,
+      "score": null,
+      "abstract": "Although Twitter constitutes as one of the primary sources of real-time news with users acting as the sensors updating the content from all across the\nglobe, yet the spread of rumours via Twitter is becoming an increasingly alarming issue and is known to have caused significant damage already. We propose\na credibility analysis approach based on the linguistic structure of the tweets. We not only characterize the Twitter events but also predict their perceived credibility\nof them by a novel deep learning architecture. We use the huge CREDBANK data to conduct our experiments. Some of our exciting findings are that\nstandard LIWC categories like 'negate', 'discrep', 'cogmech', 'swear' and the Empath categories like 'hate', 'poor', 'government', 'worship' and 'swearing-terms' correlate negatively with the credibility of\nevents. While some of our results resonate with the earlier literature others represent novel insights of the fake and legitimate twitter events. Using the above\nobservations and the current deep learning architecture we predict the credibility of an event (a four-class classification problem in our case) with an accuracy of\n0.54 that improves the best-known state-of-the-art (current accuracy 0.43) by ~ 26%. A fascinating observation is that even by looking at the first few tweets\nof an event, it is possible to make the prediction almost as accurate as in the case where the entire volume of tweets is observed."
+    },
+    {
+      "document_id": 669,
+      "score": null,
+      "abstract": "Twitter is an important place to get access to breaking news and information. So, it is necessary to check the trustworthiness of tweets. Credibility is\nused to assess the quality of being believable or worthy of trust. Credibility analysis refers to attempt to an ascertain truthfulness in short lie detection.\nIn , credibility of the twitter data can be assessed using centrality measures. First the tweets are preprocessed using the preprocessing techniques. The preprocessing techniques\non tweets: a stop word removal, stemming, pos tagging etc. are used to improve the performance. Preprocessed twitter data can be used to identify the\ntweet and author features. Then the centrality measures are applied to the preprocessed dataset. The proposed centrality measures used in are Betweeness centrality, Eigenvector centrality,\nDegree centrality and Closeness centrality. The centrality measures are used to find out the trust between the users and it will be given as input\nto classifiers. The classifiers like Naïve Bayesian, Support Vector Machine and K Nearest Neighbor are used to classify the tweets based on credibility. © BEIESP."
+    },
+    {
+      "document_id": 706,
+      "score": null,
+      "abstract": "In the “Information Age”, Smart Cities rely on a wide range of different data sources. Among them, social networks can play a big role, if\ninformation veracity is assessed. Veracity assessment has been, and is, a rather popular research field. Specifically, our work investigates the credibility of data from Twitter,\nan online social network and a news media, by considering not only credibility, and type, but also origin. Our analysis proceeds in four phases: Features\nExtraction, Features Analysis, Features Selection, and Classification. Finally, we classify whether a Tweet is credible or incredible, is rumor or spam, is generated by a\nhuman or a Bot. We use Social Media Mining and Machine Learning techniques. Our analysis reaches an overall accuracy higher than the benchmark, and it\nadds the origin dimension to the credibility analysis method. © 2018, ICST Institute for Computer Sciences, Social Informatics and Telecommunications Engineering."
+    },
+    {
+      "document_id": 753,
+      "score": null,
+      "abstract": "Twitter has evolved from being a conversation or opinion sharing medium into a platform to publicize information about high impact events. Now day's any events\nin the real world create a corresponding flood of tweets on Twitter, but not all content posted on Twitter is trustworthy for providing information about\nthe event. The primary objective of is to analyze the credibility of information in tweets corresponding to high impact events. The identification of content and\nsourced based features will be using regression analysis. Prominent content based features are number of unique characters; swear words, pronouns, and emoticons in a tweet,\nand user based features, for instance, number of followers and length of username. Furthermore, it reverts at implementing an algorithm to improve the trustworthiness and\nrelevance assessment of micro blogs, using automated ranking techniques to assess credibility at the most atomic level of information on Twitter, i.e. at 'tweet level'.\nIt also includes URL and Hash Tags based ranking techniques which further improves the results and credibility of the algorithm. The preferred architecture utilizes the\nfundamental features of tweets to full extent and provides user with the most efficient information. © 2016 IEEE."
+    },
+    {
+      "document_id": 755,
+      "score": null,
+      "abstract": "Twitter, as a popular social networking tool that allows its users to conveniently propagate information, has been widely used by politicians and political campaigners worldwide.\nIn the past years, Twitter has come under scrutiny due to its lack of filtering mechanisms, which lead to the propagation of trolling, bullying, and\nother unsocial behaviors. Rumors can also be easily created on Twitter, e.g., by extreme political campaigners, and widely spread by readers who cannot judge their\ntruthfulness. Current work on Twitter message assessment, however, focuses on credibility, which is subjective and can be affected by assessor’s bias. In , we focus\non the actual message truthfulness, and propose a rule-based method for detecting political rumors on Twitter based on identifying extreme users. We employ clustering methods\nto identify news tweets. In contrast with other methods that focus on the content of tweets, our unsupervised classification method employs five structural and timeline\nfeatures for the detection of extreme users. We show with extensive experiments that certain rules in our rule set provide accurate rumor detection with precision\nand recall both above 80 %, while some other rules provide 100% precision, although with lower recalls. © Springer International Publishing AG 2016."
+    }
+  ]
+}

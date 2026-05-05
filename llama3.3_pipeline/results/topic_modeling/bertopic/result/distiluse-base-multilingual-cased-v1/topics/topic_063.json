@@ -1,0 +1,45 @@
+{
+  "topic_id": 63,
+  "label": "T063",
+  "label_full": "big, fact",
+  "keywords": [
+    "big",
+    "fact",
+    "dimensions",
+    "statement",
+    "search",
+    "computational",
+    "data",
+    "volume",
+    "triple",
+    "quality"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 831,
+      "score": null,
+      "abstract": "Among different characteristics of knowledge bases, data quality is one of the most relevant to maximize the benefits of the provided information. Knowledge base quality\nassessment poses a number of big data challenges such as high volume, variety, velocity, and veracity. In this article, we focus on answering questions related\nto the assessment of the veracity of facts through Deep Fact Validation (DeFacto), a triple validation framework designed to assess facts in RDF knowledge bases.\nDespite current developments in the research area, the underlying framework faces many challenges. This article pinpoints and discusses these issues and conducts a thorough analysis\nof its pipeline, aiming at reducing the error propagation through its components. Furthermore, we discuss recent developments related to this fact validation as well as\ndescribing advantages and drawbacks of state-of-the-art models. As a result of this exploratory analysis, we give insights and directions toward a better architecture to tackle\nthe complex task of fact-checking in knowledge bases."
+    },
+    {
+      "document_id": 871,
+      "score": null,
+      "abstract": "The volume of information generated online makes it impossible to manually fact-check all claims. Computational approaches for fact checking may be the key to help\nmitigate the risks of massive misinformation spread. Such approaches can be designed to not only be scalable and effective at assessing veracity of dubious claims,\nbut also to boost a human fact checker's productivity by surfacing relevant facts and patterns to aid their analysis. We present a novel, unsupervised network-flow\nbased approach to determine the truthfulness of a statement of fact expressed in the form of a triple. We view a knowledge graph of background\ninformation about real-world entities as a flow network, and show that computational fact checking then amounts to finding a 'knowledge stream' connecting the subject and\nobject of the triple. Evaluation on a range of real-world and hand-crafted datasets of facts reveals that this network-flow model can be very effective in\ndiscerning true statements from false ones, outperforming existing algorithms on many test cases. Moreover, the model is expressive in its ability to automatically discover several\nuseful patterns and surface relevant facts that may help a human fact checker. © 2017 IEEE."
+    },
+    {
+      "document_id": 918,
+      "score": null,
+      "abstract": "Traditional fact checking by expert journalists cannot keep up with the enormous volume of information that is now generated online. Computational fact checking may significantly\nenhance our ability to evaluate the veracity of dubious information. Here we show that the complexities of human fact checking can be approximated quite well\nby finding the shortest path between concept nodes under properly defined semantic proximity metrics on knowledge graphs. Framed as a network problem this approach is\nfeasible with efficient computational techniques. We evaluate this approach by examining tens of thousands of claims related to history, entertainment, geography, and biographical information using\na public knowledge graph extracted from Wikipedia. Statements independently known to be true consistently receive higher support via our method than do false ones. These\nfindings represent a significant step toward scalable computational fact-checking methods that may one day mitigate the spread of harmful misinformation. Copyright: © 2015 Ciampaglia et\nal."
+    },
+    {
+      "document_id": 927,
+      "score": null,
+      "abstract": "Untruthful information spreads on the web, which may mislead users or have a negative impact on user experience. In , we propose a method, called\nMulti-verifier, to determine the truthfulness of a fact statement. The basic idea is that whether a fact statement is truthful or not depends on the\ninformation related to the fact statement. We utilize a popular search engine to collect the top-K search results that are most related to the target\nfact statement. We then propose support score to measure the extent to which a search result supports the fact statement based on semantic constituent analysis,\nand we make use of credibility ranking to rank the search results. At last, we combine the support score and credibility ranking value of a\nsearch result to evaluate its contribution to a fact statement determination. Based on the contributions of the search results, we determine the fact statement. Our\nproposals are evaluated by experiments and results show availability and high precision of the proposed method. © 2014, Springer Science+Business Media New York."
+    },
+    {
+      "document_id": 935,
+      "score": null,
+      "abstract": "argues that big data can possess different characteristics, which affect its quality. Depending on its origin, data processing technologies, and methodologies used for data collection\nand scientific discoveries, big data can have biases, ambiguities, and inaccuracies which need to be identified and accounted for to reduce inference errors and improve\nthe accuracy of generated insights. Big data veracity is now being recognized as a necessary property for its utilization, complementing the three previously established quality\ndimensions (volume, variety, and velocity), But there has been little discussion of the concept of veracity thus far. provides a roadmap for theoretical and empirical\ndefinitions of veracity along with its practical implications. We explore veracity across three main dimensions: 1) objectivity/subjectivity, 2) truthfulness/deception, 3) credibility/implausibility – and propose to\noperationalize each of these dimensions with either existing computational tools or potential ones, relevant particularly to textual data analytics. We combine the measures of veracity\ndimensions into one composite index – the big data veracity index. This newly developed veracity index provides a useful way of assessing systematic variations in\nbig data quality across datasets with textual information. The paper contributes to the big data research by categorizing the range of existing tools to measure\nthe suggested dimensions, and to Library and Information Science (LIS) by proposing to account for heterogeneity of diverse big data, and to identify information quality\ndimensions important for each big data type. © 2014, American Society for Information Science and Technology. All rights reserved."
+    }
+  ]
+}

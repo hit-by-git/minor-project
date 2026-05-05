@@ -1,0 +1,45 @@
+{
+  "topic_id": 49,
+  "label": "T049",
+  "label_full": "Misinformation & Propaganda",
+  "keywords": [
+    "argumentation",
+    "disinformation",
+    "inceptionresnetv2",
+    "fusion",
+    "data",
+    "albert",
+    "sources",
+    "using",
+    "critical",
+    "web"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 207,
+      "score": null,
+      "abstract": "Nowadays, the spread of disinformation poses a major challenge for society. Citizens find themselves immersed in a complex and data-saturated digital context that hinders their\nability to critically discern between truthful information and disinformation. The task is complex because disinformation often appears in the form of rhetorical manipulations, logical fallacies,\nor distortions of the truth. This project aims to develop a system for detecting disinformation based on computational argumentation techniques and large language models, which\npromotes critical thinking and media literacy in society. The implemented web tool analyzes the patterns of human reasoning used in argumentation, classifying arguments into argumentation\nschemes defined by argumentation theory. After identifying the argumentation scheme, the system thoroughly examines the reasoning presented in the argument and uses a set of\ncritical questions to question its validity. Using a large language model, enhanced with external contextualization from various information sources, the system is guided in the\nprocess of evaluating the truthfulness of the argument. The final response includes both a qualitative and quantitative justification of the level of truthfulness, providing links\nand references to the information sources used in the evaluation. © 2024 Copyright for by its authors."
+    },
+    {
+      "document_id": 301,
+      "score": null,
+      "abstract": "The nuisance of misinformation and fake news has escalated many folds since the advent of online social networks. Human consciousness and decision-making capabilities are negatively\ninfluenced by manipulated, fabricated, biased or unverified news posts. Therefore, there is a high demand for designing veracity analysis systems to detect fake information contents\nin multiple data modalities. In an attempt to find a sophisticated solution to this critical issue, we proposed an architecture to consider both the textual\nand visual attributes of the data. After the data pre-processing is done, text and image features are extracted from the training data using separate deep\nlearning models. Feature extraction from text is done using BERT and ALBERT language models that leverage the benefits of bidirectional training of transformers using a\ndeep self-attention mechanism. The Inception-ResNet-v2 deep neural network model is employed for image data to perform the task. The proposed framework focused on two independent\nmulti-modal fusion architectures of BERT and Inception-ResNet-v2 as well as ALBERT and Inception-ResNet-v2. Multi-modal fusion of textual and visual branches is extensively experimented and analysed\nusing concatenation of feature vectors and weighted averaging of probabilities named as Early Fusion and Late Fusion respectively. Three publicly available broadly accepted datasets All\nData, and MediaEval 2016 that incorporates English news articles, Chinese news articles, and Tweets correspondingly are used so that our designed framework's outcomes can be\nproperly tested and compared with previous notable work in the domain. The accuracy varies on different datasets using different fusion methods. The recommended multi-modal technique\naccomplishes 97.19 % highest accuracy on All Data dataset using ALBERT & Inception-ResNet-v2 late fusion framework, which is notably better than all the previous works\nin the domain of veracity and credibility assessment of online information contents. © 2023 Elsevier Ltd"
+    },
+    {
+      "document_id": 400,
+      "score": null,
+      "abstract": "Creating classifiers of disinformation is time-consuming, expensive, and requires vast effort from experts spanning different fields. Even when these efforts succeed, their roll-out to publicly\navailable applications stagnates. While these models struggle to find their consumer-accessible use, disinformation behavior online evolves at a pressing speed. The hoaxes get shared in\nvarious abbreviations on social networks, often in user-restricted areas, making external monitoring and intervention virtually impossible. To re-purpose existing NLP methods for the new paradigm\nof sharing misinformation, we propose leveraging information about given texts' originating news sources to proxy the respective text's trustworthiness. We first present a methodology for\ndetermining the sources' overall credibility. We demonstrate our pipeline construction in a specific language and introduce CNSC: a novel dataset for Czech articles' news source\nand source credibility classification. We constitute initial benchmarks on multiple architectures. Lastly, we create in-the-wild wrapper applications of the trained models: a chatbot, a browser\nextension, and a standalone web application. © 2022 Association for Computational Linguistics."
+    },
+    {
+      "document_id": 513,
+      "score": null,
+      "abstract": "Although written deception is not a new invention, the emergence and progress of electronic media—and more recently social media—has changed the speed and extent of\naccess to information in a good way, but at the same time facilitating the proliferation of disinformation as well. Automatic veracity determination, therefore, became a\nwidely studied problem in the last years. We claim that without using a knowledge base and fact-checking, that is based solely on textual content features\none cannot truly fight this phenomenon, nevertheless, such a deception detection system can be used beneficially in certain situations. In the present study we apply\ntext categorization methods to detect fake news without involving any external knowledge base (e.g. lexicons, unlabeled corpora, pre-trained word vectors, etc.). We employ traditional bag-of-words\nand more recent end-to-end neural network models, and evaluate them on eight—five smaller and three larger—fake news datasets. The experimental results show that one can\nattain considerably precise detection performance, in some cases even in the very close vicinity of the perfect F1 score, using solely the labeled data. We\nalso strive to explain why some of these approaches imply a better performance than others. © 2021, Springer Nature Switzerland AG."
+    },
+    {
+      "document_id": 608,
+      "score": null,
+      "abstract": "Unorganized data is a massive source of cluttered information available over the web. It possesses a major problem when this data originates from unauthenticated sources\ncreating confusion among the general public. The amount of fake news regarding the current COVID-19 scenario and political movements have had an adverse effect on\nthe world. It is necessary to devise models and a step by step algorithm to tackle this challenge. talks about a model that identifies data\navailable over the web and performs crawling to get information about the data sources and maps the information with regards to the authenticity of the\nsource. We look at possible web perspectives of data sources, official social media handles, reviewed agency lists, sentiment analysis, and calculate a value for a\npiece of particular news. The observed critical value looks for identifying the authenticity of the news and forms the basis of this idea. also looks\nat a model that uses supervised learning to classify various news items depending on the defined criteria. © 2020 IEEE."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "topic_id": 52,
+  "label": "T052",
+  "label_full": "Misinformation & Propaganda",
+  "keywords": [
+    "stance",
+    "news",
+    "proposal",
+    "collecting",
+    "fake",
+    "truefalse",
+    "corpus",
+    "methodological",
+    "architecture",
+    "norwegian"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 273,
+      "score": null,
+      "abstract": "This study presents a new dataset for fake news analysis and detection, namely, the PolitiFact-Oslo Corpus. The corpus contains samples of both fake and real\nnews in English, collected from the fact-checking website PolitiFact.com. It grew out of a need for a more controlled and effective dataset for fake news\nanalysis and detection model development based on recent events. Three features make it uniquely placed for this: (i) the texts have been individually labelled for\nveracity by experts, (ii) they are complete texts that strictly correspond to the claims in question, and (iii) they are accompanied by important metadata such\nas text type (e.g., social media, news and blog). In relation to this, we present a pipeline for collecting quality data from major fact-checking websites,\na procedure which can be replicated in future corpus building efforts. An exploratory analysis based on sentiment and part-of-speech information reveals interesting differences between fake\nand real news as well as between text types, thus highlighting the importance of adding contextual information to fake news corpora. Since the main application\nof the PolitiFact-Oslo Corpus is in automatic fake news detection, we critically examine the applicability of the corpus and another PolitiFact dataset built based on\nless strict criteria for various deep learning-based efficient approaches, such as Bidirectional Long Short-Term Memory (Bi-LSTM), LSTM fine-tuned transformers such as Bidirectional Encoder Representations from\nTransformers (BERT) and RoBERTa, and XLNet. © 2023 by the authors."
+    },
+    {
+      "document_id": 315,
+      "score": null,
+      "abstract": "The high level of technological development has enabled fake news to spread faster than real news in cyberspace, leading to significant impacts on the balance\nand sustainability of current and future social systems. At present, collecting fake news data and using artificial intelligence to detect fake news have an important\nimpact on building a more sustainable and resilient society. Existing methods for detecting fake news have two main limitations: they focus only on the classification\nof news authenticity, neglecting the semantics between stance information and news authenticity. No cognitive-related information is involved, and there are not enough data on stance\nclassification and news true-false classification for the study. Therefore, we propose a fake news analysis method based on stance information for explainable fake news detection.\nTo make better use of news data, we construct a fake news dataset built on cognitive information. The dataset primarily consists of stance labels, along\nwith true-false labels. We also introduce stance information to further improve news falsity analysis. To better explain the relationship between fake news and stance, we\nuse propensity score matching for causal inference to calculate the correlation between stance information and true-false classification. The experiment result shows that the propensity score\nmatching for causal inference yielded a negative correlation between stance consistency and fake news classification. © 2023 by the authors."
+    },
+    {
+      "document_id": 358,
+      "score": null,
+      "abstract": "This chapter presents the methodological considerations, the challenges and the opportunities, of investigating the language of fake news across cultures. The methodological considerations are based\non the Fakespeak project, an interdisciplinary project involving linguists and computer scientists whose objectives are, firstly, to reveal the language and style of fake news\nin English, Norwegian, and Russian and, secondly, to see whether the findings can help improve existing fake news detection systems. The procedure of collecting data\nin the three languages representing three different cultures (e.g. English in the USA) presented several methodological challenges, which required innovative solutions. The challenges were quite\ndifferent in each case, with access to quality data (collections of fake and genuine news individually labelled for veracity by experts) being especially limited for\nNorwegian and Russian, albeit for different reasons. The datasets that have emerged from the Fakespeak project so far are very diverse, including both large datasets\nwith news written by a mix of authors (so-called general datasets) and smaller datasets with fake and genuine news written by the same author (single-authored\nand hybrid, multiauthored datasets). The diversity of data types is important for linguistic analyses of fake news so that meaningful comparisons with genuine news can\nbe made, as well as for the subsequent development of automatic detection systems. © 2024 selection and editorial matter, Stefania M. Maci, Massimiliano Demata, Mark\nMcGlashan and Philip Seargeant individual chapters, the contributors."
+    },
+    {
+      "document_id": 599,
+      "score": null,
+      "abstract": "presents a novel architecture for dealing with Automatic Fake News detection. The architecture factors in the discourse structure of news in traditional digital media and\nis based on two premises. First, fake news tends to mix true and false information with the purpose of confusing readers. Second, this research is\nfocused on fake news delivered in traditional digital media, so our approach considers the influence of the journalistic structure of news, and the way journalists\ntend to introduce the essential content in a news story using 5W1H answer. Considering both premises, this proposal deals with the news components separately because\nsome may be true or false, instead of considering the veracity value of the news article as a unit. A two-layer architecture is proposed, Structure\nand Veracity layers. To demonstrate the validity of the proposal, a new dataset was created and annotated with a new fine-grained annotation scheme (FNDeepML) that\nconsiders the different elements of the news document and their veracity. Due to the severity of the COVID-19 pandemic crisis, health is the chosen domain,\nand Spanish is the language used to validate the architecture, given the lack of research in this language. However, the proposal can be applied to\nany other language or domain. The performance of the Veracity layer of our proposal, which factors in the traditional news article structure and the 5W1H\nannotation, is capable of delivering a result of F1=0.807. This represents a strong improvement when compared to the baseline, which uses the whole document with\na single veracity value, obtaining F1=0.605. These findings validate the suitability and effectiveness of our approach. © 2020 Elsevier Ltd"
+    },
+    {
+      "document_id": 787,
+      "score": null,
+      "abstract": "Fake news has become an important topic of research in a variety of disciplines including linguistics and computer science. In , we explain how the\nproblem is approached from the perspective of natural language processing, with the goal of building a system to automatically detect misinformation in news. The main\nchallenge in this line of research is collecting quality data, i.e., instances of fake and real news articles on a balanced distribution of topics. We\nreview available datasets and introduce the MisInfoText repository as a contribution of our lab to the community. We make available the full text of the\nnews articles, together with veracity labels previously assigned based on manual assessment of the articles’ truth content. We also perform a topic modelling experiment to\nelaborate on the gaps and sources of imbalance in currently available datasets to guide future efforts. We appeal to the community to collect more data\nand to make it available for research purposes. © The Author(s) 2019."
+    }
+  ]
+}

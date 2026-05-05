@@ -1,0 +1,50 @@
+{
+  "topic_id": 43,
+  "label": "T043",
+  "label_full": "forums, cqa",
+  "keywords": [
+    "forums",
+    "cqa",
+    "debates",
+    "debate",
+    "task",
+    "forum",
+    "question",
+    "political",
+    "community",
+    "answering"
+  ],
+  "n_docs": 6,
+  "documents": [
+    {
+      "document_id": 753,
+      "score": null,
+      "abstract": "Community Question Answering forums are very popular nowadays, as they represent effective means for communities to share information around particular topics. But the information shared\non these forums are often not authentic. presents the ColumbiaNLP submission for the SemEval-2019 Task 8: Fact-Checking in Community Question Answering Forums. We show how\nfine-tuning a language model on a large unannotated corpus of old threads from Qatar Living forum helps us to classify question types (factual, opinion, socializing)\nand to judge the factuality of answers on the shared task labeled data from the same forum. Our system finished 4th and 2nd on Subtask\nA (question type classification) and B (answer factuality prediction), respectively, based on the official metric of accuracy."
+    },
+    {
+      "document_id": 754,
+      "score": null,
+      "abstract": "We describe our system for SemEval-2019, Task 8 on “Fact-Checking in Community Question Answering Forums (cQA)”. cQA forums are very prevalent nowadays, as they provide\nan effective means for communities to share knowledge. Unfortunately, this shared information is not always factual and fact-verified. In this task, we aim to identify\nfactual questions posted on cQA and verify the veracity of answers to these questions. Our approach relies on data augmentation and aggregates cues from several\ndimensions such as semantics, linguistics, syntax, writing style and evidence obtained from trusted external sources. In subtask A, our submission is ranked 3rd, with an\naccuracy of 83.14%. Our current best solution stands 1st on the leaderboard with 88% accuracy. In subtask B, our present solution is ranked 2nd, with\n58.33% MAP score."
+    },
+    {
+      "document_id": 757,
+      "score": null,
+      "abstract": "We study the problem of automatic fact-checking, paying special attention to the impact of contextual and discourse information. We address two related tasks: (i)&nbsp;detecting check-worthy\nclaims and (ii)&nbsp;fact-checking claims. We develop supervised systems based on neural networks, kernel-based support vector machines, and combinations thereof, which make use of rich input\nrepresentations in terms of discourse cues and contextual features. For the check-worthiness estimation task, we focus on political debates, and we model the target claim\nin the context of the full intervention of a participant and the previous and following turns in the debate, taking into account contextual meta information.\nFor the fact-checking task, we focus on answer verification in a community forum, and we model the veracity of the answer with respect to the\nentire question–answer thread in which it occurs as well as with respect to other related posts from the entire forum. We develop annotated datasets for\nboth tasks and we run extensive experimental evaluation, confirming that both types of information—but especially contextual features—play an important role."
+    },
+    {
+      "document_id": 807,
+      "score": null,
+      "abstract": "We present an overview of the 2nd edition of the CheckThat! Lab, part of CLEF 2019, with focus on Task 1: Check-Worthiness in political debates.\nThe task asks to predict which claims in a political debate should be prioritized for fact-checking. In particular, given a debate or a political speech,\nthe goal is to produce a ranked list of its sentences based on their worthiness for fact-checking. This year, we extended the 2018 dataset with\n16 more debates and speeches. A total of 47 teams registered to participate in the lab, and eleven of them actually submitted runs for Task\n1 (compared to seven last year). The evaluation results show that the most successful approaches to Task 1 used various neural networks and logistic regression.\nThe best system achieved mean average precision of 0.166 (0.250 on the speeches, and 0.054 on the debates). This leaves large room for improvement, and\nthus we release all datasets and scoring scripts, which should enable further research in check-worthiness estimation. © 2019 for by its authors. Use permitted under\nCreative Commons License Attribution 4.0 International (CC BY 4.0). CLEF 2019, 9-12 September 2019, Lugano, Switzerland."
+    },
+    {
+      "document_id": 839,
+      "score": null,
+      "abstract": "We present an overview of the CLEF-2018 CheckThat! Lab on Automatic Identification and Verification of Political Claims. In its starting year, the lab featured two\ntasks. Task 1 asked to predict which (potential) claims in a political debate should be prioritized for fact-checking; in particular, given a debate or a\npolitical speech, the goal was to produce a ranked list of its sentences based on their worthiness for fact-checking. Task 2 asked to assess whether\na given check-worthy claim made by a politician in the context of a debate/speech is factually true, half-true, or false. We offered both tasks in\nEnglish and in Arabic. In terms of data, for both tasks, we focused on debates from the 2016 US Presidential Campaign, as well as on\nsome speeches during and after the campaign (we also provided translations in Arabic), and we relied on comments and factuality judgments from factcheck.org and snopes.com,\nwhich we further refined manually. A total of 30 teams registered to participate in the lab, and 9 of them actually submitted runs. The evaluation\nresults show that the most successful approaches used various neural networks (esp. for Task 1) and evidence retrieval from the Web (esp. for Task 2).\nWe release all datasets, the evaluation scripts, and the submissions by the participants, which should enable further research in both check-worthiness estimation and automatic claim\nverification. © Springer Nature Switzerland AG 2018."
+    },
+    {
+      "document_id": 859,
+      "score": null,
+      "abstract": "Community Question Answering (cQA) forums are very popular nowadays, as they represent effective means for communities around particular topics to share information. Unfortunately, this information\nis not always factual. Thus, here we explore a new dimension in the context of cQA, which has been ignored so far: checking the veracity\nof answers to particular questions in cQA forums. As this is a new problem, we create a specialized dataset for it. We further propose a\nnovel multi-faceted model, which captures information from the answer content (what is said and how), from the author profile (who says it), from the rest\nof the community forum (where it is said), and from external authoritative sources of information (external support). Evaluation results show a MAP value of 86.54,\nwhich is 21 points absolute above the baseline. Copyright © 2018, Association for the Advancement of Artificial Intelligence ( All rights reserved."
+    }
+  ]
+}

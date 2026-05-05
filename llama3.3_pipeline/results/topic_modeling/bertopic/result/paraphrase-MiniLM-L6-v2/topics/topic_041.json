@@ -1,0 +1,55 @@
+{
+  "topic_id": 41,
+  "label": "T041",
+  "label_full": "Fact-Checking & Verification",
+  "keywords": [
+    "claim",
+    "relevance",
+    "probability",
+    "vence",
+    "dataset",
+    "evidence",
+    "editing",
+    "tokens",
+    "perevidence",
+    "veracity"
+  ],
+  "n_docs": 7,
+  "documents": [
+    {
+      "document_id": 31,
+      "score": null,
+      "abstract": "Detecting the veracity of a statement automatically is a challenge the world is grappling with due to the vast amount of data spread across the\nweb. Verifying a given claim typically entails validating it within the framework of supporting evidence like a retrieved piece of text. Classifying the stance of\nthe text with respect to the claim is called stance classification. Despite advancements in automated fact-checking, most systems still rely on a substantial quantity of\nlabeled training data, which can be costly. In , we avoid the costly training or fine-tuning of models by reusing pre-trained large language models together\nwith few-shot in-context learning. Since we do not train any model, our approach ExPrompt is lightweight, demands fewer resources than other stance classification methods and\ncan serve as a modern baseline for future developments. At the same time, our evaluation shows that our approach is able to outperform former state-of-the-art\nstance classification approaches regarding accuracy by at least 2 percent. Our scripts and data used in are available at"
+    },
+    {
+      "document_id": 235,
+      "score": null,
+      "abstract": "We present Claim-Dissector: a novel latent variable model for fact-checking and analysis, which given a claim and a set of retrieved evidence jointly learns to\nidentify: (i) the relevant evidences to the given claim (ii) the veracity of the claim. We propose to disentangle the per-evidence relevance probability and its\ncontribution to the final veracity probability in an interpretable way — the final veracity probability is proportional to a linear ensemble of per-evidence relevance probabilities.\nIn this way, the individual contributions of evidences towards the final predicted probability can be identified. In per-evidence relevance probability, our model can further distinguish\nwhether each relevant evidence is supporting (S) or refuting (R) the claim. This allows to quantify how much the S/R probability contributes to final verdict\nor to detect disagreeing evidence. Despite its interpretable nature, our system achieves results competetive with state-of-the-art on the FEVER dataset, as compared to typical two-stage\nsystem pipelines, while using significantly fewer parameters. Furthermore, our analysis shows that our model can learn fine-grained relevance cues while using coarse-grained supervision and we\ndemonstrate it in 2 ways. (i) We show that our model can achieve competitive sentence recall while using only paragraph-level relevance supervision. (ii) Traversing towards\nthe finest granularity of relevance, we show that our model is capable of identifying relevance at the token level. To do this, we present a\nnew benchmark TLR-FEVER focusing on token-level interpretability — humans annotate tokens in relevant evidences they considered essential when making their judgment. Then we measure how\nsimilar are these annotations to the tokens our model is focusing on."
+    },
+    {
+      "document_id": 247,
+      "score": null,
+      "abstract": "We propose end-to-end multimodal fact-checking and explanation generation, where the input is a claim and a large collection of web sources, including articles, images, videos,\nand tweets, and the goal is to assess the truthfulness of the claim by retrieving relevant evidence and predicting a truthfulness label (e.g., support, refute\nor not enough information), and to generate a statement to summarize and explain the reasoning and ruling process. To support this research, we construct MOCHEG,\na large-scale dataset consisting of 15,601 claims where each claim is annotated with a truthfulness label and a ruling statement, and 33,880 textual paragraphs and\n12,112 images in total as evidence. To establish baseline performances on MOCHEG, we experiment with several state-of-the-art neural architectures on the three pipelined subtasks: multimodal\nevidence retrieval, claim verification, and explanation generation, and demonstrate that the performance of the state-of-the-art end-to-end multimodal fact-checking does not provide satisfactory outcomes. To the\nbest of our knowledge, we are the first to build the benchmark dataset and solutions for end-to-end multimodal fact-checking and explanation generation. The dataset, source\ncode and model checkpoints are available at"
+    },
+    {
+      "document_id": 268,
+      "score": null,
+      "abstract": "Given a possibly false claim sentence, how can we automatically correct it with minimal editing? Existing methods either require a large number of pairs of\nfalse and corrected claims for supervised training or do not handle well errors spanning over multiple tokens within an utterance. In , we propose VENCE,\na novel method for factual error correction (FEC) with minimal edits. VENCE formulates the FEC problem as iterative sampling editing actions with respect to a\ntarget density function. We carefully design the target function with predicted truthfulness scores from an offline trained fact verification model. VENCE samples the most probable\nediting positions based on back-calculated gradients of the truthfulness score concerning input tokens and the editing actions using a distantly-supervised language model (T5). Experiments on\na public dataset show that VENCE improves the well-adopted SARI metrics by 5.3 (or a relative improvement of 11.8%) over the previous best distantly-supervised methods.\nCopyright © 2023, Association for the Advancement of Artificial Intelligence ( All rights reserved."
+    },
+    {
+      "document_id": 275,
+      "score": null,
+      "abstract": "In , we examine several methods of acquiring Czech data for automated fact-checking, which is a task commonly modeled as a classification of textual claim\nveracity w.r.t. a corpus of trusted ground truths. We attempt to collect sets of data in form of a factual claim, evidence within the ground\ntruth corpus, and its veracity label (supported, refuted or not enough info). As a first attempt, we generate a Czech version of the large-scale FEVER\ndataset built on top of Wikipedia corpus. We take a hybrid approach of machine translation and document alignment; the approach and the tools we provide\ncan be easily applied to other languages. We discuss its weaknesses, propose a future strategy for their mitigation and publish the 127k resulting translations, as\nwell as a version of such dataset reliably applicable for the Natural Language Inference task—the CsFEVER-NLI. Furthermore, we collect a novel dataset of 3,097 claims,\nwhich is annotated using the corpus of 2.2 M articles of Czech News Agency. We present an extended dataset annotation methodology based on the FEVER\napproach, and, as the underlying corpus is proprietary, we also publish a standalone version of the dataset for the task of Natural Language Inference we\ncall CTKFactsNLI. We analyze both acquired datasets for spurious cues—annotation patterns leading to model overfitting. CTKFacts is further examined for inter-annotator agreement, thoroughly cleaned, and\na typology of common annotator errors is extracted. Finally, we provide baseline models for all stages of the fact-checking pipeline and publish the NLI datasets,\nas well as our annotation platform and other experimental data. © 2023, The Author(s)."
+    },
+    {
+      "document_id": 755,
+      "score": null,
+      "abstract": "We contribute the largest publicly available dataset of naturally occurring factual claims for the purpose of automatic claim verification. It is collected from 26 fact\nchecking websites in English, paired with textual sources and rich metadata, and labelled for veracity by human expert journalists. We present an in-depth analysis of\nthe dataset, highlighting characteristics and challenges. Further, we present results for automatic veracity prediction, both with established baselines and with a novel method for joint\nranking of evidence pages and predicting veracity that outperforms all baselines. Significant performance increases are achieved by encoding evidence, and by modelling metadata. Our best-performing\nmodel achieves a Macro F1 of 49.2%, showing that this is a challenging testbed for claim veracity prediction."
+    },
+    {
+      "document_id": 809,
+      "score": null,
+      "abstract": "We contribute the largest publicly available dataset of naturally occurring factual claims for the purpose of automatic claim verification. It is collected from 26 fact\nchecking websites in English, paired with textual sources and rich metadata, and labelled for veracity by human expert journalists. We present an in-depth analysis of\nthe dataset, highlighting characteristics and challenges. Further, we present results for automatic veracity prediction, both with established baselines and with a novel method for joint\nranking of evidence pages and predicting veracity that outperforms all baselines. Significant performance increases are achieved by encoding evidence, and by modelling metadata. Our best-performing\nmodel achieves a Macro F1 of 49.2%, showing that this is a challenging testbed for claim veracity prediction. © 2019 Association for Computational Linguistics"
+    }
+  ]
+}

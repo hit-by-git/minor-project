@@ -1,0 +1,55 @@
+{
+  "topic_id": 34,
+  "label": "T034",
+  "label_full": "Misinformation & Propaganda",
+  "keywords": [
+    "news",
+    "lstm",
+    "fake",
+    "assamese",
+    "adam",
+    "adadelta",
+    "spo",
+    "children",
+    "reflection",
+    "optimization"
+  ],
+  "n_docs": 7,
+  "documents": [
+    {
+      "document_id": 85,
+      "score": null,
+      "abstract": "Fake news generation and propagation is a major challenge of the digital age, resulting in various social impacts namely bandwagon, validity, echo chamber effects, deceiving\nthe public with spams, misinformation, malicious content and many more. The widespread proliferation of fake news not only fosters misinformation but also undermines the credibility\nof news sources. The veracity of the information is a major concern at all the stages of generation, publication, and propagation. To comprehend the critical\nneed for addressing this pervasive problem, this research paper presents a framework for automatic detection of fake news using a knowledge-based approach. An automatic fact\nchecking mechanism is applied using concepts of Information Retrieval (IR), Natural Language Processing (NLP) and Graph theory. The knowledge base is generated using Twitter dataset,\nwhich basically contains four attributes: Subject-Predicate-Object (SPO) triplet, SPO sentiment polarity, SPO occurrence, and topic modeling. These attributes serve as pivotal indicators for the development\nof a knowledge base, subsequently employed to detect prevalent patterns and traits linked to deceptive or false information. We have employed Named Entity Recognition (NER)\nmodel to extract SPO triples and Latent Dirichlet Allocation (LDA) for topic modeling, thereby contributing to knowledge base generation. To evaluate the efficacy and efficiency\nof our proposed model, we utilize deep learning algorithms like RNN, GRU, LSTM, GPT-3 and BERT Transformer providing an acceptable level of accuracy. This research\npaper delivers valuable insights into addressing the proliferation of fake news on Twitter, employing data-driven approaches and advanced deep learning algorithms. © 2024 Elsevier B.V..\nAll rights reserved."
+    },
+    {
+      "document_id": 128,
+      "score": null,
+      "abstract": "The spread of false information in the digital age has led to serious threats about the veracity and dependability of information traded online. Fake news\ncan exacerbate social and political divisions, as it often targets specific groups or promotes divisive narratives. sheds light on the pioneering venture into the field\nof fake news detection in Assamese, filling a significant research gap that had previously remained unaddressed. A comprehensive dataset of 6,000 news articles was meticulously\ncollected to aid with the proposed research. The dataset contains 3,000 true news items and an equal number of fraudulent news stories. A fake news\ndetection system for the Assamese language was created in using Long Short-Term Memory (LSTM) and Bidirectional Long Short-Term Memory (Bi-LSTM) models. The accuracy of the\nBi-LSTM model was 94.17%, compared to the LSTM model's 93.50%. This research establishes a foundational framework for fake news detection in Assamese. The findings demonstrate\nthe potential of LSTM and Bi-LSTM models for effectively preventing the propagation of fake news in the Assamese language and improving the accuracy and reliability\nof information in the digital sphere. © 2024 Elsevier B.V.. All rights reserved."
+    },
+    {
+      "document_id": 302,
+      "score": null,
+      "abstract": "Social platform have disseminated the news in rapid speed and has been considered an important news resource for many people over worldwide because of easy\naccess and less cost benefits when compared with the traditional news organizations. Fake news is the news deliberately written by bad writers that manipulates the\noriginal contents and this rapid dissemination of fake news may mislead the people in the society. As a result, it is critical to investigate the\nveracity of the data leaked via social media platforms. Even so, the reliability of information reported via this platform is still doubtful and remains a\nsignificant obstacle. As a result, this study proposes a promising technique for identifying fake information in social media called Adam Adadelta Optimization based Deep Long\nShort-Term Memory (Deep LSTM). The tokenization operation in this case is carried out with the Bidirectional Encoder Representations from Transformers (BERT) approach. The measurement of\nthe features is reduced with the assistance of Kernel Linear Discriminant Analysis (LDA), and Singular Value Decomposition (SVD) and the top-N attributes are chosen by\nemploying Renyi joint entropy. Furthermore, the LSTM is applied to identify false information in social media, with Adam Adadelta Optimization, which comprises a combo of\nAdam Optimization and Adadelta Optimization. The Deep LSTM based on Adam Adadelta Optimization achieved maximum accuracy, sensitivity, specificity of 0.936, 0.942, and 0.925. © 2023\n- IOS Press. All rights reserved."
+    },
+    {
+      "document_id": 306,
+      "score": null,
+      "abstract": "Today, with so much free information online, it becomes increasingly difficult to make sense of what content is based on fact, half-truths or lies. Furthermore,\nin accordance with the events (e.g., COVID-19) that are increasingly alarming, the speed of false news spread is unprecedented. Of course, fake news impairs social\nstability and public trust, which calls for increasing demand for their detection. How to spot as faithful as possible fake news? The response that this\narticle gives, by exploring the textual features using artificial intelligence and machine learning. This research addresses the problem of automatic fake news detection for Romanian\nlanguage. First, we present a new corpus for automatic fake news detection that contains two subsets of 977 and 29 154 news articles in Romanian,\nseparated according to labelling and collection methods. Second, we explore several text-based approaches for automatic fake news detection by using machine learning and artificial intelligence\nwhich resulted in an accuracy of 93%. © 2023 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY-NC-ND\nlicense ("
+    },
+    {
+      "document_id": 418,
+      "score": null,
+      "abstract": "With the advent of websites and social media technologies, the internet has been a great method of transmitting news and information around the globe. However,\ndue to lack of editorial scrutiny and monitoring by the media authorities, the news distribution has been seriously abused leading to the fast spreading of\nfake news. Fake news involves misleading broadcasting of information from sources that target to intentionally manipulate the way how people view some events or statements.\nThis study seeks to develop a fake news detection model which will be able to analyze the title and text information attached to the news\narticles. From the researches done by previous scholars, it showed that the models did not perform very well because of the lack of sufficient feature\nextraction and fine tuning of the classification of the text. This research will therefore, articulate the gap by employing 5L- deep learning model which will\nuse inbuilt tokenizers for word embedding and will show better accuracy compared to the traditional machine learning models. In , we compare machine learning algorithms\n(Decision trees, Random Forest, Logistic Regression & Naive Bayes) and deep learning algorithms (RNN, 5L- & LSTM) to classify the authenticity of news articles. The\nmodel developed in attained the best accuracy with 5L- which had a result of 99.99%. © 2022 IEEE."
+    },
+    {
+      "document_id": 489,
+      "score": null,
+      "abstract": "Fake news has permeated online media, presenting consumers with the challenge of detecting it. At what age are we capable of undertaking this challenge? And\nwhat factors predict success? We explored these questions with elementary-school-aged children (n = 86), who were asked to judge the veracity of ten news stories,\nfive fake and five real. Children also completed a developmental version of the cognitive reflection test (CRT-D; Young & Shtulman, 2020a). As a group, children\nwere at chance at differentiating fake news from real news, and their individual performance did not vary by age or cognitive reflection. Adults (n =\n271) given the same materials succeeded at detecting fake news, especially those high in cognitive reflection. These results suggest that children lack the knowledge or\nskill needed to evaluate news credibility and that cognitive reflection predicts fake news detection only after we have attained some baseline level of information literacy.\n© 2022 The Author(s). is licensed under a Creative Commons Attribution 4.0 International License (CC BY)"
+    },
+    {
+      "document_id": 726,
+      "score": null,
+      "abstract": "Fake news proliferation and distrust in news media has become an endemic problem in the American society and has aided in the corruption of civil\npolitical discourse. The formation of a standard and subsequent implementation using automated algorithmic processes will provide unbiased ratings and evaluations of online news media truthfulness\nin the form of easy-to-understand scores. This easily accessible information will aid in the reduction of fake news proliferation and help produce a more informed\nelectorate. © 2017 IEEE."
+    }
+  ]
+}

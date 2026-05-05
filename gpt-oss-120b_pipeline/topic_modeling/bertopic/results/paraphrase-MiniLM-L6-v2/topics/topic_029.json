@@ -1,0 +1,65 @@
+{
+  "topic_id": 29,
+  "label": "T029",
+  "label_full": "Misinformation & Propaganda",
+  "keywords": [
+    "vector",
+    "layer",
+    "classifiers",
+    "news",
+    "ml",
+    "model",
+    "et",
+    "al",
+    "fake",
+    "svms"
+  ],
+  "n_docs": 9,
+  "documents": [
+    {
+      "document_id": 63,
+      "score": null,
+      "abstract": "In this research, we compare and contrast many different AI algorithms designed to improve the ability to spot false information on social media. In particular,\nit assesses the efficacy of Passive Aggressive Classifier (Crammer et al., J Mach Learn Res 7:551–585, 2006), Hugging Face (Devlin et al., Bert: pre-training of\ndeep bidirectional transformers for language understanding. Cornell University, 2018), and Support Vector Machine Algorithms (Hearst et al., IEEE Intel Syst Appl 13:18–28, 1998; Boser et\nal., Proceedings of fifth annual workshop computational learning theory, pp 144–152, 1992; Schlkopf et al., Advances in kernel methods support vector learning. Mass, Cambridge, 1998;\nCristianini and Shawe-Taylor, An introduction to support vector machines and other kernel-based learning methods. Cambridge University Press, 2000; Baarir et al., Algeria 2021:125–130, 2020). Amid\nthe increasing menace of misinformation on social media, the need for effective fake news detection mechanisms cannot be overstated. The study begins with an overview\nof the algorithms under review, followed by an explanation of their application in fake news detection. This analysis then moves into a comparison mode, assessing\neach method according to several criteria including computational complexity, accuracy, precision, and recall. The research goes further into the pros and cons of each model,\nilluminating how well they perform with various sets of data and varieties of disinformation. In order to create reliable and accurate false news detection systems,\nit is important to determine which algorithms are the most successful. The results of this comparison not only add to the body of knowledge on\ndisinformation identification, but they also provide concrete strategies for bolstering the trustworthiness of content shared on social media. © The Author(s), under exclusive license to\nSpringer Nature Singapore Pte Ltd. 2024."
+    },
+    {
+      "document_id": 126,
+      "score": null,
+      "abstract": ", we present a pioneering method aimed at discerning the veracity of news content by leveraging state- of-the-art embedding techniques. Recognizing the importance of capturing\nsemantic nuances, we employ sentence transformers to generate embeddings that encapsulate the essence of the news content. This process results in high-dimensional data, which, although\nrich in information, can be computationally intensive for subsequent analysis. To address this, we introduce a Variational Autoencoder (VAE) to achieve an effective dimensionality reduction\nwhile preserving critical information. However, given the intricate and hierarchical nature of news content, we integrate a topic modeling approach known as Pachinko Allocation Model\n(PAM) into our framework. PAM offers a more refined data representation by capturing the latent hierarchical relationships between various news topics, adding an extra layer\nof semantic understanding to our method. The enhanced data representations from the VAE and PAM processes are con- catenated, creating a comprehensive feature set. This\ncombined feature set is then used to train multiple classifiers to segregate real news from fake counterparts. Through this comprehensive numerical investigation, we have achieved\nan accuracy of 96.80% and an F1 score of 97% using the transformer-based sentence paraphrase- multilingual architecture. Our study's findings are not only significant in\nterms of accuracy but also underscore the potential of combining multiple advanced techniques to tackle the fake news challenge. © 2024 IEEE."
+    },
+    {
+      "document_id": 227,
+      "score": null,
+      "abstract": "Fake news has found fertile ground on social media. A global health crisis such as COVID-19 further helps propagate fake news on social media. Much\nresearch has been done to develop AI systems that classify news as real or fake. However, there is a growing concern about trust in these\nAI systems. To this end, we attempt to improve the trustworthiness of AI text classification systems. We use tools to explore data, explain feature extraction\ntechniques, interpret the ML models implemented, and explain the decision-making progress of AI systems. , we compared five ML classifiers for our experiments: Naive Bayes,\nSupport Vector Machines (SVMs), Logistic Regression, Decision Tree, and Random Forest. The models were trained on 10700 tweets containing 5,600 real and 5,100 fake tweets\nrelated to COVID-19. In comparison, the SVMs model performance was the best, with a detection accuracy of 0.93 and F1 scores of 0.94 and 0.93\nfor real and fake news, respectively. Global and local explanations are included to understand the overall model behavior, ensuring transparency and fostering confidence in AI\nusers. We have chosen the SVMs model for the explanation section as it was the best model ."
+    },
+    {
+      "document_id": 300,
+      "score": null,
+      "abstract": "The purpose of this approach is to find out the effects and efficiently detect fake news by using a publicly available dataset. However, it is\ndifficult for human beings to judge an article's truthfulness manually, which is why mainly wanted to cure the effect and to found out an automated\nfake news detection system with benchmark accuracy by using a machine learning classifier, which must be higher than other recent research works. In essence, ’s\ntarget is to find out an efficient way to detect fake and real news, and it also the target is to compare with existing work\nwhere researchers used machine learning classifiers and deep learning architecture. The proposed approach depended on a systematic literature review and a publicly available dataset where\n7796 news data are recorded with 50% real and 50% fake news. The best and benchmark accuracy is 93.61%, achieved by the Support Vector Machine\n(SVM) among the used Random Forest, Decision Tree, KNN, and Logistics Regression classifiers, and the achieved accuracy is better than the exciting recent research works.\nMoreover, fake news is detected, people are able to differentiate between fake or real news, and effects are cured when people used SVM. © 2023\nby the authors. Licensee ESJ, Italy."
+    },
+    {
+      "document_id": 303,
+      "score": null,
+      "abstract": "A news article's online audience provides useful insights about the article's identity. However, fake news classifiers using such information risk relying on profiling. In response\nto the rising demand for ethical AI, we present a profiling-avoiding algorithm that leverages Twitter users during model optimisation while excluding them when an article's\nveracity is evaluated. For this, we take inspiration from the social sciences and introduce two objective functions that maximise correlation between the article and its\nspreaders, and among those spreaders. We applied our profiling-avoiding algorithm to three popular neural classifiers and obtained results on fake news data discussing a variety\nof news topics. The positive impact on prediction performance demonstrates the soundness of the proposed objective functions to integrate social context in text-based classifiers. Moreover,\nstatistical visualisation and dimension reduction techniques show that the user-inspired classifiers better discriminate between unseen fake and true news in their latent spaces. Our study\nserves as a stepping stone to resolve the underexplored issue of profiling-dependent decision-making in user-informed fake news detection. © 2022 The Author(s)"
+    },
+    {
+      "document_id": 661,
+      "score": null,
+      "abstract": "Fake news has become a problem of great impact in our information driven society because of the continuous and intense fakesters content distribution. Information quality\nin news feeds is under questionable veracity calling for automated tools to detect fake news articles. Due to many faces of fakesters, creating such tool\nis a challenging problem. In , we propose a model for fake news detection using content based features and Machine Learning (ML) algorithms. To conclude\nin most accurate model we evaluate several feature sets proposed for deception detection and word embeddings as well. Moreover, we test the most popular ML\nclassifiers and investigate the possible improvement reached under ensemble ML methods such as AdaBoost and Bagging. An extensive set of earlier data sources has been\nused for experimentation and evaluation of both feature sets and ML classifiers. Moreover, we introduce a new text corpus, the “UNBiased” (UNB) dataset, which integrates\nvarious news sources and fulfills several standards and rules to avoid biased results in classification task. Our experimental results show that the use of an\nenhanced linguistic feature set with word embeddings along with ensemble algorithms and Support Vector Machines (SVMs) is capable to classify fake news with high accuracy.\n© 2019 Elsevier Ltd"
+    },
+    {
+      "document_id": 684,
+      "score": null,
+      "abstract": "The primary objective of this project is to detect the authenticity of a news article based on the content of the same. As the classification\nis purely based on the article’s contents, the project uses various NLP techniques for pre-processing the text before performing classification. To make the project more\nuser-friendly, Raspberry Pi’s Pi camera module is used to capture images of news articles which are automatically converted to text, thereby saving the hassle of\ntyping the whole news article for the user. A comparative analysis of various machine learning and deep learning classification models is presented. also presents two\nnew approaches for article authenticity detection using deep LSTM network and deep bidirectional LSTM network. These outperform the existing approaches for detecting article authenticity and\na 3.26% improvement in the F1 score from the standard existing bidirectional LSTM model is obtained. © BEIESP."
+    },
+    {
+      "document_id": 701,
+      "score": null,
+      "abstract": "These days, most of fake news are detected and verified by people, which requires a great amount of time and effort. It is difficult to\nFigure out the truthfulness of the news by machine algorithm because the sentences have various forms. In , we shall present a fast and efficient\nfake news detection model which can Figure out whether the given proposition is true or not from article by exploiting grammatical transformation based on deep\nlearning. Our model consists of four layers: word embedding layer, context generation layer, matching layer and inference layer. In word embedding layer, the words in\nproposition are embedded into word vector. In context generation layer, the word vectors enter into LSTM layer and generate context vector. In matching layer, attention\nvector is generated from the contextual embedding vector in the previous layer computing the weighted sum. Then, the hidden state vector from LSTM layers and\nattention vector are compared through matching operation generating the sentences which has the same meaning but different forms. In inference layer, our model calculates the\nsimilarity between the generated sentences and the sentences in articles, and classifies the answer, true or false. We shall evaluate our model calculating the perplexity\nto Figure out whether the generated sentences are grammatically correct. Also, the model is tested by changing the sentence group's size to find the optimal\nsize of the group. By showing the Our model figured out the fake news very well with the test of news dataset getting the right\nanswer. © 2018 IEEE."
+    },
+    {
+      "document_id": 702,
+      "score": null,
+      "abstract": "With the development of media including newspaper written by robots and many unreliable sources, it's getting hard to distinguish whether the news is true or\nnot. In , we shall present a novel fake news detection model, FaNDeR(Fake News Detection model using media Reliability) which can efficiently classify the level\nof truth for the news in the question answering system based on modified deep learning model. Our model reflects the reliability of various medias by\ntraining with the input dataset which contains the truthfulness of each media as well as that of the proposition. Our model is designed for higher\naccuracy with media dataset in terms of data augmentation, batch size control and model modification. We shall show that our model has higher accuracy over\nstatistical approach by reflecting the tendency of truth level for each media through the training of the dataset collected so far. © 2018 IEEE."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "topic_id": 50,
+  "label": "T050",
+  "label_full": "Journalism & Media Studies",
+  "keywords": [
+    "images",
+    "social",
+    "media",
+    "instagram",
+    "forged",
+    "alexnet",
+    "snapchat",
+    "threats",
+    "app",
+    "whats"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 272,
+      "score": null,
+      "abstract": "Social media has become a big part of our lives, people often come across fake content like fake news and edited images. Nowadays, it's easy\nto edit images with high accuracy, making it hard to tell what's real and what's fake. From filters on Instagram and Snapchat to professional-level Photoshop\nediting, it's causing problems between individuals, cooperates, and even nations. Dealing with this issue is important to maintain trust and authenticity in the digital world.\nIn this research, a user-friendly mobile app interface is implemented that allows users to upload images for analysis. These input images underwent JPEG recompression, and\nthe difference between the original and recompressed images is calculated. This difference is then processed by a federated forgery classification network. The analysis results were\npresented to the users through the mobile app. The proposed approach resulted in 87% training accuracy per client, 76% global training accuracy, and 83% global\ntesting accuracy. © 2023 IEEE."
+    },
+    {
+      "document_id": 277,
+      "score": null,
+      "abstract": "Social media plays a significant role in contemporary societies in this modern era. The majority of users use social media to exchange text, photographs, and\nvideos on a regular basis. Images are one of the most widely shared forms on social platforms and also the most vulnerable medium for tempering.\nSmall and medium sized businesses may now easily create and distribute these images in a short frame of time, compromising news authenticity and public faith\nin social networking sites. proposes an approach for extracting the content of image, classifying it and verifying the authenticity (i.e., real or fake) of digital\nimages. The algorithm uses convolutional neural network () to detect real and forged images. In addition, efficiency and refinement of training data are required to\nsupport its use in everyday life. The concept of error rate bid data and the deep learning method are used for further solutions. The result\nshows that the proposed method using convolutional neural network () technology and error level analysis (ELA), fake image detection can reach more than 96%. The\nfindings of will aid in the detection of anomalous material and forged photographs on social media. © 2023, Springer Science and Business Media Deutschland GmbH.\nAll rights reserved."
+    },
+    {
+      "document_id": 656,
+      "score": null,
+      "abstract": "Social media is one of the most revolutionary inventions of the present times. With its own set of advantages and disadvantages it is extremely essential\nfor each one of us. Today Fake News has become a major problem wreaking havoc all over the world. Therefore building an algorithm with the\nbest possible accuracy will be a revelation and it will have a massive impact on the social issues which are prevalent as well as on\nthe current political scenario. Social Media and online news articles serve as a major source of news and for data for people since it can\nbe approached easily, has a subsidized costing and is readily available-just a click away. However, it does have several negative impacts too such as no\ncheck on the source or authenticity and validity of the views being endorsed. Hence, we have proposed a new solution for fake news detection which\nincorporates sentiment as an important feature to improve the accuracy. It also investigates the performance of proposed method using three different data sets. Results show\nthat proposed solution performs well. Moreover, the comparison is also made with other methods under this study. © 2019 IEEE."
+    },
+    {
+      "document_id": 657,
+      "score": null,
+      "abstract": "In this technological era, social media has a major role in people's daily life. Most people share text, images, and videos on social media frequently\n(e.g. Twitter, Snapchat, , and Instagram). Images are one of the most common types of media share among users on social media. So, there is\na need for monitoring of images contained in social media. It has become easy for individuals and small groups to fabricate these images and disseminate\nthem widely in a very short time, which threatens the credibility of the news and public confidence in the means of social communication. This research\nattempted to propose an approach to extracting image content, classify it and verify the authenticity of digital images and uncover manipulation. Instagram is one of\nthe most important websites and mobile image sharing applications on social media. This allows users to take photos, add digital photographic filters and upload pictures.\nThere are many unwanted contents in Instagram's posts such as threats and forged images, which may cause problems to society and national security. This research\naims to build a model that can be used to classify Instagram content (images) to detect any threats and forged images. The model was built\nusing deep algorithms learning which is Convolutional Neural Network (), Alexnet network and transfer learning using Alexnet. The results showed that the proposed Alexnet network\noffers more accurate detection of fake images compared to the other techniques with 97%. The results of this research will be helpful in monitoring and\ntracking in the shared images in social media for unusual content and forged images detection and to protect social media from electronic attacks and threats.\n© Science and Information Organization."
+    },
+    {
+      "document_id": 662,
+      "score": null,
+      "abstract": "Social media has become a part of our day-to-day life and has become one of the significant sources of information. Most of the information available\non social media is in the form of images. This has given rise to fake news event distribution, which is misinforming the users. Hence, to\ntackle this problem, we propose a model which is concerned with the veracity analysis of information on various social media platforms available in the form\nof images. It involves an algorithm which validates the veracity of image text by exploring it on web and then checking the credibility of the\ntop 15 Google search results by subsequently calculating the reality parameter (Rp), which if exceeds a threshold value, an event is classified as real else\nfake. In order to test the performance of our proposed approach, we compute the recognition accuracy, and the highest accuracy is compared with similar state-of-the-art\nmodels to demonstrate the superior performance of our approach. © 2019 Elsevier B.V."
+    }
+  ]
+}

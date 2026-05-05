@@ -1,0 +1,50 @@
+{
+  "topic_id": 51,
+  "label": "T051",
+  "label_full": "headlines, participants",
+  "keywords": [
+    "headlines",
+    "participants",
+    "pressure",
+    "effect",
+    "ratings",
+    "older",
+    "implied",
+    "articles",
+    "false",
+    "belief"
+  ],
+  "n_docs": 6,
+  "documents": [
+    {
+      "document_id": 298,
+      "score": null,
+      "abstract": "Purpose: Given the rapid growth in efforts on misinformation correction, the study aims to test how evidence type and veracity interact with news agreement on\nthe effectiveness of fact-checking on how well a corrective message discount a false news information. Design/methodology/approach: Experimental participants (N = 511) in Hong Kong were\nexposed to the same news article and then to a piece of corrective information debunking the news article with variation in the types of evidence\n(numerical vs narrative) and veracity (no verdict vs half false vs entirely false) in 2019. Findings: Among the participants who disagreed with the news article,\nnumerical fact-checking was more effective than narrative fact-checking in discounting the news article. Some evidence of the backfire effect was found among participants for whom\nthe article was attitude incongruent. Originality/value: When debunking false information with people exposed to attitude-incongruent news, a milder verdict presented in the form of a\nhalf-false scale can prompt a more positive perception of the issue at stake than an entirely false scale, implying that a less certain verdict can\nhelp in mitigating the backfire effect compared to a certain verdict. © 2023, Emerald Publishing Limited."
+    },
+    {
+      "document_id": 450,
+      "score": null,
+      "abstract": "Research has shown that consuming ratings influences purchase decisions in e-commerce and also has modest effects on belief in news articles on social media. However,\nwe do not know if the act of creating a rating influences belief in online news stories. Unlike e-commerce settings in which ratings typically come\nfrom those who have personally used the product or service, social media users who submit their ratings for news articles typically lack firsthand knowledge of\nthe events reported in the news, making it difficult for most users to rate news articles accurately. We propose that one key benefit of user\nratings in the context of news on social media lies in triggering users who create the ratings (as opposed to consume the ratings) to realize\nthat they lack this firsthand knowledge, thus inducing them to become more skeptical of articles they see. We asked 68 social media users to assess\nthe believability of 42 social media articles and measured their cognitive activity using electroencephalography. We found that asking users to rate articles using a self-referential\nquestion induced them to think more critically—as indicated by increased activation in the medial prefrontal cortex and dorsolateral prefrontal cortex—and made them less likely to\nbelieve the articles. The effect extended to subsequent articles; after being asked to rate an article, users were less likely to believe other articles that\nfollowed it whether they were asked to rate them or not. Overall, our findings suggest that asking users to evaluate the truthfulness of articles using\nself-referential rating questions may not only produce rating information that could be used by others later in time, but also has an immediate benefit of\ninducing users to think more critically about all articles they see. © 2022 INFORMS."
+    },
+    {
+      "document_id": 505,
+      "score": null,
+      "abstract": "Increasing misinformation spread poses a threat to older adults but there is little research on older adults within the fake news literature. Embedded in the\nChanges in Integration for Social Decisions in Aging (CISDA) model, this study examined the role of (a) analytical reasoning; (b) affect; (c) news consumption frequency,\nand their interplay with (d) news content on news veracity detection in aging. Conducted during the early phase of the COVID-19 pandemic, the present study\nasked participants to view and evaluate COVID or non-COVID (i.e., everyday) news articles, followed by measures of analytical reasoning, affect, and news consumption frequency. News\nveracity detection was comparable between young and older adults. Additionally, fake news detection for non-COVID news was predicted by individual differences in analytic reasoning for\nboth age groups. However, chronological age effects in fake news detection emerged within the older adult sample and interacted with the CISDA-derived components of analytical\nreasoning, affect, and news consumption frequency by news content. Collectively, these findings suggest that agerelated vulnerabilities to deceptive news are only apparent in very old\nage. Our findings advance understanding of psychological mechanisms in news veracity detection in aging. © 2022 American Psychological Association"
+    },
+    {
+      "document_id": 530,
+      "score": null,
+      "abstract": "Many parts of our social lives are speeding up, a process known as social acceleration. How social acceleration impacts people’s ability to judge the veracity\nof online news, and ultimately the spread of misinformation, is largely unknown. We examined the effects of accelerated online dynamics, operationalised as time pressure, on\nonline misinformation evaluation. Participants judged the veracity of true and false news headlines with or without time pressure. We used signal detection theory to disentangle\nthe effects of time pressure on discrimination ability and response bias, as well as on four key determinants of misinformation susceptibility: analytical thinking, ideological congruency,\nmotivated reflection, and familiarity. Time pressure reduced participants’ ability to accurately distinguish true from false news (discrimination ability) but did not alter their tendency to\nclassify an item as true or false (response bias). Key drivers of misinformation susceptibility, such as ideological congruency and familiarity, remained influential under time pressure.\nOur results highlight the dangers of social acceleration online: People are less able to accurately judge the veracity of news online, while prominent drivers of\nmisinformation susceptibility remain present. Interventions aimed at increasing deliberation may thus be fruitful avenues to combat online misinformation. © 2022, The Author(s)."
+    },
+    {
+      "document_id": 591,
+      "score": null,
+      "abstract": "Countering misinformation can reduce belief in the moment, but corrective messages quickly fade from memory. We tested whether the longer-term impact of fact-checks depends on\nwhen people receive them. In two experiments (total N = 2,683), participants read true and false headlines taken from social media. In the treatment conditions,\n“true” and “false” tags appeared before, during, or after participants read each headline. Participants in a control condition received no information about veracity. One week\nlater, participants in all conditions rated the same headlines’ accuracy. Providing fact-checks after headlines (debunking) improved subsequent truth discernment more than providing the same information\nduring (labeling) or before (prebunking) exposure. This finding informs the cognitive science of belief revision and has practical implications for social media platform designers. ©\n2021 National Academy of Sciences. All rights reserved."
+    },
+    {
+      "document_id": 687,
+      "score": null,
+      "abstract": "<jats:p> What can be done to combat political misinformation? One prominent intervention involves attaching warnings to headlines of news stories that have been disputed by\nthird-party fact-checkers. Here we demonstrate a hitherto unappreciated potential consequence of such a warning: an implied truth effect, whereby false headlines that fail to get\ntagged are considered validated and thus are seen as more accurate. With a formal model, we demonstrate that Bayesian belief updating can lead to such\nan implied truth effect. In Study 1 (n = 5,271 MTurkers), we find that although warnings do lead to a modest reduction in perceived accuracy\nof false headlines relative to a control condition (particularly for politically concordant headlines), we also observed the hypothesized implied truth effect: the presence of warnings\ncaused untagged headlines to be seen as more accurate than in the control. In Study 2 (n = 1,568 MTurkers), we find the same effects\nin the context of decisions about which headlines to consider sharing on social media. We also find that attaching verifications to some true headlines—which removes\nthe ambiguity about whether untagged headlines have not been checked or have been verified—eliminates, and in fact slightly reverses, the implied truth effect. Together these\nresults contest theories of motivated reasoning while identifying a potential challenge for the policy of using warning tags to fight misinformation—a challenge that is particularly\nconcerning given that it is much easier to produce misinformation than it is to debunk it. </jats:p><jats:p> was accepted by Elke Weber, judgment and decision\nmaking. </jats:p>"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "topic_id": 41,
+  "label": "T041",
+  "label_full": "Fact-Checking & Verification",
+  "keywords": [
+    "pages",
+    "usefulness",
+    "2019",
+    "runs",
+    "web",
+    "lab",
+    "factchecking",
+    "useful",
+    "claim",
+    "subtask"
+  ],
+  "n_docs": 7,
+  "documents": [
+    {
+      "document_id": 774,
+      "score": null,
+      "abstract": "We present an overview of the second edition of the CheckThat! Lab at CLEF 2019. The lab featured two tasks in two different languages: English\nand Arabic. Task 1 (English) challenged the participating systems to predict which claims in a political debate or speech should be prioritized for fact-checking. Task\n2 (Arabic) asked to (A) rank a given set of Web pages with respect to a check-worthy claim based on their usefulness for fact-checking that\nclaim, (B) classify these same Web pages according to their degree of usefulness for fact-checking the target claim, (C) identify useful passages from these pages,\nand (D) use the useful pages to predict the claim’s factuality. CheckThat! provided a full evaluation framework, consisting of data in English (derived from fact-checking\nsources) and Arabic (gathered and annotated from scratch) and evaluation based on mean average precision (MAP) and normalized discounted cumulative gain (nDCG) for ranking, and\nF &#x0024;&#x0024;:1&#x0024;&#x0024; for classification. A total of 47 teams registered to participate in this lab, and fourteen of them actually submitted runs (compared to nine\nlast year). The evaluation results show that the most successful approaches to Task 1 used various neural networks and logistic regression. As for Task 2,\nlearning-to-rank was used by the highest scoring runs for subtask A, while different classifiers were used in the other subtasks. We release to the research\ncommunity all datasets from the lab as well as the evaluation scripts, which should enable further research in the important tasks of check-worthiness estimation and\nautomatic claim verification. © Springer Nature Switzerland AG 2019."
+    },
+    {
+      "document_id": 805,
+      "score": null,
+      "abstract": "With the proliferation of online information sources, it has become more and more difficult to judge the trustworthiness of a statement on the Web. Nevertheless,\nrecent advances in natural language processing allow us to analyze information more objectively according to certain criteria - e.g. whether a proposition is factual or\nopinative, or even the authority or credibility of an author in a certain topic. In , we formulated a ranking schema that can be employed\nin textual claims for speeding up the human fact-checking process. Our experiments have shown that our proposed method statistically outperformed the baseline. Additionally, describes a\nmultilingual data set of claims collected from several fact-check websites, which was used to fine-tuning our model. © 2019 CEUR-WS. All rights reserved."
+    },
+    {
+      "document_id": 806,
+      "score": null,
+      "abstract": "We present an overview of Task 2 of the second edition of the CheckThat! Lab at CLEF 2019. Task 2 asked (A) to rank a\ngiven set of Web pages with respect to a check-worthy claim based on their usefulness for fact-checking that claim, (B) to classify these same Web\npages according to their degree of usefulness for fact-checking the target claim, (C) to identify useful passages from these pages, and (D) to use the\nuseful pages to predict the claim's factuality. Task 2 at CheckThat! provided a full evaluation framework, consisting of data in Arabic (gathered and annotated from\nscratch) and evaluation based on normalized discounted cumulative gain (nDCG) for ranking, and F1 for classification. Four teams submitted runs. The most successful approach to\nsubtask A used learning-to-rank, while different classifiers were used in the other subtasks. We release to the research community all datasets from the lab as\nwell as the evaluation scripts, which should enable further research in the important task of evidence-based automatic claim verification. © 2019 for by its authors.\nUse permitted under Creative Commons License Attribution 4.0 International (CC BY 4.0). CLEF 2019, 9-12 September 2019, Lugano, Switzerland."
+    },
+    {
+      "document_id": 808,
+      "score": null,
+      "abstract": "In recent years, we witnessed an incredible amount of misinformation spread over the Internet. However, it is extremely time consuming to analyze the veracity of\nevery claim made on the Internet. Thus, we urgently need automated systems that can prioritize claims based on their check-worthiness, helping fact-checkers to focus on\nimportant claims. In , we present our hybrid approach which combines rule-based and supervised methods for CLEF-2019 Check That! Lab's Check-Worthiness task. Our primary model\nranked 9th based on MAP, and 6th based on R-P, P@5, and P@20 metrics in the official evaluation of primary submissions. © 2019 CEUR-WS. All\nrights reserved."
+    },
+    {
+      "document_id": 810,
+      "score": null,
+      "abstract": "Fact-checking aims to identify the veracity of the enormous amount of data generated on the web. It enhances and automates human effort in detecting harmful\nmisinformation. In , we present a description of the system with which we participated in three subtasks A, B, and D of Task2 at CLEF\n2019 Check That lab. For the subtask A, we propose an unsupervised approach that extracts information from the important parts of a document to rank\nweb pages based on their usefulness, and subsequently verify the target claim. Hence, we assign weights for important document fields in order to compute field\nscores that are employed besides field lengths to determine the overall score of a given web page. For the subtask B, we adopt a supervised\napproach that generates a model using an SVM classifier from training data, then we apply it on test data to determine the usefulness degree of\na web page. Subtask D aims to tag claim factuality as true or false. Thus, we use lemma, the morphology form that represents many inflected\nterms, in order to find the claim terms in target web pages. We proceed to detect stance, then we determine whether analyzed expressions confirm or\ncontradict a given claim. Copyright © 2019 for by its authors."
+    },
+    {
+      "document_id": 827,
+      "score": null,
+      "abstract": "Even though Web search engines play an important role in finding documents relevant to user queries, there is little to no attention given to how\nthey perform in terms of usefulness for fact-checking claims. In , we introduce a new research problem that addresses the ability of fact-checking systems to\ndistinguish Web search results that are useful in discovering the veracity of claims from the ones that are not.We also propose a re-ranking method to\nimprove ranking of search results for fact-checking. To evaluate our proposed method, we conducted a preliminary study for which we have developed a test collection\nthat includes 22 claims and 20 manually-annotated Web search results for each. Our experiments show that the proposed method outperforms the baseline represented by the\noriginal ranking of search results. The contributions this improvement brings to real-world applications is two-fold: it will help human fact-checkers find useful documents for their\ntask faster, and it will help automated fact-checking systems by pointing out which documents are useful and which are not."
+    },
+    {
+      "document_id": 856,
+      "score": null,
+      "abstract": "With the enormous amount of misinformation spread over the Internet, manual fact-checking is no longer feasible to prevent its negative impact. There is an urgent\nneed for automated systems that can make fact-checking process faster and effectively detect the veracity of claims. In , we present our participation in the\ntwo tasks of CLEF-2018 CheckThat! Lab. To rank claims based on their check-worthiness (Task 1), we propose a learning-to-rank approach with features extracted by natural\nlanguage processing such as named entity recognition and sentiment analysis. For veracity prediction (Task 2), we propose using an external Web search engine to retrieve\npotentially-relevant Web pages and extract features from relevant segments of those pages to predict the veracity. In the official evaluation, our best performing runs for\nTask 1 are ranked 4th (out of f 6 runs from 8 teams) and 1st (out of 5 runs from 2 teams) over the English\nand Arabic datasets respectively, while our best performing run for Task 2 is ranked 6th (out of 10 runs from 5 teams) over the English\ndatasets."
+    }
+  ]
+}

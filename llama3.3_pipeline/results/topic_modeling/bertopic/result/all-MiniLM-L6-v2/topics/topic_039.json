@@ -1,0 +1,55 @@
+{
+  "topic_id": 39,
+  "label": "T039",
+  "label_full": "Credibility Assessment",
+  "keywords": [
+    "tweets",
+    "genetically",
+    "organisms",
+    "credibility",
+    "users",
+    "modified",
+    "articles",
+    "dissemination",
+    "twitter",
+    "account"
+  ],
+  "n_docs": 7,
+  "documents": [
+    {
+      "document_id": 514,
+      "score": null,
+      "abstract": "Social media is increasingly being used as a tool to gather a wide variety of information. However, there are fake articles on social networking services\nmixed in with useful posts. It is desirable for users to use social networking services while determining the truth or falsity of articles. However, such\njudgement is difficult for inexperienced users since the skills to determine the authenticity of articles should be obtained by a stacking of experiences. In this\nresearch, we aim to develop methods for gaining experience with examining fake articles by suggesting noteworthy articles on the basis of an analysis of others'\nresponses to the articles. describes methods for extracting articles that correct other posts on the basis of the characteristics of people's responses to articles on\nsocial networking services and for extracting candidates for fake articles by analyzing such articles. Finally, we describe an experiment using a prototype system and discuss\nthe effectiveness of our system as based on its results. © 2022 IEEE."
+    },
+    {
+      "document_id": 545,
+      "score": null,
+      "abstract": "The rapid evolution of technology has led to the increasing use of social networks. These have allowed various users to post whatever they want without\nany guarantee of the exactitude of the content posted, which has led to the rapid spread of false information, with severe consequences for the community.\nDespite extensive field study, dealing with the trustworthiness of sources remains an unanswered question. The main problem is that there is no efficient way to\ndiscern the difference between a genuine and a false assertion. To address this challenge, we have developed a hybrid approach to verify the authenticity of\nthe information on Twitter based, on the one hand, on the stylistic analysis of the content of tweets, and the other hand, on the exploitation\nof the opinion of Twitter users by taking into account their reliability using the theory of evidence. Experimental assessments using publicly available datasets demonstrate very\noptimistic and better results when compared to other techniques. © 2022 Copyright for by its authors. Use permitted under Creative Commons License Attribution 4.0 International\n(CC BY 4.0)."
+    },
+    {
+      "document_id": 650,
+      "score": null,
+      "abstract": "Using network analysis, this study investigates how information veracity and account verification influence the dissemination of information in the context of discourse about genetically modified\norganisms on social media. We discovered that misinformation and true information about genetically modified organisms demonstrated different dissemination patterns on social media. In general, the\ndissemination networks of misinformation about genetically modified organisms were found to have higher structural stability than those of true information about genetically modified organisms, as\nshown by the denser network structure with fewer distinct subgroups residing within the dissemination networks. More importantly, unverified account status significantly boosted the dissemination of\nmisinformation by increasing network density. In addition, we found that the posts about genetically modified organisms from unverified accounts received more reposts and had more\nlayers of information relay than those from the verified accounts. Theoretical and practical implications of these findings on combating misinformation are discussed in the article.\n© The Author(s) 2020."
+    },
+    {
+      "document_id": 818,
+      "score": null,
+      "abstract": "In a post-truth age determined by Social Media channels providing large amounts of information of questionable credibility while at the same time people increasingly tend\nto rely on online information, the ability to detect whether content is believable is developing into an important challenge. Most of the work in that\nfield suggested automated approaches to perform binary classification to determine information veracity. Recipients perspectives and multidimensional psychological credibility measurements have rarely been considered. To fill\nthis gap and gain more insights into the impact of a tweet´s features on perceived credibility, we conducted a survey asking participants (N=2626) to rate\nthe credibility of crisis-related tweets. The resulting 24.823 ratings were used for an explorative feature selection analysis revealing that mostly meta-related features like the number\nof followers of the author, the count of tweets produced and the ratio of tweet number and days since account creation affect credibility judgments. ©\n2019 IEEE Computer Society. All rights reserved."
+    },
+    {
+      "document_id": 930,
+      "score": null,
+      "abstract": "There are both positive and negative aspects in the use of social media in news and information dissemination. To deal with the negative aspects, such\nas the spread of rumours and fake news, the flow of information should implicitly be filtered and marked to specific criteria such as credibility, trustworthiness,\nreputation, popularity, influence, and authenticity. proposes an approach that can enhance trustworthiness and content validity in the presence of information overload. We introduce Alethiometer, a\nframework for assessing truthfulness in social media that can be used by professional and general news users alike. We present different measures that delve into\nthe detailed analysis of the content, the contributors of the content and the underlying context. We further propose an approach for deriving a single metric\nthat considers, in a unified manner, the quality of a contributor and of the content provided by that contributor. Finally, we present some preliminary statistical\nresults from the examination of a set of 10 million twitter users, that provide useful insights on the characteristics of social media data."
+    },
+    {
+      "document_id": 933,
+      "score": null,
+      "abstract": "While Twitter provides an unprecedented opportunity to learn about breaking news and current events as they happen, it often produces skepticism among users as not\nall the information is accurate but also hoaxes are sometimes spread. While avoiding the diffusion of hoaxes is a major concern during fast-paced events such\nas natural disasters, the study of how users trust and verify information from tweets in these contexts has received little attention so far. We survey\nusers on credibility perceptions regarding witness pictures posted on Twitter related to Hurricane Sandy. By examining credibility perceptions on features suggested for information verification in\nthe field of epistemology, we evaluate their accuracy in determining whether pictures were real or fake compared to professional evaluations performed by experts. Our study\nunveils insight about tweet presentation, as well as features that users should look at when assessing the veracity of tweets in the context of fast-paced\nevents. Some of our main findings include that while author details not readily available on Twitter feeds should be emphasized in order to facilitate verification\nof tweets, showing multiple tweets corroborating a fact misleads users to trusting what actually is a hoax. We contrast some of the behavioral patterns found\non tweets with literature in psychology research. © 2014, Springer-Verlag Wien."
+    },
+    {
+      "document_id": 950,
+      "score": null,
+      "abstract": "Twitter is now used to distribute substantive content such as breaking news, increasing the importance of assessing the credibility of tweets. As users increasingly access\ntweets through search, they have less information on which to base credibility judgments as compared to consuming content from direct social network connections. We present\nsurvey results regarding users' perceptions of tweet credibility. We find a disparity between features users consider relevant to credibility assessment and those currently revealed by\nsearch engines. We then conducted two experiments in which we systematically manipulated several features of tweets to assess their impact on credibility ratings. We show\nthat users are poor judges of truthfulness based on content alone, and instead are influenced by heuristics such as user name when making credibility assessments.\nBased on these findings, we discuss strategies tweet authors can use to enhance their credibility with readers (and strategies astute readers should be aware of!).\nWe propose design improvements for displaying social search results so as to better convey credibility."
+    }
+  ]
+}

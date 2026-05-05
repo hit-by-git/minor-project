@@ -1,0 +1,55 @@
+{
+  "topic_id": 39,
+  "label": "T039",
+  "label_full": "Misinformation & Propaganda",
+  "keywords": [
+    "flags",
+    "warning",
+    "misinformation",
+    "streams",
+    "claims",
+    "factcheckers",
+    "factchecking",
+    "finedtuned",
+    "task",
+    "english"
+  ],
+  "n_docs": 7,
+  "documents": [
+    {
+      "document_id": 0,
+      "score": null,
+      "abstract": "The advances in the digital era have led to rapid dissemination of information. This has also aggravated the spread of misinformation and disinformation. This has\npotentially serious consequences, such as civil unrest. While fact-checking aims to combat this, manual fact-checking is cumbersome and not scalable. While automated fact-checking approaches exist,\nthey do not operate in real-time and do not always account for spread of misinformation through different modalities. This is particularly important as proactive fact-checking\non live streams in real-time can help people be informed of false narratives and prevent catastrophic consequences that may cause civil unrest. This is particularly\nrelevant with the rapid dissemination of information through video on social media platforms or other streams like political rallies and debates. Hence, in we develop\na platform named LiveFC, that can aid in fact-checking live audio streams in real-time. LiveFC has a user-friendly interface that displays the claims detected along\nwith their veracity and evidence for live streams with associated speakers for claims from respective segments. The app can be accessed at and a screen\nrecording of the demo can be found at"
+    },
+    {
+      "document_id": 301,
+      "score": null,
+      "abstract": "Digital platforms have employed flagging techniques to tackle misinformation as they offer a promising means of informing users about harmful content without resorting to censorship.\nHowever, their effectiveness depends on the user's understanding of the flags. Fact-checkers have been crucial in tackling misinformation online, but interestingly, fact-checked explanations have rarely\nbeen incorporated directly into the warning flags. They have usually been linked and directed towards their websites. Therefore, this study investigates user responses to misinformation\nflags in a hypothetical social media setting. It focuses on whether warnings influence users' perceived accuracy judgement and sharing intent of the false headlines. We\nalso investigate whether adding specific explanations from fact-checking websites enhances trust in these flags. We conducted an experiment with 348 American participants, exposing them to\na randomised order of true and false news headlines related to COVID-19, with and without warning flags and explanation text. Our findings suggest that warning\nflags, whether alone or accompanied by explanatory text, effectively reduce the perceived accuracy of fake news and the intent to share such headlines. Interestingly, our\nstudy also suggests that incorporating explanatory text in misinformation warning systems could significantly enhance their trustworthiness, emphasising the importance of transparency and user comprehension in\ncombating fake news on social media. © 2023 IEEE."
+    },
+    {
+      "document_id": 440,
+      "score": null,
+      "abstract": "There has been a recent growth in interest surrounding the identification of misinformation in online news, specifically in the case of political news. This task\nwas previously human-based, one which has various amounts of efficacy and time commitment for teams of fact-checkers taking up to a week to check the\nveracity of a single statement. Given recent research and development in artificial intelligence, this is no longer the case. This research has led to a\nplethora of ideas and techniques to create an ideal fact-checking in an automatic manner, which autonomously discerns the veracity of a given statement quickly. A\ntool like this is a massive boon to teams of fact-checkers, helping them expedite the process and allowing any individual to check claims made online.\nwill explore various supervised machine learning approaches for this intended purpose and how they interact with numerical features extracted from a dataset of journalistic writing\nfocusing on the efficacy and efficiency thereof. © 2022 Association for Computing Machinery."
+    },
+    {
+      "document_id": 464,
+      "score": null,
+      "abstract": "As in electronic era, data is transmitted via social network and web, people are harmed by false and deceptive content, such as misinformation. A fact-checker\nwill examine specific indicators of falsity to determine the veracity of a piece of content. To perform automated fact-checking, retrieving information from the web, cleaning\nthe contents, and using machine learning techniques are required. Prior research has focused on linguistic and literary characteristics as well as approaches based on similarity\nmeasurements. All the details and intricacies of the problem are not adequately covered by any of the papers referenced in the resource. We advanced a\nText Resemblance Index (TRI) algorithm with a veracity-scanning model for the purpose of automating fact-checking URLs in the healthcare industry. To execute fact-checking in a\njournalistic manner, a set of innovative content, domain-specific, and sentimental scores based on polarity are applied. The Text Resemblance Score (TRS), a newly generated feature,\noutscored comparable properties with an accuracy of 88.27%, according to a thorough analysis of the proposed approach in contrast to traditional distance measures. In comparison\nto the Jaccard distance-based algorithm accuracy of 75.56% when leveraging an algorithm, TRI showed enhanced accuracy of 90%. Compared to the prior study, the TRS\nfeature-based technique produced an accuracy improvement of 2.40%. © 2022 IEEE."
+    },
+    {
+      "document_id": 542,
+      "score": null,
+      "abstract": "During the COVID-19 pandemic, the spread of misinformation on online social media has grown exponentially. Unverified bogus claims on these platforms regularly mislead people, leading\nthem to believe in half-baked truths. The current vogue is to employ manual fact-checkers to verify claims to combat this avalanche of misinformation. However, establishing\nsuch claims’ veracity is becoming increasingly challenging, partly due to the plethora of information available, which is difficult to process manually. Thus, it becomes imperative\nto verify claims automatically without human interventions. To cope up with this issue, we propose an automated claim verification solution encompassing two steps – document\nretrieval and veracity prediction. For the retrieval module, we employ a hybrid search-based system with BM25 as a base retriever and experiment with recent state-of-the-art\ntransformer-based models for re-ranking. Furthermore, we use a BART-based textual entailment architecture to authenticate the retrieved documents in the later step. We report experimental findings,\ndemonstrating that our retrieval module outperforms the best baseline system by 10.32 NDCG@100 points. We escort a demonstration to assess the efficacy and impact of\nour suggested solution. As a byproduct of this study, we present an open-source, easily deployable, and user-friendly Python API that the community can adopt. ©\n2022 Association for Computational Linguistics."
+    },
+    {
+      "document_id": 696,
+      "score": null,
+      "abstract": "Massive misinformation spread over Internet has many negative impacts on our lives. While spreading a claim is easy, investigating its veracity is hard and time\nconsuming, Therefore, we urgently need systems to help human fact-checkers. However, available data resources to develop effective systems are limited and the vast majority of\nthem is for English. In , we introduce TrClaim-19, which is the very first labeled dataset for Turkish check-worthy claims. TrClaim-19 consists of labeled 2287\nTurkish tweets with annotator rationales, enabling us to better understand the characteristics of check-worthy claims. The rationales we collected suggest that claims’ topics and their\npossible negative impacts are the main factors affecting their check-worthiness. © 2020 Association for Computational Linguistics."
+    },
+    {
+      "document_id": 749,
+      "score": null,
+      "abstract": "Misinformation has many negative consequences on our daily life. While spread of misinformation is very fast, investigating veracity of claims is slow. Therefore, we urgently\nneed systems helping human fact checkers in the combat against misinformation. In , we present our participation in check-worthiness tasks (i.e., Task 1 and Task\n5) of CLEF-2020 Check That! Lab. For English Task 1, we use logistic regression with fined-tuned BERT predictions, POS tags, controversial topics and a hand-crafted\nword list as features. For English Task 5, we again use logistic regression with fined-tuned BERT predictions and word embeddings as features. For Arabic Task\n1, we use a hybrid approach of fined-tuned BERT model with the model used for English Task 5. For the Arabic task, we use AraBert\nas our Bert model. In the official evaluation of primary submissions, our primary models a) ranked 3rd in Arabic Task 1 based on P@30 and\nshared the 1st rank with another group based on P@5, b) ranked 5th in English Task 1 based on average precision and shared the 1st\nrank with five other groups based on reciprocal rank, P@1, P@3 and P@5 metrics, and c) ranked 3rd in Task 5 based on average precision.\nCopyright © 2020 for by its authors."
+    }
+  ]
+}

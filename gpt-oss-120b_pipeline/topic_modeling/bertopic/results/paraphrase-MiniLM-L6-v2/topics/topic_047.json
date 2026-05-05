@@ -1,0 +1,45 @@
+{
+  "topic_id": 47,
+  "label": "T047",
+  "label_full": "verification, fact",
+  "keywords": [
+    "verification",
+    "fact",
+    "senet",
+    "fever",
+    "syntactic",
+    "evidence",
+    "macol",
+    "amrex",
+    "amr",
+    "sentences"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 48,
+      "score": null,
+      "abstract": "In natural language processing, fact verification is a very challenging task, which requires retrieving multiple evidence sentences from a reliable corpus to verify the authenticity\nof a claim. Although most of the current deep learning methods use the attention mechanism for fact verification, they have not considered imposing attentional constraints\non important related words in the claim and evidence sentences, resulting in inaccurate attention for some irrelevant words. In , we propose a syntactic evidence\nnetwork (SENet) model which incorporates entity keywords, syntactic information and sentence attention for fact verification. The SENet model extracts entity keywords from claim and evidence\nsentences, and uses a pre-trained syntactic dependency parser to extract the corresponding syntactic sentence structures and incorporates the extracted syntactic information into the attention mechanism\nfor language-driven word representation. In addition, the sentence attention mechanism is applied to obtain a richer semantic representation. We have conducted experiments on the FEVER\nand UKP datasets for performance evaluation. Our SENet model has achieved 78.69% in Label Accuracy and 75.63% in FEVER Score on the FEVER dataset. In\naddition, our SENet model also has achieved 65.0% in precision and 61.2% in macro F1 on the UKP dataset. The experimental results have shown that\nour proposed SENet model has outperformed the baseline models and achieved the state-of-the-art performance for fact verification. © 2024 Elsevier Ltd"
+    },
+    {
+      "document_id": 177,
+      "score": null,
+      "abstract": "Table-based fact verification focuses on determining the truthfulness of statements by cross-referencing data in tables. This task is challenging due to the complex interactions inherent\nin table structures. To address this challenge, existing methods have devised a range of specialized models. Although these models demonstrate good performance, they still exhibit\nlimited sensitivity to essential variations in information relevant to reasoning within both statements and tables, thus learning spurious patterns and leading to potentially unreliable outcomes.\nIn , we propose a novel approach named Multi-Aspect Adversarial Contrastive Learning (MACOL), aimed at enhancing the accuracy and robustness of table-based fact verification systems\nunder the premise of resource efficiency. Specifically, we first extract pivotal logical reasoning clues to construct positive and adversarial negative instances for contrastive learning. We\nthen propose a new training paradigm that introduces a contrastive learning objective, encouraging the model to recognize noise invariance between original and positive instances while\nalso distinguishing logical differences between original and negative instances. Extensive experimental results on three widely studied datasets TABFACT, INFOTABS and SEM-TAB-FACTS demonstrate that MACOL achieves\nstate-of-the-art performance on benchmarks across various backbone architectures, with accuracy improvements reaching up to 5.4%. Furthermore, MACOL exhibits significant advantages in robustness and low-data resource\nscenarios, with improvements of up to 8.2% and 9.1%. It is worth noting that our method achieves comparable or even superior performance while being more\nresource-efficient compared to approaches that employ specific additional pre-training or utilize large language models (LLMs). © 2024 Elsevier Ltd"
+    },
+    {
+      "document_id": 204,
+      "score": null,
+      "abstract": "With the advent of social media networks and the vast amount of information circulating through them, automatic fact verification is an essential component to prevent\nthe spread of misinformation. It is even more useful to have fact verification systems that provide explanations along with their classifications to ensure accurate predictions.\nTo address both of these requirements, we implement AMREx, an Abstract Meaning Representation (AMR)-based veracity prediction and explanation system for fact verification using a combination\nof Smatch, an AMR evaluation metric to measure meaning containment and textual similarity, and demonstrate its effectiveness in producing partially explainable justifications using two community\nstandard fact verification datasets, FEVER and AVeriTeC. AMREx surpasses the AVeriTec baseline accuracy showing the effectiveness of our approach for real-world claim verification. It follows\nan interpretable pipeline and returns an explainable AMR node mapping to clarify the system’s veracity predictions when applicable. We further demonstrate that AMREx output can\nbe used to prompt LLMs to generate natural-language explanations using the AMR mappings as a guide to lessen the probability of hallucinations. © 2024 Association\nfor Computational Linguistics."
+    },
+    {
+      "document_id": 570,
+      "score": null,
+      "abstract": "Treating the fact-checking process from a computational perspective helps to deal with misinformation on the Web. It is essential, however, that the result of the\nverification process be traceable, allowing for the reproducibility and homologation of results. However, there is a lack of models that allow representing this information properly.\nIn this sense, demonstrates how ontologies can be useful for automatic fact-checking by presenting a task ontology that supports the representation of process steps and\nresult traceability. The ontology was validated through a proof of concept, proving to be useful to represent the necessary information. © 2021 Copyright for by\nits authors."
+    },
+    {
+      "document_id": 634,
+      "score": null,
+      "abstract": "Fact checking is a challenging task because verifying the truthfulness of a claim requires reasoning about multiple retrievable evidence. In , we present a method\nsuitable for reasoning about the semantic-level structure of evidence. Unlike most previous works, which typically represent evidence sentences with either string concatenation or fusing the\nfeatures of isolated evidence sentences, our approach operates on rich semantic structures of evidence obtained by semantic role labeling. We propose two mechanisms to exploit\nthe structure of evidence while leveraging the advances of pre-trained models like BERT, GPT or XLNet. Specifically, using XLNet as the backbone, we first utilize\nthe graph structure to re-define the relative distances of words, with the intuition that semantically related words should have short distances. Then, we adopt graph\nconvolutional network and graph attention network to propagate and aggregate information from neighboring nodes on the graph. We evaluate our system on FEVER, a benchmark\ndataset for fact checking, and find that rich structural information is helpful and both our graph-based mechanisms improve the accuracy. Our model is the state-of-the-art\nsystem in terms of both official evaluation metrics, namely claim verification accuracy and FEVER score. © 2020 Association for Computational Linguistics"
+    }
+  ]
+}

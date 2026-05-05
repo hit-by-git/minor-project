@@ -1,0 +1,80 @@
+{
+  "topic_id": 16,
+  "label": "T016",
+  "label_full": "fact, multiclaim",
+  "keywords": [
+    "fact",
+    "multiclaim",
+    "claim",
+    "fever",
+    "evidence",
+    "verification",
+    "checking",
+    "statement",
+    "claims",
+    "relevant"
+  ],
+  "n_docs": 12,
+  "documents": [
+    {
+      "document_id": 78,
+      "score": null,
+      "abstract": "To inhibit the spread of rumorous information and its severe impacts, fact checking aims at retrieving relevant evidence to verify the veracity of a given\nstatement. Fact checking methods typically use knowledge graphs (KGs) as external repositories and develop reasoning mechanism to retrieve evidence for verifying the statement. Existing fact\nchecking methods have focused on verifying the statement of a single claim expressed by a clause. However, as real-world rumorous information is usually complex and\na textual statement is often composed of multiple clauses (i.e. represented as multiple claims instead of a single one), multi-claim fact checking is not only\nnecessary but more important for practical applications. Multi-claim statements imply rich contextual information and modeling the interactions of multiple claims can facilitate better verification. In\n, we propose a knowledge enhanced learning and semantic composition model for multi-claim fact checking. Our model consists of two modules, KG-based learning enhancement and\nmulti-claim semantic composition. To fully utilize the contextual information implied in multiple claims, the KG-based learning enhancement module learns the dynamic context-specific representations via selectively\naggregating relevant attributes of entities. To robustly verify multiple claims robustly, the multi-claim semantic composition module learns a unified representation for multiple claims by modeling\ninter-claim interactions, and then verify them as a whole on the basis of this. We conduct experimental studies to validate our proposed method, and the\nexperimental results on three typically datasets confirmed the efficacy of our model for multi-claim fact checking. © 2024 Elsevier B.V."
+    },
+    {
+      "document_id": 81,
+      "score": null,
+      "abstract": "Automated fact-checking has emerged as a safeguard against the spread of false information. Existing fact-checking approaches aim to determine whether a news claim is true\nor false, and they have achieved decent accuracy of veracity prediction. However, the current state-of-the-art models still face challenges, such as ambiguity in the claims\nand lack of contextual information. This study introduces a fact-checking model, Path-FC, which focuses on 1) augmenting the representations of claims and evidence by incorporating\nadditional context using the Knowledge Paths extracted from the external Knowledge Graph; 2) Identifying false claims by learning the differences between claims and evidence. The\nexperimental results demonstrate that Knowledge Path retrieval, combined with the multi-head attention technique, contributes to improved performance of fact-checking. The code is available at ©\n2024 Owner/Author."
+    },
+    {
+      "document_id": 235,
+      "score": null,
+      "abstract": "We present Claim-Dissector: a novel latent variable model for fact-checking and analysis, which given a claim and a set of retrieved evidence jointly learns to\nidentify: (i) the relevant evidences to the given claim (ii) the veracity of the claim. We propose to disentangle the per-evidence relevance probability and its\ncontribution to the final veracity probability in an interpretable way — the final veracity probability is proportional to a linear ensemble of per-evidence relevance probabilities.\nIn this way, the individual contributions of evidences towards the final predicted probability can be identified. In per-evidence relevance probability, our model can further distinguish\nwhether each relevant evidence is supporting (S) or refuting (R) the claim. This allows to quantify how much the S/R probability contributes to final verdict\nor to detect disagreeing evidence. Despite its interpretable nature, our system achieves results competetive with state-of-the-art on the FEVER dataset, as compared to typical two-stage\nsystem pipelines, while using significantly fewer parameters. Furthermore, our analysis shows that our model can learn fine-grained relevance cues while using coarse-grained supervision and we\ndemonstrate it in 2 ways. (i) We show that our model can achieve competitive sentence recall while using only paragraph-level relevance supervision. (ii) Traversing towards\nthe finest granularity of relevance, we show that our model is capable of identifying relevance at the token level. To do this, we present a\nnew benchmark TLR-FEVER focusing on token-level interpretability — humans annotate tokens in relevant evidences they considered essential when making their judgment. Then we measure how\nsimilar are these annotations to the tokens our model is focusing on."
+    },
+    {
+      "document_id": 381,
+      "score": null,
+      "abstract": "Modern fact verification systems have distanced themselves from the black box paradigm by providing the evidence used to infer their veracity judgments. Hence, evidence-backed fact\nverification systems’ performance heavily depends on the capabilities of their retrieval component to identify these facts. A popular evaluation benchmark for these systems is the\nFEVER task, which consists of determining the veracity of short claims using sentences extracted from Wikipedia. In , we present a novel approach to the\nthe retrieval steps of the FEVER task leveraging the graph structure of Wikipedia. The retrieval models surpass state of the art results at both sentence\nand document level. Additionally, we show that by feeding our retrieved evidence to the best-performing textual entailment model, we set a new state of the\nart in the FEVER competition. © 2023 Association for Computational Linguistics."
+    },
+    {
+      "document_id": 444,
+      "score": null,
+      "abstract": "Verifying the veracity of claims requires reasoning over a large knowledge base, often in the form of corpora of trustworthy sources. A common approach consists\nin retrieving short portions of relevant text from the reference documents and giving them as input to a natural language inference module that determines whether\nthe claim can be inferred or contradicted from them. This approach, however, struggles when multiple pieces of evidence need to be collected and combined from\ndifferent documents, since the single documents are often barely related to the target claim and hence they are left out by the retrieval module. We\nconjecture that a graph-based approach can be beneficial to identify fragmented evidence. We tested this hypothesis by building, over the whole corpus, a large graph\nthat interconnects text portions by means of mentioned entities and exploiting such a graph for identifying candidate sets of evidence from multiple sources. Our experiments\nshow that leveraging on a graph structure is beneficial in identifying a reasonably small portion of passages related to a claim. © 2022, The Author(s),\nunder exclusive license to Springer Nature Switzerland AG."
+    },
+    {
+      "document_id": 558,
+      "score": null,
+      "abstract": "To inhibit the spread of rumorous information, fact checking aims at retrieving evidence to verify the truthfulness of a given statement. Fact checking methods typically\nuse knowledge graphs (KGs) as external repositories and develop reasoning methods to retrieve evidence from KGs. As real-world statement is often complex and contains multiple\nclaims, multi-claim fact verification is not only necessary but more important for practical applications. However, existing methods only focus on verifying a single claim (i.e.\na single-claim statement). Multiple claims imply rich context information and modeling the interrelations between claims can facilitate better verification of a multi-claim statement as a\nwhole. In , we propose a computational method to model inter-claim interactions for multi-claim fact checking. To focus on relevant claims within a statement, our\nmethod first extracts topics from the statement and connects the triple claims in the statement to form a claim graph. It then learns a policy-based\nagent to sequentially select topic-related triples from the claim graph. To fully exploit information from the statement, our method further employs multiple agents and develops\na hierarchical attention mechanism to verify multiple claims as a whole. Experimental results on two real-world datasets show the effectiveness of our method for multi-claim\nfact verification."
+    },
+    {
+      "document_id": 563,
+      "score": null,
+      "abstract": "We study the fact-checking problem, which aims to identify the veracity of a given claim. Specifically, we focus on the task of Fact Extraction and\nVERification (FEVER) and its accompanied dataset. The task consists of the subtasks of retrieving the relevant documents (and sentences) from Wikipedia and validating whether the\ninformation in the documents supports or refutes a given claim. This task is essential and can be the building block of applications such as fake\nnews detection and medical claim verification. In this article, we aim at a better understanding of the challenges of the task by presenting the literature\nin a structured and comprehensive way. We describe the proposed methods by analyzing the technical perspectives of the different approaches and discussing the performance results\non the FEVER dataset, which is the most well-studied and formally structured dataset on the fact extraction and verification task. We also conduct the largest\nexperimental study to date on identifying beneficial loss functions for the sentence retrieval component. Our analysis indicates that sampling negative sentences is important for improving\nthe performance and decreasing the computational complexity. Finally, we describe open issues and future challenges, and we motivate future research in the task."
+    },
+    {
+      "document_id": 652,
+      "score": null,
+      "abstract": "Fact verification is a challenging task of identifying the truthfulness of given claims based on the retrieval of relevant evidence texts. Many claims require understanding\nand reasoning over external entity information for precise verification. In , we propose a novel fact verification model using entity knowledge to enhance its performance.\nWe retrieve descriptive text from Wikipedia for each entity, and then encode these descriptions by a smaller lightweight network to be fed into the main\nverification model. Furthermore, we boost model performance by adopting and predicting the relatedness between the claim and each evidence as additional signals. We demonstrate experimentally\non a large-scale benchmark dataset FEVER that our framework achieves competitive results with a FEVER score of 72.89% on the test set. © 2021 Association\nfor Computational Linguistics."
+    },
+    {
+      "document_id": 693,
+      "score": null,
+      "abstract": "The massive spread of false information has brought about severe security-related problems to individuals and society. To debunk misinformation automatically, fact checking has become an\nimportant task that aims at retrieving evidence from external sources to verify the truthfulness of a given claim. As knowledge graph (KG) is a classic\nexternal source for retrieving relevant evidence. Previous methods typically check a claim by making inferences over it. Entity category information can be utilized to strengthen\nboth the learning and verification process. However, this information was largely ignored in previous research. To make better use of the category information, in ,\nwe propose a category-based framework for improving the performance of fact checking with KGs. We first learn prototypes for each category as their representatives, and\nthen propose a prototype-based learning technique for effectively modeling the entity dependency in KG. We further develop a prototype matching technique to explore the category-level\nrelations between head and tail entities for more robust verification. Experimental results on two benchmark datasets and a real-world dataset show that our framework can\nsignificantly improve the reasoning abilities of KG reasoning methods on Fact Checking task. © 2020 IEEE."
+    },
+    {
+      "document_id": 771,
+      "score": null,
+      "abstract": "The increasing concern with false information has stimulated research in joint Fact Extraction and VERification (FEVER). Now we propose a system by deep learning which\ncan help people identify the authenticity of most claims as well as providing evidences selected from knowledge source like Wikipedia. In , we examine how\nto use deep learning method to improve the performance of the automatic fact verification system. Firstly, the inverted index of the knowledge base is established\nby using a Python package named Whoosh. Secondly, the claim is regularized by the Named Entity Recognition (NER) tool, and the most relevant documents are\nfiltered based on the relevance ranking algorithm. Thirdly, top 20 relevant sentences for each claim are filtered by word embeddings. Finally, the effectiveness of each\nsentence and the label of claim is judged based on the two-level pre-training model. Our approach achieved a 0.89 document. © 2019 IEEE."
+    },
+    {
+      "document_id": 821,
+      "score": null,
+      "abstract": "Many tasks such as question answering and reading comprehension rely on information extracted from unreliable sources. These systems would thus benefit from knowing whether a\nstatement from an unreliable source is correct. We present experiments on the FEVER (Fact Extraction and VERification) task, a shared task that involves selecting sentences\nfrom Wikipedia and predicting whether a claim is supported by those sentences, refuted, or there is not enough information. Fact checking is a task that\nbenefits from not only asserting or disputing the veracity of a claim but also finding evidence for that position. As these tasks are dependent on\neach other, an ideal model would consider the veracity of the claim when finding evidence and also find only the evidence that is relevant. We\nthus jointly model sentence extraction and verification on the FEVER shared task. Among all participants, we ranked 5th on the blind test set (prior to\nany additional human evaluation of the evidence)."
+    },
+    {
+      "document_id": 822,
+      "score": null,
+      "abstract": "With huge amount of information generated every day on the web, fact checking is an important and challenging task which can help people identify the\nauthenticity of most claims as well as providing evidences selected from knowledge source like Wikipedia. Here we decompose this problem into two parts: an entity\nlinking task (retrieving relative Wikipedia pages) and recognizing textual entailment between the claim and selected pages. In , we present an end-to-end multi-task learning with\nbi-direction attention (EMBA) model to classify the claim as “supports”, “refutes” or “not enough info” with respect to the pages retrieved and detect sentences as\nevidence at the same time. We conduct experiments on the FEVER (Fact Extraction and VERification) paper test dataset and shared task test dataset, a new\npublic dataset for verification against textual sources. Experimental results show that our method achieves comparable performance compared with the baseline system."
+    }
+  ]
+}

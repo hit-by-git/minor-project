@@ -1,0 +1,55 @@
+{
+  "topic_id": 33,
+  "label": "T033",
+  "label_full": "Credibility Assessment",
+  "keywords": [
+    "bloggers",
+    "microblog",
+    "user",
+    "blog",
+    "entries",
+    "content",
+    "users",
+    "credibility",
+    "information",
+    "level"
+  ],
+  "n_docs": 7,
+  "documents": [
+    {
+      "document_id": 173,
+      "score": null,
+      "abstract": "The identification of the trustworthy sources and determining their reliability during information diffusion are the most challenging tasks in social media. A trustworthy user identification\nsystem can greatly help authorities, organizations, and the public to access a accurate and fast information during crises, enabling a more knowledgeable and coordinated response.\nThe proposed user’s reliable score prediction approach identifies the trusted user on social media. The proposed system analyzes their user profile, taking into account a\nnumber of factors, including their follower count, the number of accounts they follow, user verification status, and user’s profile description across the social media platforms\nto determine a user’s reliability and trustworthiness. In behavior analysis, the system analyzes the user behavior by considering the past tweets of the user and\nthe engagement of the user through analyzing the likes and retweets count on the tweets. In tweet-relevant analysis, deep learning models are trained to classify\nwhether the disaster tweets are relevant or irrelevant where the Bidirectional Long Short Term Memory model performs well with 94.54% accuracy. The reliable score is\ncalculated with the user profile, behavior and tweet relevancy, and then the K-means clustering is performed to cluster the score to identify whether the user\nis highly reliable or not. © The Author(s), under exclusive license to Springer Nature Switzerland AG 2024."
+    },
+    {
+      "document_id": 383,
+      "score": null,
+      "abstract": "For the sake of determining the reliability of an event, proposes a method of identifying the authenticity of a microblog event based on human-machine collaboration.\nUsing the that was spoken in the incident and the public information of the users participating in the event to identify false incidents. Then separately\ncalculate the user's credibility and the emotional stance of and comments. The calculation of user credibility takes the complete information of the user as a\nstatic description of the user. When performing emotional standpoint detection, we divide it into two steps. For a piece of , its comments are tested\nfor further computation, for different microblog, the emotions between microblog are tested. Building a graph model for an event. While processing the model, some special\nmicroblogs are extracted. Human will deal with these microblogs and give feedback to the graph model. Then the model will be changed accordingly. Finally, GCN\nis leveraged to process the model to obtain the true and false of the event. Through extensive experiments to verify the proposed model and show\na comparative performance, the accuracy is 89.34 and the F-score reaches0.9375."
+    },
+    {
+      "document_id": 665,
+      "score": null,
+      "abstract": "Information trustworthiness assessment on political social media discussions is crucial to maintain the order of society, especially during emergent situations. The polarity nature of political\ntopics and the echo chamber effect by social media platforms allow for a deceptive and a dividing environment. During a political crisis, a vast amount\nof information is being propagated on social media, that leads up to a high level of polarization and deception by the beneficial parties. The traditional\napproaches to tackling misinformation on social media usually lack a comprehensive problem definition due to its complication. proposes a probabilistic graphical model as a theoretical\nview on the problem of normal users credibility on social media during a political crisis, where polarization and deception are keys properties. Such noisy signals\ndramatically influence any attempts for misinformation detection. Hence, we introduce a causal Bayesian network, inspired by the potential main entities that would be part of\nthe process dynamics. Our methodology examines the problem solution in a causal manner which considers the task of misinformation detection as a question of cause\nand effect rather than just a classification task. Our causality-based approach provides a practical road map for some sub-problems in real-world scenarios such as individual\npolarization level, misinformation detection, and sensitivity analysis of the problem. Moreover, it facilitates intervention simulations which would unveil both positive and negative effects on the\ndeception level over the network. © 2019 FRUCT."
+    },
+    {
+      "document_id": 687,
+      "score": null,
+      "abstract": "develops unsupervised fact-finding algorithms that combine consideration of multi-modal microblog content features with analysis of propagation patterns to determine veracity of microblog observations. In contrast\nto prior solutions that use labeled examples to learn content features that are correlated with veracity, our approach is entirely unsupervised. Hence, given no prior\ntraining data, we jointly learn the importance of different content features together with the veracity of observations using propagation patterns as an indicator of perceived\ncontent reliability. To offer robustness, we describe fact-finding extensions that handle the existence of malicious colluding sources. We evaluate the performance of the proposed algorithms\non real-world data sets collected from Twitter. The evaluation results demonstrate that the proposed algorithms outperform the existing fact-finding approaches, and offer tunable knobs for\ncontrolling robustness/performance trade-offs in the presence of malicious sources. © 2019 ISIF-International Society of Information Fusion."
+    },
+    {
+      "document_id": 733,
+      "score": null,
+      "abstract": "We take Sina micro-blog as the research object, extract the feature data from micro-blog users under the background of the topic, analyze the micro-blog users'\ncharacteristics, propose a dynamic evaluation model of user credibility combined with the contents of information (DEMOC); we design and implement an micro-blog user reputation evaluation\nalgorithm, on the basis of this, we put forward the the user reliability evaluation algorithm with the combination of information content (UCEA). Through experiments on\nreal data sets, we can see that the credibility evaluation algorithm proposed in has higher accuracy. © 2017 IEEE."
+    },
+    {
+      "document_id": 803,
+      "score": null,
+      "abstract": "With the huge increase of recently popular user-generated content on the Web, searching for credible information has become progressively difficult. In , we focus on\nblogs, one kind of user-generated content, and propose a credibility-focused blog ranking method based on bloggers' knowledge level. This method calculates knowledge scores for bloggers\nand ranks blog entries based on bloggers' knowledge level. Bloggers' knowledge level is evaluated based on their usage of domain-specific words in their past blog\nentries. A blogger is given multiple scores with respect to various topic areas. In our method, blog entries written by knowledgeable bloggers have higher rankings\nthan those written by common bloggers. Additionally, our system can present multiple ranking lists of blog entries from the perspectives of different bloggers' groups. This\nallows users to estimate the trustworthiness of blog contents from multiple aspects. We built a prototype of the proposed system, and our experimental evaluation showed\nthat our method could effectively rank bloggers and blog entries. © 2009 Springer-Verlag Berlin Heidelberg."
+    },
+    {
+      "document_id": 806,
+      "score": null,
+      "abstract": "General users write daily news about themselves and post information they consider interesting as digital documents for blogs and SNS. Such digital content includes both\nvaluable information as well as worthless, false, and demagogic information. Ordinary web search engines can display web pages in a particular order. The ranking method\nevaluates the score of web content and generates a ranked list. The top-ranked web content on search engines is often relevant to the user's query,\nthough, in some cases, the content may not be credible or valuable. Nevertheless, readers often trust the authenticity of the displayed information. Even if users\nbelieve that the content is useful, the search engine cannot evaluate the retrieved digital content, and users have to retrieve a variety of content using\ndifferent keywords. The need for an information analysis technology that helps find credible and valuable information from large amounts of Web content is progressively growing.In\nJapan, the NICT (National Institute of Information and Communications Technology) initiated the ''Information Credibility Criteria Project'' in 2oo6, and the MIC (Ministry of Internal Affairs\nand Communications), too, initiated the ''Research and Development of Information Credibility Verification Technology for Telecommunication Service'' in 2007.The NICT's project addresses the issue of information\ncredibility by analyzing credibility based on the following criteria: (1) content, (2) sender, (3) appearance, and (4) authenticity of content. We believe that the understanding\nof texts by a machine is important and that an NLP (Natural Language Processing) approach is very effective in evaluating the credibility criteria. The MIC's\nproject aims to develop methods to analyze not only text information but also multimedia content using NLP, information retrieval and data mining approaches. By using\ndifferent methods for analyzing the information credibility criteria, credible information can be acquired, which eventually becomes valuable knowledge.This talk will throw light on the activities\nof both projects in Japan."
+    }
+  ]
+}

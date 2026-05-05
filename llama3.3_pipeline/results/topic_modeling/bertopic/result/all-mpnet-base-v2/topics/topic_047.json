@@ -1,0 +1,55 @@
+{
+  "topic_id": 47,
+  "label": "T047",
+  "label_full": "machinegenerated, humanwritten",
+  "keywords": [
+    "machinegenerated",
+    "humanwritten",
+    "comments",
+    "detectors",
+    "plms",
+    "llms",
+    "german",
+    "news",
+    "english",
+    "stylometry"
+  ],
+  "n_docs": 7,
+  "documents": [
+    {
+      "document_id": 49,
+      "score": null,
+      "abstract": "It is commonly perceived that fake news and real news exhibit distinct writing styles, such as the use of sensationalist versus objective language. However, we\nemphasize that style-related features can also be exploited for style-based attacks. Notably, the advent of powerful Large Language Models (LLMs) has empowered malicious actors to\nmimic the style of trustworthy news sources, doing so swiftly, cost-effectively, and at scale. Our analysis reveals that LLM-camouflaged fake news content significantly undermines the\neffectiveness of state-of-the-art text-based detectors (up to 38\\% decrease in F1 Score), implying a severe vulnerability to stylistic variations. To address this, we introduce SheepDog,\na style-robust fake news detector that prioritizes content over style in determining news veracity. SheepDog achieves this resilience through (1) LLM-empowered news reframings that inject\nstyle diversity into the training process by customizing articles to match different styles; (2) a style-agnostic training scheme that ensures consistent veracity predictions across style-diverse\nreframings; and (3) content-focused veracity attributions that distill content-centric guidelines from LLMs for debunking fake news, offering supplementary cues and potential intepretability that assist veracity\nprediction. Extensive experiments on three real-world benchmarks demonstrate SheepDog's style robustness and adaptability to various backbones."
+    },
+    {
+      "document_id": 50,
+      "score": null,
+      "abstract": "Fake news detection plays a crucial role in protecting social media users and maintaining a healthy news ecosystem. Among existing works, comment-based fake news detection\nmethods are empirically shown as promising because comments could reflect users' opinions, stances, and emotions and deepen models' understanding of fake news. Unfortunately, due to\nexposure bias and users' different willingness to comment, it is not easy to obtain diverse comments in reality, especially for early detection scenarios. Without obtaining\nthe comments from the \"silent'' users, the perceived opinions may be incomplete, subsequently affecting news veracity judgment. In , we explore the possibility of finding\nan alternative source of comments to guarantee the availability of diverse comments, especially those from silent users. Specifically, we propose to adopt large language models\n(LLMs) as a user simulator and comment generator, and design GenFEND, a generated feedback-enhanced detection framework, which generates comments by prompting LLMs with diverse user\nprofiles and aggregating generated comments from multiple subpopulation groups. Experiments demonstrate the effectiveness of GenFEND and further analysis shows that the generated comments cover more\ndiverse users and could even be more effective than actual comments."
+    },
+    {
+      "document_id": 152,
+      "score": null,
+      "abstract": "The increased fake news in today's digital landscape necessitates effective detection methods to safeguard information integrity. While conventional machine learning, armed with features like text\npatterns, metadata, and user behavior, has made inroads in fake news detection, its heavy reliance on manually crafted features poses a challenge. This approach is\ntime-consuming to capture the subtle complexities of fake news. Despite technological advancements, there remains a crucial research gap concerning utilizing emerging technologies like Large Language\nModels (LLMs), such as ChatGPT-3.5 and Bard, in fake news detection. This research addresses this gap by experimenting with and evaluating the potential of incorporating\nan LLM judgment using the ChatGPT-3.5 and conventional machine learning approaches in fake news detection. We tested various machine-learning models with the LLM. Out of\nthese models, the hybrid XGBoost model emerges as a standout, boasting an accuracy of 96.39%, precision of 97.04%, recall of 98.17%, and an F1 score\nof 97.6%. This exceptional model performance could be attributed to the integration of ChatGPT-3.5's judgments on the veracity of the news, demonstrating the importance of\nnuanced language patterns in distinguishing between authentic and fabricated news. These findings underline the potential of LLMs in revolutionizing fake news detection. © 2024 IEEE."
+    },
+    {
+      "document_id": 221,
+      "score": null,
+      "abstract": "In the age of large language models (LLMs) and the widespread adoption of AI-driven content creation, the landscape of information dissemination has witnessed a paradigm\nshift. With the proliferation of both human-written and machine-generated real and fake news, robustly and effectively discerning the veracity of news articles has become an\nintricate challenge. While substantial research has been dedicated to fake news detection, it has either assumed that all news articles are human-written or has abruptly\nassumed that all machine-generated news was fake. Thus, a significant gap exists in understanding the interplay between machine-paraphrased real news, machine-generated fake news, human-written fake\nnews, and human-written real news. In , we study this gap by conducting a comprehensive evaluation of fake news detectors trained in various scenarios. Our\nprimary objectives revolve around the following pivotal question: How can we adapt fake news detectors to the era of LLMs? Our experiments reveal an interesting\npattern that detectors trained exclusively on human-written articles can indeed perform well at detecting machine-generated fake news, but not vice versa. Moreover, due to the\nbias of detectors against machine-generated texts (Su et al., 2023b), they should be trained on datasets with a lower machine-generated news ratio than the test\nset. Building on our findings, we provide a practical strategy for the development of robust fake news detectors. © 2024 Association for Computational Linguistics."
+    },
+    {
+      "document_id": 551,
+      "score": null,
+      "abstract": "Fighting the spreading of fake news is one of the most challenging tasks on the Internet. In , we experiment with various pre-trained language models\n(PLMs) to check the veracity of German news articles. Since there are very few PLMs for German, we translate the German benchmark dataset to English.\nThen, we conduct experiments with both German and translated English datasets for predicting the veracity of the news articles. In the experiments, we apply the\nfine-tuning and adapter methods based on corresponding PLMs. Our experiments on the FANG-COVID dataset show that the errors resulting from translating German to English can\nbe compensated by the accuracy of available PLMs in English. With these experiments, we show that translating a dataset from a lower-resource language to English\nis a valid intermediate step for further processing with English PLMs. © 2022 Copyright for by its authors. Use permitted under Creative Commons License Attribution\n4.0 International (CC BY 4.0)."
+    },
+    {
+      "document_id": 676,
+      "score": null,
+      "abstract": "Recent developments in neural language models (LMs) have raised concerns about their potential misuse for automatically spreading misinformation. In light of these concerns, several studies\nhave proposed to detect machine-generated fake news by capturing their stylistic differences from human-written text. These approaches, broadly termed stylometry, have found success in source\nattribution and misinformation detection in human-written texts. However, in , we show that stylometry is limited against machine-generated misinformation. Whereas humans speak differently when trying\nto deceive, LMs generate stylistically consistent text, regardless of underlying motive. Thus, though stylometry can successfully prevent impersonation by identifying text provenance, it fails to\ndistinguish legitimate LM applications from those that introduce false information. We create two benchmarks demonstrating the stylistic similarity between malicious and legitimate uses of LMs,\nutilized in auto-completion and editing-assistance settings.1 Our findings highlight the need for non-stylometry approaches in detecting machine-generated misinformation, and open up the discussion on the\ndesired evaluation benchmarks."
+    },
+    {
+      "document_id": 721,
+      "score": null,
+      "abstract": "Recently, news consumption using online news portals has increased exponentially due to several reasons, such as low cost and easy accessibility. However, such online platforms\ninadvertently also become the cause of spreading false information across the web. They are being misused quite frequently as a medium to disseminate misinformation and\nhoaxes. Such malpractices call for a robust automatic fake news detection system that can keep us at bay from such misinformation and hoaxes. We propose\na robust yet simple fake news detection system, leveraging the tools for paraphrasing, grammar-checking, and word-embedding. In , we try to the potential of these\ntools in jointly unearthing the authenticity of a news article. Notably, we leverage Spinbot (for paraphrasing), Grammarly (for grammar-checking), and GloVe (for word-embedding) tools for\nthis purpose. Using these tools, we were able to extract novel features that could yield state-of-the-art results on the Fake News AMT dataset and comparable\nresults on Celebrity datasets when combined with some of the essential features. More importantly, the proposed method is found to be more robust empirically than\nthe existing ones, as revealed in our cross-domain analysis and multi-domain analysis. © 2020 IEEE."
+    }
+  ]
+}

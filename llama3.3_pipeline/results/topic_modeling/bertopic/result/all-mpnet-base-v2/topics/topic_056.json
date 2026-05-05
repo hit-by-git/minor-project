@@ -1,0 +1,45 @@
+{
+  "topic_id": 56,
+  "label": "T056",
+  "label_full": "trustworthiness, web",
+  "keywords": [
+    "trustworthiness",
+    "web",
+    "interface",
+    "search",
+    "grid",
+    "criteria",
+    "users",
+    "list",
+    "supportive",
+    "order"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 923,
+      "score": null,
+      "abstract": "Trustworthiness of information is an important factor to be considered when users consume data on the Web environment, because it affects the decision of the\nusers whether or not to utilize the information they find. In the worst case, by consuming untrustworthy information, users can arrive at a wrong decision.\nTherefore, it is necessary for Web users to have tool that can help them to assess the trustworthiness of the information they are consuming. In\n, we proposed a prototype for helping Web users to evaluate the trustworthiness of Web information, by providing them supportive data about the Web information\nthey are considering. Our prototype collects and integrates useful metadata based on practice trustworthiness criteria, using Linked Data, and presents the supportive information to the\nusers. The results showed that using our prototype can improve the user's ability to assess the information, and whether or not to trust information. The\nusers' trust level of the information was increased. In addition, the users were satisfied with the provided supportive information for helping them evaluate the trustworthiness\nof Web information. © 2015 IEEE."
+    },
+    {
+      "document_id": 941,
+      "score": null,
+      "abstract": "Assessing the quality of information on the Web is a challenging issue for at least two reasons. First, as a decentralized data publishing platform in\nwhich anyone can share nearly anything, the Web has no inherent quality control mechanisms to ensure that content published is valid, legitimate, or even just\ninteresting. Second, when assessing the trustworthiness of web pages, users tend to base their judgments upon descriptive criteria such as the visual presentation of the\nwebsite rather than more robust normative criteria such as the author's reputation and the source's review process. As a result, Web users are liable to\nmake incorrect assessments, particularly when making quick judgments on a large scale. Therefore, Web users need credibility criteria and tools to help them assess the\ntrustworthiness of Web information in order to place trust in it. In , we investigate the criteria that can be used to collect supportive data\nabout a piece of information in order to improve a person's ability to quickly judge the trustworthiness of the information. We propose the normative trustworthiness\ncriteria namely, authority, currency, accuracy and relevance which can be used to support users' assessments of the trustworthiness of Web information. In addition, we validate\nthese criteria using an expert panel. The results show that the proposed criteria are helpful. Moreover, we obtain weighting scores for criteria which can be\nused to calculate the trustworthiness of information and suggest a piece of information that is more likely to be trustworthy to Web users."
+    },
+    {
+      "document_id": 953,
+      "score": null,
+      "abstract": "The objective of the paper is to propose a measurement model for trustworthiness of a document to ensure information security. The definition of trustworthiness in\nthis context refers to the reliability value of the information in the document. The document here refers to an article or a web document. The\nproposed model relates to an approach for assessing trust of data for use of the information consumer. The model helps to capture multiple factors couple\nwith risk profiles in the determination of the trustworthiness of content. It allows consideration of level of confidence and aggregation of attitude towards risk for\nnormalization of a trust index. We use a fuzzy representation to allow the information consumer to decide their confidence level towards the importance of each\ncriterion. The model enables an automated computation method for a straight forward computation for a unique and personalized trustworthiness. The paper also presents an implementation\nexample for practicality of the proposed model. © 2012 IEEE."
+    },
+    {
+      "document_id": 957,
+      "score": null,
+      "abstract": "Web provides rich information about a variety of objects. Trustability is a major concern on the web. Truth establishment is an important task so as\nto provide the right information to the user from the most trustworthy source. Trustworthiness of information provider and the confidence of the facts it provides\nare inter-dependent on each other and hence can be expressed iteratively in terms of each other. However, a single information provider may not be the\nmost trustworthy for all kinds of information. Every information provider has its own area of competence where it can perform better than others. We derive\na model that can evaluate trustability on objects and information providers based on clusters (groups). We propose a method which groups the set of objects\nfor which similar set of providers provide \"good\" facts, and provides better accuracy in addition to high quality object clusters."
+    },
+    {
+      "document_id": 963,
+      "score": null,
+      "abstract": "This study examined to what extent users spontaneously evaluate the trustworthiness of Web search results presented by a search engine. For this purpose, a methodological\nparadigm was used in which the trustworthiness order of search results was experimentally manipulated by presenting search results on a search engine results page (SERP)\neither in a descending or ascending trustworthiness order. Moreover, a standard list format was compared to a grid format in order to examine the impact\nof the search results interface on Web users' evaluation processes. In an experiment addressing a controversial medical topic, 80 participants were assigned to one of\nfour conditions with trustworthiness order (descending vs. ascending) and search results interface (list vs. grid) varied as between-subjects factors. In order to investigate participants' evaluation\nprocesses their eye movements and mouse clicks were captured during Web search. Results revealed that a list interface caused more homogenous and more linear viewing\nsequences on SERPs than a grid interface. Furthermore, when using a list interface most attention was given to the search results on top of the\nlist. In contrast, with a grid interface nearly all search results on a SERP were attended to equivalently long. Consequently, in the ascending trustworthiness order\nparticipants using a list interface attended significantly longer to the least trustworthy search results and selected the most trustworthy search results significantly less often than\nparticipants using a grid interface. Thus, the presentation of Web search results by means of a grid interface seems to support users in their selection\nof trustworthy information sources."
+    }
+  ]
+}

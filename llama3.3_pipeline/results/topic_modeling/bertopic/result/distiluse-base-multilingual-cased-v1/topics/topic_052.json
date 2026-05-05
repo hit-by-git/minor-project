@@ -1,0 +1,45 @@
+{
+  "topic_id": 52,
+  "label": "T052",
+  "label_full": "evidence, expertise",
+  "keywords": [
+    "evidence",
+    "expertise",
+    "claim",
+    "pu",
+    "actual",
+    "claims",
+    "viewpoints",
+    "truthtracking",
+    "ehian",
+    "unlabeled"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 66,
+      "score": null,
+      "abstract": "<jats:p>We study what can be learned when receiving propositional reports from multiple nonexpert information sources. We suppose that sources report all that they consider possible,\ngiven their expertise. This may result in false and inconsistent reports when sources lack expertise on a topic. A learning method is truth-tracking, roughly speaking,\nif it eventually converges to correct beliefs about the “actual” world. This involves finding both the actual state of affairs in the domain described by\nthe sources, and finding the extent of the expertise of the sources themselves. We investigate the extent to which truth-tracking is possible, and describe what\ninformation can be learned even if the actual world cannot be pinned down uniquely. We find that a broad spread of expertise among the sources\nallows the actual state of affairs to be found, even if no individual source is an expert on all topics. On the other hand, narrower\nexpertise at the individual level allows the actual expertise to be found more easily. Finally, we turn to learning methods themselves: we provide a postulate-based\ncharacterisation of truth-tracking for general methods under mild assumptions, before looking at a couple of specific classes of methods from the belief change literature.</jats:p>"
+    },
+    {
+      "document_id": 444,
+      "score": null,
+      "abstract": "Verifying the veracity of claims requires reasoning over a large knowledge base, often in the form of corpora of trustworthy sources. A common approach consists\nin retrieving short portions of relevant text from the reference documents and giving them as input to a natural language inference module that determines whether\nthe claim can be inferred or contradicted from them. This approach, however, struggles when multiple pieces of evidence need to be collected and combined from\ndifferent documents, since the single documents are often barely related to the target claim and hence they are left out by the retrieval module. We\nconjecture that a graph-based approach can be beneficial to identify fragmented evidence. We tested this hypothesis by building, over the whole corpus, a large graph\nthat interconnects text portions by means of mentioned entities and exploiting such a graph for identifying candidate sets of evidence from multiple sources. Our experiments\nshow that leveraging on a graph structure is beneficial in identifying a reasonably small portion of passages related to a claim. © 2022, The Author(s),\nunder exclusive license to Springer Nature Switzerland AG."
+    },
+    {
+      "document_id": 559,
+      "score": null,
+      "abstract": "We extend evidence-aware claim verification to the context of positive-unlabeled (PU) learning. Existing works assume the truth and the falsity of the claims are known\nfor training and form the task as a supervised learning problem. However, this assumption underestimates the difficulty of collecting false claims; we argue that claim\nverification is more challenging in the absence of negative labels. We consider a more practical setting, where only a comparatively small number of true claims\nare labeled and more claims remain unlabeled. Thus, we formulate the claim verification task as a PU learning problem. We decouple learning representation of claim-evidence\npair from PU learning and adopt a pre-trained universal language model to encode claim-evidence pairs. We further propose to use the generative adversarial network (GAN)\nto capture the latent alignment between encoded claim-evidence pair and the truthfulness. We leverage the verification as part of the GAN by extending previous GAN\nbased PU learning. We show that the proposed model achieves the best performance with a small amount of labeled data and is robust to the\ntruthfulness prior estimation. We conduct a thorough analysis of the model selection. The proposed approach performs the best under two practical scenarios: (i) the unlabeled\ndata is more than the labeled data; (ii) and the unlabeled positive data is more than the unlabeled negative data."
+    },
+    {
+      "document_id": 746,
+      "score": null,
+      "abstract": "Exploring evidence from relevant articles to confirm the veracity of claims is a trend towards explainable claim verification. However, most strategies capture the top-k check-worthy\narticles or salient words as evidence, but this evidence is difficult to focus on the questionable parts of unverified claims. Besides, they utilize relevant articles\nindiscriminately, ignoring the source credibility of these articles, which may cause quiet a few unreliable articles to interfere with the assessment results. In , we\npropose Evidence-aware Hierarchical Interactive Attention Networks (EHIAN) by considering the capture of evidence fragments and the fusion of source credibility to explore more credible evidence\nsemantics discussing the questionable parts of claims for explainable claim verification. EHIAN first designs internal interaction layer (IIL) to strengthen deep interaction and matching between\nclaims and relevant articles for obtaining key evidence fragments, and then proposes global inference layer (GIL) that fuses source features of articles and interacts globally\nwith the average semantics of all articles and finally earns the more credible evidence semantics discussing the questionable parts of claims. Experiments on two datasets\ndemonstrate that EHIAN not only achieves the state-of-the-art performance but also secures effective evidence to explain the results. © 2020 Inst. Sci. inf., Univ. Defence\nin Belgrade. All rights reserved."
+    },
+    {
+      "document_id": 947,
+      "score": null,
+      "abstract": "Deciding whether a claim is true or false often requires understanding the evidence supporting and contradicting the claim. However, when learning about a controversial claim,\nhuman biases and viewpoints may affect which evidence documents are considered \"trustworthy\" or credible. It is important to overcome this bias and know both viewpoints\nto get a balanced perspective. In , we study various factors that affect learning about the truthfulness of controversial claims. We designed a user study\nto understand the impact of these factors. Specifically, we studied the impact of presenting evidence with contrasting viewpoints and source expertise rating on how users\naccessed the evidence documents. This would help us optimize how to teach users about controversial topics in the most effective way, and to design better\nclaim verification systems. We find that users do not seek contrasting viewpoints by themselves, but explicitly presenting contrasting evidence helps them get a well-rounded understanding\nof the topic. Furthermore, explicit knowledge of the source credibility and the context not only affects what users read, but also how credible they perceive\nthe document to be."
+    }
+  ]
+}

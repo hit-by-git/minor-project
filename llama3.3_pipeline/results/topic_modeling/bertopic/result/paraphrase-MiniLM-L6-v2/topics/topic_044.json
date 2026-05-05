@@ -1,0 +1,55 @@
+{
+  "topic_id": 44,
+  "label": "T044",
+  "label_full": "al, et",
+  "keywords": [
+    "al",
+    "et",
+    "classification",
+    "accuracy",
+    "method",
+    "mberts",
+    "1998",
+    "cambridge",
+    "cmpu",
+    "ensemble"
+  ],
+  "n_docs": 7,
+  "documents": [
+    {
+      "document_id": 89,
+      "score": null,
+      "abstract": "In this research, we compare and contrast many different AI algorithms designed to improve the ability to spot false information on social media. In particular,\nit assesses the efficacy of Passive Aggressive Classifier (Crammer et al., J Mach Learn Res 7:551–585, 2006), Hugging Face (Devlin et al., Bert: pre-training of\ndeep bidirectional transformers for language understanding. Cornell University, 2018), and Support Vector Machine Algorithms (Hearst et al., IEEE Intel Syst Appl 13:18–28, 1998; Boser et\nal., Proceedings of fifth annual workshop computational learning theory, pp 144–152, 1992; Schlkopf et al., Advances in kernel methods support vector learning. Mass, Cambridge, 1998;\nCristianini and Shawe-Taylor, An introduction to support vector machines and other kernel-based learning methods. Cambridge University Press, 2000; Baarir et al., Algeria 2021:125–130, 2020). Amid\nthe increasing menace of misinformation on social media, the need for effective fake news detection mechanisms cannot be overstated. The study begins with an overview\nof the algorithms under review, followed by an explanation of their application in fake news detection. This analysis then moves into a comparison mode, assessing\neach method according to several criteria including computational complexity, accuracy, precision, and recall. The research goes further into the pros and cons of each model,\nilluminating how well they perform with various sets of data and varieties of disinformation. In order to create reliable and accurate false news detection systems,\nit is important to determine which algorithms are the most successful. The results of this comparison not only add to the body of knowledge on\ndisinformation identification, but they also provide concrete strategies for bolstering the trustworthiness of content shared on social media. © The Author(s), under exclusive license to\nSpringer Nature Singapore Pte Ltd. 2024."
+    },
+    {
+      "document_id": 144,
+      "score": null,
+      "abstract": "Social media platforms enable the rapid dissemination and consumption of information. However, users instantly consume such content regardless of the reliability of the shared data.\nConsequently, the latter crowdsourcing model is exposed to manipulation. contributes with an explainable and online classification method to recognize fake news in real-time. The proposed\nmethod combines both unsupervised and supervised Machine Learning approaches with online created lexica. The profiling is built using creator-, content- and context-based features using Natural\nLanguage Processing techniques. The explainable classification mechanism displays in a dashboard the features selected for classification and the prediction confidence. The performance of the proposed\nsolution has been validated with real data sets from Twitter and the results attain 80% accuracy and macro F-measure. This proposal is the first to\njointly provide data stream processing, profiling, classification and explainability. Ultimately, the proposed early detection, isolation and explanation of fake news contribute to increase the quality\nand trustworthiness of social media contents. © The Author(s) 2024."
+    },
+    {
+      "document_id": 242,
+      "score": null,
+      "abstract": "The proposed system procures a systematic workflow in fake news identification utilizing machine learning classification in order to recognize and distinguish between real and made-up\nnews. Using the Natural Language Toolkit (NLTK), the procedure starts with data preprocessing, which includes operations like text cleaning, tokenization, and stemming. This guarantees that\nthe data is translated into an analytically-ready format. The preprocessed data is subsequently supplied into transformer models like M-BERT, Albert, XLNET, and BERT. By utilizing\ntheir extensive training on substantial datasets to identify complex patterns and significant traits that discriminate between authentic and false news pieces, these transformer models excel\nat capturing contextual information. The most successful model among those used is M-BERT, which boasts an astounding F1 score of 0.74. This supports M-BERT’s supremacy\nover its competitors in the field of fake news identification, outperforming them in terms of performance. The program can draw more precise conclusions and more\neffectively counteract the spread of false information because of its comprehension of contextual nuance. Organizations and platforms can strengthen their fake news detection systems and\ntheir attempts to stop the spread of false information by utilizing M-BERT’s capabilities."
+    },
+    {
+      "document_id": 282,
+      "score": null,
+      "abstract": "This comprehensive investigation uses powerful NLP and multi-modal integration to detect fake information on social media. Our technique was tested using 10,000 news pieces from\nvarious social media networks. Advanced NLP models are crucial, with the state-of-the-art transformer model, BERT, collecting subtle contextual information with 94.2% accuracy. SVM and BERT\nhad the greatest classification accuracy at 95.6% when combined with ensemble approaches. Multi-modal information sources including picture captions and user metadata improved classification performance, with\nthe textual-image model achieving the greatest accuracy at 96.8%. The research was ethical, incorporating fairness analysis and transparency measures, to ensure detection trustworthiness and fairness.\nThese findings show that sophisticated NLP models and multi-modal integration can improve fake news detection, enabling the creation of strong, real-world apps to combat disinformation\nand protect digital discourse. © 2023 IEEE."
+    },
+    {
+      "document_id": 350,
+      "score": null,
+      "abstract": "introduces an ensemble-based technique that uses Natural Language Processing method to detect fake news. It uses Support Vector Machine, Decision Tree, Passive Aggressive Classifier, and\nArtificial Neural Network, four different types of classifiers. The research's dataset for the study consisted of news pieces with labels indicating their truthfulness. Pre-processing of\nthe data included text cleaning, tokenization, and stemming. Using the initially processed data, the classifiers were trained and evaluated, and their performance were measured using\nmetrics such as F1 score, accuracy, recall, as well as precision. The findings revealed that ensemble model with a voting classifier outperformed individual classifiers, achieving\nmaximum accuracy. The findings suggest that the proposed method for identifying false news is effective and has the potential to benefit various fields such as\njournalism, media, politics, and public policy. The usage of ensemble techniques for detecting fake news has gained popularity in recent years, and highlights a novel\nmethod that employs NLP and machine learning techniques. © 2023 IEEE."
+    },
+    {
+      "document_id": 493,
+      "score": null,
+      "abstract": "Combating fake news on social media is a critical challenge in today's digital age, especially when misinformation is spread regarding vital matters such as the\nCovid-19 pandemic. Manual verification of all content is infeasible; hence, Artificial Intelligence is used to classify fake news. Our ensemble model uses multiple Natural Language\nProcessing techniques to analyze the truthfulness of the text in tweets. We create custom parameters that analyze the consistency and truthfulness of domains contained in\nhyperlinked URLs. We then combine these parameters with the results of our deep learning models to achieve classification with greater than 99% accuracy. We have\nproposed a novel method to calculate a custom coefficient, the Combined Metric of Prediction Uncertainty (CMPU), which is a measure of how uncertain the model\nis of its classification of a given tweet. Using CMPU, we have proposed the creation of a priority queue following which the tweets classified with\nthe lowest certainty can be manually verified. By manually verifying 3.93% of tweets, we were able to improve the accuracy from 99.02% to 99.77%. ©\n2022 IEEE."
+    },
+    {
+      "document_id": 630,
+      "score": null,
+      "abstract": "Spreading of automatically generated clickbaits, fake news, and fake reviews undermines the veracity of the internet as a credible source of information. We investigate the\nproblem of recognizing automatically generated short texts by exploring different Deep Learning models. To improve the classification results, we use text augmentation techniques and classifier\nhyperparameter optimization. For word embedding and vectorization we use Glove and RoBERTa. We compare the performance of dense neural network, convolutional neural network, gated recurrent\nnetwork, and hierarchical attention network. The experiments on the TweepFake dataset achieved an 89.7% accuracy. © 2021, Springer Nature Switzerland AG."
+    }
+  ]
+}

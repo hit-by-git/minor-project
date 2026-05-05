@@ -1,0 +1,50 @@
+{
+  "topic_id": 41,
+  "label": "T041",
+  "label_full": "gfake, receiver",
+  "keywords": [
+    "gfake",
+    "receiver",
+    "data",
+    "piece",
+    "osn",
+    "users",
+    "exfake",
+    "sender",
+    "amplified",
+    "based"
+  ],
+  "n_docs": 6,
+  "documents": [
+    {
+      "document_id": 302,
+      "score": null,
+      "abstract": "ExFake is an explainable fake news detection system based on content and context-level information. It is concerned with the veracity analysis of online posts based\non their content, social context (i.e., online users' credibility and historical behaviour), and data coming from trusted entities such as fact-checking web sites and named\nentities. Unlike state-of-the-art systems, an Explainable AI (XAI) assistant is also adopted to help online social networks (OSN) users develop good reflexes when faced with\nany doubted information that spreads on social networks. The trustworthiness of OSN users is also addressed by assigning a credibility score to OSN users, as\nOSN users are one of the main culprits for spreading fake news. Experimental analysis on a real-world dataset demonstrates that ExFake significantly outperforms other baseline\nmethods for fake news detection. © 2023 IEEE."
+    },
+    {
+      "document_id": 433,
+      "score": null,
+      "abstract": "The emergence of social media platforms has amplified the dissemination of false information in various forms. Social media gives rise to virtual societies by providing\nfreedom of expression to users in a democracy. Due to the presence of echo chambers on social media, social science studies play a vital role\nin the spread of false news. To this aim, we provide a comprehensive framework that is adapted from several scholarly studies. The framework is capable\nof detecting information into various types, namely real, disinformation and satire based on authenticity as well as intention. The process highlights the use of interdisciplinary\napproaches derived from fundamental theories of social science and integrating them with modern computational tools and techniques. Few of these theories claim that malicious users\nsuggest writing fabricated content in a different style to attract the audience. Style-based methods evaluate the intention i.e., the content is written with an intent\nto mislead the audience or not. However, the writing style can be deceptive. Thus, it is important to involve user-oriented social information to improve model\nstrength. Therefore, the paper used an integrated approach by combining style based and propagation-based features with a total of thirty-one features. The extracted features are\ndivided into ten categories: relative frequency, quantity, complexity, uncertainty, sentiment, subjectivity, diversity, informality, additional, and popularity. The features have been iteratively utilized by supervised classifiers\nand then selected the best-correlated ones using the ANOVA test. Our experimental results have shown that the selected features are able to distinguish real from\ndisinformation and satirical news. It has been observed that the Ensemble machine learning model outperformed other models over the developed multi-labelled corpus. © 2022, The\nAuthor(s), under exclusive licence to Springer Science+Business Media, LLC, part of Springer Nature."
+    },
+    {
+      "document_id": 490,
+      "score": null,
+      "abstract": "The propagation of fake news is an increasingly serious concern in social platforms, and designing methods to automatically detect them and limit their spread is\nan important research challenge. Most existing methods rely on inspecting the content of news to decide on their veracity, but this information is not always\navailable. In , we present G-Fake (Graph-Fake), the first fake-news detection method that is entirely network-based. G-Fake only relies on the sharing history of news\nitems. It does not assume any information on the content of these items (e.g. text or pictures), nor on the trustworthiness of users. In fact,\nG-Fake does not even require access to the underlying social graph, nor to the interactions between users. Our experimental evaluation conducted on real-world data shows\nthat G-Fake can limit the spread of fake news in the earliest stages of propagation with an accuracy of 96.8%. © 2022, The Author(s), under\nexclusive license to Springer Nature Singapore Pte Ltd."
+    },
+    {
+      "document_id": 685,
+      "score": null,
+      "abstract": "Data-driven analysis has been increasingly used in various decision making processes. With more sources, including reviews, news, and pictures, can now be used for data\nanalysis, the authenticity of data sources is in doubt. While previous literature attempted to detect fake data piece by piece, in the current work, we\ntry to capture the fake data sender's strategic behavior to detect the fake data source. Specifically, we model the tension between a data receiver who\nmakes data-driven decisions and a fake data sender who benefits from misleading the receiver. We propose a potentially infinite horizon continuous time game-theoretic model with\nasymmetric information to capture the fact that the receiver does not initially know the existence of fake data and learns about it during the course\nof the game. We use point processes to model the data traffic, where each piece of data can occur at any discrete moment in a\ncontinuous time flow. We fully solve the model and employ numerical examples to illustrate the players' strategies and payoffs for insights. Specifically, our results show\nthat maintaining some suspicion about the data sources and understanding that the sender can be strategic are very helpful to the data receiver. In addition,\nbased on our model, we propose a methodology of detecting fake data that is complementary to the previous studies on this topic, which suggested various\napproaches on analyzing the data piece by piece. We show that after analyzing each piece of data, understanding a source by looking at the its\nwhole history of pushing data can be helpful."
+    },
+    {
+      "document_id": 750,
+      "score": null,
+      "abstract": "The massive spread of digital information to which our society is subjected nowadays has led to a great amount of false or extremely biased information\nbeing shared and consumed by Internet users every day. Disinformation, including misleading and even false information, is a major issue for our current society. The\nimpact of fake news on politics, economy and even public health is yet to be specified. Internet users must face a high amount of false\ninformation in digital media such as rumours, fake news, and extremely biased news. Given the crucial role that the spread of fake news plays in\nour current society, it is becoming essential to design tools to automatically verify the veracity of online information. In order to address this issue, the\nPAN@CLEF 2020 competition has proposed a task focused on the detection of fake news spreaders on Twitter. In , we offer a detailed description of\nthe system developed for this competition. Our system relies on psychological features for modelling the behaviour of users. Copyright © 2020 for by its authors."
+    },
+    {
+      "document_id": 874,
+      "score": null,
+      "abstract": "The authenticity of Information has become a longstanding issue affecting businesses and society, both for printed and digital media. On social networks, the reach and\neffects of information spread occur at such a fast pace and so amplified that distorted, inaccurate or false information acquires a tremendous potential to cause\nreal world impacts, within minutes, for millions of users. Recently, several public concerns about this problem and some approaches to mitigate the problem were expressed.\nIn , we discuss the problem by presenting the proposals into categories: content based, source based and diffusion based. We describe two opposite approaches and\npropose an algorithmic solution that synthesizes the main concerns. We conclude the paper by raising awareness about concerns and opportunities for businesses that are currently\non the quest to help automatically detecting fake news by providing web services, but who will most certainly, on the long term, profit from their\nmassive usage. © 2017 The Authors. Published by Elsevier B.V."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "topic_id": 38,
+  "label": "T038",
+  "label_full": "forgery, image",
+  "keywords": [
+    "forgery",
+    "image",
+    "lbp",
+    "copymove",
+    "local",
+    "transform",
+    "discrete",
+    "splicing",
+    "lbps",
+    "2d"
+  ],
+  "n_docs": 6,
+  "documents": [
+    {
+      "document_id": 161,
+      "score": null,
+      "abstract": "Digital images and videos are of great importance. However, the relative ease of manipulation of images and videos makes their authenticity unreliable. Among the types\nof image forgery, copy-move forgery is the most common model. In this type of image forgery, a part of an image is copied and pasted\nin another part of the same image. Now, various block and key methods have been introduced to copy-move forgery detection. The proposed method is a\nfake image classification method with the help of a combined SIFT and RVM model, named SRVM. In the proposed method, features of the object are\nanalyzed. Then based on the training data, the kernel function is obtained and finally the classification process will be performed. The IMD and MICC datasets\nwere examined for the accuracy of copy-move forgery detection. The results show 81% accuracy for IMD and 94% for MICC. ©2024 IEEE."
+    },
+    {
+      "document_id": 322,
+      "score": null,
+      "abstract": "Image forgery refers to the act of altering or modifying digital images in a way that deceives viewers about the authenticity of the content. Typically,\nthe purpose of picture forgery is to manipulate or deceive the viewer by providing inaccurate or misleading information. Copy-move forgery is one of the most\nfrequently employed forms of forgery. The most important challenge in this field is an automated forgery detector module. A proposed Two Dimensional Discrete Wavelet Transform\n(2D DWT) and Neural Network forgery detection module is included in the study in question. The proposed strategy makes use of 2D DWT segments at\nfour levels and subsequently, blocks are produced from the reduced image (approximation at level four). By utilizing the Image Database for Copy-Move Forgery Detection (CoMoFoD),\nthe presented module can identify forged images with an average accuracy that is superior to other techniques. © 2023 IEEE."
+    },
+    {
+      "document_id": 324,
+      "score": null,
+      "abstract": "Detection of tampered images is very important for ensuring the authenticity of visual information in the domain of digital image forensics. In the context of\nmachine learning, this research proposes methods for detecting tampered images using transform domain techniques such as discrete cosine transform (DCT), discrete wavelet transform (DWT). These\ntechniques are combined with local binary pattern (LBP), which is effective at capturing local information. Dimensionality reduction is achieved with the help of principal component\nanalysis (PCA) to reduce the number of features and analyzed the performance in terms of accuracy and time. Experiments have been conducted on CASIA 2.0\nimage tampering detection dataset which consists copy-move and splicing forgery images. Various classifiers, including Support Vector Machine (SVM), Random Forest (RF), XG Boost, and Light\nGBM, are used to train machine learning models on the retrieved features. Based on the accuracy, precision, recall, fl-score, and execution time of these classifiers,\nthe effectiveness of tamper detection is evaluated. © 2023 IEEE."
+    },
+    {
+      "document_id": 576,
+      "score": null,
+      "abstract": "Information security is one of the major challenges in today’s world, as dependency on multimedia information is increasing day by day. The rapid development of\nscience and technology makes it easy for every ordinary user to obtain image and video information through image editing software and modify it to a\ncertain extent. In order to verify the authenticity of the image, tampering detection is required. Among them, splicing tampering is one of the more common\ntypes of tampering. proposes a hybrid feature image splicing detection scheme based on Error Level Analysis (ELA) and Local Binary Pattern (LBP). The features of\nthe two algorithms LBP and ELA focus on global features and local features respectively, so combining them can improve the accuracy. Then, we feed the\nmixed features into Bagged Trees for classification. We verified our scheme on three public datasets, and we also compared with a single algorithm to prove\nthe superiority of our proposed scheme. At the same time, we also find the splicing area through the improved ELA algorithm. Experiments show that our\nmethod can accurately locate the tampered area. © 2021 Global Research Online. All rights reserved."
+    },
+    {
+      "document_id": 624,
+      "score": null,
+      "abstract": "Seam carving has been widely used in image resizing due to its superior performance in avoiding image distortion and deformation, which can maliciously be used\non purpose, such as tampering contents of an image. As a result, seam-carving detection is becoming crucially important to recognize the image authenticity. However, existing\nmethods do not perform well in the accuracy of seam-carving detection especially when the scaling ratio is low. In , we propose an image forensic\napproach based on the cooccurrence of adjacent local binary patterns (LBPs), which employs LBP to better display texture information. Specifically, a total of 24 energy-based,\nseam-based, half-seam-based, and noise-based features in the LBP domain are applied to the seam-carving detection. Moreover, the cooccurrence features of adjacent LBPs are combined to\nhighlight the local relationship between LBPs. Besides, SVM after training is adopted for feature classification to determine whether an image is seam-carved or not. Experimental\nresults demonstrate the effectiveness in improving the detection accuracy with respect to different scaling ratios, especially under low scaling ratios. © 2020 Dengyong Zhang et\nal."
+    },
+    {
+      "document_id": 730,
+      "score": null,
+      "abstract": "With the development of easy-to-use and sophisticated image editing software, the alteration of the contents of digital images has become very easy to do and\nhard to detect. A digital image is a very rich source of information and can capture any event perfectly, but because of this reason, its\nauthenticity is questionable. In , a novel passive image forgery detection method is proposed based on local binary pattern (LBP) and discrete cosine transform (DCT)\nto detect copy–move and splicing forgeries. First, from the chrominance component of the input image, discriminative localized features are extracted by applying 2D DCT in\nLBP space. Then, support vector machine is used for detection. Experiments carried out on three image forgery benchmark datasets demonstrate the superiority of the method\nover recent methods in terms of detection accuracy. © 2016, Springer-Verlag London."
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "topic_id": 14,
+  "label": "T014",
+  "label_full": "Rumor on Social Media",
+  "keywords": [
+    "rumor",
+    "rumors",
+    "tweet",
+    "graph",
+    "twitter",
+    "microblog",
+    "losird",
+    "detection",
+    "node",
+    "tweets"
+  ],
+  "n_docs": 10,
+  "documents": [
+    {
+      "document_id": 328,
+      "score": null,
+      "abstract": "With the rapid growth of the Internet, people are exposed to a significant increase in the amount of information. However, the dissemination of false news\nhas become rampant, causing adverse effects on society. Rumor detection has emerged as an important and challenging research direction aimed at accurately determining the authenticity\nof messages. proposes a novel rumor detection method based on a knowledge graph and graph attention networks. The method leverages the attention mechanism of graph\nattention networks to learn topic-enhanced news representations and extract features related to rumor propagation. It then compares the extracted entity features with the entity features\nin a knowledge base using an entity comparison network. The proposed method is validated on the publicly available SLN dataset, and experimental results demonstrate a\n2% improvement in micro F1 and macro F1 performance metrics compared to state-of-the-art baseline models. © 2023 IEEE."
+    },
+    {
+      "document_id": 412,
+      "score": null,
+      "abstract": "Social media is a place where vast data is continually generated. These days news first surfaces on micro blogs before it pass to major media\noutlets. Micro blogging websites are rich sources of information, and Twitter is one of the micro blogging interfaces. Twitter is also much used to share\ninformation with other social network users. Event detection systems based on Twitter can get information from a huge number of tweets posted by users. It\nis among the main reasons Twitter is considered an effective source of data as it can provide substantial near real-time data to identify incidents. However,\nit also creates a low perception problem; this means that systems fail to identify events correctly if too much false information is included, which is\ncalled rumor. Rumor can be characterized as a proclamation whose real or true value is unverifiable or intentionally false. Rumor detection has recently been studied\nto allow for accurate event detection. Rumors can propagate to millions of users quickly without fact-checking, and it may cause significant harm. More precisely, the\ncurrent technique detects rumors by identifying and analyzing the content of the tweet, retweets count, sentiment of the tweet, follower count, etc., from the Twitter\nmetadata, which can be useful for classifying it as rumor or non-rumor. A systematic literature review of existing research work on various machine learning techniques\nfor misinformation detection was carried out to arrive at the optimal approach that can be taken for the paper. In , tweets during the Covid-19\nsituation have been taken into account for misinformation detection. In this research, a two-way approach has been taken to classify Twitter messages (Tweets) as rumor\nor non-rumor related. The first approach is text-based analysis, while the other is media-based analysis. For the first approach, different machine learning classifiers were performed\nand evaluated based on the F1-score. In the second approach, tweets containing images are extracted for Web Detection using Robotic Process Automation. In this, Google\nCloud Vision is used to match specified images with the images on the web to find their original or multiple sources and, thereby, authenticity. In\nthis way, text-based and media-based messages containing falsified details can be detected. © 2022 Author(s)."
+    },
+    {
+      "document_id": 461,
+      "score": null,
+      "abstract": "In order to extract the relevant features of rumors effectively, proposes a novel rumor detection model with bidirectional graph attention network on the basis of\nconstructing a directed graph, named P-BiGAT. Firstly, this model builds the propagation tree and diffusion tree through the tweet comment and reposting relationship. Secondly, the\nimproved graph attention network (GAT) is used to extract the propagation feature and the diffusion feature through two different directions, and the multihead attention mechanism\nis used to extract the semantic information of the source tweet. Finally, the propagation feature, diffusion feature, and semantic information representation of the source tweet\nare connected together through a fully connected layer, and the mapping function is used to determine the authenticity of the information. In addition, also proposes\na new node update method and applies it to the model in order to select neighbor node information effectively. Specifically, it can select the neighbor\ninformation node with larger weight to update the node according to the weight of the neighbor node. The results of the experiment show that the\nmodel is better than the baseline method of comparison in accuracy, precision, recall, and F1 measure on the public datasets. © 2022 Xiaohui Yang et\nal."
+    },
+    {
+      "document_id": 512,
+      "score": null,
+      "abstract": "Existing rumor detection strategies typically provide detection labels while ignoring their explanation. Nonetheless, providing pieces of evidence to explain why a suspicious tweet is rumor\nis essential. As such, a novel model, LOSIRD, was proposed in . First, LOSIRD mines appropriate evidence sentences and classifies them by automatically checking the\nveracity of the relationship of the given claim and its evidence from about 5 million documents. LOSIRD then automatically constructs two heterogeneous graph objects to\nsimulate the propagation layout of the tweets and code the relationship of evidence. Finally, a graphSAGE processing component is used in LOSIRD to provide the\nlabel and evidence. To the best of our knowledge, we are the first one who combines objective facts and subjective views to verify rumor. The\nexperimental results on two real-world Twitter datasets showed that our model exhibited the best performance in the early rumor detection task and its rumor detection\nperformance outperformed other baseline and state-of-the-art models. Moreover, we confirmed that both objective information and subjective information are fundamental clues for rumor detection. © 2021\nAssociation for Computational Linguistics"
+    },
+    {
+      "document_id": 621,
+      "score": null,
+      "abstract": "The paper puts forward a rumor detection model based on Naive Bayes and NLP according to the data volume of detecting micro-blog rumors. Firstly, the\nmodel processes micro-blog text through NLP methods, including Chinese particles, stop words, and word vectors. Next, the processed text is input into the algorithm model\nof machine learning based on Naive Bayes. Eventually, the model verifies the authenticity of processed micro-blog information. Compared with manual rumor detection, this detection model\nreduces processing time for nearly 10h. Also, its accuracy of identifying micro-blog rumors increases by 15% than that of micro-blog rumor detection algorithms based on\nthe decision tree, showing it is more applicable to current micro-blog platforms. © 2020 IEEE."
+    },
+    {
+      "document_id": 632,
+      "score": null,
+      "abstract": "Rumors in social media represent a severe problem prevailing in today's society. Previous studies on automated rumor detection have shown that the topological information specific\nto social media is a vital clue for debunking rumors. However, existing automatic rumor detection approaches either oversimplify the graph structure or ignore this crucial\nclue. To address this issue, we propose a model that explores homogeneity and conversation structure to identify rumors. Our model learns more comprehensive and precise\nrepresentations by modeling follower-following relationships of users, simulating the propagation layout of tweets, and connecting responders' behavior. The experimental results on two public Twitter datasets\nshow that our model's performance outperforms other state-of-the-art baseline models. Furthermore, the experimental results prove our hypothesis that birds of a feather rumor together. The\nresults demonstrate that both the conversation structure and the friend network's homogeneity are significant for checking the veracity of a suspicious tweet. © 2013 IEEE."
+    },
+    {
+      "document_id": 633,
+      "score": null,
+      "abstract": "Rumors that spread across the online social network catches a lot of attention amongst the population and causes agitation between minorities which leads to a\nchaotic situation. In , we propose a process for screening the rumors using Crowdsource Platform and detecting their probable origin. We first verify the veracity\nof the rumor with the proposed model and then with the help of knowledge-based community detection we minimize the sample space for the probable root\nof the rumor. Then we start searching for the root in the community detected with the help of backtracking. With this, we would like to\nresolve problems faced by the minorities in cases of ethnic violence where the fiasco is initiated only due to the message passed in the rumor.\nOnce the action is taken against the root culprit other such people would stay warned and avoid such actions. © 2020, Springer Nature Singapore Pte\nLtd."
+    },
+    {
+      "document_id": 719,
+      "score": null,
+      "abstract": "The spread of malicious or accidental misinformation in social media, especially in time-sensitive situations, such as real-world emergencies, can have harmful effects on individuals and\nsociety. In , we developed models for automated verification of rumors (unverified information) that propagate through Twitter. To predict the veracity of rumors, we identified\nsalient features of rumors by examining three aspects of information spread: linguistic style used to express rumors, characteristics of people involved in propagating information, and\nnetwork propagation dynamics. The predicted veracity of a time series of these features extracted from a rumor (a collection of tweets) is generated using Hidden\nMarkov Models. The verification algorithm was trained and tested on 209 rumors representing 938,806 tweets collected from real-world events, including the 2013 Boston Marathon bombings,\nthe 2014 Ferguson unrest, and the 2014 Ebola epidemic, and many other rumors about various real-world events reported on popular websites that document public rumors.\nThe algorithm was able to correctly predict the veracity of 75% of the rumors faster than any other public source, including journalists and law enforcement\nofficials. The ability to track rumors and predict their outcomes may have practical applications for news consumers, financial markets, journalists, and emergency services, and more\ngenerally to help minimize the impact of false information on Twitter."
+    },
+    {
+      "document_id": 736,
+      "score": null,
+      "abstract": "Spamming persists as a problem in Social Networking Sites (SNS). About 8.7% of the total accounts of are fake or duplicate. These fake accounts are\nspreading rumors. believes 14.3 million of these accounts were created for spamming. Sometimes these accounts are being used to fulfil personal vendetta. Using spam filters\nseems to be insufficient as is struggling to clean up the spam while users are falling in traps like clickbait. On the other hand rumors\nin SNS causing severe trouble on a large scale. In recent time a violent incident took place in Ramu, Bangladesh on the basis of a\nrumor spread through . Rumors like this affecting us as individuals, our society. The main challenge of a rumor detection tool is the accuracy of\nthe system and the time it takes to give the results. An accuracy having 90% accuracy may not be enough in the time of natural\ndisasters or war as remaining 10% can cause havoc. Again if the system takes too much time no matter what the result is, it may\nbe too late. We designed a tool which can quickly detect if a post is a spam or rumor. This tool responds to a user\nquery for a post and try to verify the authenticity of a post with the help of community. This tool is designed to give a\nquick verdict so that it can be useful to prevent a viral malcontent in Social Networking sites. We implemented this tool on . We used\nGraph API to select groups of users with relevant knowledge about the topic who can contribute to determine the authenticity of the post. © 2016\nIEEE."
+    },
+    {
+      "document_id": 747,
+      "score": null,
+      "abstract": "In , we present on-going work pursued in the context of the Pheme project. There, the detection of rumors in social media is playing a\ncentral role in two use cases. In order to be able to store and to query for information on specific types of rumors that can\nbe circulated in such media (but also in “classical” media), we started to build ontological models of rumors, disputed claims, misinformation and veracity. As rumors\ncan be considered as unverified statements, which after a certain time can be classified as either erroneous information or as facts, there is a need\nto model also the temporal information associated with any statement. As we are dealing in first line with social media, our modelling work should also\ncover information diffusion networks and user online behavior, which can also help in classifying a statement as a rumor or a fact. We focus in\non the core of our rumor ontology. © Springer International Publishing Switzerland 2016."
+    }
+  ]
+}

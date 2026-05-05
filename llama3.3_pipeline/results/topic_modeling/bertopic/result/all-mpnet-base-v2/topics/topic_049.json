@@ -1,0 +1,50 @@
+{
+  "topic_id": 49,
+  "label": "T049",
+  "label_full": "Fact-Checking & Verification",
+  "keywords": [
+    "subquestions",
+    "political",
+    "claim",
+    "debate",
+    "debates",
+    "factchecking",
+    "task",
+    "lab",
+    "checkworthiness",
+    "year"
+  ],
+  "n_docs": 6,
+  "documents": [
+    {
+      "document_id": 540,
+      "score": null,
+      "abstract": "Verifying political claims is a challenging task, as politicians can use various tactics to subtly misrepresent the facts for their agenda. Existing automatic fact-checking systems\nfall short here, and their predictions like “half-true” are not very useful in isolation, since it is unclear which parts of a claim are true\nor false. In , we focus on decomposing a complex claim into a comprehensive set of yes-no subquestions whose answers influence the veracity of the\nclaim. We present CLAIMDECOMP, a dataset of decompositions for over 1000 claims. Given a claim and its verification paragraph written by fact-checkers, our trained annotators\nwrite subquestions covering both explicit propositions of the original claim and its implicit facets, such as additional political context that changes our view of the\nclaim's veracity. We study whether state-of-the-art pre-trained models can learn to generate such subquestions. Our experiments show that these models generate reasonable questions, but predicting\nimplied subquestions based only on the claim (without consulting other evidence) remains challenging. Nevertheless, we show that predicted subquestions can help identify relevant evidence to\nfact-check the full claim and derive the veracity through their answers, suggesting that claim decomposition can be a useful piece of a fact-checking pipeline. ©\n2022 Association for Computational Linguistics."
+    },
+    {
+      "document_id": 562,
+      "score": null,
+      "abstract": "In an effort to assist factcheckers in the process of factchecking, we tackle the claim detection task, one of the necessary stages prior to determining\nthe veracity of a claim. It consists of identifying the set of sentences, out of a long text, deemed capable of being factchecked. This article\nis a collaborative work between Full Fact, an independent factchecking charity, and academic partners. Leveraging the expertise of professional factcheckers, we develop an annotation schema\nand a benchmark for automated claim detection that is more consistent across time, topics, and annotators than are previous approaches. Our annotation schema has been\nused to crowdsource the annotation of a dataset with sentences from UK political TV shows. We introduce an approach based on universal sentence representations to\nperform the classification, achieving an F1 score of 0.83, with over 5% relative improvement over the state-of-the-art methods ClaimBuster and ClaimRank. The system was deployed\nin production and received positive user feedback."
+    },
+    {
+      "document_id": 757,
+      "score": null,
+      "abstract": "We study the problem of automatic fact-checking, paying special attention to the impact of contextual and discourse information. We address two related tasks: (i)&nbsp;detecting check-worthy\nclaims and (ii)&nbsp;fact-checking claims. We develop supervised systems based on neural networks, kernel-based support vector machines, and combinations thereof, which make use of rich input\nrepresentations in terms of discourse cues and contextual features. For the check-worthiness estimation task, we focus on political debates, and we model the target claim\nin the context of the full intervention of a participant and the previous and following turns in the debate, taking into account contextual meta information.\nFor the fact-checking task, we focus on answer verification in a community forum, and we model the veracity of the answer with respect to the\nentire question–answer thread in which it occurs as well as with respect to other related posts from the entire forum. We develop annotated datasets for\nboth tasks and we run extensive experimental evaluation, confirming that both types of information—but especially contextual features—play an important role."
+    },
+    {
+      "document_id": 807,
+      "score": null,
+      "abstract": "We present an overview of the 2nd edition of the CheckThat! Lab, part of CLEF 2019, with focus on Task 1: Check-Worthiness in political debates.\nThe task asks to predict which claims in a political debate should be prioritized for fact-checking. In particular, given a debate or a political speech,\nthe goal is to produce a ranked list of its sentences based on their worthiness for fact-checking. This year, we extended the 2018 dataset with\n16 more debates and speeches. A total of 47 teams registered to participate in the lab, and eleven of them actually submitted runs for Task\n1 (compared to seven last year). The evaluation results show that the most successful approaches to Task 1 used various neural networks and logistic regression.\nThe best system achieved mean average precision of 0.166 (0.250 on the speeches, and 0.054 on the debates). This leaves large room for improvement, and\nthus we release all datasets and scoring scripts, which should enable further research in check-worthiness estimation. © 2019 for by its authors. Use permitted under\nCreative Commons License Attribution 4.0 International (CC BY 4.0). CLEF 2019, 9-12 September 2019, Lugano, Switzerland."
+    },
+    {
+      "document_id": 824,
+      "score": null,
+      "abstract": "We present an automated approach to distinguish true, false, stretch, and dodge statements in questions and answers in the Canadian Parliament. We leverage the truthfulness\nannotations of a U.S. fact-checking corpus by training a neural net model and incorporating the prediction probabilities into our models. We find that in concert\nwith other linguistic features, these probabilities can improve the multi-class classification results. We further show that dodge statements can be detected with an F1 measure\nas high as 82.57% in binary classification settings."
+    },
+    {
+      "document_id": 839,
+      "score": null,
+      "abstract": "We present an overview of the CLEF-2018 CheckThat! Lab on Automatic Identification and Verification of Political Claims. In its starting year, the lab featured two\ntasks. Task 1 asked to predict which (potential) claims in a political debate should be prioritized for fact-checking; in particular, given a debate or a\npolitical speech, the goal was to produce a ranked list of its sentences based on their worthiness for fact-checking. Task 2 asked to assess whether\na given check-worthy claim made by a politician in the context of a debate/speech is factually true, half-true, or false. We offered both tasks in\nEnglish and in Arabic. In terms of data, for both tasks, we focused on debates from the 2016 US Presidential Campaign, as well as on\nsome speeches during and after the campaign (we also provided translations in Arabic), and we relied on comments and factuality judgments from factcheck.org and snopes.com,\nwhich we further refined manually. A total of 30 teams registered to participate in the lab, and 9 of them actually submitted runs. The evaluation\nresults show that the most successful approaches used various neural networks (esp. for Task 1) and evidence retrieval from the Web (esp. for Task 2).\nWe release all datasets, the evaluation scripts, and the submissions by the participants, which should enable further research in both check-worthiness estimation and automatic claim\nverification. © Springer Nature Switzerland AG 2018."
+    }
+  ]
+}

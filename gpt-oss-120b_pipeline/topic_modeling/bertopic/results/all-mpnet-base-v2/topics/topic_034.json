@@ -1,0 +1,55 @@
+{
+  "topic_id": 34,
+  "label": "T034",
+  "label_full": "Fact-Checking & Verification",
+  "keywords": [
+    "rumor",
+    "rumors",
+    "microblog",
+    "tweets",
+    "rumour",
+    "losird",
+    "twitter",
+    "detection",
+    "media",
+    "veracity"
+  ],
+  "n_docs": 7,
+  "documents": [
+    {
+      "document_id": 412,
+      "score": null,
+      "abstract": "Social media is a place where vast data is continually generated. These days news first surfaces on micro blogs before it pass to major media\noutlets. Micro blogging websites are rich sources of information, and Twitter is one of the micro blogging interfaces. Twitter is also much used to share\ninformation with other social network users. Event detection systems based on Twitter can get information from a huge number of tweets posted by users. It\nis among the main reasons Twitter is considered an effective source of data as it can provide substantial near real-time data to identify incidents. However,\nit also creates a low perception problem; this means that systems fail to identify events correctly if too much false information is included, which is\ncalled rumor. Rumor can be characterized as a proclamation whose real or true value is unverifiable or intentionally false. Rumor detection has recently been studied\nto allow for accurate event detection. Rumors can propagate to millions of users quickly without fact-checking, and it may cause significant harm. More precisely, the\ncurrent technique detects rumors by identifying and analyzing the content of the tweet, retweets count, sentiment of the tweet, follower count, etc., from the Twitter\nmetadata, which can be useful for classifying it as rumor or non-rumor. A systematic literature review of existing research work on various machine learning techniques\nfor misinformation detection was carried out to arrive at the optimal approach that can be taken for the paper. In , tweets during the Covid-19\nsituation have been taken into account for misinformation detection. In this research, a two-way approach has been taken to classify Twitter messages (Tweets) as rumor\nor non-rumor related. The first approach is text-based analysis, while the other is media-based analysis. For the first approach, different machine learning classifiers were performed\nand evaluated based on the F1-score. In the second approach, tweets containing images are extracted for Web Detection using Robotic Process Automation. In this, Google\nCloud Vision is used to match specified images with the images on the web to find their original or multiple sources and, thereby, authenticity. In\nthis way, text-based and media-based messages containing falsified details can be detected. © 2022 Author(s)."
+    },
+    {
+      "document_id": 512,
+      "score": null,
+      "abstract": "Existing rumor detection strategies typically provide detection labels while ignoring their explanation. Nonetheless, providing pieces of evidence to explain why a suspicious tweet is rumor\nis essential. As such, a novel model, LOSIRD, was proposed in . First, LOSIRD mines appropriate evidence sentences and classifies them by automatically checking the\nveracity of the relationship of the given claim and its evidence from about 5 million documents. LOSIRD then automatically constructs two heterogeneous graph objects to\nsimulate the propagation layout of the tweets and code the relationship of evidence. Finally, a graphSAGE processing component is used in LOSIRD to provide the\nlabel and evidence. To the best of our knowledge, we are the first one who combines objective facts and subjective views to verify rumor. The\nexperimental results on two real-world Twitter datasets showed that our model exhibited the best performance in the early rumor detection task and its rumor detection\nperformance outperformed other baseline and state-of-the-art models. Moreover, we confirmed that both objective information and subjective information are fundamental clues for rumor detection. © 2021\nAssociation for Computational Linguistics"
+    },
+    {
+      "document_id": 621,
+      "score": null,
+      "abstract": "The paper puts forward a rumor detection model based on Naive Bayes and NLP according to the data volume of detecting micro-blog rumors. Firstly, the\nmodel processes micro-blog text through NLP methods, including Chinese particles, stop words, and word vectors. Next, the processed text is input into the algorithm model\nof machine learning based on Naive Bayes. Eventually, the model verifies the authenticity of processed micro-blog information. Compared with manual rumor detection, this detection model\nreduces processing time for nearly 10h. Also, its accuracy of identifying micro-blog rumors increases by 15% than that of micro-blog rumor detection algorithms based on\nthe decision tree, showing it is more applicable to current micro-blog platforms. © 2020 IEEE."
+    },
+    {
+      "document_id": 676,
+      "score": null,
+      "abstract": "Information overload on Web has been a well-identified challenge which has amplified with the advent of social web. Good, bad, true, false, useful, useless all\nkinds of information disseminates through the social web platforms. It becomes exceedingly imperative to pro-actively resolve rumours and inhibit them from spreading among the Internet\nusers as it can jeopardize the well-being of the citizens. The task for rumour analysis intends to identify & classify a rumour either as true\n(factual), false (nonfactual) or unresolved. Determining the accuracy of a rumourous story, a.k.a. rumour veracity is hard owing to the noisy, ambiguous and heterogeneous use\nof natural language. This necessitates automation of the predictive task which classifies the questionable veracity of rumour accurately. The research presented in , is an\nempirical study to put forward an optimized learning model which classifies real-time tweets on the basis of truth value, facilitating rumour analysis. The study is\nconducted on a collection of nearly 14 k tweets pertaining to the recent mob lynching fuelled by rumours on suspected child-lifters in the Indian sub-continent\n(#moblynching) and run on five classical shallow classifiers to categorize tweets into true, false and unspecified using 13 attributes (features). Subsequently, the use of an\noptimal feature selection method, particle swarm algorithm is proposed to improve the classifier’s performance. The empirical analysis validates that the proposed implementation of particle swarm\noptimization (PSO) for feature subset selection in rumour veracity classification outperforms the baseline supervised learning algorithms. An average 11.28% improvement in accuracy and approximately 31%\naverage reduction in features are demonstrated using PSO. The highest accuracy with optimization of 96.15% is achieved by decision tree. © 2019, Springer Science+Business Media,\nLLC, part of Springer Nature."
+    },
+    {
+      "document_id": 678,
+      "score": null,
+      "abstract": "Social media plays a crucial role as the main resource news for information seekers online. However, the unmoderated feature of social media platforms lead to\nthe emergence and spread of untrustworthy contents which harm individuals or even societies. Most of the current automated approaches for automatically determining the veracity of\na rumor are not generalizable for novel emerging topics. describes our hybrid system comprising rules and a machine learning model which makes use of replied\ntweets to identify the veracity of the source tweet. The proposed system in achieved 0.435 F-Macro in stance classification, and 0.262 F-macro and 0.801 RMSE\nin rumor verification tasks in Task7 of SemEval 2019. © 2019 Association for Computational Linguistics"
+    },
+    {
+      "document_id": 686,
+      "score": null,
+      "abstract": "In social networking, a large amount of information can be disseminated to different social media users. Many times the social media users spread this information\nin unverified manner. The unverified information or misinformation is referred as rumors. Identifying source of rumor in a social media is a critical problem. Our\nmain aim is to develop a rumor source detector, which will assist, in real time to determine the source of rumor in social media. In\nthe authors present, two methodologies to detect the source of rumor, first one is Graph Theoretical Framework and the second one is Veracity Assessment Framework.\nGraph Theoretical approach, the authors suggest to use regular trees, graphs and rumor centrality to estimate the source of the rumor. In Veracity Assessment framework,\ndata coupled with real-time streaming and to understand the lifecycle of rumor. It is designed for automatically predicting rumor veracity at different time spans based\non the conversation patterns. © BEIESP."
+    },
+    {
+      "document_id": 747,
+      "score": null,
+      "abstract": "In , we present on-going work pursued in the context of the Pheme project. There, the detection of rumors in social media is playing a\ncentral role in two use cases. In order to be able to store and to query for information on specific types of rumors that can\nbe circulated in such media (but also in “classical” media), we started to build ontological models of rumors, disputed claims, misinformation and veracity. As rumors\ncan be considered as unverified statements, which after a certain time can be classified as either erroneous information or as facts, there is a need\nto model also the temporal information associated with any statement. As we are dealing in first line with social media, our modelling work should also\ncover information diffusion networks and user online behavior, which can also help in classifying a statement as a rumor or a fact. We focus in\non the core of our rumor ontology. © Springer International Publishing Switzerland 2016."
+    }
+  ]
+}

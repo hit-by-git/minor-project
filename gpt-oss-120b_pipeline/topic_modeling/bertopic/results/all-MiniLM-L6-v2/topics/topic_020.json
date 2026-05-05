@@ -1,0 +1,65 @@
+{
+  "topic_id": 20,
+  "label": "T020",
+  "label_full": "image, compression",
+  "keywords": [
+    "image",
+    "compression",
+    "operations",
+    "jpeg",
+    "images",
+    "order",
+    "noise",
+    "forgeries",
+    "tetrolet",
+    "covering"
+  ],
+  "n_docs": 9,
+  "documents": [
+    {
+      "document_id": 409,
+      "score": null,
+      "abstract": "With the rapid development of artificial intelligence technology, image editing technology has evolved from relying on software such as Photoshop and GIMP for manual modification\nto using artificial intelligence technology to achieve intelligent and automated tampering of images. Editing, falsifying, and disseminating digital images have become simple and easy, leading\nto a crisis of confidence in digital images and reducing their reliability as judicial evidence. Therefore, how to identify falsified images, improve their trustworthiness, and\navoid judicial injustice has become a problem that must be overcome in the information age. In , we propose a target detection and adaptive feature\nanalysis in image forensics based on a dual-flow layer model, which can effectively perform image forensics. The results show that our algorithm has a clear\ntheoretical basis, a small operational complexity, and a high detection accuracy. © 2022 Nannan Liang et al."
+    },
+    {
+      "document_id": 430,
+      "score": null,
+      "abstract": "Image forgeries created using easy-to-use image editing tools like Adobe Photoshop have become prime sources of fake news, and are often used in malevolent ways\nin politics, courtrooms, and in scientific publishing as well. To reduce the problems caused by manipulated images in these domains, it is important to have\nreliable and fast mechanisms in place for verifying their authenticity before their consumption. Automated detection of image forgeries, is, therefore an ongoing challenge for the\nresearch community. One of a commonly used image forgeries is Copy-Move Forgery (CMF), where a region of an image is copied and pasted to some\nother location within the same image to alter its contents. To detect copy-move forgeries, several Copy Move Forgery Detection (CMFD) techniques have been proposed in\nthe past. However, existing techniques are highly sensitive to post-processing attacks such as noise and compression. In , we propose a new CMFD method in\nwhich Cellular Automata (CA) is used for feature extraction. The method works by dividing the input image into overlapping blocks and extracting features from these\nblocks using the CA inversion procedure. Then, the repeated regions are identified by matching the set of extracted feature vectors. The experimental results show that\nthe detection under noise and compression attacks is accurate compared to many existing methods. As such, the proposed approach may be useful for a variety\nof CMFD scenarios and may have implications for researchers in related fields. © 2021, Crown."
+    },
+    {
+      "document_id": 523,
+      "score": null,
+      "abstract": "With the advancement of image acquisition devices and social networking services, a huge volume of image data is generated. Using different image and video processing\napplications, these image data are manipulated, and thus, original images get tampered. These tampered images are the prime source of spreading fake news, defaming the\npersonalities and in some cases (when used as evidence) misleading the law bodies. Hence before relying totally on the image data, the authenticity of the\nimage must be verified. Works of the literature are reported for the verification of the authenticity of an image based on noise inconsistency. However, these\nworks suffer from limitations of confusion between edges and noise, post-processing operation for localization and need of prior knowledge about an image. To handle these\nlimitations, a noise inconsistency-based technique has been presented here to detect and localize a false region in an image. consists of three major steps of\npre-processing, noise estimation and post-processing. For the experimental purpose two, publicly available datasets are used. The result is discussed in terms of precision, recall, accuracy\nand f1-score on the pixel level. The result of the presented work is also compared with the recent state-of-the-art techniques. The average accuracy of the\nproposed work on datasets is 91.70%, which is highest among state-of-the-art techniques. © 2020, Springer-Verlag London Ltd., part of Springer Nature."
+    },
+    {
+      "document_id": 602,
+      "score": null,
+      "abstract": "The definition of valid and robust methodologies for assessing the authenticity of digital information is nowadays critical to contrast social manipulation through the media. A\nkey research topic in multimedia forensics is the development of methods for detecting tampered content in large image collections without any human intervention. introduces AMARCORD\n(Automatic Manhattan-scene AsymmetRically CrOpped imageRy Detector), a fully automated detector for exposing evidences of asymmetrical image cropping on Manhattan-World scenes. The proposed solution estimates and\nexploits the camera principal point, i.e., a physical feature extracted directly from the image content that is quite insensitive to image processing operations, such as\ncompression and resizing, typical of social media platforms. Robust computer vision techniques are employed throughout, so as to cope with large sources of noise in\nthe data and improve detection performance. The method leverages a novel metric based on robust statistics, and is also capable to decide autonomously whether the\nimage at hand is tractable or not. The results of an extensive experimental evaluation covering several cropping scenarios demonstrate the effectiveness and robustness of our\napproach. © 2019"
+    },
+    {
+      "document_id": 685,
+      "score": null,
+      "abstract": "The contents of the digital images can be easily manipulated with image editing software like Adobe Photoshop, Pixelmator, Inkscape, Fireworks, etc. In real life applications,\nit is indispensable to check the authenticity of the digital images because forged images could deliver misleading information and messages to our community. Different tools\nhave been developed to detect the forged images. In literature, there is no study which presents an insight into image forensic tools and their evaluation\non the basis of different criteria. Therefore, to address this issue, we present an insight into digital image forensic tools; and evaluate it on the\nbasis of 15 different parameters like “error level analysis”, “metadata analysis”, “JPEG luminance and chrominance data”, etc. For our experimental work, we choose “FotoForensics” tool\nto show the forged region in digital images; and JPEGsnoop tool has been used to extract the metadata of the images. © 2019 Taylor &\nFrancis Group, London."
+    },
+    {
+      "document_id": 699,
+      "score": null,
+      "abstract": "With the progress of image manipulation tools and the proliferation of fake news and images posted online on social networks, automatic identification of fake content\nis becoming indispensable. Lossy image compression leaves traces which can be used to recover the history of an image and to help decide about its\nauthenticity. We propose a new JPEG grid detection algorithm. This operation is the first step of many forensic, anti-forensic, and deblocking algorithms. Our analysis is\nbased on the detection of the blocking artifacts and is global and local at the same time. It retrieves the origin of the JPEG grid\nin all image regions and detects suspicious discrepancies. Our work is based on the a-contrario framework which reins in the over-detections caused by multiple testing.\nIt also yields a Number of False Alarms (NFA) which gives extremely secure guarantees for tampering detection. We demonstrate the performance of the proposed method\nwith both quantitative and visual results from well-known image databases. © 2018 IEEE."
+    },
+    {
+      "document_id": 728,
+      "score": null,
+      "abstract": "Authenticity is one of the most important evaluation factors of images for photography competitions or journalism. Unusual compression history of an image often implies the\nillicit intent of its author. Our work aims at distinguishing real uncompressed images from fake uncompressed images that are saved in uncompressed formats but have\nbeen previously compressed. To detect the potential image JPEG compression, we analyze the JPEG compression artifacts based on the tetrolet covering, which corresponds to the\nlocal image geometrical structure. Since the compression can alter the structure information, the tetrolet covering indexes may be changed if a compression is performed on\nthe test image. Such changes can provide valuable clues about the image compression history. To be specific, the test image is first compressed with different\nquality factors to generate a set of temporary images. Then, the test image is compared with each temporary image block-by-block to investigate whether the tetrolet\ncovering index of each 4×4 block is different between them. The percentages of the changed tetrolet covering indexes corresponding to the quality factors (from low\nto high) are computed and used to form the p-curve, the local minimum of which may indicate the potential compression. Our experimental results demonstrate the\nadvantage of our method to detect JPEG compressions of high quality, even the highest quality factors such as 98, 99, or 100 of the standard\nJPEG compression, from uncompressed-format images. At the same time, our detection algorithm can accurately identify the corresponding compression quality factor. © 2017 SPIE and IS&T."
+    },
+    {
+      "document_id": 752,
+      "score": null,
+      "abstract": "To verify the authenticity of easily manipulated multimedia content, forensic researchers have proposed many techniques to estimate the processing history of given multimedia content. When\nmultiple operations may be applied on multimedia content, a complete processing history would involve the information of not only what manipulation operations have been applied,\nbut also in what order they were applied. However, there are few works considering the problem of detecting the order of operations. Moreover, due to\nthe interplay among operations, the order of operations may not always be detectable. This leads to a fundamental question of when we can or cannot\ndetect the order of operations. In , we propose an information theoretical framework to answer this question. Specifically, we formulate the problem of detecting the\norder of operations into a multiple hypotheses testing problem. Then, we propose an information theoretical framework to characterize the relationship between the true hypothesis and\nthe detected hypothesis. Under this framework, we propose a mutual information based criterion to determine the detectability of the order of operations. Furthermore, conditional fingerprints\nare defined in this framework to understand why the order of operations is not always detectable. The detection of the order of resizing and blurring\nis examined in , where the order detection scheme has been proposed and the effectiveness of our framework has been demonstrated by simulations. © 2016\nIEEE."
+    },
+    {
+      "document_id": 809,
+      "score": null,
+      "abstract": "The use of digital photography has increased over the past few years, a trend which opens the door for new and creative ways to forge\nimages. The manipulation of images through forgery influences the perception an observer has of the depicted scene, potentially resulting in ill consequences if created with\nmalicious intentions. This poses a need to verify the authenticity of images originating from unknown sources in absence of any prior digital watermarking or authentication\ntechnique. This research explores the ability to detect image forgeries created using multiple image sources and specialized methods tailored to the popular JPEG image format.\nFour methods are presented for detection of image tampering based on fundamental image attributes common to any forgery. These include discrepancies in (i) lighting levels,\n(ii) brightness levels, (iii) underlying edge inconsistencies, and (iv) anomalies in JPEG compression blocks. These methods detected image forgeries with an observed accuracy of 60%\nin a completely blind experiment containing a mixture of 15 authentic and forged images. © 2006 International Federation for Information Processing."
+    }
+  ]
+}

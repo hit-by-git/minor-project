@@ -1,0 +1,50 @@
+{
+  "topic_id": 46,
+  "label": "T046",
+  "label_full": "Misinformation & Propaganda",
+  "keywords": [
+    "news",
+    "feature",
+    "fake",
+    "features",
+    "media",
+    "tfidf",
+    "social",
+    "proposed",
+    "accuracy",
+    "society"
+  ],
+  "n_docs": 6,
+  "documents": [
+    {
+      "document_id": 89,
+      "score": null,
+      "abstract": "Fake news is a growing problem in modern society. With the rise of social media and ever-increasing internet accessibility, news spreads like wildfire to millions\nof users in a very short time. The spread of fake news can have disastrous consequences, from decreased trust in news outlets to overturned elections.\nSuch concerns call for automated tools to detect fake news articles. This study proposes a predictive model that can check the authenticity of a news\narticle. The model is constructed using two different techniques to construct our model: (1) linguistic features and (2) feature extraction. We employed some widely used\ntraditional (e.g. K-nearest neighbour (KNN) and support vector machine (SVM)) as well as state-of-the-art (e.g. bidirectional encoder representations from transformers (BERT) and extreme machine learning\n(ELM)) machine learning algorithms using feature extraction methods and linguistic features. After generating the models, performance metrics (e.g. accuracy and precision) are used to compare\ntheir performance. The model generated via logistic regression using feature hashing vectorisation emerged as the best model, with 99% accuracy. To the best of our\nknowledge, no extant studies have compared the traditional and contemporary methods in this context and demonstrated the traditional ones to be better performers. The fake\nnews detection model can help curb the spread of fake news by acting as a tool for news organisations to check the authenticity of a\nnews article. © 2024 World Scientific Publishing Co."
+    },
+    {
+      "document_id": 113,
+      "score": null,
+      "abstract": "Fake news information on the internet has recently emerged as one of the challenging concerns that can have an impact on society and individuals. Furthermore,\nthe propagation of fake news on social media increases the risk of loss of trustworthiness and disseminates fake information across multiple online platforms. As a\nresult, recognizing fake news on the internet plays an important role in society and among individuals. Knowing this, this study proposed an improved fake news\ndetection model that uses the proposed Hybrid Time-Frequency-Inverse Document Frequency (TF-IDF) to extract features and the Adaptive boosting ensemble classifier, which is a combination of\nIterative Dichotomiser 3 (ID-3), Random Forest (RF), and Nave Bayes (NB) classifiers. The characteristics are chosen using the Least Absolute Shrinkage and Selection Operator (LASSO),\nand the news is classified as fake or true using the Adaptive Boosting (AdaBoost) ensemble classifier. The obtained results show that TF-IDF with AdaBoost ensemble\nclassifier has a higher classification accuracy of 98.98% than the existing N-Gram with TF-IDF and Bidirectional Encoder Representation from Transformer (BERT) and Word2Vec with Convolutional\nNeural Network-Bidirectional Long Short Term Memory (-Bi LSTM) with 96.81% and 97.74%, respectively. © 2024 by the authors."
+    },
+    {
+      "document_id": 293,
+      "score": null,
+      "abstract": "Fake news on social media, has spread for personal or societal gain. Detecting fake news is a multi-step procedure that entails analysing the content of\nthe news to assess its trustworthiness. The article has proposed a new solution for fake news detection which incorporates sentiment as an important feature to\nimprove the accuracy with two different data sets of ISOT and LIAR. The key feature words with content’s propensity scores of the opinions are developed\nbased on sentiment analysis using a lexicon-based scoring algorithm. Further, the study proposed a multiple imputation strategy which integrated Multiple Imputation Chain Equation (MICE) to\nhandle multivariate missing variables in social media or news data from the collected dataset. Consequently, to extract the effective features from the text, Term Frequency\nand Inverse Document Frequency (TF-IDF) are introduced to determine the long-term features with the weighted matrix. The correlation of missing data variables and useful data\nfeatures are classified based on Naïve Bayes, passive-aggressive and Deep Neural Network (DNN) classifiers. The findings of this research described that the overall calculation of\nthe proposed method was obtained with an accuracy of 99.8% for the detection of fake news with the evaluation of various statements such as barely\ntrue, half true, true, mostly true and false from the dataset. Finally, the performance of the proposed method is compared with the existing methods in\nwhich the proposed method results in better efficiency. © 2023, The Author(s), under exclusive licence to Springer Science+Business Media, LLC, part of Springer Nature."
+    },
+    {
+      "document_id": 312,
+      "score": null,
+      "abstract": "Easy and quick information diffusion on the web and especially in social media has been rapidly proliferating during the past decades. As information is posted\nwithout any kind of verification of its veracity, fake news has become a problem of great influence in our information driven society. Thus, to mitigate\nthe consequences of fake news and its propagation, automated approaches to detect malicious content were created. proposes an effective framework that utilizes only the text\nfeatures of the news. We evaluate several features for differentiating fake from real news and we identify the best performing feature set that maximizes performance,\nusing feature selection techniques. Text representation features were also explored as a potential solution. Additionally, the most popular Machine Learning and Deep Learning models were\ntested to conclude to the model that achieves the maximum accuracy. Our findings reveal that a combination of linguistic features and text-based word vector representations\nthrough ensemble methods can predict fake news with high accuracy. eXtreme Gradient Boosting (XGB) outperformed all other models, while linear Support Vector Machine (SVM) achieved\ncomparable results. © 2023, IFIP International Federation for Information Processing."
+    },
+    {
+      "document_id": 610,
+      "score": null,
+      "abstract": "Social network and online news media are becoming popular in today's era. Due to low cost, easy access and rapid diffusion, social media platform becomes\na source to distribute false information. Fake news propagation on social media can cause serious negative effects on human society especially in politic, reputation and\nfinance. So, automatic fake news detection plays a vital role to robust news media platform on social network. Defining news authenticity is insufficient based on\nnews content only. It also needs to analyze social features of news. In , we propose an approach to detect fake news on social media\nthat covers both news content and social context. We use synonym-based feature extraction method and three different classifiers based on multidimensional dataset. Experimental result shows\nthe effective as an accuracy way to define news authenticity on online news media. © 2020 IEEE."
+    },
+    {
+      "document_id": 656,
+      "score": null,
+      "abstract": "Social media is one of the most revolutionary inventions of the present times. With its own set of advantages and disadvantages it is extremely essential\nfor each one of us. Today Fake News has become a major problem wreaking havoc all over the world. Therefore building an algorithm with the\nbest possible accuracy will be a revelation and it will have a massive impact on the social issues which are prevalent as well as on\nthe current political scenario. Social Media and online news articles serve as a major source of news and for data for people since it can\nbe approached easily, has a subsidized costing and is readily available-just a click away. However, it does have several negative impacts too such as no\ncheck on the source or authenticity and validity of the views being endorsed. Hence, we have proposed a new solution for fake news detection which\nincorporates sentiment as an important feature to improve the accuracy. It also investigates the performance of proposed method using three different data sets. Results show\nthat proposed solution performs well. Moreover, the comparison is also made with other methods under this study. © 2019 IEEE."
+    }
+  ]
+}

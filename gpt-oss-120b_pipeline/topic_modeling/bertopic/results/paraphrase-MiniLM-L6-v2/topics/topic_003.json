@@ -1,0 +1,115 @@
+{
+  "topic_id": 3,
+  "label": "T003",
+  "label_full": "Credibility Assessment",
+  "keywords": [
+    "trustworthiness",
+    "trust",
+    "web",
+    "epistemic",
+    "information",
+    "user",
+    "users",
+    "trustworthy",
+    "sns",
+    "estimation"
+  ],
+  "n_docs": 19,
+  "documents": [
+    {
+      "document_id": 15,
+      "score": null,
+      "abstract": "Trust is crucial for the functioning of complex societies, and an important concern for CSCW. Our purpose is to use research from philosophy, social science,\nand CSCW to provide a novel account of trust in the 'post-truth' era. Testimony, from one speaker to another, underlies many social systems. Epistemic trust,\nor testimonial credibility, is the likelihood to accept a speaker's claim due to beliefs about their competence or sincerity. Epistemic trust is closely related to\nseveral 'pathological epistemic phenomena': democratic (il)legitimacy, the spread of misinformation, and echo chambers. To the best of our knowledge, this theoretical contribution is novel in\nthe field of social computing. We further argue that epistemic trust is no philosophical novelty: it is measurable. Weakly supervised text classification approaches achieve F_1\nscores of around 80 to 85 per cent on detecting epistemic distrust. This is also, to the best of our knowledge, a novel task in\nnatural language processing. We measure expressions of epistemic distrust across 954 political communities on Reddit. We find that expressions of epistemic distrust are relatively rare,\nalthough there are substantial differences between communities. Conspiratorial communities and those focused on controversial political topics tend to express more distrust. Communities with strong epistemic\nnorms enforced by moderation are likely to express low levels. While we find users to be an important potential source of contagion of epistemic distrust,\ncommunity norms appear to dominate. It is likely that epistemic trust is more useful as an aggregated risk factor. Finally, we argue that policymakers should\nbe aware of epistemic trust considering their reliance on legitimacy underwritten by testimony."
+    },
+    {
+      "document_id": 44,
+      "score": null,
+      "abstract": "With the primary goal of raising readers’ awareness of misinformation phenomena, extensive efforts have been made by both academic institutions and independent organizations to develop\nmethodologies for assessing the trustworthiness of online news publishers. Unfortunately, existing approaches are costly and face critical scalability challenges. This study presents a novel framework\nfor assessing the trustworthiness of online news publishers using user interactions on social media platforms. The proposed methodology provides a versatile solution that serves the\ndual purpose of i) identifying verifiable online publishers and ii) automatically performing an initial estimation of the trustworthiness of previously unclassified online news outlets."
+    },
+    {
+      "document_id": 114,
+      "score": null,
+      "abstract": "In a permanently connected society where everyone can share and discuss information of every kind, recognizing credible news or news sources has been demonstrated to\nbe hard. Recent research is going toward the definition of tools that try to automate cognitive processes behind the evaluation of content trustworthiness and simplify\npeople's lives. However, despite recent efforts to identify fake or misleading content, analyzing sources of information in their entirety remains marginal or only a manual\ntask. aims to define a systematic approach for scoring the credibility of web domains. Specifically, it assesses the Multifactorial Source Credibility Score (MSCS) that, through\ncollecting domain pages as a stream, estimates multiple factors such as the quality of content, the author's trustworthiness, the presence of biases and advertisements, the\nsource traffic, etc. Then, it evaluates a weighted moving average of web page scores to attribute an overall score to the domain, taking into account\nscores over time. Through experiments conducted on a real dataset, the study presents promising results by showcasing a notable correlation between the proposed indicator and\na manually assigned score by NewsGuard. © 2024 IEEE."
+    },
+    {
+      "document_id": 173,
+      "score": null,
+      "abstract": "The identification of the trustworthy sources and determining their reliability during information diffusion are the most challenging tasks in social media. A trustworthy user identification\nsystem can greatly help authorities, organizations, and the public to access a accurate and fast information during crises, enabling a more knowledgeable and coordinated response.\nThe proposed user’s reliable score prediction approach identifies the trusted user on social media. The proposed system analyzes their user profile, taking into account a\nnumber of factors, including their follower count, the number of accounts they follow, user verification status, and user’s profile description across the social media platforms\nto determine a user’s reliability and trustworthiness. In behavior analysis, the system analyzes the user behavior by considering the past tweets of the user and\nthe engagement of the user through analyzing the likes and retweets count on the tweets. In tweet-relevant analysis, deep learning models are trained to classify\nwhether the disaster tweets are relevant or irrelevant where the Bidirectional Long Short Term Memory model performs well with 94.54% accuracy. The reliable score is\ncalculated with the user profile, behavior and tweet relevancy, and then the K-means clustering is performed to cluster the score to identify whether the user\nis highly reliable or not. © The Author(s), under exclusive license to Springer Nature Switzerland AG 2024."
+    },
+    {
+      "document_id": 252,
+      "score": null,
+      "abstract": "The algorithmic detection of disinformation online is currently based on two strategies: on the one hand, research focuses on automated fact-checking; on the other hand,\nmodels are being developed to assess the trustworthiness of information sources, including both empirical and theoretical research on credibility and content quality. For debates among\nexperts, in particular, it might be hard to discern (less) reliable information, as all actors by definition are qualified. In these cases, the use of\ntrustworthiness metrics on sources is a useful proxy for establishing the truthfulness of contents. We introduce an algorithmic model for automatically generating a dynamic trustworthiness\nhierarchy among information sources based on several parameters, including fact-checking. The method is novel and significant, especially in two respects: first, the generated hierarchy represents\na helpful tool for laypeople to navigate experts’ debates; second, it also allows to identify and overcome biases generated by intuitive rankings held by agents\nat the beginning of the debates. We provide an experimental analysis of our algorithmic model applied to the debate on the SARS-CoV-2 virus, which took\nplace among Italian medical specialists between 2020 and 2021. © 2023 The Author(s). Published by Informa UK Limited, trading as Taylor & Francis Group."
+    },
+    {
+      "document_id": 364,
+      "score": null,
+      "abstract": "describes the framework developed for the Debunker-Assistant, an application that allows users and newspapers to assess the trustworthiness of a news item starting from its\nheadline, body of text and URL. The Debunker-Assistant adapts ideas from Natural Language Processing and Network Science to counter the spread of online misinformation. Its\ncenterpiece is a set of four News Misinformation Indicators based on linguistically engineered features, models, network analysis metrics (Echo Effect, Alarm Bell, Sensationalism, and Reliability).\nIn this short contribution, we describe the back-end structure on which the indicators are implemented. © 2023 Copyright for by its authors. Use permitted under\nCreative Commons License Attribution 4.0 International (CC BY 4.0)."
+    },
+    {
+      "document_id": 503,
+      "score": null,
+      "abstract": "Source trustworthiness can help discerning reliable and truthful information. We offer a computable model for the dynamic assessment of sources trustworthiness based on their popularity,\nknowledge-ability, and reputation. We apply it to the debate among medical experts in Italy during three distinct phases of the SARS-CoV-19 pandemic, and validate it\nagainst a dataset of newspaper articles. The model shows promising results in the analysis of expert debates their impact on public opinion."
+    },
+    {
+      "document_id": 564,
+      "score": null,
+      "abstract": "Trustworthiness in an online environment is essential because individuals and organizations can easily be misled by false and malicious information receiving from untrustworthy users. Though\nexisting methods assess users' trustworthiness by exploiting Twitter account properties, their efficacy is inadequate because of Twitter's restriction on profile and tweet size, the existence\nof missing or insufficient profiles, and ease to create fake accounts or relationships to pretend as trustworthy. In , we present a holistic approach by\nexploiting ideas perceived from real-world organizations for trust estimation along with available Twitter information. Users' trustworthiness is determined by considering their credentials, recommendation from referees\nand the quality of the information in their Twitter accounts and tweets. We establish the feasibility of our approach analytically and further devise a multi-objective\ncost function for the A∗ search to find a quasi-optimal path between the trust evaluator and the user whose trustworthiness is being evaluated. We also\npropose an incentive mechanism to increase user participation in the trust evaluation process, and a threat model and trustworthiness measure of referees to thwart the\npossibility of providing an untruthful recommendation to inflate one's trustworthiness. The efficacy of our proposed approach is validated through experiments using Twitter data and extensive\nsimulation in various scenarios. © 2004-2012 IEEE."
+    },
+    {
+      "document_id": 645,
+      "score": null,
+      "abstract": "In online communication, it is often difficult to judge if an unknown person is competent, telling the truth or interested in honestly helping others. This\nleads to mistrust and social phenomena like echo chambers and misinformation campaigns. Creating transparency by introducing contributive social capital (CSC), a metric encompassing the competence,\ntrustworthiness, and social responsibility of a user, could alleviate this problem. We investigate the utility of social capital market systems as information sources for the\nassessment of CSC."
+    },
+    {
+      "document_id": 668,
+      "score": null,
+      "abstract": "The problem of determining what information to trust is crucial in many contexts that admit uncertainty and polarization. In , we propose a method to\nsystematically reason on the trustworthiness of sources. While not aiming at establishing their veracity, the method allows creating a relative reference system to determine the\ntrustworthiness of information sources by reasoning on their knowledgeability, popularity, and reputation. We further propose a formal rule-based set of strategies to establish possibly negative\ntrust on contradictory contents that use such source evaluation. The strategies answer to criteria of higher trustworthiness score, majority or consensus on the set of\nsources. We evaluate our model through a real-case scenario. © IFIP International Federation for Information Processing 2019."
+    },
+    {
+      "document_id": 670,
+      "score": null,
+      "abstract": "Nowadays, the internet plays a major role in online information retrieval. As, we are well aware the web provides information related all the fields like\nnational, lifestyle, movies, shopping, spirituality, sports, entertainment and much more. One cannot assume that the web retrieved information is believable or trustworthy due to multiple\nanswers to the same query. The paper aims to study many research articles which are related to truth information discovery. However, the paper found that\nthere is no proper research to find trustworthiness of news content which is extracted from multiple information sources with minimum misclassification error and retrieval time.\nTo alleviate these issues, the truth content discovery algorithm is proposed to produce trustworthy information with minimal time along with multiple domain news information. The\nsystem provides reliable information from a various source of news provider with minimum classification error. The proposed method ranked the news content index based on\nquery matches from extracted information. It minimizes the query retrieval time and classification error. Based on the experimental evaluation, proposed TCD + J48 algorithm produced\nthe best result compared to existing approaches. It minimizes reduces 7.54 ms the query retrieval time (QRT), 5% Error rate (ER) and 0.98 and Mean\nNormalized Absolute Distance (MNAD). © 2019 Elsevier B.V."
+    },
+    {
+      "document_id": 674,
+      "score": null,
+      "abstract": "In , we present a new user trustworthiness estimation model for social networks (SN), whereas most of existing researches have been focused on the user-user/item\nrelationship trustworthiness estimation. Users share information of their interest on various social media without their trustworthiness verification. Therefore, SN are susceptible to malicious users for\nmisinformation spreading. In SN, the original information source is generally unknown and the user who is sharing the contents is the only known information about\nthe source. Therefore, the user's trustworthiness is an effective criterion for SN content's trustworthiness estimation. However, the users are unable to identify trustworthy/untrustworthy users, and\nthe existing user-user/item relationship models do not provide user trustworthiness information. Our proposed model provides a systematic way to assess the user trustworthiness based on\nuser attributes and interaction behavior. The proposed model is helpful to avoid the trust sparsity (implicit trust model), trust subjectivity (user's objective/collective trustworthiness estimation model)\nand cold-start user's trustworthiness (user's attributes-based trust modeling) problems. We employ friends-recommendation (FR) as an exemplary application to evaluate the performance of our proposed model\nin trust-Aware recommendations. Simulation results illustrate that our trust-Aware FR model outperformed the existing trust and FR models. © 2013 IEEE."
+    },
+    {
+      "document_id": 712,
+      "score": null,
+      "abstract": "The social media are increasingly becoming the main reference and having important implications on virtual community. Parts of the information published in the social media\ncould be useful and some could be misleading. Therefore, there is a need to develop an approach that can verify the trustworthiness of online information\nto minimise the dissemination of misleading information. presents a study that develops an objective approach to determine the level of trustworthiness of information. Based on\nfour parameters derived from literature and empirical data, an algorithm to determine the level of trustworthiness has been developed. This algorithm measurement of trustworthiness was\nthen realised through an automated tool called TrustCrawler. The functionality of the tool was demonstrated using online information on Government Service Tax (GST) of Malaysian\ndrawn from Twitter. It was found that the tool is able to provide consistent results on the level of trustworthiness of online information based on\nthe four parameters. It is anticipated that this tool is able to help social media users to determine level of trustworthiness of the information, hence\nbecoming informed, safe and ethical users of media content. © 2005 – ongoing JATIT & LLS."
+    },
+    {
+      "document_id": 769,
+      "score": null,
+      "abstract": "Due to the spread of unreliable online information on social network services (SNS), the users are faced with a difficult problem for determining if the\ninformation is trustworthy or not. At present, the users should make a decision overall by themselves for trustworthiness of information. Therefore, we need a way\nto systematically evaluate trustworthiness of information on SNS. In , we design a trust metrics, called TII (Trust Index for Information on SNS), as a\ncriterion for measuring the trust degree of information on SNS. Using TII, the users are readily able to determine whether the information is trustworthy. Consequently,\nwe can estimate the social trust degree based on the variation of TII. derives the various factors affecting trust from the properties of SNS, and\nproposes a model to evaluate the trustworthiness of information that is directly produced and distributed over the online network. Quantifying the trust degree of the\ninformation on SNS allows the users to make efficient use of the social network. © 2015 IEEE."
+    },
+    {
+      "document_id": 780,
+      "score": null,
+      "abstract": "Web has become an important information source for most people. However, the information on the web is not always true and credible. How to help\npeople quickly judge the credibility of information on the web was required. A new method based on content trust was proposed in , which aim\nto evaluate the credibility of web information. Firstly, the method utilized the conditional random field model to get the theme of web information content, which\ncan be used to a clue to collect the candidate evidence on the web. Secondly, the truthfulness of evidence can be evaluated by the characteristic\nof the concurrency and relevancy of the evidence and web information theme and other characteristic. Finally, the credibility value of web information was calculated. The\nexperiment results show the method proposed in the credibility evaluation of web information content is reasonable and effective."
+    },
+    {
+      "document_id": 794,
+      "score": null,
+      "abstract": "Web provides rich information about a variety of objects. Trustability is a major concern on the web. Truth establishment is an important task so as\nto provide the right information to the user from the most trustworthy source. Trustworthiness of information provider and the confidence of the facts it provides\nare inter-dependent on each other and hence can be expressed iteratively in terms of each other. However, a single information provider may not be the\nmost trustworthy for all kinds of information. Every information provider has its own area of competence where it can perform better than others. We derive\na model that can evaluate trustability on objects and information providers based on clusters (groups). We propose a method which groups the set of objects\nfor which similar set of providers provide \"good\" facts, and provides better accuracy in addition to high quality object clusters."
+    },
+    {
+      "document_id": 802,
+      "score": null,
+      "abstract": "has become a very popular destination for Web surfers seeking knowledge about a wide variety of subjects. While it contains many helpful articles with accurate\ninformation, it also consists of unreliable articles with inaccurate or incomplete information. A casual observer might not be able to differentiate between the good and\nthe bad. In , we identify the necessity and challenges for trust assessment in , and propose a framework that can help address these challenges\nby identifying relevant features and providing empirical means to meet the requirements for such an evaluation. We select relevant variables and perform experiments to evaluate\nour approach. The results demonstrate promising performance that is better than comparable approaches and could possibly be replicated with other social media applications. Copyright 2009\nACM."
+    },
+    {
+      "document_id": 804,
+      "score": null,
+      "abstract": "The need to assess the trustworthiness of a piece of information has become a prevalent issue due to web vandalism and the openness of platforms\nsuch as wikis. In we introduce the notion of contextual accountability: Holding the author of a given statement accountable by deriving a path from the\nstatement to the author's credentials. We present our own trust vector model as a combination of the assessment of these credentials covering two aspects; knowledgeability\nand social acceptance. This model is put to the test using two datasets and the results are presented and discussed."
+    },
+    {
+      "document_id": 805,
+      "score": null,
+      "abstract": "With the increasing employment of the Web in our daily lives, we often use it to find evidence of real-world events. The difference with normal\nweb searches is that users want to reveal whether an event is true or false based on firm facts. In , we propose a model\nto excavate real-world events from the Web, to manage the vestige in spatio-temporal space and to offer users reliable evidence of an event. We also\ndescribe a similarity measure between events to perform searching and clustering. A credibility estimation method, based on the trustworthiness of events and the authority of\nweb sites, using a primary experiment is also presented."
+    }
+  ]
+}

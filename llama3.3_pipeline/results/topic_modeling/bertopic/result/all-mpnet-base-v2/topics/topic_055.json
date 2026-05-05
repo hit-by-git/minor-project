@@ -1,0 +1,50 @@
+{
+  "topic_id": 55,
+  "label": "T055",
+  "label_full": "Misinformation & Propaganda",
+  "keywords": [
+    "nersa",
+    "fake",
+    "news",
+    "ml",
+    "detection",
+    "bagofwords",
+    "arabic",
+    "increased",
+    "dataset",
+    "deception"
+  ],
+  "n_docs": 6,
+  "documents": [
+    {
+      "document_id": 51,
+      "score": null,
+      "abstract": "The proliferation of fake news poses a substantial threat to information integrity, prompting the need for robust detection mechanisms. This study advances the research on\nArabic fake news detection and overcomes the limitation of lower accuracy for fake news detection. This research addresses Arabic fake news detection using word embedding\nand a powerful stacking classifier. The proposed model combines bagging, boosting, and baseline classifiers, harnessing the strengths of each to create a robust ensemble. Extensive\nexperiments are carried out to evaluate the proposed approach indicating remarkable results, with recall, F1 score, accuracy, and precision reaching 99%. The utilization of advanced\nstacking techniques, coupled with appropriate textual feature extraction, empowers the model to effectively detect Arabic fake news. Study results make a valuable contribution to fake\nnews detection, particularly in the Arabic context, providing a valuable tool for enhancing information veracity and fostering a more informed public discourse. Furthermore, the proposed\nmodel’s accuracy is compared with other cutting-edge models from the existing literature to showcase its superior performance."
+    },
+    {
+      "document_id": 299,
+      "score": null,
+      "abstract": "Nowadays, the dissemination of news information has become more rapid, liberal, and open to the public. People can find what they want to know more\nand more easily from a variety of sources, including traditional news outlets and new social media platforms. However, at a time when our lives are\nglutted with all kinds of news, we cannot help but doubt the veracity and legitimacy of these news sources; meanwhile, we also need to guard\nagainst the possible impact of various forms of fake news. To combat the spread of misinformation, more and more researchers have turned to natural language\nprocessing (NLP) approaches for effective fake news detection. However, in the face of increasingly serious fake news events, existing detection methods still need to be\ncontinuously improved. This study proposes a modified proof-of-concept model named NER-SA, which integrates natural language processing (NLP) and named entity recognition (NER) to conduct the\nin-domain and cross-domain analysis of fake news detection with the existing three datasets simultaneously. The named entities associated with any particular news event exist in\na finite and available evidence pool. Therefore, entities must be mentioned and recognized in this entity bank in any authentic news articles. A piece of\nfake news inevitably includes only some entitlements in the entity bank. The false information is deliberately fabricated with fictitious, imaginary, and even unreasonable sentences and\ncontent. As a result, there must be differences in statements, writing logic, and style between legitimate news and fake news, meaning that it is possible\nto successfully detect fake news. We developed a mathematical model and used the simulated annealing algorithm to find the optimal legitimate area. Comparing the detection\nperformance of the NER-SA model with current state-of-the-art models proposed in other studies, we found that the NER-SA model indeed has superior performance in detecting\nfake news. For in-domain analysis, the accuracy increased by an average of 8.94% on the LIAR dataset and 19.36% on the fake or real news\ndataset, while the F1-score increased by an average of 24.04% on the LIAR dataset and 19.36% on the fake or real news dataset. In cross-domain\nanalysis, the accuracy and F1-score for the NER-SA model increased by an average of 28.51% and 24.54%, respectively, across six domains in the FakeNews AMT\ndataset. The findings and implications of this study are further discussed with regard to their significance for improving accuracy, understanding context, and addressing adversarial attacks.\nThe development of stylometric detection based on NLP approaches using NER techniques can improve the effectiveness and applicability of fake news detection. © 2023 by\nthe author."
+    },
+    {
+      "document_id": 584,
+      "score": null,
+      "abstract": "Although written deception is not a new invention, the emergence and progress of electronic media—and more recently social media—has changed the speed and extent of\naccess to information in a good way, but at the same time facilitating the proliferation of disinformation as well. Automatic veracity determination, therefore, became a\nwidely studied problem in the last years. We claim that without using a knowledge base and fact-checking, that is based solely on textual content features\none cannot truly fight this phenomenon, nevertheless, such a deception detection system can be used beneficially in certain situations. In the present study we apply\ntext categorization methods to detect fake news without involving any external knowledge base (e.g. lexicons, unlabeled corpora, pre-trained word vectors, etc.). We employ traditional bag-of-words\nand more recent end-to-end neural network models, and evaluate them on eight—five smaller and three larger—fake news datasets. The experimental results show that one can\nattain considerably precise detection performance, in some cases even in the very close vicinity of the perfect F1 score, using solely the labeled data. We\nalso strive to explain why some of these approaches imply a better performance than others. © 2021, Springer Nature Switzerland AG."
+    },
+    {
+      "document_id": 598,
+      "score": null,
+      "abstract": "Automatically detecting fake news and drawing readers' attention to possible deceptive intentions can be considered rather useful in the online era. While determining the veracity\nof writings should involve fact-checking the information contained in the article, using lexical and syntactic clues, text complexity measures, etc. one can predict truthfulness with\nsurprisingly high accuracy. To help the scientific community in studying the fake news phenomenon, we compiled a large dataset of 80 547 legitimate and 67\n547 fake news articles from trusted and deceptive Hungarian web portals. The dataset is validated by conducting text classification experiments on the news stories, using\ntraditional bag-of-words and more recent neural network models, the best-performing method achieving a 0.98 F1-score. © 2021 IEEE."
+    },
+    {
+      "document_id": 789,
+      "score": null,
+      "abstract": "Fake news has become a problem of great impact in our information driven society because of the continuous and intense fakesters content distribution. Information quality\nin news feeds is under questionable veracity calling for automated tools to detect fake news articles. Due to many faces of fakesters, creating such tool\nis a challenging problem. In , we propose a model for fake news detection using content based features and Machine Learning (ML) algorithms. To conclude\nin most accurate model we evaluate several feature sets proposed for deception detection and word embeddings as well. Moreover, we test the most popular ML\nclassifiers and investigate the possible improvement reached under ensemble ML methods such as AdaBoost and Bagging. An extensive set of earlier data sources has been\nused for experimentation and evaluation of both feature sets and ML classifiers. Moreover, we introduce a new text corpus, the “UNBiased” (UNB) dataset, which integrates\nvarious news sources and fulfills several standards and rules to avoid biased results in classification task. Our experimental results show that the use of an\nenhanced linguistic feature set with word embeddings along with ensemble algorithms and Support Vector Machines (SVMs) is capable to classify fake news with high accuracy.\n© 2019 Elsevier Ltd"
+    },
+    {
+      "document_id": 849,
+      "score": null,
+      "abstract": "In the wake of the 2016 US Presidential Election, the upsurge of fake news has been a subject of increased discussion and debate. In ,\nwe propose a general framework that can been adopted in future elections worldwide to augment humans in making better decisions when it comes to recognizing\nnews deception and identifying hidden bias of the author. For our study, we constructed a dataset comprising 200 tweets on »Hilary Clinton», while performing veracity\nassessment. We initially perform »text normalization» on tweets, explore techniques for feature extraction to classify news into categories, perform a comprehensive linguistic analysis on tweets,\nextract bag-of-words to find noticeable pattern, and finally apply k-nearest neighbor algorithm for classifying polarized news from credible. We later turn to some popular evaluation\nmetrics to quantify the success rate of our framework, discuss the results of implementing knn algorithm and discuss interconnected research domains and future research directions\nfor constructing an ideal model for fake news detection system around social media. © 2018 IEEE."
+    }
+  ]
+}

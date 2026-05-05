@@ -1,0 +1,55 @@
+{
+  "topic_id": 38,
+  "label": "T038",
+  "label_full": "Misinformation & Propaganda",
+  "keywords": [
+    "layer",
+    "news",
+    "vector",
+    "fake",
+    "model",
+    "word",
+    "traditional",
+    "proposal",
+    "ml",
+    "sentences"
+  ],
+  "n_docs": 7,
+  "documents": [
+    {
+      "document_id": 89,
+      "score": null,
+      "abstract": "Fake news is a growing problem in modern society. With the rise of social media and ever-increasing internet accessibility, news spreads like wildfire to millions\nof users in a very short time. The spread of fake news can have disastrous consequences, from decreased trust in news outlets to overturned elections.\nSuch concerns call for automated tools to detect fake news articles. This study proposes a predictive model that can check the authenticity of a news\narticle. The model is constructed using two different techniques to construct our model: (1) linguistic features and (2) feature extraction. We employed some widely used\ntraditional (e.g. K-nearest neighbour (KNN) and support vector machine (SVM)) as well as state-of-the-art (e.g. bidirectional encoder representations from transformers (BERT) and extreme machine learning\n(ELM)) machine learning algorithms using feature extraction methods and linguistic features. After generating the models, performance metrics (e.g. accuracy and precision) are used to compare\ntheir performance. The model generated via logistic regression using feature hashing vectorisation emerged as the best model, with 99% accuracy. To the best of our\nknowledge, no extant studies have compared the traditional and contemporary methods in this context and demonstrated the traditional ones to be better performers. The fake\nnews detection model can help curb the spread of fake news by acting as a tool for news organisations to check the authenticity of a\nnews article. © 2024 World Scientific Publishing Co."
+    },
+    {
+      "document_id": 115,
+      "score": null,
+      "abstract": "Exposure to half-truths or lies has the potential to undermine democracies, polarize public opinion, and promote violent extremism. Identifying the veracity of fake news is\na challenging task in distributed and disparate cyber-socio platforms. To enhance the trustworthiness of news on these platforms, in this article, we put forward a\nfake news detection model, OptNet-Fake. The proposed model is architecturally a hybrid that uses a meta-heuristic algorithm to select features based on usefulness and trains\na deep neural network to detect fake news in social media. The d -D feature vectors for the textual data are initially extracted using the\nterm frequency inverse document frequency (TF-IDF) weighting technique. The extracted features are then directed to a modified grasshopper optimization (MGO) algorithm, which selects the most\nsalient features in the text. The selected features are then fed to various convolutional neural networks (CNNs) with different filter sizes to process them and\nobtain the n -gram features from the text. These extracted features are finally concatenated for the detection of fake news. The results are evaluated for\nfour real-world fake news datasets using standard evaluation metrics. A comparison with different meta-heuristic algorithms and recent fake news detection methods is also done. The\nresults distinctly endorse the superior performance of the proposed OptNet-Fake model over contemporary models across various datasets. © 2014 IEEE."
+    },
+    {
+      "document_id": 528,
+      "score": null,
+      "abstract": "presents a novel architecture for dealing with Automatic Fake News detection. The architecture factors in the discourse structure of news in traditional digital media and\nis based on two premises. First, fake news tends to mix true and false information with the purpose of confusing readers. Second, this research is\nfocused on fake news delivered in traditional digital media, so our approach considers the influence of the journalistic structure of news, and the way journalists\ntend to introduce the essential content in a news story using 5W1H answer. Considering both premises, this proposal deals with the news components separately because\nsome may be true or false, instead of considering the veracity value of the news article as a unit. A two-layer architecture is proposed, Structure\nand Veracity layers. To demonstrate the validity of the proposal, a new dataset was created and annotated with a new fine-grained annotation scheme (FNDeepML) that\nconsiders the different elements of the news document and their veracity. Due to the severity of the COVID-19 pandemic crisis, health is the chosen domain,\nand Spanish is the language used to validate the architecture, given the lack of research in this language. However, the proposal can be applied to\nany other language or domain. The performance of the Veracity layer of our proposal, which factors in the traditional news article structure and the 5W1H\nannotation, is capable of delivering a result of F1=0.807. This represents a strong improvement when compared to the baseline, which uses the whole document with\na single veracity value, obtaining F1=0.605. These findings validate the suitability and effectiveness of our approach. © 2020 Elsevier Ltd"
+    },
+    {
+      "document_id": 568,
+      "score": null,
+      "abstract": "Fake news refers to deceptive online content and is a problem which causes social harm [1]. Early detection of fake news is therefore a critical\nbut challenging problem. In we attempt to determine if state-of-the-art models, trained on the LIAR dataset [2] can be leveraged to reliably classify short claims\naccording to 6 levels of veracity that range from “True” to “Pants on Fire” (absolute lies). We investigate the application of transformer models BERT [3],\nRoBERTa [4] and ALBERT [5] that have previously performed significantly well on several natural language processing tasks including text classification. A simple neural network (FcNN)\nwas also used to enhance each model's result by utilising the sources' reputation scores. We achieved higher accuracy than previous studies that used more data\nor more complex models. Yet, after evaluating the models' behaviour, numerous flaws appeared. These include bias and the fact that they do not really model\nveracity which makes them prone to adversarial attacks. We also consider the possibility that language-based, fake news classification, on such short statements is an ill-posed\nproblem. © 2021 Copyright for by its authors. Use permitted under Creative Commons License Attribution 4.0 International (CC BY 4.0)."
+    },
+    {
+      "document_id": 617,
+      "score": null,
+      "abstract": "The detection of false and misleading news has become a top priority to researchers and practitioners. Despite the large number of efforts in this area,\nmany questions remain unanswered about the ideal design of interventions, so that they effectively inform news consumers. In , we seek to fill part of\nthis gap by exploring two important elements of tools’ design: the timing of news veracity interventions and the format of the presented interventions. Specifically, in\ntwo sequential studies, using data collected from news consumers through Amazon Mechanical Turk (AMT), we study whether there are differences in their ability to correctly\nidentify fake news under two conditions: when the intervention targets novel news situations and when the intervention is tailored to specific heuristics. We find that\nin novel news situations users are more receptive to the advice of the AI, and further, under this condition tailored advice is more effective than\ngeneric one. We link our findings to prior literature on confirmation bias and we provide insights for news providers and AI tool designers to help\nmitigate the negative consequences of misinformation. © 2020 The Authors"
+    },
+    {
+      "document_id": 661,
+      "score": null,
+      "abstract": "Fake news has become a problem of great impact in our information driven society because of the continuous and intense fakesters content distribution. Information quality\nin news feeds is under questionable veracity calling for automated tools to detect fake news articles. Due to many faces of fakesters, creating such tool\nis a challenging problem. In , we propose a model for fake news detection using content based features and Machine Learning (ML) algorithms. To conclude\nin most accurate model we evaluate several feature sets proposed for deception detection and word embeddings as well. Moreover, we test the most popular ML\nclassifiers and investigate the possible improvement reached under ensemble ML methods such as AdaBoost and Bagging. An extensive set of earlier data sources has been\nused for experimentation and evaluation of both feature sets and ML classifiers. Moreover, we introduce a new text corpus, the “UNBiased” (UNB) dataset, which integrates\nvarious news sources and fulfills several standards and rules to avoid biased results in classification task. Our experimental results show that the use of an\nenhanced linguistic feature set with word embeddings along with ensemble algorithms and Support Vector Machines (SVMs) is capable to classify fake news with high accuracy.\n© 2019 Elsevier Ltd"
+    },
+    {
+      "document_id": 701,
+      "score": null,
+      "abstract": "These days, most of fake news are detected and verified by people, which requires a great amount of time and effort. It is difficult to\nFigure out the truthfulness of the news by machine algorithm because the sentences have various forms. In , we shall present a fast and efficient\nfake news detection model which can Figure out whether the given proposition is true or not from article by exploiting grammatical transformation based on deep\nlearning. Our model consists of four layers: word embedding layer, context generation layer, matching layer and inference layer. In word embedding layer, the words in\nproposition are embedded into word vector. In context generation layer, the word vectors enter into LSTM layer and generate context vector. In matching layer, attention\nvector is generated from the contextual embedding vector in the previous layer computing the weighted sum. Then, the hidden state vector from LSTM layers and\nattention vector are compared through matching operation generating the sentences which has the same meaning but different forms. In inference layer, our model calculates the\nsimilarity between the generated sentences and the sentences in articles, and classifies the answer, true or false. We shall evaluate our model calculating the perplexity\nto Figure out whether the generated sentences are grammatically correct. Also, the model is tested by changing the sentence group's size to find the optimal\nsize of the group. By showing the Our model figured out the fake news very well with the test of news dataset getting the right\nanswer. © 2018 IEEE."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "topic_id": 56,
+  "label": "T056",
+  "label_full": "Misinformation & Propaganda",
+  "keywords": [
+    "multimodal",
+    "unimodal",
+    "mineruvs",
+    "fnd",
+    "modality",
+    "deceptive",
+    "news",
+    "patterns",
+    "fake",
+    "crossmodal"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 155,
+      "score": null,
+      "abstract": "—The rapid dissemination of fake news and rumors through the Internet and social media platforms poses significant challenges and raises concerns in the public sphere.\nAutomatic detection of fake news plays a crucial role in mitigating the spread of misinformation. While recent approaches have focused on leveraging neural networks to\nimprove textual and visual representations in multi-modal fake news analysis, they often overlook the potential of incorporating knowledge information to verify facts within news articles.\nIn , we present a vision and language model that incorporates knowledge to enhance multi-modal fake news detection. Our proposed model integrates information from large\nscale open knowledge graphs to augment its ability to discern the veracity of news content. Unlike previous methods that utilize separate models to extract textual\nand visual features, we synthesize a unified model capable of extracting both types of features simultaneously. To represent news articles, we introduce a graph structure\nwhere nodes encompass entities, relationships extracted from the textual content, and objects depicted in associated images. By utilizing the knowledge graph, we establish meaningful relationships\nbetween nodes within the news articles. Experimental evaluations on a real-world multimodal dataset from Twitter demonstrate significant performance improvement by incorporating knowledge information. © 2024\nIEEE."
+    },
+    {
+      "document_id": 163,
+      "score": null,
+      "abstract": "Fake news spreads at unprecedented speeds through online social media, raising many concerns and negative impacts on a variety of domains. To control this issue,\nFake News Detection (FND) naturally becomes the chief task while multimodal FND has recently attracted more attention due to the fast-growing multimodal content in online\nsocial media. Commonly, the existing multimodal FND methods directly fuse the unimodal features into the multimodal features before detecting the veracity, however, such methods result\nin the neutralization effect problem caused by the veracity conflict between different modalities. To alleviate this problem, we propose a novel multimodal FND method, namely\nMultImodal fake NEws detectoR with Unimodal Veracity Signals (MINER-UVS). The basic idea of MINER-UVS is to incorporate an unimodal veracity classifier that can predict the\nveracity labels of each modality, and then use the unimodal veracity labels to weigh the unimodal features, so as to achieve more discriminative multimodal features.\nBecause the unimodal veracity labels are unknown, we formulate the unimodal veracity classification as the Positive and Unlabeled (PU) learning problem; and solve it by\nusing a variational PU learning method with a contrastive multimodal alignment regularization. To evaluate the effectiveness of MINER-UVS, we compare it with dozens of existing\nmultimodal FND methods across benchmark datasets. Experimental results demonstrate that MINER-UVS consistently outperforms the existing competitors. © 2024 Elsevier B.V."
+    },
+    {
+      "document_id": 167,
+      "score": null,
+      "abstract": "In the current Internet landscape, the rampant spread of fake news, particularly in the form of multi-modal content, poses a great social threat. While automatic\nmulti-modal fake news detection methods have shown promising results, the lack of explainability remains a significant challenge. Existing approaches provide superficial explainability by displaying learned\nimportant components or views from well-trained networks, but they often fail to uncover the implicit deceptive patterns that reveal how fake news is fabricated. To\naddress this limitation, we begin by predefining three typical deceptive patterns, namely image manipulation, cross-modal inconsistency, and image repurposing, which shed light on the mechanisms\nunderlying fake news fabrication. Then, we propose a novel Neuro-Symbolic Latent Model called NSLM, that not only derives accurate judgments on the veracity of news\nbut also uncovers the implicit deceptive patterns as explanations. Specifically, the existence of each deceptive pattern is expressed as a two-valued learnable latent variable, which\nis acquired through amortized variational inference and weak supervision based on symbolic logic rules. Additionally, we devise pseudo-siamese networks to capture distinct deceptive patterns effectively.\nExperimental results on two real-world datasets demonstrate that our NSLM achieves the best performance in fake news detection while providing insightful explanations of deceptive patterns.\nCopyright © 2024, Association for the Advancement of Artificial Intelligence ( All rights reserved."
+    },
+    {
+      "document_id": 220,
+      "score": null,
+      "abstract": "The proliferation of fake news with image and text in the internet has triggered widespread concern.Existing research has made important contributions in cross-modal information interaction\nand fusion, but fails to fundamentally address the modality gap among news image, text, and news-related external knowledge representations.In , we propose a novel Natural\nLanguage-centered Inference Network (NLIN) for multi-modal fake news detection by aligning multi-modal news content with the natural language space and introducing an encoder-decoder architecture to\nfully comprehend the news in-context.Specifically, we first unify multi-modal news content into textual modality by converting news images and news-related external knowledge into plain textual\ncontent.Then, we design a multimodal feature reasoning module, which consists of a multi-modal encoder, a unified-modal context encoder and an inference decoder with prompt phrase.This\nframework not only fully extracts the latent representation of cross-modal news content, but also utilizes the prompt phrase to stimulate the powerful in-context learning ability\nof the pre-trained large language model to reason about the truthfulness of the news content.In addition, to support the research in the field of multi-modal\nfake news detection, we produce a challenging large scale, multi-platform, multi-domain multi-modal Chinese Fake News Detection (CFND) dataset.Extensive experiments show that our CFND dataset is\nchallenging and the proposed NLIN outperforms state-of-the-art methods. © 2024 International Joint Conferences on Artificial Intelligence. All rights reserved."
+    },
+    {
+      "document_id": 296,
+      "score": null,
+      "abstract": "As the advance of social networks, the emergency of fake news has been the major threat for information security, privacy, and trustworthiness. The fake news\ncan leverage multimedia contents to fabricate evidences or mislead readers, which damages a lot in machine learning and network systems. In , we explored the\ntask of multimodal fake news detection. The major challenge of fake news detection stems from the modality fusion by abundant information. Overcoming the limitations of\nthe current models, we tackle the challenge of learning corrections between modalities in news, and substantially proposed a mutual attention neural network (MANN) that can\nlearn the relationship between each different modality. Our model consists of four components: multimodal feature extractor, mutual attention fusion, fake news detector and irrelevant event\ndiscriminator. The performance of our proposed architecture is evaluated on Weibo dataset, which indicates the MANN model outperforms the state-of-the-arts. © 2022, The Author(s), under\nexclusive licence to Springer Science+Business Media, LLC, part of Springer Nature."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "topic_id": 42,
+  "label": "T042",
+  "label_full": "Misinformation & Propaganda",
+  "keywords": [
+    "ais",
+    "msw",
+    "maritime",
+    "et",
+    "al",
+    "ai",
+    "toolbox",
+    "intelligence",
+    "artificial",
+    "disinformation"
+  ],
+  "n_docs": 6,
+  "documents": [
+    {
+      "document_id": 6,
+      "score": null,
+      "abstract": "In an era increasingly dominated by digital platforms, the spread of misinformation poses a significant challenge, highlighting the need for solutions capable of assessing information\nveracity. Our research contributes to the field of Explainable Artificial Antelligence (XAI) by developing transformer-based fact-checking models that contextualise and justify their decisions by generating\nhuman-accessible explanations. Importantly, we also develop models for automatic evaluation of explanations for fact-checking verdicts across different dimensions such as (self)-contradiction, hallucination, convincingness and overall\nquality. By introducing human-centred evaluation methods and developing specialised datasets, we emphasise the need for aligning Artificial Intelligence (AI)-generated explanations with human judgements. This approach\nnot only advances theoretical knowledge in XAI but also holds practical implications by enhancing the transparency, reliability and users’ trust in AI-driven fact-checking systems. Furthermore,\nthe development of our metric learning models is a first step towards potentially increasing efficiency and reducing reliance on extensive manual assessment. Based on experimental\nresults, our best performing generative model achieved a Recall-Oriented Understudy for Gisting Evaluation-1 (ROUGE-1) score of 47.77 demonstrating superior performance in generating fact-checking explanations, particularly\nwhen provided with high-quality evidence. Additionally, the best performing metric learning model showed a moderately strong correlation with human judgements on objective dimensions such as\n(self)-contradiction and hallucination, achieving a Matthews Correlation Coefficient (MCC) of around 0.7. © 2024 The Authors"
+    },
+    {
+      "document_id": 45,
+      "score": null,
+      "abstract": "Research on misinformation detection has primarily focused either on furthering Artificial Intelligence (AI) for automated detection or on studying humans' ability to deliver an effective\ncrowdsourced solution. Each of these directions however shows different benefits. This motivates our work to study hybrid human-AI approaches jointly leveraging the potential of large\nlanguage models and crowdsourcing, which is understudied to date. We propose novel combination strategies Model First, Worker First, and Meta Vote, which we evaluate along\nwith baseline methods such as mean, median, hard- and soft-voting. Using 120 statements from the dataset, and a combination of state-of-the-art AI models and crowdsourced\nassessments, we evaluate the effectiveness of these combination strategies. Results suggest that the effectiveness varies with scales granularity, and that combining AI and human judgments\nenhances truthfulness assessments' effectiveness and robustness."
+    },
+    {
+      "document_id": 63,
+      "score": null,
+      "abstract": "In this research, we compare and contrast many different AI algorithms designed to improve the ability to spot false information on social media. In particular,\nit assesses the efficacy of Passive Aggressive Classifier (Crammer et al., J Mach Learn Res 7:551–585, 2006), Hugging Face (Devlin et al., Bert: pre-training of\ndeep bidirectional transformers for language understanding. Cornell University, 2018), and Support Vector Machine Algorithms (Hearst et al., IEEE Intel Syst Appl 13:18–28, 1998; Boser et\nal., Proceedings of fifth annual workshop computational learning theory, pp 144–152, 1992; Schlkopf et al., Advances in kernel methods support vector learning. Mass, Cambridge, 1998;\nCristianini and Shawe-Taylor, An introduction to support vector machines and other kernel-based learning methods. Cambridge University Press, 2000; Baarir et al., Algeria 2021:125–130, 2020). Amid\nthe increasing menace of misinformation on social media, the need for effective fake news detection mechanisms cannot be overstated. The study begins with an overview\nof the algorithms under review, followed by an explanation of their application in fake news detection. This analysis then moves into a comparison mode, assessing\neach method according to several criteria including computational complexity, accuracy, precision, and recall. The research goes further into the pros and cons of each model,\nilluminating how well they perform with various sets of data and varieties of disinformation. In order to create reliable and accurate false news detection systems,\nit is important to determine which algorithms are the most successful. The results of this comparison not only add to the body of knowledge on\ndisinformation identification, but they also provide concrete strategies for bolstering the trustworthiness of content shared on social media. © The Author(s), under exclusive license to\nSpringer Nature Singapore Pte Ltd. 2024."
+    },
+    {
+      "document_id": 243,
+      "score": null,
+      "abstract": "Amongst all types of fabricated information travelling on open social networks, scientific disinformation, or cloaked science, is both insidious and challenging to be investigated. Here\nwe present the design of the TRESCA misinformation widget (MsW), which is both a methodology and a toolbox for investigating disinformation operations leveraging scientific communications.\nIn developing MsW we adopt a human-in-charge approach to AI: the automated tools included in MsW REST API are meant to support, not to substitute\nor undermine, users’ decision-making capacity. On the journey toward information verification, MsW AI toolbox helps users test both the veracity of claims and the reliability\nof sources. While the toolbox integrates open source intelligence solutions, MsW methodology fosters users’ critical thinking. © 2023, The Author(s), under exclusive license to Springer\nNature Switzerland AG."
+    },
+    {
+      "document_id": 255,
+      "score": null,
+      "abstract": "Early detection of disinformation is one of the most challenging big-scale problems facing present day society. This is why the application of technologies such as\nArtificial Intelligence and Natural Language Processing is necessary. The vast majority of Artificial Intelligence approaches require annotated data, and generating these resources is very expensive.\nThis proposal aims to improve the efficiency of the annotation process with a two-level semi-automatic annotation methodology. The first level extracts relevant information through summarization\ntechniques. The second applies a Human-in-the-Loop strategy whereby the labels are pre-annotated by the machine, corrected by the human and reused by the machine to\nretrain the automatic annotator. After evaluating the system, the average annotation time per news item is reduced by 50%. In addition, a set of experiments\non the semi-automatically annotated dataset that is generated are performed so as to demonstrate the effectiveness of the proposal. Although the dataset is annotated in\nterms of unreliable content, it is applied to the veracity detection task with very promising results (0.95 accuracy in reliability detection and 0.78 in veracity\ndetection). © 2023 The Author(s)"
+    },
+    {
+      "document_id": 675,
+      "score": null,
+      "abstract": "The Automatic Identification System (AIS) is widely used by mariners at sea as a compulsory collision prevention device on-board. Since the inception of collaborative platforms\nthat gather AIS messages received by a network of stations, large worldwide AIS datasets can be assembled and enable a series of analyses of the\nmaritime traffic, including an increase of the maritime domain awareness, the assessment and prediction of trajectories, the detection of anomalies, the measurement of fishing pressure,\nvessel-born noise and air pollution and the global modelling of the maritime traffic. However a series of misuses of the AIS does exist, and data\nmay lack reliability as some users broadcast errors or intentionally falsify the information sent by the device. In this respect, a methodology to assess the\nintegrity and veracity of AIS messages has been developed, leading to the determination of maritime risks in support to maritime monitoring activities. In , an\nexemplification is proposed, based on AIS possible integrity issues on kinematic data. © 2019 IEEE."
+    }
+  ]
+}

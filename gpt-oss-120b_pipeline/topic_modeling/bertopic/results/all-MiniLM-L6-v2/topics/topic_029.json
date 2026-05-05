@@ -1,0 +1,55 @@
+{
+  "topic_id": 29,
+  "label": "T029",
+  "label_full": "Misinformation & Propaganda",
+  "keywords": [
+    "news",
+    "deceptive",
+    "spanish",
+    "fake",
+    "readers",
+    "detection",
+    "information",
+    "547",
+    "romanian",
+    "2021"
+  ],
+  "n_docs": 7,
+  "documents": [
+    {
+      "document_id": 306,
+      "score": null,
+      "abstract": "Today, with so much free information online, it becomes increasingly difficult to make sense of what content is based on fact, half-truths or lies. Furthermore,\nin accordance with the events (e.g., COVID-19) that are increasingly alarming, the speed of false news spread is unprecedented. Of course, fake news impairs social\nstability and public trust, which calls for increasing demand for their detection. How to spot as faithful as possible fake news? The response that this\narticle gives, by exploring the textual features using artificial intelligence and machine learning. This research addresses the problem of automatic fake news detection for Romanian\nlanguage. First, we present a new corpus for automatic fake news detection that contains two subsets of 977 and 29 154 news articles in Romanian,\nseparated according to labelling and collection methods. Second, we explore several text-based approaches for automatic fake news detection by using machine learning and artificial intelligence\nwhich resulted in an accuracy of 93%. © 2023 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY-NC-ND\nlicense ("
+    },
+    {
+      "document_id": 438,
+      "score": null,
+      "abstract": "Over the recent years, fake news detection has been a topic of constant question and research among the society of cognitive engineers and many cynical\nenthusiasts in the field. With social media at easy disposal, it becomes but imperative to determine the factual truthfulness of the information. Rampant fake news\nsellers are a menace in society, threatening the very base of democracy and the freedom of speech. In , we try to provide a brief\nunderstanding of the current methodologies in fake news detection, along with proposing a multistage fake news detection system. All the phases that have been designed\nare ordered in increasing order of complexity and efficiency. If fake news detection does not provide results with an acceptable level of accuracy or satisfactory\nresults at any phase, we have designed for a subsequent phase up in the hierarchy which is assured to provide better accuracy. © 2022, The\nAuthor(s), under exclusive license to Springer Nature Singapore Pte Ltd."
+    },
+    {
+      "document_id": 527,
+      "score": null,
+      "abstract": "Automatically detecting fake news and drawing readers' attention to possible deceptive intentions can be considered rather useful in the online era. While determining the veracity\nof writings should involve fact-checking the information contained in the article, using lexical and syntactic clues, text complexity measures, etc. one can predict truthfulness with\nsurprisingly high accuracy. To help the scientific community in studying the fake news phenomenon, we compiled a large dataset of 80 547 legitimate and 67\n547 fake news articles from trusted and deceptive Hungarian web portals. The dataset is validated by conducting text classification experiments on the news stories, using\ntraditional bag-of-words and more recent neural network models, the best-performing method achieving a 0.98 F1-score. © 2021 IEEE."
+    },
+    {
+      "document_id": 571,
+      "score": null,
+      "abstract": "explains our participation in the IberLEF2021 shared task 7: Fake News Detection Task. The goal of this task is to analyze a corpus of Spanish\nNews and determine the authenticity of its content. The threat of false information is designed to negatively affect people, by disseminating information that does not\nmatch the facts, so that users can accept biased or erroneous information. Therefore, fake news becomes particularly important. For this task, mainly discusses different methods\nof fake news detection. We chose the ALBERT Model. On this basis we made a simple modification to the upper structure of the ALBERT model.\nIn the end, our system got 63.16 % F1 score in the task. Although our proposal did not reach the best, it provides a new\nidea for fake news detection. © 2021 CEUR-WS. All rights reserved."
+    },
+    {
+      "document_id": 572,
+      "score": null,
+      "abstract": "With the rapid development of Internet technology, the net- work makes the transmission of information no longer limited due to the long distance. All kinds\nof information can be transmitted conveniently and quickly on the Internet. People can view and send all kinds of in- formation around the world with\nonly a mobile network device. A lot of things happen in the world every day, so this information contains a lot of news information, and\npeople can understand what is happening in the world through news information. However, there is much fake news information mixed in this news information. This\nfake news will interfere with our cognition and judgment. Therefore, we need more attention to distinguish the authenticity of this news item. This also poses\ncertain challenges to our work tasks. In , we describe the method used for the Fake News Detection in Spanish in IberLEF 2021. We fine-tuned\nthe XLM-Roberta pre-training model based on the data sets provided by the host, Spanish, and obtained good results. The F1 score of our model in\nSpanish tasks reached 0.7053 and ranking seventh. © 2021 CEUR-WS. All rights reserved."
+    },
+    {
+      "document_id": 738,
+      "score": null,
+      "abstract": "Since its existence in 1990's, online news has been the major source of news content for news readers. Unfortunately, based on a number of findings,\nreaders tend to judge on certain event based on the news headlines rather than its contents. With the advancement of mobile and web technologies, it\nis easier to spread news to others and this unhealthy habits can cause negative impacts towards individuals, organizations or nations that are victimized by the\nnews. proposes a framework to detect deceptive online news based on the news headlines. By having an accurate detection upon deceptive news based on its\ncontent, it can assist readers to identify misleading news and to help them to find relevant news for their source of information."
+    },
+    {
+      "document_id": 764,
+      "score": null,
+      "abstract": "A fake news detection system aims to assist users in detecting and filtering out varieties of potentially deceptive news. The prediction of the chances that\na particular news item is intentionally deceptive is based on the analysis of previously seen truthful and deceptive news. A scarcity of deceptive news, available\nas corpora for predictive modeling, is a major stumbling block in this field of natural language processing (NLP) and deception detection. discusses three types of\nfake news, each in contrast to genuine serious reporting, and weighs their pros and cons as a corpus for text analytics and predictive modeling. Filtering,\nvetting, and verifying online information continues to be essential in library and information science (LIS), as the lines between traditional news and online information are\nblurring."
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "topic_id": 42,
+  "label": "T042",
+  "label_full": "events, journalists",
+  "keywords": [
+    "events",
+    "journalists",
+    "reuters",
+    "tracer",
+    "breaking",
+    "event",
+    "dissertation",
+    "eyewitness",
+    "social",
+    "content"
+  ],
+  "n_docs": 7,
+  "documents": [
+    {
+      "document_id": 877,
+      "score": null,
+      "abstract": "Social sensing is firmly taking its stand as the most efficient and surplus journalistic tool. It involves the gathering and verification of news data from\nSocial media. Social media provides a wide range of real-time postings of events from around the globe. Social sensing works out certain executions to process\nthe collected UGC and eradicate fake and falsehoods. Thus assorted data content is implemented with TDT (Topic - Detection and Tracking) to find topic oriented\nmaterial and the selected content is checked for falsehood with Veracity Analyzers. In the end the processed UGC is eligible to be published as valid\nnews data by journalist. © 2017 IEEE."
+    },
+    {
+      "document_id": 882,
+      "score": null,
+      "abstract": "To deal with the sheer volume of information and gain competitive advantage, the news industry has started to explore and invest in news automation. In\n, we present Reuters Tracer, a system that automates end-to-end news production using Twitter data. It is capable of detecting, classifying, annotating, and disseminating news\nin real time for Reuters journalists without manual intervention. In contrast to other similar systems, Tracer is topic and domain agnostic. It has a bottom-up\napproach to news detection, and does not rely on a predefined set of sources or subjects. Instead, it identifies emerging conversations from 12+ million tweets\nper day and selects those that are news-like. Then, it contextualizes each story by adding a summary and a topic to it, estimating its newsworthiness,\nveracity, novelty, and scope, and geotags it. Designing algorithms to generate news that meets the standards of Reuters journalists in accuracy and timeliness is quite\nchallenging. But Tracer is able to achieve competitive precision, recall, timeliness, and veracity on news detection and delivery. In , we reveal our key algorithm\ndesigns and evaluations that helped us achieve this goal, and lessons learned along the way. © 2017 IEEE."
+    },
+    {
+      "document_id": 890,
+      "score": null,
+      "abstract": "In recent years, there has been a growing trend to use publicly available social media sources within the field of journalism. Breaking news has tight\nreporting deadlines, measured in minutes not days, but content must still be checked and rumors verified. As such, journalists are looking at automated content analysis\nto prefilter large volumes of social media content prior to manual verification. This article describes a real-time social media analytics framework for journalists. We extend\nour previously published geoparsing approach to improve its scalability and efficiency. We develop and evaluate a novel approach to geosemantic feature extraction, classifying evidence in\nterms of situatedness, timeliness, confirmation, and validity. Our approach works for new unseen news topics. We report results from four experiments using five Twitter datasets\ncrawled during different English-language news events. One of our datasets is the standard TREC 2012 microblog corpus. Our classification results are promising, with F1 scores\nvarying by class from 0.64 to 0.92 for unseen event types. We lastly report results from two case studies during real-world news stories, showcasing different\nways our system can assist journalists filter and cross-check content as they examine the trust and veracity of content and sources."
+    },
+    {
+      "document_id": 891,
+      "score": null,
+      "abstract": "Social media sources are becoming increasingly important in journalism. Under breaking news deadlines semi-automated support for identification and verification of content is critical. We describe\na large scale content-level analysis of over 6 million Twitter, You Tube and Instagram records covering the first 6 hours of the November 2015 Paris\nshootings. We ground our analysis by tracing how 5 ground truth images used in actual news reports went viral. We look at velocity of newsworthy\ncontent and its veracity with regards trusted source attribution. We also examine temporal segmentation combined with statistical frequency counters to identify likely eyewitness content for\ninput to real-time breaking content feeds. Our results suggest attribution to trusted sources might be a good indicator of content veracity, and that temporal segmentation\ncoupled with frequency statistical metrics could be used to highlight in real-time eyewitness content if applied with some additional text filters."
+    },
+    {
+      "document_id": 894,
+      "score": null,
+      "abstract": "News professionals are facing the challenge of discovering news from more diverse and unreliable information in the age of social media. More and more news\nevents break on social media first and are picked up by news media subsequently. The recent Brussels attack is such an example. At Reuters, a\nglobal news agency, we have observed the necessity of providing a more effective tool that can help our journalists to quickly discover news on social\nmedia, verify them and then inform the public.In , we describe Reuters Tracer, a system for sifting through all noise to detect news events on\nTwitter and assessing their veracity. We disclose the architecture of our system and discuss the various design strategies that facilitate the implementation of machine learning\nmodels for noise filtering and event detection. These techniques have been implemented at large scale and successfully discovered breaking news faster than traditional journalism"
+    },
+    {
+      "document_id": 913,
+      "score": null,
+      "abstract": "My proposed research addresses fundamental deficiencies in social media-based event detection by discovering high-impact moments and evaluating their credibility rapidly. Results from my preliminary work\ndemonstrate one can discover compelling moments by leveraging machine learning to characterize and detect bursts in keyword usage. Though this early work focused primarily on\nlanguage-agnostic discovery in sporting events, it also showed promising results in adapting to earthquake detection. My dissertation will extend this research by adapting models to\nother types of high-impact events, exploring events with different temporal granularities, and finding methods to connect contextually related events into timelines. To ensure applicability of\nthis research, I will also port these event discovery algorithms to stream processing platforms and evaluate their performance in the real-time context. To address issues\nof trust, my dissertation will also include developing algorithms that integrate the vast array of social media features to evaluate information credibility in near real\ntime. Such features include structural signatures of information dissemination, the location from which a social media message was posted relative to the location of the\nevent it describes, and metadata from related multimedia (e.g., pictures and video) shared about the event. My preliminary work also suggests methods that could be\napplied to social networks for stimulating trustworthy behavior and enhancing information quality. Contributions from my dissertation will primarily be practical algorithms for discovering events from\nvarious social media streams and algorithms for evaluating and enhancing the credibility of these events in near real time."
+    },
+    {
+      "document_id": 949,
+      "score": null,
+      "abstract": "Social media is already a fixture for reporting for many journalists, especially around breaking news events where non-professionals may already be on the scene to\nshare an eyewitness report, photo, or video of the event. At the same time, the huge amount of content posted in conjunction with such events\nserves as a challenge to finding interesting and trustworthy sources in the din of the stream. In we develop and investigate new methods for filtering\nand assessing the verity of sources found through social media by journalists. We take a human centered design approach to developing a system, SRSR (\"Seriously\nRapid Source Review\"), informed by journalistic practices and knowledge of information production in events. We then used the system, together with a realistic reporting scenario,\nto evaluate the filtering and visual cue features that we developed. Our evaluation offers insights into social media information sourcing practices and challenges, and highlights\nthe role technology can play in the solution."
+    }
+  ]
+}

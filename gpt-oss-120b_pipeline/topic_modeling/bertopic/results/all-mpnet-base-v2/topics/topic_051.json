@@ -1,0 +1,45 @@
+{
+  "topic_id": 51,
+  "label": "T051",
+  "label_full": "piece, receiver",
+  "keywords": [
+    "data",
+    "piece",
+    "receiver",
+    "cybercrimes",
+    "sources",
+    "agent",
+    "various",
+    "source",
+    "distributed",
+    "sender"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 81,
+      "score": null,
+      "abstract": "We formulate the problem of fake news detection using distributed fact-checkers (agents) with unknown reliability. The stream of news/statements is modeled as an independent and\nidentically distributed binary source (to represent true and false statements). Upon observing a news, agent i labels the news as true or false that reflects\nthe true validity of the statement with some probability 1-P. In other words, agent i misclassified each statement with error probability Pin(0,1), where the parameter\nP models the (un)trustworthiness of agent i. We present an algorithm to learn the unreliability parameters, resulting in a distributed fact checking algorithm. For the\ntwo-agent case, we extensively analyze the discrete-time limit of our algorithm. © 2024 AACC."
+    },
+    {
+      "document_id": 290,
+      "score": null,
+      "abstract": "Technological development combined with the evolution of the Internet has made it possible to reach an increasing number of people over the years and given\nthem the opportunity to access information published on the network. The growth in the number of fake news generated daily, combined with the simplicity with\nwhich it is possible to share them, has created such a large phenomenon that it has become immediately uncontrollable. Furthermore, the quality with which malicious\ncontent is made is increasingly high so even professional experts, such as journalists, have difficulty recognizing which news is fake and which is real. aims\nto implement an architecture that provides a service to final users that assures the reliability of news providers and the quality of news based on\ninnovative tools. The proposed models take advantage of several Machine Learning approaches for fake news detection tasks and take into account well-known attacks on trust.\nFinally, the implemented architecture is tested with a well-known dataset and shows how the proposed models can effectively identify fake news and isolate malicious sources.\n© 2008-2012 IEEE."
+    },
+    {
+      "document_id": 586,
+      "score": null,
+      "abstract": "Data-driven analysis has been increasingly used in various decision making processes. With more sources, including reviews, news, and pictures, can now be used for data\nanalysis, the authenticity of data sources is in doubt. While previous literature attempted to detect fake data piece by piece, in the current work, we\ntry to capture the fake data sender's strategic behavior to detect the fake data source. Specifically, we model the tension between a data receiver who\nmakes data-driven decisions and a fake data sender who benefits from misleading the receiver. We propose a potentially infinite horizon continuous time game-theoretic model with\nasymmetric information to capture the fact that the receiver does not initially know the existence of fake data and learns about it during the course\nof the game. We use point processes to model the data traffic, where each piece of data can occur at any discrete moment in a\ncontinuous time flow. We fully solve the model and employ numerical examples to illustrate the players' strategies and payoffs for insights. Specifically, our results show\nthat maintaining some suspicion about the data sources and understanding that the sender can be strategic are very helpful to the data receiver. In addition,\nbased on our model, we propose a methodology of detecting fake data that is complementary to the previous studies on this topic, which suggested various\napproaches on analyzing the data piece by piece. We show that after analyzing each piece of data, understanding a source by looking at the its\nwhole history of pushing data can be helpful."
+    },
+    {
+      "document_id": 608,
+      "score": null,
+      "abstract": "Unorganized data is a massive source of cluttered information available over the web. It possesses a major problem when this data originates from unauthenticated sources\ncreating confusion among the general public. The amount of fake news regarding the current COVID-19 scenario and political movements have had an adverse effect on\nthe world. It is necessary to devise models and a step by step algorithm to tackle this challenge. talks about a model that identifies data\navailable over the web and performs crawling to get information about the data sources and maps the information with regards to the authenticity of the\nsource. We look at possible web perspectives of data sources, official social media handles, reviewed agency lists, sentiment analysis, and calculate a value for a\npiece of particular news. The observed critical value looks for identifying the authenticity of the news and forms the basis of this idea. also looks\nat a model that uses supervised learning to classify various news items depending on the defined criteria. © 2020 IEEE."
+    },
+    {
+      "document_id": 623,
+      "score": null,
+      "abstract": "Cybercrime is referred to as aggressive, intentional act performed through electronic communications. In recent years, lack of awareness regarding technological advancements has paved the way\nfor an intense increase in various types of aggressive cyber-attacks such as phishing, scamming, hacking etc. Under-reporting of cybercrimes serves as a major impediment in\nefficient and timely handling of cybercrimes, and hence can cause serious consequences. Manually staying informed regarding emerging cybersecurity threats is a time taking and laborious\ntask, creating the need of developing robust systems that could efficiently report news related to cybercrimes. This requires development of information retrieval models to extract\ncybersecurity news belonging to different categories from various online resources. The focus of this research is to propose a model for detection of cyber offences\nreported on news articles and blogs. Further in order to analyze the authenticity of news obtained via news articles/blogs, a novel source verification model is\nproposed by investigating various authenticity parameters and assigning weightages to these parameters. © 2020 IEEE."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "topic_id": 57,
+  "label": "T057",
+  "label_full": "Credibility Assessment",
+  "keywords": [
+    "trustworthiness",
+    "sns",
+    "users",
+    "information",
+    "trust",
+    "tii",
+    "online",
+    "approach",
+    "level",
+    "2005"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 645,
+      "score": null,
+      "abstract": "In recent years, companies depend on the Internet for posting job advertisements and attracting qualified personnel. However, with the vast number of Internet users and\nthe tremendous amount of information on the Internet, it is difficult to accurately evaluate the credibility of the information that candidates provide on the Internet.\nTherefore, we propose an approach to assess information credibility in terms of trustworthiness and authority to identify unreliable user profiles in online professional social networks.\nOur approach calculates the trustworthiness probabilities of user profile information using the Tree Augmented Naïve Bayes (TAN) classifier. It also measures the authority of individual\nusers by applying the PageRank algorithm for analyzing the user interactions in the professional social networks. Finally, a group of LinkedIn users’ profiles is selected\nfor conducting experiments to validate the proposed approach. Experiments based on a real-world scenario show that our approach integrating the TAN Bayes and PageRank algorithm\noutperforms other existing approaches in classification accuracy. In addition, the approach has been applied to another social network, namely, Maimai in China to further demonstrate\nits usefulness. © 2019, Springer Science+Business Media, LLC, part of Springer Nature."
+    },
+    {
+      "document_id": 860,
+      "score": null,
+      "abstract": "The social media are increasingly becoming the main reference and having important implications on virtual community. Parts of the information published in the social media\ncould be useful and some could be misleading. Therefore, there is a need to develop an approach that can verify the trustworthiness of online information\nto minimise the dissemination of misleading information. presents a study that develops an objective approach to determine the level of trustworthiness of information. Based on\nfour parameters derived from literature and empirical data, an algorithm to determine the level of trustworthiness has been developed. This algorithm measurement of trustworthiness was\nthen realised through an automated tool called TrustCrawler. The functionality of the tool was demonstrated using online information on Government Service Tax (GST) of Malaysian\ndrawn from Twitter. It was found that the tool is able to provide consistent results on the level of trustworthiness of online information based on\nthe four parameters. It is anticipated that this tool is able to help social media users to determine level of trustworthiness of the information, hence\nbecoming informed, safe and ethical users of media content. © 2005 – ongoing JATIT & LLS."
+    },
+    {
+      "document_id": 911,
+      "score": null,
+      "abstract": "The pervasive use of social media has generated massive information sharing among its users. Given the fluidity and excessive information available online, issues relating to\nthe trustworthiness of information have become a concern among the users and authorities. Sensational and unreliable information shared in the social media may cause and\nharm the reputation of an individual, product, organisation or government. Therefore, there is a need to develop a mechanism that helps users to verify the\ntrustworthiness of information that feed in the social media so that they can decide whether to trust or to ignore the information. reports a review\non the analysis of the existing work related to trustworthiness of information. The analysis were based on three questions that address the definition of trustworthiness\nof information, factors influencing trustworthiness of information and existing tools to verify trustworthiness of information. Based on thirty nine selected articles reviewed, it was found\nthat the verification on the trustworthiness of information approach is required. It is anticipated that the adoption of this approach will help to educate and\nmake the public users aware of the level of trustworthiness of information, hence developing an informed, safe and ethical users of media content. © 2005\n- 2016 JATIT & LLS. All rights reserved."
+    },
+    {
+      "document_id": 924,
+      "score": null,
+      "abstract": "Due to the spread of unreliable online information on social network services (SNS), the users are faced with a difficult problem for determining if the\ninformation is trustworthy or not. At present, the users should make a decision overall by themselves for trustworthiness of information. Therefore, we need a way\nto systematically evaluate trustworthiness of information on SNS. In , we design a trust metrics, called TII (Trust Index for Information on SNS), as a\ncriterion for measuring the trust degree of information on SNS. Using TII, the users are readily able to determine whether the information is trustworthy. Consequently,\nwe can estimate the social trust degree based on the variation of TII. derives the various factors affecting trust from the properties of SNS, and\nproposes a model to evaluate the trustworthiness of information that is directly produced and distributed over the online network. Quantifying the trust degree of the\ninformation on SNS allows the users to make efficient use of the social network. © 2015 IEEE."
+    },
+    {
+      "document_id": 929,
+      "score": null,
+      "abstract": "The increasing popularity of social media articles and microblogging systems is changing the way online information is produced: users are both content publishers and content\nconsumers. Since information is produced and shared by common users, who usually have a limited domain knowledge, and due to an exponential growth of the\navailable information, assessing online content trustworthiness is vital. Several works in the state of the art approach this issue and propose different models to estimate\nonline content trustworthiness, content relevance and user inuence. In we investigate the most relevant research works in this domain, highlighting their common characteristics and peculiarities\nin terms of content source type, trust-related content features, trust evaluation methods and performance assessment techniques."
+    }
+  ]
+}

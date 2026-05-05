@@ -1,0 +1,20 @@
+=== Initial File Sizes ===
+Original rows in GPT file: 12236
+Original rows in Ollama file: 12236
+
+=== Alignment Summary ===
+Total rows matched via DOI: 10255
+Total rows matched via Abstract: 1045
+Total properly aligned unique records to compare: 11300
+
+=== Answer Summary ===
+Total 'Yes' by gpt-4o-mini: 497
+Total 'Yes' by ollama3.3: 812
+
+=== Agreement (Intersection) ===
+Both said 'Yes': 59
+Both said 'No': 10164
+
+=== Disagreement (Differences) ===
+gpt-4o-mini 'Yes' minus ollama3.3 'No' (A - B): 397
+ollama3.3 'Yes' minus gpt-4o-mini 'No' (B - A): 680

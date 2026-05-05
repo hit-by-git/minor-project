@@ -1,0 +1,50 @@
+{
+  "topic_id": 39,
+  "label": "T039",
+  "label_full": "Journalism & Media Studies",
+  "keywords": [
+    "level",
+    "trustworthiness",
+    "tool",
+    "polarization",
+    "media",
+    "project",
+    "social",
+    "political",
+    "digital",
+    "h2020"
+  ],
+  "n_docs": 6,
+  "documents": [
+    {
+      "document_id": 37,
+      "score": null,
+      "abstract": "The widespread use of digital platforms, prioritising content based on engagement metrics and rewarding content creators accordingly, has contributed to the proliferation of disinformation and\nits far-reaching social and political impact. In addition, digital platforms often operate as black boxes, concealing their decision-making processes from users and prioritizing investor interests\nover ethical and social considerations. Consequently, this has contributed to the erosion of general trust in verification systems. To mitigate this issue, our project proposes\na two-stage verification system. The first stage allows media industries to watermark their image and video content. The second stage involves implementing a machine-learning-based manipulation\ndetection system for suspicious content. We present findings from an international user experience study, where potential online news consumers verified the authenticity of images on\na prototype version of our system. In , we reflect on critical issues of explainability addressed by participants in our user study and how we\naddressed this issue in the platform’s design."
+    },
+    {
+      "document_id": 521,
+      "score": null,
+      "abstract": "The widespread use of social networks has brought to the fore a very important issue, the reliability of the information circulating within them. presents the\ndeveloped technologies referring to the visualization of data coming from social media involving the parameter of trustworthiness, and demonstrates the solution of H2020 EUNOMIA project.\nIn particular, EUNOMIA's Digital Observatory is comprised of two tools drawing data from a REST API structure that returns the data in JSON format. A\ntool provides visualizations about the post's sentiment accompanied by their votes of trustworthiness and a second tool that depicts the most shared posts illustrating their\ntrustworthiness according to their votes in an interactive way that permits user to define the level of trustworthiness. © 2022 IEEE."
+    },
+    {
+      "document_id": 758,
+      "score": null,
+      "abstract": "The extreme growth and adoption of Social Media, in combination with their poor governance and the lack of quality control over the digital content being\npublished and shared, has led information veracity to a continuous deterioration. Current approaches entrust content verification to a single centralised authority, lack resilience towards attempts\nto successfully \"game\" verification checks, and make content verification difficult to access and use. In response, our ambition is to create an open, democratic, pluralistic\nand distributed ecosystem that allows easy access to various verification services (both internal and third-party), ensuring scalability and establishing trust in a completely decentralized environment.\nIn fact, this is the ambition of the EU H2020 SocialTruth project. In , we present the innovative project approach and the vision of effective\nonline disinformation detection for various practical use-cases."
+    },
+    {
+      "document_id": 778,
+      "score": null,
+      "abstract": "The extreme growth and adoption of Social Media and User Generated Content (UGC) websites, in combination with their poor governance and the lack of quality\ncontrol over the digital content being published and shared, has led information veracity to a continuous deterioration. Therefore, there is a growing need for reliable\ninformation assurance, called by both private and public users and authorities. Due to the popularity of the social media and Internet availability all over the\nworld, anyone can provide a piece of information on the web. This may create a ready channel for spreading false, not verified or confusing information,\nwhich may be called ‘fake news’. In order to protect the user from online disinformation, some tools have already been proposed. In this article we\nhave described the available online tools and evaluated them using the same dataset, which was created for this study. We have provided the results proving\nthat fake news detection is an increasingly more pressing, yet a difficult research problem. © 2019, Springer Nature Switzerland AG."
+    },
+    {
+      "document_id": 794,
+      "score": null,
+      "abstract": "Information trustworthiness assessment on political social media discussions is crucial to maintain the order of society, especially during emergent situations. The polarity nature of political\ntopics and the echo chamber effect by social media platforms allow for a deceptive and a dividing environment. During a political crisis, a vast amount\nof information is being propagated on social media, that leads up to a high level of polarization and deception by the beneficial parties. The traditional\napproaches to tackling misinformation on social media usually lack a comprehensive problem definition due to its complication. proposes a probabilistic graphical model as a theoretical\nview on the problem of normal users credibility on social media during a political crisis, where polarization and deception are keys properties. Such noisy signals\ndramatically influence any attempts for misinformation detection. Hence, we introduce a causal Bayesian network, inspired by the potential main entities that would be part of\nthe process dynamics. Our methodology examines the problem solution in a causal manner which considers the task of misinformation detection as a question of cause\nand effect rather than just a classification task. Our causality-based approach provides a practical road map for some sub-problems in real-world scenarios such as individual\npolarization level, misinformation detection, and sensitivity analysis of the problem. Moreover, it facilitates intervention simulations which would unveil both positive and negative effects on the\ndeception level over the network. © 2019 FRUCT."
+    },
+    {
+      "document_id": 860,
+      "score": null,
+      "abstract": "The social media are increasingly becoming the main reference and having important implications on virtual community. Parts of the information published in the social media\ncould be useful and some could be misleading. Therefore, there is a need to develop an approach that can verify the trustworthiness of online information\nto minimise the dissemination of misleading information. presents a study that develops an objective approach to determine the level of trustworthiness of information. Based on\nfour parameters derived from literature and empirical data, an algorithm to determine the level of trustworthiness has been developed. This algorithm measurement of trustworthiness was\nthen realised through an automated tool called TrustCrawler. The functionality of the tool was demonstrated using online information on Government Service Tax (GST) of Malaysian\ndrawn from Twitter. It was found that the tool is able to provide consistent results on the level of trustworthiness of online information based on\nthe four parameters. It is anticipated that this tool is able to help social media users to determine level of trustworthiness of the information, hence\nbecoming informed, safe and ethical users of media content. © 2005 – ongoing JATIT & LLS."
+    }
+  ]
+}

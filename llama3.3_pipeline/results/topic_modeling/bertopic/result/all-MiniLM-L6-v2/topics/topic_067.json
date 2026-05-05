@@ -1,0 +1,45 @@
+{
+  "topic_id": 67,
+  "label": "T067",
+  "label_full": "llms, hallucination",
+  "keywords": [
+    "llms",
+    "hallucination",
+    "untruthful",
+    "hallucinations",
+    "llm",
+    "generation",
+    "tacs",
+    "capefnd",
+    "fnd",
+    "context"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 2,
+      "score": null,
+      "abstract": "<jats:p>Fake news detection (FND) is a critical task in natural language processing (NLP) focused on identifying and mitigating the spread of misinformation. Large language models\n(LLMs) have recently shown remarkable abilities in understanding semantics and performing logical inference. However, their tendency to generate hallucinations poses significant challenges in accurately detecting\ndeceptive content, leading to suboptimal performance. In addition, existing FND methods often underutilize the extensive prior knowledge embedded within LLMs, resulting in less effective classification\noutcomes. To address these issues, we propose the CAPE–FND framework, context‐aware prompt engineering, designed for enhancing FND tasks. This framework employs unique veracity‐oriented context‐aware constraints,\nbackground information, and analogical reasoning to mitigate LLM hallucinations and utilizes self‐adaptive bootstrap prompting optimization to improve LLM predictions. It further refines initial LLM prompts\nthrough adaptive iterative optimization using a random search bootstrap algorithm, maximizing the efficacy of LLM prompting. Extensive zero‐shot and few‐shot experiments using GPT‐3.5‐turbo across multiple\npublic datasets demonstrate the effectiveness and robustness of our CAPE–FND framework, even surpassing advanced GPT‐4.0 and human performance in certain scenarios. To support further LLM–based\nFND, we have made our approach’s code publicly available on GitHub (our CAPE–FND code: <jats:ext-link xmlns:xlink=\" xlink:href=\" [Accessed on 2024.09]).</jats:p>"
+    },
+    {
+      "document_id": 56,
+      "score": null,
+      "abstract": "News generation, as a subset of long-form text generation task, is an important challenge in natural language processing. The creation of news articles necessitates a\nfoundation in factual events, demanding the authenticity of content. The current large language models (LLMs) are capable of generating fluent text. However, these models often\nresult in the generation of text that includes unfounded or inaccurate information, a phenomenon known as hallucinations. To ease this issue, we introduce a novel\nmethod. This approach leverages structured prompt-template inputs to guide the generation process, coupled with a post-checking module to ensure content authenticity. Furthermore, we propose two\nnovel metrics, namely, topic consistency and core consistency, to evaluate the quality of the generated news. We have conducted extensive experiments using real news datasets,\nand our findings indicate that the proposed framework demonstrably mitigates the incidence of hallucinations in algorithmically generated news content, concurrently enhancing the overall quality of\nthe produced news articles."
+    },
+    {
+      "document_id": 92,
+      "score": null,
+      "abstract": "Large Language Models (LLMs) have garnered widespread attention due to their impressive performance, particularly in text generation. There is a strong inclination to apply these\nmodels across various fields. However, these models are not without their vulnerabilities, with hallucination being a prominent concern. Hallucination occurs when the model generates outputs\nthat are either non-factual or lack grounding in the source input, while maintaining fluency and grammatical correctness. This drawback diminishes the trustworthiness of these models,\nrendering them unsuitable for deployment in sensitive fields and susceptible to misuse for disinformation. As the size of these models continues to grow, and the\ncompetition to unveil the next breakthrough model persists, developers often release them in a closed format, keeping their internal workings opaque. The lack of transparency\nunderscores the importance of black-box approaches to hallucination detection. In response to recent developments in zero-resource, black-box hallucination detection approaches, aims to enhance these methods,\ncontributing valuable tools to address hallucination issues in large language models. We introduce a zero-resource, black-box framework named HalluciCheck, which operates based on an ensemble\nof similarity metric scores. We find that this framework has an improved performance in detecting factual sentences while its performance in detecting false sentences is\ncomparable to previous methods. This framework serves as an initial step toward mitigating the hallucination problem. © 2024 SPIE."
+    },
+    {
+      "document_id": 179,
+      "score": null,
+      "abstract": "Although Large Language Models (LLMs) have demonstrated impressive text generation capabilities, they are easily misled by untruthful contexts provided by users or knowledge augmentation tools,\nleading to hallucinations. To alleviate LLMs from being misled by untruthful context and take advantage of knowledge augmentation, we propose Truth-Aware Context Selection (TACS), a\nlightweight method to adaptively recognize and mask untruthful context from the inputs. TACS begins by performing truth detection on the input context, leveraging the parameterized\nknowledge within the LLM. Subsequently, it constructs a corresponding attention mask based on the truthfulness of each position, selecting the truthful context and discarding the\nuntruthful context. Additionally, we introduce a new evaluation metric, Disturbance Adaption Rate, to further study the LLMs' ability to accept truthful information and resist untruthful\ninformation. Experimental results indicate that TACS can effectively filter untruthful context and significantly improve the overall quality of LLMs' responses when presented with misleading information.\n© 2024 Association for Computational Linguistics."
+    },
+    {
+      "document_id": 241,
+      "score": null,
+      "abstract": "Recent ubiquity and disruptive impacts of large language models (LLMs) have raised concerns about their potential to be misused (*.i.e, generating large-scale harmful and misleading\ncontent*). To combat this emerging risk of LLMs, we propose a novel “***Fighting Fire with Fire***” (F3) strategy that harnesses modern LLMs’ generative and emergent\nreasoning capabilities to counter human-written and LLM-generated disinformation. First, we leverage GPT-3.5-turbo to synthesize authentic and deceptive LLM-generated content through paraphrase-based and perturbation-based prefix-style prompts,\nrespectively. Second, we apply zero-shot in-context semantic reasoning techniques with cloze-style prompts to discern genuine from deceptive posts and news articles. In our extensive experiments,\nwe observe GPT-3.5-turbo’s zero-shot superiority for both in-distribution and out-of-distribution datasets, where GPT-3.5-turbo consistently achieved accuracy at 68-72%, unlike the decline observed in previous customized\nand fine-tuned disinformation detectors. Our codebase and dataset are available at"
+    }
+  ]
+}

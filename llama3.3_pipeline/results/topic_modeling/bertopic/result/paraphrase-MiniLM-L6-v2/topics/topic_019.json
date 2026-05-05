@@ -1,0 +1,80 @@
+{
+  "topic_id": 19,
+  "label": "T019",
+  "label_full": "Misinformation & Propaganda",
+  "keywords": [
+    "news",
+    "fake",
+    "models",
+    "statement",
+    "credit",
+    "classification",
+    "model",
+    "generalisation",
+    "eknet",
+    "using"
+  ],
+  "n_docs": 12,
+  "documents": [
+    {
+      "document_id": 104,
+      "score": null,
+      "abstract": "We formulate the problem of fake news detection using distributed fact-checkers (agents) with unknown reliability. The stream of news/statements is modeled as an independent and\nidentically distributed binary source (to represent true and false statements). Upon observing a news, agent i labels the news as true or false that reflects\nthe true validity of the statement with some probability 1-P. In other words, agent i misclassified each statement with error probability Pin(0,1), where the parameter\nP models the (un)trustworthiness of agent i. We present an algorithm to learn the unreliability parameters, resulting in a distributed fact checking algorithm. For the\ntwo-agent case, we extensively analyze the discrete-time limit of our algorithm. © 2024 AACC."
+    },
+    {
+      "document_id": 109,
+      "score": null,
+      "abstract": "Fake news is a prevalent issue in modern society, leading to misinformation, and societal harm. News credibility assessment is a crucial approach for evaluating the\naccuracy and authenticity of news. It plays a significant role in enhancing public awareness and understanding of news, while also effectively mitigating the dissemination of\nfake news. However, news credibility assessment meets challenges when processing large-scale and constantly growing data, due to insufficient and unreliable labels and standards, and diversity\nand semantic ambiguity of news contents. Recently, machine learning models have been well developed to address these issues, but suffer from limited effectiveness. A unified\nframework is also required for them to represent various entities and relationships involved in news stories. This article proposes an entity ontology-based knowledge graph network\n(EKNet) to leverage knowledge graphs and entity frameworks for news credibility assessment. The model utilizes the information from knowledge graphs by combining entities and relationships\nfrom news and knowledge graphs. Experimental results show that the EKNet has advantages in evaluating news credibility over existing methods. Specifically, compared to several strong\nbaselines, the model demonstrates a significant performance improvement in scores across various tasks. Which indicates that using the EKNet to address the challenges in news\ncredibility assessment is highly effective and can conduct better performance for the problem of fake news in the social media environment. © 2014 IEEE."
+    },
+    {
+      "document_id": 149,
+      "score": null,
+      "abstract": "With the prominence of online social networks, news has become more accessible to a global audience. However, in the meantime, it has become increasingly difficult\nfor individuals to differentiate between real and fake news. To reduce the spread of fake news, researchers have developed different classification models to identify fake\nnews. In , we propose a fake news detection system using a multilayer perceptron (MLP) model, which leverages linguistic and psychological features to determine the\ntruthfulness of a news article. The model uses different features from the article’s text content to detect fake news. In the experiment, we utilize a\npublic dataset from the FakeNewsNet repository consisting of real and fake news articles collected from PolitiFact and BuzzFeed. We perform a meta-analysis to compare our\nmodel’s performance with existing classification models using the same feature sets and evaluate the performance using the metrics such as prediction accuracy and F1 score.\nOverall, our classification model produces better results than existing baseline models, by achieving an accuracy and F1 score above 90 % and performs 3% better\nthan the best performing baseline method. The inclusion of linguistic and psychological features with a deep neural network allows our model to consistently and accurately\nclassify fake news with ever-changing forms of news events. © The Author(s), under exclusive licence to Springer Nature B.V. 2024."
+    },
+    {
+      "document_id": 351,
+      "score": null,
+      "abstract": "The purpose of this approach is to find out the effects and efficiently detect fake news by using a publicly available dataset. However, it is\ndifficult for human beings to judge an article's truthfulness manually, which is why mainly wanted to cure the effect and to found out an automated\nfake news detection system with benchmark accuracy by using a machine learning classifier, which must be higher than other recent research works. In essence, ’s\ntarget is to find out an efficient way to detect fake and real news, and it also the target is to compare with existing work\nwhere researchers used machine learning classifiers and deep learning architecture. The proposed approach depended on a systematic literature review and a publicly available dataset where\n7796 news data are recorded with 50% real and 50% fake news. The best and benchmark accuracy is 93.61%, achieved by the Support Vector Machine\n(SVM) among the used Random Forest, Decision Tree, KNN, and Logistics Regression classifiers, and the achieved accuracy is better than the exciting recent research works.\nMoreover, fake news is detected, people are able to differentiate between fake or real news, and effects are cured when people used SVM. © 2023\nby the authors. Licensee ESJ, Italy."
+    },
+    {
+      "document_id": 548,
+      "score": null,
+      "abstract": "Nowadays, a huge amount of information and news articles are available every day. The events of recent years have shown that Fake News can severely\nshake trust in politics and science. Unfortunately, a decision can only be made about the truthfulness of a fraction of all news and posts. In\nthis respect, the CLEF2022-CheckThat! shared task 3a adresses this problem. In , we propose a new classification approach using a novel metaheuristic feature selection algorithm\nthat mimics human behavior. The results show that the performance of a baseline classifier can achieve higher performance by combining with this algorithm with only\na fraction of the features. © 2022 Copyright for by its authors."
+    },
+    {
+      "document_id": 618,
+      "score": null,
+      "abstract": "Many research efforts recently have aimed at understanding the phenomenon of fake news, including recognizing their common features and patterns, leading to several fake news\ndetection models based on machine learning. Yet, the real distinct strength of those models remains uncertain: some perform well only with particular data, but others\nare more general. Most of the models classified the fake news as a black-box without giving any explanations to users. In , therefore, we conduct\nan exploratory investigation that evaluates and interprets fake new detection models, including looking into which important features that contribute to the models' prediction from the\nexplainable machine learning perspective. This give us some insights on how the detection models work and their trustworthiness. © 2021 IEEE."
+    },
+    {
+      "document_id": 636,
+      "score": null,
+      "abstract": "As online news has become increasingly popular and fake news increasingly prevalent, the ability to audit the veracity of online news content has become more\nimportant than ever. Such a task represents a binary classification challenge, for which transformers have achieved state-of-the-art results. Using the publicly available ISOT and Combined\nCorpus datasets, this study explores transformers' abilities to identify fake news, with particular attention given to investigating generalisation to unseen datasets with varying styles, topics\nand class distributions. Moreover, we explore the idea that opinion-based news articles cannot be classified as real or fake due to their subjective nature and\noften sensationalised language, and propose a novel two-step classification pipeline to remove such articles from both model training and the final deployed inference system. Experiments\nover the ISOT and Combined Corpus datasets show that transformers achieve an increase in F scores of up to 4.9% for out of distribution generalisation\ncompared to baseline approaches, with a further increase of 10.1% following the implementation of our two-step classification pipeline. To the best of our knowledge, this\nstudy is the first to investigate generalisation of transformers in this context. © 2021 IEEE."
+    },
+    {
+      "document_id": 654,
+      "score": null,
+      "abstract": "Fake news refers to deceptive online content and is a problem which causes social harm [1]. Early detection of fake news is therefore a critical\nbut challenging problem. In we attempt to determine if state-of-the-art models, trained on the LIAR dataset [2] can be leveraged to reliably classify short claims\naccording to 6 levels of veracity that range from “True” to “Pants on Fire” (absolute lies). We investigate the application of transformer models BERT [3],\nRoBERTa [4] and ALBERT [5] that have previously performed significantly well on several natural language processing tasks including text classification. A simple neural network (FcNN)\nwas also used to enhance each model's result by utilising the sources' reputation scores. We achieved higher accuracy than previous studies that used more data\nor more complex models. Yet, after evaluating the models' behaviour, numerous flaws appeared. These include bias and the fact that they do not really model\nveracity which makes them prone to adversarial attacks. We also consider the possibility that language-based, fake news classification, on such short statements is an ill-posed\nproblem. © 2021 Copyright for by its authors. Use permitted under Creative Commons License Attribution 4.0 International (CC BY 4.0)."
+    },
+    {
+      "document_id": 697,
+      "score": null,
+      "abstract": "Fake news detection has recently gained much attention from the wider NLP community due to its importance for preventing the spread of misinformation and its\nnegative impact through the social media. The goal of this task is to classify the veracity labels of a statement expressed by a politician into\nfine-grained classes (degrees of truth). Previous deep learning approaches have significantly improved the performance of Political Fake Statement Detection by modeling statement with the speaker's\ncredit history. However, the credit history may not be available in reality and most approaches did not consider about the evidence that supporting or denying\nclaims when detecting fake news. In addition, state-of-the-art models may struggle to detect fine-grained labels because the statement of the speaker expresses factual and incorrect\ninstances at the same time. In , we approach the Political Fake Statement Detection problem by proposing two multi-stage feature-assisted neural models that consider claims\nand justifications as an input in a stance detection manner. We explore five-stage and three-stage classification strategies to better discern between the fine-grained labels of\nfake news. The proposed model in each stage is built on the powerful combination between dual GRU layers and lexical features which we further optimise\nby using Gaussian Noise. An extensive experimental work on a real-world benchmark LIARPLUS (an extended version of LIAR) dataset shows that three-stage model achieves state-of-the-art\nAccuracy (46.13%) and F1score (45.13%) without using metadata and the credit history of the speaker. We also experimentally show that modeling the credit history in\nconjunction with statement and justification gives more than 6% improvement (e.g. 52.23% and 52.26% respectively). © 2020 IEEE."
+    },
+    {
+      "document_id": 789,
+      "score": null,
+      "abstract": "Fake news has become a problem of great impact in our information driven society because of the continuous and intense fakesters content distribution. Information quality\nin news feeds is under questionable veracity calling for automated tools to detect fake news articles. Due to many faces of fakesters, creating such tool\nis a challenging problem. In , we propose a model for fake news detection using content based features and Machine Learning (ML) algorithms. To conclude\nin most accurate model we evaluate several feature sets proposed for deception detection and word embeddings as well. Moreover, we test the most popular ML\nclassifiers and investigate the possible improvement reached under ensemble ML methods such as AdaBoost and Bagging. An extensive set of earlier data sources has been\nused for experimentation and evaluation of both feature sets and ML classifiers. Moreover, we introduce a new text corpus, the “UNBiased” (UNB) dataset, which integrates\nvarious news sources and fulfills several standards and rules to avoid biased results in classification task. Our experimental results show that the use of an\nenhanced linguistic feature set with word embeddings along with ensemble algorithms and Support Vector Machines (SVMs) is capable to classify fake news with high accuracy.\n© 2019 Elsevier Ltd"
+    },
+    {
+      "document_id": 848,
+      "score": null,
+      "abstract": "With the development of media including newspaper written by robots and many unreliable sources, it's getting hard to distinguish whether the news is true or\nnot. In , we shall present a novel fake news detection model, FaNDeR(Fake News Detection model using media Reliability) which can efficiently classify the level\nof truth for the news in the question answering system based on modified CNN deep learning model. Our model reflects the reliability of various medias\nby training with the input dataset which contains the truthfulness of each media as well as that of the proposition. Our model is designed for\nhigher accuracy with media dataset in terms of data augmentation, batch size control and model modification. We shall show that our model has higher accuracy\nover statistical approach by reflecting the tendency of truth level for each media through the training of the dataset collected so far. © 2018 IEEE."
+    },
+    {
+      "document_id": 917,
+      "score": null,
+      "abstract": "A fake news detection system aims to assist users in detecting and filtering out varieties of potentially deceptive news. The prediction of the chances that\na particular news item is intentionally deceptive is based on the analysis of previously seen truthful and deceptive news. A scarcity of deceptive news, available\nas corpora for predictive modeling, is a major stumbling block in this field of natural language processing (NLP) and deception detection. discusses three types of\nfake news, each in contrast to genuine serious reporting, and weighs their pros and cons as a corpus for text analytics and predictive modeling. Filtering,\nvetting, and verifying online information continues to be essential in library and information science (LIS), as the lines between traditional news and online information are\nblurring."
+    }
+  ]
+}

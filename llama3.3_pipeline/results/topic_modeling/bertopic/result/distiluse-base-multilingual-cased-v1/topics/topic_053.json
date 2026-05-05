@@ -1,0 +1,45 @@
+{
+  "topic_id": 53,
+  "label": "T053",
+  "label_full": "Credibility Assessment",
+  "keywords": [
+    "sources",
+    "factors",
+    "information",
+    "literature",
+    "impartiality",
+    "white",
+    "grey",
+    "assert",
+    "credibility",
+    "projects"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 341,
+      "score": null,
+      "abstract": "Information and communication technologies have grown globally in the past two decades, expanding the reach of news networks. However, the credibility of the information is\nnow in question. Credibility refers to a person’s belief in the truth of a subject, and online readers consider various factors to determine whether a\nsource is trustworthy. Credibility significantly impacts public behaviour, and less credible news spreads faster due to people’s interest in emotions like fear and disgust. This\ncan have negative consequences for individuals and economies. To determine the credibility factors in digital news stories, a Multivocal Literature Review (MLR) was conducted to\nidentify relevant studies in both white and grey literature. A total of 161 primary studies were identified from published (white) literature and 61 were identified\nfrom unpublished (grey) literature. As a result, 14 credibility factors were identified, including “number of views”, “reporter reputations”, “source information”, and “impartiality”. These factors were\nthen analysed using statistical tests and the Analytic Hierarchy Process (AHP) for decision-making to determine their criticality and importance in different domains. © 2023 by\nthe authors."
+    },
+    {
+      "document_id": 451,
+      "score": null,
+      "abstract": "Nowadays, information is taking on an increasingly central role in people’s lives. With the rise of internet, the amount of information has grown exponentially as\nthe ease of publishing content of all types has increased. At the same time, however, the risks deriving from the lack of checks on the\ntruthfulness of these have also increased. In fact, a”Fake” information content can lead to serious reputational, economic or health damages. To overcome the problem of\nverification, several studies have been carried out, but none of them appears to have been the subject of a significant commercial implementation. In all the\nprojects proposed so far there is a common thread, that is to act directly to the source of the news, examining, thanks to existing technologies,\nthe possible truthfulness of the same. On the other hand, lacking a real involvement of the reader, these projects were not suitable to increase the\nawareness of the end user. implements a technological platform able to provide a reliability value of a digital news, thus measuring the level of impartiality\nof the author through the evaluation of a defined series of parameters. © 2022 by SCITEPRESS – Science and Technology Publications, Lda. All rights reserved"
+    },
+    {
+      "document_id": 589,
+      "score": null,
+      "abstract": "In the age of the Internet, access to information is no longer a concern, the credibility, however, is the new era challenge. Information reaches people\nin an unfiltered format and therefore raises questions about the authenticity, validity, and credibility. focuses on increasing the reliability of the news, concentrating on static\nanalysis of written text intending to detect possible disingenuous information. To achieve this goal, intelligent solutions were engaged, designed to detect patterns of fake articles\nthat can hint at the lack of knowledge or outright maliciously. The architecture, of the proposed fake news detection system is a composite solution of\ndifferent classification algorithms, with a final network output obtained through the use of the ensemble learning methods, respectively the comparison of three voting systems. The\nbaseline model allowed a satisfactory accuracy of 99% for the given dataset. © 2021 IEEE."
+    },
+    {
+      "document_id": 752,
+      "score": null,
+      "abstract": "The information revolution brought with it information pollution. Information retrieval and extraction help us cope with abundant information from diverse sources. But some sources are\nof anonymous authorship, and some are of uncertain accuracy, so how can we determine what we should actually believe? Not all information sources are equally\ntrustworthy, and simply accepting the majority view is often wrong. develops a general framework for estimating the trustworthiness of information sources in an environment where\nmultiple sources provide claims and supporting evidence, and each claim can potentially be produced by multiple sources. We consider two settings: one in which information\nsources directly assert claims, and a more realistic and challenging one, in which claims are inferred from evidence provided by sources, via (possibly noisy) NLP\ntechniques. Our key contribution is to develop a family of probabilistic models that jointly estimate the trustworthiness of sources, and the credibility of claims they\nassert. This is done while accounting for the (possibly noisy) NLP needed to infer claims from evidence supplied by sources. We evaluate our framework on\nseveral datasets, showing strong results and significant improvement over baselines."
+    },
+    {
+      "document_id": 874,
+      "score": null,
+      "abstract": "The authenticity of Information has become a longstanding issue affecting businesses and society, both for printed and digital media. On social networks, the reach and\neffects of information spread occur at such a fast pace and so amplified that distorted, inaccurate or false information acquires a tremendous potential to cause\nreal world impacts, within minutes, for millions of users. Recently, several public concerns about this problem and some approaches to mitigate the problem were expressed.\nIn , we discuss the problem by presenting the proposals into categories: content based, source based and diffusion based. We describe two opposite approaches and\npropose an algorithmic solution that synthesizes the main concerns. We conclude the paper by raising awareness about concerns and opportunities for businesses that are currently\non the quest to help automatically detecting fake news by providing web services, but who will most certainly, on the long term, profit from their\nmassive usage. © 2017 The Authors. Published by Elsevier B.V."
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "topic_id": 31,
+  "label": "T031",
+  "label_full": "Credibility Assessment",
+  "keywords": [
+    "trust",
+    "epistemic",
+    "trustworthiness",
+    "sns",
+    "users",
+    "information",
+    "distrust",
+    "sn",
+    "reliability",
+    "fr"
+  ],
+  "n_docs": 8,
+  "documents": [
+    {
+      "document_id": 15,
+      "score": null,
+      "abstract": "Trust is crucial for the functioning of complex societies, and an important concern for CSCW. Our purpose is to use research from philosophy, social science,\nand CSCW to provide a novel account of trust in the 'post-truth' era. Testimony, from one speaker to another, underlies many social systems. Epistemic trust,\nor testimonial credibility, is the likelihood to accept a speaker's claim due to beliefs about their competence or sincerity. Epistemic trust is closely related to\nseveral 'pathological epistemic phenomena': democratic (il)legitimacy, the spread of misinformation, and echo chambers. To the best of our knowledge, this theoretical contribution is novel in\nthe field of social computing. We further argue that epistemic trust is no philosophical novelty: it is measurable. Weakly supervised text classification approaches achieve F_1\nscores of around 80 to 85 per cent on detecting epistemic distrust. This is also, to the best of our knowledge, a novel task in\nnatural language processing. We measure expressions of epistemic distrust across 954 political communities on Reddit. We find that expressions of epistemic distrust are relatively rare,\nalthough there are substantial differences between communities. Conspiratorial communities and those focused on controversial political topics tend to express more distrust. Communities with strong epistemic\nnorms enforced by moderation are likely to express low levels. While we find users to be an important potential source of contagion of epistemic distrust,\ncommunity norms appear to dominate. It is likely that epistemic trust is more useful as an aggregated risk factor. Finally, we argue that policymakers should\nbe aware of epistemic trust considering their reliance on legitimacy underwritten by testimony."
+    },
+    {
+      "document_id": 343,
+      "score": null,
+      "abstract": "The article deals with the analysis of reliability and objectivity of information that can be found on the internet and the objectivity and reliability of\nsuch information is compared to the system's behavior. The terms 'useful' and 'useless' information have been introduced. On the basis of Shannon's law of connection\nbetween information and entropy, as the measure of system's organization the notion of information chaos is analyzed, it illustrating growth of entropy in such system.\nThe work comprises a graphical interpretation of various events with Lars Onsager's curves. Described is the parameter which has to discern authentic useful information available\nfor analyzing and obtaining new knowledge from false and biased. A variant of the general scheme of the dynamic information system of the Internet, reflecting\nthe appearance of inaccurate information, is given. The analysis of experts' evaluation of the internet users' reaction on appearance of false, biased or unreliable information\nshowed that young users were oriented largely on emotional content, while the scientific society preferred reliability, objectiveness and authenticity of information. © 2023 The authors\nand IOS Press."
+    },
+    {
+      "document_id": 503,
+      "score": null,
+      "abstract": "Source trustworthiness can help discerning reliable and truthful information. We offer a computable model for the dynamic assessment of sources trustworthiness based on their popularity,\nknowledge-ability, and reputation. We apply it to the debate among medical experts in Italy during three distinct phases of the SARS-CoV-19 pandemic, and validate it\nagainst a dataset of newspaper articles. The model shows promising results in the analysis of expert debates their impact on public opinion."
+    },
+    {
+      "document_id": 668,
+      "score": null,
+      "abstract": "The problem of determining what information to trust is crucial in many contexts that admit uncertainty and polarization. In , we propose a method to\nsystematically reason on the trustworthiness of sources. While not aiming at establishing their veracity, the method allows creating a relative reference system to determine the\ntrustworthiness of information sources by reasoning on their knowledgeability, popularity, and reputation. We further propose a formal rule-based set of strategies to establish possibly negative\ntrust on contradictory contents that use such source evaluation. The strategies answer to criteria of higher trustworthiness score, majority or consensus on the set of\nsources. We evaluate our model through a real-case scenario. © IFIP International Federation for Information Processing 2019."
+    },
+    {
+      "document_id": 674,
+      "score": null,
+      "abstract": "In , we present a new user trustworthiness estimation model for social networks (SN), whereas most of existing researches have been focused on the user-user/item\nrelationship trustworthiness estimation. Users share information of their interest on various social media without their trustworthiness verification. Therefore, SN are susceptible to malicious users for\nmisinformation spreading. In SN, the original information source is generally unknown and the user who is sharing the contents is the only known information about\nthe source. Therefore, the user's trustworthiness is an effective criterion for SN content's trustworthiness estimation. However, the users are unable to identify trustworthy/untrustworthy users, and\nthe existing user-user/item relationship models do not provide user trustworthiness information. Our proposed model provides a systematic way to assess the user trustworthiness based on\nuser attributes and interaction behavior. The proposed model is helpful to avoid the trust sparsity (implicit trust model), trust subjectivity (user's objective/collective trustworthiness estimation model)\nand cold-start user's trustworthiness (user's attributes-based trust modeling) problems. We employ friends-recommendation (FR) as an exemplary application to evaluate the performance of our proposed model\nin trust-Aware recommendations. Simulation results illustrate that our trust-Aware FR model outperformed the existing trust and FR models. © 2013 IEEE."
+    },
+    {
+      "document_id": 718,
+      "score": null,
+      "abstract": "Online knowledge repositories typically rely on their users or dedicated editors to evaluate the reliability of their content. These evaluations can be viewed as noisy\nmeasurements of both information reliability and information source trustworthiness. Can we leverage these noisy evaluations, often biased, to distill a robust, unbiased and interpretable measure\nof both notions?In this talk, I will first argue that the temporal traces left by these noisy evaluations give cues on the reliability of the\ninformation and the trustworthiness of the sources. Then, I will introduce a temporal point process modeling framework that links these temporal traces to robust, unbiased\nand interpretable notions of information reliability and source trustworthiness. Finally, I will elaborate on large-scale experiments on real-world data gathered from and Stack Overflow and\nshow that our modeling framework accurately predicts evaluation events, provides an interpretable measure of information reliability and source trustworthiness, and yields interesting insights about real-world\nevents."
+    },
+    {
+      "document_id": 769,
+      "score": null,
+      "abstract": "Due to the spread of unreliable online information on social network services (SNS), the users are faced with a difficult problem for determining if the\ninformation is trustworthy or not. At present, the users should make a decision overall by themselves for trustworthiness of information. Therefore, we need a way\nto systematically evaluate trustworthiness of information on SNS. In , we design a trust metrics, called TII (Trust Index for Information on SNS), as a\ncriterion for measuring the trust degree of information on SNS. Using TII, the users are readily able to determine whether the information is trustworthy. Consequently,\nwe can estimate the social trust degree based on the variation of TII. derives the various factors affecting trust from the properties of SNS, and\nproposes a model to evaluate the trustworthiness of information that is directly produced and distributed over the online network. Quantifying the trust degree of the\ninformation on SNS allows the users to make efficient use of the social network. © 2015 IEEE."
+    },
+    {
+      "document_id": 804,
+      "score": null,
+      "abstract": "The need to assess the trustworthiness of a piece of information has become a prevalent issue due to web vandalism and the openness of platforms\nsuch as wikis. In we introduce the notion of contextual accountability: Holding the author of a given statement accountable by deriving a path from the\nstatement to the author's credentials. We present our own trust vector model as a combination of the assessment of these credentials covering two aspects; knowledgeability\nand social acceptance. This model is put to the test using two datasets and the results are presented and discussed."
+    }
+  ]
+}

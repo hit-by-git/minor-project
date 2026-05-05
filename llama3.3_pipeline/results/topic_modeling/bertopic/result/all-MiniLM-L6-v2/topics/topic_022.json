@@ -1,0 +1,65 @@
+{
+  "topic_id": 22,
+  "label": "T022",
+  "label_full": "llms, responses",
+  "keywords": [
+    "llms",
+    "responses",
+    "climate",
+    "uncertainty",
+    "clinicians",
+    "ccvp",
+    "hallucinations",
+    "educational",
+    "chatgpt",
+    "myths"
+  ],
+  "n_docs": 9,
+  "documents": [
+    {
+      "document_id": 13,
+      "score": null,
+      "abstract": "Misinformation about climate change causes numerous negative impacts, necessitating corrective responses. Psychological research has offered various strategies for reducing the influence of climate misinformation, such\nas the fact-myth-fallacy-fact-structure. However, practically implementing corrective interventions at scale represents a challenge. Automatic detection and correction of misinformation offers a solution to the misinformation\nproblem. This study documents the development of large language models that accept as input a climate myth and produce a debunking that adheres to the\nfact-myth-fallacy-fact (“truth sandwich”) structure, by incorporating contrarian claim classification and fallacy detection into an LLM prompting framework. We combine open (Mixtral, Palm2) and proprietary (GPT-4)\nLLMs with prompting strategies of varying complexity. Experiments reveal promising performance of GPT-4 and Mixtral if combined with structured prompts. We identify specific challenges of\ndebunking generation and human evaluation, and map out avenues for future work. We release a dataset of high-quality truth-sandwich debunkings, source code and a demo\nof the debunking system."
+    },
+    {
+      "document_id": 14,
+      "score": null,
+      "abstract": "Misinformation regarding climate change is a key roadblock in addressing one of the most serious threats to humanity. investigates factual accuracy in large language models\n(LLMs) regarding climate information. Using true/false labeled Q&A data for fine-tuning and evaluating LLMs on climate-related claims, we compare open-source models, assessing their ability to\ngenerate truthful responses to climate change questions. We investigate the detectability of models intentionally poisoned with false climate information, finding that such poisoning may not\naffect the accuracy of a model’s responses in other domains. Furthermore, we compare the effectiveness of unlearning algorithms, fine-tuning, and Retrieval-Augmented Generation (RAG) for factually\ngrounding LLMs on climate change topics. Our evaluation reveals that unlearning algorithms can be effective for nuanced conceptual claims, despite previous findings suggesting their inefficacy\nin privacy contexts. These insights aim to guide the development of more factually reliable LLMs and highlight the need for additional work to secure LLMs\nagainst misinformation attacks."
+    },
+    {
+      "document_id": 34,
+      "score": null,
+      "abstract": "Large language models (LLMs) are becoming the standard for tackling complex natural language processing tasks, but the lack of transparency and explainability of closed-source, publicly\navailable tools that leverage LLMs, such as chatbots, raises concern. Understanding the relationship between the training data, model parameters, and final outputs is particularly important\nwhen chatbots are engaged in dialogue from domains where information is continually evolving and the quality of available information can be poor (e.g. health, climate\nchange, and elections). In , we investigate the difference between the research and reality of eliciting calibrated confidence scores from chatbots on three types of\ninformation: scientific fact, common knowledge, and misinformation. Our objective is to evaluate if a chatbot can accurately label the veracity of various information claims and\nexpress their uncertainty in natural language that humans can easily interpret. Focusing on GPT-4 and Claude-3, we find that there are considerable differences in the\nchatbot responses containing uncertainty and the range in confidence scores elicited. We also find that self-reported confidence scores are not well calibrated and do not\ndirectly map to accuracy of response. Our results highlight the need for developing standards for uncertainty quantification in order to help everyday users understand the\nquality of information they are obtaining, particularly in information gathering interactions where a chatbot can spread misinformation."
+    },
+    {
+      "document_id": 103,
+      "score": null,
+      "abstract": "The rapid growing application of language models (LLMs) in education offers exciting prospects for personalized learning and interactive experiences. However, a critical challenge emerges -\nthe risk of \"hallucinations,\" where LLMs generate factually incorrect or misleading information. proposes Comparative and Cross-Verification Prompting (CCVP), a novel technique specifically designed to mitigate\nhallucinations in educational LLMs. CCVP leverages the strengths of multiple LLMs, a Principal Language Model (PLM) and Auxiliary Language Models (ALMs), to verify the accuracy\nand educational relevance of the PLM's response to a prompt. Through a series of prompts and assessments, CCVP harnesses the diverse perspectives of various LLMs\nand incorporates human expertise for intricate cases. This method addresses the limitations of relying on a single model and fosters critical thinking skills in learners\nwithin the educational context. We detail the CCVP approach with examples specifically applicable to educational settings, such as geography. We also discuss its strengths and\nlimitations, including computational cost, data reliance, and ethical considerations. We highlight its potential applications in educational disciplines, including fact-checking content, detecting bias, and promoting responsible\nLLM use. CCVP presents a promising avenue for ensuring the accuracy and trustworthiness of LLM-generated educational content. Further research and development will refine its scalability,\naddress potential biases, and solidify its position as a vital tool for harnessing the power of LLMs while fostering responsible knowledge dissemination in education. ©\n2024 IEEE."
+    },
+    {
+      "document_id": 184,
+      "score": null,
+      "abstract": "Introduction: There are many myths regarding Alzheimer's disease (AD) that have been circulated on the internet, each exhibiting varying degrees of accuracy, inaccuracy, and misinformation.\nLarge language models, such as ChatGPT, may be a valuable tool to help assess these myths for veracity and inaccuracy; however, they can induce misinformation\nas well. Objective: This study assesses ChatGPT's ability to identify and address AD myths with reliable information. Methods: We conducted a cross-sectional study of attending\ngeriatric medicine clinicians' evaluation of ChatGPT (GPT 4.0) responses to 16 selected AD myths. We prompted ChatGPT to express its opinion on each myth and\nimplemented a survey using REDCap to determine the degree to which clinicians agreed with the accuracy of each of ChatGPT's explanations. We also collected their\nexplanations of any disagreements with ChatGPT's responses. We used a 5-category Likert-type scale with a score ranging from −2 to 2 to quantify clinicians' agreement\nin each aspect of the evaluation. Results: The clinicians (n = 10) were generally satisfied with ChatGPT's explanations. Among the 16 myths, the clinicians were\ngenerally satisfied with these explanations, with [mean (SD) score of 1.1(±0.3)]. Most clinicians selected “Agree” or “Strongly Agree” for each statement. Some statements obtained a\nsmall number of “Disagree” responses. There were no “Strongly Disagree” responses. Conclusion: Most surveyed health care professionals acknowledged the potential value of ChatGPT in mitigating\nAD misinformation; however, the need for more refined and detailed explanations of the disease's mechanisms and treatments was highlighted. © 2024 The Authors"
+    },
+    {
+      "document_id": 198,
+      "score": null,
+      "abstract": "As corporations rush to integrate large language models (LLMs) to their search offerings, it is critical that they provide factually accurate information, that is robust\nto any presuppositions that a user may express. In , we introduce UPHILL, a dataset consisting of health-related queries with varying degrees of presuppositions. Using\nUPHILL, we evaluate the factual accuracy and consistency of InstructGPT, ChatGPT, GPT-4 and Bing Copilot models. We find that while model responses rarely contradict true\nhealth claims (posed as questions), all investigated models fail to challenge false claims. Alarmingly, responses from these models agree with 23-32% of the existing false\nclaims, and 49-55% with novel fabricated claims. As we increase the extent of presupposition in input queries, responses from all models except Bing Copilot agree\nwith the claim considerably more often, regardless of its veracity. Given the moderate factual accuracy, and the inability of models to challenge false assumptions, our\nwork calls for a careful assessment of current LLMs for use in high-stakes scenarios. © 2024 Association for Computational Linguistics."
+    },
+    {
+      "document_id": 211,
+      "score": null,
+      "abstract": "We posit that large language models (LLMs) should be capable of expressing their intrinsic uncertainty in natural language. For example, if the LLM is equally\nlikely to output two contradicting answers to the same question, then its generated response should reflect this uncertainty by hedging its answer (e.g., “I'm not\nsure, but I think...”). We formalize faithful response uncertainty based on the gap between the model's intrinsic confidence in the assertions it makes and the\ndecisiveness by which they are conveyed. This example-level metric reliably indicates whether the model reflects its uncertainty, as it penalizes both excessive and insufficient hedging.\nWe evaluate a variety of aligned LLMs at faithfully communicating uncertainty on several knowledge-intensive question answering tasks. Our results provide strong evidence that modern LLMs\nare poor at faithfully conveying their uncertainty, and that better alignment is necessary to improve their trustworthiness. © 2024 Association for Computational Linguistics."
+    },
+    {
+      "document_id": 230,
+      "score": null,
+      "abstract": "Large Language Models (LLMs) have gained significant popularity for their impressive performance across diverse fields. However, LLMs are prone to hallucinate untruthful or nonsensical outputs\nthat fail to meet user expectations in many real-world applications. Existing works for detecting hallucinations in LLMs either rely on external knowledge for reference retrieval\nor require sampling multiple responses from the LLM for consistency verification, making these methods costly and inefficient. In , we propose a novel reference-free, uncertainty-based\nmethod for detecting hallucinations in LLMs. Our approach imitates human focus in factuality checking from three aspects: 1) focus on the most informative and important\nkeywords in the given text"
+    },
+    {
+      "document_id": 245,
+      "score": null,
+      "abstract": "Hallucination detection is a critical step toward understanding the trustworthiness of modern language models (LMs). To achieve this goal, we re-examine existing detection approaches based\non the self-consistency of LMs and uncover two types of hallucinations resulting from 1) question-level and 2) model-level, which cannot be effectively identified through self-consistency\ncheck alone. Building upon this discovery, we propose a novel sampling-based method, i.e., semantic-aware cross-check consistency (SAC3) that expands on the principle of self-consistency checking.\nOur SAC3 approach incorporates additional mechanisms to detect both question-level and model-level hallucinations by leveraging advances including semantically equivalent question perturbation and cross-model response consistency\nchecking. Through extensive and systematic empirical analysis, we demonstrate that SAC3 outperforms the state of the art in detecting both non-factual and factual statements across\nmultiple question-answering and open-domain generation benchmarks."
+    }
+  ]
+}

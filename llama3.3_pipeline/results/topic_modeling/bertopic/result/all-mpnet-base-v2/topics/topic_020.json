@@ -1,0 +1,75 @@
+{
+  "topic_id": 20,
+  "label": "T020",
+  "label_full": "Misinformation & Propaganda",
+  "keywords": [
+    "disinformation",
+    "annotations",
+    "dataset",
+    "articles",
+    "defakts",
+    "annotation",
+    "argumentation",
+    "sources",
+    "sentences",
+    "detailed"
+  ],
+  "n_docs": 11,
+  "documents": [
+    {
+      "document_id": 38,
+      "score": null,
+      "abstract": "introduces EUvsDisinfo, a multilingual dataset of disinformation articles originating from pro-Kremlin outlets, along with trustworthy articles from credible / less biased sources. It is sourced\ndirectly from the debunk articles written by experts leading the EUvsDisinfo project. Our dataset is the largest to-date resource in terms of the overall number\nof articles and distinct languages. It also provides the largest topical and temporal coverage. Using this dataset, we investigate the dissemination of pro-Kremlin disinformation across\ndifferent languages, uncovering language-specific patterns targeting certain disinformation topics. We further analyse the evolution of topic distribution over an eight-year period, noting a significant surge\nin disinformation content before the full-scale invasion of Ukraine in 2022. Lastly, we demonstrate the dataset's applicability in training models to effectively distinguish between disinformation\nand trustworthy content in multilingual settings."
+    },
+    {
+      "document_id": 207,
+      "score": null,
+      "abstract": "Nowadays, the spread of disinformation poses a major challenge for society. Citizens find themselves immersed in a complex and data-saturated digital context that hinders their\nability to critically discern between truthful information and disinformation. The task is complex because disinformation often appears in the form of rhetorical manipulations, logical fallacies,\nor distortions of the truth. This project aims to develop a system for detecting disinformation based on computational argumentation techniques and large language models, which\npromotes critical thinking and media literacy in society. The implemented web tool analyzes the patterns of human reasoning used in argumentation, classifying arguments into argumentation\nschemes defined by argumentation theory. After identifying the argumentation scheme, the system thoroughly examines the reasoning presented in the argument and uses a set of\ncritical questions to question its validity. Using a large language model, enhanced with external contextualization from various information sources, the system is guided in the\nprocess of evaluating the truthfulness of the argument. The final response includes both a qualitative and quantitative justification of the level of truthfulness, providing links\nand references to the information sources used in the evaluation. © 2024 Copyright for by its authors."
+    },
+    {
+      "document_id": 208,
+      "score": null,
+      "abstract": "In today's rapidly evolving digital age, disinformation poses a significant threat to public sentiment and socio-political dynamics. To address this, we introduce a new dataset\n\"DeFaktS\", designed to understand and counter disinformation within German media. Distinctively curated across various news topics, DeFaktS offers an unparalleled insight into the diverse facets\nof disinformation. Our dataset, containing 105,855 posts with 20,008 meticulously labeled tweets, serves as a rich platform for in-depth exploration of disinformation's diverse characteristics. A\nkey attribute that sets DeFaktS apart is, its fine-grain annotations based on polarized categories. Our annotation framework, grounded in the textual characteristics of news content,\neliminates the need for external knowledge sources. Unlike most existing corpora that typically assign a singular global veracity value to news, our methodology seeks to\nannotate every structural component and semantic element of a news piece, ensuring a comprehensive and detailed understanding. In our experiments, we employed a mix of\nclassical machine learning and advanced transformer-based models. The results underscored the potential of DeFaktS, with transformer models, especially the German variant of BERT, exhibiting pronounced\neffectiveness in both binary and fine-grained classifications. © 2024 ELRA Language Resource Association: CC BY-NC 4.0."
+    },
+    {
+      "document_id": 395,
+      "score": null,
+      "abstract": "describes the framework developed for the Debunker-Assistant, an application that allows users and newspapers to assess the trustworthiness of a news item starting from its\nheadline, body of text and URL. The Debunker-Assistant adapts ideas from Natural Language Processing and Network Science to counter the spread of online misinformation. Its\ncenterpiece is a set of four News Misinformation Indicators based on linguistically engineered features, models, network analysis metrics (Echo Effect, Alarm Bell, Sensationalism, and Reliability).\nIn this short contribution, we describe the back-end structure on which the indicators are implemented. © 2023 Copyright for by its authors. Use permitted under\nCreative Commons License Attribution 4.0 International (CC BY 4.0)."
+    },
+    {
+      "document_id": 409,
+      "score": null,
+      "abstract": "Disinformation is deliberately designed to spread false information over internet. Recent concerns about the use of disinformation to manipulate political voting campaigns have attracted researchers’\nattention. In , we conduct our first study towards the understanding of how sponsored social media content is used in Australian voting campaigns. To this\nend, we collect the ad posts sponsored by Australian organizations on Facebook from 1 Feb, 2020 to 17 May, 2021. We also retain the screenshot\nof each collected ad that originally appeared on Facebook and download the images and videos that were presented in these ad posts. To obtain annotations\nof these ads, we generate labels that describe general objects, locations, activities presented in the images or videos by algorithms, as well as human created\nannotations over crowdsourcing platforms. Based on the collected human annotations, we then design a second-round crowdsourcing task to ask workers to provide more detailed annotations\nfor the collected ads, ranging from truthfulness evaluation of the content to various political aspects (e.g., topics and sentiment). The multi-modal dataset created in our\nwork enables future research, for example, to train supervised learning algorithms for further analysis on the use of disinformation on social media that may affect\npolitical campaigns."
+    },
+    {
+      "document_id": 447,
+      "score": null,
+      "abstract": "Creating classifiers of disinformation is time-consuming, expensive, and requires vast effort from experts spanning different fields. Even when these efforts succeed, their roll-out to publicly\navailable applications stagnates. While these models struggle to find their consumer-accessible use, disinformation behavior online evolves at a pressing speed. The hoaxes get shared in\nvarious abbreviations on social networks, often in user-restricted areas, making external monitoring and intervention virtually impossible. To re-purpose existing NLP methods for the new paradigm\nof sharing misinformation, we propose leveraging information about given texts' originating news sources to proxy the respective text's trustworthiness. We first present a methodology for\ndetermining the sources' overall credibility. We demonstrate our pipeline construction in a specific language and introduce CNSC: a novel dataset for Czech articles' news source\nand source credibility classification. We constitute initial benchmarks on multiple architectures. Lastly, we create in-the-wild wrapper applications of the trained models: a chatbot, a browser\nextension, and a standalone web application. © 2022 Association for Computational Linguistics."
+    },
+    {
+      "document_id": 543,
+      "score": null,
+      "abstract": "We present the Verifee Dataset: a novel dataset of news articles with fine-grained trustworthiness annotations. We develop a detailed methodology that assesses the texts based\non their parameters encompassing editorial transparency, journalist conventions, and objective reporting while penalizing manipulative techniques. We bring aboard a diverse set of researchers from social,\nmedia, and computer sciences to overcome barriers and limited framing of this interdisciplinary problem. We collect over 10, 000 unique articles from 60 Czech online\nnews sources. These are categorized into one of the 4 classes across the credibility spectrum we propose, raging from entirely trustworthy articles all the way\nto the manipulative ones. We produce detailed statistics and study trends emerging throughout the set. Lastly, we fine-tune multiple popular sequence-to-sequence language models using our\ndataset on the trustworthiness classification task and report the best testing F-1 score of 0.52. We open-source the dataset, annotation methodology, and annotators’ instructions in\nfull length at to enable easy build-up work. We believe similar methods can help prevent disinformation and educate in the realm of media literacy. ©\n2022 Released under a custom license."
+    },
+    {
+      "document_id": 544,
+      "score": null,
+      "abstract": "presents the evolution of an annotation guideline designed for the disinformation detection task, an essential step of my doctoral thesis. The annotation proposal aims to\nlabel all the structural and content elements of a news item, as well as to classify them as Reliable or Unreliable. The initial objective was\nto annotate those elements into Fake or True, but for that classification, world knowledge is needed. Our current goal is to annotate news on the\nbasis of a purely textual, semantic and linguistic analysis, without using external knowledge and, for that reason, the annotation was redirected towards a reliability rating,\nrather than a veracity classification. This article justifies the change of perspective at this stage of the thesis, explains the difference between veracity and reliability\nand shows the concrete changes that have been adopted in our annotation proposal with this new approach. © 2022 Copyright for by its authors."
+    },
+    {
+      "document_id": 557,
+      "score": null,
+      "abstract": "Disinformation is often presented in long textual articles, especially when it relates to domains such as health, often seen in relation to COVID-19. These articles\nare typically observed to have a number of trustworthy sentences among which core disinformation sentences are scattered. In , we propose a novel unsupervised task\nof identifying sentences containing key disinformation within a document that is known to be untrustworthy. We design a three-phase statistical NLP solution for the task\nwhich starts with embedding sentences within a bespoke feature space designed for the task. Sentences represented using those features are then clustered, following which the\nkey sentences are identified through proximity scoring. We also curate a new dataset with sentence level disinformation scorings to aid evaluation for this task; the\ndataset is being made publicly available to facilitate further research. Based on a comprehensive empirical evaluation against techniques from related tasks such as claim detection\nand summarization, as well as against simplified variants of our proposed approach, we illustrate that our method is able to identify core disinformation effectively."
+    },
+    {
+      "document_id": 593,
+      "score": null,
+      "abstract": "We present an extensive study on disinformation, which is defined as information that is false and misleading and intentionally shared to cause harm. Through ,\nwe aim to answer the following questions:Can we automatically and accurately classify a news article as containing disinformation?What characteristics of disinformation differentiate it from other\ntypes of benign information? We conduct this study in the context of two significant events: the US elections of 2016 and the 2020 COVID pandemic.\nWe build a series of classifiers to (i) examine linguistic clues exhibited by different types of fake news articles, (ii) analyze “clickbaityness” of disinformation headlines,\nand (iii) finally, perform fine-grained, veracity-based article classification through a natural language inference (NLI) module for automated disinformation verification; this utilizes a manually curated set\nof evidence sources. For the latter, we built a new dataset that is annotated with generic, veracity-based labels and ground truth evidence supporting each label.\nThe veracity labels were formulated based on examining standards used by reputable fact-checking organizations. We show that disinformation derives features from both propaganda and mainstream\nnews, making it more challenging to detect. However, there is significant potential for automating the fact-checking process to incorporate the degree of veracity. We provide\nerror analysis that illustrates the challenges involved in the automated fact-checking task and identifies factors that may improve this process in future work. Finally, we\nalso describe the implementation of a web app that extracts important entities and actions from a given article and searches the web to gather evidence\nfrom credible sources. The evidence articles are then used to generate a veracity label that can assist manual fact-checkers engaged in combating disinformation. © 2021,\nThe Author(s), under exclusive licence to Springer Science+Business Media, LLC, part of Springer Nature."
+    },
+    {
+      "document_id": 819,
+      "score": null,
+      "abstract": "In , we present a dataset of 713k articles collected between 02/2018-11/2018. These articles are collected directly from 194 news and media outlets including mainstream,\nhyper-partisan, and conspiracy sources. We incorporate ground truth ratings of the sources from 8 different assessment sites covering multiple dimensions of veracity, including reliability, bias,\ntransparency, adherence to journalistic standards, and consumer trust. The NELA-GT-2018 dataset can be found at Copyright © 2019, Association for the Advancement of Artificial Intelligence\n( All rights reserved."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "topic_id": 43,
+  "label": "T043",
+  "label_full": "messaging, crowdsensing",
+  "keywords": [
+    "messaging",
+    "crowdsensing",
+    "messages",
+    "whatsapp",
+    "manet",
+    "sonata",
+    "applications",
+    "message",
+    "mobile",
+    "city"
+  ],
+  "n_docs": 6,
+  "documents": [
+    {
+      "document_id": 452,
+      "score": null,
+      "abstract": "Mobile Adhoc Networks (MANETs) are utilised in a variety of mission-critical situations and as such, it is important to detect any fake news that exists\nin such networks. This research proposes an Ensemble Based Computational Social System for fake news detection in MANET messaging. As such this research combines the\npower of Veracity, a unique, computational social system with that of Legitimacy, a dedicated ensemble learning technique, to detect fake news in MANET messaging. Veracity\nuses five algorithms namely, VerifyNews, CompareText, PredictCred, CredScore and EyeTruth for the capture, computation and analysis of the credibility and content data features using computational\nsocial intelligence. To validate Veracity, a dataset of publisher credibility-based and message content-based features is generated to predict fake news. To analyse the data features,\nLegitimacy, a unique ensemble learning prediction model is used. Four analytical methodologies are used to analyse these experimental results. The analysis of the results reports\na satisfactory performance of the Veracity architecture combined with the Legitimacy model for the task of fake news detection in MANET messaging. © 2022, The\nAuthor(s), under exclusive license to Springer Nature Switzerland AG."
+    },
+    {
+      "document_id": 543,
+      "score": null,
+      "abstract": "Mobile Ad Hoc Network Messaging has become an integral part of today's social communication landscape. They are used in a variety of applications. One major\nproblem that these networks face is the spread of fake news. This problem can have serious deleterious effects on our social data driven society. Detecting\nfake news has proven to be challenging even for modern day algorithms. This research presents, Veracity, a unique computational social system to accomplish the task\nof Fake News Detection in MANET Messaging. The Veracity architecture attempts to model social behaviour and human reactions to news spread over a MANET. Veracity\nintroduces five new algorithms namely, VerifyNews, CompareText, PredictCred, CredScore and EyeTruth for the capture, computation and analysis of the credibility and content data features. The\nVeracity architecture works in a fully distributed and infrastructureless environment. This study validates Veracity using a generated dataset with features relating to the credibility of\nnews publishers and the content of the message to predict fake news. These features are analysed using a machine learning prediction model. The results of\nthese experiments are analysed using four evaluation methodologies. The analysis reveals positive performance with the use of the fake news detection architecture. © 2021 IEEE."
+    },
+    {
+      "document_id": 574,
+      "score": null,
+      "abstract": "In the past few years, the large-scale dissemination of misinformation through social media has become a critical issue, harming the trustworthiness of legit information, social\nstability, democracy and public health. Thus, developing automated misinformation detection methods has become a field of high interests both in academia and in industry. In\nmany developing countries such as Brazil, India, and Mexico, one of the primary sources of misinformation is the messaging application WhatsApp. Despite this scenario, due\nto the private messaging nature of WhatsApp, there still few methods of misinformation detection developed specifically for this platform. In we present the FakeWhatsApp.BR, a\ndataset of WhatsApp messages in Brazilian Portuguese, collected from Brazilian public groups and manually labeled. Besides, we evaluated a series of misinformation classifiers combining Natural\nLanguage Processing-based techniques of feature extraction and a set of well-know machine learning algorithms, totaling 108 different scenarios. Our best result achieved a F1 score\nof 0.73, and the analysis of errors indicates that they occur mainly due to the predominance of short texts that accompany media files. When texts\nwith less than 50 words are filtered, the F1 score rises to 0.87. Copyright © 2021 by SCITEPRESS – Science and Technology Publications, Lda. All\nrights reserved."
+    },
+    {
+      "document_id": 590,
+      "score": null,
+      "abstract": "Social media has become the backbone of today's lifestyle. It has a widespread effect on nearly every walk of life. One of the well-known social\nmedia applications WhatsApp Messenger is a free and cross-platform text messaging software that also provides services for sending and receiving multimedia messages. But at the\nsame time in recent years, its easy accessibility has served a way for propagating fake and biased news articles, blogs and messages. Fake news and\nmessages have paved their way for Political polarization, ethnic tensions, unwanted panic and mass hysteria. A solution is proposed that uses Natural Language Processing for\nanalyzing the messages and leverage Transfer Learning Models to detect the authenticity of the information. Claims are filtered from the bulk of forwarded messages disseminated\non WhatsApp. The solution comprises of a semantic search mechanism between each claim and associated news sources. The similarity comparison done by the model predicts\nthe truthfulness of the claim. © 2020 IEEE."
+    },
+    {
+      "document_id": 698,
+      "score": null,
+      "abstract": "Mobile message sharing applications such as WhatsApp, Hike messenger etc. have facilitated the exchange of text and multimedia messages at an unprecedented scale. However, these\napplications also facilitate the sharing of incorrect or even malicious information which can cause widespread panic or manipulate public opinion. proposes a system enabling users\nto verify the authenticity of messages received through message sharing applications. The Message Authentication System (MAS) builds a hierarchical database of authentic information through mining\na multitude of trusted sources on the internet and social media feeds. An authenticity index is then computed for the message under consideration and returned\nto the user. The user can choose to forward the authenticated message to her contacts with the appended authenticity index thereby helping prevent the spread\nof misinformation. © 2017 IEEE."
+    },
+    {
+      "document_id": 722,
+      "score": null,
+      "abstract": "With the advent of mobile cloud computing paradigm, mobile social networks (MSNs) have become attractive tools to share, publish and analyze data regarding everyday behavior\nof mobile users. Besides revealing information about social interactions between individuals, MSNs can assist smart city applications through crowdsensing services. In presence of malicious users\nwho aim at misinformation through manipulation of their sensing data, trustworthiness arises as a crucial issue for the users who receive service from smart city\napplications. In , the authors propose a new crowdsensing framework, namely Social Network Assisted Trustworthiness Assurance (SONATA) which aims at maximizing crowdsensing platform utility and\nminimizing the manipulation probability through vote-based trustworthiness analysis in dynamic social network architecture. SONATA adopts existing Sybil detection techniques to identify malicious users who aim\nat misinformation/disinformation at the crowdsensing platform. The authors present performance evaluation of SONATA under various crowdsensing scenarios in a smart city setting. Performance results show\nthat SONATA improves crowdsensing utility under light and moderate arrival rates of sensing task requests when less than 7% of the users are malicious whereas\ncrowdsensing utility is significantly improved under all task arrival rates if the ratio of malicious users to the entire population is at least 7%. Furthermore,\nunder each scenario, manipulation ratio is close to zero under SONATA while trustworthiness unaware recruitment of social network users leads to a manipulation probability of\n2.5% which cannot be tolerated in critical smart city applications such as disaster management or public safety. © 2017 by IGI Global. All rights reserved."
+    }
+  ]
+}

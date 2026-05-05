@@ -1,0 +1,55 @@
+{
+  "topic_id": 37,
+  "label": "T037",
+  "label_full": "review, false",
+  "keywords": [
+    "review",
+    "false",
+    "evidence",
+    "literature",
+    "sufficiency",
+    "stance",
+    "articles",
+    "making",
+    "manipulative",
+    "dataset"
+  ],
+  "n_docs": 7,
+  "documents": [
+    {
+      "document_id": 74,
+      "score": null,
+      "abstract": "The rise of social media and the internet has significantly increased the amount and speed of shared information, posing challenges for verifying content. Automated veracity\nchecking has become essential in quickly and accurately evaluating claims due to the overwhelming volume of data. The reliability of these systems depends on their\nability to access and evaluate substantial evidence, which is crucial for authenticating assertions and preventing the spread of misinformation. This study proposes a new method\nthat integrates rationales from evidentiary texts to address the issue of insufficient evidence in automated veracity checking. By using contextual coherence and relevance as metrics\nwhen direct evidence is limited, our technique aims to assess evidence sufficiency comprehensively. Furthermore, it goes beyond identifying evidence sufficiency by examining supporting or refuting\nrationales, enhancing our understanding of claim veracity. Our research introduces a preservation technique focused on maintaining contextual consistency and logical validity to overcome limitations in\nexisting veracity-checking systems. This approach prioritizes alignment between claims and their evidence, effectively addressing issues related to evidence insufficiency by capturing subtle semantic connections while\nassessing contextually implied meanings often overlooked in traditional methods of evidence evaluation. © (2024), Shridevi Karande and Vrushali Kulkarni."
+    },
+    {
+      "document_id": 170,
+      "score": null,
+      "abstract": "With the rise of digital media platforms and social networks, distinguishing between trustworthy and false information has become increasingly complicated. This has posed challenges in\nshaping public opinion and making informed decisions. In order to tackle this issue, this research paper presents a novel dataset based on experimental findings, which\nis specifically designed for detecting factual and fabricated statements in video content. The dataset was carefully curated through the production of independent videos in diverse\nscenarios, capturing both honest and deceitful contexts. The paper provides a thorough description of the methodologies used in collecting, processing, extracting features, and annotating the\ndata, highlighting its credibility and representativeness. In addition, the paper offers a comprehensive analysis of existing databases in the deception detection tasks, underscoring the significance\nof this new dataset. © 2024 NSP Natural Sciences Publishing Cor."
+    },
+    {
+      "document_id": 180,
+      "score": null,
+      "abstract": "With the ease with which the data is accessible over the Internet, the spread of ubiquitous information is increasing rapidly, resulting in long-lasting effects on\npeople, businesses, the economy, and so on. Detecting and mitigating the misinformation generated online is still challenging due to its rapid generation. Researchers have developed\nmodels that detect and classify misinformation by extracting numerous features from the textual contents and defining user-specific features. One of the important features is a\nstance, which articulates the viewpoint of the speaker and assists in determining the truthfulness of the articles. Recent literature does manual labeling of stance and\ntrue and false categorization of information, making it an uphill task. Therefore, in this research, authors have proposed a novel algorithm that can classify the\nstance automatically into two categories: support and denial. Further, these features are used to build models to classify news articles as true and false. With\nthis approach, the model showed the highest accuracy of 85.26%. © The Author(s), under exclusive license to Springer Nature Switzerland AG 2024."
+    },
+    {
+      "document_id": 543,
+      "score": null,
+      "abstract": "We present the Verifee Dataset: a novel dataset of news articles with fine-grained trustworthiness annotations. We develop a detailed methodology that assesses the texts based\non their parameters encompassing editorial transparency, journalist conventions, and objective reporting while penalizing manipulative techniques. We bring aboard a diverse set of researchers from social,\nmedia, and computer sciences to overcome barriers and limited framing of this interdisciplinary problem. We collect over 10, 000 unique articles from 60 Czech online\nnews sources. These are categorized into one of the 4 classes across the credibility spectrum we propose, raging from entirely trustworthy articles all the way\nto the manipulative ones. We produce detailed statistics and study trends emerging throughout the set. Lastly, we fine-tune multiple popular sequence-to-sequence language models using our\ndataset on the trustworthiness classification task and report the best testing F-1 score of 0.52. We open-source the dataset, annotation methodology, and annotators’ instructions in\nfull length at to enable easy build-up work. We believe similar methods can help prevent disinformation and educate in the realm of media literacy. ©\n2022 Released under a custom license."
+    },
+    {
+      "document_id": 584,
+      "score": null,
+      "abstract": "Although written deception is not a new invention, the emergence and progress of electronic media—and more recently social media—has changed the speed and extent of\naccess to information in a good way, but at the same time facilitating the proliferation of disinformation as well. Automatic veracity determination, therefore, became a\nwidely studied problem in the last years. We claim that without using a knowledge base and fact-checking, that is based solely on textual content features\none cannot truly fight this phenomenon, nevertheless, such a deception detection system can be used beneficially in certain situations. In the present study we apply\ntext categorization methods to detect fake news without involving any external knowledge base (e.g. lexicons, unlabeled corpora, pre-trained word vectors, etc.). We employ traditional bag-of-words\nand more recent end-to-end neural network models, and evaluate them on eight—five smaller and three larger—fake news datasets. The experimental results show that one can\nattain considerably precise detection performance, in some cases even in the very close vicinity of the perfect F1 score, using solely the labeled data. We\nalso strive to explain why some of these approaches imply a better performance than others. © 2021, Springer Nature Switzerland AG."
+    },
+    {
+      "document_id": 682,
+      "score": null,
+      "abstract": "The quality of digital information on the web has been disquieting due to the absence of careful checking. Consequently, a large volume of false textual\ninformation is being produced and disseminated. The focus of this doctoral study is to work towards evaluating veracity of textual statements on the web. The\nmajor contributions to this growing area of research will be made from the following aspects: (1) improve stance detection and incorporate it to misinformation detection;\n(2) effectively utilize noisy, unstructured user engagements on social media platforms; (3) design a general framework for the early misinformation detection. Findings of this research\nwill provide a deeper understanding of how machine learning can be leveraged to automatically detect misinformation."
+    },
+    {
+      "document_id": 792,
+      "score": null,
+      "abstract": "presents a review of detecting false information and its role in decision making spread across online content. The authenticity of information is an emerging issue\nthat affects society and individuals and has a negative impact on people’s decision-making capabilities. The purpose is to understand how different techniques can be used\nto address the challenge. The approach used for the identification of published articles between 2014 and 2018 is the systematic literature review in which 30\npapers were identified and the relevant articles were selected by applying inclusion–exclusion criteria. This review classifies the false information, spreading on social media, into four\ntypes. Furthermore, we describe four deep learning and eight machine learning techniques for false information detection. The outcomes of this review will provide the researchers\nwith an insight into the different types of false information, associated detection techniques, and the relationship between false information and decision making. In the field\nof false information detection, previous studies provided a review of the literature. However, we conducted a systematic literature review by providing specific answers to the\nproposed research questions. Therefore, our contribution is novel to the field because this type of study is not performed previously. © 2019, Springer-Verlag GmbH Austria,\npart of Springer Nature."
+    }
+  ]
+}

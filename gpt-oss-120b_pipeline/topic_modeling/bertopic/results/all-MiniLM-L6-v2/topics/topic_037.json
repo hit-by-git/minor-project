@@ -1,0 +1,50 @@
+{
+  "topic_id": 37,
+  "label": "T037",
+  "label_full": "Credibility Assessment",
+  "keywords": [
+    "trust",
+    "trustworthiness",
+    "users",
+    "sns",
+    "estimation",
+    "user",
+    "sn",
+    "multicriteria",
+    "information",
+    "tii"
+  ],
+  "n_docs": 6,
+  "documents": [
+    {
+      "document_id": 407,
+      "score": null,
+      "abstract": "Social Networks represent a cornerstone of our daily life, where the so-called social reviewing systems (SRSs) play a key role in our daily lives and\nare used to access data typically in the form of reviews. Due to their importance, social networks must be trustworthy and secure, so that their\nshared information can be used by the people without any concerns, and must be protected against possible attacks and misuses. One of the most critical\nattacks against the reputation system is represented by mendacious reviews. As this kind of attacks can be conducted by legitimate users of the network, a\nparticularly powerful solution is to exploit trust management, by assigning a trust degree to users, so that people can weigh the gathered data based on\nsuch trust degrees. Trust management within the context of SRSs is particularly challenging, as determining incorrect behaviors is subjective and hard to be fully automatized.\nSeveral attempts in the current literature have been proposed; however, such an issue is still far from been completely resolved. , we propose a solution\nagainst mendacious reviews that combines fuzzy logic and the theory of evidence by modeling trust management as a multicriteria multiexpert decision making and exploiting the\nnovel concept of time-dependent and content-dependent crown consensus. We empirically proved that our approach outperforms the main related works approaches, also in dealing with sockpuppet\nattacks. © 2013 IEEE."
+    },
+    {
+      "document_id": 433,
+      "score": null,
+      "abstract": "By now people's opinions and actions are more and more strongly influenced by what is posted and shared on the various social networks. Thus, malicious\nusers can purposely manipulate other users posting fake news/reviews. In order to face this challenge, modern online social networks are beginning to adopt tool for\nuser trustworthiness assessment. Current assessment solutions mainly adopt multi-criteria frameworks for user trustworthiness assessment but fail at properly dealing with uncertainty and vagueness in computed/collected\nscores and aggregating them in a robust manner. In , we propose a larger set of criteria than existing related works, and the use of\nsubjective logic to represent and combine subjective and objective scores. Specifically, several of assessment criteria are introduced for verifying user trust from different point of\nviews (usefulness and quality of user reviews, users’ influence/importance in terms of activities and centrality within the social network, time dependent crown consensus investigating aspect-based\nsentiments and opinions of reviews w.r.t. the majority), aiming at improving accuracy and precision in trust estimation. The available fusion operators in the literature of\nsubjective logic have been compared so as to find the best one fitting the needs of trust estimation. The proposed solution has been implemented and\nevaluated against public Yelp data-sets so as to prove its effectiveness and efficiency w.r.t. existing related works within the literature. © 2021 Elsevier B.V."
+    },
+    {
+      "document_id": 564,
+      "score": null,
+      "abstract": "Trustworthiness in an online environment is essential because individuals and organizations can easily be misled by false and malicious information receiving from untrustworthy users. Though\nexisting methods assess users' trustworthiness by exploiting Twitter account properties, their efficacy is inadequate because of Twitter's restriction on profile and tweet size, the existence\nof missing or insufficient profiles, and ease to create fake accounts or relationships to pretend as trustworthy. In , we present a holistic approach by\nexploiting ideas perceived from real-world organizations for trust estimation along with available Twitter information. Users' trustworthiness is determined by considering their credentials, recommendation from referees\nand the quality of the information in their Twitter accounts and tweets. We establish the feasibility of our approach analytically and further devise a multi-objective\ncost function for the A∗ search to find a quasi-optimal path between the trust evaluator and the user whose trustworthiness is being evaluated. We also\npropose an incentive mechanism to increase user participation in the trust evaluation process, and a threat model and trustworthiness measure of referees to thwart the\npossibility of providing an untruthful recommendation to inflate one's trustworthiness. The efficacy of our proposed approach is validated through experiments using Twitter data and extensive\nsimulation in various scenarios. © 2004-2012 IEEE."
+    },
+    {
+      "document_id": 671,
+      "score": null,
+      "abstract": "Social media have become increasingly popular for the sharing and spreading of user-generated content due to their easy access, fast dissemination, and low cost. Meanwhile,\nsocial media also enable the wide propagation of cyber frauds, which leverage fake information sources to reach an ulterior goal. The prevalence of untrustworthy information\nsources on social media can have significant negative societal effects. In a trustworthy social media system, trust calculation technology has become a key demand for\nthe identification of information sources. Trust, as one of the most complex concepts in network communities, has multi-criteria properties. However, the existing work only focuses\non single trust factor, and does not consider the complexity of trust relationships in social computing completely. In , a multi-criteria trustworthiness calculation mechanism called\nInfo-Trust is proposed for information sources, in which identity-based trust, behavior-based trust, relation-based trust, and feedback-based trust factors are incorporated to present an accuracy-enhanced full\nview of trustworthiness evaluation of information sources. More importantly, the weights of these factors are dynamically assigned by the ordered weighted averaging and weighted moving\naverage (OWA-WMA) combination algorithm. This mechanism surpasses the limitations of existing approaches in which the weights are assigned subjectively. The experimental results based on the\nreal-world datasets from Sina demonstrate that the proposed mechanism achieves greater accuracy and adaptability in trustworthiness identification of the network information. © 2019 IEEE."
+    },
+    {
+      "document_id": 674,
+      "score": null,
+      "abstract": "In , we present a new user trustworthiness estimation model for social networks (SN), whereas most of existing researches have been focused on the user-user/item\nrelationship trustworthiness estimation. Users share information of their interest on various social media without their trustworthiness verification. Therefore, SN are susceptible to malicious users for\nmisinformation spreading. In SN, the original information source is generally unknown and the user who is sharing the contents is the only known information about\nthe source. Therefore, the user's trustworthiness is an effective criterion for SN content's trustworthiness estimation. However, the users are unable to identify trustworthy/untrustworthy users, and\nthe existing user-user/item relationship models do not provide user trustworthiness information. Our proposed model provides a systematic way to assess the user trustworthiness based on\nuser attributes and interaction behavior. The proposed model is helpful to avoid the trust sparsity (implicit trust model), trust subjectivity (user's objective/collective trustworthiness estimation model)\nand cold-start user's trustworthiness (user's attributes-based trust modeling) problems. We employ friends-recommendation (FR) as an exemplary application to evaluate the performance of our proposed model\nin trust-Aware recommendations. Simulation results illustrate that our trust-Aware FR model outperformed the existing trust and FR models. © 2013 IEEE."
+    },
+    {
+      "document_id": 769,
+      "score": null,
+      "abstract": "Due to the spread of unreliable online information on social network services (SNS), the users are faced with a difficult problem for determining if the\ninformation is trustworthy or not. At present, the users should make a decision overall by themselves for trustworthiness of information. Therefore, we need a way\nto systematically evaluate trustworthiness of information on SNS. In , we design a trust metrics, called TII (Trust Index for Information on SNS), as a\ncriterion for measuring the trust degree of information on SNS. Using TII, the users are readily able to determine whether the information is trustworthy. Consequently,\nwe can estimate the social trust degree based on the variation of TII. derives the various factors affecting trust from the properties of SNS, and\nproposes a model to evaluate the trustworthiness of information that is directly produced and distributed over the online network. Quantifying the trust degree of the\ninformation on SNS allows the users to make efficient use of the social network. © 2015 IEEE."
+    }
+  ]
+}

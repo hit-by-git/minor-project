@@ -1,0 +1,60 @@
+{
+  "topic_id": 33,
+  "label": "T033",
+  "label_full": "Misinformation & Propaganda",
+  "keywords": [
+    "devices",
+    "manet",
+    "messaging",
+    "mobile",
+    "fake",
+    "veracity",
+    "legitimacy",
+    "verifynews",
+    "predictcred",
+    "credscore"
+  ],
+  "n_docs": 8,
+  "documents": [
+    {
+      "document_id": 143,
+      "score": null,
+      "abstract": "The massive growth of internet enabled devices increases the users every day active in social media networks. People on social groups getting instant alerts on\nnews, entertainment, education, business and many more. The mode of communication and message transfer through social networking groups have become wider. On the other hand,\nfake information is widespread over the network through malicious user profiles. These kinds of information change the people perspectives on sensitive matters like social issues,\npolitical, religious even more. Detection of fake news and trustworthiness in the received information is important. Considering the major problem of fake news spreading in\nthe social networking groups, an effective system to detect the trustworthiness of the information transferred in the network is considered. The proposed system focused on\ncreating a feature weight optimized lasso regression (FWO-LAR) model for efficient detection of fake news. The system considers the twitter dataset PHEME towards working on\ngoal of detection of fake keywords and fake information associated within the given data. The presented system analyzes the dataset and further evaluate the correlation\nscore, accuracy of detection using FWO-LAR model as 98.7% is achieved with current analysis. The presented study achieved with fast detection of fake news present\nin the sample data opted under testing. The presented system is compared with existing state of art approaches in terms of performance measure and false\npositive rate reduction. © 2024 IEEE."
+    },
+    {
+      "document_id": 349,
+      "score": null,
+      "abstract": "The widespread availability of internet access and handheld devices confers to social media a power similar to the one newspapers used to have. People seek\naffordable information on social media and can reach it within seconds. Yet this convenience comes with dangers; any user may freely post whatever they please\nand the content can stay online for a long period, regardless of its truthfulness. A need arises to detect untruthful information, also known as fake\nnews. In , we present an end-to-end solution that accurately detects fake news and immunizes network nodes that spread them in real-time. To detect fake\nnews, we propose two new stack deep learning architectures that utilize convolutional and bidirectional LSTM layers. To mitigate the spread of fake news, we propose\na real-time network-aware strategy that (1) constructs a minimum-cost weighted directed spanning tree for a detected node, and (2) immunizes nodes in that tree by\nscoring their harmfulness using a novel ranking function. We demonstrate the effectiveness of our solution on five real-world datasets. © 2013 IEEE."
+    },
+    {
+      "document_id": 497,
+      "score": null,
+      "abstract": "The advent of numerous social networking websites in the twenty-first century has provided an easy outlet for people across the globe through widely available devices\nsuch as smartphones. While this has empowered people belonging to different walks of society to post content on topics ranging from current affairs to history,\nit is not easy to ascertain the content’s veracity. Traditional news media has experts in the domain who have the ability to fact-check the content\npresented in the news. However, given the enormous amount of social media posts every day, an average human being who is exposed to the content\nfaces difficulty in differentiating false information from real. This has brought researchers’ interest in the automated detection of fake news. In this chapter, we will\ndiscuss the features that are used to identify fake news and different categories of fake news detection techniques. We also outline the datasets available for\nfake news detection and provide the directions for further reading. © 2022, The Author(s), under exclusive license to Springer Nature Singapore Pte Ltd."
+    },
+    {
+      "document_id": 499,
+      "score": null,
+      "abstract": "Mobile Adhoc Networks (MANETs) are created by the interconnection of energy-constrained mobile devices. One of the issues that MANETs face is the detection of fake\nnews in messages sent over the network. To address the issue of fake news detection in an energy-constrained setting on mobile devices, proposes the Veracity\narchitecture, an Energy-Efficient Ensemble-Based Computational Social System for fake news detection in MANET messaging. Veracity utilises five algorithms namely VerifyNews, CompareText, PredictCred, CredScore and EyeTruth\nfor the prediction of the validity of the news. Veracity employs the Legitimacy ensemble model for the prediction of the quality of the news. The\nexperimental energy efficiency results demonstrate that Veracity uses an ensemble model and negligibly affects the residual energy capacity of each device in the network. ©\n2022 IEEE."
+    },
+    {
+      "document_id": 510,
+      "score": null,
+      "abstract": "Mobile Adhoc Networks (MANETs) are utilised in a variety of mission-critical situations and as such, it is important to detect any fake news that exists\nin such networks. This research proposes an Ensemble Based Computational Social System for fake news detection in MANET messaging. As such this research combines the\npower of Veracity, a unique, computational social system with that of Legitimacy, a dedicated ensemble learning technique, to detect fake news in MANET messaging. Veracity\nuses five algorithms namely, VerifyNews, CompareText, PredictCred, CredScore and EyeTruth for the capture, computation and analysis of the credibility and content data features using computational\nsocial intelligence. To validate Veracity, a dataset of publisher credibility-based and message content-based features is generated to predict fake news. To analyse the data features,\nLegitimacy, a unique ensemble learning prediction model is used. Four analytical methodologies are used to analyse these experimental results. The analysis of the results reports\na satisfactory performance of the Veracity architecture combined with the Legitimacy model for the task of fake news detection in MANET messaging. © 2022, The\nAuthor(s), under exclusive license to Springer Nature Switzerland AG."
+    },
+    {
+      "document_id": 628,
+      "score": null,
+      "abstract": "Mobile Ad Hoc Network Messaging has become an integral part of today's social communication landscape. They are used in a variety of applications. One major\nproblem that these networks face is the spread of fake news. This problem can have serious deleterious effects on our social data driven society. Detecting\nfake news has proven to be challenging even for modern day algorithms. This research presents, Veracity, a unique computational social system to accomplish the task\nof Fake News Detection in MANET Messaging. The Veracity architecture attempts to model social behaviour and human reactions to news spread over a MANET. Veracity\nintroduces five new algorithms namely, VerifyNews, CompareText, PredictCred, CredScore and EyeTruth for the capture, computation and analysis of the credibility and content data features. The\nVeracity architecture works in a fully distributed and infrastructureless environment. This study validates Veracity using a generated dataset with features relating to the credibility of\nnews publishers and the content of the message to predict fake news. These features are analysed using a machine learning prediction model. The results of\nthese experiments are analysed using four evaluation methodologies. The analysis reveals positive performance with the use of the fake news detection architecture. © 2021 IEEE."
+    },
+    {
+      "document_id": 629,
+      "score": null,
+      "abstract": "With the changing era of digital technology and use of 5G networks it is ubiquitous to use portable devices on palm which facilitates users to\naccess information in abundance with low cost from different social media sites. It also provides common platform for everyone to share information very fast. So\nveracity of such information is important otherwise it can mislead the mass and create issues. So detection of such news or contents which are false\nor fake is a challenging task. analyses different machine learning techniques to detect whether the news contents are true or false. For this, multi-attribute relational\nfeatures of the LIAR dataset are used. Sentiment features of the news statements are used along with the metadata of the speaker, which is taken\nas relations. Experimental result shows that the proposed method gives an accuracy of 75% compared to other techniques used on this dataset. © 2021 IEEE."
+    },
+    {
+      "document_id": 739,
+      "score": null,
+      "abstract": "Network-enabled devices and the consecutive surge of internet users created a significant impact on the knowledge society. In the era of Social Media, the final\nuser is the new reporter that embraces these tools to spread novelty and breaking news about specific subjects. Sometimes, this type of reporting is biased\ndue to the level of the user's knowledge of the matter or to intentionally achieve a goal. The ability to share other users' post magnify\nthis phenomenon and create a domino effect that can lead to the diffusion of biased information. Therefore, the reliability of the shared novelty about an\nevent is becoming fundamental more than ever. The proposed method tries to deal with this drawback by cross-relating text streams with corresponding heterogeneous levels of\nreliability, for instance, Twitter and Google News. As Text Stream Mining technique, the method adopts the Fuzzy Formal Concept Analysis to incrementally carry out a\nfuzzy lattice for each text stream. These two fuzzy lattices are compared in time and context-aware manner to derive the trustworthiness of the relations among\nentities that are mentioned together in the same tweet content. Preliminary experimental results made on a real dataset show that the proposed credibility assessment system\nprovides good performance depending on some parameters, like similarity threshold T (empirically fixed at 0.8) and time window, set at 1 hour. © 2020 IEEE."
+    }
+  ]
+}

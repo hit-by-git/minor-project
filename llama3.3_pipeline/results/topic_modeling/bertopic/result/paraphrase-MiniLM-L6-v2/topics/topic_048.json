@@ -1,0 +1,50 @@
+{
+  "topic_id": 48,
+  "label": "T048",
+  "label_full": "Fact-Checking & Verification",
+  "keywords": [
+    "faxplainac",
+    "facekeg",
+    "input",
+    "claims",
+    "verification",
+    "feedback",
+    "fact",
+    "correct",
+    "factchecking",
+    "given"
+  ],
+  "n_docs": 6,
+  "documents": [
+    {
+      "document_id": 27,
+      "score": null,
+      "abstract": "We introduce 'FactCheck Editor', an advanced text editor designed to automate fact-checking and correct factual inaccuracies. Given the widespread issue of misinformation, often a result\nof unintentional mistakes by content creators, our tool aims to address this challenge. It supports over 90 languages and utilizes transformer models to assist humans\nin the labor-intensive process of fact verification. This demonstration showcases a complete workflow that detects text claims in need of verification, generates relevant search engine\nqueries, and retrieves appropriate documents from the web. It employs Natural Language Inference (NLI) to predict the veracity of claims and uses LLMs to summarize\nthe evidence and suggest textual revisions to correct any errors in the text. Additionally, the effectiveness of models used in claim detection and veracity assessment\nis evaluated across multiple languages."
+    },
+    {
+      "document_id": 73,
+      "score": null,
+      "abstract": "In today's information-saturated social media environment, it is essential to prioritize the verification of potentially false or misleading claims. This need has led to the\ndevelopment of fact-checking, a process dedicated to verifying the truthfulness of statements. Given the limited human resources available to scrutinize all online claims, it is\ncrucial to identify the most critical ones to verify. Therefore, a (semi-)automated system capable of detecting the most urgent and relevant claims for verification is\nneeded. To address this challenge, we evaluate an approach based on Natural Language Processing and Machine Learning techniques. We explore lexical features, embedding models, LLMs,\nand traditional classification techniques to develop an automated system to classify statements according to their relevance for verification (i.e., their check-worthiness). Our evaluation is based\non data collections including checkable statements extracted from tweets and political speeches. Embeddingand LLM-based techniques showed great potential to improve the performance of the verification\nprocess by effectively prioritizing the most critical and relevant statements for verification. © 2024 IEEE."
+    },
+    {
+      "document_id": 382,
+      "score": null,
+      "abstract": "Fact-checking of health-related claims has become necessary in this digital age, where any information posted online is easily available to everyone. The most effective way\nto verify such claims is by using evidences obtained from reliable sources of medical knowledge, such as PubMed. Recent advances in the field of NLP\nhave helped automate such fact-checking tasks. In , we propose a domain-specific BERT-based model using a transfer learning approach for the task of predicting the\nveracity of claim-evidence pairs for the verification of health-related facts. We also improvise on a method to combine multiple evidences retrieved for a single claim,\ntaking into consideration conflicting evidences as well. We also show how our model can be exploited when labelled data is available and how backtranslation can\nbe used to augment data when there is data scarcity. © 2023 Association for Computational Linguistics."
+    },
+    {
+      "document_id": 398,
+      "score": null,
+      "abstract": "Given the recent proliferation of false claims online, there has been a lot of manual fact-checking effort. As this is very time-consuming, human fact-checkers can\nbenefit from tools that can support them and make them more efficient. Here, we focus on building a system that could provide such support. Given\nan input document, it aims to detect all sentences that contain a claim that can be verified by some previously fact-checked claims (from a given\ndatabase). The output is a re-ranked list of the document sentences, so that those that can be verified are ranked as high as possible, together\nwith corresponding evidence. Unlike previous work, which has looked into claim retrieval, here we take a document-level perspective. We create a new manually annotated dataset\nfor the task, and we propose suitable evaluation measures. We further experiment with a learning-to-rank approach, achieving sizable performance gains over several strong baselines. Our\nanalysis demonstrates the importance of modeling text similarity and stance, while also taking into account the veracity of the retrieved previously fact-checked claims. We believe\nthat this research would be of interest to fact-checkers, journalists, media, and regulatory authorities."
+    },
+    {
+      "document_id": 556,
+      "score": null,
+      "abstract": "Fact-checking on the Web has become the main mechanism through which we detect the credibility of the news or information. Existing fact-checkers verify the authenticity\nof the information (support or refute the claim) based on secondary sources of information. However, existing approaches do not consider the problem of model updates\ndue to constantly increasing training data due to user feedback. It is therefore important to conduct user studies to correct models' inference biases and improve\nthe model in a life-long learning manner in the future according to the user feedback. In , we present FaxPlainAC, a tool that gathers user\nfeedback on the output of explainable fact-checking models. FaxPlainAC outputs both the model decision, i.e., whether the input fact is true or not, along with\nthe supporting/refuting evidence considered by the model. Additionally, FaxPlainAC allows for accepting user feedback both on the prediction and explanation. Developed in Python, FaxPlainAC is\ndesigned as a modular and easily deployable tool. It can be integrated with other downstream tasks and allowing for fact-checking human annotation gathering and life-long\nlearning."
+    },
+    {
+      "document_id": 561,
+      "score": null,
+      "abstract": "In recent years, a plethora of fact checking and fact verification techniques have been developed to detect the veracity or factuality of online information text\nfor various applications. However, limited efforts have been undertaken to understand the interpretability of such veracity detection, i.e. explaining why a particular piece of text\nis factually correct or incorrect. In , we seek to bridge this gap by proposing a technique, FACE-KEG, to automatically perform explainable fact checking. Given\nan input fact or claim, our proposed model constructs a relevant knowledge graph for it from a large-scale structured knowledge base. This graph is encoded\nvia a novel graph transforming encoder. Our model also simultaneously retrieves and encodes relevant textual context about the input text from the knowledge base. FACE-KEG\nthen jointly exploits both the concept-relationship structure of the knowledge graph as well as semantic contextual cues in order to (i) detect the veracity of\nan input fact, and (ii) generate a human-comprehensible natural language explanation justifying the fact's veracity. We conduct extensive experiments on three large-scale datasets, and demonstrate\nthe effectiveness of FACE-KEG while performing fact checking. Automatic and human evaluations further show that FACE-KEG significantly outperforms competitive baselines in learning concise, coherent and\ninformative explanations for the input facts."
+    }
+  ]
+}

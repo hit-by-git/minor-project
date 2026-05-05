@@ -1,0 +1,45 @@
+{
+  "topic_id": 63,
+  "label": "T063",
+  "label_full": "multihop, verification",
+  "keywords": [
+    "multihop",
+    "verification",
+    "debiasing",
+    "fact",
+    "causal",
+    "rationalization",
+    "multilingual",
+    "zeroshot",
+    "mediator",
+    "walk"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 79,
+      "score": null,
+      "abstract": "Multi-hop fact verification aims to detect the veracity of the given claim by integrating and reasoning over multiple pieces of evidence. Conventional multi-hop fact verification\nmodels are prone to rely on spurious correlations from the annotation artifacts, leading to an obvious performance decline on unbiased datasets. Among the various debiasing\nworks, the causal inference-based methods become popular by performing theoretically guaranteed debiasing such as casual intervention or counterfactual reasoning. However, existing causal inference-based debiasing methods,\nwhich mainly formulate fact verification as a single-hop reasoning task to tackle shallow bias patterns, cannot deal with the complicated bias patterns hidden in multiple\nhops of evidence. To address the challenge, we propose Causal Walk, a novel method for debiasing multi-hop fact verification from a causal perspective with front-door\nadjustment. Specifically, in the structural causal model, the reasoning path between the treatment (the input claim-evidence graph) and the outcome (the veracity label) is introduced\nas the mediator to block the confounder. With the front-door adjustment, the causal effect between the treatment and the outcome is decomposed into the causal\neffect between the treatment and the mediator, which is estimated by applying the idea of random walk, and the causal effect between the mediator and\nthe outcome, which is estimated with normalized weighted geometric mean approximation. To investigate the effectiveness of the proposed method, an adversarial multi-hop fact verification dataset\nand a symmetric multi-hop fact verification dataset are proposed with the help of the large language model. Experimental results show that Causal Walk outperforms some\nprevious debiasing methods on both existing datasets and the newly constructed datasets. Code and data will be released at © 2024, Association for the Advancement\nof Artificial Intelligence ( All rights reserved."
+    },
+    {
+      "document_id": 205,
+      "score": null,
+      "abstract": "Fact verification aims to automatically probe the veracity of a claim based on several pieces of evidence. Existing works are always engaging in accuracy improvement,\nlet alone explainability, a critical capability of fact verification systems. Constructing an explainable fact verification system in a complex multi-hop scenario is consistently impeded by\nthe absence of a relevant, high-quality dataset. Previous datasets either suffer from excessive simplification or fail to incorporate essential considerations for explainability. To address this,\nwe present EX-FEVER, a pioneering dataset for multi-hop explainable fact verification. With over 60,000 claims involving 2-hop and 3-hop reasoning, each is created by summarizing\nand modifying information from hyperlinked Wikipedia documents. Each instance is accompanied by a veracity label and an explanation that outlines the reasoning path supporting the\nveracity classification. Additionally, we demonstrate a novel baseline system on our EX-FEVER dataset, showcasing document retrieval, explanation generation, and claim verification, and validate the significance\nof our dataset. Furthermore, we highlight the potential of utilizing Large Language Models in the fact verification task. We hope our dataset could make a\nsignificant contribution by providing ample opportunities to explore the integration of natural language explanations in the domain of fact verification. © 2024 Association for Computational\nLinguistics."
+    },
+    {
+      "document_id": 214,
+      "score": null,
+      "abstract": "The success of deep learning models on multi-hop fact verification has prompted researchers to understand the behavior behind their veracity. One feasible way is erasure\nsearch: obtaining the rationale by entirely removing a subset of input without compromising verification accuracy. Despite extensive exploration, current rationalization methods struggle to discern nuanced\ncomposition within the correlated evidence, which inevitably leads to noise rationalization in multi-hop scenarios. To address this issue, proposes the consistent multi-granular rationale extraction method,\naiming to realize the denoising rationalization for multi-hop fact verification. Specifically, given a pretrained veracity prediction model, two independent external explainers are introduced and trained\ncollaboratively to enhance the discriminating ability by imposing varied constraints. Meanwhile, three key properties (Fidelity, Consistency, Salience) are introduced to regularize the denoising and faithful\nrationalization process. Additionally, a new Noiselessness metric is proposed to measure the purity of the rationales. Experimental results on three multi-hop fact verification datasets show\nthat the proposed approach outperforms 12 baselines. © 2024 Association for Computational Linguistics."
+    },
+    {
+      "document_id": 434,
+      "score": null,
+      "abstract": "Zero-shot multilingual fact-checking, which aims to discover and infer subtle clues from the retrieved relevant evidence to verify the given claim in cross-language and cross-domain\nscenarios, is crucial for optimizing a free, trusted, wholesome global network environment. Previous works have made enlightening and practical explorations in claim verification, while the\nzero-shot multilingual task faces new challenging gap issues: neglecting authenticity-dependent learning between multilingual claims, lacking heuristic checking, and a bottleneck of insufficient evidence. To alleviate\nthese gaps, a novel Joint Prompt and Evidence Inference Network (PEINet) is proposed to verify the multilingual claim according to the human fact-checking cognitive paradigm.\nIn detail, firstly, we leverage the language family encoding mechanism to strengthen knowledge transfer among multi-language claims. Then, the prompt turning module is designed to\ninfer the falsity of the fact, and further, sufficient fine-grained evidence is extracted and aggregated based on a recursive graph attention network to verify the\nclaim again. Finally, we build a unified inference framework via multi-task learning for final fact verification. The newly achieved state-of-the-art performance on the released challenging\nbenchmark dataset that includes not only an out-of-domain test, but also a zero-shot test, proves the effectiveness of our framework, and further analysis demonstrates the\nsuperiority of our PEINet in multilingual claim verification and inference, especially in the zero-shot scenario. © 2022 by the authors."
+    },
+    {
+      "document_id": 565,
+      "score": null,
+      "abstract": "Fact verification datasets are typically constructed using crowdsourcing techniques due to the lack of text sources with veracity labels. However, the crowdsourcing process often produces\nundesired biases in data that cause models to learn spurious patterns. In , we propose CrossAug, a contrastive data augmentation method for debiasing fact verification\nmodels. Specifically, we employ a two-stage augmentation pipeline to generate new claims and evidences from existing samples. The generated samples are then paired cross-wise with\nthe original pair, forming contrastive samples that facilitate the model to rely less on spurious patterns and learn more robust representations. Experimental results show that\nour method outperforms the previous state-of-the-art debiasing technique by 3.6\\% on the debiased extension of the FEVER dataset, with a total performance boost of 10.13\\%\nfrom the baseline. Furthermore, we evaluate our approach in data-scarce settings, where models can be more susceptible to biases due to the lack of training\ndata. Experimental results demonstrate that our approach is also effective at debiasing in these low-resource conditions, exceeding the baseline performance on the Symmetric dataset with\njust 1\\% of the original data."
+    }
+  ]
+}

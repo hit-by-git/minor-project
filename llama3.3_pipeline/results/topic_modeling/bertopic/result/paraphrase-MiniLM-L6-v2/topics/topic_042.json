@@ -1,0 +1,55 @@
+{
+  "topic_id": 42,
+  "label": "T042",
+  "label_full": "pipeline, domain",
+  "keywords": [
+    "pipeline",
+    "domain",
+    "checking",
+    "component",
+    "base",
+    "evidence",
+    "pipelines",
+    "knowledge",
+    "data",
+    "train"
+  ],
+  "n_docs": 7,
+  "documents": [
+    {
+      "document_id": 16,
+      "score": null,
+      "abstract": "Evaluating the veracity of everyday claims is time consuming and in some cases requires domain expertise. We empirically demonstrate that the commonly used fact checking\npipeline, known as the retriever-reader, suffers from performance deterioration when it is trained on the labeled data from one domain and used in another domain.\nAfterwards, we delve into each component of the pipeline and propose novel algorithms to address this problem. We propose an adversarial algorithm to make the\nretriever component robust against distribution shift. Our core idea is to initially train a bi-encoder on the labeled source data, and then, to adversarially train\ntwo separate document and claim encoders using unlabeled target data. We then focus on the reader component and propose to train it such that it\nis insensitive towards the order of claims and evidence documents. Our empirical evaluations support the hypothesis that such a reader shows a higher robustness against\ndistribution shift. To our knowledge, there is no publicly available multi-topic fact checking dataset. Thus, we propose a simple automatic method to re-purpose two well-known\nfact checking datasets. We then construct eight fact checking scenarios from these datasets, and compare our model to a set of strong baseline models, including\nrecent domain adaptation models that use GPT4 for generating synthetic data."
+    },
+    {
+      "document_id": 30,
+      "score": null,
+      "abstract": "In , we explore the challenges associated with establishing an end-to-end fact-checking pipeline in a real-world context, covering over 90 languages. Our real-world experimental benchmarks\ndemonstrate that fine-tuning Transformer models specifically for fact-checking tasks, such as claim detection and veracity prediction, provide superior performance over large language models (LLMs) like\nGPT-4, GPT-3.5-Turbo, and Mistral-7b. However, we illustrate that LLMs excel in generative tasks such as question decomposition for evidence retrieval. Through extensive evaluation, we show\nthe efficacy of fine-tuned models for fact-checking in a multilingual setting and complex claims that include numerical quantities."
+    },
+    {
+      "document_id": 75,
+      "score": null,
+      "abstract": "This article presents a pipeline for automated fact-checking leveraging publicly available language models and data. The objective is to assess the accuracy of textual claims\nusing evidence from a ground-truth evidence corpus. The pipeline consists of two main modules—the evidence retrieval and the claim veracity evaluation. Our primary focus is\non the ease of deployment in various languages that remain unexplored in the field of automated fact-checking. Unlike most similar pipelines, which work with evidence\nsentences, our pipeline processes data on a paragraph level, simplifying the overall architecture and data requirements. Given the high cost of annotating language-specific fact-checking training\ndata, our solution builds on the question answering for claim generation method, which we adapt and use to generate the data for all models of\nthe pipeline. Our strategy enables the introduction of new languages through machine translation of only two fixed datasets of moderate size. Subsequently, any number of\ntraining samples can be generated based on an evidence corpus in the target language. We provide open access to all data and fine-tuned models for\nCzech, English, Polish, and Slovak pipelines, as well as to our codebase that may be used to reproduce the results. We comprehensively evaluate the pipelines\nfor all four languages, including human annotations and per-sample difficulty assessment using Pointwise V-information. The presented experiments are based on full Wikipedia snapshots to promote\nreproducibility. To facilitate implementation and user interaction, we develop the FactSearch application featuring the proposed pipeline and the preliminary feedback on its performance. © The\nAuthor(s) 2024."
+    },
+    {
+      "document_id": 200,
+      "score": null,
+      "abstract": "Evaluating the veracity of everyday claims is time consuming and in some cases requires domain expertise. We empirically demonstrate that the commonly used fact checking\npipeline, known as the retriever-reader, suffers from performance deterioration when it is trained on the labeled data from one domain and used in another domain.\nAfterwards, we delve into each component of the pipeline and propose novel algorithms to address this problem. We propose an adversarial algorithm to make the\nretriever component robust against distribution shift. Our core idea is to initially train a bi-encoder on the labeled source data, and then, to adversarially train\ntwo separate document and claim encoders using unlabeled target data. We then focus on the reader component and propose to train it such that it\nis insensitive towards the order of claims and evidence documents. Our empirical evaluations support the hypothesis that such a reader shows a higher robustness against\ndistribution shift. To our knowledge, there is no publicly available multitopic fact checking dataset. Thus, we propose a simple automatic method to re-purpose two well-known\nfact checking datasets. We then construct eight fact checking scenarios from these datasets, and compare our model to a set of strong baseline models, including\nrecent domain adaptation models that use GPT4 for generating synthetic data. © 2024 Association for Computational Linguistics."
+    },
+    {
+      "document_id": 246,
+      "score": null,
+      "abstract": "Automated claim checking is the task of determining the veracity of a claim given evidence retrieved from a textual knowledge base of trustworthy facts. While\nprevious work has taken the knowledge base as given and optimized the claim-checking pipeline, we take the opposite approach—taking the pipeline as given, we explore\nthe choice of the knowledge base. Our first insight is that a claim-checking pipeline can be transferred to a new domain of claims with access\nto a knowledge base from the new domain. Second, we do not find a “universally best” knowledge base—higher domain overlap of a task dataset and\na knowledge base tends to produce better label accuracy. Third, combining multiple knowledge bases does not tend to improve performance beyond using the closest-domain knowledge\nbase. Finally, we show that the claim-checking pipeline’s confidence score for selecting evidence can be used to assess whether a knowledge base will perform well\nfor a new set of claims, even in the absence of ground-truth labels."
+    },
+    {
+      "document_id": 546,
+      "score": null,
+      "abstract": "In , we present the Logically submissions to De-Factify 2 challenge (DE-FACTIFY 2023) on task 1 of Multi-Modal Fact Checking. We describe our submission to\nthis challenge including explored evidence retrieval and selection techniques, pre-trained cross-modal and unimodal models, and a cross-modal veracity model based on the well established Transformer\nEncoder (TE) architecture which heavily relies on the concept of self-attention. Exploratory analysis is also conducted on the Factify 2 data set that uncovers the\nsalient multi-modal patterns and hypothesis motivating the architecture proposed in . A series of preliminary experiments were done to investigate and benchmark different pre-trained embedding\nmodels, evidence retrieval settings and thresholds. The final system, a standard two-stage evidence based veracity detection system, yielded a weighted average F1 score of 0.79\non both the validation set and final blind test set of task 1, which achieved 3rd place with a small margin to the top performing\nsystems on the leaderboard among 9 participants. © 2023 Copyright for by its authors."
+    },
+    {
+      "document_id": 747,
+      "score": null,
+      "abstract": "As part of the CheckThat! 2020 Task 2, we investigated sentence similarity using transformer models. In Task 2, the goal was to effectively rank claims\nbased on their relevancy compared to an input tweet. While setting our baseline on sentence similarity for fact-checking, we gathered insights we felt compelled to\nshare in . We learned how multi-modal data utilization could foster significant uplifts in model performance. We also gained knowledge on which hybrid training and\nstrong sampling worked best for fact-checking applications, and wanted to share our interpretation of the results we got. Finally, we want to explain our recommendations\non data augmentations. All of the above allowed us to set our baseline in fact-checking in the CLEF Checkthat! 2020 Task 2 competition. Copyright ©\n2020 for by its authors."
+    }
+  ]
+}

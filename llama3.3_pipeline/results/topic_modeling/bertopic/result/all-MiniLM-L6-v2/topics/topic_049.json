@@ -1,0 +1,50 @@
+{
+  "topic_id": 49,
+  "label": "T049",
+  "label_full": "Misinformation & Propaganda",
+  "keywords": [
+    "stance",
+    "argumentation",
+    "arastance",
+    "argument",
+    "support",
+    "disinformation",
+    "argumentative",
+    "determining",
+    "respect",
+    "task"
+  ],
+  "n_docs": 6,
+  "documents": [
+    {
+      "document_id": 31,
+      "score": null,
+      "abstract": "Detecting the veracity of a statement automatically is a challenge the world is grappling with due to the vast amount of data spread across the\nweb. Verifying a given claim typically entails validating it within the framework of supporting evidence like a retrieved piece of text. Classifying the stance of\nthe text with respect to the claim is called stance classification. Despite advancements in automated fact-checking, most systems still rely on a substantial quantity of\nlabeled training data, which can be costly. In , we avoid the costly training or fine-tuning of models by reusing pre-trained large language models together\nwith few-shot in-context learning. Since we do not train any model, our approach ExPrompt is lightweight, demands fewer resources than other stance classification methods and\ncan serve as a modern baseline for future developments. At the same time, our evaluation shows that our approach is able to outperform former state-of-the-art\nstance classification approaches regarding accuracy by at least 2 percent. Our scripts and data used in are available at"
+    },
+    {
+      "document_id": 180,
+      "score": null,
+      "abstract": "With the ease with which the data is accessible over the Internet, the spread of ubiquitous information is increasing rapidly, resulting in long-lasting effects on\npeople, businesses, the economy, and so on. Detecting and mitigating the misinformation generated online is still challenging due to its rapid generation. Researchers have developed\nmodels that detect and classify misinformation by extracting numerous features from the textual contents and defining user-specific features. One of the important features is a\nstance, which articulates the viewpoint of the speaker and assists in determining the truthfulness of the articles. Recent literature does manual labeling of stance and\ntrue and false categorization of information, making it an uphill task. Therefore, in this research, authors have proposed a novel algorithm that can classify the\nstance automatically into two categories: support and denial. Further, these features are used to build models to classify news articles as true and false. With\nthis approach, the model showed the highest accuracy of 85.26%. © The Author(s), under exclusive license to Springer Nature Switzerland AG 2024."
+    },
+    {
+      "document_id": 207,
+      "score": null,
+      "abstract": "Nowadays, the spread of disinformation poses a major challenge for society. Citizens find themselves immersed in a complex and data-saturated digital context that hinders their\nability to critically discern between truthful information and disinformation. The task is complex because disinformation often appears in the form of rhetorical manipulations, logical fallacies,\nor distortions of the truth. This project aims to develop a system for detecting disinformation based on computational argumentation techniques and large language models, which\npromotes critical thinking and media literacy in society. The implemented web tool analyzes the patterns of human reasoning used in argumentation, classifying arguments into argumentation\nschemes defined by argumentation theory. After identifying the argumentation scheme, the system thoroughly examines the reasoning presented in the argument and uses a set of\ncritical questions to question its validity. Using a large language model, enhanced with external contextualization from various information sources, the system is guided in the\nprocess of evaluating the truthfulness of the argument. The final response includes both a qualitative and quantitative justification of the level of truthfulness, providing links\nand references to the information sources used in the evaluation. © 2024 Copyright for by its authors."
+    },
+    {
+      "document_id": 653,
+      "score": null,
+      "abstract": "With the continuing spread of misinformation and disinformation online, it is of increasing importance to develop combating mechanisms at scale in the form of automated\nsystems that support multiple languages. One task of interest is claim veracity prediction, which can be addressed using stance detection with respect to relevant documents\nretrieved online. To this end, we present our new Arabic Stance Detection dataset (AraStance) of 4,063 claim–article pairs from a diverse set of sources comprising\nthree fact-checking websites and one news website. AraStance covers false and true claims from multiple domains (e.g., politics, sports, health) and several Arab countries, and\nit is well-balanced between related and unrelated documents with respect to the claims. We benchmark AraStance, along with two other stance detection datasets, using a\nnumber of BERT-based models. Our best model achieves an accuracy of 85% and a macro F1 score of 78%, which leaves room for improvement and\nreflects the challenging nature of AraStance and the task of stance detection in general. © 2021 Association for Computational Linguistics."
+    },
+    {
+      "document_id": 780,
+      "score": null,
+      "abstract": "The phenomenal growth in web information has nourished research endeavours for automatic fact checking, or fake news and/or misinformation detection. This is one of the\nvery emerging and challenging problems in Natural Language Processing (NLP), Machine Learning (ML) and Data Science. One such problem relates to estimating the veracity of\na news story, which is a complex and deep problem. The very recently released Fake News Challenge Stage 1 (FNC-1) dataset introduced the benchmark FNC\nstage-1: stance detection task. This task could be an effective first step towards building a robust fact checking system. In , we correlate this stance\ndetection problem with Textual Entailment (TE). We present the systems which are based on statistical machine learning (ML), Deep Learning (DL), and a combination of\nboth. Empirical evaluation shows encouraging performance, outperforming the state-of-the-art system. © 2019, Springer Nature Switzerland AG."
+    },
+    {
+      "document_id": 830,
+      "score": null,
+      "abstract": "The use of social media has become a regular habit for many and has changed the way people interact with each other. In this article,\nwe focus on analyzing whether news headlines support tweets and whether reviews are deceptive by analyzing the interaction or the influence that these texts have\non the others, thus exploiting contextual information. Concretely, we define a deep learning method for relation-based argument mining to extract argumentative relations of attack and\nsupport. We then use this method for determining whether news articles support tweets, a useful task in fact-checking settings, where determining agreement toward a statement\nis a useful step toward determining its truthfulness. Furthermore, we use our method for extracting bipolar argumentation frameworks from reviews to help detect whether they\nare deceptive. We show experimentally that our method performs well in both settings. In particular, in the case of deception detection, our method contributes a\nnovel argumentative feature that, when used in combination with other features in standard supervised classifiers, outperforms the latter even on small data sets."
+    }
+  ]
+}

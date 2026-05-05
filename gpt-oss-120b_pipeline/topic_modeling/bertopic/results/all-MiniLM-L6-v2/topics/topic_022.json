@@ -1,0 +1,65 @@
+{
+  "topic_id": 22,
+  "label": "T022",
+  "label_full": "Misinformation & Propaganda",
+  "keywords": [
+    "news",
+    "fake",
+    "authors",
+    "sve",
+    "articles",
+    "profiling",
+    "aes",
+    "detect",
+    "classifiers",
+    "processing"
+  ],
+  "n_docs": 9,
+  "documents": [
+    {
+      "document_id": 96,
+      "score": null,
+      "abstract": "Due to the development of technologies, such as the Internet and mobile communication, news production is increasing day by day. Proper news delivery can lead\nto a thriving economy and disseminate knowledge. However, in addition to disrupting the existing order, fake news may create incorrect values and even beliefs. Therefore,\ndetecting the authenticity of news is an extremely important issue. At present, many scholars have used artificial intelligence (AI) to detect fake news, achieving excellent\nresults. However, once humans become dependent on AI, adversarial examples (AEs) can deceive the AI model and allow humans to receive false information. We have\ndiscovered that samples from different categories result in distinct and independent activation state distributions for each neuron. Therefore, this study proposes a method that detects\nadversarial samples of fake news by observing the activation states of neurons and modeling them as a Poisson distribution. The results of the experiment showed\nthat our method can effectively detect AEs mixed in normal data and remove them, thereby improving the classification accuracy of the model by about 17%.\nThe experimental results show that the method proposed in this article can improve the detection accuracy of fake news AEs. © 2014 IEEE."
+    },
+    {
+      "document_id": 117,
+      "score": null,
+      "abstract": "Social media platforms enable the rapid dissemination and consumption of information. However, users instantly consume such content regardless of the reliability of the shared data.\nConsequently, the latter crowdsourcing model is exposed to manipulation. contributes with an explainable and online classification method to recognize fake news in real-time. The proposed\nmethod combines both unsupervised and supervised Machine Learning approaches with online created lexica. The profiling is built using creator-, content- and context-based features using Natural\nLanguage Processing techniques. The explainable classification mechanism displays in a dashboard the features selected for classification and the prediction confidence. The performance of the proposed\nsolution has been validated with real data sets from Twitter and the results attain 80% accuracy and macro F-measure. This proposal is the first to\njointly provide data stream processing, profiling, classification and explainability. Ultimately, the proposed early detection, isolation and explanation of fake news contribute to increase the quality\nand trustworthiness of social media contents. © The Author(s) 2024."
+    },
+    {
+      "document_id": 129,
+      "score": null,
+      "abstract": "The increased propagation of fake news is the significant concern in the digital era. Identification of fake news from social media platforms is critical to\nstrengthen public trust and ensure social stability. This research presents an effective and accurate framework for identifying fake news that combines different steps of natural\nlanguage processing (NLP) technique along with a neural network architecture. A novel semantic veracity enhancement (SVE) classifier is designed and implemented in for detecting fake\nnews. The proposed approach leverages the effectiveness of sentiment analysis for identifying misleading or deceptive content and its subsequent implications on the sentiment and behaviour\nof social media users. A BERT model is used in this research for analysing the sentiments and classifying the texts from the social media platform.\nBy examining the sentiments, the SVE classifier differentiates between real news and fabricated content. To achieve this, three different datasets comprising both actual content and\nfabricated (tweaked) tweets are employed for training the SVE classifier. The potentiality of the SVE classifier is evaluated and compared with different optimization techniques. The\noutcome of the experimental analysis shows that the proposed approach exhibits an excellent performance in terms of classifying misinformation from the original information with an\noutstanding accuracy of 99% compared to other state of art methods. © 2024, The Author(s), under exclusive licence to Springer-Verlag GmbH Austria, part of Springer\nNature."
+    },
+    {
+      "document_id": 290,
+      "score": null,
+      "abstract": "Technological development combined with the evolution of the Internet has made it possible to reach an increasing number of people over the years and given\nthem the opportunity to access information published on the network. The growth in the number of fake news generated daily, combined with the simplicity with\nwhich it is possible to share them, has created such a large phenomenon that it has become immediately uncontrollable. Furthermore, the quality with which malicious\ncontent is made is increasingly high so even professional experts, such as journalists, have difficulty recognizing which news is fake and which is real. aims\nto implement an architecture that provides a service to final users that assures the reliability of news providers and the quality of news based on\ninnovative tools. The proposed models take advantage of several Machine Learning approaches for fake news detection tasks and take into account well-known attacks on trust.\nFinally, the implemented architecture is tested with a well-known dataset and shows how the proposed models can effectively identify fake news and isolate malicious sources.\n© 2008-2012 IEEE."
+    },
+    {
+      "document_id": 303,
+      "score": null,
+      "abstract": "A news article's online audience provides useful insights about the article's identity. However, fake news classifiers using such information risk relying on profiling. In response\nto the rising demand for ethical AI, we present a profiling-avoiding algorithm that leverages Twitter users during model optimisation while excluding them when an article's\nveracity is evaluated. For this, we take inspiration from the social sciences and introduce two objective functions that maximise correlation between the article and its\nspreaders, and among those spreaders. We applied our profiling-avoiding algorithm to three popular neural classifiers and obtained results on fake news data discussing a variety\nof news topics. The positive impact on prediction performance demonstrates the soundness of the proposed objective functions to integrate social context in text-based classifiers. Moreover,\nstatistical visualisation and dimension reduction techniques show that the user-inspired classifiers better discriminate between unseen fake and true news in their latent spaces. Our study\nserves as a stepping stone to resolve the underexplored issue of profiling-dependent decision-making in user-informed fake news detection. © 2022 The Author(s)"
+    },
+    {
+      "document_id": 304,
+      "score": null,
+      "abstract": "Fake news is a growing problem in today's digital world with the increase in dependence on social media for information amongst the populace. Additionally, the\nproliferation of digital media platforms and the rise of user-generated content have facilitated the dissemination of false and misleading information at an unprecedented scale. This\nhas serious consequences on individual and societal decision-making. Therefore, identifying fake news has become an important process to ensure the credibility and integrity of the\nconsumed information. seeks to detect fake news using Natural Language Processing techniques and machine learning models. In , several Natural Language Processing techniques were used\nfor text processing and vectorization. A labeled dataset of news articles was used to train the models, which included various models with supervised machine learning\nalgorithms. The performance of each model was evaluated using accuracy, precision, and confusion matrix metrics. Finally, the work includes a prediction pipeline that enables users\nto input news articles and obtain predictions from each of the trained models. Using these methods achieves an accuracy of up to 91%. © 2023\nIEEE."
+    },
+    {
+      "document_id": 435,
+      "score": null,
+      "abstract": "The proliferation of online media allows for the rapid dissemination of unmoderated news, unfortunately including fake news. The extensive spread of fake news poses a\npotent threat to both individuals and society. focuses on designing author profiles to detect authors who are primarily engaged in publishing fake news articles. We\nbuild on the hypothesis that authors who write fake news repeatedly write only fake news articles, at least in short-term periods. Fake news authors have\na distinct writing style compared to real news authors, who naturally want to maintain trustworthiness. We explore the potential to detect fake news authors by\ndesigning authors' profiles based on writing style, sentiment, and co-authorship patterns. We evaluate our approach using a publicly available dataset with over 5000 authors and\n20000 articles. For our evaluation, we build and compare different classes of supervised machine learning models. We find that the K-NN model performed the best,\nand it could detect authors who are prone to writing fake news with an 83% true positive rate with only a 5% false positive rate.\n© 2022 IEEE."
+    },
+    {
+      "document_id": 517,
+      "score": null,
+      "abstract": "In the age of the Internet, access to information is no longer a concern, the credibility, however, is the new era challenge. Information reaches people\nin an unfiltered format and therefore raises questions about the authenticity, validity, and credibility. focuses on increasing the reliability of the news, concentrating on static\nanalysis of written text intending to detect possible disingenuous information. To achieve this goal, intelligent solutions were engaged, designed to detect patterns of fake articles\nthat can hint at the lack of knowledge or outright maliciously. The architecture, of the proposed fake news detection system is a composite solution of\ndifferent classification algorithms, with a final network output obtained through the use of the ensemble learning methods, respectively the comparison of three voting systems. The\nbaseline model allowed a satisfactory accuracy of 99% for the given dataset. © 2021 IEEE."
+    },
+    {
+      "document_id": 609,
+      "score": null,
+      "abstract": "Due to easy access, rapid growth, and proliferation of the information available through regular news mediums or social media, it is becoming easy for people\nto look for news and consume it. But on the other hand, it is becoming a daunting task to differentiate between false information and true\ninformation thus leading to widespread fake news. We can define fake news as a type of deceiving journalism and statements that are used to artifice\nand mislead people. Also, the credibility of social media platforms is at stake where this news is mostly shared. These types of forged information news\ncan have serious negative societal impacts and thus their detection has become the emerging area that is attracting research attention. In , we propose a\nmodel for detecting fake news by examining the accuracy of a report and predicting its authenticity. By feature extraction and forming credibility scores from the\ntextual information, this model builds an ensemble network to learn the portrayals of news reports, authors, and titles simultaneously. Different machine learning algorithms like SVM,\n, LSTM, KNN, and Naive Bayes are used for higher accuracy and it was observed that LSTM showed better accuracy with 97%. The performance and\neffectiveness of classifiers were evaluated based on their precision, recall, and F1-Score. The usage of different algorithms shows the effectiveness of performance on the dataset.\n© 2020 IEEE."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "topic_id": 61,
+  "label": "T061",
+  "label_full": "berdledcd, deceptive",
+  "keywords": [
+    "berdledcd",
+    "deceptive",
+    "false",
+    "dissemination",
+    "dl",
+    "realm",
+    "blockchain",
+    "information",
+    "labelled",
+    "irss"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 9,
+      "score": null,
+      "abstract": "The widespread dissemination of deceptive content on social media presents a substantial challenge to preserving authenticity and trust. The epidemic growth of false news is\ndue to the greater use of social media to transmit news, rather than conventional mass media such as newspapers, magazines, radio, and television. Humans' incapacity\nto differentiate among true and false facts exposes fake news as a threat to logical truth, democracy, journalism, and government credibility. Using combination of advanced\nmethodologies, Deep learning (DL) methods, and Natural Language Processing (NLP) approaches, researchers and technology developers attempt to make robust systems proficient in discerning the subtle\nnuances that betray deceptive intent. Analysing conversational linguistic patterns of misleading data, these techniques’ purpose to progress the resilience of social platforms against the spread\nof deceptive content, eventually contributing to an additional informed and trustworthy online platform. proposed a Knowledge-Aware NLP-Driven AlBiruni Earth Radius Optimization Algorithm with Deep Learning\nTool for Enhanced Deceptive Content Detection (BER-DLEDCD) algorithm on Social Media. The purpose of the BER-DLEDCD system is to identify and classify the existence of\ndeceptive content utilizing NLP with optimal DL model. In the BER-DLEDCD technique, data pre-processing takes place to change the input data into compatible format. Furthermore,\nthe BER-DLEDCD approach applies hybrid DL technique encompassing Convolutional Neural Network with Long Short-Term Memory (CNN-LSTM) methodology for deceptive content detection. Moreover, the BER approach\nhas been deployed to boost hyperparameter choice of the CNN-LSTM technique which leads to enhanced detection performance. The simulation outcome of the BER-DLEDCD system has\nbeen examined employing benchmark database. The extensive outcomes stated the BER-DLEDCD system achieved excellent performance with the accuracy of 94 %, 94.83 % precision, 94.30\n% F-score with other recent approaches. © 2024 Elsevier Ltd"
+    },
+    {
+      "document_id": 93,
+      "score": null,
+      "abstract": "In the realm of the Social Web, we are continuously surrounded by information pollution, posing significant threats to both individuals and society as a whole.\nInstances of false news, for instance, wield the power to sway public opinion on matters of politics and finance. Deceptive reviews can either bolster or\ntarnish the reputation of businesses, while unverified medical advice may steer people toward harmful health practices. In light of this challenging landscape, it has become\nimperative to ensure that users have access to both topically relevant and truthful information that does not warp their perception of reality, and there has\nbeen a surge of interest in various strategies to combat disinformation through different contexts and multiple tasks. The purpose of the ROMCIR Workshop, for some\nyears now, is precisely that of engaging the Information Retrieval community to explore potential solutions that extend beyond conventional misinformation detection approaches. Key objectives include\nintegrating information truthfulness as a fundamental dimension of relevance within Information Retrieval Systems (IRSs) and ensuring that truthful search results are also explainable to IRS\nusers. Moreover, it is essential to evaluate the role of generative models such as Language Models (LLMs) in inadvertently amplifying misinformation problems, and how they\ncan be used to support IRSs. © The Author(s), under exclusive license to Springer Nature Switzerland AG 2024."
+    },
+    {
+      "document_id": 161,
+      "score": null,
+      "abstract": "In recent years, the pervasive dissemination of misinformation and deliberately falsified content, commonly referred to as 'fake news,' has become a critical challenge in the\nrealm of information dissemination. With the exponential growth of digital media and online platforms, the ease and speed at which misleading information can be generated\nand spread have increased substantially. Addressing the formidable task of detecting fake news has thus become an imperative within the field of information technology. The\nsupervised model gives promising results. However, the availability of labelled data is critical in the realm of fake news detection. Leveraging unlabeled data alongside labelled\ndata is an effective approach, but it requires careful handling. explores the application of Semi-Supervised Learning for fake news detection by integrating Label Propagation and\nvarious ML models as base classifiers. By leveraging both labelled and unlabeled data, Label Propagation with CatBoost Classifier seeks to overcome traditional limitations, offering a\npromising avenue for bolstering the reliability of automated systems in distinguishing between authentic and deceptive information in the vast landscape of digital content. © 2024\nIEEE."
+    },
+    {
+      "document_id": 285,
+      "score": null,
+      "abstract": "Background: The contemporary media landscape is saturated with the ubiquitous presence of misinformation. One can point to several factors that amplify the spread and dissemination\nof false information, such as blurring the line between expert and layman's opinions, economic incentives promoting the publication of sensational information, the zero cost of\nsharing false information, and many more. , we investigate some of the mechanisms of fake news dissemination that have eluded scientific scrutiny: the evaluation of\nveracity and behavioral engagement with information in light of its factual truthfulness (either true or false), cognitive utility (either enforcing or questioning participants' beliefs), and\npresentation style (either sober or populistic). Results: Two main results emerge from our experiment. We find that the evaluation of veracity is mostly related to\nthe objective truthfulness of a news item. However, the probability of engagement is more related to the congruence of the information with the participants' preconceived\nbeliefs than to objective truthfulness or information presentation style. Conclusion: We conclude a common notion that the spread of fake news can be limited by\nfact-checking and educating people might not be entirely true, as people will share fake information as long as it reduces the entropy of their mental\nmodels of the world. We also find support for the Trojan Horse hypothesis of fake news dissemination. Copyright © 2023 Piksa, Noworyta, Gundersen, Kunst, Morzy,\nPiasecki and Rygula."
+    },
+    {
+      "document_id": 388,
+      "score": null,
+      "abstract": "There has been a dramatic increase in the transmission of false information on social media over time. Concerns have been expressed about the effects of\nfalse information on the industry, not only by ordinary people but also by marketers. False information is often produced for commercial purposes to draw viewers\nand gather money through advertising. The whole world is affected by fake news. False and appealing news articles have been published by some unreliable sources,\nand this news cannot be confirmed because no regulatory system exists. As a result, these unreliable sources are free to post whatever they want, which\nin some circumstances, even causes social chaos. Due to the internet's ease, unsuitable news can spread faster than ever. However, it has been shown that\ninfluential media organizations with nefarious intentions have created false news to impact global events and policies. A conceptual framework for fake news detection using machine\nlearning and blockchain is proposed in . The idea is to give ratings to the content by experts and ordinary people and check for the\nauthenticity of the content. Ethereum blockchain is used to make the system decentralized, and the InterPlanetary File System is used as off- chain storage for\nblockchain. A Decentralized-Application will also be created in Ethereum, where users can read the news. InterPlanetary File System will be used to store the data,\nand the hash of the metadata will be stored in the blockchain. © 2023 Bharati Vidyapeeth, New Delhi."
+    }
+  ]
+}

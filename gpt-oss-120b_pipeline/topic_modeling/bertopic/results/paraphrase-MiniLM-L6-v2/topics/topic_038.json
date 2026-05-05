@@ -1,0 +1,50 @@
+{
+  "topic_id": 38,
+  "label": "T038",
+  "label_full": "experiment, recognition",
+  "keywords": [
+    "news",
+    "experiment",
+    "recognition",
+    "true",
+    "immediate",
+    "share",
+    "nonphysical",
+    "feedback",
+    "interventions",
+    "influence"
+  ],
+  "n_docs": 6,
+  "documents": [
+    {
+      "document_id": 87,
+      "score": null,
+      "abstract": "How can we empower social media users to better discern the veracity of news and share less false news? This survey experiment (N = 636)\nassessed the effectiveness of two interventions - signing a Pro-Truth Pledge and utilizing a Fact-Checking Guide. Results showed that utilizing the Fact-Checking Guide increased skepticism\nof news posts, likelihood to verify news posts, verification engagement, and reduced intention to share news without regard to news veracity. Before and after comparisons\nindicated that after verification engagement activities, truth and sharing discernment improved with higher factual accuracy ratings for true news, lower accuracy ratings for false news,\nand a greater likelihood to share true news compared to false news. Individual's engagement in verification was identified as a crucial mechanism through which the\nFact-Checking Guide intervention led to better truth and sharing discernment. The study could inform social media designs that promote a truthful news environment. © 2024\nThe Author(s). Published by Oxford University Press on behalf of International Communication Association. All rights reserved."
+    },
+    {
+      "document_id": 362,
+      "score": null,
+      "abstract": "Fake news has emerged as a significant problem for society. Recent research has shown that shifting attention to accuracy improves the quality of content shared\nby individuals, thereby helping us mitigate the harmful effects of fake news. However, the parts of a news story that can influence individuals' ability to\ndiscern the true state of information presented are understudied. We conducted an online experiment (N=408) to determine how different elements (text and paratext) of a\nnews story influence individuals' ability to detect the true state of the information presented. The participants were presented with the headline (control), main text, graphs/images,\nand sharing statistics of true and fake news stories and asked to evaluate the story's accuracy based on each of these elements separately. Our findings\nindicate that individuals were less accurate when identifying fake news from headlines, text, and graphs/images. When asked to evaluate the story based on sharing statistics,\nthey could distinguish fake stories from real news more accurately. Our findings also indicate that heuristics that apply to true news are ineffective for detecting\nthe veracity of fake news. © 2023 IEEE Computer Society. All rights reserved."
+    },
+    {
+      "document_id": 406,
+      "score": null,
+      "abstract": "The aim of the study is to research the effects of individual evaluation of fake and truthful news about COVID-19, compared to the exposure to\nfact-checking on the intention to share them via WhatsApp. An online experiment was conducted with a convenience sample of 819 Costa Ricans. Results show that\npeople in the individual evaluation condition assess completely fake news with greater veracity and completely truthful information with less veracity, compared to the fact-checking condition.\nThis response is more pronounced in the most religious people and among those most affected by structural inequalities in Costa Rican society (e.g., lower educational\nlevel, living on the coasts and lower subjective income). Finally, both the individual evaluation of disinformation content and exposure to fact-checking reduce the intention to\nshare fake news about COVID-19 via WhatsApp. © 2021 Informa UK Limited, trading as Taylor & Francis Group."
+    },
+    {
+      "document_id": 456,
+      "score": null,
+      "abstract": "The objective of this research was to analyze the effect of immediate feedback on the detection and recognition memory of false and true news, using\nthe Signal Detection Theory. For this, two experiments were carried out; in experiment one no feedback was presented; in experiment 2 immediate feedback was included.\nThe experiments were divided into 2 phases: discrimination and news recognition memory. It included the participation of 93 young people, who judged the veracity or\nfalsity of the news using a forced choice task, in 24 news with two types of attributes, physical and non-physical. The results indicated in experiment\none, that the non-physical attributes alter the detection and memory recognition of the news, making the physical attribute of the font color irrelevant. In experiment\n2, immediate feedback was found to improve detection, but not recognition, which is impaired by non-physical attributes as in experiment one. These findings show the\nneed to present news readers with different sources of immediate verification to improve their detection, as well as the need to generate good information verification\npractices in the communication sector. © 2022, Sociedad Interamericana de Psicologia. All rights reserved."
+    },
+    {
+      "document_id": 525,
+      "score": null,
+      "abstract": "This study examines the effect of specific factors (including user features, such as propensity for conspiracy thinking, and news item features, such as news frame\nand news source) on the accuracy of social media users in fake news recognition. Being a part of a larger research on fake news perception,\nthis study uses the data from an online experiment that asks social media users from three countries (Russia, Ukraine and Kazakhstan) to evaluate a set\nof news items constructed with specific conditions. Namely, the users receive true and fake news about the neighboring countries framed differently and ascribed to either\ndomestic or foreign sources. We then assess users’ accuracy in detecting fake news. The results of the study confirm the important role of conspiracy thinking\nstyle in false news recognition (leading to a decrease in accuracy) and users’ capability for deliberation on social media more broadly. However, the influence of\ncontextual factors is mixed. While news sources exhibit no influence on the accuracy of fake or true news detection, dominant framing tends to increase the\naccuracy of true news only. More predictors of news recognition accuracy are discussed in the paper. As a result, this research contributes to the theory\nof fake news susceptibility by revealing a rich set of individual factors and interaction effects that influence human judgment about news truthfulness and impact deliberation\npossibilities in socially mediated environments. © 2021, Springer Nature Switzerland AG."
+    },
+    {
+      "document_id": 617,
+      "score": null,
+      "abstract": "The detection of false and misleading news has become a top priority to researchers and practitioners. Despite the large number of efforts in this area,\nmany questions remain unanswered about the ideal design of interventions, so that they effectively inform news consumers. In , we seek to fill part of\nthis gap by exploring two important elements of tools’ design: the timing of news veracity interventions and the format of the presented interventions. Specifically, in\ntwo sequential studies, using data collected from news consumers through Amazon Mechanical Turk (AMT), we study whether there are differences in their ability to correctly\nidentify fake news under two conditions: when the intervention targets novel news situations and when the intervention is tailored to specific heuristics. We find that\nin novel news situations users are more receptive to the advice of the AI, and further, under this condition tailored advice is more effective than\ngeneric one. We link our findings to prior literature on confirmation bias and we provide insights for news providers and AI tool designers to help\nmitigate the negative consequences of misinformation. © 2020 The Authors"
+    }
+  ]
+}

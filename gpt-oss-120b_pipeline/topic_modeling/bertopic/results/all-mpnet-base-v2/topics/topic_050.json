@@ -1,0 +1,45 @@
+{
+  "topic_id": 50,
+  "label": "T050",
+  "label_full": "bdo, ilp",
+  "keywords": [
+    "bdo",
+    "ilp",
+    "rules",
+    "dolphins",
+    "conveyance",
+    "bottlenose",
+    "programming",
+    "research",
+    "proof",
+    "technologies"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 134,
+      "score": null,
+      "abstract": "The integration of Inductive Logic Programming (ILP) and Bottlenose Dolphin Optimization (BDO) in this research addresses a pressing issue in today's information-saturated landscape: the proliferation\nof fake news. In an era where misleading information can spread rapidly, traditional methods often fall short in effectively identifying deceptive content. To combat this\nchallenge, our approach harnesses the synergies of ILP and BDO. ILP plays a crucial role in constructing logical rules that capture intricate relationships within news\ndata. By doing so, it delves deep into the content, seeking out patterns and inconsistencies that may not be obvious at first glance. BDO, on\nthe other hand, takes inspiration from the social behavior of bottlenose dolphins to optimize the process of generating these rules. Just as dolphins collaborate and\ncommunicate to solve complex problems, BDO helps refine the logical rules for better accuracy. Ultimately, this research underscores the potential of bio-inspired optimization, such as\nBDO, combined with the precision of logic programming (ILP) to strengthen the integrity of information dissemination platforms. In an age where the veracity of information\nis paramount, this innovative approach offers a promising solution to combat the spread of fake news and promote the dissemination of authentic, reliable information. ©\n2024 IEEE."
+    },
+    {
+      "document_id": 206,
+      "score": null,
+      "abstract": "The proliferation of hoaxes on the Internet and toxic messages (with offensive or very negative content and high dissemination rates) constitute a current problem on\nthe road to truthful and respectful information. Due to the enormous influence that social media have in the generation of opinion and as a channel\nof information for society, the efforts that various companies, organisations and institutions are making to detect and counteract the high volume of disinformation circulating on\nthe networks are important. This project deals with the implementation of a proof of concept of a system for analysing the fairness of messages published\nthrough social media, built on the basis of various methods and algorithms from human language technologies. These methods and algorithms are the result of research\nthat the participating groups have been working on for the last few years and are promising solutions for the determination of different levels of quality\nof publications in two fundamental aspects: their veracity and their toxicity. To address the proof of concept, activities aimed at the definition and integration of\nthese technologies and their evaluation by stakeholders are proposed. This will make it possible to establish the responsiveness of these technologies to the needs of\nsociety and industry, as well as their viability to work towards higher levels of technological maturity. © 2024 Copyright for by its authors."
+    },
+    {
+      "document_id": 371,
+      "score": null,
+      "abstract": "With the widespread use of social media platforms within our modern society, these platforms have become a popular medium for disseminating news across the globe.\nWhile some of these platforms are considered reliable sources for sharing news, others publicize the information without much validation. The transmission of fake news on\nsocial media impacts people’s behavior and negatively influences people’s decisions. During the COVID-19 outbreak, it was more evident than ever. This has led to a\ndemand for conducting research studies to explore sophisticated approaches to assess the integrity of news worldwide. The main objective of this research paper was to\noutline our proposed experimental methodology to detect and access fake news using Data Mining and Natural Language Processing. The presented research effort provides a method\nto verify the authenticity of the news disseminated in social networks by dividing the process into four significant stages: news aggregation, publication collection, data analysis,\nand matching results."
+    },
+    {
+      "document_id": 555,
+      "score": null,
+      "abstract": "Social media is increasingly used as a tool for acquiring and disseminating information. However, there are many fake articles and falsehoods. Accordingly, to make good\nuse of social media, it is important to examine the authenticity of an article, but such examination is often difficult for unskilled people. In this\nresearch, we aim to realize a method for to promote experience in identifying fake articles by focusing on the opinion trends of article readers. Here,\nwe describe a framework for this method, including extraction of fake articles and related articles, with a focus on citations. © 2021 IEEE."
+    },
+    {
+      "document_id": 660,
+      "score": null,
+      "abstract": "PC Mediated Communication (CMC) advances like, for example, online journals, Twitter, Reddit, and other web based life presently have such a large number of dynamic\nclients that they have turned into an ideal stage for news conveyance on a mass scale. Such a mass scale news conveyance framework accompanies a\nproviso of faulty veracity. Building up the unwavering quality of data online is a strenuous and an overwhelming test yet it is basically essential particularly\namid the time-touchy circumstances, for example, genuine crises which can have destructive impact on people and society. 2016 US Presidential race is an encapsulation of\nthe previously mentioned crisis. In a study, it was concluded that the public's engagement with phoney news through was higher than through standard sources. So\nas to battle the spread of malevolent and unplanned falsehood in online networking we built up a model to recognise counterfeit news. Counterfeit news recognition\nis a procedure of classifying news and estimating it on the continuum of veracity. Detection is done by classifying and clustering assertions made about the\nevent followed by veracity assessment methods emerging from linguistic cue, characteristics of the people involved and network propagation dynamics. ©BEIESP."
+    }
+  ]
+}

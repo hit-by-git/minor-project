@@ -1,0 +1,65 @@
+{
+  "topic_id": 25,
+  "label": "T025",
+  "label_full": "false, multimodal",
+  "keywords": [
+    "false",
+    "multimodal",
+    "news",
+    "text",
+    "content",
+    "social",
+    "tweets",
+    "information",
+    "network",
+    "tweet"
+  ],
+  "n_docs": 9,
+  "documents": [
+    {
+      "document_id": 7,
+      "score": null,
+      "abstract": "In the period of extensive social media use, unconventional formats for news sharing often lack reliability, with misleading information disseminated through graphics emerging as a\nunique tactic. While the verification of the authenticity of news is a broad research domain, scholars have mainly focused on textual data. The misleading information\ndetection model described in uses neural sleuth-based networks to capture image data from the freely accessible Fakeddit dataset. The results are scrutinized using a confusion\nmatrix, and a comprehensive evaluation of the model's performance metrics is conducted across six categories: “true,” “satire,” “false connection,” “imposter content,” “manipulated content,” and “misleading\ncontent.” contributes an inclusive analysis of the model's effectiveness as a problem posed by misleading information on social media. © The Author(s), under exclusive license\nto Springer Nature Switzerland AG 2025."
+    },
+    {
+      "document_id": 84,
+      "score": null,
+      "abstract": "Automatic detection of fake content in social media such as Twitter is an enduring challenge. Technically, determining fake news on social media platforms is a\nstraightforward binary classification problem. However, manually fact-checking even a small fraction of daily tweets would be nearly impossible due to the sheer volume. To address\nthis challenge, we crawled and crowd-sourced one of the most extensive ground-truth tweet datasets. Utilizing and expert labeling as a base, it contains more than\n180 000 labels from 2009 to 2022, creating five- and three-label classification using Amazon Mechanical Turk. We utilized multiple levels of validation to ensure an\naccurate ground-truth benchmark dataset. Then, we created and implemented numerous machine learning and deep learning algorithms, including different variations of bidirectional encoder representations from transformers\n(BERT)-based models and classical machine learning algorithms on the data to test the accuracy of real/fake tweet detection with both categories. Then, determining which versions\ngave us the highest result metrics. Further analysis is performed on the dataset by explicitly utilizing the DBSCAN text clustering algorithm combined with the YAKE\nkeyword creation algorithm to determine topics' clustering and relationships. Finally, we analyzed each user in the dataset, determining their bot score, credibility score, and influence\nscore for a better understanding of what type of Twitter user posts, their influence with each of their tweets, and if there were any underlying\npatterns to be drawn from each score concerning the truthfulness of the tweet. The experiment's results illustrated profound improvement for models dealing with short-length text\nin solving a real-life classification problem, such as automatically detecting fake content in social media. © 2014 IEEE."
+    },
+    {
+      "document_id": 95,
+      "score": null,
+      "abstract": "Social media platforms have become crucial channels for the rapid dissemination of news in various formats, including text, images, audio, and video. Ensuring the authenticity\nof news content at primary stage is crucial to prevent the spread of false information. In order to gather semantic and contextual data for the\nidentification of false news, current state-of-the-art majorly concentrated on text-based techniques, leveraging pre-trained word embedding and language models. However, these approaches suffer from the limitations\nviz. inefficiency in extracting context-based features, reliance on pre-trained models trained on more compact corpora, and static-masking utilization. In order to get over these issues,\na new Framework for Transfer Learning based on Content for real-time False or Fake News Detection (MTL-rtFND) that integrates multimodal transfer learning methodologies has been\nproposed in . It consists of a Data preprocessing block, Multimodal Feature Extraction Block (MFEB) and a Classification Block (CB). In the MFEB, a multimodal\npre-trained mode, such as a fusion of visual and textual representations is leveraged to efficiently capture context-based features. This pre-trained model is trained on larger-scale\nmultimodal datasets, enabling the extraction of richer contextual information. The resulting multimodal feature vectors from the MFEB are fed into the CB that employs a\nreal time classification of news articles as fake or legitimate using deep neural network. The proposed MTL-rtFND model evaluation for real world datasets, demonstrating its\neffectiveness for real-time detection of fake news. The experimental results show significant improvements compared to state-of-the-art methods, obtaining an average gain in accuracy of 6.34%\nacross multiple text embedding techniques. The findings demonstrate the capacity of multimodal transfer learning to improve fake news detection in real-time scenarios, thus contributing to\nmitigate the undesirable impact of misinformation on social media platforms. © The Author(s), under exclusive license to Springer Nature Switzerland AG 2024."
+    },
+    {
+      "document_id": 219,
+      "score": null,
+      "abstract": "The widespread dissemination of fake news on social media has brought about the various degrees of negative impact on society. To address the issue of\ninsufficient social context data in the early identification of erroneous information, we suggest a model that combines dual-branch network training. A max-pooling branch (MPB) and\na generalised mean pooling branch (GPB) are the two main parts of this approach. While the GPB adds trainable pooling layers to capture the underlying\nsemantic qualities of news articles, the MPB uses a convolutional neural network to extract text attributes from the articles. Additionally, every branch network evaluates the\nsemantic importance of the news headline about the body text. Ultimately, judgements about the veracity of the news are based on the combined output of\nthese two branch networks’ cooperative training. The experimental results show that the suggested model outperforms baseline models in evaluation metrics such as accuracy, recall, and\nF1-Score, with an astounding F1-score of 94.1%. © 2024, Ismail Saritas. All rights reserved."
+    },
+    {
+      "document_id": 260,
+      "score": null,
+      "abstract": "Detecting the authenticity of news information published on social media has important practical significance. Due to the multimodal characteristics of false information such as information\ncontent, user related attributes, and information dissemination, existing false information detection technologies cannot effectively meet the multimodal detection requirements of false information. In , we\npropose a different and novel method. Firstly, we propose a multimodal false information detection model that integrates multiple layers such as front-end, midrange, and back-end;\nSecondly, we fused the relevant field information of the existing public data set of false information with the generated content of GPT's big model of\nartificial intelligence innovative learning ability in Natural language processing, expanding the public data set of false information; Finally, we utilized the extended false information public\ndataset based on GPT data fusion to train and validate this multi-layered fusion multimodal false information detection model. In actual detection, as long as the\noriginal tweet text content, user related attributes, and relevant evidence and other feature information are given, it can better predict whether the tweet news information\nis false information. Experiments have shown that compared with existing false information detection methods, the multimodal false information detection method based on knowledge distillation has\nsignificant accuracy advantages. © 2023 IEEE."
+    },
+    {
+      "document_id": 620,
+      "score": null,
+      "abstract": "In a scenario where more and more individuals use online social network platforms as an instrument to propagate news without any control, it is necessary\nto design and implement new methods and techniques that guarantee the veracity of the disseminated news. In , we propose a method to classify true\nand false news, commonly known as fake news, which exploits time series-based features extracted from the evolution of news, and features from the users involved\nin the news spreading. Applying our methodology over a real Twitter dataset of precategorized true and false news, we have obtained an accuracy of 84.61%\nin 10-fold cross-validation, and proved experimentally that all the selected features are relevant for this classification task. © 2020, Springer Nature Switzerland AG."
+    },
+    {
+      "document_id": 636,
+      "score": null,
+      "abstract": "In we investigate automated methods for understanding false news dissemination on Twitter in relation to one particular event: the 2019 Indonesian presidential election. We collected\na sample of 2,360 tweets related to topics addressed by fact-checking websites. The tweets were hand-labeled according to their trustworthiness. We trained several classification models\non the human-labelled data, using three groups of text features. The word n-gram features appeared to be the most effective, reaching a recall of 85%\nfor true news and 62% for false news. With this classifier we labeled a larger sample of tweets related to fact-checking topics in the context\nof the 2019 Indonesian presidential elections. We then analysed the dissemination of true news and false news in the underlying Twitter network using community detection\nand centrality measures. The top influential users in the network disseminate more false news, including a government institution account and a verified politician's account. Our\nresults show that the combination of text features and social network analysis can provide valuable insights in detecting and preventing the dissemination of false news.\nMoreover, we make the dataset used in this research available for reuse by the community. © 2020 CEUR-WS. All rights reserved."
+    },
+    {
+      "document_id": 692,
+      "score": null,
+      "abstract": "When a message, such as a piece of news, spreads in social networks, how can we classify it into categories of interests, such as genuine\nor fake news? Classification of social media content is a fundamental task for social media mining, and most existing methods regard it as a text\ncategorization problem and mainly focus on using content features, such as words and hashtags. However, for many emerging applications like fake news and rumor detection,\nit is very challenging, if not impossible, to identify useful features from content. For example, intentional spreaders of fake news may manipulate the content to\nmake it look like real news. To address this problem, concentrates on modeling the propagation of messages in a social network. Specifically, we propose a\nnovel approach, TraceMiner, to (1) infer embeddings of social media users with social network structures; and (2) utilize an LSTM-RNN to represent and classify propagation\npathways of a message. Since content information is sparse and noisy on social media, adopting TraceMiner allows to provide a high degree of classification accuracy\neven in the absence of content information. Experimental results on real-world datasets show the superiority over state-of-the-art approaches on the task of fake news detection\nand news categorization."
+    },
+    {
+      "document_id": 703,
+      "score": null,
+      "abstract": "In the wake of the 2016 US Presidential Election, the upsurge of fake news has been a subject of increased discussion and debate. In ,\nwe propose a general framework that can been adopted in future elections worldwide to augment humans in making better decisions when it comes to recognizing\nnews deception and identifying hidden bias of the author. For our study, we constructed a dataset comprising 200 tweets on »Hilary Clinton», while performing veracity\nassessment. We initially perform »text normalization» on tweets, explore techniques for feature extraction to classify news into categories, perform a comprehensive linguistic analysis on tweets,\nextract bag-of-words to find noticeable pattern, and finally apply k-nearest neighbor algorithm for classifying polarized news from credible. We later turn to some popular evaluation\nmetrics to quantify the success rate of our framework, discuss the results of implementing knn algorithm and discuss interconnected research domains and future research directions\nfor constructing an ideal model for fake news detection system around social media. © 2018 IEEE."
+    }
+  ]
+}

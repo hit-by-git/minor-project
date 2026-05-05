@@ -1,0 +1,60 @@
+{
+  "topic_id": 31,
+  "label": "T031",
+  "label_full": "Misinformation & Propaganda",
+  "keywords": [
+    "covid",
+    "covid19",
+    "19",
+    "rumours",
+    "virus",
+    "fake",
+    "tracking",
+    "tcn",
+    "phase",
+    "health"
+  ],
+  "n_docs": 8,
+  "documents": [
+    {
+      "document_id": 21,
+      "score": null,
+      "abstract": "As social media users can easily access, generate, and spread information regardless of its authenticity, the proliferation of fake news related to public health has\nbecome a serious problem. Since these rumors have caused severe social issues, detecting them in the early stage is imminent. Therefore, in , we propose\na deep learning model that can debunk fake news on COVID-19, as a case study, at the initial stage of emergence. The evaluation with a\nnewly-collected dataset consisting of both the COVID-19 and Non-COVID-19 fake news claims demonstrates that the proposed model achieves high performance, indicating that the model can\nidentify fake news on COVID-19 in the early stage with a small amount of data. We believe that our methodology and findings can be applied\nto detect fake news on newly-emerging and critical topics, which should be performed with insufficient resources."
+    },
+    {
+      "document_id": 485,
+      "score": null,
+      "abstract": "With the widespread use of social media, online social platforms like Twitter have become a place of rapid dissemination of information―both accurate and inaccurate. After\nthe COVID-19 outbreak, the overabundance of fake information and rumours on online social platforms about the COVID-19 pandemic has spread over society as quickly as\nthe virus itself. As a result, fake news poses a significant threat to effective virus response by negatively affecting people’s willingness to follow the proper\npublic health guidelines and protocols, which makes it important to identify fake information from online platforms for the public interest. In this research, we introduce\nan approach to detect fake news using deep learning techniques, which outperform traditional machine learning techniques with a 93.1% accuracy. We then investigate the content\ndifferences between real and fake news by applying topic modeling and linguistic analysis. Our results show that topics on Politics and Government services are most\ncommon in fake news. In addition, we found that fake news has lower analytic and authenticity scores than real news. With the findings, we discuss\nimportant academic and practical implications of the study. © 2022,Asia Pacific Journal of Information Systems.All Rights Reserved."
+    },
+    {
+      "document_id": 506,
+      "score": null,
+      "abstract": "Context and Background: Since December 2019, the coronavirus (COVID-19) epidemic has sparked considerable alarm among the general community and significantly affected societal attitudes and perceptions.\nApart from the disease itself, many people suffer from anxiety and depression due to the disease and the present threat of an outbreak. Due to\nthe fast propagation of the virus and misleading/fake information, the issues of public discourse alter, resulting in significant confusion in certain places. Rumours are unproven\nfacts or stories that propagate and promote sentiments of prejudice, hatred, and fear. Objective. The study's objective is to propose a novel solution to detect\nfake news using state-of-the-art machines and deep learning models. Furthermore, to analyse which models outperformed in detecting the fake news. Method. In the research study,\nwe adapted a COVID-19 rumours dataset, which incorporates rumours from news websites and tweets, together with information about the rumours. It is important to analyse\ndata utilizing Natural Language Processing (NLP) and Deep Learning (DL) approaches. Based on the accuracy, precision, recall, and the f1 score, we can assess the\neffectiveness of the ML and DL algorithms. Results. The data adopted from the source (mentioned in the paper) have collected 9200 comments from Google and\n34,779 Twitter postings filtered for phrases connected with COVID-19-related fake news. Experiment 1. The dataset was assessed using the following three criteria: veracity, stance, and\nsentiment. In these terms, we have different labels, and we have applied the DL algorithms separately to each term. We have used different models in\nthe experiment such as (i) LSTM and (ii) Temporal Convolution Networks (TCN). The TCN model has more performance on each measurement parameter in the evaluated\nresults. So, we have used the TCN model for the practical implication for better findings. Experiment 2. In the second experiment, we have used different\nstate-of-the-art deep learning models and algorithms such as (i) Simple RNN; (ii) LSTM + Word Embedding; (iii) Bidirectional + Word Embedding; (iv) LSTM + CNN-1D;\nand (v) BERT. Furthermore, we have evaluated the performance of these models on all three datasets, e.g., veracity, stance, and sentiment. Based on our second\nexperimental evaluation, the BERT has a superior performance over the other models compared. © 2022 Rubia Fatima et al."
+    },
+    {
+      "document_id": 512,
+      "score": null,
+      "abstract": "The World Health Organization declared the Coronavirus disease in 2019; that was a very hard time for people, and every single day, a new crisis\nemerged. In that case, everyone shares their stories on the social media platform on a daily basis, but no one is sure that information is\ntrue or misleading, and that becomes a challenge to detect differences between them. And to tackle this problem, has explored the veracity of social media\nstories using some machine learning models. The goal of is to test three different BERT base pre-trained transform learning models (BERT, DistilBERT, and RoBERTa) on\nan English COVID-19 fake news dataset to detect the fake and true news separately. We explore their capability with precision, recall, and F1-score to achieve\nbetter results compared with the previous research. © 2022 IEEE."
+    },
+    {
+      "document_id": 570,
+      "score": null,
+      "abstract": "Fake news is false information about current events, intentionally created to mislead readers. The spread of such fake news has the potential to create a\nnegative impact on individuals and society. With today’s straightforward creation of social media posts, there has been an increasing amount of fake news, compared to\ntraditional media in the past. We present one of the most serious societal issue of misinformation, specifically using Presidential Election and COVID-19 health related fake\nnews. We present multi-dimensional approaches that organizations and individuals could utilize for detecting fake news, ranging from human/social approaches, to technical approaches to organizational trust/policy\napproaches. The Machine Learning approach as a technical solution is presented for automating the detection of fake news and misleading contents. A fake news detection\nweb application is presented to make it easy for end users to determine whether an article is legitimate or fake."
+    },
+    {
+      "document_id": 622,
+      "score": null,
+      "abstract": "Rumors regarding epidemic diseases such as COVID 19, medicines and treatments, diagnostic methods and public emergencies can have harmful impacts on health and political, social\nand other aspects of people's lives, especially during emergency situations and health crises. With huge amounts of content being posted to social media every second\nduring these situations, it becomes very difficult to detect fake news (rumors) that poses threats to the stability and sustainability of the healthcare sector. A\nrumor is defined as a statement for which truthfulness has not been verified. During COVID 19, people found difficulty in obtaining the most truthful news\neasily because of the huge amount of unverified information on social media. Several methods have been applied for detecting rumors and tracking their sources for\nCOVID 19-related information. However, very few studies have been conducted for this purpose for the Arabic language, which has unique characteristics. Therefore, proposes a comprehensive\napproach which includes two phases: detection and tracking. In the detection phase of the study carried out, several standalone and ensemble machine learning methods were\napplied on the Arcov-19 dataset. A new detection model was used which combined two models: The Genetic Algorithm Based Support Vector Machine (that works on\nusers' and tweets' features) and the stacking ensemble method (that works on tweets' texts). In the tracking phase, several similarity-based techniques were used to obtain\nthe top 1% of similar tweets to a target tweet/post, which helped to find the source of the rumors. The experiments showed interesting results in\nterms of accuracy, precision, recall and F1-Score for rumor detection (the accuracy reached 92.63%), and showed interesting findings in the tracking phase, in terms of\nROUGE L precision, recall and F1-Score for similarity techniques. © 2021 Tech Science Press. All rights reserved."
+    },
+    {
+      "document_id": 626,
+      "score": null,
+      "abstract": "The spread of the COVID 19 virus has dramatically impacted global society by modifying its lifestyle. Social networks, video streaming tools, virtual collaborative environments have\nbeen the primary source of communication through the Internet. This suspension of the “real” has led all activities to be declined through new places and\ncontexts of virtual discussion, increasing new problems, including the most important related to the spread of so-called Fake News. The spread of such news can\nbe devastating: consider what is happening during the critical vaccination phase for COVID 19. In this scenario, systems able to recognize, in a practical way,\nthe truthfulness of news are becoming more and more valuable. aims to present an approach that combines probabilistic and machine learning techniques such as Latent\nDirichlet Allocation and K-NN in combination with Context-Awareness techniques to identify the veracity of the news. Adopting Context-Awareness techniques within the proposed system allows a\nbetter definition of the operational context Fake News refers to, reducing the problems of semantic polysemy. The first results obtained through standard datasets or using\ndata from real contexts are very interesting and promising. © 2021, Springer Nature Switzerland AG."
+    },
+    {
+      "document_id": 734,
+      "score": null,
+      "abstract": "An increase in news articles on various communication platforms or social media has resulted in higher possibilities of spread of non-factual or fake information. The\noverall volume and veracity of news makes it even more impossible to manually fact check each data and label them as true or false. Under\nsuch circumstances, we propose a belief index generator model that quantifies the belief to be associated with any random information making use of text analytic\nproximity measures. In the initial feature engineering, we use a modified TF-IDF algorithm. Post generation of word embeddings, various distance measures have been proposed and\ncompared as possible belief scores. The analysis has been carried out using 50K research articles on CoVid-19 to validate truths and The CoronaVirusFacts/DatosCoronaVirus Alliance Database\nto validate falsities in random CoVid related information. © 2020 IEEE."
+    }
+  ]
+}

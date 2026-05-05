@@ -1,0 +1,60 @@
+{
+  "topic_id": 31,
+  "label": "T031",
+  "label_full": "Misinformation & Propaganda",
+  "keywords": [
+    "checks",
+    "papers",
+    "assessment",
+    "fake",
+    "domain",
+    "intelligence",
+    "news",
+    "society",
+    "tfidf",
+    "methods"
+  ],
+  "n_docs": 8,
+  "documents": [
+    {
+      "document_id": 8,
+      "score": null,
+      "abstract": "Fake news has become proliferated on the internet, resulting in significant economic losses in the real world and even destabilizing the political landscape in certain\nregions. Unscrupulous individuals can exploit these fabrications for illicit gains, prompting an increase in the emergence of fake news across various fields. Human detection methods\nare no longer sufficient for discerning the authenticity of such news, and most existing algorithms remain focused on single-domain fake news detection, which struggles to\nmeet practical needs in terms of accuracy and timeliness. Challenges such as data distribution differences, nominal polysemy, and variations in dissemination patterns, all indicative of\ndomain shift, cause these methods to perform poorly when applied directly. Therefore, a targeted model designed to address domain shift is necessary. In , we\nemploy multiple BERT models for word embedding and use a multi-extraction network to initially extract features, followed by domain localization module for precise domain targeting,\nand design a fast model to address timeliness. Our experiments demonstrate that the methods designed significantly enhance the performance of fake news detection across multiple\ndomains. The code involved is publicly available on website © The Author(s), under exclusive licence to Springer Science+Business Media, LLC, part of Springer Nature 2024."
+    },
+    {
+      "document_id": 133,
+      "score": null,
+      "abstract": "With the exacerbation of the problem of fake news since the start of 2020's global pandemic, the authenticity of data and information now bears a\ngreater weight with the new age of social distancing where the Internet became the standard news source to many. Data-driven and human intelligence-based approaches to\ntackle fake news have both seen a rise in adoption but are coupled with their respective flaws, which led to the birth of a proposed\nsolution that combines both to identify the authenticity of news more accurately. The proposed solution utilizes Artificial Intelligence (AI) in the form of a Bidirectional\nEncoder Representations from Transformers (BERT) text classifier with the help of crowd intelligence to derive a novel trust index algorithm for evaluating news authenticity. The\nAI serves to evaluate news from a structural perspective whereas the crowd intelligence offsets the AI's potential misevaluation by performing manual fact checks based on\nthe majority rule. Both components complement one another by toning down the other's flaws, which ultimately results in a more trustworthy outcome. © 2024 Author(s)."
+    },
+    {
+      "document_id": 140,
+      "score": null,
+      "abstract": "Fake news information on the internet has recently emerged as one of the challenging concerns that can have an impact on society and individuals. Furthermore,\nthe propagation of fake news on social media increases the risk of loss of trustworthiness and disseminates fake information across multiple online platforms. As a\nresult, recognizing fake news on the internet plays an important role in society and among individuals. Knowing this, this study proposed an improved fake news\ndetection model that uses the proposed Hybrid Time-Frequency-Inverse Document Frequency (TF-IDF) to extract features and the Adaptive boosting ensemble classifier, which is a combination of\nIterative Dichotomiser 3 (ID-3), Random Forest (RF), and Nave Bayes (NB) classifiers. The characteristics are chosen using the Least Absolute Shrinkage and Selection Operator (LASSO),\nand the news is classified as fake or true using the Adaptive Boosting (AdaBoost) ensemble classifier. The obtained results show that TF-IDF with AdaBoost ensemble\nclassifier has a higher classification accuracy of 98.98% than the existing N-Gram with TF-IDF and Bidirectional Encoder Representation from Transformer (BERT) and Word2Vec with Convolutional\nNeural Network-Bidirectional Long Short Term Memory (CNN-Bi LSTM) with 96.81% and 97.74%, respectively. © 2024 by the authors."
+    },
+    {
+      "document_id": 728,
+      "score": null,
+      "abstract": "In a world flooded with information, often irrelevant, lucidity is power. Never as in this historical period can anyone, thanks to new technologies, participate as\na protagonist in the debates raised about events and issues that affect our society. In this flood of information, remaining lucid and knowing how to\ndiscriminate between real and false becomes fundamental. In this scenario, a leading role is played by Fake News, information that is partly or entirely untrue,\ndivulged through the Web, the media, or digital communication technologies. Fake news is characterized by an apparent plausibility, the latter fed by a distorted system\nof public opinion expectations, and by an amplification of the prejudices based on it, which facilitates its sharing and diffusion even in the absence of\nverification of the sources. Fake News is becoming a severe problem that affects various sectors of society: medicine, politics, culture, history are some of the\nareas that suffer most from the phenomenon of fake news, which can often generate significant social problems. will introduce a probabilistic approach to determining the\ndegree of truthfulness of the information. The system is based on the definition of some features, identified after an analysis of fake news in the\nliterature through NLP-based approaches and statistical methods. The specified features will highlight the syntactic, semantic, and social features of the information. These features are combined\nin a Bayesian Network, previously trained on a dataset composed of fake news, to provide a probabilistic level of the truthfulness of the information analyzed.\nThe proposed method has been tested in some real cases with very satisfactory results. © 2020, Springer Nature Switzerland AG."
+    },
+    {
+      "document_id": 732,
+      "score": null,
+      "abstract": "Fake news, malicious rumors, fabricated reviews, generated images and videos, are today spread at an unprecedented rate, making the task of manually assessing data veracity\nfor decision-making purposes a daunting task. Hence, it is urgent to explore possibilities to perform automatic veracity assessment. In we review the literature in search\nfor methods and techniques representing state of the art with regard to computerized veracity assessment. We study what others have done within the area of\nveracity assessment, especially targeted towards social media and open source data, to understand research trends and determine needs for future research. The most common veracity\nassessment method among the studied set of papers is to perform text analysis using supervised learning. Regarding methods for machine learning much has happened in\nthe last couple of years related to the advancements made in deep learning. However, very few papers make use of these advancements. Also, the papers\nin general tend to have a narrow scope, as they focus on solving a small task with only one type of data from one main\nsource. The overall veracity assessment problem is complex, requiring a combination of data sources, data types, indicators, and methods. Only a few papers take on\nsuch a broad scope, thus, demonstrating the relative immaturity of the veracity assessment domain. © 2019 The Authors"
+    },
+    {
+      "document_id": 819,
+      "score": null,
+      "abstract": "In , we present a dataset of 713k articles collected between 02/2018-11/2018. These articles are collected directly from 194 news and media outlets including mainstream,\nhyper-partisan, and conspiracy sources. We incorporate ground truth ratings of the sources from 8 different assessment sites covering multiple dimensions of veracity, including reliability, bias,\ntransparency, adherence to journalistic standards, and consumer trust. The NELA-GT-2018 dataset can be found at Copyright © 2019, Association for the Advancement of Artificial Intelligence\n( All rights reserved."
+    },
+    {
+      "document_id": 876,
+      "score": null,
+      "abstract": "Fake news proliferation and distrust in news media has become an endemic problem in the American society and has aided in the corruption of civil\npolitical discourse. The formation of a standard and subsequent implementation using automated algorithmic processes will provide unbiased ratings and evaluations of online news media truthfulness\nin the form of easy-to-understand scores. This easily accessible information will aid in the reduction of fake news proliferation and help produce a more informed\nelectorate. © 2017 IEEE."
+    },
+    {
+      "document_id": 884,
+      "score": null,
+      "abstract": "The emergence of \"Fake News\" and misinformation via online news and social media has spurred an interest in computational tools to combat this phenomenon. In\nwe present a new \"Related Fact Checks\" service, which can help a reader critically evaluate an article and make a judgment on its veracity by\nbringing up fact checks that are relevant to the article. We describe the core technical problems that need to be solved in building a \"Related\nFact Checks\" service, and present results from an evaluation of an implementation. © 2017 CEUR-WS. All rights reserved."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "topic_id": 51,
+  "label": "T051",
+  "label_full": "Misinformation & Propaganda",
+  "keywords": [
+    "graph",
+    "news",
+    "topology",
+    "propagation",
+    "bidirectional",
+    "networks",
+    "fake",
+    "neural",
+    "imbalance",
+    "represent"
+  ],
+  "n_docs": 6,
+  "documents": [
+    {
+      "document_id": 117,
+      "score": null,
+      "abstract": "Fake news detection (FND) is an application-oriented hotspot in the field of artificial intelligence, whose task is to make neural networks to judge the authenticity\nof given news, and the challenge it faces is how to train neural networks effectively. Currently, state-of-the-art approaches typically employ the methods based on graph\nconvolutional neural networks (GCNs) to extract features of news dissemination. However, these methods cannot effectively represent temporal features and cannot handle the problem of imbalanced\npositive and negative samples. This motivates us to investigate the impact of temporal information on fake news detection and the impact of sample balance on\nmodel training. To this end, we propose a social media Fake News Detection model based on Bidirectional Temporal-delay Graph Convolution Network (BTGCN-FND). In BTGCN-FND, we\nextend unidirectional graphs to bidirectional graphs and design bidirectional temporal-delay graph convolutional networks to effectively represent graph-structured data. We further design heuristic graph-structured data enhancement\nstrategies to fully leverage information. Moreover, we introduce a graph contrastive learning method, which improves the model performance by computing the mutual information between positive\nand negative samples. We have conducted experimental researches on two publicly available real-world datasets. The experimental results show that compared with the current state-of-the-art methods,\nour model has achieved an average improvement of 2.2% in detection accuracy and 1.9% in F1-score. © 2024 Elsevier Ltd"
+    },
+    {
+      "document_id": 165,
+      "score": null,
+      "abstract": "Alongside social media platforms’ rise in popularity, fake news circulation has increased, highlighting the need for more practical methods to detect this phenomenon. The constantly\nevolving format of fake news makes it difficult for approaches that rely on a single modality of news to generalize the different types of false\nnews. Furthermore, earlier approaches require extensive propagation data to determine the veracity of news, which can be challenging to collect in the early stages of\nnews dissemination. Thus, we propose a multimodal early fake news detection approach that leverages latent insights into both news content and propagation knowledge. We design\na multimodule architecture using graph neural networks (GNNs) to represent edge-enhanced and node-enhanced propagation graphs and bidirectional encoder representations from transformers (BERTs) to generate contextualized\nrepresentations of news content. Our approach tackles the challenge of early detection in a more realistic scenario, accessing early propagation data in a single social\nmedia post and short-length news content. Moreover, we conduct comprehensive studies on user characteristics using statistical techniques to identify attributes with strong discriminative capability for\nidentifying false news. We also analyze temporal and structural properties of fake news propagation graphs to demonstrate distinguishable patterns of false and real news behavior.\nOur model outperforms several state-of-the-art methods, achieving an impressive F1-score of 99% and 96% on two public datasets. The individual contribution of various components in\nour model to the final performance is also measured, which can be insightful for future research on multimodal false news detection. © 2024 IEEE."
+    },
+    {
+      "document_id": 469,
+      "score": null,
+      "abstract": "Detection of fake news is crucial to ensure the authenticity of information and maintain the news ecosystem's reliability. Recently, there has been an increase in\nfake news content due to the recent proliferation of social media and fake content generation techniques such as Deep-Fake. The majority of the existing modalities\nof fake news detection focus on content-based approaches. However, most of these techniques fail to deal with ultra-realistic synthesized media produced by generative models. Our\nrecent studies find that the propagation characteristics of authentic and fake news are distinguishable, irrespective of their modalities. In this regard, we have investigated the\nauxiliary information based on social context to detect fake news. has analyzed the social context of fake news detection with a hybrid graph neural network-based\napproach. This hybrid model is based on integrating a graph neural network on the propagation of news and bi-directional encoder representations from the transformers model\non news content to learn the text features. Thus this proposed approach learns the content as well as the context features and hence able to\noutperform the baseline models with an f1-score of 0.91 on Politifact and 0.93 on the Gossipcop dataset, respectively © 2022 IEEE."
+    },
+    {
+      "document_id": 483,
+      "score": null,
+      "abstract": "Nowadays, fake news easily propagates through online social networks and becomes a grand threat to individuals and society. Assessing the authenticity of news is challenging\ndue to its elaborately fabricated contents, making it difficult to obtain large-scale annotations for fake news data. Due to such data scarcity issues, detecting fake\nnews tends to fail and overfit in the supervised setting. Recently, graph neural networks (GNNs) have been adopted to leverage the richer relational information among\nboth labeled and unlabeled instances. Despite their promising results, they are inherently focused on pairwise relations between news, which can limit the expressive power for\ncapturing fake news that spreads in a group-level. For example, detecting fake news can be more effective when we better understand relations between news pieces\nshared among susceptible users. To address those issues, we propose to leverage a hypergraph to represent group-wise interaction among news, while focusing on important news\nrelations with its dual-level attention mechanism. Experiments based on two benchmark datasets show that our approach yields remarkable performance and maintains the high performance even\nwith a small subset of labeled news data. © 2022 IEEE."
+    },
+    {
+      "document_id": 547,
+      "score": null,
+      "abstract": "Fake news detection is a challenging problem due to its tremendous real-world political and social impacts. Recent fake news detection works focus on learning news\nfeatures from News Propagation Graph (NPG). However, little attention is paid to the issues of both authenticity of the relationships and topology imbalance in the\nstructure of NPG, which trick existing methods and thus lead to incorrect prediction results. To tackle these issues, in , we propose a novel Topology\nimbalance and Relation inauthenticity aware Hierarchical Graph Attention Networks (TR-HGAN) to identify fake news on social media. Specifically, we design a new topology imbalance smoothing\nstrategy to measure the topology weight of each node. Besides, we adopt a hierarchical-level attention mechanism for graph convolutional learning, which can adaptively identify the\nauthenticity of relationships by assigning appropriate weights to each of them. Experiments on real-world datasets demonstrate that TR-HGAN significantly outperforms state-of-the-art methods. © 2022 Proceedings\n- International Conference on Computational Linguistics, COLING. All rights reserved."
+    },
+    {
+      "document_id": 613,
+      "score": null,
+      "abstract": "Fake news detection is a challenging problem due to its tremendous real-world political and social impacts. Previous works judged the authenticity of news mainly based\non the content of a single news, which is generally not effective because the fake news is often written to mislead users by mimicking the\ntrue news. innovatively utilizes the connection between multiple news, such as their relevance in time, content, topic and source, to detect fake news. We construct\na heterogeneous graph with different types of nodes and edges, which is named as News Detection Graph (NDG), to integrate various information of multiple news.\nIn order to learn deep representation of news nodes, we propose a Heterogenous Deep Convolutional Network (HDGCN) which utilizes a wider receptive field, a neighbor\nsampling strategy and a hierarchical attention mechanism. Extensive experiments carried on two real-world datasets demonstrated the effectiveness of our work in solving the fake news\ndetection problem. © 2021, Springer Nature Switzerland AG."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "topic_id": 46,
+  "label": "T046",
+  "label_full": "Misinformation & Propaganda",
+  "keywords": [
+    "propagation",
+    "user",
+    "news",
+    "usdefake",
+    "users",
+    "network",
+    "fake",
+    "tree",
+    "early",
+    "duallayer"
+  ],
+  "n_docs": 6,
+  "documents": [
+    {
+      "document_id": 42,
+      "score": null,
+      "abstract": "With the increasing popularity of social media, the dissemination of fake news presents a significant threat to societal stability. Currently, methods for detecting fake news\nprimarily fall into three main categories: content based detection, fact-checking based detection and social context based detection. Content-based approaches focus on textual features, but due\nto the fact that most fake news is intentionally crafted by malicious users, relying solely on textual features makes it difficult to accurately discern the\nauthenticity of news. Fact-checking methods involve validation of news authenticity by domain experts, yet this approach faces challenges due to the timeliness of news. Social-context-based\nmethods leverage patterns of fake news propagation and background information to identify fake news, but they overlook the influence of news dissemination users. To address\nthe aforementioned issues, we analyzed user information involved in news dissemination and found that users tend to exhibit different patterns in distinguishing between true and\nfalse news. Given this premise, we suggest a user tendency-enhanced decoupled graph neural network for detecting fake news. This network separates users engaged in news\ndissemination into high, medium, and low tendency categories to facilitate the learning of news representations. Backed by experimental results on two widely recognized benchmark datasets,\nour method showcases state-of-the-art performance. It offers an effective solution to counteract the propagation of fake news."
+    },
+    {
+      "document_id": 255,
+      "score": null,
+      "abstract": "Users' involvement in creating and propagating news is a vital aspect of fake news detection in online social networks. Intuitively, credible users are more likely\nto share trustworthy news, while untrusted users have a higher probability of spreading untrustworthy news. In , we construct a dual-layer graph (i.e., news layer\nand user layer) to extract multi-relations of news and users in social networks to derive rich information for detecting fake news. Based on the dual-layer\ngraph, we propose a fake news detection model Us-DeFake. It learns the propagation features of news in the news layer and the interaction features of\nusers in the user layer. Through the inter-layer in the graph, Us-DeFake fuses the user signals that contain credibility information into the news features, to\nprovide distinctive user-aware embeddings of news for fake news detection. The training process conducts on multiple dual-layer subgraphs obtained by a graph sampler to scale\nUs-DeFake in large scale social networks. Extensive experiments on real-world datasets illustrate the superiority of Us-DeFake which outperforms all baselines, and the users' credibility signals\nlearned by interaction relation can notably improve the performance of our model."
+    },
+    {
+      "document_id": 313,
+      "score": null,
+      "abstract": "Recently, fake news forgery technology has become more and more sophisticated, and even the profiles of participants may be faked, which challenges the robustness and\neffectiveness of traditional detection methods involving text or user identity. Most propagation-only approaches mainly rely on neural networks to learn the diffusion pattern of individual\nnews, but this is insufficient to describe the differences in news spread ability, and also ignores the valuable global connections of news and users, limiting\nthe performance of detection. Therefore, we propose a joint learning model named HG-SL, which is blind to news content and user identity, but capable of\ncatching the differences between true and fake news in the early stages of propagation through global and local user spreading behavior. Specifically, we innovatively design\na Hypergraph-based Global interaction learning module to capture the global preferences of users from their co-spreading behaviors, and introduce node centrality encoding to complement user\ninfluence in hypergraph learning. Moreover, the designed Self-attention-based Local context learning module first introduce spread status in behavior learning process to highlight the propagation ability\nof news and users, thus providing additional signals for verifying news authenticity. Experiments on real-world datasets indicate that our HG-SL, which solely relies on user\nbehavior, outperforms SOTA baselines utilizing multidimensional features in both fake news detection and early detection task. Copyright © 2023, Association for the Advancement of Artificial\nIntelligence ( All rights reserved."
+    },
+    {
+      "document_id": 459,
+      "score": null,
+      "abstract": "Nowadays, people rely mostly on social media for any kind of information sharing and also started acquiring information through social media platforms for e-news mostly\nrelated to politics via Twitter, Facebook, and YouTube. Fake news detection and identifying its propagation path are technically very challenging. In , we have implemented\na novel method to learn discriminative features from tweets content, Facebook posts and followed their non-sequential propagation structure, and generated more powerful representations for identifying\nfake news and its propagation by constructing a social network graph. We proposed level order traversal up to three levels based on top-down tree structured\nnetworks for fake propagation learning and detected the neighbors of the fake news source and removed them from the network which naturally confirms the reduction\nof their propagation. We have considered the benchmark data set LIAR and used PolitiFact user data for our research work. The main objective of our\nwork is to identify the propagation path of the fake news content by collecting news and verifying its authenticity using fact-checking websites, namely “ and\ncreating a network among the users who have high similarity in their contents posted. Now it will be easier to trace the path if the\nsource identified has fake content, then its neighbors can be tracked and moving forward the same idea can be iterated up to bottom levels. ©\n2021, The Author(s), under exclusive licence to Springer-Verlag GmbH Germany, part of Springer Nature."
+    },
+    {
+      "document_id": 498,
+      "score": null,
+      "abstract": "Nowadays, online social media play a significant role in news broadcasts due to their convenience, speed, and accessibility. Social media platforms leverage the rapid production\nof a large volume of information and cause the propagation of untrustworthy and fake news. Since fake news is engineered to deceive a wide range\nof readers deliberately, it is not easy to detect them merely based on the news content. Hence, more information, such as the social context, is\nneeded. Moreover, to limit the impact of fake news on society, it is essential to detect them as early as possible. In , we have\ndeveloped an automated system “DSS” for the early detection of fake news wherein we leverage the propagation tree and the stance network simultaneously and dynamically.\nOur proposed model comprises three major components: Dynamic analysis, Static analysis, and Structural analysis. During dynamic analysis, a recurrent neural network is used to encode\nthe evolution pattern of the propagation tree and the stance network over time. The static analysis uses a fully connected network to precisely represent the\noverall characteristics of the propagation tree and the stance network at the end of a detection deadline. The node2vec algorithm is used during structural analysis\nas a graph embedding model to encode the structure of the propagation tree and the stance network. Finally, the outputs of these components are aggregated\nto determine the veracity of the news articles. Our proposed model is evaluated on the FakeNewsNet repository, comprising two recent well-known datasets in the field,\nnamely PolitiFact and GossipCop. Our results show encouraging performance, outperforming the state-of-the-art methods by 8.2% on the PolitiFact and 3% on the GossipCop datasets. Early\ndetection of fake news is the merit of the proposed model. The DSS model provides outstanding accuracy in the early stages of spreading, as well\nas the later stages. © 2022"
+    },
+    {
+      "document_id": 674,
+      "score": null,
+      "abstract": "Fake news has become more prevalent than ever, correlating with the rise of social media that allows every user to rapidly publish their views or\nhearsay. Today, fake news spans almost every realm of human activity, across diverse fields such as politics and healthcare. Most existing methods for fake news\ndetection leverage supervised learning methods and expect a large labelled corpus of articles and social media user engagement information, which are often hard, time-consuming and\ncostly to procure. In , we consider the task of unsupervised fake news detection, which considers fake news detection in the absence of labelled historical\ndata. We develop GTUT, a graph-based approach for the task which operates in three phases. Starting off with identifying a seed set of fake and\nlegitimate articles exploiting high-level observations on inter-user behavior in fake news propagation, it progressively expands the labelling to all articles in the dataset. Our technique\ndraws upon graph-based methods such as biclique identification, graph-based feature vector learning and label spreading. Through an extensive empirical evaluation over multiple real-world datasets, we\nestablish the improved effectiveness of our method over state-of-the-art techniques for the task."
+    }
+  ]
+}

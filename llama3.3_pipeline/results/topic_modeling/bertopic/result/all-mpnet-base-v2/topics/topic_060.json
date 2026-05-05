@@ -1,0 +1,45 @@
+{
+  "topic_id": 60,
+  "label": "T060",
+  "label_full": "classic, covid19",
+  "keywords": [
+    "classic",
+    "covid19",
+    "accuracy",
+    "bilstm",
+    "learning",
+    "identities",
+    "classification",
+    "proposed",
+    "dataset",
+    "training"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 101,
+      "score": null,
+      "abstract": "Real-time news is widely disseminated through the Internet on a global scale. One of the factors contributing to its success is the simple and speedy\nspread of news. Social networking platforms have a huge user base that includes people of all ages, genders, and social backgrounds. Considering these positive aspects,\na serious drawback is the propagation of misinformation, as most individuals read and spread information without giving any thought to its veracity. Researching techniques for\nnews authenticity is so essential. To address this problem, a fake news identification system is created by training the COVID-19 tweets with roughly 12,427 records\ntaken from Kaggle and GitHub repository from three different sets, annotated manually as Fake (0) and Real (1) by cross-checking through websites that verify facts\nusing machine learning classifiers like RF, SVM, LR, NB, and Deep Learning classifiers LSTM and Bi-LSTM. The feature extraction process makes use of the Word2Vec\nword embedding technique. According to the findings, Bi-LSTM performed better than all the other models in terms of accuracy, scoring 87.3%. © The Author(s), under\nexclusive license to Springer Nature Singapore Pte Ltd. 2024."
+    },
+    {
+      "document_id": 148,
+      "score": null,
+      "abstract": "Online social networks are flooded with lot of user-generated information; fake news offenders use these online social network platforms to spread COVID fake news. This\npropagation of fake news results in a low level of content truthfulness, distrust in online social networks, panic and fear, which makes people take erroneous\ndecisions. Hence, accurate classification of fake news against real news is mandatory. Therefore, , a novel Neurally Augmented model is proposed to classify fake news\naccurately based on the content of the tweet. The proposed model creates a novel Deep Neural Network to automatically extract the neutrally processed features for\ndownstream processing in a classic Machine Learning model. A neurally processed feature from 1D ConvNet is used to augment classic Machine Learning model in an\nattempt to improve the classification and discriminative capability of the classic Machine Learning model. Experimentation is done on a COVID-19 Twitter dataset curated by the\nauthors. The proposed methodology provides a highly accurate fake news classification of 97.25%, which is 12% superior to the classic Machine Learning and Deep Learning\nmodels without neural augmentation. The proposed methodology is further evaluated on the ISOT, Indian Fake News Dataset, LIAR and Constraint Shared task COVID-19 Fake News\nbenchmark datasets to determine its robustness, and it achieves significant accuracy of 93.75%, 89.17%, 83.68%, and 91%, respectively. The proposed model is tested on the\nproposed dataset and achieved a 5% increase in accuracy over the benchmark datasets. © 2024, Collegium Basilea. All rights reserved."
+    },
+    {
+      "document_id": 324,
+      "score": null,
+      "abstract": "In the past few years, social media and online news platforms have played an essential role in distributing news content rapidly. Consequently. verification of the\nauthenticity of news has become a major challenge. During the COVID-19 outbreak, misinformation and fake news were major sources of confusion and insecurity among the\ngeneral public. In the first quarter of the year 2020, around 800 people died due to fake news relevant to COVID-19. The major goal of\nthis research was to discover the best learning model for achieving high accuracy and performance. A novel case study of the Fake News Classification using\nELECTRA model, which achieved 85.11% accuracy score, is thus reported in thismanuscript. In addition to that, a new novel dataset called COVAX-Reality containing COVID-19 vaccinerelated\nnews has been contributed. Using the COVAX-Reality dataset, the performance of FNEC is compared to several traditional learning models i.e., Support Vector Machine (SVM), Naive\nBayes (NB), Passive Aggressive Classifier (PAC), Long Short-Term Memory (LSTM), Bi-directional LSTM (Bi-LSTM) and Bi-directional Encoder Representations from Transformers (BERT). For the evaluation of FNEC,\nstandard metrics (Precision, Recall, Accuracy, and F1-Score) were utilized. © 2023, Tech Science Press. All rights reserved."
+    },
+    {
+      "document_id": 390,
+      "score": null,
+      "abstract": "Fake identity is a critical problem nowadays of social media. Fake news is rapidly spread by fake identities and bots that generate the trustworthiness issue\non social media. Identifying the profiles and accounts using soft computing algorithms is necessary to improve the trustworthiness of social media. In , we proposed\nRecurrent Neural Network to identify fake identities on social media. Initially, we extract data from social media such as Twitter.com using Twitter API. Hybrid feature\nextraction has been done based on the characteristics of data. It generates training rules which are associated with a fake and legitimate profiles generated by\na human. In pre-processing and filtration process, all bot entries are eliminated using a policy-based approach. To generate strict rules that improve the classification accuracy,\nthe training of dataset primarily focuses on attributes such as friends count, the total number of followers, tweet counts, re-tweets count, etc., The Recurrent Neural\nNetwork (RNN) categorizes each profile based on training and testing modules. focuses on classifying bots or human entries according to their extracted features using machine\nlearning. Once the training phase is completed, features are extracted from the dataset based on the term frequency on which the classification technique is applied.\nThe proposed work is very effective in detecting malicious accounts from an imbalanced dataset in social media. The system provides maximum accuracy for the classification\nof fake and real identities on the social media dataset. It achieves good accuracy with Recurrent Neural Network (RNN) using the different activation functions. The\nsystem improves the classification accuracy with the increase in the number of folds in cross-validation. In experiment analysis, we have done testing on synthetic and\nreal-time social media datasets; We achieve around 96% accuracy on the real-time Twitter dataset while 98% accuracy on synthetic social media datasets. © 2023, Ismail\nSaritas. All rights reserved."
+    },
+    {
+      "document_id": 501,
+      "score": null,
+      "abstract": "Fake news detection is a key use case of Natural Language Processing and Machine Learning. With the advancement of technology, electronic content has become more\nsignificant and extensively used than ever before, resulting in a revival in the spurious news as well as tweets that seek quick attention. It is\ncritical to achieve early detection and identification of misinformation in social media. In these difficult times of COVID-19 where the whole world is fighting a\nglobal pandemic, it is very important to provide people with genuine news and updates about the prevailing situation. The Twitter is flooded with tweets about\nCOVID-19 and related news, but not all the information is factual and full of veracity. To classify this issue, a Deep Learning model is being\nproposed to classify misinformation about COVID-19 and related news. Pre-trained state-of-the-art GloVe model was used in the proposed method for converting tokens into vectors. Deep\nLearning models like RNN, LSTM, and Bi-LSTM were tested to obtain better results after preprocessing the data using basic NLP preprocessing techniques. Bi-LSTM model got\na training accuracy as high as 99%. All the results are tabulated and cogently laid out in the latter section. © 2022, The Author(s), under\nexclusive license to Springer Nature Singapore Pte Ltd."
+    }
+  ]
+}

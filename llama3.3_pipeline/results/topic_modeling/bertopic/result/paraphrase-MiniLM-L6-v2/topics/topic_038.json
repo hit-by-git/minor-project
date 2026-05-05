@@ -1,0 +1,55 @@
+{
+  "topic_id": 38,
+  "label": "T038",
+  "label_full": "location, chain",
+  "keywords": [
+    "location",
+    "chain",
+    "block",
+    "aes",
+    "people",
+    "news",
+    "users",
+    "ai",
+    "intelligence",
+    "extension"
+  ],
+  "n_docs": 7,
+  "documents": [
+    {
+      "document_id": 120,
+      "score": null,
+      "abstract": "Due to the development of technologies, such as the Internet and mobile communication, news production is increasing day by day. Proper news delivery can lead\nto a thriving economy and disseminate knowledge. However, in addition to disrupting the existing order, fake news may create incorrect values and even beliefs. Therefore,\ndetecting the authenticity of news is an extremely important issue. At present, many scholars have used artificial intelligence (AI) to detect fake news, achieving excellent\nresults. However, once humans become dependent on AI, adversarial examples (AEs) can deceive the AI model and allow humans to receive false information. We have\ndiscovered that samples from different categories result in distinct and independent activation state distributions for each neuron. Therefore, this study proposes a method that detects\nadversarial samples of fake news by observing the activation states of neurons and modeling them as a Poisson distribution. The results of the experiment showed\nthat our method can effectively detect AEs mixed in normal data and remove them, thereby improving the classification accuracy of the model by about 17%.\nThe experimental results show that the method proposed in this article can improve the detection accuracy of fake news AEs. © 2014 IEEE."
+    },
+    {
+      "document_id": 133,
+      "score": null,
+      "abstract": "With the exacerbation of the problem of fake news since the start of 2020's global pandemic, the authenticity of data and information now bears a\ngreater weight with the new age of social distancing where the Internet became the standard news source to many. Data-driven and human intelligence-based approaches to\ntackle fake news have both seen a rise in adoption but are coupled with their respective flaws, which led to the birth of a proposed\nsolution that combines both to identify the authenticity of news more accurately. The proposed solution utilizes Artificial Intelligence (AI) in the form of a Bidirectional\nEncoder Representations from Transformers (BERT) text classifier with the help of crowd intelligence to derive a novel trust index algorithm for evaluating news authenticity. The\nAI serves to evaluate news from a structural perspective whereas the crowd intelligence offsets the AI's potential misevaluation by performing manual fact checks based on\nthe majority rule. Both components complement one another by toning down the other's flaws, which ultimately results in a more trustworthy outcome. © 2024 Author(s)."
+    },
+    {
+      "document_id": 147,
+      "score": null,
+      "abstract": "The presence of misleading information in everyday access media outlets have made it a challenging issue with respect to identifying trustworthy sources thus resulting in\nthe increase in the need of the computational tools which are able to describe the reliability as well as the reality of the online content\navailable at the snap of our fingers. In the present scenario, the increase in usage of social media is resulting in more information being created\nor shared some of which is misleading with having little to no relevance to reality. Automating the detection of fake news is quite a challenging\ntask as we have to search out for various aspects before passing a verdict about any news article. In , we have proposed a model\nwhich makes use of Web Scraping and Crawling, Machine learning and deep learning techniques to help identify the truthfulness of an article. This can be\nconsidered as one of the best ways of detecting fake news by including fake news categorization and a few existing algorithms in machine learning. ©\n2024 American Institute of Physics Inc.. All rights reserved."
+    },
+    {
+      "document_id": 419,
+      "score": null,
+      "abstract": "The number of fake news written by bots or malicious actors on social media is rising. One cause is the ability of users to post\nanything, at any place, at any time. This offers great flexibility, but it also poses the risk that users share misinformation. One type includes events\nthat allegedly have occurred in a location, without the reporting user necessarily having been present. A user may add her location to posts to appear\nas an eyewitness and thus more trustworthy; however, basing that trust on commonly used and easily faked GPS locations is not reasonable.We present EventChain, which\nenriches social media posts with hard to fake trust scores based on the user's recent motion profile to give actual eyewitnesses more credibility. Users' motion\nprofiles are integrity- and privacy-preservingly logged in a blockchain. Once the user posts an event, her locality is evaluated for a location rating. The location\nevaluation is secured by a trusted execution environment to ensure users' location data is private and under the users' control at all times. EventChain also\nenables interactive assessments of a post via nearby users, whose location is similarly evaluated. This way other eyewitnesses can credibly provide further information, thus leading\nto a consensus about the event's actual occurrences, increasing trust in social media posts, and limiting the spread of fake news."
+    },
+    {
+      "document_id": 468,
+      "score": null,
+      "abstract": "Social media has proven to be the most effective tool for disseminating knowledge in recent years. As the amount of information available expands, it becomes\nmore vital to read the right news, and recognizing fake news that provides wrong or incomplete information becomes more important. It takes a long time\nfor individuals to check the accuracy of news. The collection of phony word data assists in the detection of spam tendencies in the news. By\naltering the content of a real news feed in fake news, those with malicious intent spread misleading information. In order to spot fake news, it's\nnecessary to understand how rumors spread. Under the current system, people must quickly assess a rumor and decide whether or not to spread it. Nonetheless,\nit is difficult to make an informed decision and select the greatest choice without a thorough investigation. People do not have the time to learn\nmore or reason. In addition, if the rumor remains, the user will become suffocated and will never change. People may have different viewpoints on the\nsame incident, such as favorable, dubious, and negative. People who have doubts about their convictions, on the other hand, have a limited vocabulary. To address\nthis problem, it is critical to employ decentralized technologies. This functionality is generally available in block chain technology. Block chain can be used to track\nand control information flow. The proposed model utilizes the credible news sources, such as a real-time search engine. Block chain technology ensures the integrity of\nnews submitted on social media. In the real-time system, users can upload news in the form of images, material, and hash tags. These facts are\npassed on to the validator, who will determine if the data is fraudulent or not. To protect the data, the information is subsequently converted to\na block chain. This approach aids in determining the authenticity of the news by using real-time synchronization. © 2022 IEEE."
+    },
+    {
+      "document_id": 589,
+      "score": null,
+      "abstract": "In the age of the Internet, access to information is no longer a concern, the credibility, however, is the new era challenge. Information reaches people\nin an unfiltered format and therefore raises questions about the authenticity, validity, and credibility. focuses on increasing the reliability of the news, concentrating on static\nanalysis of written text intending to detect possible disingenuous information. To achieve this goal, intelligent solutions were engaged, designed to detect patterns of fake articles\nthat can hint at the lack of knowledge or outright maliciously. The architecture, of the proposed fake news detection system is a composite solution of\ndifferent classification algorithms, with a final network output obtained through the use of the ensemble learning methods, respectively the comparison of three voting systems. The\nbaseline model allowed a satisfactory accuracy of 99% for the given dataset. © 2021 IEEE."
+    },
+    {
+      "document_id": 834,
+      "score": null,
+      "abstract": "In recent years, the emergence of fake news outlets has drawn out the importance of news literacy. This is particularly critical in social media where\nthe flood of information makes it difficult for people to assess the veracity of the false stories from such deceitful sources. Therefore, people oftentimes fail\nto look skeptically at these stories. We explore a way to circumvent this problem by nudging users into making conscious assessments of what online contents\nare credible. For this purpose, we developed FeedReflect, a browser extension. The extension nudges users to pay more attention and uses reflective questions to engage\nin news credibility assessment on Twitter. We recruited a small number of university students to use this tool on Twitter. Both qualitative and quantitative analysis\nof the study suggests the extension helped people accurately assess the credibility of news. This implies FeedReflect can be used for the broader audience to\nimprove online news literacy."
+    }
+  ]
+}

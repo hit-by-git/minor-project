@@ -1,0 +1,45 @@
+{
+  "topic_id": 52,
+  "label": "T052",
+  "label_full": "lab, checkthat",
+  "keywords": [
+    "lab",
+    "checkthat",
+    "pages",
+    "task",
+    "asks",
+    "claim",
+    "evaluation",
+    "target",
+    "clef",
+    "predict"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 212,
+      "score": null,
+      "abstract": "The paper describes Team DEFAULT's submission at CheckThat! 2024 Task-5 on Rumor Verification based on Evidence from Authorities: In , we present an approach for\nrumor verification on Twitter, focusing on integrating evidence from authoritative accounts to determine the veracity of rumors. We propose an architecture and a training regime\nas the preferred method to ensure seamless gradient flow. We formulate rumor verification using evidence from authorities as a Retrieval-Augmented Classification (RAC) task. By re-parameterizing\nthe Top-K operator and applying Entropy-based Smoothing, our method addresses the discontinuity issues faced after retrieval, enhancing the accuracy of rumor verification. Using this classification-aware\nretrieval, the retriever achieves Recall@5 0.778, outperforming the baseline, placing team DEFAULT third on the test data leaderboard for retrieval. For classification, our approach performs\non par with the baseline. © 2024 Copyright for by its authors."
+    },
+    {
+      "document_id": 356,
+      "score": null,
+      "abstract": "We present an overview of the CLEF-2023 CheckThat! lab Task 4, which focused on predicting the factuality of reporting of entire news outlets. This is\na different level of granularity compared to previous efforts, which focused on fact-checking, where the target is a claim, or fake news detection, where the\ntarget is an article. We briefly summarize the participating systems and discuss the dataset, the task, and the evaluation setup. The task attracted a large\nnumber of registrations, and eventually five teams made submissions. All participants improved over the baseline by a margin using both deep learning and traditional machine\nlearning approaches. We make the dataset and the associate code freely available to the research community with the aim to promote further research on this\nproblem. © 2023 Copyright for by its authors."
+    },
+    {
+      "document_id": 599,
+      "score": null,
+      "abstract": "We describe the third edition of the CheckThat! Lab, which is part of the 2020 Cross-Language Evaluation Forum (CLEF). CheckThat! proposes four complementary tasks and\na related task from previous lab editions, offered in English, Arabic, and Spanish. Task 1 asks to predict which tweets in a Twitter stream are\nworth fact-checking. Task 2 asks to determine whether a claim posted in a tweet can be verified using a set of previously fact-checked claims. Task\n3 asks to retrieve text snippets from a given set of Web pages that would be useful for verifying a target tweet’s claim. Task 4\nasks to predict the veracity of a target tweet’s claim using a set of potentially-relevant Web pages. Finally, the lab offers a fifth task that\nasks to predict the check-worthiness of the claims made in English political debates and speeches. CheckThat! features a full evaluation framework. The evaluation is carried\nout using mean average precision or precision at rank k for ranking tasks, and F1 for classification tasks. © Springer Nature Switzerland AG 2020."
+    },
+    {
+      "document_id": 650,
+      "score": null,
+      "abstract": "We present an overview of the second edition of the CheckThat! Lab at CLEF 2019. The lab featured two tasks in two different languages: English\nand Arabic. Task 1 (English) challenged the participating systems to predict which claims in a political debate or speech should be prioritized for fact-checking. Task\n2 (Arabic) asked to (A) rank a given set of Web pages with respect to a check-worthy claim based on their usefulness for fact-checking that\nclaim, (B) classify these same Web pages according to their degree of usefulness for fact-checking the target claim, (C) identify useful passages from these pages,\nand (D) use the useful pages to predict the claim’s factuality. CheckThat! provided a full evaluation framework, consisting of data in English (derived from fact-checking\nsources) and Arabic (gathered and annotated from scratch) and evaluation based on mean average precision (MAP) and normalized discounted cumulative gain (nDCG) for ranking, and\nF &#x0024;&#x0024;:1&#x0024;&#x0024; for classification. A total of 47 teams registered to participate in this lab, and fourteen of them actually submitted runs (compared to nine\nlast year). The evaluation results show that the most successful approaches to Task 1 used various neural networks and logistic regression. As for Task 2,\nlearning-to-rank was used by the highest scoring runs for subtask A, while different classifiers were used in the other subtasks. We release to the research\ncommunity all datasets from the lab as well as the evaluation scripts, which should enable further research in the important tasks of check-worthiness estimation and\nautomatic claim verification. © Springer Nature Switzerland AG 2019."
+    },
+    {
+      "document_id": 680,
+      "score": null,
+      "abstract": "We present an overview of Task 2 of the second edition of the CheckThat! Lab at CLEF 2019. Task 2 asked (A) to rank a\ngiven set of Web pages with respect to a check-worthy claim based on their usefulness for fact-checking that claim, (B) to classify these same Web\npages according to their degree of usefulness for fact-checking the target claim, (C) to identify useful passages from these pages, and (D) to use the\nuseful pages to predict the claim's factuality. Task 2 at CheckThat! provided a full evaluation framework, consisting of data in Arabic (gathered and annotated from\nscratch) and evaluation based on normalized discounted cumulative gain (nDCG) for ranking, and F1 for classification. Four teams submitted runs. The most successful approach to\nsubtask A used learning-to-rank, while different classifiers were used in the other subtasks. We release to the research community all datasets from the lab as\nwell as the evaluation scripts, which should enable further research in the important task of evidence-based automatic claim verification. © 2019 for by its authors.\nUse permitted under Creative Commons License Attribution 4.0 International (CC BY 4.0). CLEF 2019, 9-12 September 2019, Lugano, Switzerland."
+    }
+  ]
+}

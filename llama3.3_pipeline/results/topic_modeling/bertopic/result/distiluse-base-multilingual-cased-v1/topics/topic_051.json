@@ -1,0 +1,45 @@
+{
+  "topic_id": 51,
+  "label": "T051",
+  "label_full": "Crowdsourced Analysis",
+  "keywords": [
+    "deceptive",
+    "annotation",
+    "statements",
+    "tags",
+    "corpus",
+    "beliefs",
+    "automated",
+    "thesis",
+    "propositions",
+    "knowledge"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 544,
+      "score": null,
+      "abstract": "presents the evolution of an annotation guideline designed for the disinformation detection task, an essential step of my doctoral thesis. The annotation proposal aims to\nlabel all the structural and content elements of a news item, as well as to classify them as Reliable or Unreliable. The initial objective was\nto annotate those elements into Fake or True, but for that classification, world knowledge is needed. Our current goal is to annotate news on the\nbasis of a purely textual, semantic and linguistic analysis, without using external knowledge and, for that reason, the annotation was redirected towards a reliability rating,\nrather than a veracity classification. This article justifies the change of perspective at this stage of the thesis, explains the difference between veracity and reliability\nand shows the concrete changes that have been adopted in our annotation proposal with this new approach. © 2022 Copyright for by its authors."
+    },
+    {
+      "document_id": 694,
+      "score": null,
+      "abstract": "Increasing concerns about the prevalence of false information and fake news has led to calls for automated fact-checking systems that are capable of verifying the\ntruthfulness of statements, especially on the internet. Most previous automated fact-checking systems have focused on the use of grammar rules only for determining the properties\nof the language used in statements. Here, we demonstrate a novel approach to the fact-checking of natural language text, which uses a combination of all\nthe following techniques: knowledge extraction to establish a knowledge base, logical inference for fact-checking of claims not explicitly mentioned in the text through the verification\nof the consistency of a set of beliefs with established trusted knowledge, and a re-querying approach that enables continuous learning. The approach that is presented\nhere addresses the limitations of existing automated fact-checking systems via this novel procedure. This procedure is as follows: the approach investigates the consistency of presented\nfacts or claims while using probabilistic soft logic and a Knowledge Base, which is continuously updated through continuous learning strategies. We demonstrate this approach by\nfocusing on the task of checking facts about family-tree relationships against a corpus of web resources concerned with the UK Royal Family. © 2020 by\nthe authors."
+    },
+    {
+      "document_id": 748,
+      "score": null,
+      "abstract": "The alarming spread of fake news in social media, together with the impossibility of scaling manual fact verification, motivated the development of natural language processing\ntechniques to automatically verify the veracity of claims. Most approaches perform a claim-evidence classification without providing any insights about why the claim is trustworthy or\nnot. We propose, instead, a model-agnostic framework that consists of two modules: (1) a span extractor, which identifies the crucial information connecting claim and evidence;\nand (2) a classifier that combines claim, evidence, and the extracted spans to predict the veracity of the claim. We show that the spans are\ninformative for the classifier, improving performance and robustness. Tested on several state-of-the-art models over the FEVER dataset, the enhanced classifiers consistently achieve higher accuracy while\nalso showing reduced sensitivity to artifacts in the claims. © 2020 Association for Computational Linguistics."
+    },
+    {
+      "document_id": 952,
+      "score": null,
+      "abstract": "One of the novel research directions in Natural Language Processing and Machine Learning involves creating and developing methods for automatic discernment of deceptive messages from\ntruthful ones. Mistaking intentionally deceptive pieces of information for authentic ones (true to the writer's beliefs) can create negative consequences, since our everyday decision-making, actions,\nand mood are often impacted by information we encounter. Such research is vital today as it aims to develop tools for the automated recognition of\ndeceptive, disingenuous or fake information (the kind intended to create false beliefs or conclusions in the reader's mind). The ultimate goal is to support truthfulness\nratings that signal the trustworthiness of the retrieved information, or alert information seekers to potential deception. To proceed with this agenda, we require elicitation techniques\nfor obtaining samples of both deceptive and truthful messages from study participants in various subject areas. A data collection, or a corpus of truths and\nlies, should meet certain basic criteria to allow for meaningful analysis and comparison of socio-linguistic behaviors. In we propose solutions and weigh pros and cons\nof various experimental set-ups in the art of corpus building. The outcomes of three experiments demonstrate certain limitations with using online crowdsourcing for data collection\nof this type. Incorporating motivation in the task descriptions, and the role of visual context in creating deceptive narratives are other factors that should be\naddressed in future efforts to build a quality dataset. Copyright © 2010 Victoria L. Rubin and Niall J. Conroy."
+    },
+    {
+      "document_id": 976,
+      "score": null,
+      "abstract": "Our goal is to use natural language processing to identify deceptive and non-deceptive passages in transcribed narratives. We begin by motivating an analysis of language-based\ndeception that relies on specific linguistic indicators to discover deceptive statements. The indicator tags are assigned to a document using a mix of automated and\nmanual methods. Once the tags are assigned, an interpreter automatically discriminates between deceptive and truthful statements based on tag densities. The texts used in our\nstudy come entirely from \"real world\" sources---criminal statements, police interrogations and legal testimony. The corpus was hand-tagged for the truth value of all propositions that\ncould be externally verified as true or false. Classification and Regression Tree techniques suggest that the approach is feasible, with the model able to identify\n74.9\\% of the T/F propositions correctly. Implementation of an automatic tagger with a large subset of tags performed well on test data, producing an average\nscore of 68.6\\% recall and 85.3\\% precision when compared to the performance of human taggers on the same subset."
+    }
+  ]
+}

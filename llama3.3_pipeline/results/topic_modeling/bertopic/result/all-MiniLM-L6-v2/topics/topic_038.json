@@ -1,0 +1,55 @@
+{
+  "topic_id": 38,
+  "label": "T038",
+  "label_full": "interpretability, automated",
+  "keywords": [
+    "interpretability",
+    "model",
+    "automated",
+    "claim",
+    "external",
+    "predictions",
+    "evidence",
+    "neural",
+    "approaches",
+    "fast"
+  ],
+  "n_docs": 7,
+  "documents": [
+    {
+      "document_id": 77,
+      "score": null,
+      "abstract": "In today’s world, where online information is proliferating in an unprecedented way, a significant challenge is whether to believe the information we encounter. Ironically, this\nflood of information provides us with an opportunity to combat false claims by understanding their nature. That is, with the help of machine learning, it\nis now possible to effectively capture the characteristics of false information by analyzing massive amounts of false claims published online. These methods, however, have neglected\nthe nature of human argumentation, delegating the process of making inferences of the truth to the black box of neural networks. This has created several\nchallenges (namely latent text representations containing entangled syntactic and semantic information, an irrelevant part of text being considered when abstracting text as a latent vector,\nand counterintuitive model explanation). To resolve these issues, based on Toulmin’s model of argumentation, we propose a computational framework that helps machine learning for false\ninformation identification (FII) understand the connection between a claim (whose veracity needs to be verified) and evidence (which contains information to support or refute the\nclaim). Specifically, we first build a word network of a claim and evidence reflecting their syntaxes and convert it into a signed word network using\ntheir semantics. The structural balance of this word network is then calculated as a proxy metric to determine the consistency between a claim and evidence.\nThe consistency level is fed into machine learning as input, providing information for verifying claim veracity and explaining the model’s decision making. The two experiments\nfor testing model performance and explainability reveal that our framework shows stronger performance and better explainability, outperforming cutting-edge methods and presenting positive effects on human\ntask performance, trust in algorithms, and confidence in decision making. Our results shed new light on the growing field of automated FII. Copyright: © 2023\nINFORMS."
+    },
+    {
+      "document_id": 98,
+      "score": null,
+      "abstract": "The widespread utilization of social media for information consumption has significantly exacerbated the problem of information disorder. Recognizing the difficulty people face in discerning the\ntruth, automated assistance is urgently needed. Current state-of-the-art approaches often involve fine-tuning existing models with contributions from domain knowledge bases. The black-box nature and interpretability\nissues of deep neural networks (DNNs) have increased interest in hybrid approaches, giving rise to Deep Neural Fuzzy Systems (DNFSs). This research paper presents the\nHybrid Fact-Checking Framework (HFCF) leveraging a DNFS tailored to address the uncertainty inherent in fact verification tasks and enhance the reliability of model responses. The\nDNFS integrates a Large Language Model (LLM) with an Adaptive Neuro-Fuzzy Inference System (ANFIS) for automated fact verification. The framework utilizes relevant evidence from open-world\nand closed-world sources, leveraging deep language models and employing few-shot prompting without additional training to generate and justify verdicts. Including fuzzy rules and considering the\ntrustworthiness and relevance of retrieved evidence enhances response reliability, thereby improving overall effectiveness and outcome interpretability. Experimental validations have been conducted on three publicly available\ndatasets ranging in different domains of expertise: ClimateFEVER, SciFact, and FEVER. The results demonstrate that the proposed framework ensures better outcomes, transparency, and mindful decision-making.\nIEEE"
+    },
+    {
+      "document_id": 438,
+      "score": null,
+      "abstract": "Social media is flooded with rumors, which make fake news detection a pressing problem. Many black-box approaches have been proposed to automatically predict the veracity\nof claims. These methods are lack of interpretability. Thus, we propose a Quantitative Argumentation-based Automated eXplainable Decision-making System (QA-AXDS) to tackle this problem and provide\nusers with explanations about the results. The system is fully data-driven in its processes, which allows our models to make greater use of data and\nbe more automatic and scalable than other quantitative framework models. In terms of interpretability, the system can automatically acquire human-level knowledge, and interact with users\nin the form of dialog trees through explanatory models, thus helping them understand the internal reasoning process of the system. The experimental results show that\nour system has better transparency and interpretability than other approaches based on the pure machine learning methods, and performs competitively in accuracy among others. In\naddition, the explanation model provides a way to improve the algorithms when some problems are identified by checking the explanations. © 2022 Elsevier B.V."
+    },
+    {
+      "document_id": 533,
+      "score": null,
+      "abstract": "The influence of fake news in the perception of reality has become a mainstream topic in the last years due to the fast propagation of\nmisleading information. In order to help in the fight against misinformation, automated solutions to fact-checking are being actively developed within the research community. In this\ncontext, the task of Automated Claim Verification is defined as assessing the truthfulness of a claim by finding evidence about its veracity. In we empirically\ndemonstrate that enriching a BERT model with explicit semantic information such as Semantic Role Labelling helps to improve results in claim verification as proposed by\nthe FEVER benchmark. Furthermore, we perform a number of explainability tests that suggest that the semantically-enriched model is better at handling complex cases, such as\nthose including passive forms or multiple propositions. ©2022 Association for Computational Linguistics."
+    },
+    {
+      "document_id": 820,
+      "score": null,
+      "abstract": "Misinformation such as fake news is one of the big challenges of our society. Research on automated fact-checking has proposed methods based on supervised learning,\nbut these approaches do not consider external evidence apart from labeled training instances. Recent approaches counter this deficit by considering external sources related to a\nclaim. However, these methods require substantial feature modeling and rich lexicons. overcomes these limitations of prior work with an end-to-end model for evidence-aware credibility assessment\nof arbitrary textual claims, without any human intervention. It presents a neural network model that judiciously aggregates signals from external evidence articles, the language of\nthese articles and the trustworthiness of their sources. It also derives informative features for generating user-comprehensible explanations that makes the neural network predictions transparent to\nthe end-user. Experiments with four datasets and ablation studies show the strength of our method."
+    },
+    {
+      "document_id": 854,
+      "score": null,
+      "abstract": "Misinformation such as fake news is one of the big challenges of our society. Research on automated fact-checking has proposed methods based on supervised learning,\nbut these approaches do not consider external evidence apart from labeled training instances. Recent approaches counter this deficit by considering external sources related to a\nclaim. However, these methods require substantial feature modeling and rich lexicons. overcomes these limitations of prior work with an end-to-end model for evidence-aware credibility assessment\nof arbitrary textual claims, without any human intervention. It presents a neural network model that judiciously aggregates signals from external evidence articles, the language of\nthese articles and the trustworthiness of their sources. It also derives informative features for generating user-comprehensible explanations that makes the neural network predictions transparent to\nthe end-user. Experiments with four datasets and ablation studies show the strength of our method. © 2018 Association for Computational Linguistics"
+    },
+    {
+      "document_id": 857,
+      "score": null,
+      "abstract": "Assessing the veracity of claims made on the Internet is an important, challenging, and timely problem. While automated fact-checking models have potential to help people\nbetter assess what they read, we argue such models must be explainable, accurate, and fast to be useful in practice; while prediction accuracy is clearly\nimportant, model transparency is critical in order for users to trust the system and integrate their own knowledge with model predictions. To achieve this, we\npropose a novel probabilistic graphical model (PGM) which combines machine learning with crowd annotations. Nodes in our model correspond to claim veracity, article stance regarding\nclaims, reputation of news sources, and annotator reliabilities. We introduce a fast variational method for parameter estimation. Evaluation across two real-world datasets and three scenarios\nshows that: (1) joint modeling of sources, claims and crowd annotators in a PGM improves the predictive performance and interpretability for predicting claim veracity; and\n(2) our variational inference method achieves scalably fast parameter estimation, with only modest degradation in performance compared to Gibbs sampling. Regarding model transparency, we designed\nand deployed a prototype fact-checker Web tool, including a visual interface for explaining model predictions. Results of a small user study indicate that model explanations\nimprove user satisfaction and trust in model predictions. We share our web demo, model source code, and the 13K crowd labels we collected. 1 Copyright\n© 2018, Association for the Advancement of Artificial Intelligence ( All rights reserved."
+    }
+  ]
+}

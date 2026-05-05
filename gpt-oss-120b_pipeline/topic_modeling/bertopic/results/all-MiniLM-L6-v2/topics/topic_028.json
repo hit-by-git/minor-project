@@ -1,0 +1,55 @@
+{
+  "topic_id": 28,
+  "label": "T028",
+  "label_full": "evidence, leaked",
+  "keywords": [
+    "evidence",
+    "leaked",
+    "afc",
+    "stances",
+    "claimverif",
+    "assessment",
+    "claims",
+    "unreliable",
+    "osinf",
+    "evvernet"
+  ],
+  "n_docs": 7,
+  "documents": [
+    {
+      "document_id": 18,
+      "score": null,
+      "abstract": "Automated fact-checking (AFC) is garnering increasing attention by researchers aiming to help fact-checkers combat the increasing spread of misinformation online. While many existing AFC methods\nincorporate external information from the Web to help examine the veracity of claims, they often overlook the importance of verifying the source and quality of\ncollected “evidence”. One overlooked challenge involves the reliance on “leaked evidence”, information gathered directly from fact-checking websites and used to train AFC systems, resulting in\nan unrealistic setting for early misinformation detection. Similarly, the inclusion of information from unreliable sources can undermine the effectiveness of AFC systems. To address these\nchallenges, we present a comprehensive approach to evidence verification and filtering. We create the “CREDible, Unreliable or LEaked” (CREDULE) dataset, which consists of 91,632 articles\nclassified as Credible, Unreliable and Fact-checked (Leaked). Additionally, we introduce the EVidence VERification Network (EVVER-Net), trained on CREDULE to detect leaked and unreliable evidence in\nboth short and long texts. EVVER-Net can be used to filter evidence collected from the Web, thus enhancing the robustness of end-to-end AFC systems. We\nexperiment with various language models and show that EVVER-Net can demonstrate impressive performance of up to 91.5\\% and 94.4\\% accuracy, while leveraging domain credibility scores\nalong with short or long texts, respectively. Finally, we assess the evidence provided by widely-used fact-checking datasets including LIAR-PLUS, MOCHEG, , NewsCLIPpings+ and VERITE, some\nof which exhibit concerning rates of leaked and unreliable evidence."
+    },
+    {
+      "document_id": 53,
+      "score": null,
+      "abstract": "The rise of social media and the internet has significantly increased the amount and speed of shared information, posing challenges for verifying content. Automated veracity\nchecking has become essential in quickly and accurately evaluating claims due to the overwhelming volume of data. The reliability of these systems depends on their\nability to access and evaluate substantial evidence, which is crucial for authenticating assertions and preventing the spread of misinformation. This study proposes a new method\nthat integrates rationales from evidentiary texts to address the issue of insufficient evidence in automated veracity checking. By using contextual coherence and relevance as metrics\nwhen direct evidence is limited, our technique aims to assess evidence sufficiency comprehensively. Furthermore, it goes beyond identifying evidence sufficiency by examining supporting or refuting\nrationales, enhancing our understanding of claim veracity. Our research introduces a preservation technique focused on maintaining contextual consistency and logical validity to overcome limitations in\nexisting veracity-checking systems. This approach prioritizes alignment between claims and their evidence, effectively addressing issues related to evidence insufficiency by capturing subtle semantic connections while\nassessing contextually implied meanings often overlooked in traditional methods of evidence evaluation. © (2024), Shridevi Karande and Vrushali Kulkarni."
+    },
+    {
+      "document_id": 347,
+      "score": null,
+      "abstract": "How do we ensure the veracity of science? The act of manipulating or fabricating scientific data has led to many high-profile fraud cases and retractions.\nDetecting manipulated data, however, is a challenging and time-consuming endeavor. Automated detection methods are limited due to the diversity of data types and manipulation techniques.\nFurthermore, patterns automatically flagged as suspicious can have reasonable explanations. Instead, we propose a nuanced approach where experts analyze tabular datasets, e.g., as part of\nthe peer-review process, using a guided, interactive visualization approach. In , we present an analysis of how manipulated datasets are created and the artifacts these\ntechniques generate. Based on these findings, we propose a suite of visualization methods to surface potential irregularities. We have implemented these methods in Ferret, a\nvisualization tool for data forensics work. Ferret makes potential data issues salient and provides guidance on spotting signs of tampering and differentiating them from truthful\ndata. © 2023 Eurographics - The European Association for Computer Graphics and John Wiley & Sons Ltd."
+    },
+    {
+      "document_id": 688,
+      "score": null,
+      "abstract": "Rapid increase of misinformation online has emerged as one of the biggest challenges in this post-truth era. This has given rise to many fact-checking websites\nthat manually assess doubtful claims. However, the speed and scale at which misinformation spreads in online media inherently limits manual verification. Hence, the problem of\nautomatic credibility assessment has attracted great attention. In , we present CredEye, a system for automatic credibility assessment. It takes a natural language claim as\ninput from the user and automatically analyzes its credibility by considering relevant articles from the Web. Our system captures joint interaction between language style of\narticles, their stance towards a claim and the trustworthiness of the sources. In addition, extraction of supporting evidence in the form of enriched snippets makes\nthe verdicts of CredEye transparent and interpretable."
+    },
+    {
+      "document_id": 713,
+      "score": null,
+      "abstract": "Our society is increasingly digitalized. Every day, a tremendous amount of information is being created, shared, and digested through all kinds of cyber channels. Although\npeople can easily acquire information from various sources (social media, news articles, etc.), the truthfulness of most received information remains unverified. In many real-life scenarios,\nfalse information has become the de facto cause that leads to detrimental decision makings, and techniques that can automatically filter false information are highly demanded.\nHowever, verifying whether a piece of information is trustworthy is difficult because: (1) selecting candidate snippets for fact checking is nontrivial; and (2) detecting supporting\nevidences, i.e. stances, suffers from the difficulty of measuring the similarity between claims and related evidences. We build ClaimVerif, a claim verification system that not\nonly provides credibility assessment for any user-given query claim, but also rationales the assessment results with supporting evidences. ClaimVerif can automatically select the stances from\nmillions of documents and employs two-step training to justify the opinions of the stances. Furthermore, combined with the credibility of stances sources, ClaimVerif degrades the\nscore of stances from untrustworthy sources and alleviates the negative effects from rumor spreaders. Our empirical evaluations show that ClaimVerif achieves both high accuracy and\nefficiency in different claim verification tasks. It can be highly useful in practical applications by providing multi-dimension analysis for the suspicious statements, including the stances,\nopinions, source credibility and estimated judgements."
+    },
+    {
+      "document_id": 714,
+      "score": null,
+      "abstract": "Using the Web to assess the validity of claims presents many challenges. Whether the data comes from social networks or established media outlets, individual or\ninstitutional data publishers, one has to deal with scale and heterogeneity, as well as with incomplete, imprecise and sometimes outright false information. All of these\nare closely studied issues. Yet in many situations, the claims under scrutiny, and the data itself, have some inherent context-dependency making them impossible to completely\ndisprove, or evaluate through a simple (e.g. scalar) measure. While data models used on the Web typically deal with universal knowledge, we believe the time\nhas come to put context, such as time or provenance, at the forefront and watch knowledge through multiple lenses. We present BackDrop, an application that\nenables annotating knowledge and ontologies found online to explore how the veracity of claims varies with context. BackDrop comes in the form of a Web\ninterface, in which users can interactively populate and annotate knowledge bases, and explore under which circumstances certain claims are more or less credible."
+    },
+    {
+      "document_id": 772,
+      "score": null,
+      "abstract": "Intelligence analysis is dependent on veracity assessment of Open Source Information (OSINF) which includes assessment of the reliability of sources and credibility of information. Traditionally,\nOSINF veracity assessment is done by intelligence analysts manually, but the large volumes, high velocity, and variety make it infeasible to continue doing so, and\ncalls for automation. Based on meetings, interviews and questionnaires with military personnel, analysis of related work and state of the art, we identify the challenges\nand propose an approach and a corresponding framework for automated veracity assessment of OSINF. The framework provides a basis for new tools which will give\nthe intelligence analysts the ability to automatically or semi-Automatically assess veracity of larger amounts of data in a shorter amount of time. Instead of spending\ntheir time working with irrelevant, ambiguous, contradicting, biased, or plain wrong data, they can spend more time on analysis. © 2015 IEEE."
+    }
+  ]
+}

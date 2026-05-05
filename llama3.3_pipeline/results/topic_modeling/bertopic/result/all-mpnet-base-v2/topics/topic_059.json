@@ -1,0 +1,45 @@
+{
+  "topic_id": 59,
+  "label": "T059",
+  "label_full": "Misinformation & Propaganda",
+  "keywords": [
+    "machine",
+    "tweets",
+    "news",
+    "fake",
+    "matter",
+    "python",
+    "learning",
+    "hindi",
+    "numerous",
+    "component"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 68,
+      "score": null,
+      "abstract": "In the current years, with the rapid improvement of online social networks, much fake news for numerous commercial and political purposes has appeared and spread\nin the online world. Words can easily infect this online fake news, which has already had a substantial effect on of each fake offline society.\nA key aim in improving the authenticity of information in online social networks is the timely detection of fake news. Fake news is a shape\nof yellow journalism that summarizes clearly false information and is usually disseminated via social and other online media. This is often done to sell or\nimpose a specific idea and is often executed with a political agenda. Such messages can contain false or exaggerated claims and can end up going\nviral by algorithms, putting users in a filter bubble. This advanced Python Fake News Detection project deals with fake news and actual news. This can\nbe done by creating a TF-IDF Vectorizer on the dataset using Sklearn. Next, initialize a Passive-Aggressive classifier and in-shape the version. The accuracy score and\nthe confusion matrix indicate the performance of the model. © 2024 selection and editorial matter, Alex Khang, Pushan Kumar Dutta, Nishu Aayedee, Sachin Gupta, and\nSandeep Chatterjee; individual chapters, the contributors. All rights reserved."
+    },
+    {
+      "document_id": 272,
+      "score": null,
+      "abstract": "As social media has gotten more and more popular in recent years, there are many websites and social media platforms that claim to report on\nforth coming events, but whose veracity has been called into doubt. This has thrown news websites and blogs into the spotlight. As a result of\nthe controversy surrounding these websites and news organisations the concept of 'fake news' is now a crucial component of the news industry. Today's media content\nis considerably affected by the falsified news i.e; from satirical pieces to manufactured news and government publicity schemes. Fake news and a lack of media\ntrust are growing problems with serious repercussions for the general public. Automated technologies for spotting false news, including machine learning models, are now a must.\nThe work here presents the evaluation of four machine learning models' performance on four real-world datasets. Other languages, like Hindi, which is extensively spoken all\nover India are the subject of relatively fewer study. But the models which we have built are equally efficient in classifying news proliferated in Hindi\nalso. The method proposed utilises NLP techniques for data preprocessing and TF-IDF is the feature extraction technique considered for this model's development. Using simple machine\nlearning techniques an accuracy of about 0.99 is achieved. © 2023 IEEE."
+    },
+    {
+      "document_id": 389,
+      "score": null,
+      "abstract": "One of the most advanced technology developments in the world today is social networking. It has benefits and drawbacks, and it is something that everyone\nof us really needs. Global instability is being brought on by a major issue called fake news. As a result, creating an algorithm with the\nhighest level of accuracy will be revolutionary and have a significant influence on both the present political environment and the deeply felt societal issues. Due\nto their accessibility, low cost, and quick availability with just a click, social media and online news are crucial information sources for consumers. Yet, there\nare some drawbacks as well, such as the absence of a source check and the inability to authenticate the veracity and authenticity of the perspectives\nbeing supported. So, to improve accuracy, a cutting-edge, sentiment-based false news detection method was proposed. Moreover, it evaluates the utility of the suggested strategy using\nthree distinct data sets. In this comparison, numerous machine learning techniques including KNN, Naive Bayes, Random Forest, Decision Tree, and Linear Regression are evaluated. The\nemotional evaluation of the news is predicted using machine learning technologies. Each person's emotional reaction to the erroneous information and how it affects them is\na key component as well (happy, sad, stressed, etc.). © Grenze Scientific Society, 2023."
+    },
+    {
+      "document_id": 480,
+      "score": null,
+      "abstract": "We live in the age of the internet here; everyone relies on different online resources for information about the world. Social media sites like Facebook,\nand others are becoming more and more popular, any news can travel among millions of users within a matter of seconds. Many people acknowledge what\nthey have read without verifying its authenticity. The uncontrolled spread of fake news can cause severe social and national damage with catastrophic impacts. Thus, the\nstretch of far-reaching impact any fake news has is a matter of heavy concern. In , we aim to categorize diverse news (fake or real)\npieces known in our data set while implementing concepts of Machine Learning in python programming language. We aim to provide the user with a system\nthat can differentiate any news piece as fake or real. The proliferation of fake news has triggered numerous issues in our society recently. As a\nresult, a lot of scholars have been trying to figure out how to spot fake news. Many fake information detection systems utilize the linguistic component\nof the news piece. They have, however, had trouble spotting highly vague fake news, which can only be spotted after figuring out the meaning and\nmost recent information related to it. The paper proposes a fake news detection system that uses machine learning to address this issue. The bogus news\ndiscovery model is created using steps like data collection, data pre-processing, feature removal, and ultimately classification using various classifiers. This is accomplished by using Python\nprogramming language-based Machine Learning Algorithm principles. We employ various Machine Learning classification approaches to produce the most accurate outcomes. © 2022 IEEE."
+    },
+    {
+      "document_id": 736,
+      "score": null,
+      "abstract": "The automation of fake news detection is the focus of a great deal of scientific research. With the rise of social media over the years,\nthere has been a strong preference for users to be informed using their social media account, leading to a proliferation of fake news through them.\nevaluates the veracity of politically-oriented news and in particular the tweets about the recent event of Hong Kong protests, with the aid of a dataset\nrecently published by Twitter. From this dataset, Chinese tweets are translated into English, which are kept along with originally English tweets. By utilizing a language-independent\nfiltering process, relevant tweets are identified. To complete the dataset, tweets originating from valid sources are used as the real portion, with journalists rather than\nnews agencies being considered, which constitutes a novel aspect of the methodology. Well-known Machine Learning algorithms are used to classify tweets, which are represented by\na feature value vector that is extracted, selected and preprocessed from the datasets and mainly revolves around language use, with word entropy being a novel\nfeature. The results derived from these algorithms highlight morphological, lexical and vocabulary differences between tweets spreading fake and real news, which are for the most\npart in accordance with past related work. © 2020, IFIP International Federation for Information Processing."
+    }
+  ]
+}

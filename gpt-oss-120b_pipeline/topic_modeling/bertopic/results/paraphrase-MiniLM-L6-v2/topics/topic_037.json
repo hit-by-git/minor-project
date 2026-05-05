@@ -1,0 +1,50 @@
+{
+  "topic_id": 37,
+  "label": "T037",
+  "label_full": "Fact-Checking & Verification",
+  "keywords": [
+    "factchecking",
+    "claims",
+    "pacar",
+    "task",
+    "planning",
+    "checking",
+    "claim",
+    "reasoning",
+    "truthfulness",
+    "actions"
+  ],
+  "n_docs": 6,
+  "documents": [
+    {
+      "document_id": 198,
+      "score": null,
+      "abstract": "In an era characterized by the rapid proliferation of information, the pervasive issues of misinformation and disinformation have significantly impacted numerous individuals. Consequently, the evaluation\nof information's truthfulness and accuracy has attracted substantial attention among researchers. In , we present a novel fact-checking framework called PACAR, fact-checking based on Planning\nAnd Customized Action Reasoning using LLMs. It comprises four modules: a claim decomposer with self-reflection, an LLM-centric planner module, an executor for carrying out planned\nactions, and a verifier module that assesses veracity and generates explanations based on the overall reasoning process. Unlike previous work that employs single-path decision-making and\nsingle-step veracity prediction, PACAR focuses on the use of LLMs in dynamic planning and execution of actions. Furthermore, in contrast to previous work that relied\nprimarily on general reasoning, we introduce tailored actions such as numerical reasoning and entity disambiguation to effectively address potential challenges in fact-checking. Our PACAR framework,\nincorporating LLM-centric planning along with customized action reasoning, significantly outperforms baseline methods across three datasets from different domains and with varying complexity levels. Additional experiments,\nincluding multidimensional and sliced observations, demonstrate the effectiveness of PACAR and offer valuable insights for the advancement of automated fact-checking. © 2024 ELRA Language Resource\nAssociation: CC BY-NC 4.0."
+    },
+    {
+      "document_id": 199,
+      "score": null,
+      "abstract": "Fact-checking real-world claims often requires reviewing multiple multimodal documents to assess a claim's truthfulness, which is a highly laborious and time-consuming task. In , we\npresent a summarization model designed to generate claim-specific summaries useful for fact-checking from multimodal, multi-document datasets. The model takes inputs in the form of documents,\nimages, and a claim, with the objective of assisting in fact-checking tasks. We introduce a dynamic perceiver-based model that can handle inputs from multiple modalities\nof arbitrary lengths. To train our model, we leverage a novel reinforcement learning-based entailment objective to generate summaries that provide evidence distinguishing between different truthfulness\nlabels. To assess the efficacy of our approach, we conduct experiments on both an existing benchmark and a new dataset of multi-document claims that we\ncontribute. Our approach outperforms the SOTA approach by 4.6% in the claim verification task on the MOCHEG dataset and demonstrates strong performance on our new\nMulti-News-Fact-Checking dataset. © 2024 Association for Computational Linguistics."
+    },
+    {
+      "document_id": 598,
+      "score": null,
+      "abstract": "Most existing work on automated fact checking is concerned with predicting the veracity of claims based on metadata, social network spread, language used in claims,\nand, more recently, evidence supporting or denying claims. A crucial piece of the puzzle that is still missing is to understand how to automate the\nmost elaborate part of the process - generating justifications for verdicts on claims. provides the first study of how these explanations can be generated automatically\nbased on available claim context, and how this task can be modelled jointly with veracity prediction. Our results indicate that optimising both objectives at the\nsame time, rather than training them separately, improves the performance of a fact checking system. The results of a manual evaluation further suggest that the\ninformativeness, coverage and overall quality of the generated explanations are also improved in the multi-task model. © 2020 Association for Computational Linguistics"
+    },
+    {
+      "document_id": 689,
+      "score": null,
+      "abstract": "Fact-checking, the task of assessing the veracity of claims, is an important, timely, and challenging problem. While many automated fact-checking systems have been recently proposed,\nthe human side of the partnership has been largely neglected: how might people understand, interact with, and establish trust with an AI fact-checking system? Does\nsuch a system actually help people better assess the factuality of claims? In , we present the design and evaluation of a mixed-initiative approach to\nfact-checking, blending human knowledge and experience with the efficiency and scalability of automated information retrieval and ML. In a user study in which participants used\nour system to aid their own assessment of claims, our results suggest that individuals tend to trust the system: participant accuracy assessing claims improved when\nexposed to correct model predictions. However, this trust perhaps goes too far: when the model was wrong, exposure to its predictions often degraded human accuracy.\nParticipants given the option to interact with these incorrect predictions were often able improve their own performance. This suggests that transparent models are key to\nfacilitating effective human interaction with fallible AI models."
+    },
+    {
+      "document_id": 707,
+      "score": null,
+      "abstract": "The task of fact-checking has been formalised as the assessment of the truthfulness of a claim. Be it a political proclamation or a technological development,\nverification of a new tidbit of information before its propagation to the general public is of utmost importance. Failing to do so leads to the\nspread of misinformation, which is a devious tool. Fact-checking is commonly performed by journalists, manually looking up information pertaining to the statement in question. This\nis a drawn out and tedious process with a chance of the concerned person not covering the domain exhaustively. Some of this effort is reduced\nby the use of knowledge bases created over a period of time. In under Task 2 (Factuality) of the CLEF 2018 CheckThat! Lab, we detail\na neural network based methodology which models the textual data of a claim based on various representations of its words and characters. An affixed attention\nmechanism allows us to encapsulate linguistic features common in false claims. We achieve an accuracy of 39.57% on the task dataset."
+    },
+    {
+      "document_id": 779,
+      "score": null,
+      "abstract": "In we introduce the task of fact checking, i.e. the assessment of the truthfulness of a claim. The task is commonly performed manually by journalists\nverifying the claims made by public figures. Furthermore, ordinary citizens need to assess the truthfulness of the increasing volume of statements they consume. Thus, developing\nfact checking systems is likely to be of use to various members of society. We first define the task and detail the construction of a\npublicly available dataset using statements fact-checked by journalists available online. Then, we discuss baseline approaches for the task and the challenges that need to be\naddressed. Finally, we discuss how fact checking relates to mainstream natural language processing tasks and can stimulate further research. © 2014 Association for Computational Linguistics"
+    }
+  ]
+}

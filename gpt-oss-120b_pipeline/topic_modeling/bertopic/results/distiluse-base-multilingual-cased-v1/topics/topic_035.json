@@ -1,0 +1,55 @@
+{
+  "topic_id": 35,
+  "label": "T035",
+  "label_full": "pipeline, claim",
+  "keywords": [
+    "pipeline",
+    "claim",
+    "evidence",
+    "verification",
+    "base",
+    "pipelines",
+    "pairwise",
+    "automated",
+    "argument",
+    "knowledge"
+  ],
+  "n_docs": 7,
+  "documents": [
+    {
+      "document_id": 54,
+      "score": null,
+      "abstract": "This article presents a pipeline for automated fact-checking leveraging publicly available language models and data. The objective is to assess the accuracy of textual claims\nusing evidence from a ground-truth evidence corpus. The pipeline consists of two main modules—the evidence retrieval and the claim veracity evaluation. Our primary focus is\non the ease of deployment in various languages that remain unexplored in the field of automated fact-checking. Unlike most similar pipelines, which work with evidence\nsentences, our pipeline processes data on a paragraph level, simplifying the overall architecture and data requirements. Given the high cost of annotating language-specific fact-checking training\ndata, our solution builds on the question answering for claim generation method, which we adapt and use to generate the data for all models of\nthe pipeline. Our strategy enables the introduction of new languages through machine translation of only two fixed datasets of moderate size. Subsequently, any number of\ntraining samples can be generated based on an evidence corpus in the target language. We provide open access to all data and fine-tuned models for\nCzech, English, Polish, and Slovak pipelines, as well as to our codebase that may be used to reproduce the results. We comprehensively evaluate the pipelines\nfor all four languages, including human annotations and per-sample difficulty assessment using Pointwise V-information. The presented experiments are based on full snapshots to promote reproducibility.\nTo facilitate implementation and user interaction, we develop the FactSearch application featuring the proposed pipeline and the preliminary feedback on its performance. © The Author(s)\n2024."
+    },
+    {
+      "document_id": 197,
+      "score": null,
+      "abstract": "With the growing complexity of fact verification tasks, the concern with “thoughtful” reasoning capabilities is increasing. However, recent fact verification benchmarks mainly focus on checking\na narrow scope of semantic factoids within claims and lack an explicit logical reasoning process. In , we introduce CHECKWHY, a challenging dataset tailored to\na novel causal fact verification task: checking the truthfulness of the causal relation within claims through rigorous reasoning steps. CHECKWHY consists of over 19K “why”\nclaim-evidence-argument structure triplets with supports, refutes, and not enough info labels. Each argument structure is composed of connected evidence, representing the reasoning process that begins\nwith foundational evidence and progresses toward claim establishment. Through extensive experiments on state-of-the-art models, we validate the importance of incorporating the argument structure for causal\nfact verification. Moreover, the automated and human evaluation of argument structure generation reveals the difficulty in producing satisfying argument structure by fine-tuned models or Chain-of-Thought\nprompted LLMs, leaving considerable room for future improvements. © 2024 Association for Computational Linguistics."
+    },
+    {
+      "document_id": 205,
+      "score": null,
+      "abstract": "Claim verification is an essential step in the automated fact-checking pipeline which assesses the veracity of a claim against a piece of evidence. In ,\nwe explore the potential of few-shot claim verification, where only very limited data is available for supervision. We propose MAPLE (Micro Analysis of Pairwise Language\nEvolution), a pioneering approach that explores the alignment between a claim and its evidence with a small seq2seq model and a novel semantic measure. Its\ninnovative utilization of micro language evolution path leverages unlabelled pairwise data to facilitate claim verification while imposing low demand on data annotations and computing resources.\nMAPLE demonstrates significant performance improvements over SOTA baselines SEED, PET and LLaMA 2 across three fact-checking datasets: FEVER, Climate FEVER, and SciFact. Data and code\nare available here. © 2024 Association for Computational Linguistics."
+    },
+    {
+      "document_id": 225,
+      "score": null,
+      "abstract": "Automated claim checking is the task of determining the veracity of a claim given evidence retrieved from a textual knowledge base of trustworthy facts. While\nprevious work has taken the knowledge base as given and optimized the claim-checking pipeline, we take the opposite approach—taking the pipeline as given, we explore\nthe choice of the knowledge base. Our first insight is that a claim-checking pipeline can be transferred to a new domain of claims with access\nto a knowledge base from the new domain. Second, we do not find a “universally best” knowledge base—higher domain overlap of a task dataset and\na knowledge base tends to produce better label accuracy. Third, combining multiple knowledge bases does not tend to improve performance beyond using the closest-domain knowledge\nbase. Finally, we show that the claim-checking pipeline’s confidence score for selecting evidence can be used to assess whether a knowledge base will perform well\nfor a new set of claims, even in the absence of ground-truth labels."
+    },
+    {
+      "document_id": 394,
+      "score": null,
+      "abstract": "As part of an automated fact-checking pipeline, the claim verification task consists in determining if a claim is supported by an associated piece of evidence.\nThe complexity of gathering labelled claim-evidence pairs leads to a scarcity of datasets, particularly when dealing with new domains. In this article, we introduce Semantic\nEmbedding Element-wise Difference (SEED), a novel vector-based method to fewshot claim verification that aggregates pairwise semantic differences for claimevidence pairs. We build on the hypothesis\nthat we can simulate class representative vectors that capture average semantic differences for claim-evidence pairs in a class, which can then be used for classification\nof new instances. We compare the performance of our method with competitive baselines including fine-tuned Bidirectional Encoder Representations from Transformers (BERT)/Robustly Optimized BERT Pre-training Approach\n(RoBERTa) models, as well as the state-of-the-art few-shot claim verification method that leverages language model perplexity. Experiments conducted on the Fact Extraction and VERification (FEVER)\nand SCIFACT datasets show consistent improvements over competitive baselines in fewshot settings. Our code is available. © Copyright 2022 Sun et al. Distributed under Creative\nCommons CC-BY 4.0"
+    },
+    {
+      "document_id": 515,
+      "score": null,
+      "abstract": "In Automated Claim Verification, we retrieve evidence from a knowledge base to determine the veracity of a claim. Intuitively, the retrieval of the correct evidence\nplays a crucial role in this process. Often, evidence selection is tackled as a pairwise sentence classification task, i.e., we train a model to predict\nfor each sentence individually whether it is evidence for a claim. In , we fine-tune document level transformers to extract all evidence from a document\nat once. We show that this approach performs better than a comparable model classifying sentences individually on all relevant evidence selection metrics in FEVER. Our\ncomplete pipeline building on this evidence selection procedure produces a new state-of-the-art result on FEVER, a popular claim verification benchmark. © 2021 Association for Computational\nLinguistics."
+    },
+    {
+      "document_id": 598,
+      "score": null,
+      "abstract": "Most existing work on automated fact checking is concerned with predicting the veracity of claims based on metadata, social network spread, language used in claims,\nand, more recently, evidence supporting or denying claims. A crucial piece of the puzzle that is still missing is to understand how to automate the\nmost elaborate part of the process - generating justifications for verdicts on claims. provides the first study of how these explanations can be generated automatically\nbased on available claim context, and how this task can be modelled jointly with veracity prediction. Our results indicate that optimising both objectives at the\nsame time, rather than training them separately, improves the performance of a fact checking system. The results of a manual evaluation further suggest that the\ninformativeness, coverage and overall quality of the generated explanations are also improved in the multi-task model. © 2020 Association for Computational Linguistics"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "topic_id": 48,
+  "label": "T048",
+  "label_full": "machine, random",
+  "keywords": [
+    "machine",
+    "random",
+    "svm",
+    "forest",
+    "logistic",
+    "regression",
+    "algorithms",
+    "kaggle",
+    "tree",
+    "job"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 108,
+      "score": null,
+      "abstract": "Exponential growth of Internet and social media during the past few decades has helped the users to pass any information without even analyzing. Out of\nthese many are fake information which has got no authenticity and relevance. The fake news can be misleading and can pose dangerous threat to public\nhealth especially in situations of pandemic like Covid-19. Incorrect or misleading information may include information regarding medical, medicine, doctors, presciprtions etc. Sometimes even an expert\nhas to analyse various aspects simultaneously to classify the news as fake or not. To solve this problem we have proposed a prediction model for\nfake news detection using machine learning approach. Also a comparative analysis of other Machine Learning algorithms like Logistic Regression, Naive Bayes, SVM, Decision Tree, Random\nForest and KNN is performed on the dataset to verify the efficiency of the methodology. Based on the experimental results, it can be inferred that\nSVM classifier gives better performance as compared to others with an accuracy of 82.85%. © 2024, CRC Press/Balkema. All rights reserved."
+    },
+    {
+      "document_id": 335,
+      "score": null,
+      "abstract": "focuses on the detection of fake digital information using various machine learning and deep learning algorithms to prevent its spread through Internet of Things (IoT)\ndevices and systems. The research highlights the significance of detecting and preventing false or misleading information in critical areas such as healthcare, public safety, and\nemergency response. The study compares the performance of several supervised machine learning algorithms and identifies logistic regression as the most accurate (98.03%). The empirical analysis\nused data from The Indian Express, , and Kaggle and leveraged natural language processing (NLP) to prepare, clean, and model the data. To detect fraudulent\nposts, the study employed random forest, a supervised machine learning algorithm, which achieved an impressive accuracy rate of 99.71% on a Kaggle dataset. The research\nalso developed a model for detecting false reporting related to COVID-19, utilizing the support vector machine technique, which achieved an accuracy rate of 78.69%. The\npresented work also determined the authenticity of images through convolutional neural networks (CNNs). Lastly, a content-based recommendation system was developed to enhance people’s security and\nconfidence. © 2023 Rutvij Jhaveri, et al."
+    },
+    {
+      "document_id": 447,
+      "score": null,
+      "abstract": "Fake data is purposely or accidentally transmitted throughout the internet. It has long been a social issue, and in the digital age, the average person\nnow has easy access to all of the information available online. This is affecting a growing population of people who are technologically blind. One of\nthe most serious problems in the modern day is fake news, which has the capacity to affect people's minds and influence their judgments. On web\nbrowsers, there are a few plugins that provide real-time information about the veracity of news. The algorithms used to create these plugins have a significant\nimpact on them. The goal is to create a project that will propose which of the three implemented algorithms is the best for further development\nby the developer. Machine learning classification methods such as SVM, naive bayes, logistic regression, decision tree, and random forest are taught to detect if news\nis fake or real, and then compared based on metrics. © 2022 IEEE."
+    },
+    {
+      "document_id": 450,
+      "score": null,
+      "abstract": "Any news can spread like wildfire in the current digital era. Many people begin to believe anything they read in various sources without first confirming\nthe veracity of the source. Any false information could lead to rioting among communities and other significant problems. News may spread at very high speed\nthanks to social media platforms like Twitter, and other messaging applications like WhatsApp. Therefore, it is essential to identify and stop bogus news in order\nto maintain social harmony. In order to classify each item into one of the two categories true or spurious, authors used machine learning-based algorithms. For\nthis dataset of 20800 records from Kaggle that contains both real and phoney news, was used to train the various machine learning algorithms. SVM, Random\nForest, Passive Aggressive Classifier, Decision Tree, logistic regression and KNN are the six machine learning-based classifiers used to identify fake news, with SVM achieving the\ngreatest accuracy of 92.9 percent. © 2022, The Author(s), under exclusive license to Springer Nature Switzerland AG."
+    },
+    {
+      "document_id": 466,
+      "score": null,
+      "abstract": "In the recent times it is found to that there is a growing interest in Internet of Things (IoT) and its respective sophisticated cloud architectures.\nHowever, such development does not ensure the confidentiality, integrity due to its security vulnerabilities in its improvements. Therefore data breaching occurs rapidly in all sectors.\nNowadays, several job-seekers are becoming the prime victim for such digital loophole fraudsters, when there is an advertisement for bulk requirement. In order to reduce\nfrauds and scams that are designed to take advantage of people who seek jobs, a model to predict the genuineness of posting digital vacancies for\njob is real or fake. presents the implementation of Prediction of Employment Scam Model (POESM), intending for the classification of fraudulent and non-fraudulent digital job\nposting advertisements. In our work, we used eight techniques such as Logistic Regression, Naive Bayes, Multiple Layer Perceptron, K-Nearest Neighbor, Decision Tree, Random Forests, Adaboost,\nGradient Boosting classifiers. To analyze the dataset, supervised machine learning techniques is used to capture several essential information. Empirical results are found based on Accuracy,\nF1-Score, Cohen-Kappa Score, and MSE declares that Random Forest classifier is best suited for the prediction of online fraudulent requirements. The proposed POESM strategy can\nbe a promising solution for identifying the genuineness of vacancies for job posted via internet. © 2022 IEEE."
+    }
+  ]
+}

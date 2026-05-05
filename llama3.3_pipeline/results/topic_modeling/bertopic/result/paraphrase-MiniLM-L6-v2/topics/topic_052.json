@@ -1,0 +1,50 @@
+{
+  "topic_id": 52,
+  "label": "T052",
+  "label_full": "claim, verification",
+  "keywords": [
+    "claim",
+    "verification",
+    "claimevidence",
+    "folk",
+    "pu",
+    "label",
+    "pairs",
+    "evidence",
+    "edin",
+    "fewshot"
+  ],
+  "n_docs": 6,
+  "documents": [
+    {
+      "document_id": 204,
+      "score": null,
+      "abstract": "Claim verification is an essential step in the automated fact-checking pipeline which assesses the veracity of a claim against a piece of evidence. In ,\nwe explore the potential of few-shot claim verification, where only very limited data is available for supervision. We propose MAPLE (Micro Analysis of Pairwise Language\nEvolution), a pioneering approach that explores the alignment between a claim and its evidence with a small seq2seq model and a novel semantic measure. Its\ninnovative utilization of micro language evolution path leverages unlabelled pairwise data to facilitate claim verification while imposing low demand on data annotations and computing resources.\nMAPLE demonstrates significant performance improvements over SOTA baselines SEED, PET and LLaMA 2 across three fact-checking datasets: FEVER, Climate FEVER, and SciFact. Data and code\nare available here. © 2024 Association for Computational Linguistics."
+    },
+    {
+      "document_id": 228,
+      "score": null,
+      "abstract": "Claim verification plays a crucial role in combating misinformation. While existing works on claim verification have shown promising results, a crucial piece of the puzzle\nthat remains unsolved is to understand how to verify claims without relying on human-annotated data, which is expensive to create at a large scale. Additionally,\nit is important for models to provide comprehensive explanations that can justify their decisions and assist human fact-checkers. presents First-Order-Logic-Guided Knowledge-Grounded (FOLK) Reasoning that can\nverify complex claims and generate explanations without the need for annotated evidence using Large Language Models (LLMs). FOLK leverages the in-context learning ability of LLMs\nto translate the claim into a First-Order-Logic (FOL) clause consisting of predicates, each corresponding to a sub-claim that needs to be verified. Then, FOLK performs\nFOL-Guided reasoning over a set of knowledge-grounded question-and-answer pairs to make veracity predictions and generate explanations to justify its decision-making process. This process makes our\nmodel highly explanatory, providing clear explanations of its reasoning process in human-readable form. Our experiment results indicate that FOLK outperforms strong baselines on three datasets\nencompassing various claim verification challenges. Our code and data are available."
+    },
+    {
+      "document_id": 441,
+      "score": null,
+      "abstract": "As part of an automated fact-checking pipeline, the claim verification task consists in determining if a claim is supported by an associated piece of evidence.\nThe complexity of gathering labelled claim-evidence pairs leads to a scarcity of datasets, particularly when dealing with new domains. In this article, we introduce Semantic\nEmbedding Element-wise Difference (SEED), a novel vector-based method to fewshot claim verification that aggregates pairwise semantic differences for claimevidence pairs. We build on the hypothesis\nthat we can simulate class representative vectors that capture average semantic differences for claim-evidence pairs in a class, which can then be used for classification\nof new instances. We compare the performance of our method with competitive baselines including fine-tuned Bidirectional Encoder Representations from Transformers (BERT)/Robustly Optimized BERT Pre-training Approach\n(RoBERTa) models, as well as the state-of-the-art few-shot claim verification method that leverages language model perplexity. Experiments conducted on the Fact Extraction and VERification (FEVER)\nand SCIFACT datasets show consistent improvements over competitive baselines in fewshot settings. Our code is available. © Copyright 2022 Sun et al. Distributed under Creative\nCommons CC-BY 4.0"
+    },
+    {
+      "document_id": 444,
+      "score": null,
+      "abstract": "Verifying the veracity of claims requires reasoning over a large knowledge base, often in the form of corpora of trustworthy sources. A common approach consists\nin retrieving short portions of relevant text from the reference documents and giving them as input to a natural language inference module that determines whether\nthe claim can be inferred or contradicted from them. This approach, however, struggles when multiple pieces of evidence need to be collected and combined from\ndifferent documents, since the single documents are often barely related to the target claim and hence they are left out by the retrieval module. We\nconjecture that a graph-based approach can be beneficial to identify fragmented evidence. We tested this hypothesis by building, over the whole corpus, a large graph\nthat interconnects text portions by means of mentioned entities and exploiting such a graph for identifying candidate sets of evidence from multiple sources. Our experiments\nshow that leveraging on a graph structure is beneficial in identifying a reasonably small portion of passages related to a claim. © 2022, The Author(s),\nunder exclusive license to Springer Nature Switzerland AG."
+    },
+    {
+      "document_id": 559,
+      "score": null,
+      "abstract": "We extend evidence-aware claim verification to the context of positive-unlabeled (PU) learning. Existing works assume the truth and the falsity of the claims are known\nfor training and form the task as a supervised learning problem. However, this assumption underestimates the difficulty of collecting false claims; we argue that claim\nverification is more challenging in the absence of negative labels. We consider a more practical setting, where only a comparatively small number of true claims\nare labeled and more claims remain unlabeled. Thus, we formulate the claim verification task as a PU learning problem. We decouple learning representation of claim-evidence\npair from PU learning and adopt a pre-trained universal language model to encode claim-evidence pairs. We further propose to use the generative adversarial network (GAN)\nto capture the latent alignment between encoded claim-evidence pair and the truthfulness. We leverage the verification as part of the GAN by extending previous GAN\nbased PU learning. We show that the proposed model achieves the best performance with a small amount of labeled data and is robust to the\ntruthfulness prior estimation. We conduct a thorough analysis of the model selection. The proposed approach performs the best under two practical scenarios: (i) the unlabeled\ndata is more than the labeled data; (ii) and the unlabeled positive data is more than the unlabeled negative data."
+    },
+    {
+      "document_id": 581,
+      "score": null,
+      "abstract": "Claim verification aims to verify the truthfulness of claims according to the evidence. In the real-world scenarios, the claim verification methods are required 1) to\nidentify and filter out the noise; 2) to enable the interaction among evidence; and 3) to predict the labels in mixed label sets. However, the\nprior studies adopt either the implicit or cumbersome interaction processes, which disable them from capturing the commonalities among evidence nor reducing the impact of noise,\nand few of them consider the label prediction in mixed label sets. To alleviate these issues, we propose an Enhanced Dynamic Interaction Network (EDIN). The\nEDIN contains two main modules: A Gate-based Dynamic Interaction Module to promote the interaction of evidence and summarize the commonality to verify the claim, which\nemploys hub node and gates to control the information transmission and denoise. An Enhancement Module to assist the EDIN with predicting labels in a mixed\nlabel sets environment, where we introduce the auxiliary domain detection task and label transition component to enhance the expressiveness of label representation. Experimental results on\nmultiple public datasets reveal the superiority of our method, and further analysis validates the effectiveness of our proposed modules. © 2020"
+    }
+  ]
+}

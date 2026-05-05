@@ -1,0 +1,50 @@
+{
+  "topic_id": 46,
+  "label": "T046",
+  "label_full": "light, image",
+  "keywords": [
+    "light",
+    "image",
+    "double",
+    "direction",
+    "compressed",
+    "source",
+    "forensic",
+    "digital",
+    "intensity",
+    "ds"
+  ],
+  "n_docs": 6,
+  "documents": [
+    {
+      "document_id": 704,
+      "score": null,
+      "abstract": "Digital image forensics is required to investigate unethical use of doctored images by recovering the historic information of an image. Most of the cameras compress\nthe image using JPEG standard. When this image is decompressed and recompressed with different quantization matrix, it becomes double compressed. Although in certain cases, e.g.\nafter a cropping attack, the image can be recompressed with the same quantization matrix too. This JPEG double compression becomes an integral part of forgery\ncreation. The detection and analysis of double compression in an image help the investigator to find the authenticity of an image. In , a two-stage\ntechnique is proposed to estimate the first quantization matrix or steps from the partial double compressed JPEG images. In the first stage of the proposed\napproach, the detection of the double compressed region through JPEG ghost technique is extended to the automatic isolation of the doubly compressed part from an\nimage. The second stage analyzes the doubly compressed part to estimate the first quantization matrix or steps. In the latter stage, an optimized filtering scheme\nis also proposed to cope with the effects of the error. The results of proposed scheme are evaluated by considering partial double compressed images based\non the two different datasets. The partial double compressed datasets have not been considered in the previous state-of-the-art approaches. The first stage of the proposed\nscheme provides an average percentage accuracy of 95.45%. The second stage provides an error less than 1.5% for the first 10 DCT coefficients, hence, outperforming\nthe existing techniques. The experimental results consider the partial double compressed images in which the recompression is done with different quantization matrix. © 2016, Springer\nScience+Business Media New York."
+    },
+    {
+      "document_id": 748,
+      "score": null,
+      "abstract": "Digital images are facing a crisis of trustworthiness with the emergence of various digital image processing and steganography tools. proposes a novel approach that can\nevaluate the trustworthiness of a digital image. In this approach, an information fusion method is used to combine base digital image forensic models at the\nfeature level and the decision level. When using different kinds of base forensic models to get supporting evidence for different kinds of digital image manipulations,\nthere exist uncertainties introduced by base forensic models and conflicts among evidence provided by different forensic models. We use the Dempster-Shafer (D-S) evidence theory and\nan improved least square method to tolerate the uncertainties of forensic models and reduce the evidence conflicts. The lower and upper limits of digital image\ntrustworthiness can then be reliably evaluated by the D-S theory. Three information fusion models based on the D-S theory are proposed. The first model uses\nthe D-S theory at the feature fusion level. The second uses the D-S theory at the decision fusion level, where an improved least square method\nis designed to reduce the evidence conflicts. The last model is a combination of the first and the second one, where the D-S theory is\napplied at both the feature fusion and decision fusion levels. Experiments are carried out on four kinds of digital image manipulations. The experimental results show\nthat the three proposed models are very stable in evaluating different kinds of natural images and tampering images. While the first model can only give\nthe upper limit of the trustworthiness of a digital image, the second and the third one can give both lower and upper limits of the\ntrustworthiness of a digital image, as well as the uncertainties of the evidence produced by base forensics models. Compared with the second model, the third\none can further reduce the uncertainties. The experimental results also show that when a digital image undergoes many kinds of manipulations, our models can validly\ncompute a soft degree to measure the trustworthiness of the image, while current ordinary digital image forensic models may fail to predict it correctly. Experimental\nresults also demonstrate that the proposed digital image trustworthiness evaluation models can be adapted as digital image forensic classification models with very high detection accuracy.\n© 2016 Elsevier B.V."
+    },
+    {
+      "document_id": 783,
+      "score": null,
+      "abstract": "In , we present a decision fusion strategy for image forensics. We define a framework that exploits information provided by available forensic tools to yield\na global judgment about the authenticity of an image. Sources of information are modeled and fused using Dempster-Shafer Theory of Evidence, since this theory allows\nus to handle uncertain answers from tools and lack of knowledge about prior probabilities better than the classical Bayesian approach. The proposed framework permits us\nto exploit any available information about tools reliability and about the compatibility between the traces the forensic tools look for. The framework is easily extendable:\nnew tools can be added incrementally with a little effort. Comparison with logical disjunction- and SVM-based fusion approaches shows an improvement in classification accuracy, particularly\nwhen strong generalization capabilities are needed. © 2005-2012 IEEE."
+    },
+    {
+      "document_id": 799,
+      "score": null,
+      "abstract": "A new blind identification method is proposed for digital images generated under the irradiation of local light source. The direction of light source is calculated\nin accordance with the error function between measured intensity and calculated intensity, as well as the regularization term suitable for local light source model. The\ndirection of the light source is taken as the criterion to determine the authenticity. 486 photos in the database of experiment images are tested, among\nwhich the rate of correct detection reaches up to 77.16%, and the minimum and maximum errors are 0.2° and 1.0° respectively."
+    },
+    {
+      "document_id": 800,
+      "score": null,
+      "abstract": "Inconsistency in light source direction is taken as the basis for the detection of image tampering. Focusing on the images generated under the irradiation of\ninfinite light source, the Hestenes-Powell multiplier method is used to calculate the light source direction of different objects and backgrounds in an image and to\ndetermine whether the image has been tampered with. The calculation is in accordance with the error function between the measured intensity and calculated intensity, and\nthe constraint function suitable for infinite light source model. Experiment results show that this algorithm can effectively calculate the light source direction of different objects\nand backgrounds in the image lased on infinite light source model, and the detection rate reaches up to 82.3%."
+    },
+    {
+      "document_id": 801,
+      "score": null,
+      "abstract": "Inconsistency in light source direction resulted from image forgery is one of the traces which cannot be removed. Hereby, a blind identification to distinguish the\nimage authenticity by detecting inconsistency in light source direction was proposed. The search means and least-squares method were used to calculate the light source direction\nfor local and infinite light source images respectively, in accordance with the error function between the actual intensity and calculated intensity, as well as the\nconstraint function suitable for different light source models. And, by analyzing if the light source directions between different objects and background in one image are\nconsistent to determine whether the image had been altered. Experimental results showed that the correct detection rates of blind identification for local and infinite light\nsource images were 87.31% and 85.47% respectively. ©2009 IEEE."
+    }
+  ]
+}

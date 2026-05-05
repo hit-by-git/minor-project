@@ -1,0 +1,50 @@
+{
+  "topic_id": 47,
+  "label": "T047",
+  "label_full": "5lcnn, reviews",
+  "keywords": [
+    "5lcnn",
+    "reviews",
+    "false",
+    "extension",
+    "literacy",
+    "lstmrf",
+    "feedreflect",
+    "spamming",
+    "news",
+    "difficult"
+  ],
+  "n_docs": 6,
+  "documents": [
+    {
+      "document_id": 269,
+      "score": null,
+      "abstract": "The dissemination of news and coverage of events, both domestically and internationally, is now mostly the responsibility of print, web, and broadcast media. Because of\nthe explosion of information available online, verifying the veracity of claims is more difficult than ever. It is extremely difficult to verify the veracity of\nfake news using conventional data processing techniques without seriously misinforming the public. Indeed, the difficulty for the government and the public is a matter of\ncase by case argument. Several sites were built specifically for this purpose, each using its own unique logic and algorithm to determine which stories were\nmore likely to be true or false. There needs to be a system in place for verifying the veracity of online claims, especially those that\ngarner thousands of shares and clicks before being disproved by credible sources. In this proposed approach to an LSTM-RF classifier was used to determine whether\nor not a news story was fabricated. The three-step process that makes up the suggested method is as follows: preprocessing; feature extraction and feature selection;\nand LSTM-RF model training. In preprocessing, you'll clean the data, get rid of stop words, tokenize it, and stem it. The TF-IDF and Extra Tree\nClassifier are used for feature selection. The model is trained with LS TM-RF. The proposed method achieves superior results compared to LSTM and RF. ©\n2023 IEEE."
+    },
+    {
+      "document_id": 340,
+      "score": null,
+      "abstract": "The internet has made it simpler for people to obtain and share news and information from a variety of sources, but it also promotes the\nspread of false information. presents a technique for identifying bogus news that employs deep learning and machine learning and is implemented in Python. Four separate\nmodels - Naive Bayes, Decision Tree, Random Forest, and Bidirectional Long Short-Term Memory - are used in the research for this aim. The method is\nbased on disentangling false news from actual news by examining the linguistic characteristics of news pieces. The results emphasize the value of DL approaches in\ndetecting false news by showing that the BILSTM model is the most successful in doing so with an accuracy rate of 93%. The suggested strategy\nhas important ramifications for boosting news source trustworthiness and fostering media literacy. © 2023 IEEE."
+    },
+    {
+      "document_id": 418,
+      "score": null,
+      "abstract": "Over the past few years, we have seen a rise in spoofed content across the Internet, including fake news and fake reviews. Fake news is\nfalse information that imitates real news intending to damage a reputation or make financial gains. Similarly, fake online reviews, commonly referred to as opinion spamming,\nhave impacted customers and retailers. The main problem is that there is no efficient way to distinguish between genuine and fake reviews; even humans find\nit difficult to do so. compares two tools used to detect opinion spamming and analyzes their results. We have compiled our research using 100 reviews\nfrom travelers who evaluated Istanbul's top five best-value hotels."
+    },
+    {
+      "document_id": 467,
+      "score": null,
+      "abstract": "With the advent of websites and social media technologies, the internet has been a great method of transmitting news and information around the globe. However,\ndue to lack of editorial scrutiny and monitoring by the media authorities, the news distribution has been seriously abused leading to the fast spreading of\nfake news. Fake news involves misleading broadcasting of information from sources that target to intentionally manipulate the way how people view some events or statements.\nThis study seeks to develop a fake news detection model which will be able to analyze the title and text information attached to the news\narticles. From the researches done by previous scholars, it showed that the models did not perform very well because of the lack of sufficient feature\nextraction and fine tuning of the classification of the text. This research will therefore, articulate the gap by employing 5L-CNN deep learning model which will\nuse inbuilt tokenizers for word embedding and will show better accuracy compared to the traditional machine learning models. In , we compare machine learning algorithms\n(Decision trees, Random Forest, Logistic Regression & Naive Bayes) and deep learning algorithms (RNN, 5L-CNN & LSTM) to classify the authenticity of news articles. The\nmodel developed in attained the best accuracy with 5L-CNN which had a result of 99.99%. © 2022 IEEE."
+    },
+    {
+      "document_id": 788,
+      "score": null,
+      "abstract": "In recent years, a lot of fake news are generated on the web in order to attract readership, influence opinions, and increase internet click revenue.\nThe generation of this false information has become a worldwide phenomenon and its effects are notorious as it leads to confusion over facts and causes\nwrong decision-making.However, evaluating and detecting the veracity of news can be a complex and cumbersome task. This is simply because most of the studies carried\nout so far on the detection of such news, especially in real time, are not really performant. Our objective in is, therefore, to review the\nmajor works that have addressed this problem. Results of this study have revealed that two major approaches have been put forward, namely linguistic and network.\nIn this article, we will try to quote a set of automatic detection of false news on the web and social networks. © 2019 IEEE."
+    },
+    {
+      "document_id": 834,
+      "score": null,
+      "abstract": "In recent years, the emergence of fake news outlets has drawn out the importance of news literacy. This is particularly critical in social media where\nthe flood of information makes it difficult for people to assess the veracity of the false stories from such deceitful sources. Therefore, people oftentimes fail\nto look skeptically at these stories. We explore a way to circumvent this problem by nudging users into making conscious assessments of what online contents\nare credible. For this purpose, we developed FeedReflect, a browser extension. The extension nudges users to pay more attention and uses reflective questions to engage\nin news credibility assessment on Twitter. We recruited a small number of university students to use this tool on Twitter. Both qualitative and quantitative analysis\nof the study suggests the extension helped people accurately assess the credibility of news. This implies FeedReflect can be used for the broader audience to\nimprove online news literacy."
+    }
+  ]
+}

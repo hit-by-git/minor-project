@@ -1,0 +1,50 @@
+{
+  "topic_id": 49,
+  "label": "T049",
+  "label_full": "Credibility Assessment",
+  "keywords": [
+    "islamic",
+    "information",
+    "credibility",
+    "factors",
+    "scale",
+    "dimension",
+    "media",
+    "subject",
+    "iq",
+    "publishers"
+  ],
+  "n_docs": 6,
+  "documents": [
+    {
+      "document_id": 44,
+      "score": null,
+      "abstract": "With the primary goal of raising readers’ awareness of misinformation phenomena, extensive efforts have been made by both academic institutions and independent organizations to develop\nmethodologies for assessing the trustworthiness of online news publishers. Unfortunately, existing approaches are costly and face critical scalability challenges. This study presents a novel framework\nfor assessing the trustworthiness of online news publishers using user interactions on social media platforms. The proposed methodology provides a versatile solution that serves the\ndual purpose of i) identifying verifiable online publishers and ii) automatically performing an initial estimation of the trustworthiness of previously unclassified online news outlets."
+    },
+    {
+      "document_id": 292,
+      "score": null,
+      "abstract": "Information and communication technologies have grown globally in the past two decades, expanding the reach of news networks. However, the credibility of the information is\nnow in question. Credibility refers to a person’s belief in the truth of a subject, and online readers consider various factors to determine whether a\nsource is trustworthy. Credibility significantly impacts public behaviour, and less credible news spreads faster due to people’s interest in emotions like fear and disgust. This\ncan have negative consequences for individuals and economies. To determine the credibility factors in digital news stories, a Multivocal Literature Review (MLR) was conducted to\nidentify relevant studies in both white and grey literature. A total of 161 primary studies were identified from published (white) literature and 61 were identified\nfrom unpublished (grey) literature. As a result, 14 credibility factors were identified, including “number of views”, “reporter reputations”, “source information”, and “impartiality”. These factors were\nthen analysed using statistical tests and the Analytic Hierarchy Process (AHP) for decision-making to determine their criticality and importance in different domains. © 2023 by\nthe authors."
+    },
+    {
+      "document_id": 343,
+      "score": null,
+      "abstract": "The article deals with the analysis of reliability and objectivity of information that can be found on the internet and the objectivity and reliability of\nsuch information is compared to the system's behavior. The terms 'useful' and 'useless' information have been introduced. On the basis of Shannon's law of connection\nbetween information and entropy, as the measure of system's organization the notion of information chaos is analyzed, it illustrating growth of entropy in such system.\nThe work comprises a graphical interpretation of various events with Lars Onsager's curves. Described is the parameter which has to discern authentic useful information available\nfor analyzing and obtaining new knowledge from false and biased. A variant of the general scheme of the dynamic information system of the Internet, reflecting\nthe appearance of inaccurate information, is given. The analysis of experts' evaluation of the internet users' reaction on appearance of false, biased or unreliable information\nshowed that young users were oriented largely on emotional content, while the scientific society preferred reliability, objectiveness and authenticity of information. © 2023 The authors\nand IOS Press."
+    },
+    {
+      "document_id": 344,
+      "score": null,
+      "abstract": "Social media platforms do not usually demonstrate responsibilities for published content. In recent years, an increasing number of individuals are now serving as sources of\ninformation that sparks public concern as it is considered to have lack of online quality control mechanisms. These mechanisms include the credentials of authors and\ninformation editorial teams. aims to identify and develop an Islamic information credibility scale to examine the reliability of Islamic postings on social media, by acquiring\nthe experts’ views and agreement on the elements in the proposed model by leveraging the Fuzzy Delphi process. A total of 15 experts from academic\nand related stakeholders participated in the verification of items through the questionnaire instrument's 7-point linguistic scale by purposive sampling. Outcome of the study indicate that\nthe appropriate criteria to evaluate the credibility of Islamic information on social media incline on the top four indicators, which are of the source of\nwriting, accuracy, authority and authenticity of information. The result demonstrates the importance for referring to the source and content of information i.e., Quran and authentic\nhadith in the process to evaluate authentic Islamic information posting on social media, as opposed to the influence of the social environment. This study's value\nlies in its contribution to the conceptualization and development of new Islamic information credibility scale through the screening and selection process of Fuzzy Delphi method\napproach. In future research, this scale should be explored to test new media credibility, as an emerging and promising approach to identifying and evaluating Islamic\nnew media credibility. © The Author(s) 2023."
+    },
+    {
+      "document_id": 403,
+      "score": null,
+      "abstract": "Nowadays, information is taking on an increasingly central role in people’s lives. With the rise of internet, the amount of information has grown exponentially as\nthe ease of publishing content of all types has increased. At the same time, however, the risks deriving from the lack of checks on the\ntruthfulness of these have also increased. In fact, a”Fake” information content can lead to serious reputational, economic or health damages. To overcome the problem of\nverification, several studies have been carried out, but none of them appears to have been the subject of a significant commercial implementation. In all the\nprojects proposed so far there is a common thread, that is to act directly to the source of the news, examining, thanks to existing technologies,\nthe possible truthfulness of the same. On the other hand, lacking a real involvement of the reader, these projects were not suitable to increase the\nawareness of the end user. implements a technological platform able to provide a reliability value of a digital news, thus measuring the level of impartiality\nof the author through the evaluation of a defined series of parameters. © 2022 by SCITEPRESS – Science and Technology Publications, Lda. All rights reserved"
+    },
+    {
+      "document_id": 700,
+      "score": null,
+      "abstract": "Information on social media platform suffers from lack of monitoring. So the evaluation of information credibility on the social media platform is an important subject.\nSpecifically, social media have become popular for news consumption. News in its purest form, unbiased and trustworthiness is a big challenge. Through social media the\ninformation spread at such a fast rate, that false information perceives potential to cause real-world impacts on millions of users within a minute. Despite its\nimportance, research has not taken its upliftment to mitigate the factors influencing information quality. In , we will review the content dimension by studying Information\nquality of news on social media. We discuss this problem by presenting a dimension and levels to IQ. We test and validate the proposed model\nby computing IQI through distribution. The results show that based on user responses we can provide an IQ index to the news article. Providing a\nscale to measure the credibility of content. The prediction that a particular news article to what extent it is trustworthy based on the analysis of\nuser responses to the dimension of IQ can be an important step to fight against digital misinformation. © 2018 IEEE."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "topic_id": 57,
+  "label": "T057",
+  "label_full": "bert, networks",
+  "keywords": [
+    "bert",
+    "networks",
+    "transformers",
+    "models",
+    "problem",
+    "text",
+    "incorporation",
+    "ctbert",
+    "news",
+    "encodes"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 108,
+      "score": null,
+      "abstract": "Fake news is a growing challenge for social networks and media. Detection of fake news always has been a problem for many years, but the\nevolution of social networks and increasing speed of news dissemination in recent years has been considered again. There are several approaches to solving this problem,\none of which is to detect fake news based on its text style using deep neural networks. In recent years, transfer learning with transformers is\none of the most used forms of deep neural networks for natural language processing. BERT is one of the most promising transformers that outperforms other\nmodels in many NLP benchmarks. In this article, we introduce MWPBert, which uses two parallel BERT networks to perform veracity detection on full-text news articles.\nOne of the BERT networks encodes news headline, and another encodes news bodies. Since the input length of the BERT network is limited and constant\nand the news body is usually a long text, we cannot feed the whole text into the BERT. Therefore, using the MaxWorth algorithm, we selected\nthe part of the news text that is more valuable for fact-checking, and fed it into the BERT network. Finally, we encode the output of\nthe two BERT networks to an output network to classify the news. The experiment results showed that the proposed model outperformed previous models regarding accuracy\nand other performance measures. © The Author(s), under exclusive licence to Springer Science+Business Media, LLC, part of Springer Nature 2023."
+    },
+    {
+      "document_id": 367,
+      "score": null,
+      "abstract": "Detecting the veracity of textual content, and distin-guishing between fake and real news, has been greatly improved with the advent of BERT-based transformers. However, an\nin-herent challenge arises when encountering news articles that fall within the borderline of the latent vector space between fake and real. In , we propose\na three-label framework to address this uncertainty issue and leverage an external data enrichment module, Google Fact Check, to handle such cases. Our approach utilizes\na constraint dataset for training both the CT-BERT and BERT base models. Experimental results demonstrate that while the BERT base model achieves an accuracy of\n80%, the accuracy of CT-BERT, our proposed framework, reaches 93%. This significant improvement in a ccuracy showcases the effectiveness of our approach in tackling uncertainty\nin fake news detection. © 2023 IEEE."
+    },
+    {
+      "document_id": 387,
+      "score": null,
+      "abstract": "In the digital age, the rapid dissemination of news via social media platforms has given rise to a significant challenge - the proliferation of fake\nnews. This phenomenon sows confusion among the public and threatens the foundations of informed discourse and democracy. Addressing this issue, the present study explores the\napplication of the Bidirectional Encoder Representations from Transformers (BERT) model for detecting fake news. With its deep learning architecture and contextual understanding of language, BERT\noffers a promising framework for this purpose. The model was trained and validated on a dataset distinguishing between 'Fake' and 'True' news, achieving an accuracy\nof 79.88% and an area under the receiver operating characteristic (ROC) curve (AUC) of 0.87. These metrics underscore the model's proficiency in classifying news articles\ncorrectly. The study's results demonstrate the potential of BERT in the realm of fake news detection, providing a novel tool for social media platforms to\ncombat misinformation. Despite its efficacy, the research also highlights the model's limitations, including fluctuations in validation accuracy and a tendency to misclassify true news as\nfake, indicating areas for future improvement. This study contributes to the ongoing efforts to ensure the integrity of news content and offers a foundation for\nsubsequent research in information authenticity. © 2023 Copyright for by its authors."
+    },
+    {
+      "document_id": 553,
+      "score": null,
+      "abstract": "The distribution of fake news is not a new but a rapidly growing problem. The shift to news consumption via social media has been one\nof the drivers for the spread of misleading and deliberately wrong information, as in addition to its ease of use there is rarely any veracity\nmonitoring. Due to the harmful effects of such fake news on society, the detection of these has become increasingly important. We present an approach to\nthe problem that combines the power of transformer-based language models while simultaneously addressing one of their inherent problems. Our framework, CMTR-BERT, combines multiple text representations,\nwith the goal of circumventing sequential limits and related loss of information the underlying transformer architecture typically suffers from. Additionally, it enables the incorporation of\ncontextual information. Extensive experiments on two very different, publicly available datasets demonstrate that our approach is able to set new state-of-the-art performance benchmarks. Apart from\nthe benefit of using automatic text summarization techniques we also find that the incorporation of contextual information contributes to performance gains. © European Language Resources\nAssociation (ELRA), licensed under CC-BY-NC-4.0."
+    },
+    {
+      "document_id": 654,
+      "score": null,
+      "abstract": "Fake news refers to deceptive online content and is a problem which causes social harm [1]. Early detection of fake news is therefore a critical\nbut challenging problem. In we attempt to determine if state-of-the-art models, trained on the LIAR dataset [2] can be leveraged to reliably classify short claims\naccording to 6 levels of veracity that range from “True” to “Pants on Fire” (absolute lies). We investigate the application of transformer models BERT [3],\nRoBERTa [4] and ALBERT [5] that have previously performed significantly well on several natural language processing tasks including text classification. A simple neural network (FcNN)\nwas also used to enhance each model's result by utilising the sources' reputation scores. We achieved higher accuracy than previous studies that used more data\nor more complex models. Yet, after evaluating the models' behaviour, numerous flaws appeared. These include bias and the fact that they do not really model\nveracity which makes them prone to adversarial attacks. We also consider the possibility that language-based, fake news classification, on such short statements is an ill-posed\nproblem. © 2021 Copyright for by its authors. Use permitted under Creative Commons License Attribution 4.0 International (CC BY 4.0)."
+    }
+  ]
+}

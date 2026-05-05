@@ -1,0 +1,55 @@
+{
+  "topic_id": 35,
+  "label": "T035",
+  "label_full": "ensemble, transfer",
+  "keywords": [
+    "ensemble",
+    "transfer",
+    "voting",
+    "players",
+    "window",
+    "market",
+    "news",
+    "learning",
+    "age",
+    "machine"
+  ],
+  "n_docs": 7,
+  "documents": [
+    {
+      "document_id": 194,
+      "score": null,
+      "abstract": "The spread of misinformation in football transfer news has become a growing concern. To address this challenge, this study introduces a novel approach by employing\nensemble learning techniques to identify key factors for predicting such misinformation. The performance of three ensemble learning models, namely Random Forest, AdaBoost, and XGBoost, was\nanalyzed on a dataset of transfer rumours. Natural language processing (NLP) techniques were employed to extract structured data from the text, and the veracity of\neach rumor was verified using factual transfer data. The study also investigated the relationships between specific features and rumor veracity. Key predictive features such as\na player’s market value, age, and timing of the transfer window were identified. The Random Forest model outperformed the other two models, achieving a cross-validated\naccuracy of 95.54%. The top features identified by the model were a player’s market value, time to the start/end of the transfer window, and age.\nThe study revealed weak negative relationships between a player’s age, time to the start/end of the transfer window, and rumor veracity, suggesting that for older\nplayers and times further from the transfer window, rumors are slightly less likely to be true. In contrast, a player’s market value did not have\na statistically significant relationship with rumor veracity. This study contributes to the existing knowledge of misinformation detection and ensemble learning techniques. Despite some limitations, this\nstudy has significant implications for media agencies, football clubs, and fans. By discerning the credibility of transfer news, stakeholders can make informed decisions, reduce the\nspread of misinformation, and foster a more transparent transfer market. © 2024 by the authors."
+    },
+    {
+      "document_id": 257,
+      "score": null,
+      "abstract": "In today’s interconnected digital landscape, the proliferation of fake news has become a significant challenge, with far-reaching implications for individuals, institutions, and societies. The rapid\nspread of misleading in-formation undermines the credibility of genuine news outlets and threatens informed decision-making, public trust, and democratic processes. Recognizing the profound relevance and\nurgency of addressing this issue, this research embarked on a mission to harness the power of machine learning to combat fake news menace. This study\ndevelops an ensemble machine learning model for fake news classification. The research is targeted at spreading fake news. The research subjects are machine learning methods\nfor misinformation classification. Methods: we employed three state-of-the-art algorithms: LightGBM, XGBoost, and Balanced Random Forest (BRF). Each model was meticulously trained on a comprehensive dataset\ncurated to encompass a diverse range of news articles, ensuring a broad representation of linguistic patterns and styles. A distinctive feature of the proposed approach\nis the emphasis on token importance. By leveraging specific tokens that exhibited a high degree of influence on classification outcomes, we enhanced the precision and\nreliability of the developed models. The empirical results were both promising and illuminating. The LightGBM model emerged as the top per-former among the three, registering\nan impressive F1-score of 97.74% and an accuracy rate of 97.64%. Notably, all three of the proposed models consistently outperformed several existing models previously documented\nin academic literature. This comparative analysis underscores the efficacy and superiority of the proposed ensemble approach. In conclusion, this study contributes a robust, innovative, and\nscalable solution to the pressing challenge of fake news detection. By harnessing the capabilities of advanced machine learning techniques, the research findings pave the way\nfor enhancing the integrity and veracity of information in an increasingly digitalized world, thereby safeguarding public trust and promoting informed discourse. © Halyna Padalko, Vasyl\nChomko, Sergiy Yakovlev, Dmytro Chumachenko, 2023"
+    },
+    {
+      "document_id": 286,
+      "score": null,
+      "abstract": "The internet has made it possible for people to access news and information from all over the world, at any time and from any device.\nBecause of the increased use of social media outlets like Twitter and , news can reach thousands of people in a very short time. It\nis challenging to find informative content since false information is provided to lead readers to believe false ads. Additionally, Spammers frequently lure readers to click\non links that lead to phony websites by using spectacular news headlines. A hybrid approach incorporating ensemble learning with natural language processing should be used\nto solve this issue. offers a concept and a mechanism for identifying false news using an enhanced machine learning-based approach with a voting classifier. The\nensemble learning model helps us to mitigate the individual faults of various models while utilizing their combined strengths to identify patterns in the datasets. By\naggregating data points from various domains, classifiers can automatically identify false news and the authenticity of news after being trained on a data set. Improved\naccuracy, robustness, adaptability, and interpretability are the outcomes of the voting classifier. © 2023 IEEE."
+    },
+    {
+      "document_id": 296,
+      "score": null,
+      "abstract": "In today's age of excessive information, the proliferation of fake news has emerged as a significant challenge, eroding the trustworthiness of news sources and posing\nserious threats to society. With the advent of social media and the internet, false information spreads more easily, necessitating the development of effective methods to\nidentify and prevent its dissemination.While machine learning models have been widely employed to classify text data as authentic or fake, the majority of existing research\nhas primarily focused on well-resourced languages such as English, leaving low-resourced languages like Kurdish largely overlooked. To address this gap, our proposed work introduces a\nnovel approach: a hard voting ensemble method that combines the insights of four weak learners. By fine-tuning these weak learners for optimal performance, our approach\nachieves enhanced accuracy compared to the current state-of-the-art methods. Specifically, our findings demonstrate the effectiveness of the hard voting approach using a combination of Support\nVector Machines (SVM), Decision Trees (DT), and Naive Bayes (NB) classifiers, resulting in an impressive accuracy rate of 89.73%. This outperforms the individual SVM classifier\nand underscores the potential of ensemble techniques in fake news detection. © 2023 College of Education, Al-Iraqia University. All rights reserved."
+    },
+    {
+      "document_id": 299,
+      "score": null,
+      "abstract": "introduces an ensemble-based technique that uses Natural Language Processing method to detect fake news. It uses Support Vector Machine, Decision Tree, Passive Aggressive Classifier, and\nArtificial Neural Network, four different types of classifiers. The research's dataset for the study consisted of news pieces with labels indicating their truthfulness. Pre-processing of\nthe data included text cleaning, tokenization, and stemming. Using the initially processed data, the classifiers were trained and evaluated, and their performance were measured using\nmetrics such as F1 score, accuracy, recall, as well as precision. The findings revealed that ensemble model with a voting classifier outperformed individual classifiers, achieving\nmaximum accuracy. The findings suggest that the proposed method for identifying false news is effective and has the potential to benefit various fields such as\njournalism, media, politics, and public policy. The usage of ensemble techniques for detecting fake news has gained popularity in recent years, and highlights a novel\nmethod that employs NLP and machine learning techniques. © 2023 IEEE."
+    },
+    {
+      "document_id": 314,
+      "score": null,
+      "abstract": "People are finding it simpler to find and ingest news as a result of the information’s easy access, quick expansion, and profusion on social media\nand in traditional news outlets. However, it is becoming increasingly difficult to distinguish between true and false information, which has resulted in the proliferation of\nfake news. Fake news is a term that refers to comments and journalism that intentionally mislead readers. Additionally, the legitimacy of social media sites, where\nthis news is primarily shared, is at stake. These fake news stories can have significant negative effects on society, so it is becoming increasingly important\nfor researchers to focus on how to identify them. In this research paper, we have compared ensemble learning models for identifying fake news by analyzing\na report’s accuracy and determining its veracity. The paper’s objective is to use natural language processing (NLP) and machine learning (ML) algorithms to identify false\nnews based on the content of news stories. The algorithms like decision trees, random forests, AdaBoost, and XGBoost classification are used for the project. A\nweb application has been developed using Python Flask framework to mitigate the challenges associated with identifying false information. © The Author(s), under exclusive license to\nSpringer Nature Singapore Pte Ltd 2023."
+    },
+    {
+      "document_id": 517,
+      "score": null,
+      "abstract": "In the age of the Internet, access to information is no longer a concern, the credibility, however, is the new era challenge. Information reaches people\nin an unfiltered format and therefore raises questions about the authenticity, validity, and credibility. focuses on increasing the reliability of the news, concentrating on static\nanalysis of written text intending to detect possible disingenuous information. To achieve this goal, intelligent solutions were engaged, designed to detect patterns of fake articles\nthat can hint at the lack of knowledge or outright maliciously. The architecture, of the proposed fake news detection system is a composite solution of\ndifferent classification algorithms, with a final network output obtained through the use of the ensemble learning methods, respectively the comparison of three voting systems. The\nbaseline model allowed a satisfactory accuracy of 99% for the given dataset. © 2021 IEEE."
+    }
+  ]
+}

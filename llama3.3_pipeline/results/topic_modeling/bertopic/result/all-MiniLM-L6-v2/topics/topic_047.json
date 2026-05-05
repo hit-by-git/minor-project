@@ -1,0 +1,50 @@
+{
+  "topic_id": 47,
+  "label": "T047",
+  "label_full": "phoney, papers",
+  "keywords": [
+    "phoney",
+    "papers",
+    "online",
+    "looks",
+    "crawling",
+    "learning",
+    "techniques",
+    "news",
+    "grown",
+    "available"
+  ],
+  "n_docs": 6,
+  "documents": [
+    {
+      "document_id": 147,
+      "score": null,
+      "abstract": "The presence of misleading information in everyday access media outlets have made it a challenging issue with respect to identifying trustworthy sources thus resulting in\nthe increase in the need of the computational tools which are able to describe the reliability as well as the reality of the online content\navailable at the snap of our fingers. In the present scenario, the increase in usage of social media is resulting in more information being created\nor shared some of which is misleading with having little to no relevance to reality. Automating the detection of fake news is quite a challenging\ntask as we have to search out for various aspects before passing a verdict about any news article. In , we have proposed a model\nwhich makes use of Web Scraping and Crawling, Machine learning and deep learning techniques to help identify the truthfulness of an article. This can be\nconsidered as one of the best ways of detecting fake news by including fake news categorization and a few existing algorithms in machine learning. ©\n2024 American Institute of Physics Inc.. All rights reserved."
+    },
+    {
+      "document_id": 393,
+      "score": null,
+      "abstract": "Nowadays, getting news from online platforms, which include social media, news applications etc., is the most convenient and popular way, which is a positive. But\nthis way has negatives also, in which the bigger challenge is phoney or misleading information which is spread by the users for their own benefit.\nPhoney news has the capability to eliminate peace in society and always create conflicts at a higher level. This influence of this type of content\nis the subject of research to remove it from the online platforms to maintain the trustworthiness of the online news. In , we have summarized\nthe work of 23 research papers. The techniques used in the papers are based on machine learning and deep learning. We have further concluded the\noverview of different methodologies and datasets used in these papers and their significance in future research to improve the existing architecture of classification of phoney\nnews. © 2023 Bharati Vidyapeeth, New Delhi."
+    },
+    {
+      "document_id": 481,
+      "score": null,
+      "abstract": "Everyone relies on many online resources for news in today's world, where the internet is pervasive. As the use of social media platforms such as\nTwitter, Facebook, and others has grown, news has traveled quickly among millions of users in a short amount of time. Fake news has far-reaching effects,\nranging from the formation of biased opinions to manipulating election outcomes in favor of specific politicians. Furthermore, spammers profit from click-bait ads by utilizing appealing\nnews headlines. Sometimes, humans find it more difficult to determine the article’s authenticity without additional verification. In , we developed a classification model with the\nhelp of Deep Learning and Natural Language Processing Techniques, that classifies the article as real or fake news. The model has been tested on Indian\nnews source - Times Of India along with other sources such as Politifact and was able to give decent accuracy in verifying the authenticity of\nthe news. © 2022, The Author(s), under exclusive license to Springer Nature Switzerland AG."
+    },
+    {
+      "document_id": 629,
+      "score": null,
+      "abstract": "With the changing era of digital technology and use of 5G networks it is ubiquitous to use portable devices on palm which facilitates users to\naccess information in abundance with low cost from different social media sites. It also provides common platform for everyone to share information very fast. So\nveracity of such information is important otherwise it can mislead the mass and create issues. So detection of such news or contents which are false\nor fake is a challenging task. analyses different machine learning techniques to detect whether the news contents are true or false. For this, multi-attribute relational\nfeatures of the LIAR dataset are used. Sentiment features of the news statements are used along with the metadata of the speaker, which is taken\nas relations. Experimental result shows that the proposed method gives an accuracy of 75% compared to other techniques used on this dataset. © 2021 IEEE."
+    },
+    {
+      "document_id": 664,
+      "score": null,
+      "abstract": "Digitization has resulted in a plethora of new methods to read articles or excerpts online using smart-phones or tablets. Nowadays, everything is available online, and\ndealing with false information has grown increasingly. Online newspapers cannot check the veracity of all social media posts, and in order to combat the spread\nof fake news, machine learning algorithms might be beneficial in classifying articles based on labels provided by experts. will present relevant algorithms and their outcomes.\n© 2021 Copyright for by its authors. Use permitted under Creative Commons License Attribution 4.0 International (CC BY 4.0)."
+    },
+    {
+      "document_id": 717,
+      "score": null,
+      "abstract": "Unorganized data is a massive source of cluttered information available over the web. It possesses a major problem when this data originates from unauthenticated sources\ncreating confusion among the general public. The amount of fake news regarding the current COVID-19 scenario and political movements have had an adverse effect on\nthe world. It is necessary to devise models and a step by step algorithm to tackle this challenge. talks about a model that identifies data\navailable over the web and performs crawling to get information about the data sources and maps the information with regards to the authenticity of the\nsource. We look at possible web perspectives of data sources, official social media handles, reviewed agency lists, sentiment analysis, and calculate a value for a\npiece of particular news. The observed critical value looks for identifying the authenticity of the news and forms the basis of this idea. also looks\nat a model that uses supervised learning to classify various news items depending on the defined criteria. © 2020 IEEE."
+    }
+  ]
+}

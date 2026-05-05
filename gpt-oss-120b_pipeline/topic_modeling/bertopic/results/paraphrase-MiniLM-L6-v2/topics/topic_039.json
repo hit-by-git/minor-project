@@ -1,0 +1,50 @@
+{
+  "topic_id": 39,
+  "label": "T039",
+  "label_full": "multimodal, crossmodal",
+  "keywords": [
+    "multimodal",
+    "crossmodal",
+    "intra",
+    "news",
+    "intermodal",
+    "modality",
+    "interclass",
+    "graphs",
+    "text",
+    "images"
+  ],
+  "n_docs": 6,
+  "documents": [
+    {
+      "document_id": 10,
+      "score": null,
+      "abstract": "Due to the rapid growth of news containing multimedia elements, such as images in social networks, cross-modal learning is crucial for accurate fake news detection.\nMost previous approaches focus on embedding images and sentences independently into a shared embedding space by developing complex neural networks to coarsely fuse multimodal information.\nHowever, these approaches rarely seek fine-grained connections between images and sentences prior to performing multimodal fusion and lack the ability to understand complex intra- and\nintermodal relationships. In addition, previous studies have primarily concentrated on intra- and intermodal relationships within each sample, but interclass sample dynamics have been neglected. To\naddress these issues, we propose a multimodal interaction and graph contrastive learning network (MIGCL) for fake news detection. The multimodal interaction network consists of cross-modal\nalignment and filtering mechanisms that take into account both locally fine-grained and comprehensive cross-modal interactions while also adaptively suppressing irrelevant cross-modal interactions. Moreover, we develop\na hierarchical graph contrastive learning framework that employs fully and self-supervised contrastive learning methods to investigate the intricate connections of intra- and intermodal representations. More\nprecisely, unimodal graphs are constructed at the intramodal level to explore the authenticity information contained in the intra- and interclass samples of a particular modality.\nAt the intermodal level, multimodal graphs are constructed to capture the correlations between intra- and interclass cross-modal samples. Furthermore, we enhance the robustness of the\nmodel feature representation by applying perturbations to the graph structure. The proposed MIGCL achieves superior performance on three benchmark datasets, indicating the efficacy of our\napproach. Graphical Abstract: (Figure presented.) © The Author(s), under exclusive licence to Springer Science+Business Media, LLC, part of Springer Nature 2024."
+    },
+    {
+      "document_id": 132,
+      "score": null,
+      "abstract": "Alongside social media platforms’ rise in popularity, fake news circulation has increased, highlighting the need for more practical methods to detect this phenomenon. The constantly\nevolving format of fake news makes it difficult for approaches that rely on a single modality of news to generalize the different types of false\nnews. Furthermore, earlier approaches require extensive propagation data to determine the veracity of news, which can be challenging to collect in the early stages of\nnews dissemination. Thus, we propose a multimodal early fake news detection approach that leverages latent insights into both news content and propagation knowledge. We design\na multimodule architecture using graph neural networks (GNNs) to represent edge-enhanced and node-enhanced propagation graphs and bidirectional encoder representations from transformers (BERTs) to generate contextualized\nrepresentations of news content. Our approach tackles the challenge of early detection in a more realistic scenario, accessing early propagation data in a single social\nmedia post and short-length news content. Moreover, we conduct comprehensive studies on user characteristics using statistical techniques to identify attributes with strong discriminative capability for\nidentifying false news. We also analyze temporal and structural properties of fake news propagation graphs to demonstrate distinguishable patterns of false and real news behavior.\nOur model outperforms several state-of-the-art methods, achieving an impressive F1-score of 99% and 96% on two public datasets. The individual contribution of various components in\nour model to the final performance is also measured, which can be insightful for future research on multimodal false news detection. © 2024 IEEE."
+    },
+    {
+      "document_id": 217,
+      "score": null,
+      "abstract": "The proliferation of fake news with image and text in the internet has triggered widespread concern.Existing research has made important contributions in cross-modal information interaction\nand fusion, but fails to fundamentally address the modality gap among news image, text, and news-related external knowledge representations.In , we propose a novel Natural\nLanguage-centered Inference Network (NLIN) for multi-modal fake news detection by aligning multi-modal news content with the natural language space and introducing an encoder-decoder architecture to\nfully comprehend the news in-context.Specifically, we first unify multi-modal news content into textual modality by converting news images and news-related external knowledge into plain textual\ncontent.Then, we design a multimodal feature reasoning module, which consists of a multi-modal encoder, a unified-modal context encoder and an inference decoder with prompt phrase.This\nframework not only fully extracts the latent representation of cross-modal news content, but also utilizes the prompt phrase to stimulate the powerful in-context learning ability\nof the pre-trained large language model to reason about the truthfulness of the news content.In addition, to support the research in the field of multi-modal\nfake news detection, we produce a challenging large scale, multi-platform, multi-domain multi-modal Chinese Fake News Detection (CFND) dataset.Extensive experiments show that our CFND dataset is\nchallenging and the proposed NLIN outperforms state-of-the-art methods. © 2024 International Joint Conferences on Artificial Intelligence. All rights reserved."
+    },
+    {
+      "document_id": 284,
+      "score": null,
+      "abstract": "Fake news on social media platforms has become a pressing issue, undermining the reliability of factual information. Platforms like Twitter, Instagram, and Reddit lack measures\nto recognize falsified information that is circulated via images. The existing state of the art solutions can ascertain the origin of a text string generated\nby a neural language model, they encounter difficulties when it comes to recognizing human-made modifications to news content and detecting instances of fake news conveyed\nthrough images. To address this challenge, we propose a solution that utilizes the Optical Character Recognition (OCR) capabilities of the Google Cloud Vision API to\nextract text from news images. The extracted text is then cross-referenced with the New York Times (NYT) database to verify the authenticity of the news\narticles. Our testing on human-altered, fake, and real news images yielded a 84.54% accuracy in detecting falsified news articles. offers a promising approach to combat\nmisinformation in image-based news content shared on social media platforms, thereby contributing to the preservation of factual information integrity. © 2023 IEEE."
+    },
+    {
+      "document_id": 378,
+      "score": null,
+      "abstract": "Misuse of real photographs with conflicting image captions in news items is one case of out-of-context (OOC) misuse of media. To detect out-of-context given pair\nof news (i.e., captions) and attached image, people should determine the truthfulness of the statement and evaluate whether the triplet talks to the same event.\npresents a new method to detect the OOC media challenge introduced in ACMMM'22 Grand Challenge on Detecting Cheapfakes. For $Task_1$ (i.e., detect conflicting image-caption triplets),\nour approach uses bottom-up attention with visual semantic reasoning to extract global features of the image to perform comprehensive image-text matching, multiple models of natural\nlanguage processing to extract semantic relation of the caption and utilize boosting to improve the accuracy of the performance. Our method achieved an 85.5\\% accuracy\nscore on 80\\% of the testing dataset and has 4.5\\% higher accuracy than baseline. For Task2 (i.e., determine whether a given (Image, Caption) pair is\nreal or fake), we detect the veracity of captioned image base semantic features and correlation between image/caption and achieve 76\\% accuracy. Our source code is\navailable at Docker for submission is available at"
+    },
+    {
+      "document_id": 479,
+      "score": null,
+      "abstract": "Multi-modal fact verification has become an important but challenging issue on social media due to the mismatch between the text and images in the misinformation\nof news content, which has been addressed by considering cross-modalities to identify the veracity of the news in recent years. In , we propose the\nPre-CoFactv2 framework with new parameter-efficient foundation models for modeling fine-grained text and input embeddings with lightening parameters, multi-modal multi-type fusion for not only capturing relations\nfor the same and different modalities but also for different types (i.e., claim and document), and feature representations for explicitly providing metadata for each sample.\nIn addition, we introduce a unified ensemble method to boost model performance by adjusting the importance of each trained model with not only the weights\nbut also the powers. Extensive experiments show that Pre-CoFactv2 outperforms Pre-CoFact by a large margin and achieved new state-of-the-art results at the challenge at AAAI\n2023. We further illustrate model variations to verify the relative contributions of different components. Our team won the first prize (F1-score: 81.82%) and we made\nour code publicly available1 © 2023 Copyright for by its authors."
+    }
+  ]
+}

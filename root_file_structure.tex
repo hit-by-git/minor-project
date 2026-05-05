@@ -1,0 +1,109 @@
+\documentclass{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{dirtree}
+\usepackage{enumitem}
+\begin{document}
+\title{Workspace Root File Map and Implementation Outline}
+\author{}
+\date{29 April 2026}
+\maketitle
+
+\section*{Project structure}
+\dirtree{%
+.1 minor-project/.
+.2 output-enriched-llama3.3 - Sheet1.csv.
+.2 lightning\_ai\_metadata/.
+.3 input.csv.
+.3 main.py.
+.3 output.csv.
+.3 rewritten\_cot (2).txt.
+.2 results/.
+.3 compare/.
+.4 alignment\_summary\_gpt4o-mini\_vs\_ollama3.3.txt.
+.4 build\_alignment\_summary.py.
+.4 doi\_match\_summary.txt.
+.4 final\_explain\_result\_merged - results\_prompt-CoT\_0-6000-(ollama3.3) - final\_explain\_result\_merged - results\_prompt-CoT\_0-6000-(ollama3.3).csv.
+.4 matched\_yes\_rows\_by\_doi.csv.
+.4 matched\_yes\_rows\_combined\_doi\_then\_title.csv.
+.4 pre-screening-merged.csv.
+.4 title\_match\_fallback.py.
+.4 title\_similarity\_best\_matches\_all.csv.
+.4 title\_similarity\_match\_summary.txt.
+.4 title\_similarity\_matches\_high\_confidence.csv.
+.4 title\_similarity\_matches\_review\_needed.csv.
+.4 unmatched\_yes\_rows\_by\_doi.csv.
+.3 topic-modeling/.
+.4 bertopic/.
+.5 2.BERTopic.ipynb.
+.5 cohesive\_cv\_summary.csv.
+.5 all-MiniLM-L6-v2/.
+.6 1\_documents\_dataset\_mapping.csv.
+.6 2\_topic\_summary.csv.
+.6 2\_topic\_summary.tex.
+.6 3\_documents\_filtered\_topic.csv.
+.6 3\_documents\_filtered\_topic.json.
+.6 4\_excluded\_topics.json.
+.6 4\_topic\_cohesion.csv.
+.6 4\_umap\_bounds.json.
+.6 4\_umap\_coords\_cohesive.csv.
+.6 4\_umap\_coords.csv.
+.6 4\_umap\_embedding.npy.
+.6 4\_umap\_stats.json.
+.6 documents\_embeddings.npy.
+.6 figures/.
+.6 topics/.
+.5 all-mpnet-base-v2/.
+.6 1\_documents\_dataset\_mapping.csv.
+.6 2\_topic\_summary.csv.
+.6 2\_topic\_summary.tex.
+.6 3\_documents\_filtered\_topic.csv.
+.6 3\_documents\_filtered\_topic.json.
+.6 4\_excluded\_topics.json.
+.6 4\_topic\_cohesion.csv.
+.6 4\_umap\_bounds.json.
+.6 4\_umap\_coords\_cohesive.csv.
+.6 4\_umap\_coords.csv.
+.6 4\_umap\_embedding.npy.
+.6 4\_umap\_stats.json.
+.6 documents\_embeddings.npy.
+.6 figures/.
+.6 topics/.
+.5 distiluse-base-multilingual-cased-v1/.
+.6 1\_documents\_dataset\_mapping.csv.
+.6 2\_topic\_summary.csv.
+.6 \dots .
+.5 paraphrase-MiniLM-L6-v2/.
+.6 \dots .
+}
+
+\section*{Implementation outline}
+\begin{itemize}[leftmargin=*]
+\item \textbf{Data ingestion}
+    \begin{itemize}
+    \item Source files: output-enriched-llama3.3 - Sheet1.csv, \texttt{lightning\_ai\_metadata/input.csv}, \texttt{results/compare/*.csv}
+    \item Orchestration script: \texttt{lightning\_ai\_metadata/main.py}
+    \end{itemize}
+\item \textbf{Preprocessing}
+    \begin{itemize}
+    \item Normalize CSV formats, clean text fields, deduplicate rows.
+    \item DOI/title reconciliation using \texttt{results/compare/title\_match\_fallback.py}.
+    \end{itemize}
+\item \textbf{Analysis}
+    \begin{itemize}
+    \item Alignment summaries and DOI matching: \texttt{results/compare/build\_alignment\_summary.py}.
+    \item Topic modeling pipeline in \texttt{results/topic-modeling/bertopic/} (notebooks and model-specific outputs).
+    \end{itemize}
+\item \textbf{Outputs}
+    \begin{itemize}
+    \item CSV summaries in \texttt{results/compare/} and topic summaries in each model folder.
+    \item Figures and UMAP embeddings in \texttt{results/topic-modeling/bertopic/.../figures} and corresponding numpy files.
+    \end{itemize}
+\item \textbf{Suggested next steps}
+    \begin{enumerate}
+    \item Add a README explaining how to run \texttt{lightning\_ai\_metadata/main.py} and the BERTopic notebooks.
+    \item Add a \texttt{run.sh} or \texttt{Makefile} to standardize pipeline execution.
+    \item Add unit tests for \texttt{title\_match\_fallback.py} and \texttt{build\_alignment\_summary.py}.
+    \end{enumerate}
+\end{itemize}
+
+\end{document}

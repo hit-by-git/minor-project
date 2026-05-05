@@ -1,0 +1,45 @@
+{
+  "topic_id": 55,
+  "label": "T055",
+  "label_full": "Credibility Assessment",
+  "keywords": [
+    "credential",
+    "source",
+    "credibility",
+    "media",
+    "message",
+    "dimension",
+    "facebook",
+    "social",
+    "iq",
+    "verified"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 174,
+      "score": null,
+      "abstract": "Social media platform's lack of control over its content made way to the fundamental problem of misinformation. As users struggle with determining the truth, social\nmedia platforms should strive to empower users to make more accurate credibility judgements. A good starting point is a more accurate perception of the credibility\nof the message's source. Two preregistered online experiments (N = 525;N = 590) were conducted to investigate how verified source information affects perceptions of Tweets\n(study 1) and generic social media posts (study 2). In both studies, participants reviewed posts by an unknown author and rated source and message credibility,\nas well as likelihood of sharing. Posts varied by the information provided about the account holder: (1) none, (2) the popular method of verified source\nidentity, or (3) verified credential of the account holder (e.g., employer, role), a novel approach. The credential was either relevant to the content of the\npost or not. Study 1 presented the credential as a badge, whereas study 2 included the credential as both a badge and a signature. During\nan initial intuitive response, the effects of these cues were generally unpredictable. Yet, after explanation how to interpret the different source cues, two prevalent reasoning\nerrors surfaced. First, participants conflated source authenticity and message credibility. Second, messages from sources with a verified credential were perceived as more credible, regardless of\nwhether this credential was context relevant (i.e., virtual lab coat effect). These reasoning errors are particularly concerning in the context of misinformation. In sum, credential\nverification as tested in seems ineffective in empowering users to make more accurate credibility judgements. Yet, future research could investigate alternative implementations of this promising\ntechnology. © 2024 Geels et al. This is an open access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted\nuse, distribution, and reproduction in any medium, provided the original author and source are credited."
+    },
+    {
+      "document_id": 347,
+      "score": null,
+      "abstract": "Thanks to the advent of W3C and the rapid proliferation of social media platforms (Facebook, Instagram, Twitter, etc.), an unprecedented level of knowledge sharing has\nbecome possible. Users are producing more n more information and it is being circulating to a large number of people. The produced information may not\nbe correct all the time. Even subject matter experts need to judge an array of variables before evaluating to check the trustworthiness. , we propose\nto use machine learning (ML) to automate message classification. Our research examines various criteria that can be used to differentiate between genuine materials and counterfeits.\nThese qualities are used for training machine learning algorithms, and we then use datasets from the real world to evaluate how well they work. The\nresult shows that Xgboost model gives the highest accuracy for fake news detection in both Tf-Idf and BOW feature extraction techniques.SVM and Multinomial Naïve Base\nmodels are the most underperforming models in Tf-Idf and BOW respectively. © 2023, The Author(s), under exclusive licence to Springer Science+Business Media, LLC, part of\nSpringer Nature."
+    },
+    {
+      "document_id": 846,
+      "score": null,
+      "abstract": "Information on social media platform suffers from lack of monitoring. So the evaluation of information credibility on the social media platform is an important subject.\nSpecifically, social media have become popular for news consumption. News in its purest form, unbiased and trustworthiness is a big challenge. Through social media the\ninformation spread at such a fast rate, that false information perceives potential to cause real-world impacts on millions of users within a minute. Despite its\nimportance, research has not taken its upliftment to mitigate the factors influencing information quality. In , we will review the content dimension by studying Information\nquality of news on social media. We discuss this problem by presenting a dimension and levels to IQ. We test and validate the proposed model\nby computing IQI through distribution. The results show that based on user responses we can provide an IQ index to the news article. Providing a\nscale to measure the credibility of content. The prediction that a particular news article to what extent it is trustworthy based on the analysis of\nuser responses to the dimension of IQ can be an important step to fight against digital misinformation. © 2018 IEEE."
+    },
+    {
+      "document_id": 879,
+      "score": null,
+      "abstract": "Nowadays, information is provided through diverse network channels and, above all, its diffusion occurs in an always faster and pervasive manner. Social Media (SM) plays\na crucial role in distributing, in an uncontrolled way, news, opinions, media contents and so on, and can basically contribute to spread information that sometimes\nare untrue and misleading. An integrated assessment of the trustworthiness of the information that is delivered is claimed from different sides: the Secure! project strictly\nfits in such a context. The project has been studying and developing a service oriented infrastructure which, by resorting at diverse technological tools based on\nimage forensics, source reputation analysis, Twitter message trend analysis, web source retrieval and crawling, and so on, provides an integrated event assessment especially regarding crisis\nmanagement. The aim of is to present an interesting case-study which demonstrates the potentiality of the developed system to achieve a new integrated knowledge. ©\n2016, Springer Science+Business Media New York."
+    },
+    {
+      "document_id": 903,
+      "score": null,
+      "abstract": "With the growing use of online social media and presence of users on many such platforms, their interaction with social networks is huge. They are\nfree to spread wrong information without any accuracy, integrity and authenticity checkpoints masquerading as legitimate content. All these wrong, unrelated, unwanted, manipulated information are distributed\nfor some hidden reasons. Even, their distribution network is not limited to one social media platform. Sometimes, they use the social network as a market\nplace either for advertising, promotion of particular website, product and an application. But these advertisements do not provide any incentive to Facebook as this content\nis just spam, irrelevant for Facebook. Dissemination of unwanted, unrelated information has become a huge problem not only on blog, discussion forum but also on\nonline social network like Facebook. Due to lack of marking over content posted, this information become online and reader has no barometer to check either\nthe credibility of commenter or poster or the credibility of facts. To address these issues, we have derived an equation to weigh the credibility of\npublic pages and applied machine learning algorithms (MLA) over collected data to validate our prediction. © Springer Nature Singapore Pte Ltd. 2016."
+    }
+  ]
+}

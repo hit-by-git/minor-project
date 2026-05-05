@@ -1,0 +1,55 @@
+{
+  "topic_id": 37,
+  "label": "T037",
+  "label_full": "Crowdsourced Analysis",
+  "keywords": [
+    "annotation",
+    "proposal",
+    "bengali",
+    "news",
+    "level2",
+    "guideline",
+    "reliability",
+    "classification",
+    "annotated",
+    "spanish"
+  ],
+  "n_docs": 7,
+  "documents": [
+    {
+      "document_id": 220,
+      "score": null,
+      "abstract": "In today’s digital media landscape, it’s essential to evaluate the credibility of news language. Analyzing certain parts of a news article enhances the assessment of\nits linguistic trustworthiness. This method strengthens the ability to identify deceptive news and improves the comprehension of news content. Large language models’ latest advancements offer\na more effective solution to the news reliability classification problem. For Spanish news reliability classification, suggests fine-tuning the 8B-parameter Llama 3 model recently launched by\nMeta GenAI. In the IberLEF 2024 - Flares subtask 2, the proposed method ranked second for Spanish news reliability classification with a Macro F1 score\nof 0.59658. © 2024 Copyright for by its authors."
+    },
+    {
+      "document_id": 255,
+      "score": null,
+      "abstract": "Early detection of disinformation is one of the most challenging big-scale problems facing present day society. This is why the application of technologies such as\nArtificial Intelligence and Natural Language Processing is necessary. The vast majority of Artificial Intelligence approaches require annotated data, and generating these resources is very expensive.\nThis proposal aims to improve the efficiency of the annotation process with a two-level semi-automatic annotation methodology. The first level extracts relevant information through summarization\ntechniques. The second applies a Human-in-the-Loop strategy whereby the labels are pre-annotated by the machine, corrected by the human and reused by the machine to\nretrain the automatic annotator. After evaluating the system, the average annotation time per news item is reduced by 50%. In addition, a set of experiments\non the semi-automatically annotated dataset that is generated are performed so as to demonstrate the effectiveness of the proposal. Although the dataset is annotated in\nterms of unreliable content, it is applied to the veracity detection task with very promising results (0.95 accuracy in reliability detection and 0.78 in veracity\ndetection). © 2023 The Author(s)"
+    },
+    {
+      "document_id": 483,
+      "score": null,
+      "abstract": "We present the Verifee Dataset: a novel dataset of news articles with fine-grained trustworthiness annotations. We develop a detailed methodology that assesses the texts based\non their parameters encompassing editorial transparency, journalist conventions, and objective reporting while penalizing manipulative techniques. We bring aboard a diverse set of researchers from social,\nmedia, and computer sciences to overcome barriers and limited framing of this interdisciplinary problem. We collect over 10, 000 unique articles from 60 Czech online\nnews sources. These are categorized into one of the 4 classes across the credibility spectrum we propose, raging from entirely trustworthy articles all the way\nto the manipulative ones. We produce detailed statistics and study trends emerging throughout the set. Lastly, we fine-tune multiple popular sequence-to-sequence language models using our\ndataset on the trustworthiness classification task and report the best testing F-1 score of 0.52. We open-source the dataset, annotation methodology, and annotators’ instructions in\nfull length at to enable easy build-up work. We believe similar methods can help prevent disinformation and educate in the realm of media literacy. ©\n2022 Released under a custom license."
+    },
+    {
+      "document_id": 484,
+      "score": null,
+      "abstract": "presents the evolution of an annotation guideline designed for the disinformation detection task, an essential step of my doctoral thesis. The annotation proposal aims to\nlabel all the structural and content elements of a news item, as well as to classify them as Reliable or Unreliable. The initial objective was\nto annotate those elements into Fake or True, but for that classification, world knowledge is needed. Our current goal is to annotate news on the\nbasis of a purely textual, semantic and linguistic analysis, without using external knowledge and, for that reason, the annotation was redirected towards a reliability rating,\nrather than a veracity classification. This article justifies the change of perspective at this stage of the thesis, explains the difference between veracity and reliability\nand shows the concrete changes that have been adopted in our annotation proposal with this new approach. © 2022 Copyright for by its authors."
+    },
+    {
+      "document_id": 504,
+      "score": null,
+      "abstract": "The tremendous increase in the growth of misinformation in news articles has the potential threat for the adverse effects on society. Hence, the detection of\nmisinformation in news data has become an appealing research area. The task of annotating and detecting distorted news article sentences is the immediate need in\nthis research direction. Therefore, an attempt has been made to formulate the legitimacy annotation guideline followed by annotation and detection of the legitimacy in Bengali\ne-papers. The sentence-level manual annotation of Bengali news has been carried out in two levels, namely “Level-1 Shallow Level Classification” and “Level-2 Deep Level Classification”\nbased on semantic properties of Bengali sentences. The tagging of 1,300 anonymous Bengali e-paper sentences has been done using the formulated guideline-based tags for both\nlevels. The validation of the annotation guideline has been done by applying benchmark supervised machine learning algorithms using the lexical feature, syntactic feature, domain-specific feature,\nand Level-2 specific feature in both levels. Performance evaluation of these classifiers is done in terms of Accuracy, Precision, Recall, and F-Measure. In both levels,\nSupport Vector Machine outperforms other benchmark classifiers with an accuracy of 72\\% and 65\\% in Level-1 and Level-2, respectively."
+    },
+    {
+      "document_id": 528,
+      "score": null,
+      "abstract": "presents a novel architecture for dealing with Automatic Fake News detection. The architecture factors in the discourse structure of news in traditional digital media and\nis based on two premises. First, fake news tends to mix true and false information with the purpose of confusing readers. Second, this research is\nfocused on fake news delivered in traditional digital media, so our approach considers the influence of the journalistic structure of news, and the way journalists\ntend to introduce the essential content in a news story using 5W1H answer. Considering both premises, this proposal deals with the news components separately because\nsome may be true or false, instead of considering the veracity value of the news article as a unit. A two-layer architecture is proposed, Structure\nand Veracity layers. To demonstrate the validity of the proposal, a new dataset was created and annotated with a new fine-grained annotation scheme (FNDeepML) that\nconsiders the different elements of the news document and their veracity. Due to the severity of the COVID-19 pandemic crisis, health is the chosen domain,\nand Spanish is the language used to validate the architecture, given the lack of research in this language. However, the proposal can be applied to\nany other language or domain. The performance of the Veracity layer of our proposal, which factors in the traditional news article structure and the 5W1H\nannotation, is capable of delivering a result of F1=0.807. This represents a strong improvement when compared to the baseline, which uses the whole document with\na single veracity value, obtaining F1=0.605. These findings validate the suitability and effectiveness of our approach. © 2020 Elsevier Ltd"
+    },
+    {
+      "document_id": 749,
+      "score": null,
+      "abstract": "We study the problem of finding fake online news. This is an important problem as news of questionable credibility have recently been proliferating in social\nmedia at an alarming scale. As this is an understudied problem, especially for languages other than English, we first collect and release to the research\ncommunity three new balanced credible vs. fake news datasets derived from four online sources. We then propose a language-independent approach for automatically distinguishing credible from\nfake news, based on a rich feature set. In particular, we use linguistic (n-gram), credibility-related (capitalization, punctuation, pronoun use, sentiment polarity), and semantic (embeddings and\nDBPedia data) features. Our experiments on three different testsets show that our model can distinguish credible from fake news with very high accuracy. © Springer\nInternational Publishing Switzerland 2016."
+    }
+  ]
+}

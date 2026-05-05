@@ -1,0 +1,45 @@
+{
+  "topic_id": 60,
+  "label": "T060",
+  "label_full": "mutual, nutrimedia",
+  "keywords": [
+    "mutual",
+    "nutrimedia",
+    "claims",
+    "evidence",
+    "ehian",
+    "nutrition",
+    "interpretability",
+    "explainable",
+    "articles",
+    "questionable"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 438,
+      "score": null,
+      "abstract": "Social media is flooded with rumors, which make fake news detection a pressing problem. Many black-box approaches have been proposed to automatically predict the veracity\nof claims. These methods are lack of interpretability. Thus, we propose a Quantitative Argumentation-based Automated eXplainable Decision-making System (QA-AXDS) to tackle this problem and provide\nusers with explanations about the results. The system is fully data-driven in its processes, which allows our models to make greater use of data and\nbe more automatic and scalable than other quantitative framework models. In terms of interpretability, the system can automatically acquire human-level knowledge, and interact with users\nin the form of dialog trees through explanatory models, thus helping them understand the internal reasoning process of the system. The experimental results show that\nour system has better transparency and interpretability than other approaches based on the pure machine learning methods, and performs competitively in accuracy among others. In\naddition, the explanation model provides a way to improve the algorithms when some problems are identified by checking the explanations. © 2022 Elsevier B.V."
+    },
+    {
+      "document_id": 695,
+      "score": null,
+      "abstract": "The objective of Nutrimedia is to evaluate, based on the scientific evidence, the veracity of nutrition claims disseminated to the public by the media. In\nthis article, we describe the methodology, characteristics and contents of this web-based resource, as well as its web traffic and media impact since it was\nlaunched. Nutrimedia uses a systematic process to evaluate common beliefs, claims from newspapers and advertising identified and selected by its research team, as well as\nquestions from the public. After formulating a structured question for each claim, we conduct a pragmatic search, prioritizing guidelines and/or systematic reviews. We evaluate the\ncertainty of the evidence using the Grading of Recommendations, Assessment, Development and Evaluation (GRADE) approach, and classify the veracity of each claim into seven categories\n(true, probably true, possibly true, possibly false, probably false, false, and uncertain). For each evaluation, we develop a scientific report, a plain language summary, a\nsummary of findings table, and, in some cases, a video. From November 2017 to May 2019, we published 30 evaluations (21 were related to foods,\nsix to diets, and three to supplements), most of which were triggered by questions from the public (40%; 12/30). Overall, nearly half of the claims\nwere classified as uncertain (47%; 14/30). Nutrimedia received 47,265 visitors, with a total of 181,360 pages viewed. The project and its results were reported in\n84 written media and 386 websites from Spain and 14 other countries, mostly from Latin America. To our knowledge, Nutrimedia is the first web-based resource\nfor the public that evaluates the certainty of evidence and the veracity of nutrition claims using the GRADE approach. The scientific rigor combined with the\nuse of friendly presentation formats are distinctive features of this resource, developed to help the public to make informed choices about nutrition. © 2020 Rabassa\net al. This is an open access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction\nin any medium, provided the original author and source are credited."
+    },
+    {
+      "document_id": 746,
+      "score": null,
+      "abstract": "Exploring evidence from relevant articles to confirm the veracity of claims is a trend towards explainable claim verification. However, most strategies capture the top-k check-worthy\narticles or salient words as evidence, but this evidence is difficult to focus on the questionable parts of unverified claims. Besides, they utilize relevant articles\nindiscriminately, ignoring the source credibility of these articles, which may cause quiet a few unreliable articles to interfere with the assessment results. In , we\npropose Evidence-aware Hierarchical Interactive Attention Networks (EHIAN) by considering the capture of evidence fragments and the fusion of source credibility to explore more credible evidence\nsemantics discussing the questionable parts of claims for explainable claim verification. EHIAN first designs internal interaction layer (IIL) to strengthen deep interaction and matching between\nclaims and relevant articles for obtaining key evidence fragments, and then proposes global inference layer (GIL) that fuses source features of articles and interacts globally\nwith the average semantics of all articles and finally earns the more credible evidence semantics discussing the questionable parts of claims. Experiments on two datasets\ndemonstrate that EHIAN not only achieves the state-of-the-art performance but also secures effective evidence to explain the results. © 2020 Inst. Sci. inf., Univ. Defence\nin Belgrade. All rights reserved."
+    },
+    {
+      "document_id": 769,
+      "score": null,
+      "abstract": "In the setting where information cannot be verified, we propose a simple yet powerful information theoretical framework—the Mutual Information Paradigm—for information elicitation mechanisms. Our framework\npays every agent a measure of mutual information between her signal and a peer’s signal. We require that the mutual information measurement has the key\nproperty that any “data processing” on the two random variables will decrease the mutual information between them. We identify such information measures that generalize Shannon\nmutual information.Our Mutual Information Paradigm overcomes the two main challenges in information elicitation without verification: (1) how to incentivize high-quality reports and avoid agents colluding\nto report random or identical responses; (2) how to motivate agents who believe they are in the minority to report truthfully.Aided by the information measures,\nwe found (1) we use the paradigm to design a family of novel mechanisms where truth-telling is a dominant strategy and pays better than any\nother strategy profile (in the multi-question, detail free, minimal setting where the number of questions is large); (2) we show the versatility of our framework\nby providing a unified theoretical understanding of existing mechanisms—Bayesian Truth Serum Prelec (2004) and Dasgupta and Ghosh (2013)—by mapping them into our framework such that\ntheoretical results of those existing mechanisms can be reconstructed easily.We also give an impossibility result that illustrates, in a certain sense, the the optimality of\nour framework."
+    },
+    {
+      "document_id": 857,
+      "score": null,
+      "abstract": "Assessing the veracity of claims made on the Internet is an important, challenging, and timely problem. While automated fact-checking models have potential to help people\nbetter assess what they read, we argue such models must be explainable, accurate, and fast to be useful in practice; while prediction accuracy is clearly\nimportant, model transparency is critical in order for users to trust the system and integrate their own knowledge with model predictions. To achieve this, we\npropose a novel probabilistic graphical model (PGM) which combines machine learning with crowd annotations. Nodes in our model correspond to claim veracity, article stance regarding\nclaims, reputation of news sources, and annotator reliabilities. We introduce a fast variational method for parameter estimation. Evaluation across two real-world datasets and three scenarios\nshows that: (1) joint modeling of sources, claims and crowd annotators in a PGM improves the predictive performance and interpretability for predicting claim veracity; and\n(2) our variational inference method achieves scalably fast parameter estimation, with only modest degradation in performance compared to Gibbs sampling. Regarding model transparency, we designed\nand deployed a prototype fact-checker Web tool, including a visual interface for explaining model predictions. Results of a small user study indicate that model explanations\nimprove user satisfaction and trust in model predictions. We share our web demo, model source code, and the 13K crowd labels we collected. 1 Copyright\n© 2018, Association for the Advancement of Artificial Intelligence ( All rights reserved."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "topic_id": 43,
+  "label": "T043",
+  "label_full": "Fact-Checking & Verification",
+  "keywords": [
+    "factchecking",
+    "explanations",
+    "reasoning",
+    "ebart",
+    "human",
+    "actions",
+    "pacar",
+    "action",
+    "react",
+    "planning"
+  ],
+  "n_docs": 6,
+  "documents": [
+    {
+      "document_id": 6,
+      "score": null,
+      "abstract": "In an era increasingly dominated by digital platforms, the spread of misinformation poses a significant challenge, highlighting the need for solutions capable of assessing information\nveracity. Our research contributes to the field of Explainable Artificial Antelligence (XAI) by developing transformer-based fact-checking models that contextualise and justify their decisions by generating\nhuman-accessible explanations. Importantly, we also develop models for automatic evaluation of explanations for fact-checking verdicts across different dimensions such as (self)-contradiction, hallucination, convincingness and overall\nquality. By introducing human-centred evaluation methods and developing specialised datasets, we emphasise the need for aligning Artificial Intelligence (AI)-generated explanations with human judgements. This approach\nnot only advances theoretical knowledge in XAI but also holds practical implications by enhancing the transparency, reliability and users’ trust in AI-driven fact-checking systems. Furthermore,\nthe development of our metric learning models is a first step towards potentially increasing efficiency and reducing reliance on extensive manual assessment. Based on experimental\nresults, our best performing generative model achieved a Recall-Oriented Understudy for Gisting Evaluation-1 (ROUGE-1) score of 47.77 demonstrating superior performance in generating fact-checking explanations, particularly\nwhen provided with high-quality evidence. Additionally, the best performing metric learning model showed a moderately strong correlation with human judgements on objective dimensions such as\n(self)-contradiction and hallucination, achieving a Matthews Correlation Coefficient (MCC) of around 0.7. © 2024 The Authors"
+    },
+    {
+      "document_id": 16,
+      "score": null,
+      "abstract": "Fact-checking is a crucial task as it ensures the prevention of misinformation. However, manual fact-checking cannot keep up with the rate at which false information\nis generated and disseminated online. Automated fact-checking by machines is significantly quicker than by humans. But for better trust and transparency of these automated systems,\nexplainability in the fact-checking process is necessary. Fact-checking often entails contrasting a factual assertion with a body of knowledge for such explanations. An effective way\nof representing knowledge is the Knowledge Graph (KG). There have been sufficient works proposed related to fact-checking with the usage of KG but not much\nfocus is given to the application of reinforcement learning (RL) in such cases. To mitigate this gap, we propose an RL-based KG reasoning approach for\nexplainable fact-checking. Extensive experiments on FB15K-277 and NELL-995 datasets reveal that reasoning over a KG is an effective way of producing human-readable explanations in the\nform of paths and classifications for fact claims. The RL reasoning agent computes a path that either proves or disproves a factual claim, but does\nnot provide a verdict itself. A verdict is reached by a voting mechanism that utilizes paths produced by the agent. These paths can be presented\nto human readers so that they themselves can decide whether or not the provided evidence is convincing or not. will encourage works in this direction\nfor incorporating RL for explainable fact-checking as it increases trustworthiness by providing a human-in-the-loop approach."
+    },
+    {
+      "document_id": 198,
+      "score": null,
+      "abstract": "In an era characterized by the rapid proliferation of information, the pervasive issues of misinformation and disinformation have significantly impacted numerous individuals. Consequently, the evaluation\nof information's truthfulness and accuracy has attracted substantial attention among researchers. In , we present a novel fact-checking framework called PACAR, fact-checking based on Planning\nAnd Customized Action Reasoning using LLMs. It comprises four modules: a claim decomposer with self-reflection, an LLM-centric planner module, an executor for carrying out planned\nactions, and a verifier module that assesses veracity and generates explanations based on the overall reasoning process. Unlike previous work that employs single-path decision-making and\nsingle-step veracity prediction, PACAR focuses on the use of LLMs in dynamic planning and execution of actions. Furthermore, in contrast to previous work that relied\nprimarily on general reasoning, we introduce tailored actions such as numerical reasoning and entity disambiguation to effectively address potential challenges in fact-checking. Our PACAR framework,\nincorporating LLM-centric planning along with customized action reasoning, significantly outperforms baseline methods across three datasets from different domains and with varying complexity levels. Additional experiments,\nincluding multidimensional and sliced observations, demonstrate the effectiveness of PACAR and offer valuable insights for the advancement of automated fact-checking. © 2024 ELRA Language Resource\nAssociation: CC BY-NC 4.0."
+    },
+    {
+      "document_id": 363,
+      "score": null,
+      "abstract": "While large language models (LLMs) have demonstrated impressive performance across tasks in language understanding and interactive decision making, their abilities for reasoning (e.g. chain-of-thought prompting)\nand acting (e.g. action plan generation) have primarily been studied as separate topics. In , we explore the use of LLMs to generate both reasoning\ntraces and task-specific actions in an interleaved manner, allowing for greater synergy between the two: reasoning traces help the model induce, track, and update action\nplans as well as handle exceptions, while actions allow it to interface with and gather additional information from external sources such as knowledge bases or\nenvironments. We apply our approach, named ReAct, to a diverse set of language and decision making tasks and demonstrate its effectiveness over state-of-the-art baselines in\naddition to improved human interpretability and trustworthiness. Concretely, on question answering (HotpotQA) and fact verification (Fever), ReAct overcomes prevalent issues of hallucination and error propagation\nin chain-of-thought reasoning by interacting with a simple API, and generating human-like task-solving trajectories that are more interpretable than baselines without reasoning traces. Furthermore, on\ntwo interactive decision making benchmarks (ALFWorld and WebShop), ReAct outperforms imitation and reinforcement learning methods by an absolute success rate of 34% and 10% respectively,\nwhile being prompted with only one or two in-context examples. © 2023 11th International Conference on Learning Representations, ICLR 2023. All rights reserved."
+    },
+    {
+      "document_id": 368,
+      "score": null,
+      "abstract": "Automated fact-checking (AFC) systems exist to combat disinformation, however, their complexity usually makes them opaque to the end-user, making it difficult to foster trust in\nthe system. In this article, we introduce the E-BART model with the hope of making progress on this front. E-BART is able to provide a\nveracity prediction for a claim and jointly generate a human-readable explanation for this decision. We show that E-BART is competitive with the state-of-the-art on the\ne-FEVER and e-SNLI tasks. In addition, we validate the joint-prediction architecture by showing (1) that generating explanations does not significantly impede the model from performing\nwell in its main task of veracity prediction, and (2) that predicted veracity and explanations are more internally coherent when generated jointly than separately. We\nalso calibrate the E-BART model, allowing the output of the final model to be correctly interpreted as the confidence of correctness. Finally, we also conduct\nan extensive human evaluation on the impact of generated explanations and observe that: Explanations increase human ability to spot misinformation and make people more skeptical\nabout claims, and explanations generated by E-BART are competitive with ground truth explanations."
+    },
+    {
+      "document_id": 689,
+      "score": null,
+      "abstract": "Fact-checking, the task of assessing the veracity of claims, is an important, timely, and challenging problem. While many automated fact-checking systems have been recently proposed,\nthe human side of the partnership has been largely neglected: how might people understand, interact with, and establish trust with an AI fact-checking system? Does\nsuch a system actually help people better assess the factuality of claims? In , we present the design and evaluation of a mixed-initiative approach to\nfact-checking, blending human knowledge and experience with the efficiency and scalability of automated information retrieval and ML. In a user study in which participants used\nour system to aid their own assessment of claims, our results suggest that individuals tend to trust the system: participant accuracy assessing claims improved when\nexposed to correct model predictions. However, this trust perhaps goes too far: when the model was wrong, exposure to its predictions often degraded human accuracy.\nParticipants given the option to interact with these incorrect predictions were often able improve their own performance. This suggests that transparent models are key to\nfacilitating effective human interaction with fallible AI models."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "topic_id": 60,
+  "label": "T060",
+  "label_full": "arabic, ensemble",
+  "keywords": [
+    "arabic",
+    "ensemble",
+    "uncertainty",
+    "arastance",
+    "model",
+    "stacking",
+    "proposed",
+    "detection",
+    "bnn",
+    "architecture"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 51,
+      "score": null,
+      "abstract": "The proliferation of fake news poses a substantial threat to information integrity, prompting the need for robust detection mechanisms. This study advances the research on\nArabic fake news detection and overcomes the limitation of lower accuracy for fake news detection. This research addresses Arabic fake news detection using word embedding\nand a powerful stacking classifier. The proposed model combines bagging, boosting, and baseline classifiers, harnessing the strengths of each to create a robust ensemble. Extensive\nexperiments are carried out to evaluate the proposed approach indicating remarkable results, with recall, F1 score, accuracy, and precision reaching 99%. The utilization of advanced\nstacking techniques, coupled with appropriate textual feature extraction, empowers the model to effectively detect Arabic fake news. Study results make a valuable contribution to fake\nnews detection, particularly in the Arabic context, providing a valuable tool for enhancing information veracity and fostering a more informed public discourse. Furthermore, the proposed\nmodel’s accuracy is compared with other cutting-edge models from the existing literature to showcase its superior performance."
+    },
+    {
+      "document_id": 85,
+      "score": null,
+      "abstract": "Fake news, misinformation, and disinformation are significant cybersecurity threats worldwide, as sharing misleading or biased information can have detrimental consequences, leading individuals to act in\nharmful ways. It is crucial to provide fact-checking tools capable of determining the authenticity of news content, images, and videos. Despite the increasing penetration of\nfake news in Arabic countries, fake news detection in this context has received limited attention. focuses on developing an efficient approach to accurately identify fake\nnews while also measuring the uncertainty of its predictions, a crucial aspect that has been overlooked in the field. We propose a powerful deep ensemble\nmodel that incorporates various multi-input merging techniques and different architectures. Our proposed architecture comprises a deep ensemble of three distinct models, each designed to handle\nspecific types of inputs. The ensemble consists of Bi-Long Short Term Memory (Bi-LSTM) model utilizing embedded inputs, a Deep Neural Network (DNN) model incorporating only\nmetadata, and a DNN model employing the Term Frequency-Inverse Document Frequency (TF-IDF) matrix. Additionally, we compute uncertainty of this detection. We further utilize a Bayesian\nNeural Network (BNN) architecture specifically for metadata to independently measure uncertainty and to give a qualitative evaluation of our uncertainty measure. Experimental results on a\nchallenging dataset demonstrate that our proposed ensemble model outperforms previous works in terms of per-formance. Furthermore, by leveraging the BNN, we showcase how our ensemble\narchitecture surpasses the standalone BNN in uncertainty accuracy. These results not only establish the validity of our proposed ensemble architecture for fake news detection, but\nalso provide valuable information about the uncertainty associated with the model's predictions. By empowering internet users to become more critical consumers of news, these insights\nhold immense potential in mitigating the spread and impact of fake news. © 2024 IEEE."
+    },
+    {
+      "document_id": 146,
+      "score": null,
+      "abstract": "The proliferation of fake news or misinformation, commonly referred to as fake news, has a significant effect on a global scale, as it is aimed\nat influencing public opinion as well as crowd decision-making. It is therefore crucial to verify the truthfulness of news before it is released to the\npublic. Today, most studies on early detection of Arabic misinformation rely on machine learning methods and transformer-based models. Therefore, in the current study, we used\ndeep learning techniques to propose a model for detecting Arabic misinformation by leveraging the contextual features of news article content. The proposed model was built\nbased on BiLSTM and the attention mechanism. To extract features from Arabic text, we utilized a pre-trained AraBERT model, which generates contextual embeddings from text,\nthen are fed to the BiLSTM layer as input features. Moreover, we investigated the effectiveness of the attention mechanism in improving the overall performance of\nthe model by configuring model architecture to exclude the attention mechanism and comparing the results. Two datasets were utilized to train and evaluate the proposed\nmodel, namely, the AraNews and ArCovid19-Rumors datasets. Experimental results showed that the proposed model outperformed other existing models, achieving an accuracy of 0.96 on the\nArCovid19-Rumors dataset and 0.90 on the AraNews dataset. This remarkable performance was due to the capability of the attention mechanism to enhance the overall performance,\nallowing the model to capture the relationship between textual features. © 2024 College of Education, Al-Iraqia University. All rights reserved."
+    },
+    {
+      "document_id": 151,
+      "score": null,
+      "abstract": "The proliferation of fake news poses a substantial and persistent threat to information integrity, necessitating the development of robust detection mechanisms. In response to this\nchallenge, this research specifically focuses on the detection of Arabic fake news, employing a sophisticated approach that leverages textual features and a powerful stacking classifier.\nThe proposed model ingeniously combines bagging, boosting, and baseline classifiers, strategically harnessing the unique strengths of each to create a resilient ensemble. Through a series\nof extensive experiments and the integration of Embeddings from Language Models (ELMO) word embedding, the proposed approach achieves remarkable results in the realm of Arabic\nfake news detection. The model's effectiveness is further heightened by the utilization of advanced stacking techniques, coupled with meticulous textual feature extraction. This capability enables\nthe model to effectively distinguish between real and fake news in Arabic, highlighting its potential to enhance the accuracy of information. The findings of this\nstudy hold significant implications for the field of fake news detection, especially within the context of the Arabic language. The proposed model emerges as a\nvaluable tool, contributing to the enhancement of information veracity and fostering a more informed public discourse in the face of misinformation challenges. Furthermore, the excellence\nof the proposed model is substantiated by its outstanding performance metrics, boasting a 99% accuracy, precision, recall, and F-score. This substantiation is underscored through a\ncomprehensive performance comparison with other state-of-the-art models, affirming the model's reliability in the domain of Arabic fake news detection. © 2013 IEEE."
+    },
+    {
+      "document_id": 653,
+      "score": null,
+      "abstract": "With the continuing spread of misinformation and disinformation online, it is of increasing importance to develop combating mechanisms at scale in the form of automated\nsystems that support multiple languages. One task of interest is claim veracity prediction, which can be addressed using stance detection with respect to relevant documents\nretrieved online. To this end, we present our new Arabic Stance Detection dataset (AraStance) of 4,063 claim–article pairs from a diverse set of sources comprising\nthree fact-checking websites and one news website. AraStance covers false and true claims from multiple domains (e.g., politics, sports, health) and several Arab countries, and\nit is well-balanced between related and unrelated documents with respect to the claims. We benchmark AraStance, along with two other stance detection datasets, using a\nnumber of BERT-based models. Our best model achieves an accuracy of 85% and a macro F1 score of 78%, which leaves room for improvement and\nreflects the challenging nature of AraStance and the task of stance detection in general. © 2021 Association for Computational Linguistics."
+    }
+  ]
+}

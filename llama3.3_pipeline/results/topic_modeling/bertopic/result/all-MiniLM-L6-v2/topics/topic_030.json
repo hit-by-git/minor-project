@@ -1,0 +1,60 @@
+{
+  "topic_id": 30,
+  "label": "T030",
+  "label_full": "claim, pipeline",
+  "keywords": [
+    "claim",
+    "pipeline",
+    "corpus",
+    "query",
+    "subclaims",
+    "vence",
+    "czech",
+    "premise",
+    "evidence",
+    "dataset"
+  ],
+  "n_docs": 8,
+  "documents": [
+    {
+      "document_id": 30,
+      "score": null,
+      "abstract": "In , we explore the challenges associated with establishing an end-to-end fact-checking pipeline in a real-world context, covering over 90 languages. Our real-world experimental benchmarks\ndemonstrate that fine-tuning Transformer models specifically for fact-checking tasks, such as claim detection and veracity prediction, provide superior performance over large language models (LLMs) like\nGPT-4, GPT-3.5-Turbo, and Mistral-7b. However, we illustrate that LLMs excel in generative tasks such as question decomposition for evidence retrieval. Through extensive evaluation, we show\nthe efficacy of fine-tuned models for fact-checking in a multilingual setting and complex claims that include numerical quantities."
+    },
+    {
+      "document_id": 72,
+      "score": null,
+      "abstract": "Automating fact-checking is a challenging task that often requires the retrieval of multiple pieces of evidence from a reliable corpus for verifying the truthfulness of\na claim. Most of the current automated fact-checking systems produce true-or-false verdicts for certain types of factual claims in order to provide accuracy and transparency.\nHowever, some of the claim fragments can be true and others false. We propose ClaimAnalyse, the first fully automated claim polarity analysis system, an easy-to-use\nand an efficient tool for analyzing a claim according to the conformity and non-conformity of query sub-claims with the sources. Given a query claim and\nits related sources, ClaimAnalyse (I) selects the common sub-claims between the query claim and the sources, (II) composes the sources to cover the query claim\nand detects conform or non-conform source sub-claims with it, and (III) provides the polarity analysis of the query sub-claims over sources without any judgment or\nverdict on the entire claim. Our system provides the user with a complete and accurate analysis of the claim, which allows it to provide its\nown decision according to the polarity assigned to each query sub-claim. Using FEVER dataset, we experimentally verify the efficiency and the effectiveness of the proposed\nmodel. The experimental results have shown that among the state of-the-art methods, our proposed ClaimAnalyse model has achieved the best performance. © The Author(s), under\nexclusive licence to Springer Nature Switzerland AG 2024."
+    },
+    {
+      "document_id": 75,
+      "score": null,
+      "abstract": "This article presents a pipeline for automated fact-checking leveraging publicly available language models and data. The objective is to assess the accuracy of textual claims\nusing evidence from a ground-truth evidence corpus. The pipeline consists of two main modules—the evidence retrieval and the claim veracity evaluation. Our primary focus is\non the ease of deployment in various languages that remain unexplored in the field of automated fact-checking. Unlike most similar pipelines, which work with evidence\nsentences, our pipeline processes data on a paragraph level, simplifying the overall architecture and data requirements. Given the high cost of annotating language-specific fact-checking training\ndata, our solution builds on the question answering for claim generation method, which we adapt and use to generate the data for all models of\nthe pipeline. Our strategy enables the introduction of new languages through machine translation of only two fixed datasets of moderate size. Subsequently, any number of\ntraining samples can be generated based on an evidence corpus in the target language. We provide open access to all data and fine-tuned models for\nCzech, English, Polish, and Slovak pipelines, as well as to our codebase that may be used to reproduce the results. We comprehensively evaluate the pipelines\nfor all four languages, including human annotations and per-sample difficulty assessment using Pointwise V-information. The presented experiments are based on full Wikipedia snapshots to promote\nreproducibility. To facilitate implementation and user interaction, we develop the FactSearch application featuring the proposed pipeline and the preliminary feedback on its performance. © The\nAuthor(s) 2024."
+    },
+    {
+      "document_id": 268,
+      "score": null,
+      "abstract": "Given a possibly false claim sentence, how can we automatically correct it with minimal editing? Existing methods either require a large number of pairs of\nfalse and corrected claims for supervised training or do not handle well errors spanning over multiple tokens within an utterance. In , we propose VENCE,\na novel method for factual error correction (FEC) with minimal edits. VENCE formulates the FEC problem as iterative sampling editing actions with respect to a\ntarget density function. We carefully design the target function with predicted truthfulness scores from an offline trained fact verification model. VENCE samples the most probable\nediting positions based on back-calculated gradients of the truthfulness score concerning input tokens and the editing actions using a distantly-supervised language model (T5). Experiments on\na public dataset show that VENCE improves the well-adopted SARI metrics by 5.3 (or a relative improvement of 11.8%) over the previous best distantly-supervised methods.\nCopyright © 2023, Association for the Advancement of Artificial Intelligence ( All rights reserved."
+    },
+    {
+      "document_id": 275,
+      "score": null,
+      "abstract": "In , we examine several methods of acquiring Czech data for automated fact-checking, which is a task commonly modeled as a classification of textual claim\nveracity w.r.t. a corpus of trusted ground truths. We attempt to collect sets of data in form of a factual claim, evidence within the ground\ntruth corpus, and its veracity label (supported, refuted or not enough info). As a first attempt, we generate a Czech version of the large-scale FEVER\ndataset built on top of Wikipedia corpus. We take a hybrid approach of machine translation and document alignment; the approach and the tools we provide\ncan be easily applied to other languages. We discuss its weaknesses, propose a future strategy for their mitigation and publish the 127k resulting translations, as\nwell as a version of such dataset reliably applicable for the Natural Language Inference task—the CsFEVER-NLI. Furthermore, we collect a novel dataset of 3,097 claims,\nwhich is annotated using the corpus of 2.2 M articles of Czech News Agency. We present an extended dataset annotation methodology based on the FEVER\napproach, and, as the underlying corpus is proprietary, we also publish a standalone version of the dataset for the task of Natural Language Inference we\ncall CTKFactsNLI. We analyze both acquired datasets for spurious cues—annotation patterns leading to model overfitting. CTKFacts is further examined for inter-annotator agreement, thoroughly cleaned, and\na typology of common annotator errors is extracted. Finally, we provide baseline models for all stages of the fact-checking pipeline and publish the NLI datasets,\nas well as our annotation platform and other experimental data. © 2023, The Author(s)."
+    },
+    {
+      "document_id": 399,
+      "score": null,
+      "abstract": "We contribute a new dataset for the task of automated fact checking and an evaluation of state of the art algorithms. The dataset includes claims\n(from speeches, interviews, social media and news articles), review articles published by professional fact checkers and premise articles used by those professional fact checkers to\nsupport their review and verify the veracity of the claims. An important challenge in the use of premise articles is the identification of relevant passages\nthat will help to infer the veracity of a claim. We show that transferring a dense passage retrieval model trained with review articles improves the\nretrieval quality of passages in premise articles. We report results for the prediction of claim veracity by inference from premise articles."
+    },
+    {
+      "document_id": 755,
+      "score": null,
+      "abstract": "We contribute the largest publicly available dataset of naturally occurring factual claims for the purpose of automatic claim verification. It is collected from 26 fact\nchecking websites in English, paired with textual sources and rich metadata, and labelled for veracity by human expert journalists. We present an in-depth analysis of\nthe dataset, highlighting characteristics and challenges. Further, we present results for automatic veracity prediction, both with established baselines and with a novel method for joint\nranking of evidence pages and predicting veracity that outperforms all baselines. Significant performance increases are achieved by encoding evidence, and by modelling metadata. Our best-performing\nmodel achieves a Macro F1 of 49.2%, showing that this is a challenging testbed for claim veracity prediction."
+    },
+    {
+      "document_id": 809,
+      "score": null,
+      "abstract": "We contribute the largest publicly available dataset of naturally occurring factual claims for the purpose of automatic claim verification. It is collected from 26 fact\nchecking websites in English, paired with textual sources and rich metadata, and labelled for veracity by human expert journalists. We present an in-depth analysis of\nthe dataset, highlighting characteristics and challenges. Further, we present results for automatic veracity prediction, both with established baselines and with a novel method for joint\nranking of evidence pages and predicting veracity that outperforms all baselines. Significant performance increases are achieved by encoding evidence, and by modelling metadata. Our best-performing\nmodel achieves a Macro F1 of 49.2%, showing that this is a challenging testbed for claim veracity prediction. © 2019 Association for Computational Linguistics"
+    }
+  ]
+}

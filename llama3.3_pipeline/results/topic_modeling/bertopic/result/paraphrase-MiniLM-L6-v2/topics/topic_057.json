@@ -1,0 +1,45 @@
+{
+  "topic_id": 57,
+  "label": "T057",
+  "label_full": "reviews, reviewers",
+  "keywords": [
+    "reviews",
+    "reviewers",
+    "review",
+    "products",
+    "product",
+    "texts",
+    "customer",
+    "potentials",
+    "customers",
+    "complaints"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 666,
+      "score": null,
+      "abstract": "Customer reviews are useful in providing an indirect, secondhand experience of a product. People often use reviews written by other customers as a guideline prior\nto purchasing a product/service or as a basis for acquiring information directly or through question answering. Such behavior signifies the authenticity of reviews in e-commerce\nplatforms. However, fake reviews are increasingly becoming a hassle for both consumers and product owners. To address this issue, we propose You Only Need Gold\n(YONG), an assistance tool for detecting fake reviews and augmenting user discretion. Our experimental results show the poor human performance on fake review detection, substantially\nimproved user capability given our tool, and the ultimate need for user reliance on the tool. © 2021 Association for Computational Linguistics"
+    },
+    {
+      "document_id": 760,
+      "score": null,
+      "abstract": "Automated detection of text with misrepresentations such as fake reviews is an important task for online reputation management. The dataset of customer complaints - emotionally\ncharged texts which are very similar to reviews and include descriptions of problems customers experienced with certain businesses – is presented. It contains 2746 complaints\nabout banks and provides clear ground truth, based on available factual knowledge about the financial domain. Among them, 400 texts were manually tagged. Initial experiments\nwere performed in order to explore the links between implicit cues of the rhetoric structure of texts and the validity of arguments, and also how\ntruthful/deceptive are these texts."
+    },
+    {
+      "document_id": 773,
+      "score": null,
+      "abstract": "Fake news, doubtful statements and other unreliable content not only differ with regard to the level of misinformation but also with respect to the underlying\nintents. Prior work on algorithmic truth assessment has mostly pursued binary classifiers—factual versus fake—and disregarded these finer shades of untruth. In manual analyses of questionable\ncontent, in contrast, more fine-grained distinctions have been proposed, such as distinguishing between hoaxes, irony and propaganda or the six-way truthfulness ratings by the PolitiFact\ncommunity. In , we present a principled automated approach to distinguish these different cases while assessing and classifying news articles and claims. Our method is\nbased on a hierarchy of five different kinds of fakeness and systematically explores a variety of signals from social media, capturing both the content and\nlanguage of posts and the sharing and dissemination among users. The paper provides experimental results on the performance of our fine-grained classifier and a detailed\nanalysis of the underlying features. © 2019, Springer-Verlag GmbH Austria, part of Springer Nature."
+    },
+    {
+      "document_id": 896,
+      "score": null,
+      "abstract": "Authenticity is the key for online review sites. Due to the significant development of review sites, the reviews are now highly important to users, producers\nand other stakeholders. Driven by interest, some imposters begin to post fake reviews to promote or discredit target products. The fake reviews not only mislead\nthe users but also damage the service provider's credit. Current works mostly aim at classifying whether a specific review is fake or not, using context-based\nor user-based approaches. However, the aggregated rating of the product is viewer's most concern. Therefore, we propose a novel task to restore the truthful rating\nand further tackle it by statistical and deep learning techniques. We also assemble and publish a movie-review dataset for this task."
+    },
+    {
+      "document_id": 921,
+      "score": null,
+      "abstract": "Online reviews are a cornerstone of consumer decision making. However, their authenticity and quality has proven hard to control, especially as polluters target these reviews\ntoward promoting products or in degrading competitors. In a troubling direction, the widespread growth of crowdsourcing platforms like Mechanical Turk has created a large-scale, potentially\ndifficult-to-detect workforce of malicious review writers. Hence, tackles the challenge of uncovering crowdsourced manipulation of online reviews through a three-part effort: (i) First, we propose\na novel sampling method for identifying products that have been targeted for manipulation and a seed set of deceptive reviewers who have been enlisted through\ncrowdsourcing platforms. (ii) Second, we augment this base set of deceptive reviewers through a reviewer-reviewer graph clustering approach based on a Markov Random Field where\nwe define individual potentials (of single reviewers) and pair potentials (between two reviewers). (iii) Finally, we embed the results of this probabilistic model into a\nclassification framework for detecting crowd-manipulated reviews. We find that the proposed approach achieves up to 0.96 AUC, outperforming both traditional detection methods and a SimRank-based\nalternative clustering approach. © 2015 ACM."
+    }
+  ]
+}

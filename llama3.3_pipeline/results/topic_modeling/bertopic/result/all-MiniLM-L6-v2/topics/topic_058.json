@@ -1,0 +1,45 @@
+{
+  "topic_id": 58,
+  "label": "T058",
+  "label_full": "Misinformation & Propaganda",
+  "keywords": [
+    "online",
+    "news",
+    "feature",
+    "plays",
+    "fake",
+    "social",
+    "selection",
+    "optimal",
+    "extraction",
+    "role"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 68,
+      "score": null,
+      "abstract": "In the current years, with the rapid improvement of online social networks, much fake news for numerous commercial and political purposes has appeared and spread\nin the online world. Words can easily infect this online fake news, which has already had a substantial effect on of each fake offline society.\nA key aim in improving the authenticity of information in online social networks is the timely detection of fake news. Fake news is a shape\nof yellow journalism that summarizes clearly false information and is usually disseminated via social and other online media. This is often done to sell or\nimpose a specific idea and is often executed with a political agenda. Such messages can contain false or exaggerated claims and can end up going\nviral by algorithms, putting users in a filter bubble. This advanced Python Fake News Detection project deals with fake news and actual news. This can\nbe done by creating a TF-IDF Vectorizer on the dataset using Sklearn. Next, initialize a Passive-Aggressive classifier and in-shape the version. The accuracy score and\nthe confusion matrix indicate the performance of the model. © 2024 selection and editorial matter, Alex Khang, Pushan Kumar Dutta, Nishu Aayedee, Sachin Gupta, and\nSandeep Chatterjee; individual chapters, the contributors. All rights reserved."
+    },
+    {
+      "document_id": 473,
+      "score": null,
+      "abstract": "Fake news plays a major role by broadcasting misinformation, which influences people's knowledge or perceptions and distorts their decision-making and awareness. Online forums and social\nmedia have stimulated the broadcast of fake news by embedding it with truthful information. Thus, fake news has evolved into the main challenge of better\nimpact in the information-driven community for intense fakesters. The detection of fake news articles that is generally found by considering the quality of the information\nin their news feeds under uncertain authenticity calls for automated tools. However, designing such tools is a major problem because of the multiple faces of\nfakesters. offers a new text-analytics-driven method for detecting fake news to reduce the risks impacted by the consumption of fake news. The methodology for improved\nfake news detection focusses on four phases: (a) pre-processing, (b) feature extraction, (c) optimal feature selection and (d) classification. The pre-processing of the text data\nwill be initially done by stop word removal, blank space removal and stemming. Further, the feature extraction is performed by term frequency-inverse document frequency, and\ngrammatical analysis is done using mean, Q25, Q50, Q75, Max, Min and standard deviation. Then, the optimal feature selection is developed, which minimises the number\nof input variables. It is intended to reduce the number of input variables to improve the model's performance by minimising the computational cost of modelling.\nAn improved meta-heuristic algorithm called successive position-based barnacles mating optimisation is used for optimal feature selection and classification. As the main contribution, the influence of\ndeep learning is employed, which employs optimised long short-term memory. Finally, the result shows the superiority in terms of different significant measures by the proposed\nmodel over other methods for fake news detection experimentally done on a publicly available benchmark dataset. © 2022 World Scientific Publishing Co."
+    },
+    {
+      "document_id": 720,
+      "score": null,
+      "abstract": "Social network and online news media are becoming popular in today's era. Due to low cost, easy access and rapid diffusion, social media platform becomes\na source to distribute false information. Fake news propagation on social media can cause serious negative effects on human society especially in politic, reputation and\nfinance. So, automatic fake news detection plays a vital role to robust news media platform on social network. Defining news authenticity is insufficient based on\nnews content only. It also needs to analyze social features of news. In , we propose an approach to detect fake news on social media\nthat covers both news content and social context. We use synonym-based feature extraction method and three different classifiers based on multidimensional dataset. Experimental result shows\nthe effective as an accuracy way to define news authenticity on online news media. © 2020 IEEE."
+    },
+    {
+      "document_id": 724,
+      "score": null,
+      "abstract": "Online social media plays an important role during real world events such as natural calamities, election s, social movements etc. S ince the social media\nusage has increased, fake news has grown. The social media is often used by modifying true news or creating fake news to spread misinformation. The\ncreation and distribution of fake news poses major threats i n several respects from a national security point of view. Hence Fake news identification becomes\nan essential goal for enhancing the trustworthiness of the information shared on online social network. Over the period of time many researcher has used different\nmethods, algorithms, tools and techniques to identify fake news content from online social networks. The aim of is to review and examine these methodologies, different\ntools, browser extensions and analyze the degree of output in question. In addition, discuss the general approach of fake news detection as well as taxonomy\nof feature extraction which plays an important role to achieve maximum accuracy with the help of different Machine Learning and Natural Language Processing algorithms. ©\n2020 IEEE."
+    },
+    {
+      "document_id": 735,
+      "score": null,
+      "abstract": "In a scenario where more and more individuals use online social network platforms as an instrument to propagate news without any control, it is necessary\nto design and implement new methods and techniques that guarantee the veracity of the disseminated news. In , we propose a method to classify true\nand false news, commonly known as fake news, which exploits time series-based features extracted from the evolution of news, and features from the users involved\nin the news spreading. Applying our methodology over a real Twitter dataset of precategorized true and false news, we have obtained an accuracy of 84.61%\nin 10-fold cross-validation, and proved experimentally that all the selected features are relevant for this classification task. © 2020, Springer Nature Switzerland AG."
+    }
+  ]
+}

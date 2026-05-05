@@ -1,0 +1,50 @@
+{
+  "topic_id": 54,
+  "label": "T054",
+  "label_full": "Misinformation & Propaganda",
+  "keywords": [
+    "scene",
+    "reviews",
+    "scenes",
+    "fake",
+    "spamming",
+    "scenefnd",
+    "news",
+    "opinion",
+    "processing",
+    "models"
+  ],
+  "n_docs": 6,
+  "documents": [
+    {
+      "document_id": 145,
+      "score": null,
+      "abstract": "Fake news is a threat for the society and can create a lot of confusion to people regarding what is true and what not. Fake\nnews usually contain manipulated content, such as text or images that attract the interest of the readers with the aim to convince them on their\ntruthfulness. In this article, we propose SceneFND (Scene Fake News Detection), a system that combines textual, contextual scene and visual representation to address the problem\nof multimodal fake news detection. The textual representation is based on word embeddings that are passed into a bidirectional long short-term memory network. Both the\ncontextual scene and the visual representations are based on the images contained in the news post. The place, weather and season scenes are extracted from\nthe image. Our statistical analysis on the scenes showed that there are statistically significant differences regarding their frequency in fake and real news. In addition,\nour experimental results on two real world datasets show that the integration of the contextual scenes is effective for fake news detection. In particular, SceneFND\nimproved the performance of the textual baseline by 3.48% in PolitiFact and by 3.32% in GossipCop datasets. Finally, we show the suitability of the scene\ninformation for the task and present some examples to explain its effectiveness in capturing the relevance between images and text. © The Author(s) 2022."
+    },
+    {
+      "document_id": 150,
+      "score": null,
+      "abstract": "The fake news story refers to information falsified or made up to manipulate or deceive the public. It is a serious issue that undermines the\ncredibility of information sources and influences public opinion, discourse, and important decisions and outcomes. The content and source of news articles and stories must be\nconsidered when identifying and classifying fake news. Detecting fake news is an important and active research area with many potential applications and implications for society.\nMany challenges are involved in determining whether a news article is authentic. Several deep learning models that employ natural language processing (NLP) have shown excellent\nresults in detecting fake news. To assess the truthfulness of news articles, our methodology is based on state-of-the-art language models based on transformers. Bidirectional Encoder\nRepresentation from Transformers (BERT) and Robustly Optimized BERT Technique (RoBERTa) is one of the most advanced models. Our findings reveal that the BERT model achieved\nan accuracy of 64%, while the RoBERTa model slightly outperformed it with an accuracy of 66%. These results are particularly significant when compared to similar\nresearch in this domain, which reported a maximum accuracy of 62% for both models on Liar dataset. © 2024 IEEE."
+    },
+    {
+      "document_id": 316,
+      "score": null,
+      "abstract": "Sensational and fake news are created and spread through social media to achieve the intended end. It may also involve narration of a true fact\nhowever being deliberately exaggerated.The idea of this research is to identify the authenticity of the news/information present on the web in the form of text,\nlinks and images. The main aim is to feed in some dynamic information and determine whether it's real/misleading(fake). In , we propose a novel model\nfor our real-time application that detects fake news by examining the accuracy of some content, link or image given by the user, and predicting its\nauthenticity based on a score. © 2023 IEEE."
+    },
+    {
+      "document_id": 356,
+      "score": null,
+      "abstract": "Fake news is a growing problem in today's digital world with the increase in dependence on social media for information amongst the populace. Additionally, the\nproliferation of digital media platforms and the rise of user-generated content have facilitated the dissemination of false and misleading information at an unprecedented scale. This\nhas serious consequences on individual and societal decision-making. Therefore, identifying fake news has become an important process to ensure the credibility and integrity of the\nconsumed information. seeks to detect fake news using Natural Language Processing techniques and machine learning models. In , several Natural Language Processing techniques were used\nfor text processing and vectorization. A labeled dataset of news articles was used to train the models, which included various models with supervised machine learning\nalgorithms. The performance of each model was evaluated using accuracy, precision, and confusion matrix metrics. Finally, the work includes a prediction pipeline that enables users\nto input news articles and obtain predictions from each of the trained models. Using these methods achieves an accuracy of up to 91%. © 2023\nIEEE."
+    },
+    {
+      "document_id": 418,
+      "score": null,
+      "abstract": "Over the past few years, we have seen a rise in spoofed content across the Internet, including fake news and fake reviews. Fake news is\nfalse information that imitates real news intending to damage a reputation or make financial gains. Similarly, fake online reviews, commonly referred to as opinion spamming,\nhave impacted customers and retailers. The main problem is that there is no efficient way to distinguish between genuine and fake reviews; even humans find\nit difficult to do so. compares two tools used to detect opinion spamming and analyzes their results. We have compiled our research using 100 reviews\nfrom travelers who evaluated Istanbul's top five best-value hotels."
+    },
+    {
+      "document_id": 491,
+      "score": null,
+      "abstract": "Fake news is a problem for society as some people trust the message and react accordingly, propagating the lie. The consequences vary from a simple\nlaugh to a death sentence. Research has focused on distinguishing between fake and fact through machine learning techniques. Most literature reviews and mappings focus on\ntechniques that identify the fake over the message content. In a complementary way, we investigate fake news detection approaches based on the senders' behavior on\nsocial media. We present a conceptual framework that deep dives into different aspects of the main categories of persuader, clarifier, and gullible actors. We also\nconsider automatic and manual profiles. The results provide an overview of existing works on profile trustworthiness in fake news spread and shed light on possible\nresearch directions. © 2022 IEEE."
+    }
+  ]
+}

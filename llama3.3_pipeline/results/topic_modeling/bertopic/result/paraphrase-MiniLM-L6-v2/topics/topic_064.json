@@ -1,0 +1,45 @@
+{
+  "topic_id": 64,
+  "label": "T064",
+  "label_full": "Misinformation & Propaganda",
+  "keywords": [
+    "news",
+    "fake",
+    "increasingly",
+    "solution",
+    "identification",
+    "dire",
+    "money",
+    "facts",
+    "false",
+    "area"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 137,
+      "score": null,
+      "abstract": "False information that is reported as news and frequently intended to harm reputations or make money is called fake news. It has been used to\nrefer to all types of misleading information since it was first introduced in the 1890s and is frequently produced by adversarial foreign actors. Due to\nthe variety of fake news kinds, experts increasingly prefer the term “information disorder” as a neutral and educational word. The study addresses information overload and\nfiltering issues on social media by introducing a new approach to assessing news reliability. It uses Cosine Similarity based Retriever Augmented Generation (RAG) technique and\nclassification deep learning algorithm to classify news as fake or real, with the best-performing feature predicting its authenticity. The system achieved 91% accuracy in testing.\n© 2024 Taylor & Francis Group, London."
+    },
+    {
+      "document_id": 280,
+      "score": null,
+      "abstract": "The proliferation of false information via social media has become an increasingly pressing problem in recent years when it comes to identifying authentic facts. Social\nmedia is known as the primary source of influencing people. The identification of fake news has been a topic of interest in academia, aiming to\nreport on the questionable authenticity behind shared facts over the internet. The term 'fake news' refers to unauthentic news that presents baseless facts to create\npropaganda and influence the perception of the audience. Consequently, an automatic approach to detecting fake news has been suggested as a viable solution to curbing\nthe spread of disinformation. However, developing an automated solution for fake news detection raises concerns due to the high risk of inaccurately classifying data. Therefore,\nimproving classification schemes has been recognized as a relevant solution for accurately interpreting the data. In this regard, our research work focuses on developing a\ntransformer-based fake news classification model. Many machine learning models have been reported to lack a word embedding process. Thus, we employ transformers to extract word\nembeddings from news articles. The proposed scheme is compared with the baseline Hybrid CNN and RNN techniques using matrix indicators such as the F1-score, precision,\nrecall, and accuracy. Based on the results obtained from our presented classifier model, the proposed methodology outperforms earlier approaches, achieving significantly enhanced accuracy in the\ndetection of fake news. © 2023 IEEE."
+    },
+    {
+      "document_id": 368,
+      "score": null,
+      "abstract": "People are finding it simpler to find and ingest news as a result of the information’s easy access, quick expansion, and profusion on social media\nand in traditional news outlets. However, it is becoming increasingly difficult to distinguish between true and false information, which has resulted in the proliferation of\nfake news. Fake news is a term that refers to comments and journalism that intentionally mislead readers. Additionally, the legitimacy of social media sites, where\nthis news is primarily shared, is at stake. These fake news stories can have significant negative effects on society, so it is becoming increasingly important\nfor researchers to focus on how to identify them. In this research paper, we have compared ensemble learning models for identifying fake news by analyzing\na report’s accuracy and determining its veracity. The paper’s objective is to use natural language processing (NLP) and machine learning (ML) algorithms to identify false\nnews based on the content of news stories. The algorithms like decision trees, random forests, AdaBoost, and XGBoost classification are used for the project. A\nweb application has been developed using Python Flask framework to mitigate the challenges associated with identifying false information. © The Author(s), under exclusive license to\nSpringer Nature Singapore Pte Ltd 2023."
+    },
+    {
+      "document_id": 718,
+      "score": null,
+      "abstract": "Due to easy access, rapid growth, and proliferation of the information available through regular news mediums or social media, it is becoming easy for people\nto look for news and consume it. But on the other hand, it is becoming a daunting task to differentiate between false information and true\ninformation thus leading to widespread fake news. We can define fake news as a type of deceiving journalism and statements that are used to artifice\nand mislead people. Also, the credibility of social media platforms is at stake where this news is mostly shared. These types of forged information news\ncan have serious negative societal impacts and thus their detection has become the emerging area that is attracting research attention. In , we propose a\nmodel for detecting fake news by examining the accuracy of a report and predicting its authenticity. By feature extraction and forming credibility scores from the\ntextual information, this model builds an ensemble network to learn the portrayals of news reports, authors, and titles simultaneously. Different machine learning algorithms like SVM,\nCNN, LSTM, KNN, and Naive Bayes are used for higher accuracy and it was observed that LSTM showed better accuracy with 97%. The performance and\neffectiveness of classifiers were evaluated based on their precision, recall, and F1-Score. The usage of different algorithms shows the effectiveness of performance on the dataset.\n© 2020 IEEE."
+    },
+    {
+      "document_id": 782,
+      "score": null,
+      "abstract": "One can easily say in today's world, information aka news to few is more precious than money itself. This news needs to be in authentic\nform which is usually found in adulterated version. Leading us to have a dire need for an identification of real news from any possible fake\nnews. News, being a form of information can be subjective to the proofs and source for its authenticity. As a human, one can easily identify\nreal news from fake news with the help of one's innate capability to deduce logic and outlandish source of the information piece. Just that one\nneeds few trusted sources to check for the facts and myths. But on a real time basis, there is a dire need for some software\nwhich can nip such 'false news' in its bud. Leading it to be one of the most researched area nowadays. Primarily being a part of\nInformation Retrieval, this area is taking up a lot of attention from researchers worldwide to come up with a real-time solution for such an issue.\nIn this article we have checked and analysed many research articles along with many survey articles and summed up so as to provide the readers\nwith a short idea of what fake news is, it's different flavours in the news spectrum, its characteristics and identification basic. We also included the\ndifferent methods used by prior researchers in the same field. Using few researches as examples we learned about the basics of those methods used in\nfake news identification. The future aspects are also included in this article along with the challenges one faces while doing research in this very field.\n© 2019 IEEE."
+    }
+  ]
+}

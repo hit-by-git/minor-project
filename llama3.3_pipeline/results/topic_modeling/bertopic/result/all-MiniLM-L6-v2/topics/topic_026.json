@@ -1,0 +1,60 @@
+{
+  "topic_id": 26,
+  "label": "T026",
+  "label_full": "Credibility Assessment",
+  "keywords": [
+    "epistemic",
+    "journalists",
+    "reuters",
+    "distrust",
+    "tracer",
+    "breaking",
+    "coordination",
+    "activity",
+    "trust",
+    "communities"
+  ],
+  "n_docs": 8,
+  "documents": [
+    {
+      "document_id": 22,
+      "score": null,
+      "abstract": "Trust is crucial for the functioning of complex societies, and an important concern for CSCW. Our purpose is to use research from philosophy, social science,\nand CSCW to provide a novel account of trust in the 'post-truth' era. Testimony, from one speaker to another, underlies many social systems. Epistemic trust,\nor testimonial credibility, is the likelihood to accept a speaker's claim due to beliefs about their competence or sincerity. Epistemic trust is closely related to\nseveral 'pathological epistemic phenomena': democratic (il)legitimacy, the spread of misinformation, and echo chambers. To the best of our knowledge, this theoretical contribution is novel in\nthe field of social computing. We further argue that epistemic trust is no philosophical novelty: it is measurable. Weakly supervised text classification approaches achieve F_1\nscores of around 80 to 85 per cent on detecting epistemic distrust. This is also, to the best of our knowledge, a novel task in\nnatural language processing. We measure expressions of epistemic distrust across 954 political communities on Reddit. We find that expressions of epistemic distrust are relatively rare,\nalthough there are substantial differences between communities. Conspiratorial communities and those focused on controversial political topics tend to express more distrust. Communities with strong epistemic\nnorms enforced by moderation are likely to express low levels. While we find users to be an important potential source of contagion of epistemic distrust,\ncommunity norms appear to dominate. It is likely that epistemic trust is more useful as an aggregated risk factor. Finally, we argue that policymakers should\nbe aware of epistemic trust considering their reliance on legitimacy underwritten by testimony."
+    },
+    {
+      "document_id": 669,
+      "score": null,
+      "abstract": "seek to influence and polarize political topics through massive coordinated efforts. In the process, these efforts leave behind artifacts, which researchers have leveraged to analyze\nthe tactics employed by disinformation campaigns after they are taken down. Coordination network analysis has proven helpful for learning about how disinformation campaigns operate; however,\nthe usefulness of these forensic tools as a detection mechanism is still an open question. In , we explore the use of coordination network analysis\nto generate features for distinguishing the activity of a disinformation campaign from legitimate Twitter activity. Doing so would provide more evidence to human analysts as\nthey consider takedowns. We create a time series of daily coordination networks for both Twitter disinformation campaigns and legitimate Twitter communities, and train a binary\nclassifier based on statistical features extracted from these networks. Our results show that the classifier can predict future coordinated activity of known disinformation campaigns with\nhigh accuracy (F1 =0.98). On the more challenging task of out-of-distribution activity classification, the performance drops yet is still promising (F1= 0.71), mainly due to\nan increase in the false positive rate. By doing this analysis, we show that while coordination patterns could be useful for providing evidence of disinformation\nactivity, further investigation is needed to improve upon this method before deployment at scale."
+    },
+    {
+      "document_id": 751,
+      "score": null,
+      "abstract": "In we investigate automated methods for understanding false news dissemination on Twitter in relation to one particular event: the 2019 Indonesian presidential election. We collected\na sample of 2,360 tweets related to topics addressed by fact-checking websites. The tweets were hand-labeled according to their trustworthiness. We trained several classification models\non the human-labelled data, using three groups of text features. The word n-gram features appeared to be the most effective, reaching a recall of 85%\nfor true news and 62% for false news. With this classifier we labeled a larger sample of tweets related to fact-checking topics in the context\nof the 2019 Indonesian presidential elections. We then analysed the dissemination of true news and false news in the underlying Twitter network using community detection\nand centrality measures. The top influential users in the network disseminate more false news, including a government institution account and a verified politician's account. Our\nresults show that the combination of text features and social network analysis can provide valuable insights in detecting and preventing the dissemination of false news.\nMoreover, we make the dataset used in this research available for reuse by the community. © 2020 CEUR-WS. All rights reserved."
+    },
+    {
+      "document_id": 882,
+      "score": null,
+      "abstract": "To deal with the sheer volume of information and gain competitive advantage, the news industry has started to explore and invest in news automation. In\n, we present Reuters Tracer, a system that automates end-to-end news production using Twitter data. It is capable of detecting, classifying, annotating, and disseminating news\nin real time for Reuters journalists without manual intervention. In contrast to other similar systems, Tracer is topic and domain agnostic. It has a bottom-up\napproach to news detection, and does not rely on a predefined set of sources or subjects. Instead, it identifies emerging conversations from 12+ million tweets\nper day and selects those that are news-like. Then, it contextualizes each story by adding a summary and a topic to it, estimating its newsworthiness,\nveracity, novelty, and scope, and geotags it. Designing algorithms to generate news that meets the standards of Reuters journalists in accuracy and timeliness is quite\nchallenging. But Tracer is able to achieve competitive precision, recall, timeliness, and veracity on news detection and delivery. In , we reveal our key algorithm\ndesigns and evaluations that helped us achieve this goal, and lessons learned along the way. © 2017 IEEE."
+    },
+    {
+      "document_id": 890,
+      "score": null,
+      "abstract": "In recent years, there has been a growing trend to use publicly available social media sources within the field of journalism. Breaking news has tight\nreporting deadlines, measured in minutes not days, but content must still be checked and rumors verified. As such, journalists are looking at automated content analysis\nto prefilter large volumes of social media content prior to manual verification. This article describes a real-time social media analytics framework for journalists. We extend\nour previously published geoparsing approach to improve its scalability and efficiency. We develop and evaluate a novel approach to geosemantic feature extraction, classifying evidence in\nterms of situatedness, timeliness, confirmation, and validity. Our approach works for new unseen news topics. We report results from four experiments using five Twitter datasets\ncrawled during different English-language news events. One of our datasets is the standard TREC 2012 microblog corpus. Our classification results are promising, with F1 scores\nvarying by class from 0.64 to 0.92 for unseen event types. We lastly report results from two case studies during real-world news stories, showcasing different\nways our system can assist journalists filter and cross-check content as they examine the trust and veracity of content and sources."
+    },
+    {
+      "document_id": 891,
+      "score": null,
+      "abstract": "Social media sources are becoming increasingly important in journalism. Under breaking news deadlines semi-automated support for identification and verification of content is critical. We describe\na large scale content-level analysis of over 6 million Twitter, You Tube and Instagram records covering the first 6 hours of the November 2015 Paris\nshootings. We ground our analysis by tracing how 5 ground truth images used in actual news reports went viral. We look at velocity of newsworthy\ncontent and its veracity with regards trusted source attribution. We also examine temporal segmentation combined with statistical frequency counters to identify likely eyewitness content for\ninput to real-time breaking content feeds. Our results suggest attribution to trusted sources might be a good indicator of content veracity, and that temporal segmentation\ncoupled with frequency statistical metrics could be used to highlight in real-time eyewitness content if applied with some additional text filters."
+    },
+    {
+      "document_id": 894,
+      "score": null,
+      "abstract": "News professionals are facing the challenge of discovering news from more diverse and unreliable information in the age of social media. More and more news\nevents break on social media first and are picked up by news media subsequently. The recent Brussels attack is such an example. At Reuters, a\nglobal news agency, we have observed the necessity of providing a more effective tool that can help our journalists to quickly discover news on social\nmedia, verify them and then inform the public.In , we describe Reuters Tracer, a system for sifting through all noise to detect news events on\nTwitter and assessing their veracity. We disclose the architecture of our system and discuss the various design strategies that facilitate the implementation of machine learning\nmodels for noise filtering and event detection. These techniques have been implemented at large scale and successfully discovered breaking news faster than traditional journalism"
+    },
+    {
+      "document_id": 949,
+      "score": null,
+      "abstract": "Social media is already a fixture for reporting for many journalists, especially around breaking news events where non-professionals may already be on the scene to\nshare an eyewitness report, photo, or video of the event. At the same time, the huge amount of content posted in conjunction with such events\nserves as a challenge to finding interesting and trustworthy sources in the din of the stream. In we develop and investigate new methods for filtering\nand assessing the verity of sources found through social media by journalists. We take a human centered design approach to developing a system, SRSR (\"Seriously\nRapid Source Review\"), informed by journalistic practices and knowledge of information production in events. We then used the system, together with a realistic reporting scenario,\nto evaluate the filtering and visual cue features that we developed. Our evaluation offers insights into social media information sourcing practices and challenges, and highlights\nthe role technology can play in the solution."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "topic_id": 51,
+  "label": "T051",
+  "label_full": "covid19, ccfd",
+  "keywords": [
+    "covid19",
+    "ccfd",
+    "students",
+    "law",
+    "health",
+    "male",
+    "privacyaware",
+    "zipfs",
+    "covidkg",
+    "mis"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 254,
+      "score": null,
+      "abstract": "identifies shared contents related to COVID-19 by Algerian users and aims to categorize them according to their level of truthfulness and harm. In addition, the\npaper reveals how the content and linguistic features contribute to the verification of the shared information’s (dis)factuality and (in)validity. A corpus of infodemic in Algeria\n(CoFIA) is compiled for the analysis. First, a factual analysis is conducted for the purpose of infodemic categorization into mis-, dis-, and mal-information. Second, a\nqualitative content analysis is used to highlight the harm of the information type by discussing major linguistic features found in those categories of information. Online\nfact-checking tools supported the confirmation of information disorders. Misinformation found in CoFIA was 46.77 %, disinformation was 36.22 %, and mal-information was 22 %. Besides,\nthe content and linguistic aspects of the posts contributed to a considerable extent to the verification of the information type and the actors’ intentions to\nmislead and/or harm. Algerian users and even official pages did not recognize the risks of misinformation with the COVID-19 outbreak. Raising public awareness about the\nimpacts of information on social media was recommended to precede such a health emergency. Copyright © 2023 by Cherkas Global University."
+    },
+    {
+      "document_id": 389,
+      "score": null,
+      "abstract": "<jats:p>Public health interventions to counter the COVID-19 pandemic have accelerated and increased digital adoption and use of the Internet for sourcing health information. Unfortunately, there\nis evidence to suggest that it has also accelerated and increased the spread of false information relating to COVID-19. The consequences of misinformation, disinformation and\nmisinterpretation of health information can interfere with attempts to curb the virus, delay or result in failure to seek or continue legitimate medical treatment and\nadherence to vaccination, as well as interfere with sound public health policy and attempts to disseminate public health messages. While there is a significant body\nof literature, datasets and tools to support countermeasures against the spread of false information online in resource-rich languages such as English and Chinese, there are\nfew such resources to support Portuguese, and Brazilian Portuguese specifically. , we explore the use of machine learning and deep learning techniques to identify fake\nnews in online communications in the Brazilian Portuguese language relating to the COVID-19 pandemic. We build a dataset of 11,382 items comprising data from January\n2020 to February 2021. Exploratory data analysis suggests that fake news about the COVID-19 vaccine was prevalent in Brazil, much of it related to government\ncommunications. To mitigate the adverse impact of fake news, we analyse the impact of machine learning to detect fake news based on stop words in\ncommunications. The results suggest that stop words improve the performance of the models when keeping them within the message. Random Forest was the machine learning\nmodel with the best results, achieving 97.91% of precision, while Bi-GRU was the best deep learning model with an F1 score of 94.03%.</jats:p>"
+    },
+    {
+      "document_id": 413,
+      "score": null,
+      "abstract": "In , we focus on the quality of information service (QoIS) of COVID-19-related information on social media. Our goal is to provide reliable COVID-19 information\nservice by accurately detecting the misleading COVID-19 posts on social media by exploring the community-contributed COVID-19 fact data (CCFD) from different social media platforms. In\nparticular, CCFD refers to the fact-checking reports that are submitted to each social media platform by its users and fact-checking professionals. Our work is motivated\nby the observation that CCFD often contains useful COVID-19 knowledge facts (e.g., \"COVID-19 is not a flu\") that can effectively facilitate the identification of misleading\nCOVID-19 social media posts. However, CCFD is often private to the individual social media platform that owns it due to the data privacy concerns such\nas data copyright of CCFD and user profile information of CCFD contributors. In , we leverage the CCFD from different social media platforms to accurately\ndetect COVID19 misinformation while effectively protecting the privacy of CCFD. Two critical challenges exist in solving our problem: 1) how to generate privacy-aware COVID-19 knowledge\nfacts from the platform-specific CCFD? 2) How to effectively integrate the privacy-aware COVID-19 knowledge facts from different social media platforms to correctly assess the truthfulness\nof a COVID19 post? To address these challenges, we develop CoviDKG, a COVID-19 distributed knowledge graph framework that constructs a set of CCFD-based knowledge graphs\non individual social media platform and exchanges the privacy-aware COVID19 knowledge facts across different platforms to effectively detect misleading COVID-19 posts. We evaluate CoviDKG on\ntwo real-world social media datasets and the results show that CoviDKG achieves significant performance gains compared to state-of-the-art baselines in accurately detecting misleading COVID-19 posts\non social media. © 2022 IEEE."
+    },
+    {
+      "document_id": 499,
+      "score": null,
+      "abstract": "The COVID-19 “infodemic” has resulted in the widespread dissemination of counterfeit medical advice, hoaxes, fake products, and phoney information about the virus and responses. As\na result, computational methods for determining any information’s authenticity to improve trust in public health awareness and policy decisions are profoundly discussed in the scientific\ncommunity. Even before the pandemic, mis- and disinformation, including fake news, have been observed in the online world in significant numbers for numerous business, political\nand personal reasons. Moreover, many of these fake news was published from sources believed to be reliable. In contrast, some other fake news was fabricated\nin a way that would be easily trusted and shared by the general people in social media. COVID-19 related fake news has enormous effects on\nboth the offline and online community, and thus, it challenges government initiatives for proper health intervention. Therefore, interest in research in this area has risen\nto understand the problem both socially and technically. In , we attempt to understand how we can help student Internet users of colleges from the\nlower-middle-income country, Bangladesh, in Southeast Asia, to distinguish COVID-19 misinformation. Our study reveals that providing related news as supplementary information to any online news helps\nstudents make better decision about news authenticity. Statistical analyses on the survey data show that male students were found to be more accurate than female\nstudents to detect mis- and disinformation; students from the urban areas could detect misleading news better than students from villages; and that students from Science\nbackground demonstrated overall best performance, while students from Madrasah background, who are all male, could not produce a significant improvement. We conclude that the female\nstudents in general and male students of Madrasah, who spend the least amount of time online among all the student Internet users, are the most\nvulnerable groups to fake news."
+    },
+    {
+      "document_id": 589,
+      "score": null,
+      "abstract": "In this article, we study the applicability of Benford’s law and Zipf’s law to national COVID-19 case figures with the aim of establishing guidelines upon\nwhich methods of fraud detection in epidemiology, based on formal statistical analysis, can be developed. Moreover, these approaches may also be used in evaluating the\nperformance of public health surveillance systems. We provide theoretical arguments for why the empirical laws should hold in the early stages of an epidemic, along\nwith preliminary empirical evidence in support of these claims. Based on data published by the World Health Organization and various national governments, we find empirical\nevidence that suggests that both Benford’s law and Zipf’s law largely hold across countries, and deviations can be readily explained. To the best of our\nknowledge, is among the first to present a practical application of Zipf’s law to fraud detection. © 2020 Kennedy, Yam. This is an open access\narticle distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author\nand source are credited."
+    }
+  ]
+}

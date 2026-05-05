@@ -1,0 +1,60 @@
+{
+  "topic_id": 30,
+  "label": "T030",
+  "label_full": "Rumor on Social Media",
+  "keywords": [
+    "stance",
+    "rumor",
+    "channels",
+    "multitask",
+    "stances",
+    "structural",
+    "rumors",
+    "tree",
+    "tasks",
+    "shared"
+  ],
+  "n_docs": 8,
+  "documents": [
+    {
+      "document_id": 0,
+      "score": null,
+      "abstract": "The proliferation of misinformation, such as rumors on social media, has drawn significant attention, prompting various expressions of stance among users. Although rumor detection and\nstance detection are distinct tasks, they can complement each other. Rumors can be identified by cross-referencing stances in related posts, and stances are influenced by\nthe nature of the rumor. However, existing stance detection methods often require post-level stance annotations, which are costly to obtain. We propose a novel LLM-enhanced\nMIL approach to jointly predict post stance and claim class labels, supervised solely by claim labels, using an undirected microblog propagation model. Our weakly supervised\napproach relies only on bag-level labels of claim veracity, aligning with multi-instance learning (MIL) principles. To achieve this, we transform the multi-class problem into multiple\nMIL-based binary classification problems. We then employ a discriminative attention layer to aggregate the outputs from these classifiers into finer-grained classes. Experiments conducted on three\nrumor datasets and two stance datasets demonstrate the effectiveness of our approach, highlighting strong connections between rumor veracity and expressed stances in responding posts. Our\nmethod shows promising performance in joint rumor and stance detection compared to the state-of-the-art methods."
+    },
+    {
+      "document_id": 19,
+      "score": null,
+      "abstract": "In , we present a multi-task learning framework consisting of two interrelated components for the joint modeling of stance classification and rumor veracity prediction on\nTwitter. The proposed hierarchical framework models a conversation sequence using a graph attention network, leveraging a BERT-based word representation augmented with user credibility information. The\nlower component of the framework models the conversation sequence of a claim in addition to the BERT-based user content representation to predict the stance of\nthe underlying tweets. It employs a modified graph attention network, which models a conversation thread by finding tweets path-to-root conversation sequences. Further, the learned stance\nrepresentation is augmented with the users' credibility information and content representation to predict rumor veracity. The experimental evaluation results over two benchmark datasets show that\nthe proposed approach outperforms the state-of-the-art methods."
+    },
+    {
+      "document_id": 183,
+      "score": null,
+      "abstract": "Nowadays, malicious rumors on social media have caused increasingly negative impacts. Given the rapid dissemination nature of rumors, it is urgent to design automatic methods\nto detect the veracity of rumors. Previous studies have shown that the multi-task learning paradigm with the stance classification could facilitate the successful detection of\nrumors, but the shared layers in multi-task learning tend to yield a compromise between the general and the task-specific representation of structural information. To address\nthis issue, we propose a novel Multi-Task Learning framework with Shared Multi-channel Interactions (MTL-SMI), which is composed of two shared channels and two task-specific graph\nchannels. The shared channels extract task-invariant text features and structural features, and the task-specific graph channels, by interacting with the shared channels, extract the task-enhanced\nstructural features. These channels are learned jointly to enhance the ability of representation learning. The experimental results on two real-world datasets demonstrate the superiority of\nMTL-SMI against strong baselines. © The Author(s), under exclusive licence to Springer-Verlag London Ltd., part of Springer Nature 2024."
+    },
+    {
+      "document_id": 201,
+      "score": null,
+      "abstract": "Learning multi-task models for jointly detecting stance and verifying rumors poses challenges due to the need for training data of stance at post level and\nrumor veracity at claim level, which are difficult to obtain. To address this issue, we leverage large language models (LLMs) as the foundation annotators for\nthe joint stance detection (SD) and rumor verification (RV) tasks, dubbed as JSDRV. We introduce a novel reinforcement tuning framework to enhance the joint predictive\ncapabilities of LLM-based SD and RV components. Specifically, we devise a policy for selecting LLM-annotated data at the two levels, employing a hybrid reward mechanism\nto choose high-quality labels for effective LLM fine-tuning on both tasks. Results demonstrate that JSDRV improves the capabilities of LLMs in the joint tasks, not\nonly outperforming state-of-the-art methods but also generalizing to non-LLMs accommodated as task models. © 2024 Association for Computational Linguistics."
+    },
+    {
+      "document_id": 305,
+      "score": null,
+      "abstract": "Identifying public’s stances to rumors and detecting rumors’ veracity in each rumor conversation are two closely related tasks for distinguishing fake news on social networks.\nHowever, very few methods are specially designed for rumor conversations to extract their structural features and jointly address the two tasks in a single machine\nlearning model. In , we propose a Multi-task Attention Tree Neural Network (MATNN) to jointly classify stances and to detect rumor veracity. Specifically, the proposed\nMATNN specially designs a structural representation called Regular rumor Conversation Trees (RC-Trees) for rumor conversations, and irregular rumor conversation trees are transformed into regular RC-Trees.\nTo extract features from RC-Trees, the proposed MATNN designs Tree Self-Attention mechanism to extract local structural features to classify stances; Based on extracted stance features,\nthe MATNN designs Tree convolution and Tree pooling operations to extract global structural features to detect rumor veracity. Experiments on both stance classification and rumor\nveracity detection tasks show that the proposed RC-Trees are useful for the two tasks and the proposed MATNN achieves remarkable performance over the current state-of-arts.\n© 2022, The Author(s), under exclusive licence to Springer Science+Business Media, LLC, part of Springer Nature."
+    },
+    {
+      "document_id": 366,
+      "score": null,
+      "abstract": "The diffusion of rumors on social media generally follows a propagation tree structure, which provides valuable clues on how an original message is transmitted and\nresponded by users over time. Recent studies reveal that rumor verification and stance detection are two relevant tasks that can jointly enhance each other despite\ntheir differences. For example, rumors can be debunked by cross-checking the stances conveyed by their relevant posts, and stances are also conditioned on the nature\nof the rumor. However, stance detection typically requires a large training set of labeled stances at post level, which are rare and costly to annotate.\nEnlightened by Multiple Instance Learning (MIL) scheme, we propose a novel weakly supervised joint learning framework for rumor verification and stance detection which only requires\nbag-level class labels concerning the rumor's veracity. Specifically, based on the propagation trees of source posts, we convert the two multi-class problems into multiple MIL-based\nbinary classification problems where each binary model is focused on differentiating a target class (of rumor or stance) from the remaining classes. Then, we propose\na hierarchical attention mechanism to aggregate the binary predictions, including (1) a bottom-up/top-down tree attention layer to aggregate binary stances into binary veracity; and (2)\na discriminative attention layer to aggregate the binary class into finer-grained classes. Extensive experiments conducted on three Twitter-based datasets demonstrate promising performance of our model\non both claim-level rumor detection and post-level stance classification compared with state-of-the-art methods."
+    },
+    {
+      "document_id": 473,
+      "score": null,
+      "abstract": "Previous studies have shown that the multi-task learning paradigm with the stance classification could facilitate the successful detection of rumours, but the shared layers in\nmulti-task learning tend to yield a compromise between the general and the task-specific representation of structural information. To address this issue, we propose a novel\nMulti-Task Learning framework with Shared Multi-channel Interactions (MTL-SMI), which is composed of two shared channels and two task-specific graph channels. The shared channels extract task-invariant\ntext features and structural features, and the task-specific graph channels, by interacting with the shared channels, extract the task-enhanced structural features. Experiments on two realworld\ndatasets show the superiority of MTL-SMI against strong baselines. © 2022, The Author(s), under exclusive license to Springer Nature Switzerland AG."
+    },
+    {
+      "document_id": 637,
+      "score": null,
+      "abstract": "Learning from social-media conversations has gained significant attention recently because of its applications in areas like rumor detection. In this research, we propose a new\nway to represent social-media conversations as binarized constituency trees that allows comparing features in source-posts and their replies effectively. Moreover, we propose to use convolution\nunits in Tree LSTMs that are better at learning patterns in features obtained from the source and reply posts. Our Tree LSTM models employ multi-task\n(stance + rumor) learning and propagate the useful stance signal up in the tree for rumor classification at the root node. The proposed models achieve\nstate-of-the-art performance, outperforming the current best model by 12% and 15% on F1-macro for rumor-veracity classification and stance classification tasks respectively. © 2019 Association for\nComputational Linguistics"
+    }
+  ]
+}

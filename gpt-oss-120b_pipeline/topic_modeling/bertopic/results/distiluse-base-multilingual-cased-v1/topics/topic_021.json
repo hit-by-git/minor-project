@@ -1,0 +1,65 @@
+{
+  "topic_id": 21,
+  "label": "T021",
+  "label_full": "Credibility Assessment",
+  "keywords": [
+    "social",
+    "media",
+    "trust",
+    "communities",
+    "user",
+    "multicriteria",
+    "posts",
+    "users",
+    "management",
+    "information"
+  ],
+  "n_docs": 9,
+  "documents": [
+    {
+      "document_id": 2,
+      "score": null,
+      "abstract": "Social media users are more likely to be exposed to similar views and tend to avoid contrasting views, especially when they are part of a\ncommunity of social media users. , we investigate the presence of user communities and leverage them as a tool to detect misinformation on social media,\nspecifically on X (formerly known as Twitter). We propose a misinformation detection framework, namely Similarity-based Misinformation Detection (SiMiD) that employs microblogs and utilizes user-follower interactions\nwithin a social network. Our approach extracts important textual features of social media posts using a transformer-based language model. We use contrastive learning and pseudo-labeling\nto fine-tune the language model. Then, we measure the similarity for each social media post based on its relevance to each user in the communities.\nFinally, we train a machine learning model to identify the truthfulness of social media posts using these similarity scores. We evaluate our approach on three\nsocial media datasets, compare our method with twelve state-of-the-art approaches, and answer five research questions. The experimental results, supported by statistical tests, show that contrastive\nlearning and user communities can enhance the detection of misinformation on social media. Our model can identify misinformation content by achieving a consistently high weighted\nF1 score of over 90\\% across all datasets, even employing only a small number of users in communities. We make our implementations publicly available and\nprovide all details that are necessary for the reproducibility of experiments.1"
+    },
+    {
+      "document_id": 79,
+      "score": null,
+      "abstract": "Social media include diverse interaction metrics related to user popularity, the most evident example being the number of user followers. The latter has raised concerns\nabout the credibility of the posts by the most popular creators. However, most existing approaches to assess credibility in social media strictly consider this problem\na binary classification, often based on a priori information, without checking if actual real-world facts back the users’ comments. In addition, they do not provide\nautomatic explanations of their predictions to foster their trustworthiness. In , we propose a credibility assessment solution for financial creators in social media that combines\nNatural Language Processing and Machine Learning. The reputation of the contributors is assessed by automatically classifying their forecasts on asset values by type and verifying\nthese predictions with actual market data to approximate their probability of success. The outcome of this verification is a continuous credibility score instead of a\nbinary result, an entirely novel contribution by . Moreover, social media metrics (i.e., user context) are exploited by calculating their correlation with the credibility rankings,\nproviding insights on the interest of the end-users in financial posts and their forecasts (i.e., drop or rise). Finally, the system provides natural language explanations\nof its decisions based on a model-agnostic analysis of relevant features. © 2024 The Author(s)"
+    },
+    {
+      "document_id": 352,
+      "score": null,
+      "abstract": "Social media users often find themselves exposed to similar viewpoints and tend to avoid contrasting opinions, particularly when connected within a community. , we leverage\nthe presence of communities in misinformation detection on social media. For this purpose, we propose a similarity-based method that utilizes user-follower interactions within a social\nnetwork to identify and combat misinformation spread. The method first extracts important textual features of social media posts via contrastive learning and then measures the\ncosine similarity per social media post based on their relevance to each user in the community. Next, we train a classifier to assess the truthfulness\nof social media posts using these similarity scores. We evaluate our approach on three real-world datasets and compare our method with six baselines. The experimental\nresults and statistical tests show that contrastive learning and leveraging communities can effectively enhance the detection of misinformation on social media. © 2023 IEEE."
+    },
+    {
+      "document_id": 407,
+      "score": null,
+      "abstract": "Social Networks represent a cornerstone of our daily life, where the so-called social reviewing systems (SRSs) play a key role in our daily lives and\nare used to access data typically in the form of reviews. Due to their importance, social networks must be trustworthy and secure, so that their\nshared information can be used by the people without any concerns, and must be protected against possible attacks and misuses. One of the most critical\nattacks against the reputation system is represented by mendacious reviews. As this kind of attacks can be conducted by legitimate users of the network, a\nparticularly powerful solution is to exploit trust management, by assigning a trust degree to users, so that people can weigh the gathered data based on\nsuch trust degrees. Trust management within the context of SRSs is particularly challenging, as determining incorrect behaviors is subjective and hard to be fully automatized.\nSeveral attempts in the current literature have been proposed; however, such an issue is still far from been completely resolved. , we propose a solution\nagainst mendacious reviews that combines fuzzy logic and the theory of evidence by modeling trust management as a multicriteria multiexpert decision making and exploiting the\nnovel concept of time-dependent and content-dependent crown consensus. We empirically proved that our approach outperforms the main related works approaches, also in dealing with sockpuppet\nattacks. © 2013 IEEE."
+    },
+    {
+      "document_id": 614,
+      "score": null,
+      "abstract": "Users of traditional centralised social media networks have limited knowledge about the original source of information and even less about its trustworthiness and how this\ninformation has spread and been modified. Existing media verification tools include websites or browser add-ons that are closed-source or centralised, or they do not include\nuser involvement in the information verification process. In , we introduce EUNOMIA, an open source, decentralised framework that aims at providing information about social media\ncontent and context in an intermediary-free approach and in a way that assists users in deriving their own conclusions regarding a social media post’s trustworthiness.\nWe present its components, how they interact with each other and how user contribution is key to its concept. © Springer Nature Switzerland AG 2020."
+    },
+    {
+      "document_id": 671,
+      "score": null,
+      "abstract": "Social media have become increasingly popular for the sharing and spreading of user-generated content due to their easy access, fast dissemination, and low cost. Meanwhile,\nsocial media also enable the wide propagation of cyber frauds, which leverage fake information sources to reach an ulterior goal. The prevalence of untrustworthy information\nsources on social media can have significant negative societal effects. In a trustworthy social media system, trust calculation technology has become a key demand for\nthe identification of information sources. Trust, as one of the most complex concepts in network communities, has multi-criteria properties. However, the existing work only focuses\non single trust factor, and does not consider the complexity of trust relationships in social computing completely. In , a multi-criteria trustworthiness calculation mechanism called\nInfo-Trust is proposed for information sources, in which identity-based trust, behavior-based trust, relation-based trust, and feedback-based trust factors are incorporated to present an accuracy-enhanced full\nview of trustworthiness evaluation of information sources. More importantly, the weights of these factors are dynamically assigned by the ordered weighted averaging and weighted moving\naverage (OWA-WMA) combination algorithm. This mechanism surpasses the limitations of existing approaches in which the weights are assigned subjectively. The experimental results based on the\nreal-world datasets from Sina demonstrate that the proposed mechanism achieves greater accuracy and adaptability in trustworthiness identification of the network information. © 2019 IEEE."
+    },
+    {
+      "document_id": 731,
+      "score": null,
+      "abstract": "Nowadays, information is provided through diverse network channels and, above all, its diffusion occurs in an always faster and pervasive manner. Social Media (SM) plays\na crucial role in distributing, in an uncontrolled way, news, opinions, media contents and so on, and can basically contribute to spread information that sometimes\nare untrue and misleading. An integrated assessment of the trustworthiness of the information that is delivered is claimed from different sides: the Secure! project strictly\nfits in such a context. The project has been studying and developing a service oriented infrastructure which, by resorting at diverse technological tools based on\nimage forensics, source reputation analysis, Twitter message trend analysis, web source retrieval and crawling, and so on, provides an integrated event assessment especially regarding crisis\nmanagement. The aim of is to present an interesting case-study which demonstrates the potentiality of the developed system to achieve a new integrated knowledge. ©\n2016, Springer Science+Business Media New York."
+    },
+    {
+      "document_id": 734,
+      "score": null,
+      "abstract": "The Social Web is characterized by a massive diffusion of unfiltered content, directly generated by users via the spread of different social media platforms. In\nthis context, a challenging issue is to assess the veracity of the information generated within the sites of online reviews. To address this issue, a\ncommon practice in the literature is to select and analyze some veracity features associated with users and their reviews, by mostly applying machine learning techniques,\nto provide a classification in genuine and deceptive reviews. In , we do not focus on the feature selection and user behavior analysis issues, but\nwe concentrate on the aggregation process with respect to each single veracity feature. In most of the approaches based on machine learning techniques, the contribution\nof each feature in the classification process is not measurable by the user. For this reason, we propose a multicriteria decision making approach based both\non the assessment of multiple criteria and the use of aggregation operators with the aim of obtaining a veracity score associated with each review. Based\non this score, it is possible to detect fake reviews. The proposed model is evaluated on a Yelp data set by applying different aggregation schemes,\nand it is compared with well-known supervised machine learning techniques. © 2016 Wiley Periodicals, Inc."
+    },
+    {
+      "document_id": 751,
+      "score": null,
+      "abstract": "With the growing use of online social media and presence of users on many such platforms, their interaction with social networks is huge. They are\nfree to spread wrong information without any accuracy, integrity and authenticity checkpoints masquerading as legitimate content. All these wrong, unrelated, unwanted, manipulated information are distributed\nfor some hidden reasons. Even, their distribution network is not limited to one social media platform. Sometimes, they use the social network as a market\nplace either for advertising, promotion of particular website, product and an application. But these advertisements do not provide any incentive to as this content is\njust spam, irrelevant for . Dissemination of unwanted, unrelated information has become a huge problem not only on blog, discussion forum but also on online\nsocial network like . Due to lack of marking over content posted, this information become online and reader has no barometer to check either the\ncredibility of commenter or poster or the credibility of facts. To address these issues, we have derived an equation to weigh the credibility of public\npages and applied machine learning algorithms (MLA) over collected data to validate our prediction. © Springer Nature Singapore Pte Ltd. 2016."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "topic_id": 53,
+  "label": "T053",
+  "label_full": "Credibility Assessment",
+  "keywords": [
+    "web",
+    "criteria",
+    "information",
+    "content",
+    "credibility",
+    "users",
+    "contents",
+    "query",
+    "technology",
+    "search"
+  ],
+  "n_docs": 6,
+  "documents": [
+    {
+      "document_id": 797,
+      "score": null,
+      "abstract": "Nowadays, the internet plays a major role in online information retrieval. As, we are well aware the web provides information related all the fields like\nnational, lifestyle, movies, shopping, spirituality, sports, entertainment and much more. One cannot assume that the web retrieved information is believable or trustworthy due to multiple\nanswers to the same query. The paper aims to study many research articles which are related to truth information discovery. However, the paper found that\nthere is no proper research to find trustworthiness of news content which is extracted from multiple information sources with minimum misclassification error and retrieval time.\nTo alleviate these issues, the truth content discovery algorithm is proposed to produce trustworthy information with minimal time along with multiple domain news information. The\nsystem provides reliable information from a various source of news provider with minimum classification error. The proposed method ranked the news content index based on\nquery matches from extracted information. It minimizes the query retrieval time and classification error. Based on the experimental evaluation, proposed TCD + J48 algorithm produced\nthe best result compared to existing approaches. It minimizes reduces 7.54 ms the query retrieval time (QRT), 5% Error rate (ER) and 0.98 and Mean\nNormalized Absolute Distance (MNAD). © 2019 Elsevier B.V."
+    },
+    {
+      "document_id": 940,
+      "score": null,
+      "abstract": "Unlike traditional media such as television and newspapers, web contents are relatively easy to be published without being rigorously fact-checked. This seriously influences people's daily\nlife if non-credible web contents are utilized for decision making. Recently, web credibility evaluation systems have emerged where web credibility is derived by aggregating ratings\nfrom the community (e.g., MyWOT). In , We focus on the robustness of such systems by identifying a new type of attack scenario where an\nattacker imitates the behavior of trustworthy experts by copying system's credibility ratings to quickly build high reputation and then attack certain web contents. In order\nto defend this attack, we propose a two-stage defence algorithm. At stage 1, our algorithm applies supervised learning algorithm to predict the credibility of a\nweb content and compare it with a user's rating to estimate whether this user is malicious or not. In case the user's maliciousness can not\nbe determined with high confidence, the algorithm goes to stage 2 where we investigate users' past rating patterns and detect the malicious one by applying\nhierarchical clustering algorithm. Evaluation using real datasets demonstrates the efficacy of our approach."
+    },
+    {
+      "document_id": 941,
+      "score": null,
+      "abstract": "Assessing the quality of information on the Web is a challenging issue for at least two reasons. First, as a decentralized data publishing platform in\nwhich anyone can share nearly anything, the Web has no inherent quality control mechanisms to ensure that content published is valid, legitimate, or even just\ninteresting. Second, when assessing the trustworthiness of web pages, users tend to base their judgments upon descriptive criteria such as the visual presentation of the\nwebsite rather than more robust normative criteria such as the author's reputation and the source's review process. As a result, Web users are liable to\nmake incorrect assessments, particularly when making quick judgments on a large scale. Therefore, Web users need credibility criteria and tools to help them assess the\ntrustworthiness of Web information in order to place trust in it. In , we investigate the criteria that can be used to collect supportive data\nabout a piece of information in order to improve a person's ability to quickly judge the trustworthiness of the information. We propose the normative trustworthiness\ncriteria namely, authority, currency, accuracy and relevance which can be used to support users' assessments of the trustworthiness of Web information. In addition, we validate\nthese criteria using an expert panel. The results show that the proposed criteria are helpful. Moreover, we obtain weighting scores for criteria which can be\nused to calculate the trustworthiness of information and suggest a piece of information that is more likely to be trustworthy to Web users."
+    },
+    {
+      "document_id": 964,
+      "score": null,
+      "abstract": "We describe a new concept and method for evaluating the Web information credibility. The quality control of information (text, image, video etc.) on the Web\nis generally insufficient due to low publishing barriers. As a result, there is a large amount of mistaken and unreliable information on the Web that\ncan have detrimental effects on users. This calls for technology that facilitates the judging of the credibility (expertise and trustworthiness) of Web content and the\naccuracy of the information that users encounter on the Web. Such technology should be able to handle a wide range of tasks: extracting several credibility-related\nfeatures from the target Web content, extracting reputation-related information for the target Web content, such as hyperlinks and social bookmarks and evaluating its distribution, and\nevaluating features of the target content authors. We propose and describe methodologies of analyzing information credibility of Web information: (1) content analysis, (2) social support\nanalysis and (3) author analysis. We overview our recent research activities on Web information credibility evaluation based on this methodologies."
+    },
+    {
+      "document_id": 968,
+      "score": null,
+      "abstract": "As computers and computer networks become more common, a huge amount of information, such as that found in Web contents including multimedia content (images, videos\netc.), has been accumulated and circulated. Such information gives people a framework for organizing their private and professional lives. However, in general, the quality control\nof Web content is insufficient due to low publishing barriers. In result there is lot of mistaken and unreliable information on the Web that can\nhave detrimental effects on users. This calls for technology that would facilitate judging the trustworthiness of content and the accuracy of the information that users\nencounter on the Web. Such technology should be able to handle a wide range of tasks: extracting credible information related to a given topic, organizing\nthis information, detecting its provenance, clarifying background, facts, and other related opinions and the distribution of them, and so on. Also, as for Web search,\nconventional Web search engines still suffer from their low precision/recall ratio especially for searching multimedia contents (images, videos etc.). In , we propose an idea\nto enhance conventional Web search and to analyze Web information credibility by bridging the gap between Web 1.0 contents and Web 2.0 contents. Based on\nthe idea, we overview our research activities on Web search and their information credibility."
+    },
+    {
+      "document_id": 974,
+      "score": null,
+      "abstract": "General users write daily news about themselves and post information they consider interesting as digital documents for blogs and SNS. Such digital content includes both\nvaluable information as well as worthless, false, and demagogic information. Ordinary web search engines can display web pages in a particular order. The ranking method\nevaluates the score of web content and generates a ranked list. The top-ranked web content on search engines is often relevant to the user's query,\nthough, in some cases, the content may not be credible or valuable. Nevertheless, readers often trust the authenticity of the displayed information. Even if users\nbelieve that the content is useful, the search engine cannot evaluate the retrieved digital content, and users have to retrieve a variety of content using\ndifferent keywords. The need for an information analysis technology that helps find credible and valuable information from large amounts of Web content is progressively growing.In\nJapan, the NICT (National Institute of Information and Communications Technology) initiated the ''Information Credibility Criteria Project'' in 2oo6, and the MIC (Ministry of Internal Affairs\nand Communications), too, initiated the ''Research and Development of Information Credibility Verification Technology for Telecommunication Service'' in 2007.The NICT's project addresses the issue of information\ncredibility by analyzing credibility based on the following criteria: (1) content, (2) sender, (3) appearance, and (4) authenticity of content. We believe that the understanding\nof texts by a machine is important and that an NLP (Natural Language Processing) approach is very effective in evaluating the credibility criteria. The MIC's\nproject aims to develop methods to analyze not only text information but also multimedia content using NLP, information retrieval and data mining approaches. By using\ndifferent methods for analyzing the information credibility criteria, credible information can be acquired, which eventually becomes valuable knowledge.This talk will throw light on the activities\nof both projects in Japan."
+    }
+  ]
+}

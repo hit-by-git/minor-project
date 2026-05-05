@@ -1,0 +1,50 @@
+{
+  "topic_id": 50,
+  "label": "T050",
+  "label_full": "Fact-Checking & Verification",
+  "keywords": [
+    "claims",
+    "colloquial",
+    "systems",
+    "search",
+    "runs",
+    "factchecking",
+    "dialogue",
+    "checkworthiness",
+    "formal",
+    "contextual"
+  ],
+  "n_docs": 6,
+  "documents": [
+    {
+      "document_id": 554,
+      "score": null,
+      "abstract": "Knowledge is now starting to power neural dialogue agents. At the same time, the risk of misinformation and disinformation from dialogue agents also rises. Verifying\nthe veracity of information from formal sources are widely studied in computational fact checking. In , we ask: How robust are fact checking systems on\nclaims in colloquial style? We aim to open up new discussions in the intersection of fact verification and dialogue safety. In order to investigate how\nfact checking systems behave on colloquial claims, we transfer the styles of claims from FEVER (Thorne et al., 2018) into colloquialism. We find that existing\nfact checking systems that perform well on claims in formal style significantly degenerate on colloquial claims with the same semantics. Especially, we show that document\nretrieval is the weakest spot in the system even vulnerable to filler words, such as “yeah” and “you know”. The document recall of WikiAPI retriever\n(Hanselowski et al., 2018) which is 90.0% on FEVER, drops to 72.2% on the colloquial claims. We compare the characteristics of colloquial claims to those\nof claims in formal style, and demonstrate the challenging issues in them."
+    },
+    {
+      "document_id": 757,
+      "score": null,
+      "abstract": "We study the problem of automatic fact-checking, paying special attention to the impact of contextual and discourse information. We address two related tasks: (i)&nbsp;detecting check-worthy\nclaims and (ii)&nbsp;fact-checking claims. We develop supervised systems based on neural networks, kernel-based support vector machines, and combinations thereof, which make use of rich input\nrepresentations in terms of discourse cues and contextual features. For the check-worthiness estimation task, we focus on political debates, and we model the target claim\nin the context of the full intervention of a participant and the previous and following turns in the debate, taking into account contextual meta information.\nFor the fact-checking task, we focus on answer verification in a community forum, and we model the veracity of the answer with respect to the\nentire question–answer thread in which it occurs as well as with respect to other related posts from the entire forum. We develop annotated datasets for\nboth tasks and we run extensive experimental evaluation, confirming that both types of information—but especially contextual features—play an important role."
+    },
+    {
+      "document_id": 808,
+      "score": null,
+      "abstract": "In recent years, we witnessed an incredible amount of misinformation spread over the Internet. However, it is extremely time consuming to analyze the veracity of\nevery claim made on the Internet. Thus, we urgently need automated systems that can prioritize claims based on their check-worthiness, helping fact-checkers to focus on\nimportant claims. In , we present our hybrid approach which combines rule-based and supervised methods for CLEF-2019 Check That! Lab's Check-Worthiness task. Our primary model\nranked 9th based on MAP, and 6th based on R-P, P@5, and P@20 metrics in the official evaluation of primary submissions. © 2019 CEUR-WS. All\nrights reserved."
+    },
+    {
+      "document_id": 824,
+      "score": null,
+      "abstract": "We present an automated approach to distinguish true, false, stretch, and dodge statements in questions and answers in the Canadian Parliament. We leverage the truthfulness\nannotations of a U.S. fact-checking corpus by training a neural net model and incorporating the prediction probabilities into our models. We find that in concert\nwith other linguistic features, these probabilities can improve the multi-class classification results. We further show that dodge statements can be detected with an F1 measure\nas high as 82.57% in binary classification settings."
+    },
+    {
+      "document_id": 827,
+      "score": null,
+      "abstract": "Even though Web search engines play an important role in finding documents relevant to user queries, there is little to no attention given to how\nthey perform in terms of usefulness for fact-checking claims. In , we introduce a new research problem that addresses the ability of fact-checking systems to\ndistinguish Web search results that are useful in discovering the veracity of claims from the ones that are not.We also propose a re-ranking method to\nimprove ranking of search results for fact-checking. To evaluate our proposed method, we conducted a preliminary study for which we have developed a test collection\nthat includes 22 claims and 20 manually-annotated Web search results for each. Our experiments show that the proposed method outperforms the baseline represented by the\noriginal ranking of search results. The contributions this improvement brings to real-world applications is two-fold: it will help human fact-checkers find useful documents for their\ntask faster, and it will help automated fact-checking systems by pointing out which documents are useful and which are not."
+    },
+    {
+      "document_id": 856,
+      "score": null,
+      "abstract": "With the enormous amount of misinformation spread over the Internet, manual fact-checking is no longer feasible to prevent its negative impact. There is an urgent\nneed for automated systems that can make fact-checking process faster and effectively detect the veracity of claims. In , we present our participation in the\ntwo tasks of CLEF-2018 CheckThat! Lab. To rank claims based on their check-worthiness (Task 1), we propose a learning-to-rank approach with features extracted by natural\nlanguage processing such as named entity recognition and sentiment analysis. For veracity prediction (Task 2), we propose using an external Web search engine to retrieve\npotentially-relevant Web pages and extract features from relevant segments of those pages to predict the veracity. In the official evaluation, our best performing runs for\nTask 1 are ranked 4th (out of f 6 runs from 8 teams) and 1st (out of 5 runs from 2 teams) over the English\nand Arabic datasets respectively, while our best performing run for Task 2 is ranked 6th (out of 10 runs from 5 teams) over the English\ndatasets."
+    }
+  ]
+}

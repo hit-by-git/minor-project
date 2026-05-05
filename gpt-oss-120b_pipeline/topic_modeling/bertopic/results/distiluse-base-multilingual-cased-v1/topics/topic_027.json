@@ -1,0 +1,60 @@
+{
+  "topic_id": 27,
+  "label": "T027",
+  "label_full": "Misinformation & Propaganda",
+  "keywords": [
+    "news",
+    "media",
+    "social",
+    "publishers",
+    "fake",
+    "adam",
+    "adadelta",
+    "network",
+    "optimization",
+    "rapid"
+  ],
+  "n_docs": 8,
+  "documents": [
+    {
+      "document_id": 281,
+      "score": null,
+      "abstract": "The growing popularity of online news has prompted concerns regarding (i) the socio-political influence over news dissemination, (ii) the waning freedom of news media, (iii)\nand a facile news evaluation process. A piece of news having the power to capture a large audience and sow the seed of bizarre consequences\non a national scale should be prudently evaluated before reaching the mass. In quest of making a substantial profit, and sometimes due to inevitable socio-political\ninfluence, news with biased heading outpours mass media, resulting in ambiguity and mass manipulation. In , we suggest a blockchain, smart contract, and incremental machine\nlearning-based news evaluation procedure for the Bengali language to overcome these challenges. Weighted synthesis of machine classification and human expert opinion in a decentralized platform\nare synthesized to evaluate news. With continuous data, the Natural Language Processing (NLP) model is incrementally trained, and the best version of the model is\nused to detect deprived fake news. During experiments, the NLP model with initial training and testing accuracy of 84.94% and 84.99% was increased to 93.75%\nand 93.80% after nine rounds of incremental model training. On the Ethereum test network, the protocols have been installed and tested. The simulation demonstrates successful\nimplementation of our proposed system. © 2013 IEEE."
+    },
+    {
+      "document_id": 282,
+      "score": null,
+      "abstract": "With the expansion of the Internet and attractive social media infrastructures, people prefer to follow the news through these media. Despite the many advantages of\nthese media in the news field, the lack of control and verification mechanism has led to the spread of fake news as one of the\nmost critical threats to democracy, economy, journalism, health, and freedom of expression. So, designing and using efficient automated methods to detect fake news on social\nmedia has become a significant challenge. One of the most relevant entities in determining the authenticity of a news statement on social media is its\npublishers. examines the publishers’ features in detecting fake news on social media, including Credibility, Influence, Sociality, Validity, and Lifetime. In this regard, we propose an\nalgorithm, namely CreditRank, for evaluating publishers’ credibility on social networks. We also suggest a high accurate multi-modal framework, namely FR-Detect, for fake news detection using\nuser-related and content-related features. Furthermore, a sentence-level convolutional neural network is provided to properly combine publishers’ features with latent textual content features. Experimental results show\nthat the publishers’ features can improve the performance of content-based models by up to 16% and 31% in accuracy and F1, respectively. Also, the behavior\nof publishers in different news domains has been statistically studied and analyzed. © 2022, The Author(s), under exclusive licence to Springer Science+Business Media, LLC, part\nof Springer Nature."
+    },
+    {
+      "document_id": 302,
+      "score": null,
+      "abstract": "Social platform have disseminated the news in rapid speed and has been considered an important news resource for many people over worldwide because of easy\naccess and less cost benefits when compared with the traditional news organizations. Fake news is the news deliberately written by bad writers that manipulates the\noriginal contents and this rapid dissemination of fake news may mislead the people in the society. As a result, it is critical to investigate the\nveracity of the data leaked via social media platforms. Even so, the reliability of information reported via this platform is still doubtful and remains a\nsignificant obstacle. As a result, this study proposes a promising technique for identifying fake information in social media called Adam Adadelta Optimization based Deep Long\nShort-Term Memory (Deep LSTM). The tokenization operation in this case is carried out with the Bidirectional Encoder Representations from Transformers (BERT) approach. The measurement of\nthe features is reduced with the assistance of Kernel Linear Discriminant Analysis (LDA), and Singular Value Decomposition (SVD) and the top-N attributes are chosen by\nemploying Renyi joint entropy. Furthermore, the LSTM is applied to identify false information in social media, with Adam Adadelta Optimization, which comprises a combo of\nAdam Optimization and Adadelta Optimization. The Deep LSTM based on Adam Adadelta Optimization achieved maximum accuracy, sensitivity, specificity of 0.936, 0.942, and 0.925. © 2023\n- IOS Press. All rights reserved."
+    },
+    {
+      "document_id": 309,
+      "score": null,
+      "abstract": "The spread of fake news on social media platforms can have serious consequences for society, especially in urgent situations such as crises. Despite efforts to\ncombat it, fake news is still able to proliferate rapidly through social media, where users share and exchange a vast amount of information on a\ndaily basis. This information, however, is not always accurate, making it difficult to distinguish real news from fake news. To address this problem, this research\nproposes additional characteristics based on social interactions and content to identify fake news on social media platforms. These characteristics are designed to work in conjunction\nwith each other and are found to be more effective in identifying fake news compared to the current baseline criteria. In addition, a -LSTM model\nis used to analyze the text and predict the veracity of news. Unlike early research that focuses on fake news that has been circulating for\na long time, this study tests the identification of fake news on a real-world dataset. The proposed features and machine learning models outperformed the baseline\nin terms of accuracy, recall, and F1 metrics, which are standard measures of classification model performance. © 2023 WITPress. All rights reserved."
+    },
+    {
+      "document_id": 443,
+      "score": null,
+      "abstract": "Nowadays, online social media play a significant role in news broadcasts due to their convenience, speed, and accessibility. Social media platforms leverage the rapid production\nof a large volume of information and cause the propagation of untrustworthy and fake news. Since fake news is engineered to deceive a wide range\nof readers deliberately, it is not easy to detect them merely based on the news content. Hence, more information, such as the social context, is\nneeded. Moreover, to limit the impact of fake news on society, it is essential to detect them as early as possible. In , we have\ndeveloped an automated system “DSS” for the early detection of fake news wherein we leverage the propagation tree and the stance network simultaneously and dynamically.\nOur proposed model comprises three major components: Dynamic analysis, Static analysis, and Structural analysis. During dynamic analysis, a recurrent neural network is used to encode\nthe evolution pattern of the propagation tree and the stance network over time. The static analysis uses a fully connected network to precisely represent the\noverall characteristics of the propagation tree and the stance network at the end of a detection deadline. The node2vec algorithm is used during structural analysis\nas a graph embedding model to encode the structure of the propagation tree and the stance network. Finally, the outputs of these components are aggregated\nto determine the veracity of the news articles. Our proposed model is evaluated on the repository, comprising two recent well-known datasets in the field, namely\nand GossipCop. Our results show encouraging performance, outperforming the state-of-the-art methods by 8.2% on the and 3% on the GossipCop datasets. Early detection of fake\nnews is the merit of the proposed model. The DSS model provides outstanding accuracy in the early stages of spreading, as well as the later\nstages. © 2022"
+    },
+    {
+      "document_id": 610,
+      "score": null,
+      "abstract": "Social network and online news media are becoming popular in today's era. Due to low cost, easy access and rapid diffusion, social media platform becomes\na source to distribute false information. Fake news propagation on social media can cause serious negative effects on human society especially in politic, reputation and\nfinance. So, automatic fake news detection plays a vital role to robust news media platform on social network. Defining news authenticity is insufficient based on\nnews content only. It also needs to analyze social features of news. In , we propose an approach to detect fake news on social media\nthat covers both news content and social context. We use synonym-based feature extraction method and three different classifiers based on multidimensional dataset. Experimental result shows\nthe effective as an accuracy way to define news authenticity on online news media. © 2020 IEEE."
+    },
+    {
+      "document_id": 620,
+      "score": null,
+      "abstract": "In a scenario where more and more individuals use online social network platforms as an instrument to propagate news without any control, it is necessary\nto design and implement new methods and techniques that guarantee the veracity of the disseminated news. In , we propose a method to classify true\nand false news, commonly known as fake news, which exploits time series-based features extracted from the evolution of news, and features from the users involved\nin the news spreading. Applying our methodology over a real Twitter dataset of precategorized true and false news, we have obtained an accuracy of 84.61%\nin 10-fold cross-validation, and proved experimentally that all the selected features are relevant for this classification task. © 2020, Springer Nature Switzerland AG."
+    },
+    {
+      "document_id": 652,
+      "score": null,
+      "abstract": "With the rapid development of the internet, social media has become an essential tool for getting information, and attracted a large number of people join\nthe social media platforms because of its low cost, accessibility and amazing content. It greatly enriches our life. However, its rapid development and widespread also\nhave provided an excellent convenience for the range of fake news, people are constantly exposed to fake news and suffer from it all the time.\nFake news usually uses hyperbole to catch people’s eyes with dishonest intention. More importantly, it often misleads the reader and causes people to have wrong\nperceptions of society. It has the potential for negative impacts on society and individuals. Therefore, it is significative research on detecting fake news. In the\npaper, we built a model named SMHA- (Self Multi-Head Attention-based Convolutional Neural Networks) that can judge the authenticity of news with high accuracy based only\non content by using convolutional neural networks and self multi-head attention mechanism. In order to prove its validity, we conducted experiments on a public dataset\nand achieved a precision rate of 95.5% with a recall rate of 95.6% under the 5-fold cross-validation. Our experimental result indicates that the model is\nmore effective at detecting fake news. © 2019 Fang et al. This is an open access article distributed under the terms of the Creative Commons\nAttribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "topic_id": 65,
+  "label": "T065",
+  "label_full": "adadebunk, preprocessing",
+  "keywords": [
+    "adadebunk",
+    "preprocessing",
+    "position",
+    "lstmrf",
+    "fned",
+    "multiaspect",
+    "secondary",
+    "tfidf",
+    "pivotal",
+    "dependencies"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 94,
+      "score": null,
+      "abstract": "The relentless surge in the dissemination of fabricated news articles and misleading information poses a substantial threat to the veracity of information, trust in media\nsources, and the very foundations of democratic processes. In the contemporary landscape of information dissemination, the rampant propagation of false and misleading information has emerged\nas a paramount concern for both individuals and society at large. Consequently, the development of robust and efficient detection mechanisms has taken on a pivotal\nrole in contemporary information ecosystems. The methodology employed encompasses three pivotal stages: initial data preprocessing, subsequent feature extraction involving the utilization of TF-IDF and Count\nVectorization, and eventual classification that draws upon a diverse array of machine learning classifiers, in addition to deep learning models like Recurrent Neural Networks (RNN)\nand BERT networks. On a carefully selected dataset of instances of fake news, these models underwent rigorous testing and training.This research greatly aids in the\ncontinuous battle against disinformation by offering a methodical framework for identifying fake news. It also helps people and organisations make better decisions by shedding light\non the relative merits of various deep learning and machine learning methods in this intricate and crucial context.. © 2024 The Authors. Published by Elsevier\nB.V."
+    },
+    {
+      "document_id": 269,
+      "score": null,
+      "abstract": "The dissemination of news and coverage of events, both domestically and internationally, is now mostly the responsibility of print, web, and broadcast media. Because of\nthe explosion of information available online, verifying the veracity of claims is more difficult than ever. It is extremely difficult to verify the veracity of\nfake news using conventional data processing techniques without seriously misinforming the public. Indeed, the difficulty for the government and the public is a matter of\ncase by case argument. Several sites were built specifically for this purpose, each using its own unique logic and algorithm to determine which stories were\nmore likely to be true or false. There needs to be a system in place for verifying the veracity of online claims, especially those that\ngarner thousands of shares and clicks before being disproved by credible sources. In this proposed approach to an LSTM-RF classifier was used to determine whether\nor not a news story was fabricated. The three-step process that makes up the suggested method is as follows: preprocessing; feature extraction and feature selection;\nand LSTM-RF model training. In preprocessing, you'll clean the data, get rid of stop words, tokenize it, and stem it. The TF-IDF and Extra Tree\nClassifier are used for feature selection. The model is trained with LS TM-RF. The proposed method achieves superior results compared to LSTM and RF. ©\n2023 IEEE."
+    },
+    {
+      "document_id": 366,
+      "score": null,
+      "abstract": "Fake news is an information that has been carefully manipulated to mislead readers by using false facts and figures. Since the introduction of the Internet\nand social media, fake news has grown to be a significant problem. Identifying fake news has become an important area of research in Natural Language\nProcessing (NLP). The key challenge is determining the veracity of news stories. There is an increasing difficulty in studying and designing a technological strategy to\ncombat fake news without compromising speed and collaborative access to high-quality information. Despite the fact that various technologies have been developed to assist in the\ndetection of false news, and despite significant breakthroughs, identifying fake news stays ineffective. In this research, a new framework has been proposed that utilizes Porter\nStemmer, TF-IDF vectorizer for pre-processing and double layer Bi-LSTM for extracting the refined features to obtain better learning. In this model, initially, the summarized input\nvector is formed by concatenating the most relevant text attributes such as headlines, news for further process. The performance of the proposed model has been\njustified by evaluating its performance on three experimental datasets namely Kaggle fake_real_news, Liar and Politifact Fake_Real. © 2023 IEEE."
+    },
+    {
+      "document_id": 423,
+      "score": null,
+      "abstract": "Automatically detecting fake news as early as possible becomes increasingly necessary. Conventional approaches of fake news early detection (FNED) verify news' veracity with a predefined\nand indiscriminate detection position, which depends on domain experience and leads to unstable performance. More advanced methods address this problem with a proposed concept of\nadaptive detection position (ADP), i.e. the position where the veracity of the news record can be concluded. Yet these methods either lack theoretical reliability or\nweaken complex dependencies among multi-aspect clues, thus failing to provide practical and reasonable detection. focuses on the adaptive FNED problem and proposes a novel efficient\nand reliable deep state space model, namely AdaDebunk, which models the complex probabilistic dependencies. Specifically, a Bayes' theorem-based dynamic inference algorithm is designed to infer\nthe ADPs and veracity, supporting the accumulation of multi-aspect clues. Besides, a training mechanism with hybrid loss is also designed to solve the over-/under-fitting problems,\nwhich further trades off the performance and generalization ability. Experiments on two real-world fake news datasets are conducted to evaluate the effectiveness and superiority of\nAdaDebunk. Compared with the state-of-the-art baselines, AdaDebunk achieves a 10% increase in F1 performance. Meanwhile, a case study is provided to demonstrate the reliability of\nAdaDebunk as well as our research motivation."
+    },
+    {
+      "document_id": 709,
+      "score": null,
+      "abstract": "The complexities of fake news detection cannot be overcome solely with Natural Language Processing. Even a human being finds it difficult to decide the authenticity\nof an article without further fact checking. Hence a Deep Learning model entirely based on NLP is bound to have huge limitations. In order to\naddress this shortcoming, the proposed system additionally includes a live data stage mining which provides secondary features. These features include source domains of the article,\nauthor names etc. Since these features mimic the process of fact-checking to an extent, the model is expected to outperform existing models that are solely\nbased on NLP. We seek to compare the results from models with and without secondary mined features. LSTM and FF Neural Networks are explored. Additionally,\neffectiveness of different word vector representations in relation to this problem are also investigated. © 2020 The Authors. Published by Elsevier B.V."
+    }
+  ]
+}

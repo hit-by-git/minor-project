@@ -1,0 +1,60 @@
+{
+  "topic_id": 32,
+  "label": "T032",
+  "label_full": "Misinformation & Propaganda",
+  "keywords": [
+    "news",
+    "click",
+    "fake",
+    "major",
+    "media",
+    "detection",
+    "ieee",
+    "studied",
+    "cost",
+    "problem"
+  ],
+  "n_docs": 8,
+  "documents": [
+    {
+      "document_id": 316,
+      "score": null,
+      "abstract": "Sensational and fake news are created and spread through social media to achieve the intended end. It may also involve narration of a true fact\nhowever being deliberately exaggerated.The idea of this research is to identify the authenticity of the news/information present on the web in the form of text,\nlinks and images. The main aim is to feed in some dynamic information and determine whether it's real/misleading(fake). In , we propose a novel model\nfor our real-time application that detects fake news by examining the accuracy of some content, link or image given by the user, and predicting its\nauthenticity based on a score. © 2023 IEEE."
+    },
+    {
+      "document_id": 492,
+      "score": null,
+      "abstract": "Over the recent years, fake news detection has been a topic of constant question and research among the society of cognitive engineers and many cynical\nenthusiasts in the field. With social media at easy disposal, it becomes but imperative to determine the factual truthfulness of the information. Rampant fake news\nsellers are a menace in society, threatening the very base of democracy and the freedom of speech. In , we try to provide a brief\nunderstanding of the current methodologies in fake news detection, along with proposing a multistage fake news detection system. All the phases that have been designed\nare ordered in increasing order of complexity and efficiency. If fake news detection does not provide results with an acceptable level of accuracy or satisfactory\nresults at any phase, we have designed for a subsequent phase up in the hierarchy which is assured to provide better accuracy. © 2022, The\nAuthor(s), under exclusive license to Springer Nature Singapore Pte Ltd."
+    },
+    {
+      "document_id": 612,
+      "score": null,
+      "abstract": "Misinformation isn't definitely new thing; it is way before the inception of social media. It is evolving since 14th century but the term like “fake\nnews”, “post truth” are used commonly during movement of 2016 US presidential election. People use social media to read news as it is lost cost\nand user friendly platform; also it is possible to share news on social media with one click. With this merit, it is also having major\ndisadvantage. If the news is false or misleading news then spread of such news will have adverse consequence on civilization. Therefore, battling fake news is\nimportant and has now become developing area of research. Researchers are using Artificial Intelligence based approach such as machine learning and natural language processing to\nbattle with the fake news. presents a comprehensive overview of the earlier detection techniques as well as proposes mathematical model and methodology to improve the\nresult. © 2021 IEEE"
+    },
+    {
+      "document_id": 617,
+      "score": null,
+      "abstract": "Around the globe, social media is serving as a significant source of news for millions of people because of its rapid dissemination, easy access and\nlow cost. However, it has a significant risk in exposing fake news, which may mislead the readers, and it comes at the cost of dubious\ntrustworthiness. Existing content-based analysis techniques are challenged by automatic detection of fake news. On social media, merits and demerits of different techniques of fake detection\nare studied in review work. For fake news detection, various techniques have been proposed in recent days. For given news, the precise statistical rating is\nnot produced by existing works. Less variance is made by news category and input restrictions. Automatic fake news detection methods are studied in this review\nand concluded a method for detecting various news. Also, studied the ability of a technique in predicting fake news based on data sources. © 2021,\nThe Author(s), under exclusive license to Springer Nature Singapore Pte Ltd."
+    },
+    {
+      "document_id": 712,
+      "score": null,
+      "abstract": "In modern times, it has been observed that more number of people access news through search engines and social media rather than the traditional media\nlike print media. However, there is no check on authenticity of the news which is present online. The spread of fake news is a severe\nproblem which can have detrimental effects on the society. Given the challenges in detection of fake news, many researchers are trying to understand the problem\nstatement and its characteristics. In , the existing approaches and the new methods proposed by researchers have been summarized. The methods vary according to the\ncontent types (textual or image based) so that problem can be tackled in a better way and improved classification results can be obtained. © 2020\nIEEE."
+    },
+    {
+      "document_id": 783,
+      "score": null,
+      "abstract": "Social media is one of the most revolutionary inventions of the present times. With its own set of advantages and disadvantages it is extremely essential\nfor each one of us. Today Fake News has become a major problem wreaking havoc all over the world. Therefore building an algorithm with the\nbest possible accuracy will be a revelation and it will have a massive impact on the social issues which are prevalent as well as on\nthe current political scenario. Social Media and online news articles serve as a major source of news and for data for people since it can\nbe approached easily, has a subsidized costing and is readily available-just a click away. However, it does have several negative impacts too such as no\ncheck on the source or authenticity and validity of the views being endorsed. Hence, we have proposed a new solution for fake news detection which\nincorporates sentiment as an important feature to improve the accuracy. It also investigates the performance of proposed method using three different data sets. Results show\nthat proposed solution performs well. Moreover, the comparison is also made with other methods under this study. © 2019 IEEE."
+    },
+    {
+      "document_id": 788,
+      "score": null,
+      "abstract": "In recent years, a lot of fake news are generated on the web in order to attract readership, influence opinions, and increase internet click revenue.\nThe generation of this false information has become a worldwide phenomenon and its effects are notorious as it leads to confusion over facts and causes\nwrong decision-making.However, evaluating and detecting the veracity of news can be a complex and cumbersome task. This is simply because most of the studies carried\nout so far on the detection of such news, especially in real time, are not really performant. Our objective in is, therefore, to review the\nmajor works that have addressed this problem. Results of this study have revealed that two major approaches have been put forward, namely linguistic and network.\nIn this article, we will try to quote a set of automatic detection of false news on the web and social networks. © 2019 IEEE."
+    },
+    {
+      "document_id": 876,
+      "score": null,
+      "abstract": "Fake news proliferation and distrust in news media has become an endemic problem in the American society and has aided in the corruption of civil\npolitical discourse. The formation of a standard and subsequent implementation using automated algorithmic processes will provide unbiased ratings and evaluations of online news media truthfulness\nin the form of easy-to-understand scores. This easily accessible information will aid in the reduction of fake news proliferation and help produce a more informed\nelectorate. © 2017 IEEE."
+    }
+  ]
+}

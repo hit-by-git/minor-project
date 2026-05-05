@@ -1,0 +1,75 @@
+{
+  "topic_id": 17,
+  "label": "T017",
+  "label_full": "Fact-Checking & Verification",
+  "keywords": [
+    "claims",
+    "medical",
+    "political",
+    "factchecking",
+    "subquestions",
+    "statements",
+    "mayors",
+    "task",
+    "claim",
+    "bias"
+  ],
+  "n_docs": 11,
+  "documents": [
+    {
+      "document_id": 202,
+      "score": null,
+      "abstract": "Evidence-based medicine is the practise of making medical decisions that adhere to the latest, and best known evidence at that time. Currently, the best evidence\nis often found in the form of documents, such as randomized control trials, meta-analyses and systematic reviews. This research focuses on aligning medical claims made\non social media platforms with this medical evidence. By doing so, individuals without medical expertise can more effectively assess the veracity of such medical claims.\nWe study three core tasks: identifying medical claims, extracting medical vocabulary from these claims, and retrieving evidence relevant to those identified medical claims. We propose\na novel system that can generate synthetic medical claims to aid each of these core tasks. We additionally introduce a novel dataset produced by our\nsynthetic generator that, when applied to these tasks, demonstrates not only a more flexible and holistic approach, but also an improvement in all comparable metrics.\nWe make our dataset, the Expansive Medical Claim Corpus (EMCC), available at © 2024 ELRA Language Resource Association: CC BY-NC 4.0."
+    },
+    {
+      "document_id": 233,
+      "score": null,
+      "abstract": "The task of fact-checking deals with assessing the veracity of factual claims based on credible evidence and background knowledge. In particular, scientific fact-checking is the\nvariation of the task concerned with verifying claims rooted in scientific knowledge. This task has received significant attention due to the growing importance of scientific\nand health discussions on online platforms. Automated scientific fact-checking methods based on NLP can help combat the spread of misinformation, assist researchers in knowledge discovery,\nand help individuals understand new scientific breakthroughs. In , we present a comprehensive survey of existing research in this emerging field and its related tasks.\nWe provide a task description, discuss the construction process of existing datasets, and analyze proposed models and approaches. Based on our findings, we identify intriguing\nchallenges and outline potential future directions to advance the field."
+    },
+    {
+      "document_id": 266,
+      "score": null,
+      "abstract": "Political fact-checkers evaluate the truthfulness of politicians’ claims. contributes to an emerging scholarly debate on whether fact-checkers treat political parties differently in a systematic manner\ndepending on their ideology (bias). We first examine the available approaches to analyze bias and then present a new approach in two steps. First, we\npropose a logistic regression model to analyze the outcomes of fact-checks and calculate how likely each political party will obtain a truth score. We test\nour model with a sample of fact-checks from Newtral, a prominent Spanish fact-checker. Our model would signal bias under two assumptions: (a) all political parties\nare on average equally accurate in their statements; (b) the verification method gives precise instructions and is implemented systematically. We investigate this second assumption with\na series of interviews with Newtral fact-checkers. We show that standard verification protocols are loosely implemented and therefore fact-checks reflect a set of journalistic decisions,\nrather than a bias in the statistical sense. We call for a more rigorous definition of verification methods as a pre-requisite for an unbiased assessment\nof politician’s claims. © 2023 Informa UK Limited, trading as Taylor & Francis Group."
+    },
+    {
+      "document_id": 308,
+      "score": null,
+      "abstract": "The purpose of the research is to determine the veracity and contexts of the statements of Ecuador's mayors using fact-checking methodology. The research questions are:\nAre the public testimonies of mayors presented in local television news programmes true? What are the circumstances in which mayors present their speeches? To what\nextent does local journalism contextualize the mayors' statements? The research is descriptive and relational, using qualitative methodology based on the Ecuador Chequea protocol, focus groups\nand semi-structured interviews. A sample of audiovisual pieces broadcast between February 2020 and March 2022 was obtained. The statements are grouped in 10 axes, showing\ncorrespondence with the functions determined in the law. The statements of the governors are true, the proximity helps direct accountability, but weaknesses such as excessive\nprominence, publicity and short-term interests can be appreciated. Analyses of the quality of the declarations are needed, in broad pieces and with the corresponding cultural\nand political contexts. Efforts to make public administration transparent is a key aspect of open and e-government that will be achieved as long as citizens'\ninformation literacy is achieved. © 2023 The Author(s). All rights reserved."
+    },
+    {
+      "document_id": 532,
+      "score": null,
+      "abstract": "Fact-checking is a common journalistic practice adopted to verify the truthfulness of claims and information items. Because of the demanding nature of fact-checking, a significant\namount of research has been devoted to the use of crowdsourcing to scale up this practice. The idea to use laypeople to fact-check information allows\naccessing a vast amount of human computation resources, but introduces an issue of reliability: when these tasks are performed by laypeople instead of experts, their\nquality might be questioned. In , we introduce an ontology for modeling crowdsourced datasets of information quality assessments. We emphasize that we allow modeling information\nabout the items evaluated as well as important metadata such as the authors of such assessments. The goal of this model is to favor interoperability\namong different datasets of the same kind, as well as to support internal analyses of the dataset themselves in terms of bias and reliability of\nthe collected assessments. © 2022 Copyright for by its authors. Use permitted under Creative Commons License Attribution 4.0 International (CC BY 4.0)"
+    },
+    {
+      "document_id": 540,
+      "score": null,
+      "abstract": "Verifying political claims is a challenging task, as politicians can use various tactics to subtly misrepresent the facts for their agenda. Existing automatic fact-checking systems\nfall short here, and their predictions like “half-true” are not very useful in isolation, since it is unclear which parts of a claim are true\nor false. In , we focus on decomposing a complex claim into a comprehensive set of yes-no subquestions whose answers influence the veracity of the\nclaim. We present CLAIMDECOMP, a dataset of decompositions for over 1000 claims. Given a claim and its verification paragraph written by fact-checkers, our trained annotators\nwrite subquestions covering both explicit propositions of the original claim and its implicit facets, such as additional political context that changes our view of the\nclaim's veracity. We study whether state-of-the-art pre-trained models can learn to generate such subquestions. Our experiments show that these models generate reasonable questions, but predicting\nimplied subquestions based only on the claim (without consulting other evidence) remains challenging. Nevertheless, we show that predicted subquestions can help identify relevant evidence to\nfact-check the full claim and derive the veracity through their answers, suggesting that claim decomposition can be a useful piece of a fact-checking pipeline. ©\n2022 Association for Computational Linguistics."
+    },
+    {
+      "document_id": 668,
+      "score": null,
+      "abstract": "Fact-checking is the task of verifying the veracity of claims by assessing their assertions against credible evidence. The vast majority of fact-checking studies focus exclusively\non political claims. Very little research explores fact-checking for other topics, specifically subject matters for which expertise is required. We present the first study of\nexplainable fact-checking for claims which require specific expertise. For our case study we choose the setting of public health. To support this case study we\nconstruct a new dataset PUBHEALTH of 11.8K claims accompanied by journalist crafted, gold standard explanations (i.e., judgments) to support the fact-check labels for claims. We\nexplore two tasks: veracity prediction and explanation generation. We also define and evaluate, with humans and computationally, three coherence properties of explanation quality. Our results\nindicate that, by training on in-domain data, gains can be made in explainable, automated fact-checking for claims which require specific expertise."
+    },
+    {
+      "document_id": 680,
+      "score": null,
+      "abstract": "Truthfulness judgments are a fundamental step in the process of fighting misinformation, as they are crucial to train and evaluate classifiers that automatically distinguish true\nand false statements. Usually such judgments are made by experts, like journalists for political statements or medical doctors for medical statements. In , we follow\na different approach and rely on (non-expert) crowd workers. This of course leads to the following research question: Can crowdsourcing be reliably used to assess\nthe truthfulness of information and to create large-scale labeled collections for information credibility systems? To address this issue, we present the results of an extensive\nstudy based on crowdsourcing: we collect thousands of truthfulness assessments over two datasets, and we compare expert judgments with crowd judgments, expressed on scales with\nvarious granularity levels. We also measure the political bias and the cognitive background of the workers, and quantify their effect on the reliability of the\ndata provided by the crowd."
+    },
+    {
+      "document_id": 855,
+      "score": null,
+      "abstract": "The task of fact-checking has been formalised as the assessment of the truthfulness of a claim. Be it a political proclamation or a technological development,\nverification of a new tidbit of information before its propagation to the general public is of utmost importance. Failing to do so leads to the\nspread of misinformation, which is a devious tool. Fact-checking is commonly performed by journalists, manually looking up information pertaining to the statement in question. This\nis a drawn out and tedious process with a chance of the concerned person not covering the domain exhaustively. Some of this effort is reduced\nby the use of knowledge bases created over a period of time. In under Task 2 (Factuality) of the CLEF 2018 CheckThat! Lab, we detail\na neural network based methodology which models the textual data of a claim based on various representations of its words and characters. An affixed attention\nmechanism allows us to encapsulate linguistic features common in false claims. We achieve an accuracy of 39.57% on the task dataset."
+    },
+    {
+      "document_id": 887,
+      "score": null,
+      "abstract": "Traditional fact checking by experts and analysts cannot keep pace with the volume of newly created information. It is important and necessary, therefore, to enhance\nour ability to computationally determine whether some statement of fact is true or false. We view this problem as a link-prediction task in a knowledge\ngraph, and show that a new model of the top discriminative meta paths is able to understand the meaning of some statement and accurately determine\nits veracity. We evaluate our approach by examining thousands of claims related to history, geography, biology, and politics using public, million node knowledge graphs extracted\nfrom Wikipedia and SemMedDB. Not only does our approach significantly outperform related models, we also find that the discriminative path model is easily interpretable and\nprovides sensible reasons for the final determination."
+    },
+    {
+      "document_id": 938,
+      "score": null,
+      "abstract": "In we introduce the task of fact checking, i.e. the assessment of the truthfulness of a claim. The task is commonly performed manually by journalists\nverifying the claims made by public figures. Furthermore, ordinary citizens need to assess the truthfulness of the increasing volume of statements they consume. Thus, developing\nfact checking systems is likely to be of use to various members of society. We first define the task and detail the construction of a\npublicly available dataset using statements fact-checked by journalists available online. Then, we discuss baseline approaches for the task and the challenges that need to be\naddressed. Finally, we discuss how fact checking relates to mainstream natural language processing tasks and can stimulate further research. © 2014 Association for Computational Linguistics"
+    }
+  ]
+}

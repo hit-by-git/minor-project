@@ -1,0 +1,70 @@
+{
+  "topic_id": 16,
+  "label": "T016",
+  "label_full": "Fact-Checking & Verification",
+  "keywords": [
+    "claim",
+    "task",
+    "factchecking",
+    "retrieval",
+    "corpus",
+    "temporal",
+    "query",
+    "claims",
+    "facts",
+    "time"
+  ],
+  "n_docs": 10,
+  "documents": [
+    {
+      "document_id": 17,
+      "score": null,
+      "abstract": "Large Language Models (LLM) often produce text with incorrect facts and hallucinations. To address this issue, we developed a fact-checking system Truth-O-Meter12 which verifies LLM\nresults on the Internet and other sources of information to detect wrong claims/facts and proposes corrections for them. NLP and reasoning techniques such as Abstract\nMeaning Representation and syntactic alignment are applied to match hallucinating sentences with truthful ones. To handle inconsistent sources while fact-checking, we rely on argumentation analysis\nin the form of defeasible logic programming, selecting the most authoritative source. Our evaluation shows that LLM content can be substantially improved for factual correctness\nand meaningfulness on an industrial scale."
+    },
+    {
+      "document_id": 51,
+      "score": null,
+      "abstract": "Automating fact-checking is a challenging task that often requires the retrieval of multiple pieces of evidence from a reliable corpus for verifying the truthfulness of\na claim. Most of the current automated fact-checking systems produce true-or-false verdicts for certain types of factual claims in order to provide accuracy and transparency.\nHowever, some of the claim fragments can be true and others false. We propose ClaimAnalyse, the first fully automated claim polarity analysis system, an easy-to-use\nand an efficient tool for analyzing a claim according to the conformity and non-conformity of query sub-claims with the sources. Given a query claim and\nits related sources, ClaimAnalyse (I) selects the common sub-claims between the query claim and the sources, (II) composes the sources to cover the query claim\nand detects conform or non-conform source sub-claims with it, and (III) provides the polarity analysis of the query sub-claims over sources without any judgment or\nverdict on the entire claim. Our system provides the user with a complete and accurate analysis of the claim, which allows it to provide its\nown decision according to the polarity assigned to each query sub-claim. Using FEVER dataset, we experimentally verify the efficiency and the effectiveness of the proposed\nmodel. The experimental results have shown that among the state of-the-art methods, our proposed ClaimAnalyse model has achieved the best performance. © The Author(s), under\nexclusive licence to Springer Nature Switzerland AG 2024."
+    },
+    {
+      "document_id": 244,
+      "score": null,
+      "abstract": "In , we examine several methods of acquiring Czech data for automated fact-checking, which is a task commonly modeled as a classification of textual claim\nveracity w.r.t. a corpus of trusted ground truths. We attempt to collect sets of data in form of a factual claim, evidence within the ground\ntruth corpus, and its veracity label (supported, refuted or not enough info). As a first attempt, we generate a Czech version of the large-scale FEVER\ndataset built on top of corpus. We take a hybrid approach of machine translation and document alignment; the approach and the tools we provide can\nbe easily applied to other languages. We discuss its weaknesses, propose a future strategy for their mitigation and publish the 127k resulting translations, as well\nas a version of such dataset reliably applicable for the Natural Language Inference task—the CsFEVER-NLI. Furthermore, we collect a novel dataset of 3,097 claims, which\nis annotated using the corpus of 2.2 M articles of Czech News Agency. We present an extended dataset annotation methodology based on the FEVER approach,\nand, as the underlying corpus is proprietary, we also publish a standalone version of the dataset for the task of Natural Language Inference we call\nCTKFactsNLI. We analyze both acquired datasets for spurious cues—annotation patterns leading to model overfitting. CTKFacts is further examined for inter-annotator agreement, thoroughly cleaned, and a\ntypology of common annotator errors is extracted. Finally, we provide baseline models for all stages of the fact-checking pipeline and publish the NLI datasets, as\nwell as our annotation platform and other experimental data. © 2023, The Author(s)."
+    },
+    {
+      "document_id": 482,
+      "score": null,
+      "abstract": "During the COVID-19 pandemic, the spread of misinformation on online social media has grown exponentially. Unverified bogus claims on these platforms regularly mislead people, leading\nthem to believe in half-baked truths. The current vogue is to employ manual fact-checkers to verify claims to combat this avalanche of misinformation. However, establishing\nsuch claims’ veracity is becoming increasingly challenging, partly due to the plethora of information available, which is difficult to process manually. Thus, it becomes imperative\nto verify claims automatically without human interventions. To cope up with this issue, we propose an automated claim verification solution encompassing two steps – document\nretrieval and veracity prediction. For the retrieval module, we employ a hybrid search-based system with BM25 as a base retriever and experiment with recent state-of-the-art\ntransformer-based models for re-ranking. Furthermore, we use a BART-based textual entailment architecture to authenticate the retrieved documents in the later step. We report experimental findings,\ndemonstrating that our retrieval module outperforms the best baseline system by 10.32 NDCG@100 points. We escort a demonstration to assess the efficacy and impact of\nour suggested solution. As a byproduct of this study, we present an open-source, easily deployable, and user-friendly Python API that the community can adopt. ©\n2022 Association for Computational Linguistics."
+    },
+    {
+      "document_id": 496,
+      "score": null,
+      "abstract": "We study the fact-checking problem, which aims to identify the veracity of a given claim. Specifically, we focus on the task of Fact Extraction and\nVERification (FEVER) and its accompanied dataset. The task consists of the subtasks of retrieving the relevant documents (and sentences) from and validating whether the information\nin the documents supports or refutes a given claim. This task is essential and can be the building block of applications such as fake news\ndetection and medical claim verification. In this article, we aim at a better understanding of the challenges of the task by presenting the literature in\na structured and comprehensive way. We describe the proposed methods by analyzing the technical perspectives of the different approaches and discussing the performance results on\nthe FEVER dataset, which is the most well-studied and formally structured dataset on the fact extraction and verification task. We also conduct the largest experimental\nstudy to date on identifying beneficial loss functions for the sentence retrieval component. Our analysis indicates that sampling negative sentences is important for improving the\nperformance and decreasing the computational complexity. Finally, we describe open issues and future challenges, and we motivate future research in the task."
+    },
+    {
+      "document_id": 516,
+      "score": null,
+      "abstract": "Given current levels of misinformation spread, never before have fact-checking frameworks been so critical. Unfortunately, the performance of Automated Fact-checking systems is still poor due\nto the complexity of the task. In , we present an ablation study of a framework submitted to the FEVER 1.0 challenge. Based on our\nfindings, we explore how triple-based information retrieval, coreference resolution, and recent language model representations can impact the performance of each subtask. We show the importance\nof recall and precision in the retrieval of documents and sentences that can be provided to justify the veracity of a given claim. We reach\nstate-of-the-art results in the Document Retrieval task and we show promising results when using coreference resolution to improve the Sentence Retrieval task. © 2021 Owner/Author."
+    },
+    {
+      "document_id": 593,
+      "score": null,
+      "abstract": "The task of temporal slot filling (TSF) is to extract values of specific attributes for a given entity, called “facts”, as well as temporal tags\nof the facts, from text data. While existing work denoted the temporal tags as single time slots, in , we introduce and study the task\nof Precise TSF (PTSF), that is to fill two precise temporal slots including the beginning and ending time points. Based on our observation from a\nnews corpus, most of the facts should have the two points, however, fewer than 0.1% of them have time expressions in the documents. On the\nother hand, the documents’ post time, though often available, is not as precise as the time expressions of being the time a fact was valid.\nTherefore, directly decomposing the time expressions or using an arbitrary post-time period cannot provide accurate results for PTSF. The challenge of PTSF lies in finding\nprecise time tags in noisy and incomplete temporal contexts in the text. To address the challenge, we propose an unsupervised approach based on the philosophy\nof truth finding. The approach has two modules that mutually enhance each other: One is a reliability estimator of fact extractors conditionally on the temporal\ncontexts; the other is a fact trustworthiness estimator based on the extractor’s reliability. Commonsense knowledge (e.g., one country has only one president at a specific\ntime) was automatically generated from data and used for inferring false claims based on trustworthy facts. For the purpose of evaluation, we manually collect hundreds\nof temporal facts from as ground truth, including country’s presidential terms and sport team’s player career history. Experiments on a large news dataset demonstrate the\naccuracy and efficiency of our proposed algorithm. © 2020, Springer-Verlag London Ltd., part of Springer Nature."
+    },
+    {
+      "document_id": 595,
+      "score": null,
+      "abstract": "Increasing concerns about the prevalence of false information and fake news has led to calls for automated fact-checking systems that are capable of verifying the\ntruthfulness of statements, especially on the internet. Most previous automated fact-checking systems have focused on the use of grammar rules only for determining the properties\nof the language used in statements. Here, we demonstrate a novel approach to the fact-checking of natural language text, which uses a combination of all\nthe following techniques: knowledge extraction to establish a knowledge base, logical inference for fact-checking of claims not explicitly mentioned in the text through the verification\nof the consistency of a set of beliefs with established trusted knowledge, and a re-querying approach that enables continuous learning. The approach that is presented\nhere addresses the limitations of existing automated fact-checking systems via this novel procedure. This procedure is as follows: the approach investigates the consistency of presented\nfacts or claims while using probabilistic soft logic and a Knowledge Base, which is continuously updated through continuous learning strategies. We demonstrate this approach by\nfocusing on the task of checking facts about family-tree relationships against a corpus of web resources concerned with the UK Royal Family. © 2020 by\nthe authors."
+    },
+    {
+      "document_id": 681,
+      "score": null,
+      "abstract": "We contribute the largest publicly available dataset of naturally occurring factual claims for the purpose of automatic claim verification. It is collected from 26 fact\nchecking websites in English, paired with textual sources and rich metadata, and labelled for veracity by human expert journalists. We present an in-depth analysis of\nthe dataset, highlighting characteristics and challenges. Further, we present results for automatic veracity prediction, both with established baselines and with a novel method for joint\nranking of evidence pages and predicting veracity that outperforms all baselines. Significant performance increases are achieved by encoding evidence, and by modelling metadata. Our best-performing\nmodel achieves a Macro F1 of 49.2%, showing that this is a challenging testbed for claim veracity prediction. © 2019 Association for Computational Linguistics"
+    },
+    {
+      "document_id": 779,
+      "score": null,
+      "abstract": "In we introduce the task of fact checking, i.e. the assessment of the truthfulness of a claim. The task is commonly performed manually by journalists\nverifying the claims made by public figures. Furthermore, ordinary citizens need to assess the truthfulness of the increasing volume of statements they consume. Thus, developing\nfact checking systems is likely to be of use to various members of society. We first define the task and detail the construction of a\npublicly available dataset using statements fact-checked by journalists available online. Then, we discuss baseline approaches for the task and the challenges that need to be\naddressed. Finally, we discuss how fact checking relates to mainstream natural language processing tasks and can stimulate further research. © 2014 Association for Computational Linguistics"
+    }
+  ]
+}

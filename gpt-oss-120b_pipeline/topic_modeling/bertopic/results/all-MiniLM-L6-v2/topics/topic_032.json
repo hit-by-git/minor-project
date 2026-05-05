@@ -1,0 +1,55 @@
+{
+  "topic_id": 32,
+  "label": "T032",
+  "label_full": "Misinformation & Propaganda",
+  "keywords": [
+    "images",
+    "news",
+    "text",
+    "montages",
+    "microblogs",
+    "verification",
+    "image",
+    "fake",
+    "phase",
+    "google"
+  ],
+  "n_docs": 7,
+  "documents": [
+    {
+      "document_id": 12,
+      "score": null,
+      "abstract": "In the vast digital landscape, combatting the spread of fake news demands innovative solutions. With approximately 64% of users relying on both text and images\nto assess news credibility, this project introduces a robust approach to fake news detection by seamlessly combining textual and visual components. In dealing with the\ntricky issue of fake news, the proposed model combines TF-IDF skills in analyzing text carefully with VGG-19’s talent for handling images well. But it doesn't\nend here this model takes things further, using advanced methods that work better together than each part on its own. Adopting a proactive stance towards\ninformation verification, this model dissects news into its core textual and visual components. The real magic happens in the fusion phase, where TF-IDF and VGG-19\nharmonize their findings, delivering a comprehensive and decisive verdict on the authenticity of the news. Putting this model through rigorous testing means carefully evaluating its\nperformance, with a focus on accuracy as the key metric. The results highlight the model's excellence in detecting fake news, demonstrating its superior performance compared\nto existing models or proposals in navigating the intricate landscape of misinformation. Yet, the main goal goes beyond technological achievements we aim to establish a\nsafer online space where misinformation finds it challenging to spread. It's not just about complex algorithms, it's about building a digital environment where truthfulness triumphs\nover deception, ensuring a more reliable information landscape for everyone. © The Author(s), under exclusive licence to Springer Science+Business Media, LLC, part of Springer Nature\n2025."
+    },
+    {
+      "document_id": 284,
+      "score": null,
+      "abstract": "Fake news on social media platforms has become a pressing issue, undermining the reliability of factual information. Platforms like Twitter, Instagram, and Reddit lack measures\nto recognize falsified information that is circulated via images. The existing state of the art solutions can ascertain the origin of a text string generated\nby a neural language model, they encounter difficulties when it comes to recognizing human-made modifications to news content and detecting instances of fake news conveyed\nthrough images. To address this challenge, we propose a solution that utilizes the Optical Character Recognition (OCR) capabilities of the Google Cloud Vision API to\nextract text from news images. The extracted text is then cross-referenced with the New York Times (NYT) database to verify the authenticity of the news\narticles. Our testing on human-altered, fake, and real news images yielded a 84.54% accuracy in detecting falsified news articles. offers a promising approach to combat\nmisinformation in image-based news content shared on social media platforms, thereby contributing to the preservation of factual information integrity. © 2023 IEEE."
+    },
+    {
+      "document_id": 641,
+      "score": null,
+      "abstract": "Fake news have been a problem for multiple years now and in addition to this \"fake images\" that accompany them are becoming increasingly a problem\ntoo. The aim of such fake images is to back up the fake message itself and make it appear authentic. For this purpose, more and\nmore images such as photo-montages are used, which have been spliced from several images. This can be used to defame people by putting them in\nunfavorable situations or the other way around as propaganda by making them appear more important. In addition, montages may have been altered with noise and\nother manipulations to make an automatic recognition more difficult. In order to take action against such montages and still detect them automated, a concept based\non feature detection is developed. Furthermore, an indexing of the features is carried out by means of a nearest neighbor algorithm in order to be\nable to quickly compare a high number of images. Afterwards, images suspected to be a montage are reviewed by a verifier. This concept is implemented\nand evaluated with two feature detectors. Even montages that have been manipulated with different methods are identified as such in an average of 100 milliseconds\nwith a probability of mostly over 90%."
+    },
+    {
+      "document_id": 662,
+      "score": null,
+      "abstract": "Social media has become a part of our day-to-day life and has become one of the significant sources of information. Most of the information available\non social media is in the form of images. This has given rise to fake news event distribution, which is misinforming the users. Hence, to\ntackle this problem, we propose a model which is concerned with the veracity analysis of information on various social media platforms available in the form\nof images. It involves an algorithm which validates the veracity of image text by exploring it on web and then checking the credibility of the\ntop 15 Google search results by subsequently calculating the reality parameter (Rp), which if exceeds a threshold value, an event is classified as real else\nfake. In order to test the performance of our proposed approach, we compute the recognition accuracy, and the highest accuracy is compared with similar state-of-the-art\nmodels to demonstrate the superior performance of our approach. © 2019 Elsevier B.V."
+    },
+    {
+      "document_id": 693,
+      "score": null,
+      "abstract": "In the last few years, the impact of information spread through online social networks has continuously grown. For this reason, understanding the trustworthiness of news\nhas become one of the most important challenges for an Internet user, especially during crisis events or in political, health and social issues. As part\nof a more comprehensive project for the detection of fake news, proposes a machine learning method to evaluate the trustworthiness of a piece of information\nespecially considering its associated image. In the work described in , the training and test datasets have been first collected from the web, downloading more\nthan 1000 images related to trusted and fake pages. All collected images have been processed using the Google Vision online service for extracting their specific\ninternal details. For each image, various kinds of features have been considered, including its color composition, the recognized objects, the list of sites in which\nit is published, and eventually the contained text. These details have been then used for training a classifier using different algorithms which allowed us to\nreach an accuracy of about 85\\% in hoax identification. Future research will focus on social-network information related to images, to improve the system accuracy and\nacquire more knowledge about various types of news spread online."
+    },
+    {
+      "document_id": 725,
+      "score": null,
+      "abstract": "Microblog has been a popular media platform for reporting and propagating news. However, fake news spreading on microblogs would severely jeopardize its public credibility. To\nidentify the truthfulness of news on microblogs, images are very crucial content. In , we explore the key role of image content in the task\nof automatic news verification on microblogs. Existing approaches to news verification depend on features extracted mainly from the text content of news tweets, while image\nfeatures for news verification are often ignored. According to our study, however, images are very popular and have a great influence on microblogs news propagation.\nIn addition, fake and real news events have different image distribution patterns. Therefore, we propose several visual and statistical features to characterize these patterns visually\nand statistically for detecting fake news. Experiments on a real-world multimedia dataset collected from Sina validate the effectiveness of our proposed image features. The news\nverification performance of our method outperforms baseline methods. To the best of our knowledge, this is the first attempt that systematically explores image features on\nnews verification task. © 2016 IEEE."
+    },
+    {
+      "document_id": 750,
+      "score": null,
+      "abstract": "Consuming news over online media has witnessed rapid growth in recent years, especially with the increasing popularity of social media. However, the ease and speed\nwith which users can access and share information online facilitated the dissemination of false or unverified information. One way of assessing the credibility of online\nnews stories is by examining the attached images. These images could be fake, manipulated or not belonging to the context of the accompanying news story.\nPrevious attempts to news verification provided the user with a set of related images for manual inspection. In , we present a semi-automatic approach to\nassist news-consumers in instantaneously assessing the credibility of information in hypertext news articles by means of meta-data and feature analysis of images in the articles.\nIn the first phase, we use a hybrid approach including image and text clustering techniques for checking the authenticity of an image. In the second\nphase, we use a hierarchical feature analysis technique for checking the alteration in an image, where different sets of features, such as edges and SURF,\nare used. In contrast to recently reported manual news verification, our presented work shows a quantitative measurement on a custom dataset. Results revealed an accuracy\nof 72.7% for checking the authenticity of attached images with a dataset of 55 articles. Finding alterations in images resulted in an accuracy of 88%\nfor a dataset of 50 images. © 2016 IEEE."
+    }
+  ]
+}

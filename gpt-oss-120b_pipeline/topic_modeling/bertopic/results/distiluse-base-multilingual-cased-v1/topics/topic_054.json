@@ -1,0 +1,45 @@
+{
+  "topic_id": 54,
+  "label": "T054",
+  "label_full": "regions, image",
+  "keywords": [
+    "regions",
+    "image",
+    "nonnatural",
+    "lossy",
+    "residual",
+    "forgery",
+    "wcbnet",
+    "manipulation",
+    "feature",
+    "localization"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 137,
+      "score": null,
+      "abstract": "Fake images spread on online social networks can lead to public misconceptions, causing potential harm to politics, economics and social culture. Researching the authenticity of\ndigital images is of great significance. Almost all online social networks perform multiple lossy operations on uploaded images, which will change the forgery traces and\ndegrade the forgery detection performance of existing forensic methods. Therefore, forgery detection for images transmitted on online social networks has become a severe challenge. To\nsolve this problem, we propose a multi-domain probability estimation network (PRest-Net). Specifically, considering that the wavelet coefficient of useful information is larger than that of\nlossy noise, and the image residual processing can highlight the edge texture, we design a multi-domain probability estimation method based on feature coupling and selective\nsearch to mine forgery traces in the spatial, residual, and wavelet domains. As a result, the lossy noise introduced by transmission on online social networks\ncan be suppressed and the most differentiated regional information can be captured. Furthermore, a forgery detector based on low-level and high-level feature learning is proposed\nto adaptively capture rich operation clues and local edge differences between tampered and real areas, achieving fine-grained tampered region prediction. Extensive experiments show that the\nproposed PRest-Net outperforms existing state-of-the-art forgery detectors and is robust to online social network transmission. © 2024 IEEE."
+    },
+    {
+      "document_id": 144,
+      "score": null,
+      "abstract": "Recently, with the emergence of many image editing tools (photoshop, Topaz studio, etc.), the authenticity of images has been severely challenged. However, the performance of\nsome existing traditional feature extraction methods and detection methods based on convolutional neural network () is poor, and the information provided by the features extracted\nfrom the network is limited and single. In , an end-To-end ringed residual U-Net is proposed to detect image splicing forgery by blending features of\nnon-natural regions. Some regions with significant differences from the image background are defined as non-natural regions(such as the irregular border at the splicing of images).\nIn , a feature enhancement module for non-natural regions is constructed, which the image through the pooling of four different scales, and these features are\nthen combined with the original image and input to the backbone network for processing, aiming to highlight regions of the image that differ significantly from\nthe background. Therefore, after adding the feature enhancement module for non-natural regions to the end-To-end ring residual U-Net, more attention will be paid to the\ntampering regions in the feature extraction stage, image manipulation detection and localization will also become more accurate. Compared with some mainstream methods, this method achieves\nbetter performance on the three standard datasets(CASIA2.0, NIST2016, COLUMBIA). In addition, it has excellent robustness under JPEG compression attack and noise corruption attack. © 2024-IOS\nPress. All rights reserved."
+    },
+    {
+      "document_id": 145,
+      "score": null,
+      "abstract": "Image splicing, a prevalent method for image tampering, has significantly undermined image authenticity. Existing methods for Image Splicing Localization (ISL) struggle with challenges like limited\naccuracy and subpar performance when dealing with imperceptible tampering and multiple tampered regions. We introduce an Uncertainty-Guided and Edge-Enhanced Network (UGEE-Net) for ISL to tackle\nthese issues. UGEE-Net consists of two core tasks: uncertainty guidance and edge enhancement. We employ Bayesian learning to model uncertainty maps of tampered regions, directing\nthe model's focus to challenging pixels. Simultaneously, we employ a frequency domain-auxiliary edge enhancement strategy to imbue localization features with global contour information and fine-grained\nlocal details. These mechanisms work in parallel, synergistically boosting performance. Additionally, we introduce a cross-level fusion and propagation mechanism that effectively utilizes contextual information for\ncross-layer feature integration and leverages channel-level correlations for cross-layer feature propagation, gradually enhancing the localization feature's details. Experiment results affirm UGEE-Net's superiority in terms of\ndetection accuracy, robustness, and generalization capabilities. Furthermore, to meet the growing demand for high-quality datasets in image forensics, we present the HTSI12K dataset, which includes\n12,000 spliced images with imperceptible tampering traces and diverse categories, rendering it suitable for real-world auxiliary model training. © 2024 Elsevier Ltd"
+    },
+    {
+      "document_id": 245,
+      "score": null,
+      "abstract": "Image manipulation which can easily generate hard-to-perceive fake information by image editing tools has become a threat of spreading visual mis/disinformation. With the speed and\ngrowth of such visual information presence in social media with respect to the current geopolitical affairs, tools for highly accurate verification of the authenticity of\nimages are vital for AI-based fact checking. presents an efficient convolutional neural network () based approach for image manipulation detection. Our method, called WCBnet, starts\nwith extracting learned features from the signed-value error levels (SEL) of compressed images on hierarchical convolution blocks. This is followed by adaptively concatenating, weighting and\nfusing these multi-level features by considering self-attention over all blocks according to different error levels corresponding to different manipulation types. We evaluate the performance of\nthe proposed approach with respect to common manipulation datasets and compare with the state-of-the-art. WCBnet trained using around 2500 images of CASIA 2.0 dataset, resulted\nin the best F1-score for CASIA 1.0, Defacto, Coverage and Columbia datasets after fine-tuning by a small portion of those datasets. On average WCBnet improves\nthe F1 score with respect to the second-best performing methods by 27.5%, 34.3%, 16.2% and 6.1% for these four datasets, respectively. © 2023 IEEE."
+    },
+    {
+      "document_id": 699,
+      "score": null,
+      "abstract": "With the progress of image manipulation tools and the proliferation of fake news and images posted online on social networks, automatic identification of fake content\nis becoming indispensable. Lossy image compression leaves traces which can be used to recover the history of an image and to help decide about its\nauthenticity. We propose a new JPEG grid detection algorithm. This operation is the first step of many forensic, anti-forensic, and deblocking algorithms. Our analysis is\nbased on the detection of the blocking artifacts and is global and local at the same time. It retrieves the origin of the JPEG grid\nin all image regions and detects suspicious discrepancies. Our work is based on the a-contrario framework which reins in the over-detections caused by multiple testing.\nIt also yields a Number of False Alarms (NFA) which gives extremely secure guarantees for tampering detection. We demonstrate the performance of the proposed method\nwith both quantitative and visual results from well-known image databases. © 2018 IEEE."
+    }
+  ]
+}

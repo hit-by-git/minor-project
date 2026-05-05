@@ -1,0 +1,50 @@
+{
+  "topic_id": 45,
+  "label": "T045",
+  "label_full": "Misinformation & Propaganda",
+  "keywords": [
+    "news",
+    "social",
+    "media",
+    "fake",
+    "online",
+    "sinhala",
+    "political",
+    "articles",
+    "easily",
+    "ieee"
+  ],
+  "n_docs": 6,
+  "documents": [
+    {
+      "document_id": 47,
+      "score": null,
+      "abstract": "In the current years, with the rapid improvement of online social networks, much fake news for numerous commercial and political purposes has appeared and spread\nin the online world. Words can easily infect this online fake news, which has already had a substantial effect on of each fake offline society.\nA key aim in improving the authenticity of information in online social networks is the timely detection of fake news. Fake news is a shape\nof yellow journalism that summarizes clearly false information and is usually disseminated via social and other online media. This is often done to sell or\nimpose a specific idea and is often executed with a political agenda. Such messages can contain false or exaggerated claims and can end up going\nviral by algorithms, putting users in a filter bubble. This advanced Python Fake News Detection project deals with fake news and actual news. This can\nbe done by creating a TF-IDF Vectorizer on the dataset using Sklearn. Next, initialize a Passive-Aggressive classifier and in-shape the version. The accuracy score and\nthe confusion matrix indicate the performance of the model. © 2024 selection and editorial matter, Alex Khang, Pushan Kumar Dutta, Nishu Aayedee, Sachin Gupta, and\nSandeep Chatterjee; individual chapters, the contributors. All rights reserved."
+    },
+    {
+      "document_id": 532,
+      "score": null,
+      "abstract": "With the current trend in extensive use of internet technologies, people are accustomed to a life of being online. Similar phenomena apply for news awareness\nas well where social media has become one of the main sources of information of these tech-savvy people. Even though it gives easy access to\ninformation, there is a problem with the trustworthiness and authenticity of the news posted on social media. As such, fake news detection in social media\nplatforms has become an active research area. Despite that, for the Sinhala language, there are only a few attempts carried out to detect fake news.\nWith this background, this research project has come up with a novel idea of ontology-based fake news detection for news published using Sinhala language. We\nbelieve that content-based fake news identification is the most appropriate method to assess the truthiness of a news article and our system was able to\ngive promising results in detecting fake news. © 2021 IEEE."
+    },
+    {
+      "document_id": 555,
+      "score": null,
+      "abstract": "Social media is increasingly used as a tool for acquiring and disseminating information. However, there are many fake articles and falsehoods. Accordingly, to make good\nuse of social media, it is important to examine the authenticity of an article, but such examination is often difficult for unskilled people. In this\nresearch, we aim to realize a method for to promote experience in identifying fake articles by focusing on the opinion trends of article readers. Here,\nwe describe a framework for this method, including extraction of fake articles and related articles, with a focus on citations. © 2021 IEEE."
+    },
+    {
+      "document_id": 610,
+      "score": null,
+      "abstract": "Social network and online news media are becoming popular in today's era. Due to low cost, easy access and rapid diffusion, social media platform becomes\na source to distribute false information. Fake news propagation on social media can cause serious negative effects on human society especially in politic, reputation and\nfinance. So, automatic fake news detection plays a vital role to robust news media platform on social network. Defining news authenticity is insufficient based on\nnews content only. It also needs to analyze social features of news. In , we propose an approach to detect fake news on social media\nthat covers both news content and social context. We use synonym-based feature extraction method and three different classifiers based on multidimensional dataset. Experimental result shows\nthe effective as an accuracy way to define news authenticity on online news media. © 2020 IEEE."
+    },
+    {
+      "document_id": 656,
+      "score": null,
+      "abstract": "Social media is one of the most revolutionary inventions of the present times. With its own set of advantages and disadvantages it is extremely essential\nfor each one of us. Today Fake News has become a major problem wreaking havoc all over the world. Therefore building an algorithm with the\nbest possible accuracy will be a revelation and it will have a massive impact on the social issues which are prevalent as well as on\nthe current political scenario. Social Media and online news articles serve as a major source of news and for data for people since it can\nbe approached easily, has a subsidized costing and is readily available-just a click away. However, it does have several negative impacts too such as no\ncheck on the source or authenticity and validity of the views being endorsed. Hence, we have proposed a new solution for fake news detection which\nincorporates sentiment as an important feature to improve the accuracy. It also investigates the performance of proposed method using three different data sets. Results show\nthat proposed solution performs well. Moreover, the comparison is also made with other methods under this study. © 2019 IEEE."
+    },
+    {
+      "document_id": 726,
+      "score": null,
+      "abstract": "Fake news proliferation and distrust in news media has become an endemic problem in the American society and has aided in the corruption of civil\npolitical discourse. The formation of a standard and subsequent implementation using automated algorithmic processes will provide unbiased ratings and evaluations of online news media truthfulness\nin the form of easy-to-understand scores. This easily accessible information will aid in the reduction of fake news proliferation and help produce a more informed\nelectorate. © 2017 IEEE."
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "topic_id": 28,
+  "label": "T028",
+  "label_full": "liars, claim",
+  "keywords": [
+    "liars",
+    "claim",
+    "questions",
+    "details",
+    "task",
+    "origin",
+    "statements",
+    "cbca",
+    "cbcascores",
+    "subquestions"
+  ],
+  "n_docs": 8,
+  "documents": [
+    {
+      "document_id": 480,
+      "score": null,
+      "abstract": "Verifying political claims is a challenging task, as politicians can use various tactics to subtly misrepresent the facts for their agenda. Existing automatic fact-checking systems\nfall short here, and their predictions like “half-true” are not very useful in isolation, since it is unclear which parts of a claim are true\nor false. In , we focus on decomposing a complex claim into a comprehensive set of yes-no subquestions whose answers influence the veracity of the\nclaim. We present CLAIMDECOMP, a dataset of decompositions for over 1000 claims. Given a claim and its verification paragraph written by fact-checkers, our trained annotators\nwrite subquestions covering both explicit propositions of the original claim and its implicit facets, such as additional political context that changes our view of the\nclaim's veracity. We study whether state-of-the-art pre-trained models can learn to generate such subquestions. Our experiments show that these models generate reasonable questions, but predicting\nimplied subquestions based only on the claim (without consulting other evidence) remains challenging. Nevertheless, we show that predicted subquestions can help identify relevant evidence to\nfact-check the full claim and derive the veracity through their answers, suggesting that claim decomposition can be a useful piece of a fact-checking pipeline. ©\n2022 Association for Computational Linguistics."
+    },
+    {
+      "document_id": 496,
+      "score": null,
+      "abstract": "We study the fact-checking problem, which aims to identify the veracity of a given claim. Specifically, we focus on the task of Fact Extraction and\nVERification (FEVER) and its accompanied dataset. The task consists of the subtasks of retrieving the relevant documents (and sentences) from and validating whether the information\nin the documents supports or refutes a given claim. This task is essential and can be the building block of applications such as fake news\ndetection and medical claim verification. In this article, we aim at a better understanding of the challenges of the task by presenting the literature in\na structured and comprehensive way. We describe the proposed methods by analyzing the technical perspectives of the different approaches and discussing the performance results on\nthe FEVER dataset, which is the most well-studied and formally structured dataset on the fact extraction and verification task. We also conduct the largest experimental\nstudy to date on identifying beneficial loss functions for the sentence retrieval component. Our analysis indicates that sampling negative sentences is important for improving the\nperformance and decreasing the computational complexity. Finally, we describe open issues and future challenges, and we motivate future research in the task."
+    },
+    {
+      "document_id": 565,
+      "score": null,
+      "abstract": "Practitioners frequently inform us that variable ‘total details' is not suitable for lie detection purposes in real life interviews. Practitioners cannot count the number of\ndetails in real time and the threshold of details required to classify someone as a truth teller or a lie teller is unknown. The authors\nstarted to address these issues by examining three new verbal veracity cues: complications, common knowledge details, and self-handicapping strategies. We present a meta-analysis regarding these\nthree variables and compared the results with ‘total details'. Truth tellers reported more details (d = 0.28 to d = 0.45) and more complications (d\n= 0.51 to d = 0.62) and fewer common knowledge details (d = -0.40 to d = -0.46) and self-handicapping strategies (d = -0.37 to\nd = -0.50) than lie tellers. Complications was the best diagnostic veracity cue. The findings were similar for the initial free recall and the second\nrecall in which only new information was examined. Four moderators (scenario, motivation, modality, and interview technique) did not affect the results. As a conclusion, complications\nin particular appear to be a good veracity indicator but more research is required. We included suggestions for such research. © 2021 Colegio Oficial de\nla Psicología de Madrid. All Rights Reserved."
+    },
+    {
+      "document_id": 583,
+      "score": null,
+      "abstract": "Truthfulness judgments are a fundamental step in the process of fighting misinformation, as they are crucial to train and evaluate classifiers that automatically distinguish true\nand false statements. Usually such judgments are made by experts, like journalists for political statements or medical doctors for medical statements. In , we follow\na different approach and rely on (non-expert) crowd workers. This of course leads to the following research question: Can crowdsourcing be reliably used to assess\nthe truthfulness of information and to create large-scale labeled collections for information credibility systems? To address this issue, we present the results of an extensive\nstudy based on crowdsourcing: we collect thousands of truthfulness assessments over two datasets, and we compare expert judgments with crowd judgments, expressed on scales with\nvarious granularity levels. We also measure the political bias and the cognitive background of the workers, and quantify their effect on the reliability of the\ndata provided by the crowd."
+    },
+    {
+      "document_id": 707,
+      "score": null,
+      "abstract": "The task of fact-checking has been formalised as the assessment of the truthfulness of a claim. Be it a political proclamation or a technological development,\nverification of a new tidbit of information before its propagation to the general public is of utmost importance. Failing to do so leads to the\nspread of misinformation, which is a devious tool. Fact-checking is commonly performed by journalists, manually looking up information pertaining to the statement in question. This\nis a drawn out and tedious process with a chance of the concerned person not covering the domain exhaustively. Some of this effort is reduced\nby the use of knowledge bases created over a period of time. In under Task 2 (Factuality) of the CLEF 2018 CheckThat! Lab, we detail\na neural network based methodology which models the textual data of a claim based on various representations of its words and characters. An affixed attention\nmechanism allows us to encapsulate linguistic features common in false claims. We achieve an accuracy of 39.57% on the task dataset."
+    },
+    {
+      "document_id": 721,
+      "score": null,
+      "abstract": "Establishing the origin of those seeking asylum is essential but difficult as asylum seekers often cannot corroborate their origin claim with documents. The aim of\nthe present study was to assess whether asking knowledge questions, sketch questions and impossible questions are valid methods to determine the veracity of an origin\nclaim. Participants (N = 105) from Tilburg (truth-tellers), Maastricht (partial liars) and Gothenburg (full liars) were asked to convince an interviewer that they originated from\nTilburg. Half of them prepared and half of them did not prepare themselves for the interview. They were asked 10 knowledge questions typically asked to\nassess the credibility of origin claims, 4 impossible questions and 1 sketch question. Participants from Tilburg answered more questions correctly than participants from Maastricht and\nGothenburg. Performance also improved with preparation. Even though the results did provide some support for the validity of assessing claims about origin by asking knowledge\nquestions, the differences between the groups were modest, and it was impossible to correctly identify all truth-tellers and liars. Changing the output modality from verbal\nanswering to sketching contributed to the credibility assessment of origin claims, whereas impossible questions were not discriminatory. © 2017 The Author(s). Published by Informa UK\nLimited, trading as Taylor & Francis Group."
+    },
+    {
+      "document_id": 779,
+      "score": null,
+      "abstract": "In we introduce the task of fact checking, i.e. the assessment of the truthfulness of a claim. The task is commonly performed manually by journalists\nverifying the claims made by public figures. Furthermore, ordinary citizens need to assess the truthfulness of the increasing volume of statements they consume. Thus, developing\nfact checking systems is likely to be of use to various members of society. We first define the task and detail the construction of a\npublicly available dataset using statements fact-checked by journalists available online. Then, we discuss baseline approaches for the task and the challenges that need to be\naddressed. Finally, we discuss how fact checking relates to mainstream natural language processing tasks and can stimulate further research. © 2014 Association for Computational Linguistics"
+    },
+    {
+      "document_id": 810,
+      "score": null,
+      "abstract": "As soon as liars realize that evaluators use CBCA to assess the credibility of their statements, it is possible that liars will gain knowledge of\nCBCA and try to 'improve' their statements in order to make an honest impression on CBCA-judges. The present experiment investigated to what extent liars are\ncapable of doing this. In all, 45 participants were randomly allocated to one of the following three conditions: a truth telling condition in which participants\nwere asked to recall a videotaped event which they had just seen; an uninformed deception condition in which participants who had only been given guidelines\nabout the content of the videotaped event were asked to recall the event as though they had seen the videotape; and an informed deception condition\nin which participants received information about CBCA before they were asked to pretend that they had seen the videotape. CBCA-raters scored the accounts and a\ncomparison was made between the total CBCA-scores of the three conditions. The study also examined the extent to which CBCA-assessments could correctly classify truthful and\ndeceptive accounts, first by means of a discriminant analysis (with the total CBCA-score as dependent variable) and secondly by asking a British CBCA-expert to judge\nthe veracity of the statements. The results indicated that liars are capable of influencing CBCA-assessments. First, the CBCA-scores of liars who were informed about CBCA\nwere similar to the CBCA-scores of truth tellers and significantly higher than the CBCA-scores of liars who were not informed about CBCA. Secondly, the objective\nstatus of the participant (truth teller vs. informed liar) could not be successfully predicted in a discriminant analysis on the basis of total CBCA-scores. Thirdly,\nstatements of the majority of informed liars were assessed as truthful by a British CBCA-expert."
+    }
+  ]
+}

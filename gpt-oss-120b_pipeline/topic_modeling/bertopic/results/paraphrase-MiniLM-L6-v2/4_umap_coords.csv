@@ -1,0 +1,1625 @@
+embedding_model,topic_id,topic_label,document_id,score,x,y,density,color,label,cohesive
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,2,,1.587104,4.705275,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,9,,2.3251672,2.0465143,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,12,,0.88747936,2.832788,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,13,,-3.6000936,7.89235,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,18,,3.1812532,7.42925,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,25,,1.4860061,3.220224,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,26,,0.85912657,2.4256735,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,27,,-3.5147674,8.140608,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,28,,-4.30354,8.275304,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,29,,1.4948239,2.0115964,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,30,,0.7192895,2.8808136,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,33,,0.7704863,2.4182725,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,35,,1.1119443,5.383682,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,41,,1.1006658,5.7057757,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,42,,1.7487988,4.8600116,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,46,,3.09485,7.5451074,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,47,,1.7131058,2.0224552,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,55,,2.3266025,4.99482,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,56,,3.2287138,7.8396406,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,60,,0.86620206,2.2762575,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,66,,2.1851945,6.3073106,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,69,,-4.1664886,8.104604,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,72,,-2.7731276,8.16768,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,76,,2.3884184,5.4181447,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,78,,2.770773,2.835914,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,81,,1.0537719,3.0661082,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,88,,0.725547,2.8785126,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,96,,1.7458514,2.9127102,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,97,,0.85211706,2.1047113,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,98,,1.8062668,5.081981,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,100,,-4.137982,7.473748,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,101,,2.6305983,2.9368465,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,102,,0.76409054,3.4105694,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,105,,1.6559469,3.1813033,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,108,,2.028675,2.5972917,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,112,,0.4894384,2.625615,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,113,,1.9450322,2.4971254,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,115,,0.9443467,2.6464624,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,116,,2.367499,2.3593256,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,119,,0.8522311,2.451189,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,120,,0.7855773,3.3520315,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,121,,0.8936279,2.9503255,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,123,,0.9910953,2.539109,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,124,,0.5982684,2.3039634,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,127,,0.69422805,2.8583283,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,130,,2.0507815,3.5412743,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,134,,1.394555,4.030308,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,135,,0.76072294,2.4613051,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,136,,-3.8668554,7.848873,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,137,,-2.9628255,7.956223,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,138,,-4.49201,8.158689,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,144,,-2.826241,8.441848,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,149,,-4.5248284,8.237964,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,150,,8.201146,2.8148785,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,151,,8.358219,2.9144182,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,152,,-3.414422,8.273109,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,165,,-3.5460215,8.113708,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,167,,-2.3717306,8.18901,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,171,,-3.4983706,8.0932045,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,176,,2.841691,4.8863697,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,178,,1.6170653,6.258062,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,181,,1.6978317,6.7590594,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,186,,4.5089912,3.4694781,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,194,,1.2373611,3.7530565,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,214,,2.2934034,2.091367,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,218,,0.610294,3.4969127,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,220,,1.0155115,3.6947815,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,222,,0.050371412,2.4391308,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,223,,1.4239066,6.921976,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,226,,2.6142464,7.1618843,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,229,,1.6930581,6.530419,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,230,,2.4260478,3.9128916,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,231,,-3.3506625,8.067666,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,237,,1.3267019,2.7149668,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,239,,3.1578653,7.6892,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,240,,2.7583568,2.4861917,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,241,,1.358393,3.4978678,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,242,,2.2692385,7.083476,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,244,,2.559613,7.3157873,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,249,,1.9057437,1.9287835,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,257,,1.7024342,2.5239346,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,263,,2.8684177,2.8225174,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,265,,2.6099117,5.480343,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,271,,0.5127458,3.14197,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,272,,-2.3988762,7.5774574,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,275,,1.4209856,2.6160016,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,279,,1.645322,2.134746,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,281,,3.073738,3.055979,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,286,,2.521722,3.0348997,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,290,,2.7725348,2.969274,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,291,,1.9752406,3.3918412,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,292,,3.1481106,4.2461658,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,308,,2.8340335,3.2461038,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,309,,1.9549654,2.208547,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,312,,1.7626791,2.712697,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,313,,1.2769457,3.9936118,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,315,,2.3674867,2.1871603,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,331,,-4.1072226,8.245656,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,332,,3.1533048,2.998967,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,342,,-3.78479,7.8220153,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,344,,2.9930568,4.104558,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,347,,2.8188825,6.827218,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,352,,2.8447068,4.2952247,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,354,,4.8093863,3.7124875,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,355,,2.3706224,3.3923957,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,356,,2.3424525,6.948437,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,365,,1.1228048,2.7501879,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,368,,2.6166012,6.8927026,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,371,,3.0993204,3.1047962,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,375,,2.694627,2.4952772,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,377,,2.4186635,2.5027733,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,380,,0.5081371,2.655721,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,381,,1.5479163,2.743299,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,382,,1.1700128,3.2435143,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,383,,2.7136087,5.1419387,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,384,,-4.6632843,8.050666,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,390,,3.1411219,2.8331094,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,393,,2.4782727,6.349519,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,394,,2.7154732,7.8538346,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,395,,4.8311977,3.814407,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,396,,3.2942436,7.77782,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,397,,2.596793,7.6322436,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,398,,2.7496414,7.9830747,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,402,,2.576934,3.2053201,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,403,,2.2250924,3.6110713,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,405,,1.0138131,2.973335,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,421,,2.3104258,2.3236377,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,422,,1.1989788,3.3225074,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,423,,2.315951,5.1808915,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,427,,2.6884205,2.7747576,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,434,,0.49141043,3.7111924,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,436,,1.5634972,3.0420663,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,441,,1.7295027,2.2837443,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,442,,4.786263,3.7624555,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,446,,4.2491913,3.355049,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,450,,2.2433228,2.9889452,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,451,,0.9128508,3.6105795,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,455,,1.7833444,2.98798,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,457,,8.3595295,2.9434402,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,459,,-3.5234585,7.7787437,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,463,,-2.4007344,7.3610196,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,466,,2.5416408,3.2522802,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,468,,3.3614128,4.851747,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,475,,0.8230571,7.131996,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,476,,2.9486182,3.9430842,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,477,,0.4850096,2.4286256,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,478,,1.9076825,6.1501327,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,480,,2.5837753,7.628463,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,481,,2.5403836,7.62849,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,482,,0.7501439,4.375014,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,483,,2.9420414,5.1548653,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,484,,1.7654916,6.247347,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,485,,3.1208541,4.447827,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,486,,2.033137,6.3056645,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,487,,2.88116,2.915503,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,490,,1.942061,6.69471,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,491,,3.134361,7.861321,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,492,,2.5667024,7.7578955,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,494,,3.2021968,4.641334,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,495,,3.1510792,7.1808295,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,501,,1.6361651,2.504645,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,502,,3.3324683,3.8442206,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,504,,1.5807592,4.0984483,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,506,,2.5693111,7.217097,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,515,,2.813017,7.942169,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,517,,2.1796029,3.6876082,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,520,,2.5654306,2.3395283,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,523,,-2.4649255,7.8487415,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,526,,1.9027514,3.602306,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,527,,1.3871994,2.9793522,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,532,,2.8201096,2.29007,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,533,,3.1487663,2.631975,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,534,,2.9964602,2.4644773,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,535,,0.9808547,3.7712889,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,536,,1.0175374,3.5504043,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,541,,2.735028,3.3262322,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,542,,4.588116,3.590062,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,543,,1.5837953,2.4709709,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,544,,2.6523619,3.279318,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,548,,1.6548749,2.9175994,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,549,,2.4834456,3.2338238,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,551,,1.0774859,3.1432374,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,553,,3.3923113,4.232671,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,555,,2.32917,2.456672,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,557,,8.37017,3.075525,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,559,,8.25382,2.9065228,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,561,,-4.2860274,7.8366914,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,562,,2.871234,6.2908416,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,563,,1.4944009,5.5724335,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,566,,2.8514543,8.001023,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,567,,1.075126,5.174595,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,571,,1.3150934,2.8382707,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,572,,2.7824166,3.0124645,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,573,,2.2122438,2.6369977,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,577,,-4.1734147,8.149936,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,578,,2.7700891,4.4420385,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,582,,4.841312,3.5684295,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,584,,2.0047286,5.256226,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,587,,3.413674,3.7190413,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,588,,1.028518,2.2382247,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,597,,0.7098697,2.6112618,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,601,,-2.1872792,7.758403,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,602,,-2.1003962,7.9529376,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,604,,3.560822,4.5410624,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,605,,2.279538,2.435434,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,606,,2.5626593,2.4584723,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,609,,1.8980589,2.0867941,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,611,,1.3053752,3.0191321,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,614,,4.405655,3.795618,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,616,,2.3431005,3.9664607,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,619,,2.3420224,4.432571,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,623,,2.4790356,3.3129535,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,627,,2.4304554,4.4722013,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,628,,2.9539769,3.1036515,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,629,,-4.4209247,7.858281,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,631,,3.0031664,4.827441,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,633,,4.9174013,3.4341283,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,635,,2.4986465,7.331887,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,643,,1.4467893,2.6392567,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,644,,2.6461494,3.3453288,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,649,,1.5310405,4.422424,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,651,,0.3180051,2.186204,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,652,,3.1445405,2.4561274,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,653,,1.2445234,3.3438015,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,654,,2.1855183,5.566549,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,656,,3.2462614,2.469196,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,659,,2.1063535,2.1450636,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,660,,2.9628925,3.3439758,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,663,,-2.0718277,7.5550575,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,666,,3.3603044,4.377085,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,667,,2.0315394,5.854818,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,672,,3.629714,4.050168,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,677,,3.9445238,4.732031,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,678,,4.1506248,3.8669045,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,679,,2.3877118,2.465372,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,681,,2.810464,7.538977,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,688,,2.4434652,5.4404488,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,691,,3.1044605,7.199824,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,693,,2.722463,4.6791143,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,694,,2.4389217,4.6170034,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,696,,3.1758175,7.8981514,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,698,,4.263566,4.166987,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,705,,3.29455,7.339178,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,708,,2.6483712,7.018671,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,711,,1.2598367,6.085463,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,715,,3.3213303,6.288925,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,716,,2.9439402,7.3381205,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,717,,8.107562,2.889564,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,722,,2.6320107,5.4183507,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,724,,3.6062315,4.0233974,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,725,,3.439876,4.096326,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,731,,3.6766021,4.3518786,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,733,,3.2370546,4.74469,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,734,,3.1472685,4.802686,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,735,,2.548462,4.454494,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,736,,2.740224,2.5454948,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,737,,4.329243,3.9456737,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,738,,2.6017385,3.550796,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,741,,3.1638823,3.1808589,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,748,,-2.5578704,8.177755,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,749,,1.4204522,2.3569615,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,750,,2.9782794,4.1146393,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,752,,0.8418676,7.174959,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,754,,3.032383,3.4553323,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,759,,3.4436636,3.8138192,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,760,,8.332202,2.9045393,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,761,,3.4336505,6.0373626,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,762,,3.1870558,3.3073611,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,763,,2.786335,4.748786,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,767,,8.368563,2.93844,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,768,,2.7182024,4.1404667,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,770,,1.9699827,4.3581433,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,774,,2.4153016,5.3406296,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,775,,3.8776288,3.9183054,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,777,,3.858662,4.3815045,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,783,,-2.3223622,7.9103107,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,784,,2.54463,5.978804,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,787,,-2.1983256,8.526734,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,795,,3.7960227,4.09465,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,796,,2.859153,4.893077,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,797,,3.1778421,4.8812904,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,799,,-2.9273162,8.522936,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,800,,-2.872218,8.6343155,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,801,,-2.8638015,8.562322,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,803,,3.039513,4.9240665,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,806,,2.972292,5.0752025,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,807,,2.7995446,5.273291,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,-1,Misinformation & Propaganda,811,,1.6194112,5.378999,3.6031806468963623,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T-1
+3.60",False
+paraphrase-MiniLM-L6-v2,0,"health, medical",40,,3.4843209,4.567126,0.7286062240600586,"(np.float64(0.6823529411764706), np.float64(0.7803921568627451), np.float64(0.9098039215686274), np.float64(1.0))","T0
+0.73",False
+paraphrase-MiniLM-L6-v2,0,"health, medical",74,,1.806479,6.6448812,0.7286062240600586,"(np.float64(0.6823529411764706), np.float64(0.7803921568627451), np.float64(0.9098039215686274), np.float64(1.0))","T0
+0.73",False
+paraphrase-MiniLM-L6-v2,0,"health, medical",82,,2.0173635,6.230706,0.7286062240600586,"(np.float64(0.6823529411764706), np.float64(0.7803921568627451), np.float64(0.9098039215686274), np.float64(1.0))","T0
+0.73",False
+paraphrase-MiniLM-L6-v2,0,"health, medical",179,,2.7172008,5.6548486,0.7286062240600586,"(np.float64(0.6823529411764706), np.float64(0.7803921568627451), np.float64(0.9098039215686274), np.float64(1.0))","T0
+0.73",False
+paraphrase-MiniLM-L6-v2,0,"health, medical",180,,2.5899632,5.868979,0.7286062240600586,"(np.float64(0.6823529411764706), np.float64(0.7803921568627451), np.float64(0.9098039215686274), np.float64(1.0))","T0
+0.73",False
+paraphrase-MiniLM-L6-v2,0,"health, medical",196,,2.713248,6.1215014,0.7286062240600586,"(np.float64(0.6823529411764706), np.float64(0.7803921568627451), np.float64(0.9098039215686274), np.float64(1.0))","T0
+0.73",False
+paraphrase-MiniLM-L6-v2,0,"health, medical",203,,2.4200943,6.779068,0.7286062240600586,"(np.float64(0.6823529411764706), np.float64(0.7803921568627451), np.float64(0.9098039215686274), np.float64(1.0))","T0
+0.73",False
+paraphrase-MiniLM-L6-v2,0,"health, medical",235,,2.3043973,6.037506,0.7286062240600586,"(np.float64(0.6823529411764706), np.float64(0.7803921568627451), np.float64(0.9098039215686274), np.float64(1.0))","T0
+0.73",False
+paraphrase-MiniLM-L6-v2,0,"health, medical",387,,1.810441,5.859754,0.7286062240600586,"(np.float64(0.6823529411764706), np.float64(0.7803921568627451), np.float64(0.9098039215686274), np.float64(1.0))","T0
+0.73",False
+paraphrase-MiniLM-L6-v2,0,"health, medical",493,,2.17099,6.294464,0.7286062240600586,"(np.float64(0.6823529411764706), np.float64(0.7803921568627451), np.float64(0.9098039215686274), np.float64(1.0))","T0
+0.73",False
+paraphrase-MiniLM-L6-v2,0,"health, medical",508,,1.699915,5.7103686,0.7286062240600586,"(np.float64(0.6823529411764706), np.float64(0.7803921568627451), np.float64(0.9098039215686274), np.float64(1.0))","T0
+0.73",False
+paraphrase-MiniLM-L6-v2,0,"health, medical",547,,2.6125264,6.2340007,0.7286062240600586,"(np.float64(0.6823529411764706), np.float64(0.7803921568627451), np.float64(0.9098039215686274), np.float64(1.0))","T0
+0.73",False
+paraphrase-MiniLM-L6-v2,0,"health, medical",591,,2.6248143,5.8918734,0.7286062240600586,"(np.float64(0.6823529411764706), np.float64(0.7803921568627451), np.float64(0.9098039215686274), np.float64(1.0))","T0
+0.73",False
+paraphrase-MiniLM-L6-v2,0,"health, medical",592,,1.9940842,6.1034584,0.7286062240600586,"(np.float64(0.6823529411764706), np.float64(0.7803921568627451), np.float64(0.9098039215686274), np.float64(1.0))","T0
+0.73",False
+paraphrase-MiniLM-L6-v2,0,"health, medical",655,,1.7022096,6.3686256,0.7286062240600586,"(np.float64(0.6823529411764706), np.float64(0.7803921568627451), np.float64(0.9098039215686274), np.float64(1.0))","T0
+0.73",False
+paraphrase-MiniLM-L6-v2,0,"health, medical",673,,2.3515644,6.1881256,0.7286062240600586,"(np.float64(0.6823529411764706), np.float64(0.7803921568627451), np.float64(0.9098039215686274), np.float64(1.0))","T0
+0.73",False
+paraphrase-MiniLM-L6-v2,0,"health, medical",697,,2.6654987,5.937949,0.7286062240600586,"(np.float64(0.6823529411764706), np.float64(0.7803921568627451), np.float64(0.9098039215686274), np.float64(1.0))","T0
+0.73",False
+paraphrase-MiniLM-L6-v2,0,"health, medical",776,,2.71896,5.8209443,0.7286062240600586,"(np.float64(0.6823529411764706), np.float64(0.7803921568627451), np.float64(0.9098039215686274), np.float64(1.0))","T0
+0.73",False
+paraphrase-MiniLM-L6-v2,0,"health, medical",782,,2.0420885,6.3174763,0.7286062240600586,"(np.float64(0.6823529411764706), np.float64(0.7803921568627451), np.float64(0.9098039215686274), np.float64(1.0))","T0
+0.73",False
+paraphrase-MiniLM-L6-v2,0,"health, medical",785,,2.7996962,5.9048896,0.7286062240600586,"(np.float64(0.6823529411764706), np.float64(0.7803921568627451), np.float64(0.9098039215686274), np.float64(1.0))","T0
+0.73",False
+paraphrase-MiniLM-L6-v2,0,"health, medical",790,,2.744478,5.8379626,0.7286062240600586,"(np.float64(0.6823529411764706), np.float64(0.7803921568627451), np.float64(0.9098039215686274), np.float64(1.0))","T0
+0.73",False
+paraphrase-MiniLM-L6-v2,0,"health, medical",792,,3.0367403,5.94737,0.7286062240600586,"(np.float64(0.6823529411764706), np.float64(0.7803921568627451), np.float64(0.9098039215686274), np.float64(1.0))","T0
+0.73",False
+paraphrase-MiniLM-L6-v2,0,"health, medical",808,,2.7342489,5.847057,0.7286062240600586,"(np.float64(0.6823529411764706), np.float64(0.7803921568627451), np.float64(0.9098039215686274), np.float64(1.0))","T0
+0.73",False
+paraphrase-MiniLM-L6-v2,1,Misinformation & Propaganda,6,,1.9852144,5.849401,0.5441499948501587,"(np.float64(1.0), np.float64(0.4980392156862745), np.float64(0.054901960784313725), np.float64(1.0))","T1
+0.54",True
+paraphrase-MiniLM-L6-v2,1,Misinformation & Propaganda,22,,1.1048328,5.925066,0.5441499948501587,"(np.float64(1.0), np.float64(0.4980392156862745), np.float64(0.054901960784313725), np.float64(1.0))","T1
+0.54",True
+paraphrase-MiniLM-L6-v2,1,Misinformation & Propaganda,45,,1.5819863,5.883843,0.5441499948501587,"(np.float64(1.0), np.float64(0.4980392156862745), np.float64(0.054901960784313725), np.float64(1.0))","T1
+0.54",True
+paraphrase-MiniLM-L6-v2,1,Misinformation & Propaganda,49,,1.1000075,5.942126,0.5441499948501587,"(np.float64(1.0), np.float64(0.4980392156862745), np.float64(0.054901960784313725), np.float64(1.0))","T1
+0.54",True
+paraphrase-MiniLM-L6-v2,1,Misinformation & Propaganda,61,,1.9746315,5.9758267,0.5441499948501587,"(np.float64(1.0), np.float64(0.4980392156862745), np.float64(0.054901960784313725), np.float64(1.0))","T1
+0.54",True
+paraphrase-MiniLM-L6-v2,1,Misinformation & Propaganda,75,,1.0173253,5.7912908,0.5441499948501587,"(np.float64(1.0), np.float64(0.4980392156862745), np.float64(0.054901960784313725), np.float64(1.0))","T1
+0.54",True
+paraphrase-MiniLM-L6-v2,1,Misinformation & Propaganda,83,,1.7366254,5.9241576,0.5441499948501587,"(np.float64(1.0), np.float64(0.4980392156862745), np.float64(0.054901960784313725), np.float64(1.0))","T1
+0.54",True
+paraphrase-MiniLM-L6-v2,1,Misinformation & Propaganda,170,,2.1693118,5.761952,0.5441499948501587,"(np.float64(1.0), np.float64(0.4980392156862745), np.float64(0.054901960784313725), np.float64(1.0))","T1
+0.54",True
+paraphrase-MiniLM-L6-v2,1,Misinformation & Propaganda,255,,1.733277,6.2206783,0.5441499948501587,"(np.float64(1.0), np.float64(0.4980392156862745), np.float64(0.054901960784313725), np.float64(1.0))","T1
+0.54",True
+paraphrase-MiniLM-L6-v2,1,Misinformation & Propaganda,262,,1.0511074,5.946058,0.5441499948501587,"(np.float64(1.0), np.float64(0.4980392156862745), np.float64(0.054901960784313725), np.float64(1.0))","T1
+0.54",True
+paraphrase-MiniLM-L6-v2,1,Misinformation & Propaganda,268,,1.0648283,5.99628,0.5441499948501587,"(np.float64(1.0), np.float64(0.4980392156862745), np.float64(0.054901960784313725), np.float64(1.0))","T1
+0.54",True
+paraphrase-MiniLM-L6-v2,1,Misinformation & Propaganda,359,,1.0647165,5.951285,0.5441499948501587,"(np.float64(1.0), np.float64(0.4980392156862745), np.float64(0.054901960784313725), np.float64(1.0))","T1
+0.54",True
+paraphrase-MiniLM-L6-v2,1,Misinformation & Propaganda,372,,1.0661542,5.957478,0.5441499948501587,"(np.float64(1.0), np.float64(0.4980392156862745), np.float64(0.054901960784313725), np.float64(1.0))","T1
+0.54",True
+paraphrase-MiniLM-L6-v2,1,Misinformation & Propaganda,386,,1.9839116,5.7971506,0.5441499948501587,"(np.float64(1.0), np.float64(0.4980392156862745), np.float64(0.054901960784313725), np.float64(1.0))","T1
+0.54",True
+paraphrase-MiniLM-L6-v2,1,Misinformation & Propaganda,388,,1.050481,5.8184147,0.5441499948501587,"(np.float64(1.0), np.float64(0.4980392156862745), np.float64(0.054901960784313725), np.float64(1.0))","T1
+0.54",True
+paraphrase-MiniLM-L6-v2,1,Misinformation & Propaganda,401,,2.1083384,6.001922,0.5441499948501587,"(np.float64(1.0), np.float64(0.4980392156862745), np.float64(0.054901960784313725), np.float64(1.0))","T1
+0.54",True
+paraphrase-MiniLM-L6-v2,1,Misinformation & Propaganda,537,,0.98671794,5.930484,0.5441499948501587,"(np.float64(1.0), np.float64(0.4980392156862745), np.float64(0.054901960784313725), np.float64(1.0))","T1
+0.54",True
+paraphrase-MiniLM-L6-v2,1,Misinformation & Propaganda,579,,1.3167683,6.020955,0.5441499948501587,"(np.float64(1.0), np.float64(0.4980392156862745), np.float64(0.054901960784313725), np.float64(1.0))","T1
+0.54",True
+paraphrase-MiniLM-L6-v2,1,Misinformation & Propaganda,583,,0.9986449,5.9735403,0.5441499948501587,"(np.float64(1.0), np.float64(0.4980392156862745), np.float64(0.054901960784313725), np.float64(1.0))","T1
+0.54",True
+paraphrase-MiniLM-L6-v2,1,Misinformation & Propaganda,675,,1.5627375,6.0736995,0.5441499948501587,"(np.float64(1.0), np.float64(0.4980392156862745), np.float64(0.054901960784313725), np.float64(1.0))","T1
+0.54",True
+paraphrase-MiniLM-L6-v2,1,Misinformation & Propaganda,798,,2.132087,5.8805213,0.5441499948501587,"(np.float64(1.0), np.float64(0.4980392156862745), np.float64(0.054901960784313725), np.float64(1.0))","T1
+0.54",True
+paraphrase-MiniLM-L6-v2,2,Misinformation & Propaganda,131,,0.2395284,4.8184805,0.4586002230644226,"(np.float64(1.0), np.float64(0.7333333333333333), np.float64(0.47058823529411764), np.float64(1.0))","T2
+0.46",True
+paraphrase-MiniLM-L6-v2,2,Misinformation & Propaganda,168,,0.4477221,4.883213,0.4586002230644226,"(np.float64(1.0), np.float64(0.7333333333333333), np.float64(0.47058823529411764), np.float64(1.0))","T2
+0.46",True
+paraphrase-MiniLM-L6-v2,2,Misinformation & Propaganda,254,,0.43000612,4.7289963,0.4586002230644226,"(np.float64(1.0), np.float64(0.7333333333333333), np.float64(0.47058823529411764), np.float64(1.0))","T2
+0.46",True
+paraphrase-MiniLM-L6-v2,2,Misinformation & Propaganda,280,,0.37169185,4.5896235,0.4586002230644226,"(np.float64(1.0), np.float64(0.7333333333333333), np.float64(0.47058823529411764), np.float64(1.0))","T2
+0.46",True
+paraphrase-MiniLM-L6-v2,2,Misinformation & Propaganda,358,,0.7139802,4.5246415,0.4586002230644226,"(np.float64(1.0), np.float64(0.7333333333333333), np.float64(0.47058823529411764), np.float64(1.0))","T2
+0.46",True
+paraphrase-MiniLM-L6-v2,2,Misinformation & Propaganda,389,,0.15116364,4.7594085,0.4586002230644226,"(np.float64(1.0), np.float64(0.7333333333333333), np.float64(0.47058823529411764), np.float64(1.0))","T2
+0.46",True
+paraphrase-MiniLM-L6-v2,2,Misinformation & Propaganda,392,,0.5720621,4.473705,0.4586002230644226,"(np.float64(1.0), np.float64(0.7333333333333333), np.float64(0.47058823529411764), np.float64(1.0))","T2
+0.46",True
+paraphrase-MiniLM-L6-v2,2,Misinformation & Propaganda,404,,0.3409675,4.6361265,0.4586002230644226,"(np.float64(1.0), np.float64(0.7333333333333333), np.float64(0.47058823529411764), np.float64(1.0))","T2
+0.46",True
+paraphrase-MiniLM-L6-v2,2,Misinformation & Propaganda,410,,1.9941401,6.5927734,0.4586002230644226,"(np.float64(1.0), np.float64(0.7333333333333333), np.float64(0.47058823529411764), np.float64(1.0))","T2
+0.46",True
+paraphrase-MiniLM-L6-v2,2,Misinformation & Propaganda,413,,0.28353503,4.6953073,0.4586002230644226,"(np.float64(1.0), np.float64(0.7333333333333333), np.float64(0.47058823529411764), np.float64(1.0))","T2
+0.46",True
+paraphrase-MiniLM-L6-v2,2,Misinformation & Propaganda,431,,0.20849659,4.718717,0.4586002230644226,"(np.float64(1.0), np.float64(0.7333333333333333), np.float64(0.47058823529411764), np.float64(1.0))","T2
+0.46",True
+paraphrase-MiniLM-L6-v2,2,Misinformation & Propaganda,444,,0.25759193,4.6346197,0.4586002230644226,"(np.float64(1.0), np.float64(0.7333333333333333), np.float64(0.47058823529411764), np.float64(1.0))","T2
+0.46",True
+paraphrase-MiniLM-L6-v2,2,Misinformation & Propaganda,448,,0.18230753,4.678929,0.4586002230644226,"(np.float64(1.0), np.float64(0.7333333333333333), np.float64(0.47058823529411764), np.float64(1.0))","T2
+0.46",True
+paraphrase-MiniLM-L6-v2,2,Misinformation & Propaganda,449,,0.3187647,4.8057604,0.4586002230644226,"(np.float64(1.0), np.float64(0.7333333333333333), np.float64(0.47058823529411764), np.float64(1.0))","T2
+0.46",True
+paraphrase-MiniLM-L6-v2,2,Misinformation & Propaganda,454,,0.5016867,4.9771285,0.4586002230644226,"(np.float64(1.0), np.float64(0.7333333333333333), np.float64(0.47058823529411764), np.float64(1.0))","T2
+0.46",True
+paraphrase-MiniLM-L6-v2,2,Misinformation & Propaganda,467,,0.23929627,4.694886,0.4586002230644226,"(np.float64(1.0), np.float64(0.7333333333333333), np.float64(0.47058823529411764), np.float64(1.0))","T2
+0.46",True
+paraphrase-MiniLM-L6-v2,2,Misinformation & Propaganda,474,,0.41327423,4.936473,0.4586002230644226,"(np.float64(1.0), np.float64(0.7333333333333333), np.float64(0.47058823529411764), np.float64(1.0))","T2
+0.46",True
+paraphrase-MiniLM-L6-v2,2,Misinformation & Propaganda,499,,0.21495062,4.566612,0.4586002230644226,"(np.float64(1.0), np.float64(0.7333333333333333), np.float64(0.47058823529411764), np.float64(1.0))","T2
+0.46",True
+paraphrase-MiniLM-L6-v2,2,Misinformation & Propaganda,509,,0.1940514,4.7476754,0.4586002230644226,"(np.float64(1.0), np.float64(0.7333333333333333), np.float64(0.47058823529411764), np.float64(1.0))","T2
+0.46",True
+paraphrase-MiniLM-L6-v2,2,Misinformation & Propaganda,538,,0.15485984,4.7277718,0.4586002230644226,"(np.float64(1.0), np.float64(0.7333333333333333), np.float64(0.47058823529411764), np.float64(1.0))","T2
+0.46",True
+paraphrase-MiniLM-L6-v2,2,Misinformation & Propaganda,540,,0.1724202,4.7322593,0.4586002230644226,"(np.float64(1.0), np.float64(0.7333333333333333), np.float64(0.47058823529411764), np.float64(1.0))","T2
+0.46",True
+paraphrase-MiniLM-L6-v2,3,Credibility Assessment,15,,3.432684,5.3200717,0.35141485929489136,"(np.float64(0.17254901960784313), np.float64(0.6274509803921569), np.float64(0.17254901960784313), np.float64(1.0))","T3
+0.35",True
+paraphrase-MiniLM-L6-v2,3,Credibility Assessment,44,,3.170568,5.3157425,0.35141485929489136,"(np.float64(0.17254901960784313), np.float64(0.6274509803921569), np.float64(0.17254901960784313), np.float64(1.0))","T3
+0.35",True
+paraphrase-MiniLM-L6-v2,3,Credibility Assessment,114,,3.1936986,5.4379325,0.35141485929489136,"(np.float64(0.17254901960784313), np.float64(0.6274509803921569), np.float64(0.17254901960784313), np.float64(1.0))","T3
+0.35",True
+paraphrase-MiniLM-L6-v2,3,Credibility Assessment,173,,3.4775767,5.066421,0.35141485929489136,"(np.float64(0.17254901960784313), np.float64(0.6274509803921569), np.float64(0.17254901960784313), np.float64(1.0))","T3
+0.35",True
+paraphrase-MiniLM-L6-v2,3,Credibility Assessment,252,,3.2844217,5.47078,0.35141485929489136,"(np.float64(0.17254901960784313), np.float64(0.6274509803921569), np.float64(0.17254901960784313), np.float64(1.0))","T3
+0.35",True
+paraphrase-MiniLM-L6-v2,3,Credibility Assessment,364,,3.0564122,5.5912256,0.35141485929489136,"(np.float64(0.17254901960784313), np.float64(0.6274509803921569), np.float64(0.17254901960784313), np.float64(1.0))","T3
+0.35",True
+paraphrase-MiniLM-L6-v2,3,Credibility Assessment,503,,3.4907506,5.5136895,0.35141485929489136,"(np.float64(0.17254901960784313), np.float64(0.6274509803921569), np.float64(0.17254901960784313), np.float64(1.0))","T3
+0.35",True
+paraphrase-MiniLM-L6-v2,3,Credibility Assessment,564,,3.4397435,5.1270657,0.35141485929489136,"(np.float64(0.17254901960784313), np.float64(0.6274509803921569), np.float64(0.17254901960784313), np.float64(1.0))","T3
+0.35",True
+paraphrase-MiniLM-L6-v2,3,Credibility Assessment,645,,3.363283,5.122177,0.35141485929489136,"(np.float64(0.17254901960784313), np.float64(0.6274509803921569), np.float64(0.17254901960784313), np.float64(1.0))","T3
+0.35",True
+paraphrase-MiniLM-L6-v2,3,Credibility Assessment,668,,3.4987836,5.4067593,0.35141485929489136,"(np.float64(0.17254901960784313), np.float64(0.6274509803921569), np.float64(0.17254901960784313), np.float64(1.0))","T3
+0.35",True
+paraphrase-MiniLM-L6-v2,3,Credibility Assessment,670,,3.4238157,5.788346,0.35141485929489136,"(np.float64(0.17254901960784313), np.float64(0.6274509803921569), np.float64(0.17254901960784313), np.float64(1.0))","T3
+0.35",True
+paraphrase-MiniLM-L6-v2,3,Credibility Assessment,674,,3.5727158,5.1386356,0.35141485929489136,"(np.float64(0.17254901960784313), np.float64(0.6274509803921569), np.float64(0.17254901960784313), np.float64(1.0))","T3
+0.35",True
+paraphrase-MiniLM-L6-v2,3,Credibility Assessment,712,,3.3832986,5.250367,0.35141485929489136,"(np.float64(0.17254901960784313), np.float64(0.6274509803921569), np.float64(0.17254901960784313), np.float64(1.0))","T3
+0.35",True
+paraphrase-MiniLM-L6-v2,3,Credibility Assessment,769,,3.6398873,5.345565,0.35141485929489136,"(np.float64(0.17254901960784313), np.float64(0.6274509803921569), np.float64(0.17254901960784313), np.float64(1.0))","T3
+0.35",True
+paraphrase-MiniLM-L6-v2,3,Credibility Assessment,780,,3.4449282,5.8354206,0.35141485929489136,"(np.float64(0.17254901960784313), np.float64(0.6274509803921569), np.float64(0.17254901960784313), np.float64(1.0))","T3
+0.35",True
+paraphrase-MiniLM-L6-v2,3,Credibility Assessment,794,,3.574135,5.717999,0.35141485929489136,"(np.float64(0.17254901960784313), np.float64(0.6274509803921569), np.float64(0.17254901960784313), np.float64(1.0))","T3
+0.35",True
+paraphrase-MiniLM-L6-v2,3,Credibility Assessment,802,,3.389892,5.225941,0.35141485929489136,"(np.float64(0.17254901960784313), np.float64(0.6274509803921569), np.float64(0.17254901960784313), np.float64(1.0))","T3
+0.35",True
+paraphrase-MiniLM-L6-v2,3,Credibility Assessment,804,,3.4268117,5.4035225,0.35141485929489136,"(np.float64(0.17254901960784313), np.float64(0.6274509803921569), np.float64(0.17254901960784313), np.float64(1.0))","T3
+0.35",True
+paraphrase-MiniLM-L6-v2,3,Credibility Assessment,805,,3.3049157,5.706564,0.35141485929489136,"(np.float64(0.17254901960784313), np.float64(0.6274509803921569), np.float64(0.17254901960784313), np.float64(1.0))","T3
+0.35",True
+paraphrase-MiniLM-L6-v2,4,Misinformation & Propaganda,52,,1.6915698,5.10258,0.566640317440033,"(np.float64(0.596078431372549), np.float64(0.8745098039215686), np.float64(0.5411764705882353), np.float64(1.0))","T4
+0.57",False
+paraphrase-MiniLM-L6-v2,4,Misinformation & Propaganda,103,,1.3212935,5.2792063,0.566640317440033,"(np.float64(0.596078431372549), np.float64(0.8745098039215686), np.float64(0.5411764705882353), np.float64(1.0))","T4
+0.57",False
+paraphrase-MiniLM-L6-v2,4,Misinformation & Propaganda,104,,1.2701514,4.8956966,0.566640317440033,"(np.float64(0.596078431372549), np.float64(0.8745098039215686), np.float64(0.5411764705882353), np.float64(1.0))","T4
+0.57",False
+paraphrase-MiniLM-L6-v2,4,Misinformation & Propaganda,166,,1.6058911,5.1881456,0.566640317440033,"(np.float64(0.596078431372549), np.float64(0.8745098039215686), np.float64(0.5411764705882353), np.float64(1.0))","T4
+0.57",False
+paraphrase-MiniLM-L6-v2,4,Misinformation & Propaganda,189,,2.0564945,6.2433004,0.566640317440033,"(np.float64(0.596078431372549), np.float64(0.8745098039215686), np.float64(0.5411764705882353), np.float64(1.0))","T4
+0.57",False
+paraphrase-MiniLM-L6-v2,4,Misinformation & Propaganda,208,,1.6893275,5.4586444,0.566640317440033,"(np.float64(0.596078431372549), np.float64(0.8745098039215686), np.float64(0.5411764705882353), np.float64(1.0))","T4
+0.57",False
+paraphrase-MiniLM-L6-v2,4,Misinformation & Propaganda,210,,1.4605783,5.227359,0.566640317440033,"(np.float64(0.596078431372549), np.float64(0.8745098039215686), np.float64(0.5411764705882353), np.float64(1.0))","T4
+0.57",False
+paraphrase-MiniLM-L6-v2,4,Misinformation & Propaganda,221,,1.5798177,5.836201,0.566640317440033,"(np.float64(0.596078431372549), np.float64(0.8745098039215686), np.float64(0.5411764705882353), np.float64(1.0))","T4
+0.57",False
+paraphrase-MiniLM-L6-v2,4,Misinformation & Propaganda,228,,1.2181982,5.2064476,0.566640317440033,"(np.float64(0.596078431372549), np.float64(0.8745098039215686), np.float64(0.5411764705882353), np.float64(1.0))","T4
+0.57",False
+paraphrase-MiniLM-L6-v2,4,Misinformation & Propaganda,234,,1.6505871,5.101891,0.566640317440033,"(np.float64(0.596078431372549), np.float64(0.8745098039215686), np.float64(0.5411764705882353), np.float64(1.0))","T4
+0.57",False
+paraphrase-MiniLM-L6-v2,4,Misinformation & Propaganda,349,,1.3832335,5.428366,0.566640317440033,"(np.float64(0.596078431372549), np.float64(0.8745098039215686), np.float64(0.5411764705882353), np.float64(1.0))","T4
+0.57",False
+paraphrase-MiniLM-L6-v2,4,Misinformation & Propaganda,350,,1.6843684,5.1956706,0.566640317440033,"(np.float64(0.596078431372549), np.float64(0.8745098039215686), np.float64(0.5411764705882353), np.float64(1.0))","T4
+0.57",False
+paraphrase-MiniLM-L6-v2,4,Misinformation & Propaganda,369,,1.3811408,4.904303,0.566640317440033,"(np.float64(0.596078431372549), np.float64(0.8745098039215686), np.float64(0.5411764705882353), np.float64(1.0))","T4
+0.57",False
+paraphrase-MiniLM-L6-v2,4,Misinformation & Propaganda,415,,1.4577992,4.543613,0.566640317440033,"(np.float64(0.596078431372549), np.float64(0.8745098039215686), np.float64(0.5411764705882353), np.float64(1.0))","T4
+0.57",False
+paraphrase-MiniLM-L6-v2,4,Misinformation & Propaganda,560,,1.1310422,5.2045655,0.566640317440033,"(np.float64(0.596078431372549), np.float64(0.8745098039215686), np.float64(0.5411764705882353), np.float64(1.0))","T4
+0.57",False
+paraphrase-MiniLM-L6-v2,4,Misinformation & Propaganda,574,,1.3784955,4.917935,0.566640317440033,"(np.float64(0.596078431372549), np.float64(0.8745098039215686), np.float64(0.5411764705882353), np.float64(1.0))","T4
+0.57",False
+paraphrase-MiniLM-L6-v2,4,Misinformation & Propaganda,581,,1.5868778,4.412617,0.566640317440033,"(np.float64(0.596078431372549), np.float64(0.8745098039215686), np.float64(0.5411764705882353), np.float64(1.0))","T4
+0.57",False
+paraphrase-MiniLM-L6-v2,4,Misinformation & Propaganda,638,,1.559607,4.823233,0.566640317440033,"(np.float64(0.596078431372549), np.float64(0.8745098039215686), np.float64(0.5411764705882353), np.float64(1.0))","T4
+0.57",False
+paraphrase-MiniLM-L6-v2,5,Fact-Checking & Verification,43,,5.075482,3.8434384,0.2634774446487427,"(np.float64(0.8392156862745098), np.float64(0.15294117647058825), np.float64(0.1568627450980392), np.float64(1.0))","T5
+0.26",True
+paraphrase-MiniLM-L6-v2,5,Fact-Checking & Verification,50,,4.7023244,3.5589628,0.2634774446487427,"(np.float64(0.8392156862745098), np.float64(0.15294117647058825), np.float64(0.1568627450980392), np.float64(1.0))","T5
+0.26",True
+paraphrase-MiniLM-L6-v2,5,Fact-Checking & Verification,188,,4.759462,3.742685,0.2634774446487427,"(np.float64(0.8392156862745098), np.float64(0.15294117647058825), np.float64(0.1568627450980392), np.float64(1.0))","T5
+0.26",True
+paraphrase-MiniLM-L6-v2,5,Fact-Checking & Verification,212,,5.021698,3.7074473,0.2634774446487427,"(np.float64(0.8392156862745098), np.float64(0.15294117647058825), np.float64(0.1568627450980392), np.float64(1.0))","T5
+0.26",True
+paraphrase-MiniLM-L6-v2,5,Fact-Checking & Verification,328,,4.8014383,3.5136294,0.2634774446487427,"(np.float64(0.8392156862745098), np.float64(0.15294117647058825), np.float64(0.1568627450980392), np.float64(1.0))","T5
+0.26",True
+paraphrase-MiniLM-L6-v2,5,Fact-Checking & Verification,348,,4.6740704,3.5895739,0.2634774446487427,"(np.float64(0.8392156862745098), np.float64(0.15294117647058825), np.float64(0.1568627450980392), np.float64(1.0))","T5
+0.26",True
+paraphrase-MiniLM-L6-v2,5,Fact-Checking & Verification,353,,4.8724456,3.610883,0.2634774446487427,"(np.float64(0.8392156862745098), np.float64(0.15294117647058825), np.float64(0.1568627450980392), np.float64(1.0))","T5
+0.26",True
+paraphrase-MiniLM-L6-v2,5,Fact-Checking & Verification,414,,4.9614143,3.5842638,0.2634774446487427,"(np.float64(0.8392156862745098), np.float64(0.15294117647058825), np.float64(0.1568627450980392), np.float64(1.0))","T5
+0.26",True
+paraphrase-MiniLM-L6-v2,5,Fact-Checking & Verification,461,,5.1020517,3.818839,0.2634774446487427,"(np.float64(0.8392156862745098), np.float64(0.15294117647058825), np.float64(0.1568627450980392), np.float64(1.0))","T5
+0.26",True
+paraphrase-MiniLM-L6-v2,5,Fact-Checking & Verification,505,,4.5258913,3.379767,0.2634774446487427,"(np.float64(0.8392156862745098), np.float64(0.15294117647058825), np.float64(0.1568627450980392), np.float64(1.0))","T5
+0.26",True
+paraphrase-MiniLM-L6-v2,5,Fact-Checking & Verification,512,,5.0849133,3.7398748,0.2634774446487427,"(np.float64(0.8392156862745098), np.float64(0.15294117647058825), np.float64(0.1568627450980392), np.float64(1.0))","T5
+0.26",True
+paraphrase-MiniLM-L6-v2,5,Fact-Checking & Verification,519,,4.626475,3.5210924,0.2634774446487427,"(np.float64(0.8392156862745098), np.float64(0.15294117647058825), np.float64(0.1568627450980392), np.float64(1.0))","T5
+0.26",True
+paraphrase-MiniLM-L6-v2,5,Fact-Checking & Verification,621,,4.913168,3.7073689,0.2634774446487427,"(np.float64(0.8392156862745098), np.float64(0.15294117647058825), np.float64(0.1568627450980392), np.float64(1.0))","T5
+0.26",True
+paraphrase-MiniLM-L6-v2,5,Fact-Checking & Verification,632,,5.1444273,3.7663565,0.2634774446487427,"(np.float64(0.8392156862745098), np.float64(0.15294117647058825), np.float64(0.1568627450980392), np.float64(1.0))","T5
+0.26",True
+paraphrase-MiniLM-L6-v2,5,Fact-Checking & Verification,686,,4.8448567,3.571453,0.2634774446487427,"(np.float64(0.8392156862745098), np.float64(0.15294117647058825), np.float64(0.1568627450980392), np.float64(1.0))","T5
+0.26",True
+paraphrase-MiniLM-L6-v2,5,Fact-Checking & Verification,695,,4.8893213,3.6614492,0.2634774446487427,"(np.float64(0.8392156862745098), np.float64(0.15294117647058825), np.float64(0.1568627450980392), np.float64(1.0))","T5
+0.26",True
+paraphrase-MiniLM-L6-v2,5,Fact-Checking & Verification,719,,4.9210973,3.582798,0.2634774446487427,"(np.float64(0.8392156862745098), np.float64(0.15294117647058825), np.float64(0.1568627450980392), np.float64(1.0))","T5
+0.26",True
+paraphrase-MiniLM-L6-v2,5,Fact-Checking & Verification,747,,5.0081778,3.5235412,0.2634774446487427,"(np.float64(0.8392156862745098), np.float64(0.15294117647058825), np.float64(0.1568627450980392), np.float64(1.0))","T5
+0.26",True
+paraphrase-MiniLM-L6-v2,6,"deepfake, deepfakes",14,,-4.5495124,7.967325,0.18467752635478973,"(np.float64(1.0), np.float64(0.596078431372549), np.float64(0.5882352941176471), np.float64(1.0))","T6
+0.18",True
+paraphrase-MiniLM-L6-v2,6,"deepfake, deepfakes",34,,-4.5974784,7.959559,0.18467752635478973,"(np.float64(1.0), np.float64(0.596078431372549), np.float64(0.5882352941176471), np.float64(1.0))","T6
+0.18",True
+paraphrase-MiniLM-L6-v2,6,"deepfake, deepfakes",106,,-4.6500874,7.914459,0.18467752635478973,"(np.float64(1.0), np.float64(0.596078431372549), np.float64(0.5882352941176471), np.float64(1.0))","T6
+0.18",True
+paraphrase-MiniLM-L6-v2,6,"deepfake, deepfakes",139,,-4.559127,8.216122,0.18467752635478973,"(np.float64(1.0), np.float64(0.596078431372549), np.float64(0.5882352941176471), np.float64(1.0))","T6
+0.18",True
+paraphrase-MiniLM-L6-v2,6,"deepfake, deepfakes",140,,-4.5501733,7.9302244,0.18467752635478973,"(np.float64(1.0), np.float64(0.596078431372549), np.float64(0.5882352941176471), np.float64(1.0))","T6
+0.18",True
+paraphrase-MiniLM-L6-v2,6,"deepfake, deepfakes",147,,-4.3794155,7.833585,0.18467752635478973,"(np.float64(1.0), np.float64(0.596078431372549), np.float64(0.5882352941176471), np.float64(1.0))","T6
+0.18",True
+paraphrase-MiniLM-L6-v2,6,"deepfake, deepfakes",148,,-4.5332046,8.125682,0.18467752635478973,"(np.float64(1.0), np.float64(0.596078431372549), np.float64(0.5882352941176471), np.float64(1.0))","T6
+0.18",True
+paraphrase-MiniLM-L6-v2,6,"deepfake, deepfakes",153,,-4.6635623,8.0777025,0.18467752635478973,"(np.float64(1.0), np.float64(0.596078431372549), np.float64(0.5882352941176471), np.float64(1.0))","T6
+0.18",True
+paraphrase-MiniLM-L6-v2,6,"deepfake, deepfakes",158,,-4.641731,7.9752884,0.18467752635478973,"(np.float64(1.0), np.float64(0.596078431372549), np.float64(0.5882352941176471), np.float64(1.0))","T6
+0.18",True
+paraphrase-MiniLM-L6-v2,6,"deepfake, deepfakes",172,,-4.445062,7.868493,0.18467752635478973,"(np.float64(1.0), np.float64(0.596078431372549), np.float64(0.5882352941176471), np.float64(1.0))","T6
+0.18",True
+paraphrase-MiniLM-L6-v2,6,"deepfake, deepfakes",182,,-4.6551185,7.994283,0.18467752635478973,"(np.float64(1.0), np.float64(0.596078431372549), np.float64(0.5882352941176471), np.float64(1.0))","T6
+0.18",True
+paraphrase-MiniLM-L6-v2,6,"deepfake, deepfakes",191,,-4.761428,8.115374,0.18467752635478973,"(np.float64(1.0), np.float64(0.596078431372549), np.float64(0.5882352941176471), np.float64(1.0))","T6
+0.18",True
+paraphrase-MiniLM-L6-v2,6,"deepfake, deepfakes",192,,-4.6263313,7.9147863,0.18467752635478973,"(np.float64(1.0), np.float64(0.596078431372549), np.float64(0.5882352941176471), np.float64(1.0))","T6
+0.18",True
+paraphrase-MiniLM-L6-v2,6,"deepfake, deepfakes",320,,-4.514005,7.941047,0.18467752635478973,"(np.float64(1.0), np.float64(0.596078431372549), np.float64(0.5882352941176471), np.float64(1.0))","T6
+0.18",True
+paraphrase-MiniLM-L6-v2,6,"deepfake, deepfakes",340,,-4.709937,8.09254,0.18467752635478973,"(np.float64(1.0), np.float64(0.596078431372549), np.float64(0.5882352941176471), np.float64(1.0))","T6
+0.18",True
+paraphrase-MiniLM-L6-v2,6,"deepfake, deepfakes",399,,-4.567043,8.005447,0.18467752635478973,"(np.float64(1.0), np.float64(0.596078431372549), np.float64(0.5882352941176471), np.float64(1.0))","T6
+0.18",True
+paraphrase-MiniLM-L6-v2,6,"deepfake, deepfakes",408,,-4.7465367,8.1397,0.18467752635478973,"(np.float64(1.0), np.float64(0.596078431372549), np.float64(0.5882352941176471), np.float64(1.0))","T6
+0.18",True
+paraphrase-MiniLM-L6-v2,6,"deepfake, deepfakes",625,,-4.672027,8.1625,0.18467752635478973,"(np.float64(1.0), np.float64(0.596078431372549), np.float64(0.5882352941176471), np.float64(1.0))","T6
+0.18",True
+paraphrase-MiniLM-L6-v2,7,Misinformation & Propaganda,206,,2.1306894,3.4322388,0.6617733240127563,"(np.float64(0.5803921568627451), np.float64(0.403921568627451), np.float64(0.7411764705882353), np.float64(1.0))","T7
+0.66",False
+paraphrase-MiniLM-L6-v2,7,Misinformation & Propaganda,207,,2.081307,4.320174,0.6617733240127563,"(np.float64(0.5803921568627451), np.float64(0.403921568627451), np.float64(0.7411764705882353), np.float64(1.0))","T7
+0.66",False
+paraphrase-MiniLM-L6-v2,7,Misinformation & Propaganda,243,,1.7940773,5.510404,0.6617733240127563,"(np.float64(0.5803921568627451), np.float64(0.403921568627451), np.float64(0.7411764705882353), np.float64(1.0))","T7
+0.66",False
+paraphrase-MiniLM-L6-v2,7,Misinformation & Propaganda,250,,2.4148352,4.5287786,0.6617733240127563,"(np.float64(0.5803921568627451), np.float64(0.403921568627451), np.float64(0.7411764705882353), np.float64(1.0))","T7
+0.66",False
+paraphrase-MiniLM-L6-v2,7,Misinformation & Propaganda,267,,1.6814094,4.2317934,0.6617733240127563,"(np.float64(0.5803921568627451), np.float64(0.403921568627451), np.float64(0.7411764705882353), np.float64(1.0))","T7
+0.66",False
+paraphrase-MiniLM-L6-v2,7,Misinformation & Propaganda,269,,1.9675725,3.7348444,0.6617733240127563,"(np.float64(0.5803921568627451), np.float64(0.403921568627451), np.float64(0.7411764705882353), np.float64(1.0))","T7
+0.66",False
+paraphrase-MiniLM-L6-v2,7,Misinformation & Propaganda,297,,2.4935453,4.651854,0.6617733240127563,"(np.float64(0.5803921568627451), np.float64(0.403921568627451), np.float64(0.7411764705882353), np.float64(1.0))","T7
+0.66",False
+paraphrase-MiniLM-L6-v2,7,Misinformation & Propaganda,301,,1.8471845,4.2709556,0.6617733240127563,"(np.float64(0.5803921568627451), np.float64(0.403921568627451), np.float64(0.7411764705882353), np.float64(1.0))","T7
+0.66",False
+paraphrase-MiniLM-L6-v2,7,Misinformation & Propaganda,310,,1.9584341,4.26299,0.6617733240127563,"(np.float64(0.5803921568627451), np.float64(0.403921568627451), np.float64(0.7411764705882353), np.float64(1.0))","T7
+0.66",False
+paraphrase-MiniLM-L6-v2,7,Misinformation & Propaganda,400,,2.0468147,3.8565688,0.6617733240127563,"(np.float64(0.5803921568627451), np.float64(0.403921568627451), np.float64(0.7411764705882353), np.float64(1.0))","T7
+0.66",False
+paraphrase-MiniLM-L6-v2,7,Misinformation & Propaganda,552,,1.97389,4.3333416,0.6617733240127563,"(np.float64(0.5803921568627451), np.float64(0.403921568627451), np.float64(0.7411764705882353), np.float64(1.0))","T7
+0.66",False
+paraphrase-MiniLM-L6-v2,7,Misinformation & Propaganda,585,,2.1418614,3.639109,0.6617733240127563,"(np.float64(0.5803921568627451), np.float64(0.403921568627451), np.float64(0.7411764705882353), np.float64(1.0))","T7
+0.66",False
+paraphrase-MiniLM-L6-v2,7,Misinformation & Propaganda,586,,2.0770073,4.815414,0.6617733240127563,"(np.float64(0.5803921568627451), np.float64(0.403921568627451), np.float64(0.7411764705882353), np.float64(1.0))","T7
+0.66",False
+paraphrase-MiniLM-L6-v2,7,Misinformation & Propaganda,608,,1.7442333,4.4430127,0.6617733240127563,"(np.float64(0.5803921568627451), np.float64(0.403921568627451), np.float64(0.7411764705882353), np.float64(1.0))","T7
+0.66",False
+paraphrase-MiniLM-L6-v2,7,Misinformation & Propaganda,646,,2.222001,4.3191233,0.6617733240127563,"(np.float64(0.5803921568627451), np.float64(0.403921568627451), np.float64(0.7411764705882353), np.float64(1.0))","T7
+0.66",False
+paraphrase-MiniLM-L6-v2,7,Misinformation & Propaganda,723,,1.8002347,4.584869,0.6617733240127563,"(np.float64(0.5803921568627451), np.float64(0.403921568627451), np.float64(0.7411764705882353), np.float64(1.0))","T7
+0.66",False
+paraphrase-MiniLM-L6-v2,7,Misinformation & Propaganda,727,,2.3416069,4.632138,0.6617733240127563,"(np.float64(0.5803921568627451), np.float64(0.403921568627451), np.float64(0.7411764705882353), np.float64(1.0))","T7
+0.66",False
+paraphrase-MiniLM-L6-v2,8,"claim, evidence",51,,2.8996897,7.559415,0.4479560852050781,"(np.float64(0.7725490196078432), np.float64(0.6901960784313725), np.float64(0.8352941176470589), np.float64(1.0))","T8
+0.45",True
+paraphrase-MiniLM-L6-v2,8,"claim, evidence",54,,2.7259564,7.5497046,0.4479560852050781,"(np.float64(0.7725490196078432), np.float64(0.6901960784313725), np.float64(0.8352941176470589), np.float64(1.0))","T8
+0.45",True
+paraphrase-MiniLM-L6-v2,8,"claim, evidence",57,,3.0366793,7.8533106,0.4479560852050781,"(np.float64(0.7725490196078432), np.float64(0.6901960784313725), np.float64(0.8352941176470589), np.float64(1.0))","T8
+0.45",True
+paraphrase-MiniLM-L6-v2,8,"claim, evidence",197,,3.0440269,7.874779,0.4479560852050781,"(np.float64(0.7725490196078432), np.float64(0.6901960784313725), np.float64(0.8352941176470589), np.float64(1.0))","T8
+0.45",True
+paraphrase-MiniLM-L6-v2,8,"claim, evidence",205,,2.6698456,7.7797613,0.4479560852050781,"(np.float64(0.7725490196078432), np.float64(0.6901960784313725), np.float64(0.8352941176470589), np.float64(1.0))","T8
+0.45",True
+paraphrase-MiniLM-L6-v2,8,"claim, evidence",211,,3.1553824,7.6926355,0.4479560852050781,"(np.float64(0.7725490196078432), np.float64(0.6901960784313725), np.float64(0.8352941176470589), np.float64(1.0))","T8
+0.45",True
+paraphrase-MiniLM-L6-v2,8,"claim, evidence",225,,2.7335086,7.638339,0.4479560852050781,"(np.float64(0.7725490196078432), np.float64(0.6901960784313725), np.float64(0.8352941176470589), np.float64(1.0))","T8
+0.45",True
+paraphrase-MiniLM-L6-v2,8,"claim, evidence",370,,2.8609135,8.051209,0.4479560852050781,"(np.float64(0.7725490196078432), np.float64(0.6901960784313725), np.float64(0.8352941176470589), np.float64(1.0))","T8
+0.45",True
+paraphrase-MiniLM-L6-v2,8,"claim, evidence",391,,2.9421358,7.5754943,0.4479560852050781,"(np.float64(0.7725490196078432), np.float64(0.6901960784313725), np.float64(0.8352941176470589), np.float64(1.0))","T8
+0.45",True
+paraphrase-MiniLM-L6-v2,8,"claim, evidence",498,,2.9259295,7.929346,0.4479560852050781,"(np.float64(0.7725490196078432), np.float64(0.6901960784313725), np.float64(0.8352941176470589), np.float64(1.0))","T8
+0.45",True
+paraphrase-MiniLM-L6-v2,8,"claim, evidence",507,,2.8761377,8.026895,0.4479560852050781,"(np.float64(0.7725490196078432), np.float64(0.6901960784313725), np.float64(0.8352941176470589), np.float64(1.0))","T8
+0.45",True
+paraphrase-MiniLM-L6-v2,8,"claim, evidence",510,,2.9320767,7.9952,0.4479560852050781,"(np.float64(0.7725490196078432), np.float64(0.6901960784313725), np.float64(0.8352941176470589), np.float64(1.0))","T8
+0.45",True
+paraphrase-MiniLM-L6-v2,8,"claim, evidence",569,,2.9815216,8.019957,0.4479560852050781,"(np.float64(0.7725490196078432), np.float64(0.6901960784313725), np.float64(0.8352941176470589), np.float64(1.0))","T8
+0.45",True
+paraphrase-MiniLM-L6-v2,8,"claim, evidence",599,,2.3960922,7.193946,0.4479560852050781,"(np.float64(0.7725490196078432), np.float64(0.6901960784313725), np.float64(0.8352941176470589), np.float64(1.0))","T8
+0.45",True
+paraphrase-MiniLM-L6-v2,8,"claim, evidence",650,,2.3807635,7.258752,0.4479560852050781,"(np.float64(0.7725490196078432), np.float64(0.6901960784313725), np.float64(0.8352941176470589), np.float64(1.0))","T8
+0.45",True
+paraphrase-MiniLM-L6-v2,8,"claim, evidence",680,,2.428368,7.2773714,0.4479560852050781,"(np.float64(0.7725490196078432), np.float64(0.6901960784313725), np.float64(0.8352941176470589), np.float64(1.0))","T8
+0.45",True
+paraphrase-MiniLM-L6-v2,9,"image, forgery",133,,-2.3395636,8.515375,0.2558549642562866,"(np.float64(0.5490196078431373), np.float64(0.33725490196078434), np.float64(0.29411764705882354), np.float64(1.0))","T9
+0.26",True
+paraphrase-MiniLM-L6-v2,9,"image, forgery",159,,-2.4800904,8.342025,0.2558549642562866,"(np.float64(0.5490196078431373), np.float64(0.33725490196078434), np.float64(0.29411764705882354), np.float64(1.0))","T9
+0.26",True
+paraphrase-MiniLM-L6-v2,9,"image, forgery",161,,-2.4282653,8.427461,0.2558549642562866,"(np.float64(0.5490196078431373), np.float64(0.33725490196078434), np.float64(0.29411764705882354), np.float64(1.0))","T9
+0.26",True
+paraphrase-MiniLM-L6-v2,9,"image, forgery",185,,-2.5927553,7.954024,0.2558549642562866,"(np.float64(0.5490196078431373), np.float64(0.33725490196078434), np.float64(0.29411764705882354), np.float64(1.0))","T9
+0.26",True
+paraphrase-MiniLM-L6-v2,9,"image, forgery",187,,-2.6008847,8.2423725,0.2558549642562866,"(np.float64(0.5490196078431373), np.float64(0.33725490196078434), np.float64(0.29411764705882354), np.float64(1.0))","T9
+0.26",True
+paraphrase-MiniLM-L6-v2,9,"image, forgery",248,,-2.6878283,8.243721,0.2558549642562866,"(np.float64(0.5490196078431373), np.float64(0.33725490196078434), np.float64(0.29411764705882354), np.float64(1.0))","T9
+0.26",True
+paraphrase-MiniLM-L6-v2,9,"image, forgery",259,,-2.6396196,8.080219,0.2558549642562866,"(np.float64(0.5490196078431373), np.float64(0.33725490196078434), np.float64(0.29411764705882354), np.float64(1.0))","T9
+0.26",True
+paraphrase-MiniLM-L6-v2,9,"image, forgery",322,,-2.4413543,8.453569,0.2558549642562866,"(np.float64(0.5490196078431373), np.float64(0.33725490196078434), np.float64(0.29411764705882354), np.float64(1.0))","T9
+0.26",True
+paraphrase-MiniLM-L6-v2,9,"image, forgery",430,,-2.5340269,8.2657585,0.2558549642562866,"(np.float64(0.5490196078431373), np.float64(0.33725490196078434), np.float64(0.29411764705882354), np.float64(1.0))","T9
+0.26",True
+paraphrase-MiniLM-L6-v2,9,"image, forgery",469,,-2.3895125,8.432881,0.2558549642562866,"(np.float64(0.5490196078431373), np.float64(0.33725490196078434), np.float64(0.29411764705882354), np.float64(1.0))","T9
+0.26",True
+paraphrase-MiniLM-L6-v2,9,"image, forgery",522,,-2.7510967,8.089397,0.2558549642562866,"(np.float64(0.5490196078431373), np.float64(0.33725490196078434), np.float64(0.29411764705882354), np.float64(1.0))","T9
+0.26",True
+paraphrase-MiniLM-L6-v2,9,"image, forgery",624,,-2.8554533,8.4609375,0.2558549642562866,"(np.float64(0.5490196078431373), np.float64(0.33725490196078434), np.float64(0.29411764705882354), np.float64(1.0))","T9
+0.26",True
+paraphrase-MiniLM-L6-v2,9,"image, forgery",664,,-2.5670388,8.387404,0.2558549642562866,"(np.float64(0.5490196078431373), np.float64(0.33725490196078434), np.float64(0.29411764705882354), np.float64(1.0))","T9
+0.26",True
+paraphrase-MiniLM-L6-v2,9,"image, forgery",685,,-2.5943623,8.247841,0.2558549642562866,"(np.float64(0.5490196078431373), np.float64(0.33725490196078434), np.float64(0.29411764705882354), np.float64(1.0))","T9
+0.26",True
+paraphrase-MiniLM-L6-v2,9,"image, forgery",730,,-2.6339476,8.359757,0.2558549642562866,"(np.float64(0.5490196078431373), np.float64(0.33725490196078434), np.float64(0.29411764705882354), np.float64(1.0))","T9
+0.26",True
+paraphrase-MiniLM-L6-v2,9,"image, forgery",809,,-2.5179238,8.317635,0.2558549642562866,"(np.float64(0.5490196078431373), np.float64(0.33725490196078434), np.float64(0.29411764705882354), np.float64(1.0))","T9
+0.26",True
+paraphrase-MiniLM-L6-v2,10,Misinformation & Propaganda,62,,1.141034,2.2304108,0.5073221921920776,"(np.float64(0.7686274509803922), np.float64(0.611764705882353), np.float64(0.5803921568627451), np.float64(1.0))","T10
+0.51",True
+paraphrase-MiniLM-L6-v2,10,Misinformation & Propaganda,89,,1.1599154,2.202968,0.5073221921920776,"(np.float64(0.7686274509803922), np.float64(0.611764705882353), np.float64(0.5803921568627451), np.float64(1.0))","T10
+0.51",True
+paraphrase-MiniLM-L6-v2,10,Misinformation & Propaganda,118,,0.84066427,1.87405,0.5073221921920776,"(np.float64(0.7686274509803922), np.float64(0.611764705882353), np.float64(0.5803921568627451), np.float64(1.0))","T10
+0.51",True
+paraphrase-MiniLM-L6-v2,10,Misinformation & Propaganda,122,,1.0086348,1.880473,0.5073221921920776,"(np.float64(0.7686274509803922), np.float64(0.611764705882353), np.float64(0.5803921568627451), np.float64(1.0))","T10
+0.51",True
+paraphrase-MiniLM-L6-v2,10,Misinformation & Propaganda,232,,1.3670722,2.2295115,0.5073221921920776,"(np.float64(0.7686274509803922), np.float64(0.611764705882353), np.float64(0.5803921568627451), np.float64(1.0))","T10
+0.51",True
+paraphrase-MiniLM-L6-v2,10,Misinformation & Propaganda,293,,0.77338046,2.002789,0.5073221921920776,"(np.float64(0.7686274509803922), np.float64(0.611764705882353), np.float64(0.5803921568627451), np.float64(1.0))","T10
+0.51",True
+paraphrase-MiniLM-L6-v2,10,Misinformation & Propaganda,304,,1.1850164,1.9898882,0.5073221921920776,"(np.float64(0.7686274509803922), np.float64(0.611764705882353), np.float64(0.5803921568627451), np.float64(1.0))","T10
+0.51",True
+paraphrase-MiniLM-L6-v2,10,Misinformation & Propaganda,429,,1.4524394,1.9978573,0.5073221921920776,"(np.float64(0.7686274509803922), np.float64(0.611764705882353), np.float64(0.5803921568627451), np.float64(1.0))","T10
+0.51",True
+paraphrase-MiniLM-L6-v2,10,Misinformation & Propaganda,488,,1.5075372,2.8935676,0.5073221921920776,"(np.float64(0.7686274509803922), np.float64(0.611764705882353), np.float64(0.5803921568627451), np.float64(1.0))","T10
+0.51",True
+paraphrase-MiniLM-L6-v2,10,Misinformation & Propaganda,500,,1.6203719,2.361252,0.5073221921920776,"(np.float64(0.7686274509803922), np.float64(0.611764705882353), np.float64(0.5803921568627451), np.float64(1.0))","T10
+0.51",True
+paraphrase-MiniLM-L6-v2,10,Misinformation & Propaganda,568,,1.0057,2.6139805,0.5073221921920776,"(np.float64(0.7686274509803922), np.float64(0.611764705882353), np.float64(0.5803921568627451), np.float64(1.0))","T10
+0.51",True
+paraphrase-MiniLM-L6-v2,10,Misinformation & Propaganda,641,,1.1298879,2.1002772,0.5073221921920776,"(np.float64(0.7686274509803922), np.float64(0.611764705882353), np.float64(0.5803921568627451), np.float64(1.0))","T10
+0.51",True
+paraphrase-MiniLM-L6-v2,10,Misinformation & Propaganda,658,,1.3947632,2.2070124,0.5073221921920776,"(np.float64(0.7686274509803922), np.float64(0.611764705882353), np.float64(0.5803921568627451), np.float64(1.0))","T10
+0.51",True
+paraphrase-MiniLM-L6-v2,10,Misinformation & Propaganda,764,,0.6222852,2.1310518,0.5073221921920776,"(np.float64(0.7686274509803922), np.float64(0.611764705882353), np.float64(0.5803921568627451), np.float64(1.0))","T10
+0.51",True
+paraphrase-MiniLM-L6-v2,11,"image, images",70,,-2.9622838,8.431735,0.26890355348587036,"(np.float64(0.8901960784313725), np.float64(0.4666666666666667), np.float64(0.7607843137254902), np.float64(1.0))","T11
+0.27",True
+paraphrase-MiniLM-L6-v2,11,"image, images",145,,-2.868996,8.572376,0.26890355348587036,"(np.float64(0.8901960784313725), np.float64(0.4666666666666667), np.float64(0.7607843137254902), np.float64(1.0))","T11
+0.27",True
+paraphrase-MiniLM-L6-v2,11,"image, images",160,,-3.0721304,8.27201,0.26890355348587036,"(np.float64(0.8901960784313725), np.float64(0.4666666666666667), np.float64(0.7607843137254902), np.float64(1.0))","T11
+0.27",True
+paraphrase-MiniLM-L6-v2,11,"image, images",184,,-2.8672707,8.351074,0.26890355348587036,"(np.float64(0.8901960784313725), np.float64(0.4666666666666667), np.float64(0.7607843137254902), np.float64(1.0))","T11
+0.27",True
+paraphrase-MiniLM-L6-v2,11,"image, images",245,,-2.996337,8.33782,0.26890355348587036,"(np.float64(0.8901960784313725), np.float64(0.4666666666666667), np.float64(0.7607843137254902), np.float64(1.0))","T11
+0.27",True
+paraphrase-MiniLM-L6-v2,11,"image, images",317,,-2.858132,8.127496,0.26890355348587036,"(np.float64(0.8901960784313725), np.float64(0.4666666666666667), np.float64(0.7607843137254902), np.float64(1.0))","T11
+0.27",True
+paraphrase-MiniLM-L6-v2,11,"image, images",318,,-3.0490556,8.379322,0.26890355348587036,"(np.float64(0.8901960784313725), np.float64(0.4666666666666667), np.float64(0.7607843137254902), np.float64(1.0))","T11
+0.27",True
+paraphrase-MiniLM-L6-v2,11,"image, images",325,,-2.99905,8.267885,0.26890355348587036,"(np.float64(0.8901960784313725), np.float64(0.4666666666666667), np.float64(0.7607843137254902), np.float64(1.0))","T11
+0.27",True
+paraphrase-MiniLM-L6-v2,11,"image, images",336,,-2.8720946,8.002705,0.26890355348587036,"(np.float64(0.8901960784313725), np.float64(0.4666666666666667), np.float64(0.7607843137254902), np.float64(1.0))","T11
+0.27",True
+paraphrase-MiniLM-L6-v2,11,"image, images",337,,-3.1388593,8.201673,0.26890355348587036,"(np.float64(0.8901960784313725), np.float64(0.4666666666666667), np.float64(0.7607843137254902), np.float64(1.0))","T11
+0.27",True
+paraphrase-MiniLM-L6-v2,11,"image, images",420,,-2.8720696,7.977825,0.26890355348587036,"(np.float64(0.8901960784313725), np.float64(0.4666666666666667), np.float64(0.7607843137254902), np.float64(1.0))","T11
+0.27",True
+paraphrase-MiniLM-L6-v2,11,"image, images",432,,-3.0868793,8.016859,0.26890355348587036,"(np.float64(0.8901960784313725), np.float64(0.4666666666666667), np.float64(0.7607843137254902), np.float64(1.0))","T11
+0.27",True
+paraphrase-MiniLM-L6-v2,11,"image, images",758,,-3.1821694,8.22117,0.26890355348587036,"(np.float64(0.8901960784313725), np.float64(0.4666666666666667), np.float64(0.7607843137254902), np.float64(1.0))","T11
+0.27",True
+paraphrase-MiniLM-L6-v2,12,Misinformation & Propaganda,24,,1.4004005,1.8117085,0.42961278557777405,"(np.float64(0.9686274509803922), np.float64(0.7137254901960784), np.float64(0.8235294117647058), np.float64(1.0))","T12
+0.43",True
+paraphrase-MiniLM-L6-v2,12,Misinformation & Propaganda,32,,0.7660253,2.4506078,0.42961278557777405,"(np.float64(0.9686274509803922), np.float64(0.7137254901960784), np.float64(0.8235294117647058), np.float64(1.0))","T12
+0.43",True
+paraphrase-MiniLM-L6-v2,12,Misinformation & Propaganda,311,,1.199754,2.1433055,0.42961278557777405,"(np.float64(0.9686274509803922), np.float64(0.7137254901960784), np.float64(0.8235294117647058), np.float64(1.0))","T12
+0.43",True
+paraphrase-MiniLM-L6-v2,12,Misinformation & Propaganda,367,,0.9195962,2.545133,0.42961278557777405,"(np.float64(0.9686274509803922), np.float64(0.7137254901960784), np.float64(0.8235294117647058), np.float64(1.0))","T12
+0.43",True
+paraphrase-MiniLM-L6-v2,12,Misinformation & Propaganda,374,,1.1840634,2.3727787,0.42961278557777405,"(np.float64(0.9686274509803922), np.float64(0.7137254901960784), np.float64(0.8235294117647058), np.float64(1.0))","T12
+0.43",True
+paraphrase-MiniLM-L6-v2,12,Misinformation & Propaganda,379,,1.1287818,2.070739,0.42961278557777405,"(np.float64(0.9686274509803922), np.float64(0.7137254901960784), np.float64(0.8235294117647058), np.float64(1.0))","T12
+0.43",True
+paraphrase-MiniLM-L6-v2,12,Misinformation & Propaganda,419,,1.1633533,2.0264466,0.42961278557777405,"(np.float64(0.9686274509803922), np.float64(0.7137254901960784), np.float64(0.8235294117647058), np.float64(1.0))","T12
+0.43",True
+paraphrase-MiniLM-L6-v2,12,Misinformation & Propaganda,435,,1.5083092,1.849135,0.42961278557777405,"(np.float64(0.9686274509803922), np.float64(0.7137254901960784), np.float64(0.8235294117647058), np.float64(1.0))","T12
+0.43",True
+paraphrase-MiniLM-L6-v2,12,Misinformation & Propaganda,437,,1.1834466,1.9194682,0.42961278557777405,"(np.float64(0.9686274509803922), np.float64(0.7137254901960784), np.float64(0.8235294117647058), np.float64(1.0))","T12
+0.43",True
+paraphrase-MiniLM-L6-v2,12,Misinformation & Propaganda,438,,1.0524801,2.0040472,0.42961278557777405,"(np.float64(0.9686274509803922), np.float64(0.7137254901960784), np.float64(0.8235294117647058), np.float64(1.0))","T12
+0.43",True
+paraphrase-MiniLM-L6-v2,12,Misinformation & Propaganda,528,,1.1013019,2.524469,0.42961278557777405,"(np.float64(0.9686274509803922), np.float64(0.7137254901960784), np.float64(0.8235294117647058), np.float64(1.0))","T12
+0.43",True
+paraphrase-MiniLM-L6-v2,12,Misinformation & Propaganda,640,,1.4299521,1.8062874,0.42961278557777405,"(np.float64(0.9686274509803922), np.float64(0.7137254901960784), np.float64(0.8235294117647058), np.float64(1.0))","T12
+0.43",True
+paraphrase-MiniLM-L6-v2,12,Misinformation & Propaganda,710,,1.380804,1.7892859,0.42961278557777405,"(np.float64(0.9686274509803922), np.float64(0.7137254901960784), np.float64(0.8235294117647058), np.float64(1.0))","T12
+0.43",True
+paraphrase-MiniLM-L6-v2,13,Misinformation & Propaganda,8,,2.5087852,2.3189864,0.3305659592151642,"(np.float64(0.4980392156862745), np.float64(0.4980392156862745), np.float64(0.4980392156862745), np.float64(1.0))","T13
+0.33",True
+paraphrase-MiniLM-L6-v2,13,Misinformation & Propaganda,21,,2.700795,2.301292,0.3305659592151642,"(np.float64(0.4980392156862745), np.float64(0.4980392156862745), np.float64(0.4980392156862745), np.float64(1.0))","T13
+0.33",True
+paraphrase-MiniLM-L6-v2,13,Misinformation & Propaganda,90,,2.5642688,2.500583,0.3305659592151642,"(np.float64(0.4980392156862745), np.float64(0.4980392156862745), np.float64(0.4980392156862745), np.float64(1.0))","T13
+0.33",True
+paraphrase-MiniLM-L6-v2,13,Misinformation & Propaganda,282,,2.4113998,1.9834569,0.3305659592151642,"(np.float64(0.4980392156862745), np.float64(0.4980392156862745), np.float64(0.4980392156862745), np.float64(1.0))","T13
+0.33",True
+paraphrase-MiniLM-L6-v2,13,Misinformation & Propaganda,285,,2.7601917,2.0991855,0.3305659592151642,"(np.float64(0.4980392156862745), np.float64(0.4980392156862745), np.float64(0.4980392156862745), np.float64(1.0))","T13
+0.33",True
+paraphrase-MiniLM-L6-v2,13,Misinformation & Propaganda,424,,2.5979097,2.1365364,0.3305659592151642,"(np.float64(0.4980392156862745), np.float64(0.4980392156862745), np.float64(0.4980392156862745), np.float64(1.0))","T13
+0.33",True
+paraphrase-MiniLM-L6-v2,13,Misinformation & Propaganda,426,,2.9817407,2.5858083,0.3305659592151642,"(np.float64(0.4980392156862745), np.float64(0.4980392156862745), np.float64(0.4980392156862745), np.float64(1.0))","T13
+0.33",True
+paraphrase-MiniLM-L6-v2,13,Misinformation & Propaganda,443,,2.7711647,2.1175723,0.3305659592151642,"(np.float64(0.4980392156862745), np.float64(0.4980392156862745), np.float64(0.4980392156862745), np.float64(1.0))","T13
+0.33",True
+paraphrase-MiniLM-L6-v2,13,Misinformation & Propaganda,531,,2.4678447,1.9789869,0.3305659592151642,"(np.float64(0.4980392156862745), np.float64(0.4980392156862745), np.float64(0.4980392156862745), np.float64(1.0))","T13
+0.33",True
+paraphrase-MiniLM-L6-v2,13,Misinformation & Propaganda,610,,2.39399,1.9664663,0.3305659592151642,"(np.float64(0.4980392156862745), np.float64(0.4980392156862745), np.float64(0.4980392156862745), np.float64(1.0))","T13
+0.33",True
+paraphrase-MiniLM-L6-v2,13,Misinformation & Propaganda,613,,2.771784,2.2032547,0.3305659592151642,"(np.float64(0.4980392156862745), np.float64(0.4980392156862745), np.float64(0.4980392156862745), np.float64(1.0))","T13
+0.33",True
+paraphrase-MiniLM-L6-v2,13,Misinformation & Propaganda,639,,2.5488753,1.9342191,0.3305659592151642,"(np.float64(0.4980392156862745), np.float64(0.4980392156862745), np.float64(0.4980392156862745), np.float64(1.0))","T13
+0.33",True
+paraphrase-MiniLM-L6-v2,13,Misinformation & Propaganda,683,,2.6943557,2.0677047,0.3305659592151642,"(np.float64(0.4980392156862745), np.float64(0.4980392156862745), np.float64(0.4980392156862745), np.float64(1.0))","T13
+0.33",True
+paraphrase-MiniLM-L6-v2,14,Misinformation & Propaganda,141,,8.283571,3.0164835,0.12081900238990784,"(np.float64(0.7803921568627451), np.float64(0.7803921568627451), np.float64(0.7803921568627451), np.float64(1.0))","T14
+0.12",True
+paraphrase-MiniLM-L6-v2,14,Misinformation & Propaganda,154,,8.486226,3.0973308,0.12081900238990784,"(np.float64(0.7803921568627451), np.float64(0.7803921568627451), np.float64(0.7803921568627451), np.float64(1.0))","T14
+0.12",True
+paraphrase-MiniLM-L6-v2,14,Misinformation & Propaganda,163,,8.444236,3.058317,0.12081900238990784,"(np.float64(0.7803921568627451), np.float64(0.7803921568627451), np.float64(0.7803921568627451), np.float64(1.0))","T14
+0.12",True
+paraphrase-MiniLM-L6-v2,14,Misinformation & Propaganda,261,,8.458951,3.0616848,0.12081900238990784,"(np.float64(0.7803921568627451), np.float64(0.7803921568627451), np.float64(0.7803921568627451), np.float64(1.0))","T14
+0.12",True
+paraphrase-MiniLM-L6-v2,14,Misinformation & Propaganda,319,,8.376126,2.9479477,0.12081900238990784,"(np.float64(0.7803921568627451), np.float64(0.7803921568627451), np.float64(0.7803921568627451), np.float64(1.0))","T14
+0.12",True
+paraphrase-MiniLM-L6-v2,14,Misinformation & Propaganda,339,,8.441159,3.0580044,0.12081900238990784,"(np.float64(0.7803921568627451), np.float64(0.7803921568627451), np.float64(0.7803921568627451), np.float64(1.0))","T14
+0.12",True
+paraphrase-MiniLM-L6-v2,14,Misinformation & Propaganda,341,,8.5104265,3.0931826,0.12081900238990784,"(np.float64(0.7803921568627451), np.float64(0.7803921568627451), np.float64(0.7803921568627451), np.float64(1.0))","T14
+0.12",True
+paraphrase-MiniLM-L6-v2,14,Misinformation & Propaganda,376,,8.544156,3.1472497,0.12081900238990784,"(np.float64(0.7803921568627451), np.float64(0.7803921568627451), np.float64(0.7803921568627451), np.float64(1.0))","T14
+0.12",True
+paraphrase-MiniLM-L6-v2,14,Misinformation & Propaganda,458,,8.479175,3.096386,0.12081900238990784,"(np.float64(0.7803921568627451), np.float64(0.7803921568627451), np.float64(0.7803921568627451), np.float64(1.0))","T14
+0.12",True
+paraphrase-MiniLM-L6-v2,14,Misinformation & Propaganda,732,,8.363685,2.9573808,0.12081900238990784,"(np.float64(0.7803921568627451), np.float64(0.7803921568627451), np.float64(0.7803921568627451), np.float64(1.0))","T14
+0.12",True
+paraphrase-MiniLM-L6-v2,14,Misinformation & Propaganda,788,,8.362921,2.9799767,0.12081900238990784,"(np.float64(0.7803921568627451), np.float64(0.7803921568627451), np.float64(0.7803921568627451), np.float64(1.0))","T14
+0.12",True
+paraphrase-MiniLM-L6-v2,15,Misinformation & Propaganda,23,,0.36630544,2.3375573,0.38114890456199646,"(np.float64(0.7372549019607844), np.float64(0.7411764705882353), np.float64(0.13333333333333333), np.float64(1.0))","T15
+0.38",True
+paraphrase-MiniLM-L6-v2,15,Misinformation & Propaganda,68,,0.86741376,3.0068347,0.38114890456199646,"(np.float64(0.7372549019607844), np.float64(0.7411764705882353), np.float64(0.13333333333333333), np.float64(1.0))","T15
+0.38",True
+paraphrase-MiniLM-L6-v2,15,Misinformation & Propaganda,77,,0.5928491,2.165164,0.38114890456199646,"(np.float64(0.7372549019607844), np.float64(0.7411764705882353), np.float64(0.13333333333333333), np.float64(1.0))","T15
+0.38",True
+paraphrase-MiniLM-L6-v2,15,Misinformation & Propaganda,107,,0.38353607,2.3192112,0.38114890456199646,"(np.float64(0.7372549019607844), np.float64(0.7411764705882353), np.float64(0.13333333333333333), np.float64(1.0))","T15
+0.38",True
+paraphrase-MiniLM-L6-v2,15,Misinformation & Propaganda,202,,0.37640244,2.348434,0.38114890456199646,"(np.float64(0.7372549019607844), np.float64(0.7411764705882353), np.float64(0.13333333333333333), np.float64(1.0))","T15
+0.38",True
+paraphrase-MiniLM-L6-v2,15,Misinformation & Propaganda,289,,0.7481329,2.100346,0.38114890456199646,"(np.float64(0.7372549019607844), np.float64(0.7411764705882353), np.float64(0.13333333333333333), np.float64(1.0))","T15
+0.38",True
+paraphrase-MiniLM-L6-v2,15,Misinformation & Propaganda,298,,0.3388502,2.282461,0.38114890456199646,"(np.float64(0.7372549019607844), np.float64(0.7411764705882353), np.float64(0.13333333333333333), np.float64(1.0))","T15
+0.38",True
+paraphrase-MiniLM-L6-v2,15,Misinformation & Propaganda,373,,0.47948566,2.416728,0.38114890456199646,"(np.float64(0.7372549019607844), np.float64(0.7411764705882353), np.float64(0.13333333333333333), np.float64(1.0))","T15
+0.38",True
+paraphrase-MiniLM-L6-v2,15,Misinformation & Propaganda,445,,0.6955478,2.0599046,0.38114890456199646,"(np.float64(0.7372549019607844), np.float64(0.7411764705882353), np.float64(0.13333333333333333), np.float64(1.0))","T15
+0.38",True
+paraphrase-MiniLM-L6-v2,15,Misinformation & Propaganda,497,,0.8683633,2.2571743,0.38114890456199646,"(np.float64(0.7372549019607844), np.float64(0.7411764705882353), np.float64(0.13333333333333333), np.float64(1.0))","T15
+0.38",True
+paraphrase-MiniLM-L6-v2,15,Misinformation & Propaganda,575,,0.3991127,2.16081,0.38114890456199646,"(np.float64(0.7372549019607844), np.float64(0.7411764705882353), np.float64(0.13333333333333333), np.float64(1.0))","T15
+0.38",True
+paraphrase-MiniLM-L6-v2,16,"observations, sensing",345,,2.9014432,6.6808386,0.8281019330024719,"(np.float64(0.8588235294117647), np.float64(0.8588235294117647), np.float64(0.5529411764705883), np.float64(1.0))","T16
+0.83",False
+paraphrase-MiniLM-L6-v2,16,"observations, sensing",514,,3.6339169,5.7389693,0.8281019330024719,"(np.float64(0.8588235294117647), np.float64(0.8588235294117647), np.float64(0.5529411764705883), np.float64(1.0))","T16
+0.83",False
+paraphrase-MiniLM-L6-v2,16,"observations, sensing",642,,2.9310904,6.6348977,0.8281019330024719,"(np.float64(0.8588235294117647), np.float64(0.8588235294117647), np.float64(0.5529411764705883), np.float64(1.0))","T16
+0.83",False
+paraphrase-MiniLM-L6-v2,16,"observations, sensing",687,,3.3229306,6.6094327,0.8281019330024719,"(np.float64(0.8588235294117647), np.float64(0.8588235294117647), np.float64(0.5529411764705883), np.float64(1.0))","T16
+0.83",False
+paraphrase-MiniLM-L6-v2,16,"observations, sensing",739,,4.0032115,5.4321036,0.8281019330024719,"(np.float64(0.8588235294117647), np.float64(0.8588235294117647), np.float64(0.5529411764705883), np.float64(1.0))","T16
+0.83",False
+paraphrase-MiniLM-L6-v2,16,"observations, sensing",743,,3.8732855,5.3529015,0.8281019330024719,"(np.float64(0.8588235294117647), np.float64(0.8588235294117647), np.float64(0.5529411764705883), np.float64(1.0))","T16
+0.83",False
+paraphrase-MiniLM-L6-v2,16,"observations, sensing",744,,3.9718134,5.307358,0.8281019330024719,"(np.float64(0.8588235294117647), np.float64(0.8588235294117647), np.float64(0.5529411764705883), np.float64(1.0))","T16
+0.83",False
+paraphrase-MiniLM-L6-v2,16,"observations, sensing",745,,3.9509575,5.498401,0.8281019330024719,"(np.float64(0.8588235294117647), np.float64(0.8588235294117647), np.float64(0.5529411764705883), np.float64(1.0))","T16
+0.83",False
+paraphrase-MiniLM-L6-v2,16,"observations, sensing",756,,3.8727775,5.1546335,0.8281019330024719,"(np.float64(0.8588235294117647), np.float64(0.8588235294117647), np.float64(0.5529411764705883), np.float64(1.0))","T16
+0.83",False
+paraphrase-MiniLM-L6-v2,16,"observations, sensing",757,,3.929271,5.0933485,0.8281019330024719,"(np.float64(0.8588235294117647), np.float64(0.8588235294117647), np.float64(0.5529411764705883), np.float64(1.0))","T16
+0.83",False
+paraphrase-MiniLM-L6-v2,16,"observations, sensing",793,,3.953684,5.5065885,0.8281019330024719,"(np.float64(0.8588235294117647), np.float64(0.8588235294117647), np.float64(0.5529411764705883), np.float64(1.0))","T16
+0.83",False
+paraphrase-MiniLM-L6-v2,17,"llms, language",17,,1.5285865,7.1768827,0.19925864040851593,"(np.float64(0.09019607843137255), np.float64(0.7450980392156863), np.float64(0.8117647058823529), np.float64(1.0))","T17
+0.20",True
+paraphrase-MiniLM-L6-v2,17,"llms, language",20,,1.4424578,7.17838,0.19925864040851593,"(np.float64(0.09019607843137255), np.float64(0.7450980392156863), np.float64(0.8117647058823529), np.float64(1.0))","T17
+0.20",True
+paraphrase-MiniLM-L6-v2,17,"llms, language",65,,1.4224293,7.2271943,0.19925864040851593,"(np.float64(0.09019607843137255), np.float64(0.7450980392156863), np.float64(0.8117647058823529), np.float64(1.0))","T17
+0.20",True
+paraphrase-MiniLM-L6-v2,17,"llms, language",80,,1.3645025,7.294603,0.19925864040851593,"(np.float64(0.09019607843137255), np.float64(0.7450980392156863), np.float64(0.8117647058823529), np.float64(1.0))","T17
+0.20",True
+paraphrase-MiniLM-L6-v2,17,"llms, language",174,,1.5273073,7.1183934,0.19925864040851593,"(np.float64(0.09019607843137255), np.float64(0.7450980392156863), np.float64(0.8117647058823529), np.float64(1.0))","T17
+0.20",True
+paraphrase-MiniLM-L6-v2,17,"llms, language",175,,1.3965272,7.2412543,0.19925864040851593,"(np.float64(0.09019607843137255), np.float64(0.7450980392156863), np.float64(0.8117647058823529), np.float64(1.0))","T17
+0.20",True
+paraphrase-MiniLM-L6-v2,17,"llms, language",200,,1.7284917,6.8957276,0.19925864040851593,"(np.float64(0.09019607843137255), np.float64(0.7450980392156863), np.float64(0.8117647058823529), np.float64(1.0))","T17
+0.20",True
+paraphrase-MiniLM-L6-v2,17,"llms, language",253,,1.5505576,7.116178,0.19925864040851593,"(np.float64(0.09019607843137255), np.float64(0.7450980392156863), np.float64(0.8117647058823529), np.float64(1.0))","T17
+0.20",True
+paraphrase-MiniLM-L6-v2,17,"llms, language",266,,1.5629604,6.9595647,0.19925864040851593,"(np.float64(0.09019607843137255), np.float64(0.7450980392156863), np.float64(0.8117647058823529), np.float64(1.0))","T17
+0.20",True
+paraphrase-MiniLM-L6-v2,17,"llms, language",363,,1.4152173,7.270533,0.19925864040851593,"(np.float64(0.09019607843137255), np.float64(0.7450980392156863), np.float64(0.8117647058823529), np.float64(1.0))","T17
+0.20",True
+paraphrase-MiniLM-L6-v2,18,Fact-Checking & Verification,16,,3.2920485,7.5595,0.16263677179813385,"(np.float64(0.6196078431372549), np.float64(0.8549019607843137), np.float64(0.8980392156862745), np.float64(1.0))","T18
+0.16",True
+paraphrase-MiniLM-L6-v2,18,Fact-Checking & Verification,594,,3.2683492,7.53617,0.16263677179813385,"(np.float64(0.6196078431372549), np.float64(0.8549019607843137), np.float64(0.8980392156862745), np.float64(1.0))","T18
+0.16",True
+paraphrase-MiniLM-L6-v2,18,Fact-Checking & Verification,595,,3.1156428,7.407224,0.16263677179813385,"(np.float64(0.6196078431372549), np.float64(0.8549019607843137), np.float64(0.8980392156862745), np.float64(1.0))","T18
+0.16",True
+paraphrase-MiniLM-L6-v2,18,Fact-Checking & Verification,647,,3.0538218,7.2998796,0.16263677179813385,"(np.float64(0.6196078431372549), np.float64(0.8549019607843137), np.float64(0.8980392156862745), np.float64(1.0))","T18
+0.16",True
+paraphrase-MiniLM-L6-v2,18,Fact-Checking & Verification,690,,3.232908,7.501395,0.16263677179813385,"(np.float64(0.6196078431372549), np.float64(0.8549019607843137), np.float64(0.8980392156862745), np.float64(1.0))","T18
+0.16",True
+paraphrase-MiniLM-L6-v2,18,Fact-Checking & Verification,720,,3.237832,7.347264,0.16263677179813385,"(np.float64(0.6196078431372549), np.float64(0.8549019607843137), np.float64(0.8980392156862745), np.float64(1.0))","T18
+0.16",True
+paraphrase-MiniLM-L6-v2,18,Fact-Checking & Verification,740,,3.2243426,7.392756,0.16263677179813385,"(np.float64(0.6196078431372549), np.float64(0.8549019607843137), np.float64(0.8980392156862745), np.float64(1.0))","T18
+0.16",True
+paraphrase-MiniLM-L6-v2,18,Fact-Checking & Verification,765,,3.3090446,7.448055,0.16263677179813385,"(np.float64(0.6196078431372549), np.float64(0.8549019607843137), np.float64(0.8980392156862745), np.float64(1.0))","T18
+0.16",True
+paraphrase-MiniLM-L6-v2,18,Fact-Checking & Verification,771,,3.2160099,7.2904425,0.16263677179813385,"(np.float64(0.6196078431372549), np.float64(0.8549019607843137), np.float64(0.8980392156862745), np.float64(1.0))","T18
+0.16",True
+paraphrase-MiniLM-L6-v2,18,Fact-Checking & Verification,786,,3.22907,7.2945046,0.16263677179813385,"(np.float64(0.6196078431372549), np.float64(0.8549019607843137), np.float64(0.8980392156862745), np.float64(1.0))","T18
+0.16",True
+paraphrase-MiniLM-L6-v2,19,"false, berdledcd",11,,1.9047097,2.6357784,0.24471217393875122,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T19
+0.24",True
+paraphrase-MiniLM-L6-v2,19,"false, berdledcd",94,,2.0984845,2.936896,0.24471217393875122,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T19
+0.24",True
+paraphrase-MiniLM-L6-v2,19,"false, berdledcd",109,,2.056981,3.0658426,0.24471217393875122,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T19
+0.24",True
+paraphrase-MiniLM-L6-v2,19,"false, berdledcd",296,,1.9256366,3.1251023,0.24471217393875122,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T19
+0.24",True
+paraphrase-MiniLM-L6-v2,19,"false, berdledcd",361,,2.1173594,2.8152292,0.24471217393875122,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T19
+0.24",True
+paraphrase-MiniLM-L6-v2,19,"false, berdledcd",416,,2.0462372,3.087574,0.24471217393875122,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T19
+0.24",True
+paraphrase-MiniLM-L6-v2,19,"false, berdledcd",447,,2.1324742,2.7627423,0.24471217393875122,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T19
+0.24",True
+paraphrase-MiniLM-L6-v2,19,"false, berdledcd",453,,2.0379457,2.628871,0.24471217393875122,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T19
+0.24",True
+paraphrase-MiniLM-L6-v2,19,"false, berdledcd",556,,2.005248,2.8787441,0.24471217393875122,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T19
+0.24",True
+paraphrase-MiniLM-L6-v2,19,"false, berdledcd",742,,2.0104856,2.9710863,0.24471217393875122,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T19
+0.24",True
+paraphrase-MiniLM-L6-v2,20,"image, tamper",324,,-2.6858082,8.3494835,0.3137866258621216,"(np.float64(0.6823529411764706), np.float64(0.7803921568627451), np.float64(0.9098039215686274), np.float64(1.0))","T20
+0.31",True
+paraphrase-MiniLM-L6-v2,20,"image, tamper",330,,-2.4914937,7.8849697,0.3137866258621216,"(np.float64(0.6823529411764706), np.float64(0.7803921568627451), np.float64(0.9098039215686274), np.float64(1.0))","T20
+0.31",True
+paraphrase-MiniLM-L6-v2,20,"image, tamper",409,,-2.5460758,8.254453,0.3137866258621216,"(np.float64(0.6823529411764706), np.float64(0.7803921568627451), np.float64(0.9098039215686274), np.float64(1.0))","T20
+0.31",True
+paraphrase-MiniLM-L6-v2,20,"image, tamper",460,,-2.585807,8.458708,0.3137866258621216,"(np.float64(0.6823529411764706), np.float64(0.7803921568627451), np.float64(0.9098039215686274), np.float64(1.0))","T20
+0.31",True
+paraphrase-MiniLM-L6-v2,20,"image, tamper",524,,-2.4071205,8.140959,0.3137866258621216,"(np.float64(0.6823529411764706), np.float64(0.7803921568627451), np.float64(0.9098039215686274), np.float64(1.0))","T20
+0.31",True
+paraphrase-MiniLM-L6-v2,20,"image, tamper",530,,-2.414609,8.401339,0.3137866258621216,"(np.float64(0.6823529411764706), np.float64(0.7803921568627451), np.float64(0.9098039215686274), np.float64(1.0))","T20
+0.31",True
+paraphrase-MiniLM-L6-v2,20,"image, tamper",576,,-2.4328144,8.263911,0.3137866258621216,"(np.float64(0.6823529411764706), np.float64(0.7803921568627451), np.float64(0.9098039215686274), np.float64(1.0))","T20
+0.31",True
+paraphrase-MiniLM-L6-v2,20,"image, tamper",699,,-2.6988602,8.516628,0.3137866258621216,"(np.float64(0.6823529411764706), np.float64(0.7803921568627451), np.float64(0.9098039215686274), np.float64(1.0))","T20
+0.31",True
+paraphrase-MiniLM-L6-v2,20,"image, tamper",704,,-2.286284,8.581445,0.3137866258621216,"(np.float64(0.6823529411764706), np.float64(0.7803921568627451), np.float64(0.9098039215686274), np.float64(1.0))","T20
+0.31",True
+paraphrase-MiniLM-L6-v2,20,"image, tamper",728,,-2.3752096,8.461751,0.3137866258621216,"(np.float64(0.6823529411764706), np.float64(0.7803921568627451), np.float64(0.9098039215686274), np.float64(1.0))","T20
+0.31",True
+paraphrase-MiniLM-L6-v2,21,"truth, discovery",195,,2.6680205,5.708891,0.767706036567688,"(np.float64(1.0), np.float64(0.4980392156862745), np.float64(0.054901960784313725), np.float64(1.0))","T21
+0.77",False
+paraphrase-MiniLM-L6-v2,21,"truth, discovery",471,,3.6896281,6.087126,0.767706036567688,"(np.float64(1.0), np.float64(0.4980392156862745), np.float64(0.054901960784313725), np.float64(1.0))","T21
+0.77",False
+paraphrase-MiniLM-L6-v2,21,"truth, discovery",513,,2.9707773,5.8611875,0.767706036567688,"(np.float64(1.0), np.float64(0.4980392156862745), np.float64(0.054901960784313725), np.float64(1.0))","T21
+0.77",False
+paraphrase-MiniLM-L6-v2,21,"truth, discovery",565,,2.7795343,6.533258,0.767706036567688,"(np.float64(1.0), np.float64(0.4980392156862745), np.float64(0.054901960784313725), np.float64(1.0))","T21
+0.77",False
+paraphrase-MiniLM-L6-v2,21,"truth, discovery",648,,3.6041527,5.910311,0.767706036567688,"(np.float64(1.0), np.float64(0.4980392156862745), np.float64(0.054901960784313725), np.float64(1.0))","T21
+0.77",False
+paraphrase-MiniLM-L6-v2,21,"truth, discovery",713,,3.5589297,5.898919,0.767706036567688,"(np.float64(1.0), np.float64(0.4980392156862745), np.float64(0.054901960784313725), np.float64(1.0))","T21
+0.77",False
+paraphrase-MiniLM-L6-v2,21,"truth, discovery",721,,2.482537,7.337195,0.767706036567688,"(np.float64(1.0), np.float64(0.4980392156862745), np.float64(0.054901960784313725), np.float64(1.0))","T21
+0.77",False
+paraphrase-MiniLM-L6-v2,21,"truth, discovery",746,,3.6383967,5.985989,0.767706036567688,"(np.float64(1.0), np.float64(0.4980392156862745), np.float64(0.054901960784313725), np.float64(1.0))","T21
+0.77",False
+paraphrase-MiniLM-L6-v2,21,"truth, discovery",791,,3.0579314,5.964629,0.767706036567688,"(np.float64(1.0), np.float64(0.4980392156862745), np.float64(0.054901960784313725), np.float64(1.0))","T21
+0.77",False
+paraphrase-MiniLM-L6-v2,21,"truth, discovery",810,,3.2296462,6.1008077,0.767706036567688,"(np.float64(1.0), np.float64(0.4980392156862745), np.float64(0.054901960784313725), np.float64(1.0))","T21
+0.77",False
+paraphrase-MiniLM-L6-v2,22,"deepfake, feature",1,,-4.1211133,8.236183,0.2289307713508606,"(np.float64(1.0), np.float64(0.7333333333333333), np.float64(0.47058823529411764), np.float64(1.0))","T22
+0.23",True
+paraphrase-MiniLM-L6-v2,22,"deepfake, feature",71,,-4.1957865,8.261725,0.2289307713508606,"(np.float64(1.0), np.float64(0.7333333333333333), np.float64(0.47058823529411764), np.float64(1.0))","T22
+0.23",True
+paraphrase-MiniLM-L6-v2,22,"deepfake, feature",73,,-4.3150053,8.24109,0.2289307713508606,"(np.float64(1.0), np.float64(0.7333333333333333), np.float64(0.47058823529411764), np.float64(1.0))","T22
+0.23",True
+paraphrase-MiniLM-L6-v2,22,"deepfake, feature",156,,-4.508643,8.198671,0.2289307713508606,"(np.float64(1.0), np.float64(0.7333333333333333), np.float64(0.47058823529411764), np.float64(1.0))","T22
+0.23",True
+paraphrase-MiniLM-L6-v2,22,"deepfake, feature",157,,-4.390369,8.093134,0.2289307713508606,"(np.float64(1.0), np.float64(0.7333333333333333), np.float64(0.47058823529411764), np.float64(1.0))","T22
+0.23",True
+paraphrase-MiniLM-L6-v2,22,"deepfake, feature",164,,-4.0054684,8.25244,0.2289307713508606,"(np.float64(1.0), np.float64(0.7333333333333333), np.float64(0.47058823529411764), np.float64(1.0))","T22
+0.23",True
+paraphrase-MiniLM-L6-v2,22,"deepfake, feature",323,,-4.5952435,8.152298,0.2289307713508606,"(np.float64(1.0), np.float64(0.7333333333333333), np.float64(0.47058823529411764), np.float64(1.0))","T22
+0.23",True
+paraphrase-MiniLM-L6-v2,22,"deepfake, feature",333,,-4.3924823,8.19023,0.2289307713508606,"(np.float64(1.0), np.float64(0.7333333333333333), np.float64(0.47058823529411764), np.float64(1.0))","T22
+0.23",True
+paraphrase-MiniLM-L6-v2,22,"deepfake, feature",351,,-4.358458,8.253115,0.2289307713508606,"(np.float64(1.0), np.float64(0.7333333333333333), np.float64(0.47058823529411764), np.float64(1.0))","T22
+0.23",True
+paraphrase-MiniLM-L6-v2,22,"deepfake, feature",622,,-4.25739,8.275289,0.2289307713508606,"(np.float64(1.0), np.float64(0.7333333333333333), np.float64(0.47058823529411764), np.float64(1.0))","T22
+0.23",True
+paraphrase-MiniLM-L6-v2,23,Journalism & Media Studies,4,,3.7816803,3.1345356,0.34586101770401,"(np.float64(0.17254901960784313), np.float64(0.6274509803921569), np.float64(0.17254901960784313), np.float64(1.0))","T23
+0.35",True
+paraphrase-MiniLM-L6-v2,23,Journalism & Media Studies,277,,3.6096308,3.2505734,0.34586101770401,"(np.float64(0.17254901960784313), np.float64(0.6274509803921569), np.float64(0.17254901960784313), np.float64(1.0))","T23
+0.35",True
+paraphrase-MiniLM-L6-v2,23,Journalism & Media Studies,412,,3.8427498,3.3651843,0.34586101770401,"(np.float64(0.17254901960784313), np.float64(0.6274509803921569), np.float64(0.17254901960784313), np.float64(1.0))","T23
+0.35",True
+paraphrase-MiniLM-L6-v2,23,Journalism & Media Studies,440,,3.0551853,2.5626519,0.34586101770401,"(np.float64(0.17254901960784313), np.float64(0.6274509803921569), np.float64(0.17254901960784313), np.float64(1.0))","T23
+0.35",True
+paraphrase-MiniLM-L6-v2,23,Journalism & Media Studies,465,,3.354378,3.0498414,0.34586101770401,"(np.float64(0.17254901960784313), np.float64(0.6274509803921569), np.float64(0.17254901960784313), np.float64(1.0))","T23
+0.35",True
+paraphrase-MiniLM-L6-v2,23,Journalism & Media Studies,539,,3.6625454,3.1106236,0.34586101770401,"(np.float64(0.17254901960784313), np.float64(0.6274509803921569), np.float64(0.17254901960784313), np.float64(1.0))","T23
+0.35",True
+paraphrase-MiniLM-L6-v2,23,Journalism & Media Studies,630,,3.711417,3.0758834,0.34586101770401,"(np.float64(0.17254901960784313), np.float64(0.6274509803921569), np.float64(0.17254901960784313), np.float64(1.0))","T23
+0.35",True
+paraphrase-MiniLM-L6-v2,23,Journalism & Media Studies,657,,3.6345677,3.145737,0.34586101770401,"(np.float64(0.17254901960784313), np.float64(0.6274509803921569), np.float64(0.17254901960784313), np.float64(1.0))","T23
+0.35",True
+paraphrase-MiniLM-L6-v2,23,Journalism & Media Studies,662,,3.5557914,3.2152364,0.34586101770401,"(np.float64(0.17254901960784313), np.float64(0.6274509803921569), np.float64(0.17254901960784313), np.float64(1.0))","T23
+0.35",True
+paraphrase-MiniLM-L6-v2,23,Journalism & Media Studies,766,,3.5505514,3.267675,0.34586101770401,"(np.float64(0.17254901960784313), np.float64(0.6274509803921569), np.float64(0.17254901960784313), np.float64(1.0))","T23
+0.35",True
+paraphrase-MiniLM-L6-v2,24,Misinformation & Propaganda,86,,0.66195846,3.2818077,0.8869373798370361,"(np.float64(0.596078431372549), np.float64(0.8745098039215686), np.float64(0.5411764705882353), np.float64(1.0))","T24
+0.89",False
+paraphrase-MiniLM-L6-v2,24,Misinformation & Propaganda,99,,0.66106397,3.1814005,0.8869373798370361,"(np.float64(0.596078431372549), np.float64(0.8745098039215686), np.float64(0.5411764705882353), np.float64(1.0))","T24
+0.89",False
+paraphrase-MiniLM-L6-v2,24,Misinformation & Propaganda,129,,1.3395972,2.5837984,0.8869373798370361,"(np.float64(0.596078431372549), np.float64(0.8745098039215686), np.float64(0.5411764705882353), np.float64(1.0))","T24
+0.89",False
+paraphrase-MiniLM-L6-v2,24,Misinformation & Propaganda,233,,1.3727397,4.046987,0.8869373798370361,"(np.float64(0.596078431372549), np.float64(0.8745098039215686), np.float64(0.5411764705882353), np.float64(1.0))","T24
+0.89",False
+paraphrase-MiniLM-L6-v2,24,Misinformation & Propaganda,270,,0.942541,3.0993838,0.8869373798370361,"(np.float64(0.596078431372549), np.float64(0.8745098039215686), np.float64(0.5411764705882353), np.float64(1.0))","T24
+0.89",False
+paraphrase-MiniLM-L6-v2,24,Misinformation & Propaganda,288,,1.3909378,2.3528435,0.8869373798370361,"(np.float64(0.596078431372549), np.float64(0.8745098039215686), np.float64(0.5411764705882353), np.float64(1.0))","T24
+0.89",False
+paraphrase-MiniLM-L6-v2,24,Misinformation & Propaganda,294,,1.8969455,2.3925576,0.8869373798370361,"(np.float64(0.596078431372549), np.float64(0.8745098039215686), np.float64(0.5411764705882353), np.float64(1.0))","T24
+0.89",False
+paraphrase-MiniLM-L6-v2,24,Misinformation & Propaganda,360,,0.8393198,3.4871175,0.8869373798370361,"(np.float64(0.596078431372549), np.float64(0.8745098039215686), np.float64(0.5411764705882353), np.float64(1.0))","T24
+0.89",False
+paraphrase-MiniLM-L6-v2,24,Misinformation & Propaganda,452,,1.1008968,2.7618477,0.8869373798370361,"(np.float64(0.596078431372549), np.float64(0.8745098039215686), np.float64(0.5411764705882353), np.float64(1.0))","T24
+0.89",False
+paraphrase-MiniLM-L6-v2,24,Misinformation & Propaganda,607,,0.8027131,2.25579,0.8869373798370361,"(np.float64(0.596078431372549), np.float64(0.8745098039215686), np.float64(0.5411764705882353), np.float64(1.0))","T24
+0.89",False
+paraphrase-MiniLM-L6-v2,25,"false, multimodal",7,,1.6416562,3.7609348,0.4949483871459961,"(np.float64(0.8392156862745098), np.float64(0.15294117647058825), np.float64(0.1568627450980392), np.float64(1.0))","T25
+0.49",True
+paraphrase-MiniLM-L6-v2,25,"false, multimodal",84,,1.9257069,3.4409547,0.4949483871459961,"(np.float64(0.8392156862745098), np.float64(0.15294117647058825), np.float64(0.1568627450980392), np.float64(1.0))","T25
+0.49",True
+paraphrase-MiniLM-L6-v2,25,"false, multimodal",95,,1.867311,3.9055622,0.4949483871459961,"(np.float64(0.8392156862745098), np.float64(0.15294117647058825), np.float64(0.1568627450980392), np.float64(1.0))","T25
+0.49",True
+paraphrase-MiniLM-L6-v2,25,"false, multimodal",219,,1.7718182,4.0644436,0.4949483871459961,"(np.float64(0.8392156862745098), np.float64(0.15294117647058825), np.float64(0.1568627450980392), np.float64(1.0))","T25
+0.49",True
+paraphrase-MiniLM-L6-v2,25,"false, multimodal",260,,1.797978,3.8234465,0.4949483871459961,"(np.float64(0.8392156862745098), np.float64(0.15294117647058825), np.float64(0.1568627450980392), np.float64(1.0))","T25
+0.49",True
+paraphrase-MiniLM-L6-v2,25,"false, multimodal",620,,2.3657336,3.6028767,0.4949483871459961,"(np.float64(0.8392156862745098), np.float64(0.15294117647058825), np.float64(0.1568627450980392), np.float64(1.0))","T25
+0.49",True
+paraphrase-MiniLM-L6-v2,25,"false, multimodal",636,,2.547561,3.7211921,0.4949483871459961,"(np.float64(0.8392156862745098), np.float64(0.15294117647058825), np.float64(0.1568627450980392), np.float64(1.0))","T25
+0.49",True
+paraphrase-MiniLM-L6-v2,25,"false, multimodal",692,,2.404011,3.4030087,0.4949483871459961,"(np.float64(0.8392156862745098), np.float64(0.15294117647058825), np.float64(0.1568627450980392), np.float64(1.0))","T25
+0.49",True
+paraphrase-MiniLM-L6-v2,25,"false, multimodal",703,,2.0863087,3.6947079,0.4949483871459961,"(np.float64(0.8392156862745098), np.float64(0.15294117647058825), np.float64(0.1568627450980392), np.float64(1.0))","T25
+0.49",True
+paraphrase-MiniLM-L6-v2,26,"videos, video",5,,-4.137125,7.747648,0.29733186960220337,"(np.float64(1.0), np.float64(0.596078431372549), np.float64(0.5882352941176471), np.float64(1.0))","T26
+0.30",True
+paraphrase-MiniLM-L6-v2,26,"videos, video",37,,-3.6209407,8.007049,0.29733186960220337,"(np.float64(1.0), np.float64(0.596078431372549), np.float64(0.5882352941176471), np.float64(1.0))","T26
+0.30",True
+paraphrase-MiniLM-L6-v2,26,"videos, video",142,,-3.863208,8.095763,0.29733186960220337,"(np.float64(1.0), np.float64(0.596078431372549), np.float64(0.5882352941176471), np.float64(1.0))","T26
+0.30",True
+paraphrase-MiniLM-L6-v2,26,"videos, video",146,,-4.1842012,7.7898254,0.29733186960220337,"(np.float64(1.0), np.float64(0.596078431372549), np.float64(0.5882352941176471), np.float64(1.0))","T26
+0.30",True
+paraphrase-MiniLM-L6-v2,26,"videos, video",169,,-4.066354,7.67765,0.29733186960220337,"(np.float64(1.0), np.float64(0.596078431372549), np.float64(0.5882352941176471), np.float64(1.0))","T26
+0.30",True
+paraphrase-MiniLM-L6-v2,26,"videos, video",273,,-3.91652,7.7227583,0.29733186960220337,"(np.float64(1.0), np.float64(0.596078431372549), np.float64(0.5882352941176471), np.float64(1.0))","T26
+0.30",True
+paraphrase-MiniLM-L6-v2,26,"videos, video",316,,-3.906613,7.8071346,0.29733186960220337,"(np.float64(1.0), np.float64(0.596078431372549), np.float64(0.5882352941176471), np.float64(1.0))","T26
+0.30",True
+paraphrase-MiniLM-L6-v2,26,"videos, video",521,,-3.926384,7.7239447,0.29733186960220337,"(np.float64(1.0), np.float64(0.596078431372549), np.float64(0.5882352941176471), np.float64(1.0))","T26
+0.30",True
+paraphrase-MiniLM-L6-v2,26,"videos, video",558,,-4.1709266,7.600294,0.29733186960220337,"(np.float64(1.0), np.float64(0.596078431372549), np.float64(0.5882352941176471), np.float64(1.0))","T26
+0.30",True
+paraphrase-MiniLM-L6-v2,27,"abortion, safety",53,,3.0841925,6.4199266,0.7050630450248718,"(np.float64(0.5803921568627451), np.float64(0.403921568627451), np.float64(0.7411764705882353), np.float64(1.0))","T27
+0.71",False
+paraphrase-MiniLM-L6-v2,27,"abortion, safety",343,,2.9247365,6.903316,0.7050630450248718,"(np.float64(0.5803921568627451), np.float64(0.403921568627451), np.float64(0.7411764705882353), np.float64(1.0))","T27
+0.71",False
+paraphrase-MiniLM-L6-v2,27,"abortion, safety",511,,3.0188608,5.330662,0.7050630450248718,"(np.float64(0.5803921568627451), np.float64(0.403921568627451), np.float64(0.7411764705882353), np.float64(1.0))","T27
+0.71",False
+paraphrase-MiniLM-L6-v2,27,"abortion, safety",603,,3.1207817,6.126396,0.7050630450248718,"(np.float64(0.5803921568627451), np.float64(0.403921568627451), np.float64(0.7411764705882353), np.float64(1.0))","T27
+0.71",False
+paraphrase-MiniLM-L6-v2,27,"abortion, safety",709,,2.9981978,6.786426,0.7050630450248718,"(np.float64(0.5803921568627451), np.float64(0.403921568627451), np.float64(0.7411764705882353), np.float64(1.0))","T27
+0.71",False
+paraphrase-MiniLM-L6-v2,27,"abortion, safety",714,,2.9594216,6.138489,0.7050630450248718,"(np.float64(0.5803921568627451), np.float64(0.403921568627451), np.float64(0.7411764705882353), np.float64(1.0))","T27
+0.71",False
+paraphrase-MiniLM-L6-v2,27,"abortion, safety",718,,3.126886,5.628739,0.7050630450248718,"(np.float64(0.5803921568627451), np.float64(0.403921568627451), np.float64(0.7411764705882353), np.float64(1.0))","T27
+0.71",False
+paraphrase-MiniLM-L6-v2,27,"abortion, safety",772,,3.0616162,6.6112294,0.7050630450248718,"(np.float64(0.5803921568627451), np.float64(0.403921568627451), np.float64(0.7411764705882353), np.float64(1.0))","T27
+0.71",False
+paraphrase-MiniLM-L6-v2,27,"abortion, safety",778,,2.900769,5.5168886,0.7050630450248718,"(np.float64(0.5803921568627451), np.float64(0.403921568627451), np.float64(0.7411764705882353), np.float64(1.0))","T27
+0.71",False
+paraphrase-MiniLM-L6-v2,28,Misinformation & Propaganda,58,,-3.6638055,7.1466813,0.15537358820438385,"(np.float64(0.7725490196078432), np.float64(0.6901960784313725), np.float64(0.8352941176470589), np.float64(1.0))","T28
+0.16",True
+paraphrase-MiniLM-L6-v2,28,Misinformation & Propaganda,190,,-3.7205753,7.3050914,0.15537358820438385,"(np.float64(0.7725490196078432), np.float64(0.6901960784313725), np.float64(0.8352941176470589), np.float64(1.0))","T28
+0.16",True
+paraphrase-MiniLM-L6-v2,28,Misinformation & Propaganda,193,,-3.6001518,7.376735,0.15537358820438385,"(np.float64(0.7725490196078432), np.float64(0.6901960784313725), np.float64(0.8352941176470589), np.float64(1.0))","T28
+0.16",True
+paraphrase-MiniLM-L6-v2,28,Misinformation & Propaganda,246,,-3.6012886,7.4539676,0.15537358820438385,"(np.float64(0.7725490196078432), np.float64(0.6901960784313725), np.float64(0.8352941176470589), np.float64(1.0))","T28
+0.16",True
+paraphrase-MiniLM-L6-v2,28,Misinformation & Propaganda,258,,-3.613026,7.258755,0.15537358820438385,"(np.float64(0.7725490196078432), np.float64(0.6901960784313725), np.float64(0.8352941176470589), np.float64(1.0))","T28
+0.16",True
+paraphrase-MiniLM-L6-v2,28,Misinformation & Propaganda,278,,-3.632594,7.261812,0.15537358820438385,"(np.float64(0.7725490196078432), np.float64(0.6901960784313725), np.float64(0.8352941176470589), np.float64(1.0))","T28
+0.16",True
+paraphrase-MiniLM-L6-v2,28,Misinformation & Propaganda,287,,-3.6139536,7.123217,0.15537358820438385,"(np.float64(0.7725490196078432), np.float64(0.6901960784313725), np.float64(0.8352941176470589), np.float64(1.0))","T28
+0.16",True
+paraphrase-MiniLM-L6-v2,28,Misinformation & Propaganda,464,,-3.6987503,7.3134546,0.15537358820438385,"(np.float64(0.7725490196078432), np.float64(0.6901960784313725), np.float64(0.8352941176470589), np.float64(1.0))","T28
+0.16",True
+paraphrase-MiniLM-L6-v2,28,Misinformation & Propaganda,600,,-3.7768173,7.23686,0.15537358820438385,"(np.float64(0.7725490196078432), np.float64(0.6901960784313725), np.float64(0.8352941176470589), np.float64(1.0))","T28
+0.16",True
+paraphrase-MiniLM-L6-v2,29,Misinformation & Propaganda,63,,1.2669724,4.3008685,0.7964136600494385,"(np.float64(0.5490196078431373), np.float64(0.33725490196078434), np.float64(0.29411764705882354), np.float64(1.0))","T29
+0.80",False
+paraphrase-MiniLM-L6-v2,29,Misinformation & Propaganda,126,,1.2664403,3.9868546,0.7964136600494385,"(np.float64(0.5490196078431373), np.float64(0.33725490196078434), np.float64(0.29411764705882354), np.float64(1.0))","T29
+0.80",False
+paraphrase-MiniLM-L6-v2,29,Misinformation & Propaganda,227,,1.1631491,3.452483,0.7964136600494385,"(np.float64(0.5490196078431373), np.float64(0.33725490196078434), np.float64(0.29411764705882354), np.float64(1.0))","T29
+0.80",False
+paraphrase-MiniLM-L6-v2,29,Misinformation & Propaganda,300,,0.64859945,2.9527504,0.7964136600494385,"(np.float64(0.5490196078431373), np.float64(0.33725490196078434), np.float64(0.29411764705882354), np.float64(1.0))","T29
+0.80",False
+paraphrase-MiniLM-L6-v2,29,Misinformation & Propaganda,303,,1.283811,3.422731,0.7964136600494385,"(np.float64(0.5490196078431373), np.float64(0.33725490196078434), np.float64(0.29411764705882354), np.float64(1.0))","T29
+0.80",False
+paraphrase-MiniLM-L6-v2,29,Misinformation & Propaganda,661,,0.8634497,2.9304354,0.7964136600494385,"(np.float64(0.5490196078431373), np.float64(0.33725490196078434), np.float64(0.29411764705882354), np.float64(1.0))","T29
+0.80",False
+paraphrase-MiniLM-L6-v2,29,Misinformation & Propaganda,684,,1.3340791,3.7264295,0.7964136600494385,"(np.float64(0.5490196078431373), np.float64(0.33725490196078434), np.float64(0.29411764705882354), np.float64(1.0))","T29
+0.80",False
+paraphrase-MiniLM-L6-v2,29,Misinformation & Propaganda,701,,0.4024759,2.522287,0.7964136600494385,"(np.float64(0.5490196078431373), np.float64(0.33725490196078434), np.float64(0.29411764705882354), np.float64(1.0))","T29
+0.80",False
+paraphrase-MiniLM-L6-v2,29,Misinformation & Propaganda,702,,0.89063615,3.2327547,0.7964136600494385,"(np.float64(0.5490196078431373), np.float64(0.33725490196078434), np.float64(0.29411764705882354), np.float64(1.0))","T29
+0.80",False
+paraphrase-MiniLM-L6-v2,30,Rumor on Social Media,0,,5.1239405,4.237687,0.10064151138067245,"(np.float64(0.7686274509803922), np.float64(0.611764705882353), np.float64(0.5803921568627451), np.float64(1.0))","T30
+0.10",True
+paraphrase-MiniLM-L6-v2,30,Rumor on Social Media,19,,5.142878,4.2330117,0.10064151138067245,"(np.float64(0.7686274509803922), np.float64(0.611764705882353), np.float64(0.5803921568627451), np.float64(1.0))","T30
+0.10",True
+paraphrase-MiniLM-L6-v2,30,Rumor on Social Media,183,,5.098231,4.231733,0.10064151138067245,"(np.float64(0.7686274509803922), np.float64(0.611764705882353), np.float64(0.5803921568627451), np.float64(1.0))","T30
+0.10",True
+paraphrase-MiniLM-L6-v2,30,Rumor on Social Media,201,,5.1328435,4.2758393,0.10064151138067245,"(np.float64(0.7686274509803922), np.float64(0.611764705882353), np.float64(0.5803921568627451), np.float64(1.0))","T30
+0.10",True
+paraphrase-MiniLM-L6-v2,30,Rumor on Social Media,305,,5.154668,4.203627,0.10064151138067245,"(np.float64(0.7686274509803922), np.float64(0.611764705882353), np.float64(0.5803921568627451), np.float64(1.0))","T30
+0.10",True
+paraphrase-MiniLM-L6-v2,30,Rumor on Social Media,366,,5.1693597,4.0863986,0.10064151138067245,"(np.float64(0.7686274509803922), np.float64(0.611764705882353), np.float64(0.5803921568627451), np.float64(1.0))","T30
+0.10",True
+paraphrase-MiniLM-L6-v2,30,Rumor on Social Media,473,,5.1049805,4.338702,0.10064151138067245,"(np.float64(0.7686274509803922), np.float64(0.611764705882353), np.float64(0.5803921568627451), np.float64(1.0))","T30
+0.10",True
+paraphrase-MiniLM-L6-v2,30,Rumor on Social Media,637,,5.16686,4.137153,0.10064151138067245,"(np.float64(0.7686274509803922), np.float64(0.611764705882353), np.float64(0.5803921568627451), np.float64(1.0))","T30
+0.10",True
+paraphrase-MiniLM-L6-v2,31,"images, faces",31,,-3.3348022,7.702056,0.3203967213630676,"(np.float64(0.8901960784313725), np.float64(0.4666666666666667), np.float64(0.7607843137254902), np.float64(1.0))","T31
+0.32",True
+paraphrase-MiniLM-L6-v2,31,"images, faces",155,,-3.312016,7.812115,0.3203967213630676,"(np.float64(0.8901960784313725), np.float64(0.4666666666666667), np.float64(0.7607843137254902), np.float64(1.0))","T31
+0.32",True
+paraphrase-MiniLM-L6-v2,31,"images, faces",162,,-3.4231374,7.885175,0.3203967213630676,"(np.float64(0.8901960784313725), np.float64(0.4666666666666667), np.float64(0.7607843137254902), np.float64(1.0))","T31
+0.32",True
+paraphrase-MiniLM-L6-v2,31,"images, faces",334,,-3.078629,7.706014,0.3203967213630676,"(np.float64(0.8901960784313725), np.float64(0.4666666666666667), np.float64(0.7607843137254902), np.float64(1.0))","T31
+0.32",True
+paraphrase-MiniLM-L6-v2,31,"images, faces",338,,-3.1851604,7.6788564,0.3203967213630676,"(np.float64(0.8901960784313725), np.float64(0.4666666666666667), np.float64(0.7607843137254902), np.float64(1.0))","T31
+0.32",True
+paraphrase-MiniLM-L6-v2,31,"images, faces",470,,-3.2930417,7.5725527,0.3203967213630676,"(np.float64(0.8901960784313725), np.float64(0.4666666666666667), np.float64(0.7607843137254902), np.float64(1.0))","T31
+0.32",True
+paraphrase-MiniLM-L6-v2,31,"images, faces",554,,-3.166652,7.9620013,0.3203967213630676,"(np.float64(0.8901960784313725), np.float64(0.4666666666666667), np.float64(0.7607843137254902), np.float64(1.0))","T31
+0.32",True
+paraphrase-MiniLM-L6-v2,31,"images, faces",626,,-3.5653605,8.226097,0.3203967213630676,"(np.float64(0.8901960784313725), np.float64(0.4666666666666667), np.float64(0.7607843137254902), np.float64(1.0))","T31
+0.32",True
+paraphrase-MiniLM-L6-v2,32,NLP Methods,117,,1.6297277,4.332829,0.41455739736557007,"(np.float64(0.9686274509803922), np.float64(0.7137254901960784), np.float64(0.8235294117647058), np.float64(1.0))","T32
+0.41",True
+paraphrase-MiniLM-L6-v2,32,NLP Methods,236,,1.2613201,3.506721,0.41455739736557007,"(np.float64(0.9686274509803922), np.float64(0.7137254901960784), np.float64(0.8235294117647058), np.float64(1.0))","T32
+0.41",True
+paraphrase-MiniLM-L6-v2,32,NLP Methods,251,,1.3118855,3.9719584,0.41455739736557007,"(np.float64(0.9686274509803922), np.float64(0.7137254901960784), np.float64(0.8235294117647058), np.float64(1.0))","T32
+0.41",True
+paraphrase-MiniLM-L6-v2,32,NLP Methods,299,,1.3482872,3.9092705,0.41455739736557007,"(np.float64(0.9686274509803922), np.float64(0.7137254901960784), np.float64(0.8235294117647058), np.float64(1.0))","T32
+0.41",True
+paraphrase-MiniLM-L6-v2,32,NLP Methods,425,,1.6182305,3.7061713,0.41455739736557007,"(np.float64(0.9686274509803922), np.float64(0.7137254901960784), np.float64(0.8235294117647058), np.float64(1.0))","T32
+0.41",True
+paraphrase-MiniLM-L6-v2,32,NLP Methods,439,,1.29671,3.6599574,0.41455739736557007,"(np.float64(0.9686274509803922), np.float64(0.7137254901960784), np.float64(0.8235294117647058), np.float64(1.0))","T32
+0.41",True
+paraphrase-MiniLM-L6-v2,32,NLP Methods,545,,1.5271056,4.0879946,0.41455739736557007,"(np.float64(0.9686274509803922), np.float64(0.7137254901960784), np.float64(0.8235294117647058), np.float64(1.0))","T32
+0.41",True
+paraphrase-MiniLM-L6-v2,33,Credibility Assessment,385,,4.0148463,3.8772287,0.24544045329093933,"(np.float64(0.4980392156862745), np.float64(0.4980392156862745), np.float64(0.4980392156862745), np.float64(1.0))","T33
+0.25",True
+paraphrase-MiniLM-L6-v2,33,Credibility Assessment,472,,3.7665184,3.7683716,0.24544045329093933,"(np.float64(0.4980392156862745), np.float64(0.4980392156862745), np.float64(0.4980392156862745), np.float64(1.0))","T33
+0.25",True
+paraphrase-MiniLM-L6-v2,33,Credibility Assessment,580,,4.006504,3.8764431,0.24544045329093933,"(np.float64(0.4980392156862745), np.float64(0.4980392156862745), np.float64(0.4980392156862745), np.float64(1.0))","T33
+0.25",True
+paraphrase-MiniLM-L6-v2,33,Credibility Assessment,669,,3.944893,4.019642,0.24544045329093933,"(np.float64(0.4980392156862745), np.float64(0.4980392156862745), np.float64(0.4980392156862745), np.float64(1.0))","T33
+0.25",True
+paraphrase-MiniLM-L6-v2,33,Credibility Assessment,706,,3.8938372,4.1383476,0.24544045329093933,"(np.float64(0.4980392156862745), np.float64(0.4980392156862745), np.float64(0.4980392156862745), np.float64(1.0))","T33
+0.25",True
+paraphrase-MiniLM-L6-v2,33,Credibility Assessment,753,,4.017364,3.8405476,0.24544045329093933,"(np.float64(0.4980392156862745), np.float64(0.4980392156862745), np.float64(0.4980392156862745), np.float64(1.0))","T33
+0.25",True
+paraphrase-MiniLM-L6-v2,33,Credibility Assessment,755,,3.954837,3.5969684,0.24544045329093933,"(np.float64(0.4980392156862745), np.float64(0.4980392156862745), np.float64(0.4980392156862745), np.float64(1.0))","T33
+0.25",True
+paraphrase-MiniLM-L6-v2,34,Misinformation & Propaganda,85,,2.023824,2.2995405,0.4849136471748352,"(np.float64(0.7803921568627451), np.float64(0.7803921568627451), np.float64(0.7803921568627451), np.float64(1.0))","T34
+0.48",True
+paraphrase-MiniLM-L6-v2,34,Misinformation & Propaganda,128,,1.7539085,2.3854406,0.4849136471748352,"(np.float64(0.7803921568627451), np.float64(0.7803921568627451), np.float64(0.7803921568627451), np.float64(1.0))","T34
+0.48",True
+paraphrase-MiniLM-L6-v2,34,Misinformation & Propaganda,302,,2.2291534,2.7962265,0.4849136471748352,"(np.float64(0.7803921568627451), np.float64(0.7803921568627451), np.float64(0.7803921568627451), np.float64(1.0))","T34
+0.48",True
+paraphrase-MiniLM-L6-v2,34,Misinformation & Propaganda,306,,1.8209795,2.0041497,0.4849136471748352,"(np.float64(0.7803921568627451), np.float64(0.7803921568627451), np.float64(0.7803921568627451), np.float64(1.0))","T34
+0.48",True
+paraphrase-MiniLM-L6-v2,34,Misinformation & Propaganda,418,,2.253474,2.5095384,0.4849136471748352,"(np.float64(0.7803921568627451), np.float64(0.7803921568627451), np.float64(0.7803921568627451), np.float64(1.0))","T34
+0.48",True
+paraphrase-MiniLM-L6-v2,34,Misinformation & Propaganda,489,,1.9164711,2.8344824,0.4849136471748352,"(np.float64(0.7803921568627451), np.float64(0.7803921568627451), np.float64(0.7803921568627451), np.float64(1.0))","T34
+0.48",True
+paraphrase-MiniLM-L6-v2,34,Misinformation & Propaganda,726,,1.7631037,2.6913543,0.4849136471748352,"(np.float64(0.7803921568627451), np.float64(0.7803921568627451), np.float64(0.7803921568627451), np.float64(1.0))","T34
+0.48",True
+paraphrase-MiniLM-L6-v2,35,Credibility Assessment,79,,3.5486698,4.612786,0.4803134799003601,"(np.float64(0.7372549019607844), np.float64(0.7411764705882353), np.float64(0.13333333333333333), np.float64(1.0))","T35
+0.48",True
+paraphrase-MiniLM-L6-v2,35,Credibility Assessment,407,,3.2619936,4.7997165,0.4803134799003601,"(np.float64(0.7372549019607844), np.float64(0.7411764705882353), np.float64(0.13333333333333333), np.float64(1.0))","T35
+0.48",True
+paraphrase-MiniLM-L6-v2,35,Credibility Assessment,433,,3.3286908,4.9443398,0.4803134799003601,"(np.float64(0.7372549019607844), np.float64(0.7411764705882353), np.float64(0.13333333333333333), np.float64(1.0))","T35
+0.48",True
+paraphrase-MiniLM-L6-v2,35,Credibility Assessment,665,,3.3136442,4.089264,0.4803134799003601,"(np.float64(0.7372549019607844), np.float64(0.7411764705882353), np.float64(0.13333333333333333), np.float64(1.0))","T35
+0.48",True
+paraphrase-MiniLM-L6-v2,35,Credibility Assessment,671,,3.4091647,4.556273,0.4803134799003601,"(np.float64(0.7372549019607844), np.float64(0.7411764705882353), np.float64(0.13333333333333333), np.float64(1.0))","T35
+0.48",True
+paraphrase-MiniLM-L6-v2,35,Credibility Assessment,700,,3.1636386,4.0045276,0.4803134799003601,"(np.float64(0.7372549019607844), np.float64(0.7411764705882353), np.float64(0.13333333333333333), np.float64(1.0))","T35
+0.48",True
+paraphrase-MiniLM-L6-v2,35,Credibility Assessment,773,,3.2479413,4.257448,0.4803134799003601,"(np.float64(0.7372549019607844), np.float64(0.7411764705882353), np.float64(0.13333333333333333), np.float64(1.0))","T35
+0.48",True
+paraphrase-MiniLM-L6-v2,36,"audio, deepfake",36,,-5.1318502,7.8113046,0.06697525084018707,"(np.float64(0.8588235294117647), np.float64(0.8588235294117647), np.float64(0.5529411764705883), np.float64(1.0))","T36
+0.07",True
+paraphrase-MiniLM-L6-v2,36,"audio, deepfake",38,,-5.163334,7.795113,0.06697525084018707,"(np.float64(0.8588235294117647), np.float64(0.8588235294117647), np.float64(0.5529411764705883), np.float64(1.0))","T36
+0.07",True
+paraphrase-MiniLM-L6-v2,36,"audio, deepfake",39,,-5.1529593,7.8010597,0.06697525084018707,"(np.float64(0.8588235294117647), np.float64(0.8588235294117647), np.float64(0.5529411764705883), np.float64(1.0))","T36
+0.07",True
+paraphrase-MiniLM-L6-v2,36,"audio, deepfake",143,,-5.189098,7.750851,0.06697525084018707,"(np.float64(0.8588235294117647), np.float64(0.8588235294117647), np.float64(0.5529411764705883), np.float64(1.0))","T36
+0.07",True
+paraphrase-MiniLM-L6-v2,36,"audio, deepfake",247,,-5.229078,7.697763,0.06697525084018707,"(np.float64(0.8588235294117647), np.float64(0.8588235294117647), np.float64(0.5529411764705883), np.float64(1.0))","T36
+0.07",True
+paraphrase-MiniLM-L6-v2,36,"audio, deepfake",326,,-5.11426,7.823582,0.06697525084018707,"(np.float64(0.8588235294117647), np.float64(0.8588235294117647), np.float64(0.5529411764705883), np.float64(1.0))","T36
+0.07",True
+paraphrase-MiniLM-L6-v2,36,"audio, deepfake",329,,-5.148596,7.8037553,0.06697525084018707,"(np.float64(0.8588235294117647), np.float64(0.8588235294117647), np.float64(0.5529411764705883), np.float64(1.0))","T36
+0.07",True
+paraphrase-MiniLM-L6-v2,37,Fact-Checking & Verification,198,,2.7665846,7.031039,0.335152268409729,"(np.float64(0.09019607843137255), np.float64(0.7450980392156863), np.float64(0.8117647058823529), np.float64(1.0))","T37
+0.34",True
+paraphrase-MiniLM-L6-v2,37,Fact-Checking & Verification,199,,2.7291853,7.281105,0.335152268409729,"(np.float64(0.09019607843137255), np.float64(0.7450980392156863), np.float64(0.8117647058823529), np.float64(1.0))","T37
+0.34",True
+paraphrase-MiniLM-L6-v2,37,Fact-Checking & Verification,598,,3.0009124,7.620637,0.335152268409729,"(np.float64(0.09019607843137255), np.float64(0.7450980392156863), np.float64(0.8117647058823529), np.float64(1.0))","T37
+0.34",True
+paraphrase-MiniLM-L6-v2,37,Fact-Checking & Verification,689,,2.9554174,7.0579247,0.335152268409729,"(np.float64(0.09019607843137255), np.float64(0.7450980392156863), np.float64(0.8117647058823529), np.float64(1.0))","T37
+0.34",True
+paraphrase-MiniLM-L6-v2,37,Fact-Checking & Verification,707,,3.0510318,7.374329,0.335152268409729,"(np.float64(0.09019607843137255), np.float64(0.7450980392156863), np.float64(0.8117647058823529), np.float64(1.0))","T37
+0.34",True
+paraphrase-MiniLM-L6-v2,37,Fact-Checking & Verification,779,,2.9360447,7.351435,0.335152268409729,"(np.float64(0.09019607843137255), np.float64(0.7450980392156863), np.float64(0.8117647058823529), np.float64(1.0))","T37
+0.34",True
+paraphrase-MiniLM-L6-v2,38,"experiment, recognition",87,,1.8155144,3.912719,1.2772423028945923,"(np.float64(0.6196078431372549), np.float64(0.8549019607843137), np.float64(0.8980392156862745), np.float64(1.0))","T38
+1.28",False
+paraphrase-MiniLM-L6-v2,38,"experiment, recognition",362,,1.8250327,3.1033936,1.2772423028945923,"(np.float64(0.6196078431372549), np.float64(0.8549019607843137), np.float64(0.8980392156862745), np.float64(1.0))","T38
+1.28",False
+paraphrase-MiniLM-L6-v2,38,"experiment, recognition",406,,0.640983,4.49799,1.2772423028945923,"(np.float64(0.6196078431372549), np.float64(0.8549019607843137), np.float64(0.8980392156862745), np.float64(1.0))","T38
+1.28",False
+paraphrase-MiniLM-L6-v2,38,"experiment, recognition",456,,1.762097,5.422829,1.2772423028945923,"(np.float64(0.6196078431372549), np.float64(0.8549019607843137), np.float64(0.8980392156862745), np.float64(1.0))","T38
+1.28",False
+paraphrase-MiniLM-L6-v2,38,"experiment, recognition",525,,1.7286493,3.09268,1.2772423028945923,"(np.float64(0.6196078431372549), np.float64(0.8549019607843137), np.float64(0.8980392156862745), np.float64(1.0))","T38
+1.28",False
+paraphrase-MiniLM-L6-v2,38,"experiment, recognition",617,,1.6462915,3.232129,1.2772423028945923,"(np.float64(0.6196078431372549), np.float64(0.8549019607843137), np.float64(0.8980392156862745), np.float64(1.0))","T38
+1.28",False
+paraphrase-MiniLM-L6-v2,39,"multimodal, crossmodal",10,,0.35346544,3.2692697,1.0523734092712402,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T39
+1.05",False
+paraphrase-MiniLM-L6-v2,39,"multimodal, crossmodal",132,,0.6000008,2.828682,1.0523734092712402,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T39
+1.05",False
+paraphrase-MiniLM-L6-v2,39,"multimodal, crossmodal",217,,0.4006027,3.2026896,1.0523734092712402,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T39
+1.05",False
+paraphrase-MiniLM-L6-v2,39,"multimodal, crossmodal",284,,1.4886613,3.2662497,1.0523734092712402,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T39
+1.05",False
+paraphrase-MiniLM-L6-v2,39,"multimodal, crossmodal",378,,1.2574196,4.6825624,1.0523734092712402,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T39
+1.05",False
+paraphrase-MiniLM-L6-v2,39,"multimodal, crossmodal",479,,0.57763666,3.95903,1.0523734092712402,"(np.float64(0.12156862745098039), np.float64(0.4666666666666667), np.float64(0.7058823529411765), np.float64(1.0))","T39
+1.05",False
+paraphrase-MiniLM-L6-v2,40,"reviews, ecommerce",321,,8.349977,2.8787057,0.08956645429134369,"(np.float64(0.6823529411764706), np.float64(0.7803921568627451), np.float64(0.9098039215686274), np.float64(1.0))","T40
+0.09",True
+paraphrase-MiniLM-L6-v2,40,"reviews, ecommerce",327,,8.304991,2.9857128,0.08956645429134369,"(np.float64(0.6823529411764706), np.float64(0.7803921568627451), np.float64(0.9098039215686274), np.float64(1.0))","T40
+0.09",True
+paraphrase-MiniLM-L6-v2,40,"reviews, ecommerce",462,,8.274762,2.9662728,0.08956645429134369,"(np.float64(0.6823529411764706), np.float64(0.7803921568627451), np.float64(0.9098039215686274), np.float64(1.0))","T40
+0.09",True
+paraphrase-MiniLM-L6-v2,40,"reviews, ecommerce",729,,8.3305025,2.934752,0.08956645429134369,"(np.float64(0.6823529411764706), np.float64(0.7803921568627451), np.float64(0.9098039215686274), np.float64(1.0))","T40
+0.09",True
+paraphrase-MiniLM-L6-v2,40,"reviews, ecommerce",781,,8.403053,3.0027847,0.08956645429134369,"(np.float64(0.6823529411764706), np.float64(0.7803921568627451), np.float64(0.9098039215686274), np.float64(1.0))","T40
+0.09",True
+paraphrase-MiniLM-L6-v2,40,"reviews, ecommerce",789,,8.394091,2.9878247,0.08956645429134369,"(np.float64(0.6823529411764706), np.float64(0.7803921568627451), np.float64(0.9098039215686274), np.float64(1.0))","T40
+0.09",True
+paraphrase-MiniLM-L6-v2,41,Misinformation & Propaganda,264,,3.440969,2.7732015,0.25822898745536804,"(np.float64(1.0), np.float64(0.4980392156862745), np.float64(0.054901960784313725), np.float64(1.0))","T41
+0.26",True
+paraphrase-MiniLM-L6-v2,41,Misinformation & Propaganda,276,,3.5668674,2.816531,0.25822898745536804,"(np.float64(1.0), np.float64(0.4980392156862745), np.float64(0.054901960784313725), np.float64(1.0))","T41
+0.26",True
+paraphrase-MiniLM-L6-v2,41,Misinformation & Propaganda,283,,3.529383,2.7987614,0.25822898745536804,"(np.float64(1.0), np.float64(0.4980392156862745), np.float64(0.054901960784313725), np.float64(1.0))","T41
+0.26",True
+paraphrase-MiniLM-L6-v2,41,Misinformation & Propaganda,307,,3.2929118,2.3066568,0.25822898745536804,"(np.float64(1.0), np.float64(0.4980392156862745), np.float64(0.054901960784313725), np.float64(1.0))","T41
+0.26",True
+paraphrase-MiniLM-L6-v2,41,Misinformation & Propaganda,550,,3.547022,2.8336542,0.25822898745536804,"(np.float64(1.0), np.float64(0.4980392156862745), np.float64(0.054901960784313725), np.float64(1.0))","T41
+0.26",True
+paraphrase-MiniLM-L6-v2,41,Misinformation & Propaganda,590,,3.3982027,2.6244528,0.25822898745536804,"(np.float64(1.0), np.float64(0.4980392156862745), np.float64(0.054901960784313725), np.float64(1.0))","T41
+0.26",True
+paraphrase-MiniLM-L6-v2,42,Rumor on Social Media,224,,4.583555,3.877081,0.25759023427963257,"(np.float64(1.0), np.float64(0.7333333333333333), np.float64(0.47058823529411764), np.float64(1.0))","T42
+0.26",True
+paraphrase-MiniLM-L6-v2,42,Rumor on Social Media,346,,4.613961,3.7501895,0.25759023427963257,"(np.float64(1.0), np.float64(0.7333333333333333), np.float64(0.47058823529411764), np.float64(1.0))","T42
+0.26",True
+paraphrase-MiniLM-L6-v2,42,Rumor on Social Media,546,,4.665128,3.4869807,0.25759023427963257,"(np.float64(1.0), np.float64(0.7333333333333333), np.float64(0.47058823529411764), np.float64(1.0))","T42
+0.26",True
+paraphrase-MiniLM-L6-v2,42,Rumor on Social Media,676,,4.6436195,3.4202554,0.25759023427963257,"(np.float64(1.0), np.float64(0.7333333333333333), np.float64(0.47058823529411764), np.float64(1.0))","T42
+0.26",True
+paraphrase-MiniLM-L6-v2,42,Rumor on Social Media,682,,4.7426724,3.4828885,0.25759023427963257,"(np.float64(1.0), np.float64(0.7333333333333333), np.float64(0.47058823529411764), np.float64(1.0))","T42
+0.26",True
+paraphrase-MiniLM-L6-v2,43,"fnd, ftransform",3,,0.21304616,2.8823202,0.2650606334209442,"(np.float64(0.17254901960784313), np.float64(0.6274509803921569), np.float64(0.17254901960784313), np.float64(1.0))","T43
+0.27",True
+paraphrase-MiniLM-L6-v2,43,"fnd, ftransform",91,,0.42765015,3.0355153,0.2650606334209442,"(np.float64(0.17254901960784313), np.float64(0.6274509803921569), np.float64(0.17254901960784313), np.float64(1.0))","T43
+0.27",True
+paraphrase-MiniLM-L6-v2,43,"fnd, ftransform",93,,0.1785234,2.8351333,0.2650606334209442,"(np.float64(0.17254901960784313), np.float64(0.6274509803921569), np.float64(0.17254901960784313), np.float64(1.0))","T43
+0.27",True
+paraphrase-MiniLM-L6-v2,43,"fnd, ftransform",216,,0.6141432,2.858866,0.2650606334209442,"(np.float64(0.17254901960784313), np.float64(0.6274509803921569), np.float64(0.17254901960784313), np.float64(1.0))","T43
+0.27",True
+paraphrase-MiniLM-L6-v2,43,"fnd, ftransform",238,,0.17347758,2.8015172,0.2650606334209442,"(np.float64(0.17254901960784313), np.float64(0.6274509803921569), np.float64(0.17254901960784313), np.float64(1.0))","T43
+0.27",True
+paraphrase-MiniLM-L6-v2,44,Misinformation & Propaganda,92,,3.324284,2.6158178,0.16766205430030823,"(np.float64(0.596078431372549), np.float64(0.8745098039215686), np.float64(0.5411764705882353), np.float64(1.0))","T44
+0.17",True
+paraphrase-MiniLM-L6-v2,44,Misinformation & Propaganda,428,,2.9897716,2.6780586,0.16766205430030823,"(np.float64(0.596078431372549), np.float64(0.8745098039215686), np.float64(0.5411764705882353), np.float64(1.0))","T44
+0.17",True
+paraphrase-MiniLM-L6-v2,44,Misinformation & Propaganda,518,,3.2453392,2.6377192,0.16766205430030823,"(np.float64(0.596078431372549), np.float64(0.8745098039215686), np.float64(0.5411764705882353), np.float64(1.0))","T44
+0.17",True
+paraphrase-MiniLM-L6-v2,44,Misinformation & Propaganda,529,,3.2121637,2.680338,0.16766205430030823,"(np.float64(0.596078431372549), np.float64(0.8745098039215686), np.float64(0.5411764705882353), np.float64(1.0))","T44
+0.17",True
+paraphrase-MiniLM-L6-v2,44,Misinformation & Propaganda,751,,3.170345,2.570064,0.16766205430030823,"(np.float64(0.596078431372549), np.float64(0.8745098039215686), np.float64(0.5411764705882353), np.float64(1.0))","T44
+0.17",True
+paraphrase-MiniLM-L6-v2,45,"retrieval, task",209,,2.3748698,7.0214543,0.5922383069992065,"(np.float64(0.8392156862745098), np.float64(0.15294117647058825), np.float64(0.1568627450980392), np.float64(1.0))","T45
+0.59",False
+paraphrase-MiniLM-L6-v2,45,"retrieval, task",357,,2.7223663,7.8263063,0.5922383069992065,"(np.float64(0.8392156862745098), np.float64(0.15294117647058825), np.float64(0.1568627450980392), np.float64(1.0))","T45
+0.59",False
+paraphrase-MiniLM-L6-v2,45,"retrieval, task",496,,2.6870043,7.183793,0.5922383069992065,"(np.float64(0.8392156862745098), np.float64(0.15294117647058825), np.float64(0.1568627450980392), np.float64(1.0))","T45
+0.59",False
+paraphrase-MiniLM-L6-v2,45,"retrieval, task",516,,2.137522,6.785506,0.5922383069992065,"(np.float64(0.8392156862745098), np.float64(0.15294117647058825), np.float64(0.1568627450980392), np.float64(1.0))","T45
+0.59",False
+paraphrase-MiniLM-L6-v2,45,"retrieval, task",593,,2.6073883,7.3707786,0.5922383069992065,"(np.float64(0.8392156862745098), np.float64(0.15294117647058825), np.float64(0.1568627450980392), np.float64(1.0))","T45
+0.59",False
+paraphrase-MiniLM-L6-v2,46,Misinformation & Propaganda,110,,1.7746838,1.810086,0.5021927952766418,"(np.float64(1.0), np.float64(0.596078431372549), np.float64(0.5882352941176471), np.float64(1.0))","T46
+0.50",True
+paraphrase-MiniLM-L6-v2,46,Misinformation & Propaganda,314,,1.7666683,1.7506938,0.5021927952766418,"(np.float64(1.0), np.float64(0.596078431372549), np.float64(0.5882352941176471), np.float64(1.0))","T46
+0.50",True
+paraphrase-MiniLM-L6-v2,46,Misinformation & Propaganda,612,,1.4364023,2.1026146,0.5021927952766418,"(np.float64(1.0), np.float64(0.596078431372549), np.float64(0.5882352941176471), np.float64(1.0))","T46
+0.50",True
+paraphrase-MiniLM-L6-v2,46,Misinformation & Propaganda,615,,1.4046463,2.6529024,0.5021927952766418,"(np.float64(1.0), np.float64(0.596078431372549), np.float64(0.5882352941176471), np.float64(1.0))","T46
+0.50",True
+paraphrase-MiniLM-L6-v2,46,Misinformation & Propaganda,618,,1.8350796,1.9031199,0.5021927952766418,"(np.float64(1.0), np.float64(0.596078431372549), np.float64(0.5882352941176471), np.float64(1.0))","T46
+0.50",True
+paraphrase-MiniLM-L6-v2,47,"verification, fact",48,,2.9387739,8.132607,0.23630571365356445,"(np.float64(0.5803921568627451), np.float64(0.403921568627451), np.float64(0.7411764705882353), np.float64(1.0))","T47
+0.24",True
+paraphrase-MiniLM-L6-v2,47,"verification, fact",177,,3.0617378,7.9791293,0.23630571365356445,"(np.float64(0.5803921568627451), np.float64(0.403921568627451), np.float64(0.7411764705882353), np.float64(1.0))","T47
+0.24",True
+paraphrase-MiniLM-L6-v2,47,"verification, fact",204,,2.8729992,7.931342,0.23630571365356445,"(np.float64(0.5803921568627451), np.float64(0.403921568627451), np.float64(0.7411764705882353), np.float64(1.0))","T47
+0.24",True
+paraphrase-MiniLM-L6-v2,47,"verification, fact",570,,3.1148942,7.738619,0.23630571365356445,"(np.float64(0.5803921568627451), np.float64(0.403921568627451), np.float64(0.7411764705882353), np.float64(1.0))","T47
+0.24",True
+paraphrase-MiniLM-L6-v2,47,"verification, fact",634,,3.073777,7.8541107,0.23630571365356445,"(np.float64(0.5803921568627451), np.float64(0.403921568627451), np.float64(0.7411764705882353), np.float64(1.0))","T47
+0.24",True
+paraphrase-MiniLM-L6-v2,48,"written, ukrainian",67,,2.148259,6.77759,0.4655441343784332,"(np.float64(0.7725490196078432), np.float64(0.6901960784313725), np.float64(0.8352941176470589), np.float64(1.0))","T48
+0.47",True
+paraphrase-MiniLM-L6-v2,48,"written, ukrainian",411,,2.4622104,6.594656,0.4655441343784332,"(np.float64(0.7725490196078432), np.float64(0.6901960784313725), np.float64(0.8352941176470589), np.float64(1.0))","T48
+0.47",True
+paraphrase-MiniLM-L6-v2,48,"written, ukrainian",417,,2.8155155,6.728785,0.4655441343784332,"(np.float64(0.7725490196078432), np.float64(0.6901960784313725), np.float64(0.8352941176470589), np.float64(1.0))","T48
+0.47",True
+paraphrase-MiniLM-L6-v2,48,"written, ukrainian",589,,2.087353,6.744669,0.4655441343784332,"(np.float64(0.7725490196078432), np.float64(0.6901960784313725), np.float64(0.8352941176470589), np.float64(1.0))","T48
+0.47",True
+paraphrase-MiniLM-L6-v2,48,"written, ukrainian",596,,2.7568111,6.958884,0.4655441343784332,"(np.float64(0.7725490196078432), np.float64(0.6901960784313725), np.float64(0.8352941176470589), np.float64(1.0))","T48
+0.47",True
+paraphrase-MiniLM-L6-v2,49,Misinformation & Propaganda,125,,0.90484667,2.7730763,0.3010089695453644,"(np.float64(0.5490196078431373), np.float64(0.33725490196078434), np.float64(0.29411764705882354), np.float64(1.0))","T49
+0.30",True
+paraphrase-MiniLM-L6-v2,49,Misinformation & Propaganda,213,,0.662316,2.8963277,0.3010089695453644,"(np.float64(0.5490196078431373), np.float64(0.33725490196078434), np.float64(0.29411764705882354), np.float64(1.0))","T49
+0.30",True
+paraphrase-MiniLM-L6-v2,49,Misinformation & Propaganda,215,,0.84267753,2.834263,0.3010089695453644,"(np.float64(0.5490196078431373), np.float64(0.33725490196078434), np.float64(0.29411764705882354), np.float64(1.0))","T49
+0.30",True
+paraphrase-MiniLM-L6-v2,49,Misinformation & Propaganda,256,,0.41382518,3.0604188,0.3010089695453644,"(np.float64(0.5490196078431373), np.float64(0.33725490196078434), np.float64(0.29411764705882354), np.float64(1.0))","T49
+0.30",True
+paraphrase-MiniLM-L6-v2,49,Misinformation & Propaganda,274,,0.5355107,3.0199697,0.3010089695453644,"(np.float64(0.5490196078431373), np.float64(0.33725490196078434), np.float64(0.29411764705882354), np.float64(1.0))","T49
+0.30",True
+paraphrase-MiniLM-L6-v2,50,"detectysf, learning",59,,0.6977875,3.1890814,0.5515398979187012,"(np.float64(0.7686274509803922), np.float64(0.611764705882353), np.float64(0.5803921568627451), np.float64(1.0))","T50
+0.55",False
+paraphrase-MiniLM-L6-v2,50,"detectysf, learning",64,,1.2806607,4.170347,0.5515398979187012,"(np.float64(0.7686274509803922), np.float64(0.611764705882353), np.float64(0.5803921568627451), np.float64(1.0))","T50
+0.55",False
+paraphrase-MiniLM-L6-v2,50,"detectysf, learning",111,,0.52425325,3.389721,0.5515398979187012,"(np.float64(0.7686274509803922), np.float64(0.611764705882353), np.float64(0.5803921568627451), np.float64(1.0))","T50
+0.55",False
+paraphrase-MiniLM-L6-v2,50,"detectysf, learning",295,,0.6801813,3.4485676,0.5515398979187012,"(np.float64(0.7686274509803922), np.float64(0.611764705882353), np.float64(0.5803921568627451), np.float64(1.0))","T50
+0.55",False
+paraphrase-MiniLM-L6-v2,50,"detectysf, learning",335,,0.5906243,3.5713782,0.5515398979187012,"(np.float64(0.7686274509803922), np.float64(0.611764705882353), np.float64(0.5803921568627451), np.float64(1.0))","T50
+0.55",False

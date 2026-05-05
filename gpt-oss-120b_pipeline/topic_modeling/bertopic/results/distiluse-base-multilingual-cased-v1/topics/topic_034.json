@@ -1,0 +1,55 @@
+{
+  "topic_id": 34,
+  "label": "T034",
+  "label_full": "Credibility Assessment",
+  "keywords": [
+    "information",
+    "geographic",
+    "web",
+    "geospatial",
+    "grown",
+    "countries",
+    "factors",
+    "databases",
+    "online",
+    "credibility"
+  ],
+  "n_docs": 7,
+  "documents": [
+    {
+      "document_id": 55,
+      "score": null,
+      "abstract": "In today’s world, where online information is proliferating in an unprecedented way, a significant challenge is whether to believe the information we encounter. Ironically, this\nflood of information provides us with an opportunity to combat false claims by understanding their nature. That is, with the help of machine learning, it\nis now possible to effectively capture the characteristics of false information by analyzing massive amounts of false claims published online. These methods, however, have neglected\nthe nature of human argumentation, delegating the process of making inferences of the truth to the black box of neural networks. This has created several\nchallenges (namely latent text representations containing entangled syntactic and semantic information, an irrelevant part of text being considered when abstracting text as a latent vector,\nand counterintuitive model explanation). To resolve these issues, based on Toulmin’s model of argumentation, we propose a computational framework that helps machine learning for false\ninformation identification (FII) understand the connection between a claim (whose veracity needs to be verified) and evidence (which contains information to support or refute the\nclaim). Specifically, we first build a word network of a claim and evidence reflecting their syntaxes and convert it into a signed word network using\ntheir semantics. The structural balance of this word network is then calculated as a proxy metric to determine the consistency between a claim and evidence.\nThe consistency level is fed into machine learning as input, providing information for verifying claim veracity and explaining the model’s decision making. The two experiments\nfor testing model performance and explainability reveal that our framework shows stronger performance and better explainability, outperforming cutting-edge methods and presenting positive effects on human\ntask performance, trust in algorithms, and confidence in decision making. Our results shed new light on the growing field of automated FII. Copyright: © 2023\nINFORMS."
+    },
+    {
+      "document_id": 292,
+      "score": null,
+      "abstract": "Information and communication technologies have grown globally in the past two decades, expanding the reach of news networks. However, the credibility of the information is\nnow in question. Credibility refers to a person’s belief in the truth of a subject, and online readers consider various factors to determine whether a\nsource is trustworthy. Credibility significantly impacts public behaviour, and less credible news spreads faster due to people’s interest in emotions like fear and disgust. This\ncan have negative consequences for individuals and economies. To determine the credibility factors in digital news stories, a Multivocal Literature Review (MLR) was conducted to\nidentify relevant studies in both white and grey literature. A total of 161 primary studies were identified from published (white) literature and 61 were identified\nfrom unpublished (grey) literature. As a result, 14 credibility factors were identified, including “number of views”, “reporter reputations”, “source information”, and “impartiality”. These factors were\nthen analysed using statistical tests and the Analytic Hierarchy Process (AHP) for decision-making to determine their criticality and importance in different domains. © 2023 by\nthe authors."
+    },
+    {
+      "document_id": 403,
+      "score": null,
+      "abstract": "Nowadays, information is taking on an increasingly central role in people’s lives. With the rise of internet, the amount of information has grown exponentially as\nthe ease of publishing content of all types has increased. At the same time, however, the risks deriving from the lack of checks on the\ntruthfulness of these have also increased. In fact, a”Fake” information content can lead to serious reputational, economic or health damages. To overcome the problem of\nverification, several studies have been carried out, but none of them appears to have been the subject of a significant commercial implementation. In all the\nprojects proposed so far there is a common thread, that is to act directly to the source of the news, examining, thanks to existing technologies,\nthe possible truthfulness of the same. On the other hand, lacking a real involvement of the reader, these projects were not suitable to increase the\nawareness of the end user. implements a technological platform able to provide a reliability value of a digital news, thus measuring the level of impartiality\nof the author through the evaluation of a defined series of parameters. © 2022 by SCITEPRESS – Science and Technology Publications, Lda. All rights reserved"
+    },
+    {
+      "document_id": 517,
+      "score": null,
+      "abstract": "In the age of the Internet, access to information is no longer a concern, the credibility, however, is the new era challenge. Information reaches people\nin an unfiltered format and therefore raises questions about the authenticity, validity, and credibility. focuses on increasing the reliability of the news, concentrating on static\nanalysis of written text intending to detect possible disingenuous information. To achieve this goal, intelligent solutions were engaged, designed to detect patterns of fake articles\nthat can hint at the lack of knowledge or outright maliciously. The architecture, of the proposed fake news detection system is a composite solution of\ndifferent classification algorithms, with a final network output obtained through the use of the ensemble learning methods, respectively the comparison of three voting systems. The\nbaseline model allowed a satisfactory accuracy of 99% for the given dataset. © 2021 IEEE."
+    },
+    {
+      "document_id": 693,
+      "score": null,
+      "abstract": "In the last few years, the impact of information spread through online social networks has continuously grown. For this reason, understanding the trustworthiness of news\nhas become one of the most important challenges for an Internet user, especially during crisis events or in political, health and social issues. As part\nof a more comprehensive project for the detection of fake news, proposes a machine learning method to evaluate the trustworthiness of a piece of information\nespecially considering its associated image. In the work described in , the training and test datasets have been first collected from the web, downloading more\nthan 1000 images related to trusted and fake pages. All collected images have been processed using the Google Vision online service for extracting their specific\ninternal details. For each image, various kinds of features have been considered, including its color composition, the recognized objects, the list of sites in which\nit is published, and eventually the contained text. These details have been then used for training a classifier using different algorithms which allowed us to\nreach an accuracy of about 85\\% in hoax identification. Future research will focus on social-network information related to images, to improve the system accuracy and\nacquire more knowledge about various types of news spread online."
+    },
+    {
+      "document_id": 768,
+      "score": null,
+      "abstract": "Geographic web portals and geospatial databases are emerging on the web recently, offering information about countries and places in the world. Digital content is increasing\nat a staggering rate due to community collaboration and the integration of information from webcams and sensors. Like in case of , some geospatial databases\nallow everyone to edit the content. We cannot ignore the role of wikis and geospatial databases particularly , Wikicommons, GeoNames etc., as they have replaced\nthe traditional encyclopedias and they are empowering information seekers by providing information at the door step. However, there is no guarantee of validity and authenticity\nof the information provided by them. The reason behind is that very little attention has been given to verify information before publishing it on the\nWeb. Also, to find particular information about countries, web users mainly teachers, students and tourists rely on search engines such as Google which often points\nto . We will identify some inconsistencies in online facts such as area, cities and mountains rankings using multiple data sources. Our investigations reveal that\nthere is a need for a reliable geographic web portal which can be used for learning and other purpose. We will explain how we managed\nto devise a mechanism for collecting and verifying different facts. Our attempt to provide a reliable geographic web portal has resulted in a comprehensive collection\ncovering a wide range of information aspects such as culture, geography, economy etc. that are associated with a country. We will also describe our approach\nto measure the reliability of geographic facts such as area, cities and mountains rankings for all countries."
+    },
+    {
+      "document_id": 774,
+      "score": null,
+      "abstract": "Nowadays great variety of web services attempts to leverage people's natural desire for competition, in order to promote or discourage certain types of online behaviors.\nSuch game-derived techniques are known as gamification and have already been utilized both by commercial websites and researchers who have designed so called \"games with\na purpose\" in order to collect some data inaccessible for non-human agents. Apart from numerous applications, this approach has also been criticized for creating an\nartificial sense of achievement and encouraging unintended behaviors. In our paper we investigate, whether simple gamification techniques can improve the quality of feedback, regarding the\ntruthfulness of information available on the Internet. We present the results of an experiment carried out on a group of students who were asked to\nrate websites and statements using four evaluation methods with different rewarding schemes. Our study shows which of those methods have been the most frequently chosen,\nand what was their influence on user behavior in terms of level of agreement and bias towards certain evaluation values."
+    }
+  ]
+}

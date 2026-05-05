@@ -1,0 +1,50 @@
+{
+  "topic_id": 48,
+  "label": "T048",
+  "label_full": "Misinformation & Propaganda",
+  "keywords": [
+    "subgraphs",
+    "scene",
+    "heterogeneous",
+    "news",
+    "fake",
+    "enablers",
+    "heterosgt",
+    "eknet",
+    "arabic",
+    "scenes"
+  ],
+  "n_docs": 6,
+  "documents": [
+    {
+      "document_id": 47,
+      "score": null,
+      "abstract": "Fake news is pervasive on social media, inflicting substantial harm on public discourse and societal well-being. We investigate the explicit structural information and textual features\nof news pieces by constructing a heterogeneous graph concerning the relations among news topics, entities, and content. Through our study, we reveal that fake news\ncan be effectively detected in terms of the atypical heterogeneous subgraphs centered on them, which encapsulate the essential semantics and intricate relations between news elements.\nHowever, suffering from the heterogeneity, exploring such heterogeneous subgraphs remains an open problem. To bridge the gap, proposes a heterogeneous subgraph transformer HeteroSGT to exploit\nsubgraphs in our constructed heterogeneous graph. In HeteroSGT, we first employ a pre-trained language model to derive both word-level and sentence-level semantics. Then the random\nwalk with restart (RWR) is applied to extract subgraphs centered on each news, which are further fed to our proposed subgraph Transformer to quantify the\nauthenticity. Extensive experiments on five real-world datasets demonstrate the superior performance of HeteroSGT over five baselines. Further case and ablation studies validate our motivation and\ndemonstrate that performance improvement stems from our specially designed components."
+    },
+    {
+      "document_id": 109,
+      "score": null,
+      "abstract": "Fake news is a prevalent issue in modern society, leading to misinformation, and societal harm. News credibility assessment is a crucial approach for evaluating the\naccuracy and authenticity of news. It plays a significant role in enhancing public awareness and understanding of news, while also effectively mitigating the dissemination of\nfake news. However, news credibility assessment meets challenges when processing large-scale and constantly growing data, due to insufficient and unreliable labels and standards, and diversity\nand semantic ambiguity of news contents. Recently, machine learning models have been well developed to address these issues, but suffer from limited effectiveness. A unified\nframework is also required for them to represent various entities and relationships involved in news stories. This article proposes an entity ontology-based knowledge graph network\n(EKNet) to leverage knowledge graphs and entity frameworks for news credibility assessment. The model utilizes the information from knowledge graphs by combining entities and relationships\nfrom news and knowledge graphs. Experimental results show that the EKNet has advantages in evaluating news credibility over existing methods. Specifically, compared to several strong\nbaselines, the model demonstrates a significant performance improvement in scores across various tasks. Which indicates that using the EKNet to address the challenges in news\ncredibility assessment is highly effective and can conduct better performance for the problem of fake news in the social media environment. © 2014 IEEE."
+    },
+    {
+      "document_id": 113,
+      "score": null,
+      "abstract": "Fake news is one of the biggest issues that mankind faces due to its sheer negative impact. The widespread use of smartphones and social media\nsites has led to an unprecedented spread of unverified news. Without a means to assist people to discern between true and fake news, they are\nvulnerable to believe false information and spread rumors, hence contributing to the problem further. focuses on the potential value of using critical thinking to identify\nfake news. A systematic literature review is performed to investigate criteria as well as enablers to assist in identifying fake news. According to the findings,\ncriteria for identifying fake news include aspects related to problem discovery and problem solving. Secondly, the study uncovers twelve enablers to assist when using critical\nthinking to identify fake news. These include aspects such as logical reasoning and argument evaluation. Future work plans entail the use of novel methodologies to\nrank the enablers and criteria associated with critical thinking based on their relative importance. © The Author(s), under exclusive license to Springer Nature Singapore Pte\nLtd. 2024."
+    },
+    {
+      "document_id": 145,
+      "score": null,
+      "abstract": "Fake news is a threat for the society and can create a lot of confusion to people regarding what is true and what not. Fake\nnews usually contain manipulated content, such as text or images that attract the interest of the readers with the aim to convince them on their\ntruthfulness. In this article, we propose SceneFND (Scene Fake News Detection), a system that combines textual, contextual scene and visual representation to address the problem\nof multimodal fake news detection. The textual representation is based on word embeddings that are passed into a bidirectional long short-term memory network. Both the\ncontextual scene and the visual representations are based on the images contained in the news post. The place, weather and season scenes are extracted from\nthe image. Our statistical analysis on the scenes showed that there are statistically significant differences regarding their frequency in fake and real news. In addition,\nour experimental results on two real world datasets show that the integration of the contextual scenes is effective for fake news detection. In particular, SceneFND\nimproved the performance of the textual baseline by 3.48% in PolitiFact and by 3.32% in GossipCop datasets. Finally, we show the suitability of the scene\ninformation for the task and present some examples to explain its effectiveness in capturing the relevance between images and text. © The Author(s) 2022."
+    },
+    {
+      "document_id": 401,
+      "score": null,
+      "abstract": "Fake news stories can polarize society, particularly during political events. They undermine confidence in the media in general. Current NLP systems are still lacking the\nability to properly interpret and classify Arabic fake news. Given the high stakes involved, determining truth in social media has recently become an emerging research\nthat is attracting tremendous attention. Our literature review indicates that applying the state-of-the-art approaches on news content address some challenges in detecting fake news’ characteristics,\nwhich needs auxiliary information to make a clear determination. Moreover, the ‘Social-context-based’ and ‘propagation-based’ approaches can be either an alternative or complementary strategy to content-based\napproaches. The main goal of our research is to develop a model capable of automatically detecting truth given an Arabic news or claim. In particular,\nwe propose a deep neural network approach that can classify fake and real news claims by exploiting ‘Convolutional Neuron Networks’. Our approach attempts to solve\nthe problem from the fact checking perspective, where the fact-checking task involves predicting whether a given news text claim is factually authentic or fake. We\nopt to use an Arabic balanced corpus to build our model because it unifies stance detection, stance rationale, relevant document retrieval and fact-checking. The model\nis trained on different well selected attributes. An extensive evaluation has been conducted to demonstrate the ability of the fact-checking task in detecting the Arabic\nfake news. Our model outperforms the performance of the state-of-the-art approaches when applied to the same Arabic dataset with the highest accuracy of 91\\%."
+    },
+    {
+      "document_id": 491,
+      "score": null,
+      "abstract": "Fake news is a problem for society as some people trust the message and react accordingly, propagating the lie. The consequences vary from a simple\nlaugh to a death sentence. Research has focused on distinguishing between fake and fact through machine learning techniques. Most literature reviews and mappings focus on\ntechniques that identify the fake over the message content. In a complementary way, we investigate fake news detection approaches based on the senders' behavior on\nsocial media. We present a conceptual framework that deep dives into different aspects of the main categories of persuader, clarifier, and gullible actors. We also\nconsider automatic and manual profiles. The results provide an overview of existing works on profile trustworthiness in fake news spread and shed light on possible\nresearch directions. © 2022 IEEE."
+    }
+  ]
+}

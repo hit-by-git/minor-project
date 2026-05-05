@@ -1,0 +1,50 @@
+{
+  "topic_id": 42,
+  "label": "T042",
+  "label_full": "Fact-Checking & Verification",
+  "keywords": [
+    "rumors",
+    "rumour",
+    "rumours",
+    "counterrumours",
+    "rumor",
+    "veracity",
+    "predicted",
+    "tweets",
+    "tweet",
+    "particle"
+  ],
+  "n_docs": 6,
+  "documents": [
+    {
+      "document_id": 647,
+      "score": null,
+      "abstract": "In the present era, the social network is used as an important medium for sharing thoughts and opinions of an individual. The main reason behind\nthis is, it provides a fast-spreading of information among the public easily, requiring a very low cost of access. This leads to having online social\nmedia as one of the stepping stones to encourage false content and influencing public opinion and its decision. Rumour is one of the prominent forms\nof misleading information on social media and should be detected as early as possible for avoiding their significant effects. Due to these reasons, the researchers\nhave put their keen interest in developing an effective rumour detection framework in the last years. In , we mainly focused on six main aspects.\nFirstly, we discuss rumours from a definition perspective that have been considered in the state-of-the-art and describe the generalized model of rumour detection. Secondly, we\ndiscuss how to get access to data from different social media platforms, and presents various state-of-the-art methods to gather these data, as well as publicly\navailable datasets. Third, we describe a different set of features that have been considered in rumour detection approaches. Fourth, we provide deep insight into the\nvarious methods used to employ rumour detection and its veracity assessment on multimedia data (Text and Images) with some practical implications. Whereas in the fifth\naspect, the constraints of the study have been discussed. Finally, we concluded with useful findings and suggested future directions. © 2020 Elsevier Ltd"
+    },
+    {
+      "document_id": 802,
+      "score": null,
+      "abstract": "Information overload on Web has been a well-identified challenge which has amplified with the advent of social web. Good, bad, true, false, useful, useless all\nkinds of information disseminates through the social web platforms. It becomes exceedingly imperative to pro-actively resolve rumours and inhibit them from spreading among the Internet\nusers as it can jeopardize the well-being of the citizens. The task for rumour analysis intends to identify & classify a rumour either as true\n(factual), false (nonfactual) or unresolved. Determining the accuracy of a rumourous story, a.k.a. rumour veracity is hard owing to the noisy, ambiguous and heterogeneous use\nof natural language. This necessitates automation of the predictive task which classifies the questionable veracity of rumour accurately. The research presented in , is an\nempirical study to put forward an optimized learning model which classifies real-time tweets on the basis of truth value, facilitating rumour analysis. The study is\nconducted on a collection of nearly 14 k tweets pertaining to the recent mob lynching fuelled by rumours on suspected child-lifters in the Indian sub-continent\n(#moblynching) and run on five classical shallow classifiers to categorize tweets into true, false and unspecified using 13 attributes (features). Subsequently, the use of an\noptimal feature selection method, particle swarm algorithm is proposed to improve the classifier’s performance. The empirical analysis validates that the proposed implementation of particle swarm\noptimization (PSO) for feature subset selection in rumour veracity classification outperforms the baseline supervised learning algorithms. An average 11.28% improvement in accuracy and approximately 31%\naverage reduction in features are demonstrated using PSO. The highest accuracy with optimization of 96.15% is achieved by decision tree. © 2019, Springer Science+Business Media,\nLLC, part of Springer Nature."
+    },
+    {
+      "document_id": 862,
+      "score": null,
+      "abstract": "Malignant or unplanned falsehood can be spread on social media and can hazardously affect people and society. Models for automated verification of rumors are already\ndeveloped. But the impacts of rumors are neither analyzed nor predicted with these rumor verification models. Impact prediction of rumor can be used for determining\nwhether the rumor to be responded to or not. This is very relevant for sudden situations in which a rumor with large negative impact has\nto be addressed. As an extension to the veracity prediction model, impact prediction is proposed. © 2018 Taylor & Francis Group, London."
+    },
+    {
+      "document_id": 866,
+      "score": null,
+      "abstract": "Rumours are known to propagate easily through computer-mediated communication channels such as Twitter. Their outbreak is often followed by the spread of 'counter-rumours', which are\nmessages that debunk rumours. The probability of a tweet to be a counter-rumour is referred to as 'tweet veracity' in . Since both rumours and\ncounter-rumours are expected to contain claims of truth, the two might not be easily distinguishable. If Internet users fail to separate rumours from counter-rumours, the\nlatter will not serve its purpose. Hence, investigates the extent to which tweet veracity could be predicted by content as well as contributors' profile. The\ninvestigation focuses on the death hoax case of Singapore's first Prime Minister Lee Kuan Yew on Twitter. A total of 1,000 tweets (500 rumours +\n500 counter-rumours) are analyzed using binomial logistic regression. Results indicate that tweet veracity could be predicted by clarity, proper nouns, visual cues, references to credible\nsources, as well as contributors' duration of membership, and number of followers. The significance of these findings are highlighted."
+    },
+    {
+      "document_id": 870,
+      "score": null,
+      "abstract": "The spread of malicious or accidental misinformation in social media, especially in time-sensitive situations, such as real-world emergencies, can have harmful effects on individuals and\nsociety. In , we developed models for automated verification of rumors (unverified information) that propagate through Twitter. To predict the veracity of rumors, we identified\nsalient features of rumors by examining three aspects of information spread: linguistic style used to express rumors, characteristics of people involved in propagating information, and\nnetwork propagation dynamics. The predicted veracity of a time series of these features extracted from a rumor (a collection of tweets) is generated using Hidden\nMarkov Models. The verification algorithm was trained and tested on 209 rumors representing 938,806 tweets collected from real-world events, including the 2013 Boston Marathon bombings,\nthe 2014 Ferguson unrest, and the 2014 Ebola epidemic, and many other rumors about various real-world events reported on popular websites that document public rumors.\nThe algorithm was able to correctly predict the veracity of 75% of the rumors faster than any other public source, including journalists and law enforcement\nofficials. The ability to track rumors and predict their outcomes may have practical applications for news consumers, financial markets, journalists, and emergency services, and more\ngenerally to help minimize the impact of false information on Twitter."
+    },
+    {
+      "document_id": 912,
+      "score": null,
+      "abstract": "attempts to investigate the role of language in predicting the veracity of rumors on the Internet. Specifically, it seeks to examine rumor veracity as a\nfunction of six groups of linguistic predictors. These include rumors' (1) comprehensibility, (2) sentiment, (3) time-orientation, (4) quantitative details, (5) writing style, and (6) topic.\nA dataset of 2,391 rumors, about 20% of which were true and the rest false, drawn from the rumor-verification website Snopes.comwas used for investigation. The\noperationalized measures of the linguistic predictors were calculated for all rumors using the Linguistic Inquiry and Word Count (LIWC) tool. Binomial logistic regression was used\nfor data analysis. The model performed generally well. The results specifically indicated that rumor veracity could be predicated by comprehensibility, time-orientation, writing style and topic\nof rumors."
+    }
+  ]
+}

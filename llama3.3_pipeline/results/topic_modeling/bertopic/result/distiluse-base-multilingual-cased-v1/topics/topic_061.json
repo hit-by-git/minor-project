@@ -1,0 +1,45 @@
+{
+  "topic_id": 61,
+  "label": "T061",
+  "label_full": "Misinformation & Propaganda",
+  "keywords": [
+    "comments",
+    "physiological",
+    "presenters",
+    "observers",
+    "doubt",
+    "detection",
+    "diverse",
+    "fake",
+    "silent",
+    "genfend"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 50,
+      "score": null,
+      "abstract": "Fake news detection plays a crucial role in protecting social media users and maintaining a healthy news ecosystem. Among existing works, comment-based fake news detection\nmethods are empirically shown as promising because comments could reflect users' opinions, stances, and emotions and deepen models' understanding of fake news. Unfortunately, due to\nexposure bias and users' different willingness to comment, it is not easy to obtain diverse comments in reality, especially for early detection scenarios. Without obtaining\nthe comments from the \"silent'' users, the perceived opinions may be incomplete, subsequently affecting news veracity judgment. In , we explore the possibility of finding\nan alternative source of comments to guarantee the availability of diverse comments, especially those from silent users. Specifically, we propose to adopt large language models\n(LLMs) as a user simulator and comment generator, and design GenFEND, a generated feedback-enhanced detection framework, which generates comments by prompting LLMs with diverse user\nprofiles and aggregating generated comments from multiple subpopulation groups. Experiments demonstrate the effectiveness of GenFEND and further analysis shows that the generated comments cover more\ndiverse users and could even be more effective than actual comments."
+    },
+    {
+      "document_id": 469,
+      "score": null,
+      "abstract": "Detection of fake news is crucial to ensure the authenticity of information and maintain the news ecosystem's reliability. Recently, there has been an increase in\nfake news content due to the recent proliferation of social media and fake content generation techniques such as Deep-Fake. The majority of the existing modalities\nof fake news detection focus on content-based approaches. However, most of these techniques fail to deal with ultra-realistic synthesized media produced by generative models. Our\nrecent studies find that the propagation characteristics of authentic and fake news are distinguishable, irrespective of their modalities. In this regard, we have investigated the\nauxiliary information based on social context to detect fake news. has analyzed the social context of fake news detection with a hybrid graph neural network-based\napproach. This hybrid model is based on integrating a graph neural network on the propagation of news and bi-directional encoder representations from the transformers model\non news content to learn the text features. Thus this proposed approach learns the content as well as the context features and hence able to\noutperform the baseline models with an f1-score of 0.91 on Politifact and 0.93 on the Gossipcop dataset, respectively © 2022 IEEE."
+    },
+    {
+      "document_id": 492,
+      "score": null,
+      "abstract": "Over the recent years, fake news detection has been a topic of constant question and research among the society of cognitive engineers and many cynical\nenthusiasts in the field. With social media at easy disposal, it becomes but imperative to determine the factual truthfulness of the information. Rampant fake news\nsellers are a menace in society, threatening the very base of democracy and the freedom of speech. In , we try to provide a brief\nunderstanding of the current methodologies in fake news detection, along with proposing a multistage fake news detection system. All the phases that have been designed\nare ordered in increasing order of complexity and efficiency. If fake news detection does not provide results with an acceptable level of accuracy or satisfactory\nresults at any phase, we have designed for a subsequent phase up in the hierarchy which is assured to provide better accuracy. © 2022, The\nAuthor(s), under exclusive license to Springer Nature Singapore Pte Ltd."
+    },
+    {
+      "document_id": 729,
+      "score": null,
+      "abstract": "We live in a world surrounded with 'fake news' and manipulated information, so a system assisting people with knowing what information to trust would be\nbeneficial. Our research investigates situations where the presenters themselves have doubts about the information they are delivering, and we detect this via advanced affective computing\ntechniques. To this end we examine the physiological foundations for observer recognition of the doubt effect: the subjective belief or disbelief of a presenter in\nsome information he or she is presenting. Firstly, we construct stimulus videos that display presenters delivering information about which we manipulate their degree of doubt.\nWe then show these stimuli to observers, and record four of their physiological signals. We find that a generalised neural network trained with physiological features\nis more accurate in differentiating the presenters' doubt/manipulated belief when compared with the same observers' own conscious judgments. The affective recognition performance improves when we\nanalyse the physiological signals using multi-task learning techniques to train personalised and group personalised neural networks. The ability to recognise this doubt effect derives from\nobservers' fundamental emotional reactions to the viewed stimuli, reflected in their physiological responses, and learnt by our neural networks. We believe this system using observer\nphysiological signals collected in real life could reveal accurate and hidden audience distrust, which could in turn lead to enhanced truthfulness in future public- presented\nstatements. © 2020 IEEE."
+    },
+    {
+      "document_id": 763,
+      "score": null,
+      "abstract": "Despite recent advancements in computationally detecting fake news, we argue that a critical missing piece be the explainability of such detection--i.e., why a particular piece\nof news is detected as fake--and propose to exploit rich information in users' comments on social media to infer the authenticity of news. In this\ndemo paper, we present our system for an explainable fake news detection called dEFEND, which can detect the authenticity of a piece of news while\nidentifying user comments that can explain why the news is fake or real. Our solution develops a sentence-comment co-attention sub-network to exploit both news contents\nand user comments to jointly capture explainable top-k check-worthy sentences and user comments for fake news detection. The system is publicly accessible."
+    }
+  ]
+}

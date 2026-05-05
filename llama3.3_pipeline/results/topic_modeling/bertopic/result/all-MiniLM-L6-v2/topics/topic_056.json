@@ -1,0 +1,45 @@
+{
+  "topic_id": 56,
+  "label": "T056",
+  "label_full": "Misinformation & Propaganda",
+  "keywords": [
+    "videos",
+    "m3a",
+    "captions",
+    "outofcontext",
+    "cheapfakes",
+    "tiktec",
+    "video",
+    "misinformation",
+    "content",
+    "misleading"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 59,
+      "score": null,
+      "abstract": "In our modern world, the manipulation of digital content, especially the usage of out-of-context images known as Cheapfakes, has become a significant challenge for the\nendorsement of integrity and trustworthiness for information on the Internet. This highlights an urgent need for effective detection of the misuse of images and their\naccompanied captions. Motivated by this issue, our research presents an innovative approach to the solution of this problem. Participating in the ACM ICMR 2024 Grand\nChallenge on Detecting Cheapfakes, we leverage a unified end-to-end network, integrated with generative synthetic data for training. After complete evaluation, our proposed network demonstrated a\nremarkable accuracy of 95.60% on the public test dataset for Task 1, as well as efficiency in Task 2. highlights the notable potential of employing\nan end-to-end network for Cheapfakes detection, which composes a significant contribution to the advancement of multimedia content integrity. Our source code is publicly available at"
+    },
+    {
+      "document_id": 129,
+      "score": null,
+      "abstract": "With the development of various generative models, misinformation in news media becomes more deceptive and easier to create, posing a significant problem. However, existing datasets\nfor misinformation study often have limited modalities, constrained sources, and a narrow range of topics. These limitations make it difficult to train models that can\neffectively combat real-world misinformation. To address this, we propose a comprehensive, large-scale Multimodal Misinformation dataset for Media Authenticity Analysis (M3A), featuring broad sources and fine-grained\nannotations for topics and sentiments. To curate M3A, we collect genuine news content from 60 renowned news outlets worldwide and generate fake samples using multiple\ntechniques. These include altering named entities in texts, swapping modalities between samples, creating new modalities, and misrepresenting movie content as news. M3A contains 708K genuine\nnews samples and over 6M fake news samples, spanning text, images, audio, and video. M3A provides detailed multi-class labels, crucial for various misinformation detection tasks,\nincluding out-of-context detection and deepfake detection. For each task, we offer extensive benchmarks using state-of-the-art models, aiming to enhance the development of robust misinformation detection\nsystems. © 2024 The Author(s)"
+    },
+    {
+      "document_id": 400,
+      "score": null,
+      "abstract": "The growth of multilingual web content in low-resource languages is becoming an emerging challenge to detect misinformation. One particular hindrance to research on this problem\nis the non-availability of resources and tools. Majority of the earlier works in misinformation detection are based on English content which confines the applicability of\nthe research to a specific language only. Increasing presence of multimedia content on the web has promoted misinformation in which real multimedia content (images, videos)\nare used in different but related contexts with manipulated texts to mislead the readers. Detecting this category of misleading information is almost impossible without any\nprior knowledge. Studies say that emotion-invoking and highly novel content accelerates the dissemination of false information. To counter this problem, here in , we first\nintroduce a novel multilingual multimodal misinformation dataset that includes background knowledge (from authentic sources) of the misleading articles. Second, we propose an effective neural model\nleveraging novelty detection and emotion recognition to detect fabricated information. We perform extensive experiments to justify that our proposed model outperforms the state-of-the-art (SOTA) on\nthe concerned task."
+    },
+    {
+      "document_id": 420,
+      "score": null,
+      "abstract": "Misuse of real photographs with conflicting image captions in news items is one case of out-of-context (OOC) misuse of media. To detect out-of-context given pair\nof news (i.e., captions) and attached image, people should determine the truthfulness of the statement and evaluate whether the triplet talks to the same event.\npresents a new method to detect the OOC media challenge introduced in ACMMM'22 Grand Challenge on Detecting Cheapfakes. For $Task_1$ (i.e., detect conflicting image-caption triplets),\nour approach uses bottom-up attention with visual semantic reasoning to extract global features of the image to perform comprehensive image-text matching, multiple models of natural\nlanguage processing to extract semantic relation of the caption and utilize boosting to improve the accuracy of the performance. Our method achieved an 85.5\\% accuracy\nscore on 80\\% of the testing dataset and has 4.5\\% higher accuracy than baseline. For Task2 (i.e., determine whether a given (Image, Caption) pair is\nreal or fake), we detect the veracity of captioned image base semantic features and correlation between image/caption and achieve 76\\% accuracy. Our source code is\navailable at Docker for submission is available at"
+    },
+    {
+      "document_id": 640,
+      "score": null,
+      "abstract": "studies an emerging and important problem of identifying misleading COVID-19 short videos where the misleading content is jointly expressed in the visual, audio, and textual\ncontent of videos. Existing solutions for misleading video detection mainly focus on the authenticity of videos or audios against AI algorithms (e.g., deepfake) or video\nmanipulation, and are insufficient to address our problem where most videos are user-generated and intentionally edited. Two critical challenges exist in solving our problem: i)\nhow to effectively extract information from the distractive and manipulated visual content in TikTok videos? ii) How to efficiently aggregate heterogeneous information across different modalities\nin short videos? To address the above challenges, we develop TikTec, a multimodal misinformation detection framework that explicitly exploits the captions to accurately capture the\nkey information from the distractive video content, and effectively learns the composed misinformation that is jointly conveyed by the visual and audio content. We evaluate\nTikTec on a real-world COVID- 19 video dataset collected from TikTok. Evaluation results show that TikTec achieves significant performance gains compared to state-of-the-art baselines in\naccurately detecting misleading COVID-19 short videos. © 2021 IEEE."
+    }
+  ]
+}

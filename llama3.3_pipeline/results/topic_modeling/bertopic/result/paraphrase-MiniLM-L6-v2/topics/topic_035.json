@@ -1,0 +1,60 @@
+{
+  "topic_id": 35,
+  "label": "T035",
+  "label_full": "Misinformation & Propaganda",
+  "keywords": [
+    "mitigation",
+    "english",
+    "news",
+    "fake",
+    "plms",
+    "recommend",
+    "rec4mit",
+    "german",
+    "articles",
+    "check"
+  ],
+  "n_docs": 8,
+  "documents": [
+    {
+      "document_id": 110,
+      "score": null,
+      "abstract": "Fake news is a growing problem in modern society. With the rise of social media and ever-increasing internet accessibility, news spreads like wildfire to millions\nof users in a very short time. The spread of fake news can have disastrous consequences, from decreased trust in news outlets to overturned elections.\nSuch concerns call for automated tools to detect fake news articles. This study proposes a predictive model that can check the authenticity of a news\narticle. The model is constructed using two different techniques to construct our model: (1) linguistic features and (2) feature extraction. We employed some widely used\ntraditional (e.g. K-nearest neighbour (KNN) and support vector machine (SVM)) as well as state-of-the-art (e.g. bidirectional encoder representations from transformers (BERT) and extreme machine learning\n(ELM)) machine learning algorithms using feature extraction methods and linguistic features. After generating the models, performance metrics (e.g. accuracy and precision) are used to compare\ntheir performance. The model generated via logistic regression using feature hashing vectorisation emerged as the best model, with 99% accuracy. To the best of our\nknowledge, no extant studies have compared the traditional and contemporary methods in this context and demonstrated the traditional ones to be better performers. The fake\nnews detection model can help curb the spread of fake news by acting as a tool for news organisations to check the authenticity of a\nnews article. © 2024 World Scientific Publishing Co."
+    },
+    {
+      "document_id": 335,
+      "score": null,
+      "abstract": "The spread of fake news on social media seriously jeopardizes the authenticity of online content. Such misinformation has the potential to affect public opinion, government\ncredibility, and more. Therefore, automatic detection of fake news is an important and challenging problem that has not been well solved today. Fake news has\nthree universally recognized characteristics: the text of an article, the user response it receives, and the source users promoting it. Existing work mainly focuses on\nformulating a solution for a certain feature, which cannot detect fake news more accurately. In , we propose a model that combines all three features\nto achieve more accurate and automated predictions. We propose a model called TSRI, which consists of four modules: Text, Source, Response, and Integrate. The first\nmodule is based on news text content, using the BERT+LSTM model, while considering the semantic representation of sentences and the long-distance dependencies between sentences. The\nsecond module uses GAT to model the network of replying and retweeting users based on social network features. The third module is based on the\nuser's response to the news, using LDA to find conflicting opinions in the news tweets, and based on the identified tweets' opinions, constructs the credibility\nof the tweets and spreads the network, and finally obtains the module's value through iterative deduction. result. The last module combines the above three and\noutputs whether the news is true or false. © 2023 IEEE."
+    },
+    {
+      "document_id": 358,
+      "score": null,
+      "abstract": "This chapter presents the methodological considerations, the challenges and the opportunities, of investigating the language of fake news across cultures. The methodological considerations are based\non the Fakespeak project, an interdisciplinary project involving linguists and computer scientists whose objectives are, firstly, to reveal the language and style of fake news\nin English, Norwegian, and Russian and, secondly, to see whether the findings can help improve existing fake news detection systems. The procedure of collecting data\nin the three languages representing three different cultures (e.g. English in the USA) presented several methodological challenges, which required innovative solutions. The challenges were quite\ndifferent in each case, with access to quality data (collections of fake and genuine news individually labelled for veracity by experts) being especially limited for\nNorwegian and Russian, albeit for different reasons. The datasets that have emerged from the Fakespeak project so far are very diverse, including both large datasets\nwith news written by a mix of authors (so-called general datasets) and smaller datasets with fake and genuine news written by the same author (single-authored\nand hybrid, multiauthored datasets). The diversity of data types is important for linguistic analyses of fake news so that meaningful comparisons with genuine news can\nbe made, as well as for the subsequent development of automatic detection systems. © 2024 selection and editorial matter, Stefania M. Maci, Massimiliano Demata, Mark\nMcGlashan and Philip Seargeant individual chapters, the contributors."
+    },
+    {
+      "document_id": 414,
+      "score": null,
+      "abstract": "Despite the tremendous efforts by social media platforms and fact-check services for fake news detection, fake news and misinformation still spread wildly on social media\nplatforms (e.g., Twitter). Consequently, fake news mitigation strategies are urgently needed. Most of the existing work on fake news mitigation focuses on the overall mitigation\non a whole social network while ignoring developing concrete mitigation strategies to deter individual users from sharing fake news. In , we propose a novel\nveracity-aware and event-driven recommendation model to recommend personalised corrective true news to individual users for effectively debunking fake news. Our proposed model Rec4Mit (Recommendation for\nMitigation) not only effectively captures a user’s current reading preference with a focus on which event, e.g., US election, from her/his recent reading history containing\ntrue and/or fake news, but also accurately predicts the veracity (true or fake) of candidate news. As a result, Rec4Mit can recommend the most suitable\ntrue news to best match the user’s preference as well as to mitigate fake news. In particular, for those users who have read fake news\nof a certain event, Rec4Mit is able to recommend the corresponding true news of the same event. Extensive experiments on real-world datasets show Rec4Mit significantly\noutperforms the state-of-the-art news recommendation methods in terms of the capability to recommend personalized true news for fake news mitigation."
+    },
+    {
+      "document_id": 551,
+      "score": null,
+      "abstract": "Fighting the spreading of fake news is one of the most challenging tasks on the Internet. In , we experiment with various pre-trained language models\n(PLMs) to check the veracity of German news articles. Since there are very few PLMs for German, we translate the German benchmark dataset to English.\nThen, we conduct experiments with both German and translated English datasets for predicting the veracity of the news articles. In the experiments, we apply the\nfine-tuning and adapter methods based on corresponding PLMs. Our experiments on the FANG-COVID dataset show that the errors resulting from translating German to English can\nbe compensated by the accuracy of available PLMs in English. With these experiments, we show that translating a dataset from a lower-resource language to English\nis a valid intermediate step for further processing with English PLMs. © 2022 Copyright for by its authors. Use permitted under Creative Commons License Attribution\n4.0 International (CC BY 4.0)."
+    },
+    {
+      "document_id": 672,
+      "score": null,
+      "abstract": "Fake news spread via social media is a major problem today. It is not easy with current-generation tools to check if a particular article is\ngenuine or contains fake news. While there are many Web sites today that debunk viral fake news, checking if a particular article has been debunked\nor is true is not easy for an end-user. Search engines like Google do not make it easy to check a complete article since they\nlimit the number of query keywords. In , we outline the architecture of the Kauwa-Kaate system for fact-checking articles. Queried articles are searched against articles\ncrawled from fact-checking sites, as well as against articles crawled from trusted news sites. Our system supports querying based on text as well as on\nimages and video; the latter features are very important since many fake news articles are based on images and videos. We also describe the user\ninterfaces which we will use to demonstrate the Kauwa-Kaate system."
+    },
+    {
+      "document_id": 787,
+      "score": null,
+      "abstract": "Fake news has become an important topic of research in a variety of disciplines including linguistics and computer science. In , we explain how the\nproblem is approached from the perspective of natural language processing, with the goal of building a system to automatically detect misinformation in news. The main\nchallenge in this line of research is collecting quality data, i.e., instances of fake and real news articles on a balanced distribution of topics. We\nreview available datasets and introduce the MisInfoText repository as a contribution of our lab to the community. We make available the full text of the\nnews articles, together with veracity labels previously assigned based on manual assessment of the articles’ truth content. We also perform a topic modelling experiment to\nelaborate on the gaps and sources of imbalance in currently available datasets to guide future efforts. We appeal to the community to collect more data\nand to make it available for research purposes. © The Author(s) 2019."
+    },
+    {
+      "document_id": 901,
+      "score": null,
+      "abstract": "We study the problem of finding fake online news. This is an important problem as news of questionable credibility have recently been proliferating in social\nmedia at an alarming scale. As this is an understudied problem, especially for languages other than English, we first collect and release to the research\ncommunity three new balanced credible vs. fake news datasets derived from four online sources. We then propose a language-independent approach for automatically distinguishing credible from\nfake news, based on a rich feature set. In particular, we use linguistic (n-gram), credibility-related (capitalization, punctuation, pronoun use, sentiment polarity), and semantic (embeddings and\nDBPedia data) features. Our experiments on three different testsets show that our model can distinguish credible from fake news with very high accuracy. © Springer\nInternational Publishing Switzerland 2016."
+    }
+  ]
+}

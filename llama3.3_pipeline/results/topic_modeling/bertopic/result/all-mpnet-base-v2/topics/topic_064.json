@@ -1,0 +1,45 @@
+{
+  "topic_id": 64,
+  "label": "T064",
+  "label_full": "layer, title",
+  "keywords": [
+    "layer",
+    "title",
+    "shall",
+    "vector",
+    "sentences",
+    "pam",
+    "word",
+    "proposition",
+    "figure",
+    "lstm"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 153,
+      "score": null,
+      "abstract": ", we present a pioneering method aimed at discerning the veracity of news content by leveraging state- of-the-art embedding techniques. Recognizing the importance of capturing\nsemantic nuances, we employ sentence transformers to generate embeddings that encapsulate the essence of the news content. This process results in high-dimensional data, which, although\nrich in information, can be computationally intensive for subsequent analysis. To address this, we introduce a Variational Autoencoder (VAE) to achieve an effective dimensionality reduction\nwhile preserving critical information. However, given the intricate and hierarchical nature of news content, we integrate a topic modeling approach known as Pachinko Allocation Model\n(PAM) into our framework. PAM offers a more refined data representation by capturing the latent hierarchical relationships between various news topics, adding an extra layer\nof semantic understanding to our method. The enhanced data representations from the VAE and PAM processes are con- catenated, creating a comprehensive feature set. This\ncombined feature set is then used to train multiple classifiers to segregate real news from fake counterparts. Through this comprehensive numerical investigation, we have achieved\nan accuracy of 96.80% and an F1 score of 97% using the transformer-based sentence paraphrase- multilingual architecture. Our study's findings are not only significant in\nterms of accuracy but also underscore the potential of combining multiple advanced techniques to tackle the fake news challenge. © 2024 IEEE."
+    },
+    {
+      "document_id": 312,
+      "score": null,
+      "abstract": "Fake news production, accessibility, and consumption have all increased with the rise of internet-connected gadgets and social media platforms. A good fake news detection system\nis essential because the news readers receive can affect their opinions. Several works on fake news detection have been done using machine learning and deep\nlearning approaches. Recently, the deep learning approach has been preferred over machine learning because of its ability to comprehend the intricacies of textual data. The\nintroduction of transformer architecture changed the NLP paradigm and distinguished itself from recurrent models by enabling the processing of sentences as a whole rather than\nword by word. The attention mechanisms introduced in Transformers allowed them to understand the relationship between far-apart tokens in a sentence. Numerous deep learning works\non fake news detection have been published by focusing on different features to determine the authenticity of a news source. We performed an extensive analysis\nof the comprehensive NELA-GT 2020 dataset, which revealed that the title and content of a news source contain discernible information critical for determining its integrity.\nTo this objective, we introduce 'FakeNews Transformer' - a specialized Transformer-based architecture that considers the news story's title and content to assess its veracity. Our\nproposed work achieved an accuracy of 74.0% on a subset of the NELA-GT 2020 dataset. To our knowledge, FakeNews Transformer is the first published work\nthat considers both title and content for evaluating a news article; thus, we compare the performance of our work against two BERT and two LSTM\nmodels working independently on title and content. Our work outperformed the BERT and LSTM models working independently on title by 7.6% and 9.6%, while performing\nbetter than the BERT and LSTM models working independently on content by 8.9% and 10.5%, respectively. © 2023 - IOS Press. All rights reserved."
+    },
+    {
+      "document_id": 761,
+      "score": null,
+      "abstract": "Nowadays, everyone can create and publish news and information anonymously online. However, the credibility of such news and information are not guaranteed. To differentiate fake\nnews from genuine news, one can compare a recent news with earlier posted ones. Identified suspicious news can be debunked to stop the fake news\nfrom spreading further. In , we investigate the advantages of recurrent neural networks-based language representations (e.g., BERT, BiLSTM) in order to build ensemble classifiers that\ncan accurately predict if one news title is related to, and, additionally disagrees with an earlier news title. Our experiments, on a dataset of 321k\nnews titles created for the WSDM 2019 challenge, show that the BERT-based models significantly outperform BiLSTM, which in-turn significantly outperforms a simpler embedding-based representation. Furthermore,\neven the state-of-the-art BERT approach can be enhanced when combined with a simple BM25 feature."
+    },
+    {
+      "document_id": 847,
+      "score": null,
+      "abstract": "These days, most of fake news are detected and verified by people, which requires a great amount of time and effort. It is difficult to\nFigure out the truthfulness of the news by machine algorithm because the sentences have various forms. In , we shall present a fast and efficient\nfake news detection model which can Figure out whether the given proposition is true or not from article by exploiting grammatical transformation based on deep\nlearning. Our model consists of four layers: word embedding layer, context generation layer, matching layer and inference layer. In word embedding layer, the words in\nproposition are embedded into word vector. In context generation layer, the word vectors enter into LSTM layer and generate context vector. In matching layer, attention\nvector is generated from the contextual embedding vector in the previous layer computing the weighted sum. Then, the hidden state vector from LSTM layers and\nattention vector are compared through matching operation generating the sentences which has the same meaning but different forms. In inference layer, our model calculates the\nsimilarity between the generated sentences and the sentences in articles, and classifies the answer, true or false. We shall evaluate our model calculating the perplexity\nto Figure out whether the generated sentences are grammatically correct. Also, the model is tested by changing the sentence group's size to find the optimal\nsize of the group. By showing the Our model figured out the fake news very well with the test of CNN news dataset getting the\nright answer. © 2018 IEEE."
+    },
+    {
+      "document_id": 848,
+      "score": null,
+      "abstract": "With the development of media including newspaper written by robots and many unreliable sources, it's getting hard to distinguish whether the news is true or\nnot. In , we shall present a novel fake news detection model, FaNDeR(Fake News Detection model using media Reliability) which can efficiently classify the level\nof truth for the news in the question answering system based on modified CNN deep learning model. Our model reflects the reliability of various medias\nby training with the input dataset which contains the truthfulness of each media as well as that of the proposition. Our model is designed for\nhigher accuracy with media dataset in terms of data augmentation, batch size control and model modification. We shall show that our model has higher accuracy\nover statistical approach by reflecting the tendency of truth level for each media through the training of the dataset collected so far. © 2018 IEEE."
+    }
+  ]
+}

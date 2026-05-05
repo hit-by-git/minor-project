@@ -1,0 +1,45 @@
+{
+  "topic_id": 51,
+  "label": "T051",
+  "label_full": "Misinformation & Propaganda",
+  "keywords": [
+    "news",
+    "autoencoder",
+    "variational",
+    "fake",
+    "false",
+    "blockchain",
+    "websites",
+    "experts",
+    "bimodal",
+    "hindi"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 240,
+      "score": null,
+      "abstract": "As social media has gotten more and more popular in recent years, there are many websites and social media platforms that claim to report on\nforth coming events, but whose veracity has been called into doubt. This has thrown news websites and blogs into the spotlight. As a result of\nthe controversy surrounding these websites and news organisations the concept of 'fake news' is now a crucial component of the news industry. Today's media content\nis considerably affected by the falsified news i.e; from satirical pieces to manufactured news and government publicity schemes. Fake news and a lack of media\ntrust are growing problems with serious repercussions for the general public. Automated technologies for spotting false news, including machine learning models, are now a must.\nThe work here presents the evaluation of four machine learning models' performance on four real-world datasets. Other languages, like Hindi, which is extensively spoken all\nover India are the subject of relatively fewer study. But the models which we have built are equally efficient in classifying news proliferated in Hindi\nalso. The method proposed utilises NLP techniques for data preprocessing and TF-IDF is the feature extraction technique considered for this model's development. Using simple machine\nlearning techniques an accuracy of about 0.99 is achieved. © 2023 IEEE."
+    },
+    {
+      "document_id": 314,
+      "score": null,
+      "abstract": "People are finding it simpler to find and ingest news as a result of the information’s easy access, quick expansion, and profusion on social media\nand in traditional news outlets. However, it is becoming increasingly difficult to distinguish between true and false information, which has resulted in the proliferation of\nfake news. Fake news is a term that refers to comments and journalism that intentionally mislead readers. Additionally, the legitimacy of social media sites, where\nthis news is primarily shared, is at stake. These fake news stories can have significant negative effects on society, so it is becoming increasingly important\nfor researchers to focus on how to identify them. In this research paper, we have compared ensemble learning models for identifying fake news by analyzing\na report’s accuracy and determining its veracity. The paper’s objective is to use natural language processing (NLP) and machine learning (ML) algorithms to identify false\nnews based on the content of news stories. The algorithms like decision trees, random forests, AdaBoost, and XGBoost classification are used for the project. A\nweb application has been developed using Python Flask framework to mitigate the challenges associated with identifying false information. © The Author(s), under exclusive license to\nSpringer Nature Singapore Pte Ltd 2023."
+    },
+    {
+      "document_id": 355,
+      "score": null,
+      "abstract": "Nowadays, information on any topic can be researched on the Internet. However, in addition to reputable news sources, there is also a great deal of\nfake news that is disseminated, e.g., via social media or in established newspapers. Thus, the veracity must be assessed for each piece of information. People,\nparties, and organizations want to push through their interests and sometimes do not hesitate to spread fake news. For some time now, one popular means\nhas been to quote (supposed) experts in a field. For example, —due to his authority— Albert Einstein is often quoted by believers in God although\nhe was primarily concerned with physics while his quotes on God are taken out of context. In , we define a new task of expert\nsuitability prediction and evaluate methods to assess the credibility of a person with reference to a statement and its context and compare it to state-of-the-art\napproaches applying transformer-based embeddings. In an R4 cycle in CBR this approach could be used for the ranking. In this pilot study, we restrict our\nexperiments to researchers, which allows us to derive their expertise from their publications. Furthermore, we make a manually labeled dataset consisting of 1,700 (statement,expert) pairs\nwhere suitable experts were tediously searched out together with valuable context information (such as convincing text parts of the experts’ contexts towards a statement) publicly\navailable to stimulate further research in this very important, but up to now underrepresented area of fake news detection. © 2023 CEUR-WS. All rights reserved."
+    },
+    {
+      "document_id": 361,
+      "score": null,
+      "abstract": "There has been a dramatic increase in the transmission of false information on social media over time. Concerns have been expressed about the effects of\nfalse information on the industry, not only by ordinary people but also by marketers. False information is often produced for commercial purposes to draw viewers\nand gather money through advertising. The whole world is affected by fake news. False and appealing news articles have been published by some unreliable sources,\nand this news cannot be confirmed because no regulatory system exists. As a result, these unreliable sources are free to post whatever they want, which\nin some circumstances, even causes social chaos. Due to the internet's ease, unsuitable news can spread faster than ever. However, it has been shown that\ninfluential media organizations with nefarious intentions have created false news to impact global events and policies. A conceptual framework for fake news detection using machine\nlearning and blockchain is proposed in . The idea is to give ratings to the content by experts and ordinary people and check for the\nauthenticity of the content. Ethereum blockchain is used to make the system decentralized, and the InterPlanetary File System is used as off- chain storage for\nblockchain. A Decentralized-Application will also be created in Ethereum, where users can read the news. InterPlanetary File System will be used to store the data,\nand the hash of the metadata will be stored in the blockchain. © 2023 Bharati Vidyapeeth, New Delhi."
+    },
+    {
+      "document_id": 640,
+      "score": null,
+      "abstract": "In recent times, fake news and misinformation have had a disruptive and adverse impact on our lives. Given the prominence of microblogging networks as a\nsource of news for most individuals, fake news now spreads at a faster pace and has a more profound impact than ever before. This makes\ndetection of fake news an extremely important challenge. Fake news articles, just like genuine news articles, leverage multimedia content to manipulate user opinions but spread\nmisinformation. A shortcoming of the current approaches for the detection of fake news is their inability to learn a shared representation of multimodal (textual +\nvisual) information. We propose an end-to-end network, Multimodal Variational Autoencoder (MVAE), which uses a bimodal variational autoencoder coupled with a binary classifier for the task\nof fake news detection. The model consists of three main components, an encoder, a decoder and a fake news detector module. The variational autoencoder is\ncapable of learning probabilistic latent variable models by optimizing a bound on the marginal likelihood of the observed data. The fake news detector then utilizes\nthe multimodal representations obtained from the bimodal variational autoencoder to classify posts as fake or not. We conduct extensive experiments on two standard fake news\ndatasets collected from popular microblogging websites: and Twitter. The experimental results show that across the two datasets, on average our model outperforms state-of-the-art methods by\nmargins as large as ~ 6% in accuracy and ~ 5% in F1 scores."
+    }
+  ]
+}

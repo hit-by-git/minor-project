@@ -1,0 +1,70 @@
+{
+  "topic_id": 28,
+  "label": "T028",
+  "label_full": "reviews, review",
+  "keywords": [
+    "reviews",
+    "review",
+    "deceptive",
+    "opinions",
+    "products",
+    "word",
+    "online",
+    "reviewers",
+    "applying",
+    "features"
+  ],
+  "n_docs": 10,
+  "documents": [
+    {
+      "document_id": 418,
+      "score": null,
+      "abstract": "Over the past few years, we have seen a rise in spoofed content across the Internet, including fake news and fake reviews. Fake news is\nfalse information that imitates real news intending to damage a reputation or make financial gains. Similarly, fake online reviews, commonly referred to as opinion spamming,\nhave impacted customers and retailers. The main problem is that there is no efficient way to distinguish between genuine and fake reviews; even humans find\nit difficult to do so. compares two tools used to detect opinion spamming and analyzes their results. We have compiled our research using 100 reviews\nfrom travelers who evaluated Istanbul's top five best-value hotels."
+    },
+    {
+      "document_id": 666,
+      "score": null,
+      "abstract": "Customer reviews are useful in providing an indirect, secondhand experience of a product. People often use reviews written by other customers as a guideline prior\nto purchasing a product/service or as a basis for acquiring information directly or through question answering. Such behavior signifies the authenticity of reviews in e-commerce\nplatforms. However, fake reviews are increasingly becoming a hassle for both consumers and product owners. To address this issue, we propose You Only Need Gold\n(YONG), an assistance tool for detecting fake reviews and augmenting user discretion. Our experimental results show the poor human performance on fake review detection, substantially\nimproved user capability given our tool, and the ultimate need for user reliance on the tool. © 2021 Association for Computational Linguistics"
+    },
+    {
+      "document_id": 681,
+      "score": null,
+      "abstract": "Opinions in reviews about the quality of products or services can be important information for readers. Unfortunately, such opinions may include deceptive ones posted for\nsome business reasons. To keep the opinions as a valuable and trusted source of information, we propose an approach to detecting deceptive and truthful opinions.\nSpecifically, we explore the use of word and character n-gram combinations, function words, and word syntactic n-grams (word sn-grams) as features for classifiers to deal\nwith this task. We also consider applying word correction to our utilized dataset. Our experiments show that classification results of using the word and character\nn-gram combination features could perform better than those of employing other features. Although the experiments indicate that applying the word correction might be insignificant, we\nnote that the deceptive opinions tend to have a smaller number of error words than the truthful ones. To examine robustness of our features, we\nthen perform cross-classification tests. Our latter experiments results suggest that using the word and character n-gram combination features could work well in detecting deceptive and\ntruthful opinions. Interestingly, the latter experimental results also indicate that using the word sn-grams as combination features could give good performance."
+    },
+    {
+      "document_id": 740,
+      "score": null,
+      "abstract": "The ever-evolving ubiquitous online social networks have been witnessing plethora of precarious, enigmatic and flabbergasted information imposing a probe on its credibility, in the recent\nstate of affairs. This has posed interesting challenges in context of research on information credibility, pinpointing the trustworthiness, necessity and influence of privacy and security\nin online social media. primarily focuses on the increasing inundation of idiosyncrasies in online social media, the significance of ensuring credibility of information, and incidental\ncollated compromises apropos to online reviews. The crux of implicates investigation of the prevalent opinion spammers that distorts the perceived quality of a product via\nfraudulent reviews. These falsified reviews’ progressive proliferation have been explored, exemplified and experimented with the tools, viz. “Fakespot,” “ReviewMeta” and “Review Index” demonstrating action, detection\nand prevention from the coherent and inherent fraud-bots which are intentionally targeted on large online app review databases entailing deceptive and skeptic opinions. © 2020,\nSpringer Nature Singapore Pte Ltd."
+    },
+    {
+      "document_id": 760,
+      "score": null,
+      "abstract": "Automated detection of text with misrepresentations such as fake reviews is an important task for online reputation management. The dataset of customer complaints - emotionally\ncharged texts which are very similar to reviews and include descriptions of problems customers experienced with certain businesses – is presented. It contains 2746 complaints\nabout banks and provides clear ground truth, based on available factual knowledge about the financial domain. Among them, 400 texts were manually tagged. Initial experiments\nwere performed in order to explore the links between implicit cues of the rhetoric structure of texts and the validity of arguments, and also how\ntruthful/deceptive are these texts."
+    },
+    {
+      "document_id": 868,
+      "score": null,
+      "abstract": "The Social Web supports and fosters social interactions by means of different social media, which allow the spread of the so called User-Generated Content (UGC).\nIn this context, characterized by the absence of trusted third parties that verify the reliability of the sources and the believability of the content generated,\nthe issue of assessing the credibility of the information diffused by means of social media is receiving increasing attention. In the literature, this issue has\nbeen mainly tackled as a classification problem; information is categorized into genuine and fake, usually by implementing or applying classifiers that consider multiple kinds of\nfeatures (mainly textual and non-textual) to be evaluated in terms of credibility.In this article, unlike prior research, textual features are considered separately with respect to\nother kinds of features during the classification process. In particular, an Ensemble Method that combines the results produced by two text classifiers and the ones\nreturned by another classifier acting on non-textual features is proposed. This allows to have better results with respect to the use of a single classifier\non multiple features together. The effectiveness of the Ensemble Method has been assessed in the context of review sites, by means of a labeled dataset\ngathered from the Yelp.com site, where on-line reviews are already classified as recommended and not recommended."
+    },
+    {
+      "document_id": 881,
+      "score": null,
+      "abstract": "The Social Web is characterized by a massive diffusion of unfiltered content, directly generated by users via the spread of different social media platforms. In\nthis context, a challenging issue is to assess the veracity of the information generated within the sites of online reviews. To address this issue, a\ncommon practice in the literature is to select and analyze some veracity features associated with users and their reviews, by mostly applying machine learning techniques,\nto provide a classification in genuine and deceptive reviews. In , we do not focus on the feature selection and user behavior analysis issues, but\nwe concentrate on the aggregation process with respect to each single veracity feature. In most of the approaches based on machine learning techniques, the contribution\nof each feature in the classification process is not measurable by the user. For this reason, we propose a multicriteria decision making approach based both\non the assessment of multiple criteria and the use of aggregation operators with the aim of obtaining a veracity score associated with each review. Based\non this score, it is possible to detect fake reviews. The proposed model is evaluated on a Yelp data set by applying different aggregation schemes,\nand it is compared with well-known supervised machine learning techniques. © 2016 Wiley Periodicals, Inc."
+    },
+    {
+      "document_id": 896,
+      "score": null,
+      "abstract": "Authenticity is the key for online review sites. Due to the significant development of review sites, the reviews are now highly important to users, producers\nand other stakeholders. Driven by interest, some imposters begin to post fake reviews to promote or discredit target products. The fake reviews not only mislead\nthe users but also damage the service provider's credit. Current works mostly aim at classifying whether a specific review is fake or not, using context-based\nor user-based approaches. However, the aggregated rating of the product is viewer's most concern. Therefore, we propose a novel task to restore the truthful rating\nand further tackle it by statistical and deep learning techniques. We also assemble and publish a movie-review dataset for this task."
+    },
+    {
+      "document_id": 921,
+      "score": null,
+      "abstract": "Online reviews are a cornerstone of consumer decision making. However, their authenticity and quality has proven hard to control, especially as polluters target these reviews\ntoward promoting products or in degrading competitors. In a troubling direction, the widespread growth of crowdsourcing platforms like Mechanical Turk has created a large-scale, potentially\ndifficult-to-detect workforce of malicious review writers. Hence, tackles the challenge of uncovering crowdsourced manipulation of online reviews through a three-part effort: (i) First, we propose\na novel sampling method for identifying products that have been targeted for manipulation and a seed set of deceptive reviewers who have been enlisted through\ncrowdsourcing platforms. (ii) Second, we augment this base set of deceptive reviewers through a reviewer-reviewer graph clustering approach based on a Markov Random Field where\nwe define individual potentials (of single reviewers) and pair potentials (between two reviewers). (iii) Finally, we embed the results of this probabilistic model into a\nclassification framework for detecting crowd-manipulated reviews. We find that the proposed approach achieves up to 0.96 AUC, outperforming both traditional detection methods and a SimRank-based\nalternative clustering approach. © 2015 ACM."
+    },
+    {
+      "document_id": 937,
+      "score": null,
+      "abstract": "Online repositories are providing business opportunities to gain feedback and opinions on products and services in the form of digital deposits. Such deposits are, in\nturn, capable of influencing the readers’ views and behaviours from the posting of misinformation intended to deceive or manipulate. Establishing the veracity of these digital\ndeposits could thus bring key benefits to both online businesses and internet users. Although machine learning techniques are well established for classifying text in terms\nof their content, techniques to categorise them in terms of their veracity remain a challenge for the domain of feature set extraction and analysis. To\ndate, text categorisation techniques for veracity have reported a wide and inconsistent range of accuracies between 57 and 90 per cent. This article evaluates the\naccuracy of detecting online deceptive text using a logistic regression classifier based on part of speech tags extracted from a corpus of known truthful and\ndeceptive statements. An accuracy of 72 per cent is achieved by reducing 42 extracted part of speech tags to a feature vector of six using\nprinciple component analysis. The results compare favourably to other studies. Improvements are anticipated by training machine learning algorithms on more complex feature vectors by combining\nthe key features identified with others from disparate feature domains. © 2014 Macmillan Publishers Ltd."
+    }
+  ]
+}

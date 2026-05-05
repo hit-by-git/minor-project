@@ -1,0 +1,45 @@
+{
+  "topic_id": 52,
+  "label": "T052",
+  "label_full": "Misinformation & Propaganda",
+  "keywords": [
+    "social",
+    "media",
+    "misinformation",
+    "communities",
+    "mumin",
+    "claim",
+    "replies",
+    "datasets",
+    "contrastive",
+    "similarity"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 2,
+      "score": null,
+      "abstract": "Social media users are more likely to be exposed to similar views and tend to avoid contrasting views, especially when they are part of a\ncommunity of social media users. , we investigate the presence of user communities and leverage them as a tool to detect misinformation on social media,\nspecifically on X (formerly known as Twitter). We propose a misinformation detection framework, namely Similarity-based Misinformation Detection (SiMiD) that employs microblogs and utilizes user-follower interactions\nwithin a social network. Our approach extracts important textual features of social media posts using a transformer-based language model. We use contrastive learning and pseudo-labeling\nto fine-tune the language model. Then, we measure the similarity for each social media post based on its relevance to each user in the communities.\nFinally, we train a machine learning model to identify the truthfulness of social media posts using these similarity scores. We evaluate our approach on three\nsocial media datasets, compare our method with twelve state-of-the-art approaches, and answer five research questions. The experimental results, supported by statistical tests, show that contrastive\nlearning and user communities can enhance the detection of misinformation on social media. Our model can identify misinformation content by achieving a consistently high weighted\nF1 score of over 90\\% across all datasets, even employing only a small number of users in communities. We make our implementations publicly available and\nprovide all details that are necessary for the reproducibility of experiments.1"
+    },
+    {
+      "document_id": 352,
+      "score": null,
+      "abstract": "Social media users often find themselves exposed to similar viewpoints and tend to avoid contrasting opinions, particularly when connected within a community. , we leverage\nthe presence of communities in misinformation detection on social media. For this purpose, we propose a similarity-based method that utilizes user-follower interactions within a social\nnetwork to identify and combat misinformation spread. The method first extracts important textual features of social media posts via contrastive learning and then measures the\ncosine similarity per social media post based on their relevance to each user in the community. Next, we train a classifier to assess the truthfulness\nof social media posts using these similarity scores. We evaluate our approach on three real-world datasets and compare our method with six baselines. The experimental\nresults and statistical tests show that contrastive learning and leveraging communities can effectively enhance the detection of misinformation on social media. © 2023 IEEE."
+    },
+    {
+      "document_id": 369,
+      "score": null,
+      "abstract": "Misinformation is becoming increasingly prevalent on social media and in news articles. It has become so widespread that we require algorithmic assistance utilising machine learning\nto detect such content. Training these machine learning models require datasets of sufficient scale, diversity and quality. However, datasets in the field of automatic misinformation\ndetection are predominantly monolingual, include a limited amount of modalities and are not of sufficient scale and quality. Addressing this, we develop a data collection\nand linking system (MuMiN-trawl), to build a public misinformation graph dataset (MuMiN), containing rich social media data (tweets, replies, users, images, articles, hashtags) spanning 21\nmillion tweets belonging to 26 thousand Twitter threads, each of which have been semantically linked to 13 thousand fact-checked claims across dozens of topics, events\nand domains, in 41 different languages, spanning more than a decade. The dataset is made available as a heterogeneous graph via a Python package (mumin).\nWe provide baseline results for two node classification tasks related to the veracity of a claim involving social media, and demonstrate that these are challenging\ntasks, with the highest macro-average F1-score being 62.55% and 61.45% for the two tasks, respectively. The MuMiN ecosystem is available at including the data, documentation,\ntutorials and leaderboards."
+    },
+    {
+      "document_id": 585,
+      "score": null,
+      "abstract": "The unmoderated nature of social media enables the diffusion of hoaxes, which in turn jeopardises the credibility of information gathered from social media platforms. Existing\nresearch on automated detection of hoaxes has the limitation of using relatively small datasets, owing to the difficulty of getting labelled data. This, in turn,\nhas limited research exploring early detection of hoaxes as well as exploring other factors such as the effect of the size of the training data\nor the use of sliding windows. To mitigate this problem, we introduce a semi-automated method that leverages the Wikidata knowledge base to build large-scale datasets\nfor veracity classification, focusing on celebrity death reports. This enables us to create a dataset with 4,007 reports including over 13M tweets, 15% of which\nare fake. Experiments using class-specific representations of word embeddings show that we can achieve F1 scores nearing 72% within 10 minutes of the first tweet\nbeing posted when we expand the size of the training data following our semi-automated means. Our dataset represents a realistic scenario with a real distribution\nof true, commemorative, and false stories, which we release for further use as a benchmark in future research."
+    },
+    {
+      "document_id": 638,
+      "score": null,
+      "abstract": "Social media platforms are a plethora of misinformation and its potential negative influence on the public is a growing concern. This concern has drawn the\nattention of the research community on developing mechanisms to detect misinformation. The task of misinformation detection consists of classifying whether a claim is True or\nFalse. Most research concentrates on developing machine learning models, such as neural networks, that outputs a single value in order to predict the veracity of\na claim. One of the major problem faced by these models is the inability of representing the uncertainty of the prediction, which is due incomplete\nor finite available information about the claim being examined. We address this problem by proposing a Bayesian deep learning model. The Bayesian model outputs a\ndistribution used to represent both the prediction and its uncertainty. In addition to the claim content, we also encode auxiliary information given by people's replies\nto the claim. First, the model encodes a claim to be verified, and generate a prior belief distribution from which we sample a latent variable.\nSecond, the model encodes all the people's replies to the claim in a temporal order through a Long Short Term Memory network in order to\nsummarize their content. This summary is then used to update the prior belief generating the posterior belief. Moreover, in order to train this model, we\ndevelop a Stochastic Gradient Variational Bayes algorithm to approximate the analytically intractable posterior distribution. Experiments conducted on two public datasets demonstrate that our model outperforms\nthe state-of-the-art detection models."
+    }
+  ]
+}

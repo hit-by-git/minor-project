@@ -1,0 +1,50 @@
+{
+  "topic_id": 48,
+  "label": "T048",
+  "label_full": "Credibility Assessment",
+  "keywords": [
+    "wikipedia",
+    "coloring",
+    "articles",
+    "trust",
+    "expertise",
+    "wikipediaviz",
+    "readers",
+    "trustworthiness",
+    "domainspecific",
+    "wikitrust"
+  ],
+  "n_docs": 6,
+  "documents": [
+    {
+      "document_id": 961,
+      "score": null,
+      "abstract": "Because of the open character of Wikipedia readers should always be aware of the possibility of false information. WikiTrust aims at helping readers to judge\nthe trustworthiness of articles by coloring the background of less trustworthy words in a shade of orange. we look into the effects of such coloring\non reading behavior and trust evaluation by means of an eye-tracking experiment. The results show that readers had more difficulties reading the articles with coloring\nthan without coloring. Trust in heavily colored articles was lower. The main concern is that the participants in our experiment rated usefulness of WikiTrust low."
+    },
+    {
+      "document_id": 966,
+      "score": null,
+      "abstract": "As Wikipedia has become one of the most used knowledge bases worldwide, the problem of the trustworthiness of the information it disseminates becomes central. With\nWikipediaViz, we introduce five visual indicators integrated to the Wikipedia layout that can keep casual Wikipedia readers aware of important meta-information about the articles they\nread. The design of WikipediaViz was inspired by two participatory design sessions with expert Wikipedia writers and sociologists who explained the clues they used to\nquickly assess the trustworthiness of articles. According to these results, we propose five metrics for Maturity and Quality assessment ofWikipedia articles and their accompanying visualizations\nto provide the readers with important clues about the editing process at a glance. We also report and discuss about the results of the user\nstudies we conducted. Two preliminary pilot studies show that all our subjects trust Wikipedia articles almost blindly. With the third study, we show that WikipediaViz\nsignificantly reduces the time required to assess the quality of articles while maintaining a good accuracy."
+    },
+    {
+      "document_id": 969,
+      "score": null,
+      "abstract": "Wikipedia has become a very popular destination for Web surfers seeking knowledge about a wide variety of subjects. While it contains many helpful articles with\naccurate information, it also consists of unreliable articles with inaccurate or incomplete information. A casual observer might not be able to differentiate between the good\nand the bad. In , we identify the necessity and challenges for trust assessment in Wikipedia, and propose a framework that can help address these\nchallenges by identifying relevant features and providing empirical means to meet the requirements for such an evaluation. We select relevant variables and perform experiments to\nevaluate our approach. The results demonstrate promising performance that is better than comparable approaches and could possibly be replicated with other social media applications. Copyright\n2009 ACM."
+    },
+    {
+      "document_id": 972,
+      "score": null,
+      "abstract": "The need to assess the trustworthiness of a piece of information has become a prevalent issue due to web vandalism and the openness of platforms\nsuch as wikis. In we introduce the notion of contextual accountability: Holding the author of a given statement accountable by deriving a path from the\nstatement to the author's credentials. We present our own trust vector model as a combination of the assessment of these credentials covering two aspects; knowledgeability\nand social acceptance. This model is put to the test using two datasets and the results are presented and discussed."
+    },
+    {
+      "document_id": 975,
+      "score": null,
+      "abstract": "Wiki users receive very little guidance on the trustworthiness of the information they find. It is difficult for them to determine how long the text\nin a page has existed, or who originally authored the text. It is also difficult to assess the reliability of authors contributing to a wiki\npage. In , we create a set of trust indicators and metrics derived from phrasal analysis of the article revision history. These metrics include author\nattribution, author reputation, expertise ratings, article evolution, and text trustworthiness. We also propose a new technique for collecting and maintaining explicit article ratings across multiple\nrevisions."
+    },
+    {
+      "document_id": 979,
+      "score": null,
+      "abstract": "The problem of identifying useful and trustworthy information on the World Wide Web is becoming increasingly acute as new tools such as wikis and blogs\nsimplify and democratize publication. It is not hard to predict that in the future the direct reliance on this material will expand and the problem\nof evaluating the trustworthiness of this kind of content become crucial. The Wikipedia project represents the most successful and discussed example of such online resources.\nIn we present a method to predict Wikipedia articles trustworthiness based on computational trust techniques and a deep domain-specific analysis. Our assumption is that a\ndeeper understanding of what in general defines high-standard and expertise in domains related to Wikipedia ñ i.e. content quality in a collaborative environment ñmapped onto\nWikipedia elements would lead to a complete set of mechanisms to sustain trust in Wikipedia context. We present a series of experiment. The first is\na study-case over a specific category of articles; the second is an evaluation over 8 000 articles representing 65% of the overall Wikipedia editing activity.\nWe report encouraging results on the automated evaluation of Wikipedia content using our domain-specific expertise method. Finally, in order to appraise the value added by\nusing domain-specific expertise, we compare our results with the ones obtained with a pre-processed cluster analysis, where complex expertise is mostly replaced by training and\nautomatic classification of common features."
+    }
+  ]
+}

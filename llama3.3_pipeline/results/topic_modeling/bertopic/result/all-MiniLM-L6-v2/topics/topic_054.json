@@ -1,0 +1,45 @@
+{
+  "topic_id": 54,
+  "label": "T054",
+  "label_full": "Misinformation & Propaganda",
+  "keywords": [
+    "disinformation",
+    "articles",
+    "dataset",
+    "lastly",
+    "debunkerassistant",
+    "euvsdisinfo",
+    "prokremlin",
+    "originating",
+    "manipulative",
+    "czech"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 38,
+      "score": null,
+      "abstract": "introduces EUvsDisinfo, a multilingual dataset of disinformation articles originating from pro-Kremlin outlets, along with trustworthy articles from credible / less biased sources. It is sourced\ndirectly from the debunk articles written by experts leading the EUvsDisinfo project. Our dataset is the largest to-date resource in terms of the overall number\nof articles and distinct languages. It also provides the largest topical and temporal coverage. Using this dataset, we investigate the dissemination of pro-Kremlin disinformation across\ndifferent languages, uncovering language-specific patterns targeting certain disinformation topics. We further analyse the evolution of topic distribution over an eight-year period, noting a significant surge\nin disinformation content before the full-scale invasion of Ukraine in 2022. Lastly, we demonstrate the dataset's applicability in training models to effectively distinguish between disinformation\nand trustworthy content in multilingual settings."
+    },
+    {
+      "document_id": 395,
+      "score": null,
+      "abstract": "describes the framework developed for the Debunker-Assistant, an application that allows users and newspapers to assess the trustworthiness of a news item starting from its\nheadline, body of text and URL. The Debunker-Assistant adapts ideas from Natural Language Processing and Network Science to counter the spread of online misinformation. Its\ncenterpiece is a set of four News Misinformation Indicators based on linguistically engineered features, models, network analysis metrics (Echo Effect, Alarm Bell, Sensationalism, and Reliability).\nIn this short contribution, we describe the back-end structure on which the indicators are implemented. © 2023 Copyright for by its authors. Use permitted under\nCreative Commons License Attribution 4.0 International (CC BY 4.0)."
+    },
+    {
+      "document_id": 447,
+      "score": null,
+      "abstract": "Creating classifiers of disinformation is time-consuming, expensive, and requires vast effort from experts spanning different fields. Even when these efforts succeed, their roll-out to publicly\navailable applications stagnates. While these models struggle to find their consumer-accessible use, disinformation behavior online evolves at a pressing speed. The hoaxes get shared in\nvarious abbreviations on social networks, often in user-restricted areas, making external monitoring and intervention virtually impossible. To re-purpose existing NLP methods for the new paradigm\nof sharing misinformation, we propose leveraging information about given texts' originating news sources to proxy the respective text's trustworthiness. We first present a methodology for\ndetermining the sources' overall credibility. We demonstrate our pipeline construction in a specific language and introduce CNSC: a novel dataset for Czech articles' news source\nand source credibility classification. We constitute initial benchmarks on multiple architectures. Lastly, we create in-the-wild wrapper applications of the trained models: a chatbot, a browser\nextension, and a standalone web application. © 2022 Association for Computational Linguistics."
+    },
+    {
+      "document_id": 543,
+      "score": null,
+      "abstract": "We present the Verifee Dataset: a novel dataset of news articles with fine-grained trustworthiness annotations. We develop a detailed methodology that assesses the texts based\non their parameters encompassing editorial transparency, journalist conventions, and objective reporting while penalizing manipulative techniques. We bring aboard a diverse set of researchers from social,\nmedia, and computer sciences to overcome barriers and limited framing of this interdisciplinary problem. We collect over 10, 000 unique articles from 60 Czech online\nnews sources. These are categorized into one of the 4 classes across the credibility spectrum we propose, raging from entirely trustworthy articles all the way\nto the manipulative ones. We produce detailed statistics and study trends emerging throughout the set. Lastly, we fine-tune multiple popular sequence-to-sequence language models using our\ndataset on the trustworthiness classification task and report the best testing F-1 score of 0.52. We open-source the dataset, annotation methodology, and annotators’ instructions in\nfull length at to enable easy build-up work. We believe similar methods can help prevent disinformation and educate in the realm of media literacy. ©\n2022 Released under a custom license."
+    },
+    {
+      "document_id": 819,
+      "score": null,
+      "abstract": "In , we present a dataset of 713k articles collected between 02/2018-11/2018. These articles are collected directly from 194 news and media outlets including mainstream,\nhyper-partisan, and conspiracy sources. We incorporate ground truth ratings of the sources from 8 different assessment sites covering multiple dimensions of veracity, including reliability, bias,\ntransparency, adherence to journalistic standards, and consumer trust. The NELA-GT-2018 dataset can be found at Copyright © 2019, Association for the Advancement of Artificial Intelligence\n( All rights reserved."
+    }
+  ]
+}

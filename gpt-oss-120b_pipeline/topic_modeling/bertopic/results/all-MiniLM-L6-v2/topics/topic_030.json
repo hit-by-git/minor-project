@@ -1,0 +1,55 @@
+{
+  "topic_id": 30,
+  "label": "T030",
+  "label_full": "Misinformation & Propaganda",
+  "keywords": [
+    "covid19",
+    "pandemic",
+    "virus",
+    "disease",
+    "rumours",
+    "infodemic",
+    "fake",
+    "tcn",
+    "tweets",
+    "outbreak"
+  ],
+  "n_docs": 7,
+  "documents": [
+    {
+      "document_id": 131,
+      "score": null,
+      "abstract": "With the recent advent of technology, social networks are accessible 24/7 using mobile devices. During covid-19 pandemic the propagation of misinformation are mostly related to\nthe disease, its cures and prevention. With Twitter as the medium this information was spreaded to millions of people who lack domain specific knowledge. This\ncan lead to bloster fear and direct damage to the people. This research focuses on identifying the veracity of the Twitter posts behind pandemic situation.\nThe authors have proposed a Transformer Model using Bat Algorithm for identifying the fake news. This model is trained and evaluated using infodemic metadata. Our\nexperimental results shows by which proposed model accurately detected the fake news and achieved 96.5% of f1-score. © 2024 IEEE."
+    },
+    {
+      "document_id": 431,
+      "score": null,
+      "abstract": "With the widespread use of social media, online social platforms like Twitter have become a place of rapid dissemination of information―both accurate and inaccurate. After\nthe COVID-19 outbreak, the overabundance of fake information and rumours on online social platforms about the COVID-19 pandemic has spread over society as quickly as\nthe virus itself. As a result, fake news poses a significant threat to effective virus response by negatively affecting people’s willingness to follow the proper\npublic health guidelines and protocols, which makes it important to identify fake information from online platforms for the public interest. In this research, we introduce\nan approach to detect fake news using deep learning techniques, which outperform traditional machine learning techniques with a 93.1% accuracy. We then investigate the content\ndifferences between real and fake news by applying topic modeling and linguistic analysis. Our results show that topics on Politics and Government services are most\ncommon in fake news. In addition, we found that fake news has lower analytic and authenticity scores than real news. With the findings, we discuss\nimportant academic and practical implications of the study. © 2022,Asia Pacific Journal of Information Systems.All Rights Reserved."
+    },
+    {
+      "document_id": 449,
+      "score": null,
+      "abstract": "Context and Background: Since December 2019, the coronavirus (COVID-19) epidemic has sparked considerable alarm among the general community and significantly affected societal attitudes and perceptions.\nApart from the disease itself, many people suffer from anxiety and depression due to the disease and the present threat of an outbreak. Due to\nthe fast propagation of the virus and misleading/fake information, the issues of public discourse alter, resulting in significant confusion in certain places. Rumours are unproven\nfacts or stories that propagate and promote sentiments of prejudice, hatred, and fear. Objective. The study's objective is to propose a novel solution to detect\nfake news using state-of-the-art machines and deep learning models. Furthermore, to analyse which models outperformed in detecting the fake news. Method. In the research study,\nwe adapted a COVID-19 rumours dataset, which incorporates rumours from news websites and tweets, together with information about the rumours. It is important to analyse\ndata utilizing Natural Language Processing (NLP) and Deep Learning (DL) approaches. Based on the accuracy, precision, recall, and the f1 score, we can assess the\neffectiveness of the ML and DL algorithms. Results. The data adopted from the source (mentioned in the paper) have collected 9200 comments from Google and\n34,779 Twitter postings filtered for phrases connected with COVID-19-related fake news. Experiment 1. The dataset was assessed using the following three criteria: veracity, stance, and\nsentiment. In these terms, we have different labels, and we have applied the DL algorithms separately to each term. We have used different models in\nthe experiment such as (i) LSTM and (ii) Temporal Convolution Networks (TCN). The TCN model has more performance on each measurement parameter in the evaluated\nresults. So, we have used the TCN model for the practical implication for better findings. Experiment 2. In the second experiment, we have used different\nstate-of-the-art deep learning models and algorithms such as (i) Simple RNN; (ii) LSTM + Word Embedding; (iii) Bidirectional + Word Embedding; (iv) LSTM + -1D;\nand (v) BERT. Furthermore, we have evaluated the performance of these models on all three datasets, e.g., veracity, stance, and sentiment. Based on our second\nexperimental evaluation, the BERT has a superior performance over the other models compared. © 2022 Rubia Fatima et al."
+    },
+    {
+      "document_id": 454,
+      "score": null,
+      "abstract": "The World Health Organization declared the Coronavirus disease in 2019; that was a very hard time for people, and every single day, a new crisis\nemerged. In that case, everyone shares their stories on the social media platform on a daily basis, but no one is sure that information is\ntrue or misleading, and that becomes a challenge to detect differences between them. And to tackle this problem, has explored the veracity of social media\nstories using some machine learning models. The goal of is to test three different BERT base pre-trained transform learning models (BERT, DistilBERT, and RoBERTa) on\nan English COVID-19 fake news dataset to detect the fake and true news separately. We explore their capability with precision, recall, and F1-score to achieve\nbetter results compared with the previous research. © 2022 IEEE."
+    },
+    {
+      "document_id": 538,
+      "score": null,
+      "abstract": "Fake COVID-19 tweets appear as legitimate and appealing to unsuspecting internet users because of lack of prior knowledge of the novel pandemic. Such news could\nbe misleading, counterproductive, unethical, unprofessional, and sometimes, constitute a log in the wheel of global efforts toward flattening the virus spread curve. Therefore, aside the\nCOVID-19 pandemic, dealing with fake news and myths about the virus constitute an infodemic issue which must be tackled to ensure that only valid information\nis consumed by the public. Following the research approach, this chapter aims at a predictive analytics of COVID-19 infodemic tweets that generates a classification rule\nand validates genuine information from verified accredited health institutions/sources. On deployment of classifier Vote ensembles formed by base classifiers SMO, Voted Perceptron, Liblinear, Reptree, and\nDecision Stump on dataset of tokenized 81, 456 Bag of Words which encapsulate 2964 COVID-19 tweet instances and 3169 extracted numeric vector attributes, experimental result\nshows a novel 99.93% prediction accuracy on 10-fold cross validation while the information gain of each 3169 extracted attributes is ranked to ascertain the most\nsignificant COVID-19 tweet-words for the detection system. Other performance metrics including ROC area and Relief-F validates the reliability of the model and returns SMO as\nthe most efficient base classifier. The thrust of the model centered more on the trustworthiness of COVID-19 tweet source than the truthfulness of the tweet\nwhich underscores the prominence of verified health institutions as well as it contributes to discourse on inhibition and impact of fake news especially on societal\npandemics. The COVID-19 infodemic detection algorithm provides insight into new spin on fake news in the age of social media and era of pandemics. ©\n2021 Elsevier Inc. All rights reserved."
+    },
+    {
+      "document_id": 540,
+      "score": null,
+      "abstract": "In March 2020, the World Health Organization declared the COVID-19 outbreak to be a pandemic. Soon afterwards, people began sharing millions of posts on social\nmedia without considering their reliability and truthfulness. While there has been extensive research on COVID-19 in the English language, there is a lack of research\non the subject in Arabic. In , we address the problem of detecting fake news surrounding COVID-19 in Arabic tweets. We collected more than seven\nmillion Arabic tweets related to the corona virus pandemic from January 2020 to August 2020 using the trending hashtags during the time of pandemic. We\nrelied on two fact-checkers: the France-Press Agency and the Saudi Anti-Rumors Authority to extract a list of keywords related to the misinformation and fake news\ntopics. A small corpus was extracted from the collected tweets and manually annotated into fake or genuine classes. We used a set of features extracted\nfrom tweet contents to train a set of machine learning classifiers. The manually annotated corpus was used as a baseline to build a system for\nautomatically detecting fake news from Arabic text. Classification of the manually annotated dataset achieved an F1-score of 87.8% using Logistic Regression (LR) as a classifier\nwith the n-gram-level Term Frequency-Inverse Document Frequency (TF-IDF) as a feature, and a 93.3% F1-score on the automatically annotated dataset using the same classifier with\ncount vector feature. The introduced system and datasets could help governments, decision-makers, and the public judge the credibility of information published on social media during\nthe COVID-19 pandemic. © 2021. All Rights Reserved."
+    },
+    {
+      "document_id": 619,
+      "score": null,
+      "abstract": "An increase in news articles on various communication platforms or social media has resulted in higher possibilities of spread of non-factual or fake information. The\noverall volume and veracity of news makes it even more impossible to manually fact check each data and label them as true or false. Under\nsuch circumstances, we propose a belief index generator model that quantifies the belief to be associated with any random information making use of text analytic\nproximity measures. In the initial feature engineering, we use a modified TF-IDF algorithm. Post generation of word embeddings, various distance measures have been proposed and\ncompared as possible belief scores. The analysis has been carried out using 50K research articles on CoVid-19 to validate truths and The CoronaVirusFacts/DatosCoronaVirus Alliance Database\nto validate falsities in random CoVid related information. © 2020 IEEE."
+    }
+  ]
+}

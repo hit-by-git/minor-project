@@ -1,0 +1,50 @@
+{
+  "topic_id": 39,
+  "label": "T039",
+  "label_full": "Credibility Assessment",
+  "keywords": [
+    "reviews",
+    "spam",
+    "review",
+    "online",
+    "opinion",
+    "deceptive",
+    "deception",
+    "consumers",
+    "trust",
+    "purchase"
+  ],
+  "n_docs": 6,
+  "documents": [
+    {
+      "document_id": 150,
+      "score": null,
+      "abstract": "In the contemporary digital landscape, online reviews play a pivotal role in shaping tourists’ decisions, leveraging the pervasive influence of the internet. However, discerning the\nauthenticity of reviews has become an intricate challenge, blurring the line between genuine and deceptive evaluations. This ambiguity provides fertile ground for individuals seeking to\nexploit the uncertainty, as witnessed in the proliferation of false reviews and the spread of unfavorable rumors through social media platforms. The consequences are profound,\nwith travelers and hosts alike navigating a landscape where traditional verification systems prove insufficient, leaving consumers vulnerable to misinformation. To address this pressing issue, we\npropose a novel machine learning-based approach. Our strategy employs classifiers such as Random Forest, Support Vector Machine, and Decision Tree, each exhibiting robust validation accuracy\nvalues of 92.19%, 87.19%, and 86.56%, respectively. This innovative framework serves as a powerful tool to distinguish between authentic and fraudulent reviews, providing a more\nreliable foundation for decision-making in the travel sector. By leveraging the capabilities of machine learning, we aim to create a system that not only identifies\ndeceptive practices but also contributes to restoring trust in online reviews. As the travel industry contends with the challenges posed by the digital era, this\napproach offers a promising avenue for mitigating the impact of false information and enhancing the overall integrity of the review ecosystem. © The Author(s), under\nexclusive license to Springer Nature Singapore Pte Ltd. 2024."
+    },
+    {
+      "document_id": 327,
+      "score": null,
+      "abstract": "In the realm of purchasing and business decisions, the significance of online reviews has soared, particularly within the hotel industry. The authenticity of these reviews\nis paramount, yet suspicions of deception have emerged, casting a shadow over their reliability. The recognition of deceptive reviews has gained traction, posing a potential\nthreat to shaping readers' opinions and steering their purchase choices. To counter this issue, introduces a sophisticated machine learning predictive model tailored for assessing hotel\nreviews' genuineness. Employing Support Vector Machine, Logistic Regression, and Multinomial Naïve Bayes models, an exhaustive experimentation was conducted. The empirical findings underscore the supremacy of\nthe Support Vector Machine, boasting an impressive 90% accuracy in discerning deceptive reviews - a notable achievement in enhancing the reliability of online feedback. ©\n2023 IEEE."
+    },
+    {
+      "document_id": 462,
+      "score": null,
+      "abstract": "Online reviews are becoming more and more popular among consumers. Taking advantage of the Internet, consumers can read online reviews related to products or services,\nin order to make their purchase journey easier. In online review context, trust towards online reviews is an important determinant of customers’ purchase intentions. The\nauthenticity of online reviews can be a critical element in building trust toward reviews. However, based on prior experiences of consumers, online reviews may not\nalways provide authentic information. Occasionally, fake reviews which do not reflect authentic product experiences, arrive on websites. In this regard, the detection, and thus prevention\nof fake reviews, gains great importance. The purpose of this study is to propose a new way to predict fake reviews by implementing supervised machine\nlearning models. To achieve this, a dataset consisting of 1,600 reviews was used, and features were extracted from this dataset. A variety of supervised learning\nclassifiers were trained by using features from the dataset, and then tested. The performance of each prediction model was compared using certain metrics, and the\nbest result was acquired using the Random Forest (RF) Classifier. © 2022, The Author(s), under exclusive license to Springer Nature Switzerland AG."
+    },
+    {
+      "document_id": 717,
+      "score": null,
+      "abstract": "Opinion spam, intentionally written by spammers who do not have actual experience with services or products, has recently become a factor that undermines the credibility\nof information online. In recent years, studies have attempted to detect opinion spam using machine learning algorithms. However, limitations of gold-standard spam datasets still prove\nto be a major obstacle in opinion spam research. In , we introduce a novel dataset called Paraphrased OPinion Spam (POPS), which contains a new\ntype of review spam that imitates real human opinions using crowdsourcing. To create such a seemingly truthful review spam dataset, we asked task participants to\nparaphrase truthful reviews, and include factual information and domain knowledge in their reviews. The classification experiments and semantic analysis results show that our POPS dataset\nmost linguistically and semantically resembles truthful reviews. We believe that our new deceptive opinion spam dataset will help advance opinion spam research."
+    },
+    {
+      "document_id": 732,
+      "score": null,
+      "abstract": "Online review helps reducing uncertainty in the pre-purchasing decision phase and thus becomes an important information source for consumers. With the increasing popularity of online\nreview systems, a large volume of reviews of varying quality is generated. Meanwhile, individual and professional spamming activities have been observed in almost all online\nreview platforms. Deceptive reviews with fake ratings or fake content are inserted into the system to influence people’s perception from reading these reviews. The deceptive\nreviews and reviews of poor quality significantly affect the effectiveness of online review systems. In , we define novel aspect-specific indicators that measure the deviations\nof aspect-specific opinions of a review from the aggregated opinions. Then, we propose a three-layer trust framework that relies on aspect-specific indicators to ascertain veracity\nof reviews and compute trust scores of their reviewers. An iterative algorithm is developed for propagation of trust scores in the three-layer trust framework. The\nconverged trust score of a reviewer is a credibility indicators that reflects the trustworthiness of the reviewer and the quality of his reviews, which becomes\nan effective trust index for online review spam detection. © IFIP International Federation for Information Processing 2017."
+    },
+    {
+      "document_id": 788,
+      "score": null,
+      "abstract": "Consumers' purchase decisions are increasingly influenced by user-generated online reviews. Accordingly, there has been growing concern about the potential for posting deceptive opinion spam---fictitious reviews\nthat have been deliberately written to sound authentic, to deceive the reader. But while this practice has received considerable public attention and concern, relatively little\nis known about the actual prevalence, or rate, of deception in online review communities, and less still about the factors that influence it.We propose a\ngenerative model of deception which, in conjunction with a deception classifier, we use to explore the prevalence of deception in six popular online review communities:\nExpedia, Hotels.com, Orbitz, Priceline, TripAdvisor, and Yelp. We additionally propose a theoretical model of online reviews based on economic signaling theory, in which consumer reviews\ndiminish the inherent information asymmetry between consumers and producers, by acting as a signal to a product's true, unknown quality. We find that deceptive opinion\nspam is a growing problem overall, but with different growth rates across communities. These rates, we argue, are driven by the different signaling costs associated\nwith deception for each review community, e.g., posting requirements. When measures are taken to increase signaling cost, e.g., filtering reviews written by first-time reviewers, deception\nprevalence is effectively reduced."
+    }
+  ]
+}

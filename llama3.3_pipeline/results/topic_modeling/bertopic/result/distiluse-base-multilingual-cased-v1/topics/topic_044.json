@@ -1,0 +1,50 @@
+{
+  "topic_id": 44,
+  "label": "T044",
+  "label_full": "multimodal, manipulation",
+  "keywords": [
+    "multimodal",
+    "manipulation",
+    "consistency",
+    "reports",
+    "modalities",
+    "textualvisual",
+    "dgm4",
+    "false",
+    "information",
+    "clip"
+  ],
+  "n_docs": 6,
+  "documents": [
+    {
+      "document_id": 44,
+      "score": null,
+      "abstract": "Recent multi-modal fake news detection methods often use the consistency between textual and visual contents to determine the truth or fake of a news information.\nHigher levels of textual-visual consistency typically lead to a greater likelihood of classifying a news item as real. However, a critical observation reveals that creators\nof most fake news intentionally select images that align with the textual content, thereby enhancing the credibility of the news. Consequently, high consistency between textual\nand visual contents alone cannot guarantee the authenticity of the information. To address this problem, we introduce a novel approach termed Multimodal Consistency-based Suppression Factor\nto modulate the significance of textual-visual consistency in information assessment. When the textual-visual matching is high, this suppression factor reduces the influence of consistency during\nthe judgment process. Moreover, we use Contrastive Language-Image Pre-training (CLIP) model to extract features and measure the consistency level between modalities to guide multimodal fusion.\nIn addition, we also use a method of compressing and fusing modal information based on Variational Autoencoder (VAE) to reconstruct CLIP features, learning the shared\nrepresentation of different modal information of CLIP. Finally, extensive experiments were conducted on three publicly datasets, Weibo, Twitter and Weibo21, and the results confirmed that\nour method outperformed the state-of-the-art methods in the field, and had 0.8\\%, 2.6\\% and 4.1\\% effect improvement on the accuracy rate."
+    },
+    {
+      "document_id": 295,
+      "score": null,
+      "abstract": "Detecting the authenticity of news information published on social media has important practical significance. Due to the multimodal characteristics of false information such as information\ncontent, user related attributes, and information dissemination, existing false information detection technologies cannot effectively meet the multimodal detection requirements of false information. In , we\npropose a different and novel method. Firstly, we propose a multimodal false information detection model that integrates multiple layers such as front-end, midrange, and back-end;\nSecondly, we fused the relevant field information of the existing public data set of false information with the generated content of GPT's big model of\nartificial intelligence innovative learning ability in Natural language processing, expanding the public data set of false information; Finally, we utilized the extended false information public\ndataset based on GPT data fusion to train and validate this multi-layered fusion multimodal false information detection model. In actual detection, as long as the\noriginal tweet text content, user related attributes, and relevant evidence and other feature information are given, it can better predict whether the tweet news information\nis false information. Experiments have shown that compared with existing false information detection methods, the multimodal false information detection method based on knowledge distillation has\nsignificant accuracy advantages. © 2023 IEEE."
+    },
+    {
+      "document_id": 334,
+      "score": null,
+      "abstract": "Misinformation has become a pressing issue. Fake media, in both visual and textual forms, is widespread on the web. While various deepfake detection and text\nfake news detection methods have been proposed, they are only designed for single-modality forgery based on binary classification, let alone analyzing and reasoning subtle forgery\ntraces across different modalities. In , we high-light a new research problem for multi-modal fake media, namely Detecting and Grounding Multi-Modal Media Manipulation (DGM4). DGM4\naims to not only detect the authenticity of multi-modal media, but also ground the manipulated content (i.e., image bounding boxes and text tokens), which requires\ndeeper reasoning of multi-modal media manipulation. To support a large-scale investigation, we construct the first DGM4 dataset, where image-text pairs are manipulated by various approaches,\nwith rich annotation of diverse manipulations. Moreover, we propose a novel HierArchical Multi-modal Manipulation rEasoning tRansformer (HAMMER) to fully capture the fine-grained interaction between different\nmodalities. HAMMER performs 1) manipulation-aware contrastive learning between two uni-modal encoders as shallow manipulation reasoning, and 2) modality-aware cross-attention by multi-modal aggregator as deep manipulation\nreasoning. Dedicated manipulation detection and grounding heads are integrated from shallow to deep levels based on the interacted multi-modal information. Finally, we build an extensive\nbench-mark and set up rigorous evaluation metrics for this new research problem. Comprehensive experiments demonstrate the superiority of our model; several valuable observations are also\nrevealed to facilitate future research in multi-modal media manipulation. © 2023 IEEE."
+    },
+    {
+      "document_id": 509,
+      "score": null,
+      "abstract": "In , we present an explainable multimodal content-based fake news detection system. It is concerned with the veracity analysis of information based on its textual\ncontent and the associated image, together with an Explainable AI (XAI) assistant. To the best of our knowledge, this is the first study that aims\nto provide a fully explainable multimodal content-based fake news detection system using Latent Dirichlet Allocation (LDA) topic modeling, Vision-and-Language BERT (VilBERT) and Local Interpretable Model-agnostic\nExplanations (LIME) models. Our experiments on two real-world datasets demonstrate the relevance of learning the connection between two modalities, with an accuracy that exceeds 10\nstate-of-the-art fake news detection models. © 2022, Springer Nature Switzerland AG."
+    },
+    {
+      "document_id": 539,
+      "score": null,
+      "abstract": "Multi-modal fact verification has become an important but challenging issue on social media due to the mismatch between the text and images in the misinformation\nof news content, which has been addressed by considering cross-modalities to identify the veracity of the news in recent years. In , we propose the\nPre-CoFactv2 framework with new parameter-efficient foundation models for modeling fine-grained text and input embeddings with lightening parameters, multi-modal multi-type fusion for not only capturing relations\nfor the same and different modalities but also for different types (i.e., claim and document), and feature representations for explicitly providing metadata for each sample.\nIn addition, we introduce a unified ensemble method to boost model performance by adjusting the importance of each trained model with not only the weights\nbut also the powers. Extensive experiments show that Pre-CoFactv2 outperforms Pre-CoFact by a large margin and achieved new state-of-the-art results at the Factify challenge at\nAAAI 2023. We further illustrate model variations to verify the relative contributions of different components. Our team won the first prize (F1-score: 81.82%) and we\nmade our code publicly available1 © 2023 Copyright for by its authors."
+    },
+    {
+      "document_id": 596,
+      "score": null,
+      "abstract": "Verifying fact of multimodal (text, image and/or videos) reports is emerging as an important challenge to prevent circulation of fake news reports in various online\nplatform. Moreover, such reports often being posted in local languages penetrate even faster, making the problem more complex. To tackle such problem many fact verifying\nweb sites have emerged, which deploys humans to manually find the truthfulness of such reports with the help of multimodal contents that are being used\nin such report. But in recent times, due to diversity of the problem owing to various political, and malicious motives, the existing (manual) system fails\nto handle the enormity. Existing content based approaches rely only on textual content of such reports and fail to handle the multimodal nature. On the\nother hand, existing multimodal based approaches rely only on the report based and user based features, and fail to interpret the fake contents with evidences.\nIn , we propose a novel end-to-end automated multimodal content based multilingual fact verification system, which automates the task of fact verifying web sites, and\nprovides evidences for every judgment. Evaluation results on three benchmark datasets show the robustness and effectiveness of our approach. © 2021 IEEE."
+    }
+  ]
+}

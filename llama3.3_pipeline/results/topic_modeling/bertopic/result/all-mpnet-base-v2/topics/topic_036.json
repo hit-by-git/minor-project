@@ -1,0 +1,65 @@
+{
+  "topic_id": 36,
+  "label": "T036",
+  "label_full": "Misinformation & Propaganda",
+  "keywords": [
+    "data",
+    "piece",
+    "receiver",
+    "fake",
+    "sources",
+    "fade",
+    "approaches",
+    "news",
+    "agent",
+    "does"
+  ],
+  "n_docs": 9,
+  "documents": [
+    {
+      "document_id": 104,
+      "score": null,
+      "abstract": "We formulate the problem of fake news detection using distributed fact-checkers (agents) with unknown reliability. The stream of news/statements is modeled as an independent and\nidentically distributed binary source (to represent true and false statements). Upon observing a news, agent i labels the news as true or false that reflects\nthe true validity of the statement with some probability 1-P. In other words, agent i misclassified each statement with error probability Pin(0,1), where the parameter\nP models the (un)trustworthiness of agent i. We present an algorithm to learn the unreliability parameters, resulting in a distributed fact checking algorithm. For the\ntwo-agent case, we extensively analyze the discrete-time limit of our algorithm. © 2024 AACC."
+    },
+    {
+      "document_id": 316,
+      "score": null,
+      "abstract": "Sensational and fake news are created and spread through social media to achieve the intended end. It may also involve narration of a true fact\nhowever being deliberately exaggerated.The idea of this research is to identify the authenticity of the news/information present on the web in the form of text,\nlinks and images. The main aim is to feed in some dynamic information and determine whether it's real/misleading(fake). In , we propose a novel model\nfor our real-time application that detects fake news by examining the accuracy of some content, link or image given by the user, and predicting its\nauthenticity based on a score. © 2023 IEEE."
+    },
+    {
+      "document_id": 339,
+      "score": null,
+      "abstract": "Technological development combined with the evolution of the Internet has made it possible to reach an increasing number of people over the years and given\nthem the opportunity to access information published on the network. The growth in the number of fake news generated daily, combined with the simplicity with\nwhich it is possible to share them, has created such a large phenomenon that it has become immediately uncontrollable. Furthermore, the quality with which malicious\ncontent is made is increasingly high so even professional experts, such as journalists, have difficulty recognizing which news is fake and which is real. aims\nto implement an architecture that provides a service to final users that assures the reliability of news providers and the quality of news based on\ninnovative tools. The proposed models take advantage of several Machine Learning approaches for fake news detection tasks and take into account well-known attacks on trust.\nFinally, the implemented architecture is tested with a well-known dataset and shows how the proposed models can effectively identify fake news and isolate malicious sources.\n© 2008-2012 IEEE."
+    },
+    {
+      "document_id": 410,
+      "score": null,
+      "abstract": "With the widespread use of social media platforms within our modern society, these platforms have become a popular medium for disseminating news across the globe.\nWhile some of these platforms are considered reliable sources for sharing news, others publicize the information without much validation. The transmission of fake news on\nsocial media impacts people’s behavior and negatively influences people’s decisions. During the COVID-19 outbreak, it was more evident than ever. This has led to a\ndemand for conducting research studies to explore sophisticated approaches to assess the integrity of news worldwide. The main objective of this research paper was to\noutline our proposed experimental methodology to detect and access fake news using Data Mining and Natural Language Processing. The presented research effort provides a method\nto verify the authenticity of the news disseminated in social networks by dividing the process into four significant stages: news aggregation, publication collection, data analysis,\nand matching results."
+    },
+    {
+      "document_id": 491,
+      "score": null,
+      "abstract": "Fake news is a problem for society as some people trust the message and react accordingly, propagating the lie. The consequences vary from a simple\nlaugh to a death sentence. Research has focused on distinguishing between fake and fact through machine learning techniques. Most literature reviews and mappings focus on\ntechniques that identify the fake over the message content. In a complementary way, we investigate fake news detection approaches based on the senders' behavior on\nsocial media. We present a conceptual framework that deep dives into different aspects of the main categories of persuader, clarifier, and gullible actors. We also\nconsider automatic and manual profiles. The results provide an overview of existing works on profile trustworthiness in fake news spread and shed light on possible\nresearch directions. © 2022 IEEE."
+    },
+    {
+      "document_id": 568,
+      "score": null,
+      "abstract": "Internet-based media and social networks enable quick access to information; however, that has also made it easy to conduct disinformation campaigns. Fake news poses a\nserious threat to the functioning and safety of our society, as demonstrated by nation-state-sponsored campaigns to sway the 2016 US presidential election, and more recently\nCOVID-19 pandemic hoaxes that promote false cures, putting lives at risk. FADE is a novel approach and service that helps Internet users detect fake news.\nFADE discovers multiple news sources covering the same story, analyzes their reputation, and checks the trustworthiness of cited sources. Our approach does not depend on\nany specific social media or news source, does not rely on costly textual content analysis, and does not require lengthy offline processing. Our experiments demonstrate\nabove 85\\% detection accuracy with a practical implementation. FADE offers a path to empowering the Internet community with effective tools to identify fake news."
+    },
+    {
+      "document_id": 570,
+      "score": null,
+      "abstract": "Fake news is false information about current events, intentionally created to mislead readers. The spread of such fake news has the potential to create a\nnegative impact on individuals and society. With today’s straightforward creation of social media posts, there has been an increasing amount of fake news, compared to\ntraditional media in the past. We present one of the most serious societal issue of misinformation, specifically using Presidential Election and COVID-19 health related fake\nnews. We present multi-dimensional approaches that organizations and individuals could utilize for detecting fake news, ranging from human/social approaches, to technical approaches to organizational trust/policy\napproaches. The Machine Learning approach as a technical solution is presented for automating the detection of fake news and misleading contents. A fake news detection\nweb application is presented to make it easy for end users to determine whether an article is legitimate or fake."
+    },
+    {
+      "document_id": 685,
+      "score": null,
+      "abstract": "Data-driven analysis has been increasingly used in various decision making processes. With more sources, including reviews, news, and pictures, can now be used for data\nanalysis, the authenticity of data sources is in doubt. While previous literature attempted to detect fake data piece by piece, in the current work, we\ntry to capture the fake data sender's strategic behavior to detect the fake data source. Specifically, we model the tension between a data receiver who\nmakes data-driven decisions and a fake data sender who benefits from misleading the receiver. We propose a potentially infinite horizon continuous time game-theoretic model with\nasymmetric information to capture the fact that the receiver does not initially know the existence of fake data and learns about it during the course\nof the game. We use point processes to model the data traffic, where each piece of data can occur at any discrete moment in a\ncontinuous time flow. We fully solve the model and employ numerical examples to illustrate the players' strategies and payoffs for insights. Specifically, our results show\nthat maintaining some suspicion about the data sources and understanding that the sender can be strategic are very helpful to the data receiver. In addition,\nbased on our model, we propose a methodology of detecting fake data that is complementary to the previous studies on this topic, which suggested various\napproaches on analyzing the data piece by piece. We show that after analyzing each piece of data, understanding a source by looking at the its\nwhole history of pushing data can be helpful."
+    },
+    {
+      "document_id": 717,
+      "score": null,
+      "abstract": "Unorganized data is a massive source of cluttered information available over the web. It possesses a major problem when this data originates from unauthenticated sources\ncreating confusion among the general public. The amount of fake news regarding the current COVID-19 scenario and political movements have had an adverse effect on\nthe world. It is necessary to devise models and a step by step algorithm to tackle this challenge. talks about a model that identifies data\navailable over the web and performs crawling to get information about the data sources and maps the information with regards to the authenticity of the\nsource. We look at possible web perspectives of data sources, official social media handles, reviewed agency lists, sentiment analysis, and calculate a value for a\npiece of particular news. The observed critical value looks for identifying the authenticity of the news and forms the basis of this idea. also looks\nat a model that uses supervised learning to classify various news items depending on the defined criteria. © 2020 IEEE."
+    }
+  ]
+}

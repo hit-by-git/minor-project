@@ -1,0 +1,45 @@
+{
+  "topic_id": 53,
+  "label": "T053",
+  "label_full": "colloquial, subquestions",
+  "keywords": [
+    "colloquial",
+    "subquestions",
+    "claims",
+    "political",
+    "claim",
+    "dialogue",
+    "factchecks",
+    "formal",
+    "factcheckers",
+    "politicians"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 266,
+      "score": null,
+      "abstract": "Political fact-checkers evaluate the truthfulness of politicians’ claims. contributes to an emerging scholarly debate on whether fact-checkers treat political parties differently in a systematic manner\ndepending on their ideology (bias). We first examine the available approaches to analyze bias and then present a new approach in two steps. First, we\npropose a logistic regression model to analyze the outcomes of fact-checks and calculate how likely each political party will obtain a truth score. We test\nour model with a sample of fact-checks from Newtral, a prominent Spanish fact-checker. Our model would signal bias under two assumptions: (a) all political parties\nare on average equally accurate in their statements; (b) the verification method gives precise instructions and is implemented systematically. We investigate this second assumption with\na series of interviews with Newtral fact-checkers. We show that standard verification protocols are loosely implemented and therefore fact-checks reflect a set of journalistic decisions,\nrather than a bias in the statistical sense. We call for a more rigorous definition of verification methods as a pre-requisite for an unbiased assessment\nof politician’s claims. © 2023 Informa UK Limited, trading as Taylor & Francis Group."
+    },
+    {
+      "document_id": 540,
+      "score": null,
+      "abstract": "Verifying political claims is a challenging task, as politicians can use various tactics to subtly misrepresent the facts for their agenda. Existing automatic fact-checking systems\nfall short here, and their predictions like “half-true” are not very useful in isolation, since it is unclear which parts of a claim are true\nor false. In , we focus on decomposing a complex claim into a comprehensive set of yes-no subquestions whose answers influence the veracity of the\nclaim. We present CLAIMDECOMP, a dataset of decompositions for over 1000 claims. Given a claim and its verification paragraph written by fact-checkers, our trained annotators\nwrite subquestions covering both explicit propositions of the original claim and its implicit facets, such as additional political context that changes our view of the\nclaim's veracity. We study whether state-of-the-art pre-trained models can learn to generate such subquestions. Our experiments show that these models generate reasonable questions, but predicting\nimplied subquestions based only on the claim (without consulting other evidence) remains challenging. Nevertheless, we show that predicted subquestions can help identify relevant evidence to\nfact-check the full claim and derive the veracity through their answers, suggesting that claim decomposition can be a useful piece of a fact-checking pipeline. ©\n2022 Association for Computational Linguistics."
+    },
+    {
+      "document_id": 554,
+      "score": null,
+      "abstract": "Knowledge is now starting to power neural dialogue agents. At the same time, the risk of misinformation and disinformation from dialogue agents also rises. Verifying\nthe veracity of information from formal sources are widely studied in computational fact checking. In , we ask: How robust are fact checking systems on\nclaims in colloquial style? We aim to open up new discussions in the intersection of fact verification and dialogue safety. In order to investigate how\nfact checking systems behave on colloquial claims, we transfer the styles of claims from FEVER (Thorne et al., 2018) into colloquialism. We find that existing\nfact checking systems that perform well on claims in formal style significantly degenerate on colloquial claims with the same semantics. Especially, we show that document\nretrieval is the weakest spot in the system even vulnerable to filler words, such as “yeah” and “you know”. The document recall of WikiAPI retriever\n(Hanselowski et al., 2018) which is 90.0% on FEVER, drops to 72.2% on the colloquial claims. We compare the characteristics of colloquial claims to those\nof claims in formal style, and demonstrate the challenging issues in them."
+    },
+    {
+      "document_id": 824,
+      "score": null,
+      "abstract": "We present an automated approach to distinguish true, false, stretch, and dodge statements in questions and answers in the Canadian Parliament. We leverage the truthfulness\nannotations of a U.S. fact-checking corpus by training a neural net model and incorporating the prediction probabilities into our models. We find that in concert\nwith other linguistic features, these probabilities can improve the multi-class classification results. We further show that dodge statements can be detected with an F1 measure\nas high as 82.57% in binary classification settings."
+    },
+    {
+      "document_id": 855,
+      "score": null,
+      "abstract": "The task of fact-checking has been formalised as the assessment of the truthfulness of a claim. Be it a political proclamation or a technological development,\nverification of a new tidbit of information before its propagation to the general public is of utmost importance. Failing to do so leads to the\nspread of misinformation, which is a devious tool. Fact-checking is commonly performed by journalists, manually looking up information pertaining to the statement in question. This\nis a drawn out and tedious process with a chance of the concerned person not covering the domain exhaustively. Some of this effort is reduced\nby the use of knowledge bases created over a period of time. In under Task 2 (Factuality) of the CLEF 2018 CheckThat! Lab, we detail\na neural network based methodology which models the textual data of a claim based on various representations of its words and characters. An affixed attention\nmechanism allows us to encapsulate linguistic features common in false claims. We achieve an accuracy of 39.57% on the task dataset."
+    }
+  ]
+}

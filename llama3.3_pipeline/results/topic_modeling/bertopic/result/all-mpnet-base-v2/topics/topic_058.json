@@ -1,0 +1,45 @@
+{
+  "topic_id": 58,
+  "label": "T058",
+  "label_full": "Misinformation & Propaganda",
+  "keywords": [
+    "techniques",
+    "learning",
+    "machine",
+    "fake",
+    "review",
+    "challenges",
+    "news",
+    "linguistic",
+    "meticulous",
+    "misleading"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 67,
+      "score": null,
+      "abstract": "The rampant spread of misinformation on online platforms has prompted extensive research into effective fake news detection methods. conducts a comprehensive review of various techniques\nutilized in this domain, with a specific emphasis on natural language processing (NLP), machine learning, and deep learning models. Central to these methods is the\nmeticulous analysis of source credibility and contextual information. By scrutinizing the origins of news stories and considering the surrounding context, these techniques strive to differentiate\nbetween deceptive narratives and genuine content. NLP techniques play a pivotal role, enabling the extraction of subtle linguistic patterns that aid in the identification of\nmisleading information. Moreover, underscores the critical importance of factual verification in ensuring accurate detection. Factual verification involves cross-referencing information with reliable sources, confirming the authenticity\nof claims made in news stories. By integrating the insights from source credibility analysis, contextual understanding, and meticulous factual verification with the capabilities of NLP\nand advanced machine learning models, these techniques provide a robust frameworks for tackling the challenges posed by fake news. © 2024 IEEE."
+    },
+    {
+      "document_id": 131,
+      "score": null,
+      "abstract": "The rampant spread of misinformation undermines the credibility of social media platforms in today's digital landscape [1]. Machine learning techniques have become vital in detecting\nfake news and maintaining public confidence in media outlets [3]. This article surveys recent progress in machine learning for fake news detection, addressing the complexity\nof misinformation and evaluating the various technologies and methods used in this field. By examining current research, we outline the benefits and limitations of different\napproaches, including both traditional machine learning models and advanced deep learning algorithms [4]. Our findings reveal that traditional machine learning techniques achieve significant accuracy in\nidentifying fake news: Naive Bayes at 95.27%, Logistic Regression at 9 8. 8 4 %, Decision Tree at 9 9. 5 8 %, Random Forest\nat 9 9. 3 0 %, and SVM at 9 9. 4 0 %. Additionally, we showcase the practical use of these methods through a\nweb-based tool built with the Django framework, allowing users to determine the authenticity of news articles. This review provides essential insights for researchers, practitioners, and\npolicymakers to develop more effective strategies to combat misinformation and foster a well-informed society. Furthermore, we explore emerging trends such as automated content ethics and\nstress the importance of collaboration among machine learning experts, journalists, and social scientists. This review aims to serve as a valuable resource guiding future research\nand decision-making processes to reduce the spread of misinformation in the digital world. © 2024 IEEE."
+    },
+    {
+      "document_id": 147,
+      "score": null,
+      "abstract": "The presence of misleading information in everyday access media outlets have made it a challenging issue with respect to identifying trustworthy sources thus resulting in\nthe increase in the need of the computational tools which are able to describe the reliability as well as the reality of the online content\navailable at the snap of our fingers. In the present scenario, the increase in usage of social media is resulting in more information being created\nor shared some of which is misleading with having little to no relevance to reality. Automating the detection of fake news is quite a challenging\ntask as we have to search out for various aspects before passing a verdict about any news article. In , we have proposed a model\nwhich makes use of Web Scraping and Crawling, Machine learning and deep learning techniques to help identify the truthfulness of an article. This can be\nconsidered as one of the best ways of detecting fake news by including fake news categorization and a few existing algorithms in machine learning. ©\n2024 American Institute of Physics Inc.. All rights reserved."
+    },
+    {
+      "document_id": 336,
+      "score": null,
+      "abstract": "The proliferation of fake news on social media platforms has become a major concern, posing significant challenges to information integrity and public trust. This study\npresents a precise approach for fake news detection on social media, leveraging machine learning and natural language processing techniques. The proposed comprehensive framework combines linguistic\nfeatures, user engagement patterns, and network analysis to identify and classify misleading or fabricated news articles. Experimental results on a large-scale dataset demonstrate the effectiveness\nof the approach in accurately detecting fake news, providing valuable insights for developing automated tools and strategies to combat the spread of misinformation on social\nmedia platforms. The paper provides an overview of the approaches and techniques used in detecting fake news, exploring the utilization of natural language processing, machine\nlearning, and deep learning models to analyze linguistic patterns and contextual cues in news articles. It discusses the incorporation of external knowledge sources and the\nimportance of features such as linguistic style, sentiment, and source credibility. The paper highlights the challenges faced in fake news detection, including evolving adversarial techniques\nand ethical considerations. Understanding these techniques and challenges enables researchers to contribute effectively to the development of solutions for combatting fake news dissemination. Furthermore, the\npaper examines the challenges associated with fake news detection, such as the ever-evolving nature of deceptive techniques and the ethical implications of content moderation. By\nunderstanding the advancements, limitations, and emerging trends in fake news detection, researchers can contribute to the development of robust and reliable solutions that safeguard the\nauthenticity and reliability of information in the digital landscape. © 2023 IEEE."
+    },
+    {
+      "document_id": 713,
+      "score": null,
+      "abstract": "Online news platforms greatly influence our society and culture in both positive and negative ways. As online media becomes more dependent for source of information,\na lot of fake news is posted online, that widespread with people following it without any prior or complete information of event authenticity. Such misinformation\nhas the potential to manipulate public opinions. The exponential growth of fake news propagation have become a great threat to public for news trustworthiness. It\nhas become a compelling issue for which discovering, examining and dealing with fake news has increased in demand. However, with the limited availability of literature\non the issue of uncovering fake news, a number of potential methodologies and techniques remains unexplored. The primary aim of is to review existing methodologies,\nto propose and implement a method for automated deception detection. The proposed methodology uses deep learning in discourse-level structure analysis to formulate the structure that\ndifferentiates fake and real news. The baseline model achieved 74% accuracy. © 2020 IEEE."
+    }
+  ]
+}

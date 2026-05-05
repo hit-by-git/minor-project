@@ -1,0 +1,45 @@
+{
+  "topic_id": 42,
+  "label": "T042",
+  "label_full": "Rumor on Social Media",
+  "keywords": [
+    "rumour",
+    "rumours",
+    "conversations",
+    "tweets",
+    "generalisability",
+    "covidrv",
+    "verification",
+    "reddit",
+    "2019",
+    "cmar"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 224,
+      "score": null,
+      "abstract": "We apply causal mediation analysis to explain the decision-making process of neural models for rumour detection on Twitter. Interventions at the input and network level\nreveal the causal impacts of tweets and words in the model output. We find that our approach CMA-R – Causal Mediation Analysis for Rumour detection\n– identifies salient tweets that explain model predictions and show strong agreement with human judgements for critical tweets determining the truthfulness of stories. CMA-R can\nfurther highlight causally impactful words in the salient tweets, providing another layer of interpretability and transparency into these blackbox rumour detection systems. Code is available\nat: © 2024 Association for Computational Linguistics."
+    },
+    {
+      "document_id": 346,
+      "score": null,
+      "abstract": "Research on automated social media rumour verification, the task of identifying the veracity of questionable information circulating on social media, has yielded neural models achieving\nhigh performance, with accuracy scores that often exceed 90%. However, none of these studies focus on the real-world generalisability of the proposed approaches, that is\nwhether the models perform well on datasets other than those on which they were initially trained and tested. In we aim to fill this gap\nby assessing the generalisability of top performing neural rumour verification models covering a range of different architectures from the perspectives of both topic and temporal\nrobustness. For a more complete evaluation of generalisability, we collect and release COVID-RV, a novel dataset of Twitter conversations revolving around COVID-19 rumours. Unlike other\nexisting COVID-19 datasets, our COVID-RV contains conversations around rumours that follow the format of prominent rumour verification benchmarks, while being different from them in terms\nof topic and time scale, thus allowing better assessment of the temporal robustness of the models. We evaluate model performance on COVID-RV and three popular\nrumour verification datasets to understand limitations and advantages of different model architectures, training datasets and evaluation scenarios. We find a dramatic drop in performance when\ntesting models on a different dataset from that used for training. Further, we evaluate the ability of models to generalise in a few-shot learning setup,\nas well as when word embeddings are updated with the vocabulary of a new, unseen rumour. Drawing upon our experiments we discuss challenges and make\nrecommendations for future research directions in addressing this important problem. © 2022 The Author(s)"
+    },
+    {
+      "document_id": 546,
+      "score": null,
+      "abstract": "For the online and offline world, the widespread rumours on social media have created a tremendous effect on society. In , our primary focus to\ndevelop a useful deep learning model for the classification multi-class and real-world rumour dataset. In existing investigations, RumourEval17 have released by the research community, which\nmainly interest in automated validation of fake content has escalated. After some time, as the insecurity imposed by “fake news” has become a mainstream concern.\nHowever, automatic support for rumour verification system remains in its preliminary stage. Subsequently, the main aim of introducing -2019 (SemEval 2019) was to determine the\nveracity of rumours. In , we have designed our proposed deep learning model for classification of rumours using real-world multi-class rumours dataset: Twitter and Reddit.\nClassification results demonstrate that our proposed model provides state-of-the-art results as compared to existing benchmarks. We have achieved an accuracy of 82.40% for subtask A\nand 81.04% for subtask B. Our classification results are better as compared to previous studies using twitter & Reddit dataset. Classification results motivate the researchers\nto use our proposed model for future research in the filed of rumour detection. © 2021, Springer Nature Singapore Pte Ltd."
+    },
+    {
+      "document_id": 676,
+      "score": null,
+      "abstract": "Information overload on Web has been a well-identified challenge which has amplified with the advent of social web. Good, bad, true, false, useful, useless all\nkinds of information disseminates through the social web platforms. It becomes exceedingly imperative to pro-actively resolve rumours and inhibit them from spreading among the Internet\nusers as it can jeopardize the well-being of the citizens. The task for rumour analysis intends to identify & classify a rumour either as true\n(factual), false (nonfactual) or unresolved. Determining the accuracy of a rumourous story, a.k.a. rumour veracity is hard owing to the noisy, ambiguous and heterogeneous use\nof natural language. This necessitates automation of the predictive task which classifies the questionable veracity of rumour accurately. The research presented in , is an\nempirical study to put forward an optimized learning model which classifies real-time tweets on the basis of truth value, facilitating rumour analysis. The study is\nconducted on a collection of nearly 14 k tweets pertaining to the recent mob lynching fuelled by rumours on suspected child-lifters in the Indian sub-continent\n(#moblynching) and run on five classical shallow classifiers to categorize tweets into true, false and unspecified using 13 attributes (features). Subsequently, the use of an\noptimal feature selection method, particle swarm algorithm is proposed to improve the classifier’s performance. The empirical analysis validates that the proposed implementation of particle swarm\noptimization (PSO) for feature subset selection in rumour veracity classification outperforms the baseline supervised learning algorithms. An average 11.28% improvement in accuracy and approximately 31%\naverage reduction in features are demonstrated using PSO. The highest accuracy with optimization of 96.15% is achieved by decision tree. © 2019, Springer Science+Business Media,\nLLC, part of Springer Nature."
+    },
+    {
+      "document_id": 682,
+      "score": null,
+      "abstract": "Since the first shared task in 2017, interest in automated claim validation has greatly increased, as the danger of “fake news” has become a mainstream\nconcern. However automated support for rumour verification remains in its infancy. It is therefore important that a shared task in this area continues to provide\na focus for effort, which is likely to increase. Rumour verification is characterised by the need to consider evolving conversations and news updates to reach\na verdict on a rumour's veracity. As in 2017 we provided a dataset of dubious posts and ensuing conversations in social media, annotated both for\nstance and veracity. The social media rumours stem from a variety of breaking news stories and the dataset is expanded to include Reddit as well\nas new Twitter posts. There were two concrete tasks; rumour stance prediction and rumour verification, which we present in detail along with results achieved by\nparticipants. We received 22 system submissions (a 70% increase from 2017) many of which used state-of-the-art methodology to tackle the challenges involved. © 2019 Association\nfor Computational Linguistics"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+unmatched_input_rows=93
+best_match_rows=93
+high_confidence_threshold=0.9
+high_confidence_rows=93
+review_needed_rows=0
+rows_score_ge_0.90=93
+rows_score_ge_0.80=93
+rows_score_ge_0.70=93
+output_all=title_similarity_best_matches_all.csv
+output_high=title_similarity_matches_high_confidence.csv
+output_review=title_similarity_matches_review_needed.csv

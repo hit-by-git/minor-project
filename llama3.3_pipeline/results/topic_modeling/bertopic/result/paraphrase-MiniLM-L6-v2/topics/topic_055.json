@@ -1,0 +1,50 @@
+{
+  "topic_id": 55,
+  "label": "T055",
+  "label_full": "Credibility Assessment",
+  "keywords": [
+    "web",
+    "credibility",
+    "trustworthiness",
+    "users",
+    "information",
+    "supportive",
+    "provider",
+    "sites",
+    "providers",
+    "details"
+  ],
+  "n_docs": 6,
+  "documents": [
+    {
+      "document_id": 798,
+      "score": null,
+      "abstract": "In the current era of internet, with continuous flow of information to web, it is a difficult task for a user to choose the right\ninformation. Information belonging to analogous type is provided by diverse service providers and it is a challenging to diagnose the reliability of information. implements a\nframework to determine the reliability by calculating credibility value of each web portal through analyzing information published, link details, spam details of information available and\nupdation details of web portal. Credibility score is assessed by evaluating page rank value, black list web sites, average number of hits of different pages,\ntwo quality factor values trustworthiness and timeliness. Web crawler gives page link details of varied number of web sites based on the query given by\nuser. Finally, web sites are ranked and listed based on the credibility of web portals, which ease the job of users in assessing reliability of\ninformation available in internet. © 2019 IEEE."
+    },
+    {
+      "document_id": 923,
+      "score": null,
+      "abstract": "Trustworthiness of information is an important factor to be considered when users consume data on the Web environment, because it affects the decision of the\nusers whether or not to utilize the information they find. In the worst case, by consuming untrustworthy information, users can arrive at a wrong decision.\nTherefore, it is necessary for Web users to have tool that can help them to assess the trustworthiness of the information they are consuming. In\n, we proposed a prototype for helping Web users to evaluate the trustworthiness of Web information, by providing them supportive data about the Web information\nthey are considering. Our prototype collects and integrates useful metadata based on practice trustworthiness criteria, using Linked Data, and presents the supportive information to the\nusers. The results showed that using our prototype can improve the user's ability to assess the information, and whether or not to trust information. The\nusers' trust level of the information was increased. In addition, the users were satisfied with the provided supportive information for helping them evaluate the trustworthiness\nof Web information. © 2015 IEEE."
+    },
+    {
+      "document_id": 946,
+      "score": null,
+      "abstract": "One of the serious problems and challenges in the Internet is the Web authoring and credibility. With the continuous expansion on Internet services especially when\nit is used to communication important sensitive information, there is a need to verify the Webpage content and authors. In , we evaluate the elements\nrequired to evaluate Websites and pages credibility based on Website, Web pages, and authors credibility metrics. A case study of selected websites in Jordan is\nused to assess the proposed credibility metrics. Results showed that there are many metrics to measure a trust in Website or a Webpage. Results also\nshowed the need to have a clear standard to evaluate Website content authenticity and credibility. © 2013 SDIWC."
+    },
+    {
+      "document_id": 957,
+      "score": null,
+      "abstract": "Web provides rich information about a variety of objects. Trustability is a major concern on the web. Truth establishment is an important task so as\nto provide the right information to the user from the most trustworthy source. Trustworthiness of information provider and the confidence of the facts it provides\nare inter-dependent on each other and hence can be expressed iteratively in terms of each other. However, a single information provider may not be the\nmost trustworthy for all kinds of information. Every information provider has its own area of competence where it can perform better than others. We derive\na model that can evaluate trustability on objects and information providers based on clusters (groups). We propose a method which groups the set of objects\nfor which similar set of providers provide \"good\" facts, and provides better accuracy in addition to high quality object clusters."
+    },
+    {
+      "document_id": 973,
+      "score": null,
+      "abstract": "With the increasing employment of the Web in our daily lives, we often use it to find evidence of real-world events. The difference with normal\nweb searches is that users want to reveal whether an event is true or false based on firm facts. In , we propose a model\nto excavate real-world events from the Web, to manage the vestige in spatio-temporal space and to offer users reliable evidence of an event. We also\ndescribe a similarity measure between events to perform searching and clustering. A credibility estimation method, based on the trustworthiness of events and the authority of\nweb sites, using a primary experiment is also presented."
+    },
+    {
+      "document_id": 980,
+      "score": null,
+      "abstract": "Credibility is a perceived quality and is evaluated with at least two major components: trustworthiness and expertise. Weblogs (or blogs) are a potentially fruitful genre\nfor exploration of credibility assessment due to public disclosure of information that might reveal trustworthiness and expertise by webloggers (or bloggers) and availability of audience\nevaluations. The objectives of the planned exploratory study are to compile a list of factors that users take into account in credibility assessment of blog\nsites, order them in terms of users' perceived importance, and determine which factors can be recognized and evaluated with Natural Language Processing (NLP) techniques. With\npartial automation in mind, we propose an analytical framework for blog credibility assessment based on four profile factors: 1) the blogger's expertise and the amount\nof offline identity disclosure, 2) the blogger's trustworthiness (or the overtly stated value system including beliefs, goals, and values), 3) information quality, and 4) appeals\nof a personal nature. We describe a multi-stage study that combines a qualitative study of credibility judgments of blog-readers with NLP-based analysis of blogs. The\nstudy will elicit and test credibility assessment factors (Phase I), perform NLP-based blog profiling (Phase II), and content-analyze blog-readers' comments for partial profile matching (Phase\nIII)."
+    }
+  ]
+}

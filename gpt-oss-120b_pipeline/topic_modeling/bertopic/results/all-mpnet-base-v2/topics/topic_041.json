@@ -1,0 +1,50 @@
+{
+  "topic_id": 41,
+  "label": "T041",
+  "label_full": "Rumor on Social Media",
+  "keywords": [
+    "rumors",
+    "twitter",
+    "ols",
+    "tweets",
+    "disasters",
+    "osn",
+    "rumor",
+    "spread",
+    "root",
+    "controlling"
+  ],
+  "n_docs": 6,
+  "documents": [
+    {
+      "document_id": 440,
+      "score": null,
+      "abstract": "Social media has been increasingly utilized to spread breaking news and risk communications during disasters of all magnitudes. Unfortunately, due to the unmoderated nature of\nsocial media platforms such as Twitter, rumors and misinformation are able to propagate widely. Given this, a surfeit of research has studied false rumor diffusion\non Twitter, especially during natural disasters. Within this domain, studies have also focused on the misinformation control efforts from government organizations and other major agencies.\nA prodigious gap in research exists in studying the monitoring of misinformation on social media platforms in times of disasters and other crisis events. Such\nstudies would offer organizations and agencies new tools and ideologies to monitor misinformation on platforms such as Twitter, and make informed decisions on whether or\nnot to use their resources in order to debunk. In , we fill the research gap by developing a machine learning framework to predict the\nveracity of tweets that are spread during crisis events. The tweets are tracked based on the veracity of their content as either true, false, or\nneutral. We conduct four separate studies, and the results suggest that our framework is capable of tracking multiple cases of misinformation simultaneously, with (Formula presented.)\nscores exceeding 87%. In the case of tracking a single case of misinformation, our framework reaches an (Formula presented.) score of 83%. We collect and\ndrive the algorithms with 15,952 misinformation-related tweets from the Boston Marathon bombing (2013), Manchester Arena bombing (2017), Hurricane Harvey (2017), Hurricane Irma (2017), and the\nHawaii ballistic missile false alert (2018). This article provides novel insights on how to efficiently monitor misinformation that is spread during disasters. © 2020 Society\nfor Risk Analysis."
+    },
+    {
+      "document_id": 474,
+      "score": null,
+      "abstract": "- In the ongoing COVID-19 pandemic, people spread various COVID-19-related rumors and hoaxes that negatively influence human civilization through online social networks (OSN). The proposed\nresearch addresses the unique and innovative approach to controlling COVID-19 rumors through the power of opinion leaders (OLs) in OSN. The entire process is partitioned\ninto two phases; the first phase describes the novel Reputation-based Opinion Leader Identification (ROLI) algorithm, including a unique voting method to identify the top-T OLs\nin the OSN. The second phase describes the technique to measure the aggregated polarity score of each posted tweet/post and compute each user's reputation. The\nempirical reputation is utilized to calculate the user's trust, the post's entropy, and its veracity. If the experimental entropy of the post is lower than\nthe empirical threshold value, the post is likely to be categorized as a rumor. The proposed approach operated on Twitter, Instagram, and Reddit social networks\nfor validation. The ROLI algorithm provides 91% accuracy, 93% precision, 95% recall, and 94% F1-score over other Social Network Analysis (SNA) measures to find OLs\nin OSN. Moreover, the proposed approach's rumor controlling effectiveness and efficiency is also estimated based on three standard metrics; affected degree, represser degree, and diffuser\ndegree, and obtained 26%, 22%, and 23% improvement, respectively. The concluding outcomes illustrate that the influence of OLs is exceptionally significant in controlling COVID-19 rumors.\n© 2022 Elsevier Ltd"
+    },
+    {
+      "document_id": 633,
+      "score": null,
+      "abstract": "Rumors that spread across the online social network catches a lot of attention amongst the population and causes agitation between minorities which leads to a\nchaotic situation. In , we propose a process for screening the rumors using Crowdsource Platform and detecting their probable origin. We first verify the veracity\nof the rumor with the proposed model and then with the help of knowledge-based community detection we minimize the sample space for the probable root\nof the rumor. Then we start searching for the root in the community detected with the help of backtracking. With this, we would like to\nresolve problems faced by the minorities in cases of ethnic violence where the fiasco is initiated only due to the message passed in the rumor.\nOnce the action is taken against the root culprit other such people would stay warned and avoid such actions. © 2020, Springer Nature Singapore Pte\nLtd."
+    },
+    {
+      "document_id": 719,
+      "score": null,
+      "abstract": "The spread of malicious or accidental misinformation in social media, especially in time-sensitive situations, such as real-world emergencies, can have harmful effects on individuals and\nsociety. In , we developed models for automated verification of rumors (unverified information) that propagate through Twitter. To predict the veracity of rumors, we identified\nsalient features of rumors by examining three aspects of information spread: linguistic style used to express rumors, characteristics of people involved in propagating information, and\nnetwork propagation dynamics. The predicted veracity of a time series of these features extracted from a rumor (a collection of tweets) is generated using Hidden\nMarkov Models. The verification algorithm was trained and tested on 209 rumors representing 938,806 tweets collected from real-world events, including the 2013 Boston Marathon bombings,\nthe 2014 Ferguson unrest, and the 2014 Ebola epidemic, and many other rumors about various real-world events reported on popular websites that document public rumors.\nThe algorithm was able to correctly predict the veracity of 75% of the rumors faster than any other public source, including journalists and law enforcement\nofficials. The ability to track rumors and predict their outcomes may have practical applications for news consumers, financial markets, journalists, and emergency services, and more\ngenerally to help minimize the impact of false information on Twitter."
+    },
+    {
+      "document_id": 724,
+      "score": null,
+      "abstract": "Online social networks have become a major news source as well as a platform for information dissemination. The spread of information on social networks has\na recognizable impact on political and marketing campaigns and emergency situations. However, the credibility of the information propagating through social networks is in threat because\nof social spammers, misinformation, and crowdturfing. In , we propose an approach to judge the reliability of information cascade size in social networks, as a\nmeasure of virality, by observing the network k-core sizes. The proposed approach is based on previous research that proves the best information spreaders are consistently\nlocated in the k-core. The proposed approach was examined on randomly generated graphs and on four real life Twitter datasets. To further examine the approach,\nan incremental number of fake tweets were injected into two of the datasets, and the effect was observed. Results show that the proposed approach has\nthe ability to estimate the trustworthiness of an observed meme size cascade, and hence signify the real impact of a meme without the misleading effect\nof spammers and crowdturfers on the cascade size. © 2017 IEEE."
+    },
+    {
+      "document_id": 755,
+      "score": null,
+      "abstract": "Twitter, as a popular social networking tool that allows its users to conveniently propagate information, has been widely used by politicians and political campaigners worldwide.\nIn the past years, Twitter has come under scrutiny due to its lack of filtering mechanisms, which lead to the propagation of trolling, bullying, and\nother unsocial behaviors. Rumors can also be easily created on Twitter, e.g., by extreme political campaigners, and widely spread by readers who cannot judge their\ntruthfulness. Current work on Twitter message assessment, however, focuses on credibility, which is subjective and can be affected by assessor’s bias. In , we focus\non the actual message truthfulness, and propose a rule-based method for detecting political rumors on Twitter based on identifying extreme users. We employ clustering methods\nto identify news tweets. In contrast with other methods that focus on the content of tweets, our unsupervised classification method employs five structural and timeline\nfeatures for the detection of extreme users. We show with extensive experiments that certain rules in our rule set provide accurate rumor detection with precision\nand recall both above 80 %, while some other rules provide 100% precision, although with lower recalls. © Springer International Publishing AG 2016."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "topic_id": 45,
+  "label": "T045",
+  "label_full": "machine, integrity",
+  "keywords": [
+    "machine",
+    "data",
+    "integrity",
+    "study",
+    "training",
+    "era",
+    "cheapfakes",
+    "learning",
+    "vectorized",
+    "digital"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 35,
+      "score": null,
+      "abstract": "In today’s era dominated by digital manipulations, the identification of Cheapfakes, especially those involving out-of-context visuals, is imperative for upholding the integrity of information dissemination\nand fostering trust in multimedia content. This research introduces an innovative approach to detect cheapfakes, utilizing a hybrid methodology that merges real-time online verification with\nextensive training on a unified end-to-end network, augmented by generative synthetic data. This combined strategy offers a promising avenue for enhancing the accuracy and efficiency\nof cheapfake detection, thus addressing the pressing need to combat misinformation in the digital landscape. We focus our solutions on two problems of Contextual Integrity\nPrediction and Image-Caption Authenticity Analysis. Our experiments reveal that this innovative network achieves an impressive 85.70% accuracy on a public test dataset through training solely\non synthetic data for Contextual Integrity Prediction, also proving its effectiveness in Image-Caption Authenticity Analysis. This research highlights the immense promise of using our proposed\nhybrid method in the fight against Cheapfakes, making a significant contribution to preserving the integrity of multimedia content. Our source code is publicly available at"
+    },
+    {
+      "document_id": 98,
+      "score": null,
+      "abstract": "In an era dominated by digital information, the unchecked proliferation of false information poses a critical threat. This has motivated to study for techniques which\ncan tackle issues related to it, and hence the study uses machine learning algorithms to detect fake news. By systematically exploring and evaluating various machine\nlearning models, the research enhances decision-making, fortifies information integrity and addresses the adverse impacts of misinformation on a broader scale. Going beyond mere algorithmic efficacy,\nthe study introduces a multifaceted approach by using evaluation metrics like precision and accuracy. This strategic analysis identifies the optimal machine learning algorithm for classifying\narticles as real or fake news. The contents covered by the study include literature review, dataset selection, data preprocessing and cleaning, vectorization, model and metric\nselection, model training, optimization and evaluation. The study extends its impact beyond technical proficiency, actively contributing to bolstering trust across media, democratic processes, and ensuring\ncontent authenticity. This inclusive approach benefits a wide array of stakeholders including news organizations, social media platforms and government entities. Through rigorous evaluation, the study\nsignificantly enhances information credibility, providing a countermeasure against the growing threat of misinformation. © 2024 The Authors. Published by Elsevier B.V."
+    },
+    {
+      "document_id": 295,
+      "score": null,
+      "abstract": "In this digital era, where we are connected to everyone through the Internet and various social media platforms, we require authentic knowledge, data and information\nsources. But it is very hard to find or detect it easily. However, there are multiple tools available to detect such trustworthiness. However, they lack\nthe proper detection of fake news. Hence sometimes, the detection does not happen up to a satisfactory level. In , we propose a scheme for\nthe detection of fake news. We use the machine learning models with the most recent data set available at authentic source. Further, the performance of\nthe proposed technique is estimated under various machine learning models, i.e., naive bayes classifier, logistic regression, and support vector machine (SVM). The proposed technique has\nperformed well under the support vector machine, achieving the highest accuracy value under this model. © 2023 IEEE."
+    },
+    {
+      "document_id": 310,
+      "score": null,
+      "abstract": "A method of information dissemination that had never been seen before the digital era has emerged as a result of the use of social media\nplatforms like , Twitter & Instagram and the development of the World Wide Web. Through these social media sites, a significant quantity of information may\nbe fraudulent. Therefore, it is necessary to monitor this data. By feeding a new article or fact to the model, we may use a technique\ncalled machine learning-based fake news identification to determine its veracity. We will preprocess the data (in this example, text) before training the dataset. Preprocessing mostly\nentails eliminating redundant data. The dataset is then divided into two sections for testing and training. The data will next be vectorized using a variety\nof vectorization methods, including Countvectorizer, TF-IDF vectorizer, and n-grams. The various machine learning algorithms such as random forest, decision tree, logistic regression etc. are then\ntrained using the vectorized data. The accuracy of cutting-edge false news detection is then increased by incorporating these results into ensemble models. The timeline of\na dataset has an impact on how accurate the model is since newer information is not included in older datasets, making it impossible for the\nmodel to effectively forecast the veracity of newer information. After training, the model may be quickly tested using the testing dataset, and it will then\nbe ready for usage. © 2023 IEEE."
+    },
+    {
+      "document_id": 335,
+      "score": null,
+      "abstract": "focuses on the detection of fake digital information using various machine learning and deep learning algorithms to prevent its spread through Internet of Things (IoT)\ndevices and systems. The research highlights the significance of detecting and preventing false or misleading information in critical areas such as healthcare, public safety, and\nemergency response. The study compares the performance of several supervised machine learning algorithms and identifies logistic regression as the most accurate (98.03%). The empirical analysis\nused data from The Indian Express, , and Kaggle and leveraged natural language processing (NLP) to prepare, clean, and model the data. To detect fraudulent\nposts, the study employed random forest, a supervised machine learning algorithm, which achieved an impressive accuracy rate of 99.71% on a Kaggle dataset. The research\nalso developed a model for detecting false reporting related to COVID-19, utilizing the support vector machine technique, which achieved an accuracy rate of 78.69%. The\npresented work also determined the authenticity of images through convolutional neural networks (CNNs). Lastly, a content-based recommendation system was developed to enhance people’s security and\nconfidence. © 2023 Rutvij Jhaveri, et al."
+    }
+  ]
+}

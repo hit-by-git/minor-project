@@ -1,0 +1,90 @@
+{
+  "topic_id": 12,
+  "label": "T012",
+  "label_full": "statement, web",
+  "keywords": [
+    "statement",
+    "web",
+    "facts",
+    "fact",
+    "data",
+    "search",
+    "explanations",
+    "msw",
+    "geographic",
+    "knowledge"
+  ],
+  "n_docs": 14,
+  "documents": [
+    {
+      "document_id": 242,
+      "score": null,
+      "abstract": "The claim that the illicit trade in antiquities is the third largest, second only to arms and narcotics, is widely repeated. But where does this\nclaim originate and what is the evidence for its veracity? The authors present a 'stratigraphic excavation' of the claim by systematically searching through academic articles,\npopular press and policy literature to reveal the factoid's use and reuse over the past five decades. The authors find that the claim is not\nbased on any original research or statistics, and it does not originate with any competent authorities. The analysis demonstrates how the uncritical repetition of unsubstantiated\n'facts' can undermine legitimate efforts to prevent looting, trafficking and illicit sale of antiquities. Copyright © The Author(s), 2023. Published by Cambridge University Press on\nbehalf of Antiquity Publications Ltd."
+    },
+    {
+      "document_id": 243,
+      "score": null,
+      "abstract": "Amongst all types of fabricated information travelling on open social networks, scientific disinformation, or cloaked science, is both insidious and challenging to be investigated. Here\nwe present the design of the TRESCA misinformation widget (MsW), which is both a methodology and a toolbox for investigating disinformation operations leveraging scientific communications.\nIn developing MsW we adopt a human-in-charge approach to AI: the automated tools included in MsW REST API are meant to support, not to substitute\nor undermine, users’ decision-making capacity. On the journey toward information verification, MsW AI toolbox helps users test both the veracity of claims and the reliability\nof sources. While the toolbox integrates open source intelligence solutions, MsW methodology fosters users’ critical thinking. © 2023, The Author(s), under exclusive license to Springer\nNature Switzerland AG."
+    },
+    {
+      "document_id": 347,
+      "score": null,
+      "abstract": "How do we ensure the veracity of science? The act of manipulating or fabricating scientific data has led to many high-profile fraud cases and retractions.\nDetecting manipulated data, however, is a challenging and time-consuming endeavor. Automated detection methods are limited due to the diversity of data types and manipulation techniques.\nFurthermore, patterns automatically flagged as suspicious can have reasonable explanations. Instead, we propose a nuanced approach where experts analyze tabular datasets, e.g., as part of\nthe peer-review process, using a guided, interactive visualization approach. In , we present an analysis of how manipulated datasets are created and the artifacts these\ntechniques generate. Based on these findings, we propose a suite of visualization methods to surface potential irregularities. We have implemented these methods in Ferret, a\nvisualization tool for data forensics work. Ferret makes potential data issues salient and provides guidance on spotting signs of tampering and differentiating them from truthful\ndata. © 2023 Eurographics - The European Association for Computer Graphics and John Wiley & Sons Ltd."
+    },
+    {
+      "document_id": 509,
+      "score": null,
+      "abstract": "Social sensing is emerging as an effective and pervasive sensing paradigm to collect timely data and observations from human sensors. focuses on the problem of\nCOVID-19 misinformation detection on social media. Our work is motivated by the lack of COVID-specific knowledge in current misinformation detection solutions, which is critical to\nassess the truthfulness of social media claims about the emerging COVID-19 disease. In , we leverage human intelligence on a crowdsourcing platform to obtain essential\nknowledge facts for detecting the COVID-19 misinformation on social media. Two critical challenges exist in solving our problem: i) how to efficiently acquire accurate and\ntimely knowledge that is both inclusive and specific to COVID-19? ii) How to effectively coordinate the efforts from both expert and non-expert workers to detect\nCOVID-19 misinformation? To address these challenges, we develop FakeSens, a social sensing based crowd knowledge graph approach that explicitly explores the knowledge facts specific to\nCOVID-19 and models the reliability of different types of crowd workers to capture the misleading COVID-19 claims. Evaluation results on a real-world dataset show that\nFakeSens significantly outperforms state-of-the-art baselines in accurately detecting misleading claims of COVID-19 on social media. © 2021 IEEE."
+    },
+    {
+      "document_id": 705,
+      "score": null,
+      "abstract": "We envision a responsible web environment, termed TrueWeb, where a user should be able to find out whether any sentence he or she encounters in\nthe web is true or false. The user should be able to track the provenance of any sentence or paragraph in the web. The target\nof TrueWeb is to compose factual knowledge from Internet resources about any subject of interest and present the collected knowledge in chronological order and distribute\nfacts spatially and temporally as well as assign some belief factor for each fact. Another important target of TrueWeb is to be able to identify\nwhether a statement in the Internet is true or false. The aim is to create an Internet infrastructure that, for each piece of published information,\nwill be able to identify the truthfulness (or the degree of truthfulness) of that piece of information. © 2018 ACM."
+    },
+    {
+      "document_id": 714,
+      "score": null,
+      "abstract": "Using the Web to assess the validity of claims presents many challenges. Whether the data comes from social networks or established media outlets, individual or\ninstitutional data publishers, one has to deal with scale and heterogeneity, as well as with incomplete, imprecise and sometimes outright false information. All of these\nare closely studied issues. Yet in many situations, the claims under scrutiny, and the data itself, have some inherent context-dependency making them impossible to completely\ndisprove, or evaluate through a simple (e.g. scalar) measure. While data models used on the Web typically deal with universal knowledge, we believe the time\nhas come to put context, such as time or provenance, at the forefront and watch knowledge through multiple lenses. We present BackDrop, an application that\nenables annotating knowledge and ontologies found online to explore how the veracity of claims varies with context. BackDrop comes in the form of a Web\ninterface, in which users can interactively populate and annotate knowledge bases, and explore under which circumstances certain claims are more or less credible."
+    },
+    {
+      "document_id": 715,
+      "score": null,
+      "abstract": "Following the AAA principle by which anybody can say anything about any topic, the Web is no stranger to alternative facts. Nonetheless, with the increasing\nvolume and velocity at which content is being published and difficulties to assess the credibility of information and the trustworthiness of sources, alternative facts are\nbecoming a major challenge and an instrument for spreading disinformation. Interestingly, the diversity of today's data sources can also help us to counter alternative facts\nby measuring their coherence, i.e., the degree to which data from one source confirms or contradict data from another source. While a single dataset can\nbe biased towards supporting or discrediting a statement, the diverse sources of data across media types that are publicly accessible today offer unique perspectives on\nwhich to assess a given statement. To give an intuitive example, a statement about the comparison of crowd sizes should align with photos of said\ncrowds. However, these photos could be taken at different times, from different viewpoints, and could lead to different, sample-based estimations. Adding further data from heterogeneous\nsources, such as metro ridership, can either further support a statement or contradict it. We use three thought experiments to discuss the role of geographic\ndata, knowledge graphs, and spatial analysis in approaching alternative facts from a novel angle, namely by studying their coherence, i.e., whether they align with other\nstatements, instead of trying to falsify them. In doing so, we aim at increasing the costs for maintaining alternative facts."
+    },
+    {
+      "document_id": 768,
+      "score": null,
+      "abstract": "Geographic web portals and geospatial databases are emerging on the web recently, offering information about countries and places in the world. Digital content is increasing\nat a staggering rate due to community collaboration and the integration of information from webcams and sensors. Like in case of , some geospatial databases\nallow everyone to edit the content. We cannot ignore the role of wikis and geospatial databases particularly , Wikicommons, GeoNames etc., as they have replaced\nthe traditional encyclopedias and they are empowering information seekers by providing information at the door step. However, there is no guarantee of validity and authenticity\nof the information provided by them. The reason behind is that very little attention has been given to verify information before publishing it on the\nWeb. Also, to find particular information about countries, web users mainly teachers, students and tourists rely on search engines such as Google which often points\nto . We will identify some inconsistencies in online facts such as area, cities and mountains rankings using multiple data sources. Our investigations reveal that\nthere is a need for a reliable geographic web portal which can be used for learning and other purpose. We will explain how we managed\nto devise a mechanism for collecting and verifying different facts. Our attempt to provide a reliable geographic web portal has resulted in a comprehensive collection\ncovering a wide range of information aspects such as culture, geography, economy etc. that are associated with a country. We will also describe our approach\nto measure the reliability of geographic facts such as area, cities and mountains rankings for all countries."
+    },
+    {
+      "document_id": 771,
+      "score": null,
+      "abstract": "Untruthful information spreads on the web, which may mislead users or have a negative impact on user experience. In , we propose a method, called\nMulti-verifier, to determine the truthfulness of a fact statement. The basic idea is that whether a fact statement is truthful or not depends on the\ninformation related to the fact statement. We utilize a popular search engine to collect the top-K search results that are most related to the target\nfact statement. We then propose support score to measure the extent to which a search result supports the fact statement based on semantic constituent analysis,\nand we make use of credibility ranking to rank the search results. At last, we combine the support score and credibility ranking value of a\nsearch result to evaluate its contribution to a fact statement determination. Based on the contributions of the search results, we determine the fact statement. Our\nproposals are evaluated by experiments and results show availability and high precision of the proposed method. © 2014, Springer Science+Business Media New York."
+    },
+    {
+      "document_id": 772,
+      "score": null,
+      "abstract": "Intelligence analysis is dependent on veracity assessment of Open Source Information (OSINF) which includes assessment of the reliability of sources and credibility of information. Traditionally,\nOSINF veracity assessment is done by intelligence analysts manually, but the large volumes, high velocity, and variety make it infeasible to continue doing so, and\ncalls for automation. Based on meetings, interviews and questionnaires with military personnel, analysis of related work and state of the art, we identify the challenges\nand propose an approach and a corresponding framework for automated veracity assessment of OSINF. The framework provides a basis for new tools which will give\nthe intelligence analysts the ability to automatically or semi-Automatically assess veracity of larger amounts of data in a shorter amount of time. Instead of spending\ntheir time working with irrelevant, ambiguous, contradicting, biased, or plain wrong data, they can spend more time on analysis. © 2015 IEEE."
+    },
+    {
+      "document_id": 784,
+      "score": null,
+      "abstract": "Despite the abundance of useful information on the Web, different Web sources often provide conflicting data, some being out of date, inaccurate, or erroneous. Data\nfusion aims at resolving conflicts and finding the truth. Advanced fusion techniques apply iterative MAP (Maximum A Posteriori) analysis that reasons about trustworthiness of sources\nand copying relationships between them. Providing explanations for such decisions is important for a better understanding, but can be extremely challenging because of the complexity\nof the analysis during decision making. proposes two types of explanations for data-fusion results: snapshot explanations take the provided data and any other decision inferred\nfrom the data as evidence and provide a high-level understanding of a fusion decision; comprehensive explanations take only the data as evidence and provide an\nin-depth understanding of a fusion decision. We propose techniques that can efficiently generate correct and compact explanations. Experimental results show that (1) we generate correct\nexplanations, (2) our techniques can significantly reduce the sizes of the explanations, and (3) we can generate the explanations efficiently. Copyright is held by the\nInternational World Wide Web Conference Committee (IW3C2)."
+    },
+    {
+      "document_id": 786,
+      "score": null,
+      "abstract": "Untruthful fact statements mislead users and affect user experience. How to determine whether a fact statement is trustful is required. In , we propose a\nmethod, called MFSV, to determine the truthfulness of a fact statement. MFSV is based on the features of fact statements. By collecting and analyzing information\nrelated to the fact statement whose truthfulness is needed to be determined, the semantic similarity between related information and the corresponding fact statement are computed.\nConsidering popularity and importance of related information, the credibility ranking of related information is captured. Combining the credibility ranking and the corresponding semantic similarity, we\nmeasure the contributions of related information to the truthfulness determination of the fact statement and determine whether the fact statement is trustful or not. We\nrun a set of experiments for evaluating MFSV and the results show the method is reasonable and the precision is higher."
+    },
+    {
+      "document_id": 796,
+      "score": null,
+      "abstract": "The presence (and, sometimes, prominence) of incorrect and misleading content on the Web can have serious consequences for people who increasingly rely on the internet\nas their information source for topics such as health, politics, and financial advice. In , we identify and collect several page features (such as popularity\namong specialized user groups) that are currently difficult or impossible for endusers to assess, yet provide valuable signals regarding credibility. We then present visualizations designed\nto augment search results and Web pages with the most promising of these features. Our lab evaluation finds that our augmented search results are particularly\neffective at increasing the accuracy of users' credibility assessments, highlighting the potential of data aggregation and simple interventions to help people make more informed decisions\nas they search for information online. Copyright 2011 ACM."
+    },
+    {
+      "document_id": 805,
+      "score": null,
+      "abstract": "With the increasing employment of the Web in our daily lives, we often use it to find evidence of real-world events. The difference with normal\nweb searches is that users want to reveal whether an event is true or false based on firm facts. In , we propose a model\nto excavate real-world events from the Web, to manage the vestige in spatio-temporal space and to offer users reliable evidence of an event. We also\ndescribe a similarity measure between events to perform searching and clustering. A credibility estimation method, based on the trustworthiness of events and the authority of\nweb sites, using a primary experiment is also presented."
+    }
+  ]
+}

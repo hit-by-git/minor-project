@@ -1,0 +1,70 @@
+{
+  "topic_id": 35,
+  "label": "T035",
+  "label_full": "Credibility Assessment",
+  "keywords": [
+    "web",
+    "bloggers",
+    "credibility",
+    "blog",
+    "information",
+    "content",
+    "query",
+    "entries",
+    "method",
+    "technology"
+  ],
+  "n_docs": 10,
+  "documents": [
+    {
+      "document_id": 797,
+      "score": null,
+      "abstract": "Nowadays, the internet plays a major role in online information retrieval. As, we are well aware the web provides information related all the fields like\nnational, lifestyle, movies, shopping, spirituality, sports, entertainment and much more. One cannot assume that the web retrieved information is believable or trustworthy due to multiple\nanswers to the same query. The paper aims to study many research articles which are related to truth information discovery. However, the paper found that\nthere is no proper research to find trustworthiness of news content which is extracted from multiple information sources with minimum misclassification error and retrieval time.\nTo alleviate these issues, the truth content discovery algorithm is proposed to produce trustworthy information with minimal time along with multiple domain news information. The\nsystem provides reliable information from a various source of news provider with minimum classification error. The proposed method ranked the news content index based on\nquery matches from extracted information. It minimizes the query retrieval time and classification error. Based on the experimental evaluation, proposed TCD + J48 algorithm produced\nthe best result compared to existing approaches. It minimizes reduces 7.54 ms the query retrieval time (QRT), 5% Error rate (ER) and 0.98 and Mean\nNormalized Absolute Distance (MNAD). © 2019 Elsevier B.V."
+    },
+    {
+      "document_id": 798,
+      "score": null,
+      "abstract": "In the current era of internet, with continuous flow of information to web, it is a difficult task for a user to choose the right\ninformation. Information belonging to analogous type is provided by diverse service providers and it is a challenging to diagnose the reliability of information. implements a\nframework to determine the reliability by calculating credibility value of each web portal through analyzing information published, link details, spam details of information available and\nupdation details of web portal. Credibility score is assessed by evaluating page rank value, black list web sites, average number of hits of different pages,\ntwo quality factor values trustworthiness and timeliness. Web crawler gives page link details of varied number of web sites based on the query given by\nuser. Finally, web sites are ranked and listed based on the credibility of web portals, which ease the job of users in assessing reliability of\ninformation available in internet. © 2019 IEEE."
+    },
+    {
+      "document_id": 939,
+      "score": null,
+      "abstract": "Web has become an important information source for most people. However, the information on the web is not always true and credible. How to help\npeople quickly judge the credibility of information on the web was required. A new method based on content trust was proposed in , which aim\nto evaluate the credibility of web information. Firstly, the method utilized the conditional random field model to get the theme of web information content, which\ncan be used to a clue to collect the candidate evidence on the web. Secondly, the truthfulness of evidence can be evaluated by the characteristic\nof the concurrency and relevancy of the evidence and web information theme and other characteristic. Finally, the credibility value of web information was calculated. The\nexperiment results show the method proposed in the credibility evaluation of web information content is reasonable and effective."
+    },
+    {
+      "document_id": 960,
+      "score": null,
+      "abstract": "The uncertainty of the trustworthiness of the information has been a great obstacle for users to obtain and share true information on the Internet. Therefore,\nit is worth to further study the evaluation of the information credibility. introduces a kind of evaluation method of information credibility based on the trust\nfeatures of web page. After the trust features are defined according to the attributes of web page, the evaluation criteria of information credibility are established.\nFinally, the reference value of credibility can be obtained through the calculation of reliability evaluation. Experiments prove the method to be effective. © 2011 IEEE."
+    },
+    {
+      "document_id": 964,
+      "score": null,
+      "abstract": "We describe a new concept and method for evaluating the Web information credibility. The quality control of information (text, image, video etc.) on the Web\nis generally insufficient due to low publishing barriers. As a result, there is a large amount of mistaken and unreliable information on the Web that\ncan have detrimental effects on users. This calls for technology that facilitates the judging of the credibility (expertise and trustworthiness) of Web content and the\naccuracy of the information that users encounter on the Web. Such technology should be able to handle a wide range of tasks: extracting several credibility-related\nfeatures from the target Web content, extracting reputation-related information for the target Web content, such as hyperlinks and social bookmarks and evaluating its distribution, and\nevaluating features of the target content authors. We propose and describe methodologies of analyzing information credibility of Web information: (1) content analysis, (2) social support\nanalysis and (3) author analysis. We overview our recent research activities on Web information credibility evaluation based on this methodologies."
+    },
+    {
+      "document_id": 968,
+      "score": null,
+      "abstract": "As computers and computer networks become more common, a huge amount of information, such as that found in Web contents including multimedia content (images, videos\netc.), has been accumulated and circulated. Such information gives people a framework for organizing their private and professional lives. However, in general, the quality control\nof Web content is insufficient due to low publishing barriers. In result there is lot of mistaken and unreliable information on the Web that can\nhave detrimental effects on users. This calls for technology that would facilitate judging the trustworthiness of content and the accuracy of the information that users\nencounter on the Web. Such technology should be able to handle a wide range of tasks: extracting credible information related to a given topic, organizing\nthis information, detecting its provenance, clarifying background, facts, and other related opinions and the distribution of them, and so on. Also, as for Web search,\nconventional Web search engines still suffer from their low precision/recall ratio especially for searching multimedia contents (images, videos etc.). In , we propose an idea\nto enhance conventional Web search and to analyze Web information credibility by bridging the gap between Web 1.0 contents and Web 2.0 contents. Based on\nthe idea, we overview our research activities on Web search and their information credibility."
+    },
+    {
+      "document_id": 970,
+      "score": null,
+      "abstract": "With the huge increase of recently popular user-generated content on the Web, searching for credible information has become progressively difficult. In , we focus on\nblogs, one kind of user-generated content, and propose a credibility-focused blog ranking method based on bloggers' knowledge level. This method calculates knowledge scores for bloggers\nand ranks blog entries based on bloggers' knowledge level. Bloggers' knowledge level is evaluated based on their usage of domain-specific words in their past blog\nentries. A blogger is given multiple scores with respect to various topic areas. In our method, blog entries written by knowledgeable bloggers have higher rankings\nthan those written by common bloggers. Additionally, our system can present multiple ranking lists of blog entries from the perspectives of different bloggers' groups. This\nallows users to estimate the trustworthiness of blog contents from multiple aspects. We built a prototype of the proposed system, and our experimental evaluation showed\nthat our method could effectively rank bloggers and blog entries. © 2009 Springer-Verlag Berlin Heidelberg."
+    },
+    {
+      "document_id": 974,
+      "score": null,
+      "abstract": "General users write daily news about themselves and post information they consider interesting as digital documents for blogs and SNS. Such digital content includes both\nvaluable information as well as worthless, false, and demagogic information. Ordinary web search engines can display web pages in a particular order. The ranking method\nevaluates the score of web content and generates a ranked list. The top-ranked web content on search engines is often relevant to the user's query,\nthough, in some cases, the content may not be credible or valuable. Nevertheless, readers often trust the authenticity of the displayed information. Even if users\nbelieve that the content is useful, the search engine cannot evaluate the retrieved digital content, and users have to retrieve a variety of content using\ndifferent keywords. The need for an information analysis technology that helps find credible and valuable information from large amounts of Web content is progressively growing.In\nJapan, the NICT (National Institute of Information and Communications Technology) initiated the ''Information Credibility Criteria Project'' in 2oo6, and the MIC (Ministry of Internal Affairs\nand Communications), too, initiated the ''Research and Development of Information Credibility Verification Technology for Telecommunication Service'' in 2007.The NICT's project addresses the issue of information\ncredibility by analyzing credibility based on the following criteria: (1) content, (2) sender, (3) appearance, and (4) authenticity of content. We believe that the understanding\nof texts by a machine is important and that an NLP (Natural Language Processing) approach is very effective in evaluating the credibility criteria. The MIC's\nproject aims to develop methods to analyze not only text information but also multimedia content using NLP, information retrieval and data mining approaches. By using\ndifferent methods for analyzing the information credibility criteria, credible information can be acquired, which eventually becomes valuable knowledge.This talk will throw light on the activities\nof both projects in Japan."
+    },
+    {
+      "document_id": 977,
+      "score": null,
+      "abstract": "This article presents a novel algorithm for automatic estimation of information credibility. It concerns information collected in Knowledge Grid and Semantic Web. Possibilities to evaluate\nthe credibility of information in such structures are much greater than those available for WWW sites which use natural language. The rating system presented in\nestimates credibility automatically on the basis of the following metrics: information commonality, source independence, prestige of the source, experience with the source and conclusions from\nrelated information."
+    },
+    {
+      "document_id": 980,
+      "score": null,
+      "abstract": "Credibility is a perceived quality and is evaluated with at least two major components: trustworthiness and expertise. Weblogs (or blogs) are a potentially fruitful genre\nfor exploration of credibility assessment due to public disclosure of information that might reveal trustworthiness and expertise by webloggers (or bloggers) and availability of audience\nevaluations. The objectives of the planned exploratory study are to compile a list of factors that users take into account in credibility assessment of blog\nsites, order them in terms of users' perceived importance, and determine which factors can be recognized and evaluated with Natural Language Processing (NLP) techniques. With\npartial automation in mind, we propose an analytical framework for blog credibility assessment based on four profile factors: 1) the blogger's expertise and the amount\nof offline identity disclosure, 2) the blogger's trustworthiness (or the overtly stated value system including beliefs, goals, and values), 3) information quality, and 4) appeals\nof a personal nature. We describe a multi-stage study that combines a qualitative study of credibility judgments of blog-readers with NLP-based analysis of blogs. The\nstudy will elicit and test credibility assessment factors (Phase I), perform NLP-based blog profiling (Phase II), and content-analyze blog-readers' comments for partial profile matching (Phase\nIII)."
+    }
+  ]
+}

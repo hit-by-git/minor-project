@@ -1,0 +1,45 @@
+{
+  "topic_id": 44,
+  "label": "T044",
+  "label_full": "Misinformation & Propaganda",
+  "keywords": [
+    "platforms",
+    "news",
+    "dt",
+    "lr",
+    "nb",
+    "rf",
+    "social",
+    "online",
+    "clickbait",
+    "fake"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 92,
+      "score": null,
+      "abstract": "In today's world, being the easy availability of the internet, almost everyone is connected. Every individual for their daily news relies on online resources, which\ngreatly impacts their quality of life. The development of social media platforms has grown tremendously. However, many of these platforms are spreading fake news that\npauses serious concern. It leads to a decrease in income for individuals or companies. Some people often create fake news for gaining fame, for election\npurposes, and for creating hatred towards other companies to reduce their revenue. All these can have negative consequences on society. Just by the use of\na single click, many people forward appealing headlines, photos, etc. to gain the attention of an individual, without even checking whether it is fake or\nnot. It is hard-core truth that many false websites give false news and checking their authenticity is really a challenge. presents a comparative analysis of\nmethods for the user to check the news whether that's real or fake by providing accuracy and recall using machine learning. The models used are\nnaïve Bayes (NB), decision tree classifier (DT), random forest (RF), and logistic regression (LR) for analysis to detect fake news. The result shows that the\nDT classifier achieved 99.56% accuracy as compared to RF (99.35%), LR (98.91%), and NB (94.89%). The recall also shows better results for DT and RF\nthan LR and NB. Lastly, it discusses some of the security threats and challenges faced while detecting fake news. © 2024 Author(s)."
+    },
+    {
+      "document_id": 428,
+      "score": null,
+      "abstract": "Everyone relies on many online resources for news in today's world, where the internet is pervasive. As the use of social media platforms such as\nTwitter, , and others has grown, news has traveled quickly among millions of users in a short amount of time. Fake news has far-reaching effects,\nranging from the formation of biased opinions to manipulating election outcomes in favor of specific politicians. Furthermore, spammers profit from click-bait ads by utilizing appealing\nnews headlines. Sometimes, humans find it more difficult to determine the article’s authenticity without additional verification. In , we developed a classification model with the\nhelp of Deep Learning and Natural Language Processing Techniques, that classifies the article as real or fake news. The model has been tested on Indian\nnews source - Times Of India along with other sources such as and was able to give decent accuracy in verifying the authenticity of the\nnews. © 2022, The Author(s), under exclusive license to Springer Nature Switzerland AG."
+    },
+    {
+      "document_id": 518,
+      "score": null,
+      "abstract": "Social networking, information sharing, knowledge imparting, discussions on current happenings etc. are always a part of human society. With the fast pace of life and\nadvancement in technology; people rely more on online information, as a result of this web platforms have become a dominant place for social interactions. This\nhas given rise to unverified and unauthenticated news that has extremely negative effects. Fake news, rumor, misinformation, disinformation, satire, hoax, clickbait, propaganda are all different\nflavors of the same malice of information pollution. The research community is constantly trying to figure out a viable technical solution to this problem in\ndifferent ways. In , we designed a framework based on five independent supervised machine-learned classifiers Support Vector Machine, K-Nearest Neighbor, Logistic Regression, Naïve Bayes and\nRandom Forest for trustworthiness assessment of web information contents. The classifiers are being trained and tested on two different datasets: Fake News Detection (Jruvika/FND) and\nReal or Fake News that contains full news articles in the form of headline and body. Experiments and result analysis verify that the highest accuracy\nattained by the projected method is 96.61% on the Fake News Detection dataset using the SVM classifier. The work is also compared with other contemporary\ntechniques. © 2021 IEEE."
+    },
+    {
+      "document_id": 529,
+      "score": null,
+      "abstract": "Newspapers and radios are the things of the past, the current generation depends on the internet, specifically social media platforms to stay up to date\nwith the global news. The ease of access, affordability and widespread audience has made these platforms a perfect choice to reach the world. While this\nhas sped up and streamlined news consumption, it is not without drawbacks. The major issue is the proliferation of false/fake news which can have serious\nrepercussions in sensitive matters. Understanding the difference and authenticity of the news is becoming complicated everyday. Social media platforms and online newsletters are responsible for\nthe spread of fake news. However, this problem can be tackled using machine learning techniques and give verifiable news. The paper identifies counterfeit news using\nLogistic Regression. This model successfully labels a said article as “fake” or “real” with up to 80% accuracy. The paper ends with a review of\nthe model's feasibility and how it would be useful as an impactful mining method as well as proposes the scope of future improvements in the\nmodel which will help achieve greater accuracy in the prediction results. © 2021 IEEE"
+    },
+    {
+      "document_id": 751,
+      "score": null,
+      "abstract": "With the growing use of online social media and presence of users on many such platforms, their interaction with social networks is huge. They are\nfree to spread wrong information without any accuracy, integrity and authenticity checkpoints masquerading as legitimate content. All these wrong, unrelated, unwanted, manipulated information are distributed\nfor some hidden reasons. Even, their distribution network is not limited to one social media platform. Sometimes, they use the social network as a market\nplace either for advertising, promotion of particular website, product and an application. But these advertisements do not provide any incentive to as this content is\njust spam, irrelevant for . Dissemination of unwanted, unrelated information has become a huge problem not only on blog, discussion forum but also on online\nsocial network like . Due to lack of marking over content posted, this information become online and reader has no barometer to check either the\ncredibility of commenter or poster or the credibility of facts. To address these issues, we have derived an equation to weigh the credibility of public\npages and applied machine learning algorithms (MLA) over collected data to validate our prediction. © Springer Nature Singapore Pte Ltd. 2016."
+    }
+  ]
+}

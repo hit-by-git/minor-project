@@ -1,0 +1,50 @@
+{
+  "topic_id": 47,
+  "label": "T047",
+  "label_full": "Fact-Checking & Verification",
+  "keywords": [
+    "fact",
+    "statement",
+    "candidate",
+    "knowledge",
+    "checking",
+    "graphs",
+    "facts",
+    "search",
+    "factcheck",
+    "computational"
+  ],
+  "n_docs": 6,
+  "documents": [
+    {
+      "document_id": 759,
+      "score": null,
+      "abstract": "Fact-checking is a crucial task for accurately populating, updating and curating knowledge graphs. Manually validating candidate facts is time-consuming. Prior work on automating this task\nfocuses on estimating truthfulness using numerical scores which are not human-interpretable. Others extract explicit mentions of the candidate fact in the text as an evidence\nfor the candidate fact, which can be hard to directly spot. In our work, we introduce ExFaKT, a framework focused on generating human-comprehensible explanations for\ncandidate facts. ExFaKT uses background knowledge encoded in the form of Horn clauses to rewrite the fact in question into a set of other easier-to-spot\nfacts. The final output of our framework is a set of semantic traces for the candidate fact from both text and knowledge graphs. The experiments\ndemonstrate that our rewritings significantly increase the recall of fact-spotting while preserving high precision. Moreover, we show that the explanations effectively help humans to perform\nfact-checking and can also be exploited for automating this task."
+    },
+    {
+      "document_id": 828,
+      "score": null,
+      "abstract": "With the increasing uptake of knowledge graphs comes an increasing need for validating the knowledge contained in these graphs. However, the sheer size and number\nof knowledge bases used in real-world applications makes manual fact checking impractical. In , we employ sentence coherence features gathered from trustworthy source documents to\noutperform the state of the art in fact checking. Our approach, FactCheck, uses this information to score how likely a fact is to be true\nand provides the user the evidence used to validate the input facts. We evaluated our approach on two different benchmark datasets and two different corpora.\nOur results show that FactCheck outperforms the state of the art by up to 13.3% in F-measure and 19.3% AUC. FactCheck is open-source and is\navailable at"
+    },
+    {
+      "document_id": 871,
+      "score": null,
+      "abstract": "The volume of information generated online makes it impossible to manually fact-check all claims. Computational approaches for fact checking may be the key to help\nmitigate the risks of massive misinformation spread. Such approaches can be designed to not only be scalable and effective at assessing veracity of dubious claims,\nbut also to boost a human fact checker's productivity by surfacing relevant facts and patterns to aid their analysis. We present a novel, unsupervised network-flow\nbased approach to determine the truthfulness of a statement of fact expressed in the form of a triple. We view a knowledge graph of background\ninformation about real-world entities as a flow network, and show that computational fact checking then amounts to finding a 'knowledge stream' connecting the subject and\nobject of the triple. Evaluation on a range of real-world and hand-crafted datasets of facts reveals that this network-flow model can be very effective in\ndiscerning true statements from false ones, outperforming existing algorithms on many test cases. Moreover, the model is expressive in its ability to automatically discover several\nuseful patterns and surface relevant facts that may help a human fact checker. © 2017 IEEE."
+    },
+    {
+      "document_id": 887,
+      "score": null,
+      "abstract": "Traditional fact checking by experts and analysts cannot keep pace with the volume of newly created information. It is important and necessary, therefore, to enhance\nour ability to computationally determine whether some statement of fact is true or false. We view this problem as a link-prediction task in a knowledge\ngraph, and show that a new model of the top discriminative meta paths is able to understand the meaning of some statement and accurately determine\nits veracity. We evaluate our approach by examining thousands of claims related to history, geography, biology, and politics using public, million node knowledge graphs extracted\nfrom Wikipedia and SemMedDB. Not only does our approach significantly outperform related models, we also find that the discriminative path model is easily interpretable and\nprovides sensible reasons for the final determination."
+    },
+    {
+      "document_id": 918,
+      "score": null,
+      "abstract": "Traditional fact checking by expert journalists cannot keep up with the enormous volume of information that is now generated online. Computational fact checking may significantly\nenhance our ability to evaluate the veracity of dubious information. Here we show that the complexities of human fact checking can be approximated quite well\nby finding the shortest path between concept nodes under properly defined semantic proximity metrics on knowledge graphs. Framed as a network problem this approach is\nfeasible with efficient computational techniques. We evaluate this approach by examining tens of thousands of claims related to history, entertainment, geography, and biographical information using\na public knowledge graph extracted from Wikipedia. Statements independently known to be true consistently receive higher support via our method than do false ones. These\nfindings represent a significant step toward scalable computational fact-checking methods that may one day mitigate the spread of harmful misinformation. Copyright: © 2015 Ciampaglia et\nal."
+    },
+    {
+      "document_id": 927,
+      "score": null,
+      "abstract": "Untruthful information spreads on the web, which may mislead users or have a negative impact on user experience. In , we propose a method, called\nMulti-verifier, to determine the truthfulness of a fact statement. The basic idea is that whether a fact statement is truthful or not depends on the\ninformation related to the fact statement. We utilize a popular search engine to collect the top-K search results that are most related to the target\nfact statement. We then propose support score to measure the extent to which a search result supports the fact statement based on semantic constituent analysis,\nand we make use of credibility ranking to rank the search results. At last, we combine the support score and credibility ranking value of a\nsearch result to evaluate its contribution to a fact statement determination. Based on the contributions of the search results, we determine the fact statement. Our\nproposals are evaluated by experiments and results show availability and high precision of the proposed method. © 2014, Springer Science+Business Media New York."
+    }
+  ]
+}

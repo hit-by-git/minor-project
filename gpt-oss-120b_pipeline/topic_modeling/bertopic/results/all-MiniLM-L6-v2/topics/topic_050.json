@@ -1,0 +1,45 @@
+{
+  "topic_id": 50,
+  "label": "T050",
+  "label_full": "claim, verification",
+  "keywords": [
+    "claim",
+    "verification",
+    "loren",
+    "proofs",
+    "subquestions",
+    "fact",
+    "argument",
+    "proofver",
+    "amrex",
+    "amr"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 197,
+      "score": null,
+      "abstract": "With the growing complexity of fact verification tasks, the concern with “thoughtful” reasoning capabilities is increasing. However, recent fact verification benchmarks mainly focus on checking\na narrow scope of semantic factoids within claims and lack an explicit logical reasoning process. In , we introduce CHECKWHY, a challenging dataset tailored to\na novel causal fact verification task: checking the truthfulness of the causal relation within claims through rigorous reasoning steps. CHECKWHY consists of over 19K “why”\nclaim-evidence-argument structure triplets with supports, refutes, and not enough info labels. Each argument structure is composed of connected evidence, representing the reasoning process that begins\nwith foundational evidence and progresses toward claim establishment. Through extensive experiments on state-of-the-art models, we validate the importance of incorporating the argument structure for causal\nfact verification. Moreover, the automated and human evaluation of argument structure generation reveals the difficulty in producing satisfying argument structure by fine-tuned models or Chain-of-Thought\nprompted LLMs, leaving considerable room for future improvements. © 2024 Association for Computational Linguistics."
+    },
+    {
+      "document_id": 204,
+      "score": null,
+      "abstract": "With the advent of social media networks and the vast amount of information circulating through them, automatic fact verification is an essential component to prevent\nthe spread of misinformation. It is even more useful to have fact verification systems that provide explanations along with their classifications to ensure accurate predictions.\nTo address both of these requirements, we implement AMREx, an Abstract Meaning Representation (AMR)-based veracity prediction and explanation system for fact verification using a combination\nof Smatch, an AMR evaluation metric to measure meaning containment and textual similarity, and demonstrate its effectiveness in producing partially explainable justifications using two community\nstandard fact verification datasets, FEVER and AVeriTeC. AMREx surpasses the AVeriTec baseline accuracy showing the effectiveness of our approach for real-world claim verification. It follows\nan interpretable pipeline and returns an explainable AMR node mapping to clarify the system’s veracity predictions when applicable. We further demonstrate that AMREx output can\nbe used to prompt LLMs to generate natural-language explanations using the AMR mappings as a guide to lessen the probability of hallucinations. © 2024 Association\nfor Computational Linguistics."
+    },
+    {
+      "document_id": 398,
+      "score": null,
+      "abstract": "Fact verification systems typically rely on neural network classifiers for veracity prediction, which lack explainability. proposes ProoFVer, which uses a seq2seq model to generate natural\nlogic-based inferences as proofs. These proofs consist of lexical mutations between spans in the claim and the evidence retrieved, each marked with a natural logic\noperator. Claim veracity is determined solely based on the sequence of these operators. Hence, these proofs are faithful explanations, and this makes ProoFVer faithful by\nconstruction. Currently, ProoFVer has the highest label accuracy and the second best score in the FEVER leaderboard. Furthermore, it improves by 13.21% points over the\nnext best model on a dataset with counterfactual instances, demonstrating its robustness. As explanations, the proofs show better overlap with human rationales than attention-based highlights\nand the proofs help humans predict model decisions correctly more often than using the evidence directly. © 2022 Association for Computational Linguistics."
+    },
+    {
+      "document_id": 480,
+      "score": null,
+      "abstract": "Verifying political claims is a challenging task, as politicians can use various tactics to subtly misrepresent the facts for their agenda. Existing automatic fact-checking systems\nfall short here, and their predictions like “half-true” are not very useful in isolation, since it is unclear which parts of a claim are true\nor false. In , we focus on decomposing a complex claim into a comprehensive set of yes-no subquestions whose answers influence the veracity of the\nclaim. We present CLAIMDECOMP, a dataset of decompositions for over 1000 claims. Given a claim and its verification paragraph written by fact-checkers, our trained annotators\nwrite subquestions covering both explicit propositions of the original claim and its implicit facets, such as additional political context that changes our view of the\nclaim's veracity. We study whether state-of-the-art pre-trained models can learn to generate such subquestions. Our experiments show that these models generate reasonable questions, but predicting\nimplied subquestions based only on the claim (without consulting other evidence) remains challenging. Nevertheless, we show that predicted subquestions can help identify relevant evidence to\nfact-check the full claim and derive the veracity through their answers, suggesting that claim decomposition can be a useful piece of a fact-checking pipeline. ©\n2022 Association for Computational Linguistics."
+    },
+    {
+      "document_id": 481,
+      "score": null,
+      "abstract": "Given a natural language statement, how to verify its veracity against a large-scale textual knowledge source like ? Most existing neural models make predictions without\ngiving clues about which part of a false claim goes wrong. In , we propose LOREN, an approach for interpretable fact verification. We decompose the\nverification of the whole claim at phrase-level, where the veracity of the phrases serves as explanations and can be aggregated into the final verdict according\nto logical rules. The key insight of LOREN is to represent claim phrase veracity as three-valued latent variables, which are regularized by aggregation logical rules.\nThe final claim verification is based on all latent variables. Thus, LOREN enjoys the additional benefit of interpretability - it is easy to explain how\nit reaches certain results with claim phrase veracity. Experiments on a public fact verification benchmark show that LOREN is competitive against previous approaches while enjoying\nthe merit of faithful and accurate interpretability. The resources of LOREN are available at: Copyright © 2022, Association for the Advancement of Artificial Intelligence (\nAll rights reserved."
+    }
+  ]
+}

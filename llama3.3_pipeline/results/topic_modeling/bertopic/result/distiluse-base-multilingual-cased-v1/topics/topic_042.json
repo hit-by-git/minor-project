@@ -1,0 +1,50 @@
+{
+  "topic_id": 42,
+  "label": "T042",
+  "label_full": "image, images",
+  "keywords": [
+    "image",
+    "images",
+    "viewers",
+    "online",
+    "manipulated",
+    "tampering",
+    "attached",
+    "authenticity",
+    "evaluate",
+    "forensic"
+  ],
+  "n_docs": 6,
+  "documents": [
+    {
+      "document_id": 420,
+      "score": null,
+      "abstract": "Misuse of real photographs with conflicting image captions in news items is one case of out-of-context (OOC) misuse of media. To detect out-of-context given pair\nof news (i.e., captions) and attached image, people should determine the truthfulness of the statement and evaluate whether the triplet talks to the same event.\npresents a new method to detect the OOC media challenge introduced in ACMMM'22 Grand Challenge on Detecting Cheapfakes. For $Task_1$ (i.e., detect conflicting image-caption triplets),\nour approach uses bottom-up attention with visual semantic reasoning to extract global features of the image to perform comprehensive image-text matching, multiple models of natural\nlanguage processing to extract semantic relation of the caption and utilize boosting to improve the accuracy of the performance. Our method achieved an 85.5\\% accuracy\nscore on 80\\% of the testing dataset and has 4.5\\% higher accuracy than baseline. For Task2 (i.e., determine whether a given (Image, Caption) pair is\nreal or fake), we detect the veracity of captioned image base semantic features and correlation between image/caption and achieve 76\\% accuracy. Our source code is\navailable at Docker for submission is available at"
+    },
+    {
+      "document_id": 704,
+      "score": null,
+      "abstract": "Photos have been used as evident material in news reporting almost since the beginning of Journalism. In this context, manipulated or tampered pictures are very\ncommon as part of informing articles, in today's misinformation crisis. The current paper investigates the ability of people to distinguish real from fake images. The\npresented data derive from two studies. Firstly, an online cross-sectional survey (N = 120) was conducted to analyze ordinary human skills in recognizing forgery attacks.\nThe target was to evaluate individuals' perception in identifying manipulated visual content, therefore, to investigate the feasibility of “crowdsourced validation”. This last term refers to\nthe process of gathering fact-checking feedback from multiple users, thus collaborating towards assembling pieces of evidence on an event. Secondly, given that contemporary veracity solutions\nare coupled with both journalistic principles and technology developments, an experiment in two phases was employed: a) A repeated measures experiment was conducted to quantify\nthe associated abilities of Media and Image Experts (N = 5 + 5) in detecting tampering artifacts. In this latter case, image verification algorithms were\nput into the core of the analysis procedure to examine their impact on the authenticity assessment task. b) Apart from conducting interview sessions with the\nselected experts and their proper guidance in using the tools, a second experiment was also deployed on a larger scale through an online survey (N\n= 301), aiming at validating some of the initial findings. The primary intent of the deployed analysis and their combined interpretation was to evaluate image\nforensic services, offered as real-world tools, regarding their comprehension and utilization by ordinary people, involved in the everyday battle against misinformation. The outcomes confirmed the\nsuspicion that only a few subjects had prior knowledge of the implicated algorithmic solutions. Although these assistive tools often lead to controversial or even contradictory\nconclusions, their experimental treatment with the systematic training in their proper use boosted the participants' performance. Overall, the research findings indicate that the scores of\nsuccessful detections, relying exclusively on human observations, cannot be disregarded. Hence, the ultimate challenge for the “verification industry” should be to balance between forensic automations\nand the human experience, aiming at defending the audience from inaccurate information propagation. © 2020; Content authentication; digital forensics; image tampering; misinformation, verification assistance algorithms\n© 2020"
+    },
+    {
+      "document_id": 781,
+      "score": null,
+      "abstract": "Fake or manipulated images propagated through the Web and social media have the capacity to deceive, emotionally distress, and influence public opinions and actions. Yet\nfew studies have examined how individuals evaluate the authenticity of images that accompany online stories. This article details a 6-batch large-scale online experiment using Amazon\nMechanical Turk that probes how people evaluate image credibility across online platforms. In each batch, participants were randomly assigned to 1 of 28 news-source mockups\nfeaturing a forged image, and they evaluated the credibility of the images based on several features. We found that participants’ Internet skills, photo-editing experience, and\nsocial media use were significant predictors of image credibility evaluation, while most social and heuristic cues of online credibility (e.g. source trustworthiness, bandwagon, intermediary trustworthiness)\nhad no significant impact. Viewers’ attitude toward a depicted issue also positively influenced their credibility evaluation. © The Author(s) 2018."
+    },
+    {
+      "document_id": 836,
+      "score": null,
+      "abstract": "The growing ease with which digital images can be convincingly manipulated and widely distributed on the Internet makes viewers increasingly susceptible to visual misinformation and\ndeception. In situations where ill-intentioned individuals seek to deliberately mislead and influence viewers through fake online images, the harmful consequences could be substantial. We describe\nan exploratory study of how individuals react, respond to, and evaluate the authenticity of images that accompany online stories in Internet-enabled communications channels. Our preliminary\nfindings support the assertion that people perform poorly at detecting skillful image manipulation, and that they often fail to question the authenticity of images even\nwhen primed regarding image forgery through discussion. We found that viewers make credibility evaluation based mainly on non-image cues rather than the content depicted. Moreover,\nour study revealed that in cases where context leads to suspicion, viewers apply post-hoc analysis to support their suspicions regarding the authenticity of the image."
+    },
+    {
+      "document_id": 844,
+      "score": null,
+      "abstract": "Recognizing fake images in online news is a challenging problem. This is especially true in the case of critical situations, when journalists might insert high-impact\nimages to make a piece of news more appealing to the readers, neglecting to check their authenticity and provenance. Given the importance of this task,\nin the literature, it is possible to find several attempts to solve the problem from different points of view. faces the specific problem of recognizing\nimages in online news which have been modified or mis-contextualized, i.e. images taken in a different place and/or time with respect to the event to\nwhich they are associated. To identify image tampering a number of image forensic techniques were exploited and combined. On the other hand, for mis-contextualization detection,\na textual analysis approach is proposed based on the extraction of features from the news the image is associated with, and from textual information retrieved\nonline using the image at stake as pivot. The obtained results are rather satisfactory on laboratory data, with results that in some cases improve the\nstate of the art for image forensics. The method was tested on three datasets, one of which already used in the literature, while the others\ncreated ad-hoc to further investigate its performances. © 2018 IEEE."
+    },
+    {
+      "document_id": 902,
+      "score": null,
+      "abstract": "Consuming news over online media has witnessed rapid growth in recent years, especially with the increasing popularity of social media. However, the ease and speed\nwith which users can access and share information online facilitated the dissemination of false or unverified information. One way of assessing the credibility of online\nnews stories is by examining the attached images. These images could be fake, manipulated or not belonging to the context of the accompanying news story.\nPrevious attempts to news verification provided the user with a set of related images for manual inspection. In , we present a semi-automatic approach to\nassist news-consumers in instantaneously assessing the credibility of information in hypertext news articles by means of meta-data and feature analysis of images in the articles.\nIn the first phase, we use a hybrid approach including image and text clustering techniques for checking the authenticity of an image. In the second\nphase, we use a hierarchical feature analysis technique for checking the alteration in an image, where different sets of features, such as edges and SURF,\nare used. In contrast to recently reported manual news verification, our presented work shows a quantitative measurement on a custom dataset. Results revealed an accuracy\nof 72.7% for checking the authenticity of attached images with a dataset of 55 articles. Finding alterations in images resulted in an accuracy of 88%\nfor a dataset of 50 images. © 2016 IEEE."
+    }
+  ]
+}

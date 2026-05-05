@@ -1,0 +1,45 @@
+{
+  "topic_id": 63,
+  "label": "T063",
+  "label_full": "checks, newsdeps",
+  "keywords": [
+    "checks",
+    "newsdeps",
+    "fade",
+    "service",
+    "citations",
+    "presented",
+    "components",
+    "present",
+    "does",
+    "origin"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 323,
+      "score": null,
+      "abstract": "In scientific publications, citations allow readers to assess the authenticity of the presented information and verify it in the original context. News articles, however, for\nvarious reasons do not contain citations and only rarely refer readers to further sources. As a result, readers often cannot assess the authenticity of the\npresented information as its origin is unclear. In times of “fake news,” echo chambers, and centralization of media ownership, the lack of transparency regarding origin,\ntrustworthiness, and authenticity has become a pressing societal issue. We present NewsDeps, the first approach that analyzes and visualizes where information in news articles stems\nfrom. NewsDeps employs methods from natural language processing and plagiarism detection to measure article similarity. We devise a temporal-force-directed graph that places articles as nodes\nchronologically. The graph connects articles by edges varying in width depending on the articles’ similarity. We demonstrate our approach in a case study with two\nreal-world scenarios. We find that NewsDeps increases efficiency and transparency in news consumption by revealing which previously published articles are the primary sources of each\ngiven article. © The Editor(s) (if applicable) and The Author(s), under exclusive license to Springer Fachmedien Wiesbaden GmbH, part of Springer Nature 2023."
+    },
+    {
+      "document_id": 436,
+      "score": null,
+      "abstract": "Due to the rapid growth of the Internet and the subsequent rise of social media users, sharing information has become more flexible than ever before.\nThis unrestricted freedom has also led to an increase in fake news. During the Covid-19 outbreak, fake news spread globally, negatively affecting authorities' decisions and\nthe health of individuals. As a result, governments, media agencies, and academics have established fact-checking units and developed automatic detection systems. Research approaches to verify\nthe veracity of news focused largely on writing styles, propagation patterns, and building knowledge bases that serve as a reference for fact checking. However, little\nwork has been done to assess the credibility of the source of the claim to be checked. proposes a general framework for detecting fake news\nthat uses external evidence to verify the veracity of online news in a multilingual setting. Search results from Google are used as evidence, and the\nclaim is cross-checked with the top five search results. Additionally, we associate a vector of credibility scores with each evidence source based on the domain\nname and website reputation metrics. All of these components are combined to derive better predictions of the veracity of claims. Further, we analyze the claim-evidence\nentailment relationship and select supporting and refuting evidence to cross-check with the claim. The approach without selection components yields better detection performance. In , we\nconsider as a case study Covid-19 related news. Our framework achieves an F1-score of 0.85 and 0.97 in distinguishing fake from true news on XFact\nand Constraint datasets respectively. With the achieved results, the proposed framework present a promising automatic fact checker for both early and late detection. © 2013\nIEEE."
+    },
+    {
+      "document_id": 568,
+      "score": null,
+      "abstract": "Internet-based media and social networks enable quick access to information; however, that has also made it easy to conduct disinformation campaigns. Fake news poses a\nserious threat to the functioning and safety of our society, as demonstrated by nation-state-sponsored campaigns to sway the 2016 US presidential election, and more recently\nCOVID-19 pandemic hoaxes that promote false cures, putting lives at risk. FADE is a novel approach and service that helps Internet users detect fake news.\nFADE discovers multiple news sources covering the same story, analyzes their reputation, and checks the trustworthiness of cited sources. Our approach does not depend on\nany specific social media or news source, does not rely on costly textual content analysis, and does not require lengthy offline processing. Our experiments demonstrate\nabove 85\\% detection accuracy with a practical implementation. FADE offers a path to empowering the Internet community with effective tools to identify fake news."
+    },
+    {
+      "document_id": 840,
+      "score": null,
+      "abstract": "In the actual scenario of ever-growing data consumption speed and quantity, factors like news source decentralization, citizen journalism and democratization of media, make the task\nof manually checking and correcting disinformation across the internet impractical or infeasible . Here, there is an imperative need for a fast and reliable way\nto account for the veracity of what is produced and spread as information: Automatic fact-checking. In we present the problem of fact-checking in the era\nof big data and post-truth. Some existing approaches for this task are presented and their main features discussed and compared. Concluding, a new approach inspired\non the best components of the existing ones is presented. © 2018 IW3C2 (International World Wide Web Conference Committee), published under Creative Commons CC BY\n4.0 License."
+    },
+    {
+      "document_id": 884,
+      "score": null,
+      "abstract": "The emergence of \"Fake News\" and misinformation via online news and social media has spurred an interest in computational tools to combat this phenomenon. In\nwe present a new \"Related Fact Checks\" service, which can help a reader critically evaluate an article and make a judgment on its veracity by\nbringing up fact checks that are relevant to the article. We describe the core technical problems that need to be solved in building a \"Related\nFact Checks\" service, and present results from an evaluation of an implementation. © 2017 CEUR-WS. All rights reserved."
+    }
+  ]
+}

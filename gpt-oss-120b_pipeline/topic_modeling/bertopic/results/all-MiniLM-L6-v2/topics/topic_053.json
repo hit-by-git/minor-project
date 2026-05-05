@@ -1,0 +1,45 @@
+{
+  "topic_id": 53,
+  "label": "T053",
+  "label_full": "deep, uncertainty",
+  "keywords": [
+    "deep",
+    "uncertainty",
+    "bilstm",
+    "adam",
+    "adadelta",
+    "news",
+    "ensemble",
+    "optimization",
+    "bnn",
+    "models"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 60,
+      "score": null,
+      "abstract": "Fake news, misinformation, and disinformation are significant cybersecurity threats worldwide, as sharing misleading or biased information can have detrimental consequences, leading individuals to act in\nharmful ways. It is crucial to provide fact-checking tools capable of determining the authenticity of news content, images, and videos. Despite the increasing penetration of\nfake news in Arabic countries, fake news detection in this context has received limited attention. focuses on developing an efficient approach to accurately identify fake\nnews while also measuring the uncertainty of its predictions, a crucial aspect that has been overlooked in the field. We propose a powerful deep ensemble\nmodel that incorporates various multi-input merging techniques and different architectures. Our proposed architecture comprises a deep ensemble of three distinct models, each designed to handle\nspecific types of inputs. The ensemble consists of Bi-Long Short Term Memory (Bi-LSTM) model utilizing embedded inputs, a Deep Neural Network (DNN) model incorporating only\nmetadata, and a DNN model employing the Term Frequency-Inverse Document Frequency (TF-IDF) matrix. Additionally, we compute uncertainty of this detection. We further utilize a Bayesian\nNeural Network (BNN) architecture specifically for metadata to independently measure uncertainty and to give a qualitative evaluation of our uncertainty measure. Experimental results on a\nchallenging dataset demonstrate that our proposed ensemble model outperforms previous works in terms of per-formance. Furthermore, by leveraging the BNN, we showcase how our ensemble\narchitecture surpasses the standalone BNN in uncertainty accuracy. These results not only establish the validity of our proposed ensemble architecture for fake news detection, but\nalso provide valuable information about the uncertainty associated with the model's predictions. By empowering internet users to become more critical consumers of news, these insights\nhold immense potential in mitigating the spread and impact of fake news. © 2024 IEEE."
+    },
+    {
+      "document_id": 256,
+      "score": null,
+      "abstract": "The rapid dissemination of information has been accompanied by the proliferation of fake news, posing significant challenges in discerning authentic news from fabricated narratives. This\nstudy addresses the urgent need for effective fake news detection mechanisms. The spread of fake news on digital platforms has necessitated the development of sophisticated\ntools for accurate detection and classification. Deep learning models, particularly Bi-LSTM and attention-based Bi-LSTM architectures, have shown promise in tackling this issue. This research utilized\nBi-LSTM and attention-based Bi-LSTM models, integrating an attention mechanism to assess the significance of different parts of the input data. The models were trained on\nan 80% subset of the data and tested on the remaining 20%, employing comprehensive evaluation metrics including Recall, Precision, F1-Score, Accuracy, and Loss. Comparative analysis\nwith existing models revealed the superior efficacy of the proposed architectures. The attention-based Bi-LSTM model demonstrated remarkable proficiency, outperforming other models in terms of accuracy\n(97.66%) and other key metrics. The study highlighted the potential of integrating advanced deep learning techniques in fake news detection. The proposed models set new\nstandards in the field, offering effective tools for combating misinformation. Limitations such as data dependency, potential for overfitting, and language and context specificity were acknowledged.\nThe research underscores the importance of leveraging cutting-edge deep learning methodologies, particularly attention mechanisms, in fake news identification. The innovative models presented pave the way\nfor more robust solutions to counter misinformation, thereby preserving the veracity of digital information. Future research should focus on enhancing data diversity, model efficiency, and\napplicability across various languages and contexts. Copyright © 2024 Padalko, Chomko and Chumachenko."
+    },
+    {
+      "document_id": 302,
+      "score": null,
+      "abstract": "Social platform have disseminated the news in rapid speed and has been considered an important news resource for many people over worldwide because of easy\naccess and less cost benefits when compared with the traditional news organizations. Fake news is the news deliberately written by bad writers that manipulates the\noriginal contents and this rapid dissemination of fake news may mislead the people in the society. As a result, it is critical to investigate the\nveracity of the data leaked via social media platforms. Even so, the reliability of information reported via this platform is still doubtful and remains a\nsignificant obstacle. As a result, this study proposes a promising technique for identifying fake information in social media called Adam Adadelta Optimization based Deep Long\nShort-Term Memory (Deep LSTM). The tokenization operation in this case is carried out with the Bidirectional Encoder Representations from Transformers (BERT) approach. The measurement of\nthe features is reduced with the assistance of Kernel Linear Discriminant Analysis (LDA), and Singular Value Decomposition (SVD) and the top-N attributes are chosen by\nemploying Renyi joint entropy. Furthermore, the LSTM is applied to identify false information in social media, with Adam Adadelta Optimization, which comprises a combo of\nAdam Optimization and Adadelta Optimization. The Deep LSTM based on Adam Adadelta Optimization achieved maximum accuracy, sensitivity, specificity of 0.936, 0.942, and 0.925. © 2023\n- IOS Press. All rights reserved."
+    },
+    {
+      "document_id": 549,
+      "score": null,
+      "abstract": "Due to the popularity of online media and especially social media, accessing news online through social media platforms has become the preferred way for people\nto obtain their news. However, it is now widely recognized that there is an increasing amount of fake news on the Internet. Fake news can\nbe very similar to real news, so it is often difficult for readers to distinguish the truth/veracity of the news they read. Machine learning and\ndeep learning models can help in this regard. In , we compare and analyse the performance of four machine learning models (Logistic regression, Random Forest,\nSupport Vector Machines (SVM), Naïve Bayes) and three deep learning models (Recurrent Neural Network (RNN), Long Short-Term Memory (LSTM) and BERT) on data sets comprising\nboth true and fake news. We explore different methods for extracting language features from the news and evaluate the performance of the model using accuracy\nas an evaluation indicator. We identified that the BERT model reached an accuracy of 86.76 and was most effective. © 2021 IEEE"
+    },
+    {
+      "document_id": 573,
+      "score": null,
+      "abstract": "Due to the increasing number of users in social media, news articles can be quickly published or share among users without knowing its credibility and\nauthenticity. Fast spreading of fake news articles using different social media platforms can create inestimable harm to society. These actions could seriously jeopardize the reliability\nof news media platforms. So it is imperative to prevent such fraudulent activities to foster the credibility of such social media platforms. An efficient automated\ntool is a primary necessity to detect such misleading articles. Considering the issues mentioned earlier, in , we propose a hybrid model using multiple branches\nof the convolutional neural network () with Long Short Term Memory (LSTM) layers with different kernel sizes and filters. To make our model deep, which\nconsists of three dense layers to extract more powerful features automatically. In this research, we have created a dataset (FN-COV) collecting 69976 fake and real\nnews articles during the pandemic of COVID-19 with tags like social-distancing, covid19, and quarantine. We have validated the performance of our proposed model with one\nmore real-time fake news dataset: PHEME. The capability of combined kernels and layers of our C-LSTM network is lucrative towards both the datasets. With our\nproposed model, we achieved an accuracy of 91.88% with PHEME, which is higher as compared to existing models and 98.62% with FN-COV dataset. © 2021\nby SCITEPRESS - Science and Technology Publications, Lda."
+    }
+  ]
+}

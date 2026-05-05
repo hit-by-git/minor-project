@@ -1,0 +1,50 @@
+{
+  "topic_id": 46,
+  "label": "T046",
+  "label_full": "fact, loren",
+  "keywords": [
+    "fact",
+    "loren",
+    "graph",
+    "claim",
+    "proofs",
+    "facekeg",
+    "fever",
+    "verification",
+    "proofver",
+    "faithful"
+  ],
+  "n_docs": 6,
+  "documents": [
+    {
+      "document_id": 408,
+      "score": null,
+      "abstract": "Existing fact verification methods employ pre-trained language models such as BERT for the contextual representation of evidence sentences. However, such representations do not take into\naccount commonsense knowledge and these methods often conclude that there is not enough information to predict whether a claim is supported or refuted by the\nevidence sentences. In , we propose a framework called CGAT that incorporates external knowledge from ConceptNet to enrich the contextual representations of evidence sentences. We\nemploy graph attention models to propagate the information among the evidence sentences before predicting the veracity of the claim. Experiment results on the benchmark FEVER\ndataset and UKP Snopes Corpus indicate that the proposed approach leads to higher accuracy and FEVER score compared to state-of-the-art claim verification methods."
+    },
+    {
+      "document_id": 445,
+      "score": null,
+      "abstract": "Fact verification systems typically rely on neural network classifiers for veracity prediction, which lack explainability. proposes ProoFVer, which uses a seq2seq model to generate natural\nlogic-based inferences as proofs. These proofs consist of lexical mutations between spans in the claim and the evidence retrieved, each marked with a natural logic\noperator. Claim veracity is determined solely based on the sequence of these operators. Hence, these proofs are faithful explanations, and this makes ProoFVer faithful by\nconstruction. Currently, ProoFVer has the highest label accuracy and the second best score in the FEVER leaderboard. Furthermore, it improves by 13.21% points over the\nnext best model on a dataset with counterfactual instances, demonstrating its robustness. As explanations, the proofs show better overlap with human rationales than attention-based highlights\nand the proofs help humans predict model decisions correctly more often than using the evidence directly. © 2022 Association for Computational Linguistics."
+    },
+    {
+      "document_id": 541,
+      "score": null,
+      "abstract": "Given a natural language statement, how to verify its veracity against a large-scale textual knowledge source like Wikipedia? Most existing neural models make predictions without\ngiving clues about which part of a false claim goes wrong. In , we propose LOREN, an approach for interpretable fact verification. We decompose the\nverification of the whole claim at phrase-level, where the veracity of the phrases serves as explanations and can be aggregated into the final verdict according\nto logical rules. The key insight of LOREN is to represent claim phrase veracity as three-valued latent variables, which are regularized by aggregation logical rules.\nThe final claim verification is based on all latent variables. Thus, LOREN enjoys the additional benefit of interpretability - it is easy to explain how\nit reaches certain results with claim phrase veracity. Experiments on a public fact verification benchmark show that LOREN is competitive against previous approaches while enjoying\nthe merit of faithful and accurate interpretability. The resources of LOREN are available at: Copyright © 2022, Association for the Advancement of Artificial Intelligence (\nAll rights reserved."
+    },
+    {
+      "document_id": 561,
+      "score": null,
+      "abstract": "In recent years, a plethora of fact checking and fact verification techniques have been developed to detect the veracity or factuality of online information text\nfor various applications. However, limited efforts have been undertaken to understand the interpretability of such veracity detection, i.e. explaining why a particular piece of text\nis factually correct or incorrect. In , we seek to bridge this gap by proposing a technique, FACE-KEG, to automatically perform explainable fact checking. Given\nan input fact or claim, our proposed model constructs a relevant knowledge graph for it from a large-scale structured knowledge base. This graph is encoded\nvia a novel graph transforming encoder. Our model also simultaneously retrieves and encodes relevant textual context about the input text from the knowledge base. FACE-KEG\nthen jointly exploits both the concept-relationship structure of the knowledge graph as well as semantic contextual cues in order to (i) detect the veracity of\nan input fact, and (ii) generate a human-comprehensible natural language explanation justifying the fact's veracity. We conduct extensive experiments on three large-scale datasets, and demonstrate\nthe effectiveness of FACE-KEG while performing fact checking. Automatic and human evaluations further show that FACE-KEG significantly outperforms competitive baselines in learning concise, coherent and\ninformative explanations for the input facts."
+    },
+    {
+      "document_id": 578,
+      "score": null,
+      "abstract": "Fact verification is a recently introduced task, which is quired to judge the authenticity of a claim. Previous works mainly leverage extracting the semantic relations\nof claim and evidences, e.g., using the graph to model their relation. However, these graph-based models ignore the features evolution over different step graph propagation.\nIn addition, they fail to capture the sequence features of evidence graph. To deal with the above issues, we propose a dynamic graph attention recurrent\nneural network for fact verification. Specifically, we design a dynamic memory mechanism to retain the node features in the updating process. Moreover, we propose a\ngraph attention recurrent neural networks to aggregate features based on the logical order. Experimental results on FEVER dataset demonstrate the effectiveness of our model, especially\nin the multi-evidence scenario. © 2021 IEEE."
+    },
+    {
+      "document_id": 583,
+      "score": null,
+      "abstract": "Evidence-based fact checking aims to verify the truthfulness of a claim against evidence extracted from textual sources. Learning a representation that effectively captures relations between\na claim and evidence can be challenging. Recent state-of-the-art approaches have developed increasingly sophisticated models based on graph structures. We present a simple model that\ncan be trained on sequence structures. Our model enables inter-sentence attentions at different levels and can benefit from joint training. Results on a large-scale dataset\nfor Fact Extraction and VERification (FEVER) show that our model outperforms the graph-based approaches and yields 1.09% and 1.42% improvements in label accuracy and FEVER\nscore, respectively, over the best published model. © 2021 Association for Computational Linguistics"
+    }
+  ]
+}

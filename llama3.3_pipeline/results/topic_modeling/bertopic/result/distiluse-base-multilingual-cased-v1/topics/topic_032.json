@@ -1,0 +1,60 @@
+{
+  "topic_id": 32,
+  "label": "T032",
+  "label_full": "Misinformation & Propaganda",
+  "keywords": [
+    "fakedetector",
+    "news",
+    "online",
+    "fake",
+    "creators",
+    "subjects",
+    "commitment",
+    "internet",
+    "networks",
+    "offline"
+  ],
+  "n_docs": 8,
+  "documents": [
+    {
+      "document_id": 68,
+      "score": null,
+      "abstract": "In the current years, with the rapid improvement of online social networks, much fake news for numerous commercial and political purposes has appeared and spread\nin the online world. Words can easily infect this online fake news, which has already had a substantial effect on of each fake offline society.\nA key aim in improving the authenticity of information in online social networks is the timely detection of fake news. Fake news is a shape\nof yellow journalism that summarizes clearly false information and is usually disseminated via social and other online media. This is often done to sell or\nimpose a specific idea and is often executed with a political agenda. Such messages can contain false or exaggerated claims and can end up going\nviral by algorithms, putting users in a filter bubble. This advanced Python Fake News Detection project deals with fake news and actual news. This can\nbe done by creating a TF-IDF Vectorizer on the dataset using Sklearn. Next, initialize a Passive-Aggressive classifier and in-shape the version. The accuracy score and\nthe confusion matrix indicate the performance of the model. © 2024 selection and editorial matter, Alex Khang, Pushan Kumar Dutta, Nishu Aayedee, Sachin Gupta, and\nSandeep Chatterjee; individual chapters, the contributors. All rights reserved."
+    },
+    {
+      "document_id": 162,
+      "score": null,
+      "abstract": "With the rapid development and popularization of Internet technology, the propagation and diffusion of information become much easier and faster. While making life more convenient,\nthe Internet also promotes the wide spread of fake news, which will have a great negative impact on countries, societies, and individuals. Therefore, a lot\nof research efforts have been made to combat fake news. Fake news detection is typically a classification problem aiming at verifying the veracity of news\ncontents, which may include texts, images and videos. This article provides a comprehensive survey of fake news detection. We first summarize three intrinsic characteristics of\nfake news by analyzing its entire diffusion process, namely intentional creation, heteromorphic transmission, and controversial reception. The first refers to why users publish fake news,\nthe second denotes how fake news propagates and distributes, and the last means what viewpoints different users may hold for fake news. We then discuss\nexisting fake news detection approaches according to these characteristics. Thus, this review will enable readers to better understand this field from a new perspective. We\nfinally discuss the trends of technological advances in this field and also outline some potential directions for future research. © 2024"
+    },
+    {
+      "document_id": 338,
+      "score": null,
+      "abstract": "The rapid development of the Internet and Internet of Things has rapidly introduced human society into the information age, and the way of fake news\nproduction has been updated, which has greatly affected the normal life of human beings. In order to identify worthless fake news and trace massive fake\nnews data from unknown sources, and share valuable news data to fully disseminate effective real news, news owners usually store news data in cloud. Users\nof IoT terminals can access news data on demand without storing it locally. However, the authenticity of the fictive newspaper numbers source, which is easy\nto destroy, and the social media platform. Besides, when massive news data is saved on cloud server, the news owners have to at the risk\nof lose physical control over news data and it will face the risk of fake news being disseminated and real news being falsified. Thus, proposes\na novel mechanism for secure storage of news data using blockchain technology. Firstly, traceability and verification of fake news data is improved by the cooperative\nstorage model on and off the chain. Secondly due to the inability of past polynomial commitment to update the commitment, we will be a hindrance\nto use polynomial commitment to build a secure authentication protocol. Therefore, in , we design the update algorithm for polynomial commitment in order to be\nable to guarantee the consistency of on-chain and blockchain database news data. © 2023"
+    },
+    {
+      "document_id": 568,
+      "score": null,
+      "abstract": "Internet-based media and social networks enable quick access to information; however, that has also made it easy to conduct disinformation campaigns. Fake news poses a\nserious threat to the functioning and safety of our society, as demonstrated by nation-state-sponsored campaigns to sway the 2016 US presidential election, and more recently\nCOVID-19 pandemic hoaxes that promote false cures, putting lives at risk. FADE is a novel approach and service that helps Internet users detect fake news.\nFADE discovers multiple news sources covering the same story, analyzes their reputation, and checks the trustworthiness of cited sources. Our approach does not depend on\nany specific social media or news source, does not rely on costly textual content analysis, and does not require lengthy offline processing. Our experiments demonstrate\nabove 85\\% detection accuracy with a practical implementation. FADE offers a path to empowering the Internet community with effective tools to identify fake news."
+    },
+    {
+      "document_id": 661,
+      "score": null,
+      "abstract": "With the rapid development of Internet technology, the net- work makes the transmission of information no longer limited due to the long distance. All kinds\nof information can be transmitted conveniently and quickly on the Internet. People can view and send all kinds of in- formation around the world with\nonly a mobile network device. A lot of things happen in the world every day, so this information contains a lot of news information, and\npeople can understand what is happening in the world through news information. However, there is much fake news information mixed in this news information. This\nfake news will interfere with our cognition and judgment. Therefore, we need more attention to distinguish the authenticity of this news item. This also poses\ncertain challenges to our work tasks. In , we describe the method used for the Fake News Detection in Spanish in IberLEF 2021. We fine-tuned\nthe XLM-Roberta pre-training model based on the data sets provided by the host, Spanish, and obtained good results. The F1 score of our model in\nSpanish tasks reached 0.7053 and ranking seventh. © 2021 CEUR-WS. All rights reserved."
+    },
+    {
+      "document_id": 719,
+      "score": null,
+      "abstract": "Internet is a supreme one-stop source of information that enables the sharing of news and curated user-content at a rapid, effortless, and in a routine\nmanner. News is a global medium of daily events worldwide, offering absorption of quick information. With ample availability of news content online, these news articles\nhas by-products in information generation in both ways-real and fake news. Considering the context and volume of information shared online, it is challenging to establish\nauthenticity of news. This leads to the immense growth of fake news on various websites, which can lead to serious concerns in society, fading away\nthe correct news content to reach the users creating misconceptions and deceived views of the readers. To ensure the readers have the credibility of the\ncontent, we propose a web-based extension enabling them to distinguish from the fake and real news content. The proposed web extension in the paper uses\nmultiple deep learning models. The first is based on our model trained on LSTM, and the other uses OPEN AI's well-developed AI-generated text classifier GPT-2.\nThe devised web-extension displays both probabilities of news being either AI-generated or written by an individual. © 2020 IEEE."
+    },
+    {
+      "document_id": 725,
+      "score": null,
+      "abstract": "In recent years, due to the booming development of online social networks, fake news for various commercial and political purposes has been appearing in large\nnumbers and widespread in the online world. With deceptive words, online social network users can get infected by these online fake news easily, which has\nbrought about tremendous effects on the offline society already. An important goal in improving the trustworthiness of information in online social networks is to identify\nthe fake news timely. aims at investigating the principles, methodologies and algorithms for detecting fake news articles, creators and subjects from online social networks and\nevaluating the corresponding performance. addresses the challenges introduced by the unknown characteristics of fake news and diverse connections among news articles, creators and subjects. introduces\na novel gated graph neural network, namely FAKEDETECTOR. Based on a set of explicit and latent features extracted from the textual information, FAKEDETECTOR builds a\ndeep diffusive network model to learn the representations of news articles, creators and subjects simultaneously. Extensive experiments have been done on a real-world fake news\ndataset to compare FAKEDETECTOR with several state-of-the-art models, and the experimental results are provided in the full-version of at [13]. © 2020 IEEE."
+    },
+    {
+      "document_id": 785,
+      "score": null,
+      "abstract": "In recent years, due to the booming development of online social networks, fake news for various commercial and political purposes has been appearing in large\nnumbers and widespread in the online world. With deceptive words, online social network users can get infected by these online fake news easily, which has\nbrought about tremendous effects on the offline society already. An important goal in improving the trustworthiness of information in online social networks is to identify\nthe fake news timely. aims at investigating the principles, methodologies and algorithms for detecting fake news articles, creators and subjects from online social networks and\nevaluating the corresponding performance. addresses the challenges introduced by the unknown characteristics of fake news and diverse connections among news articles, creators and subjects. introduces\na novel automatic fake news credibility inference model, namely FakeDetector. Based on a set of explicit and latent features extracted from the textual information, FakeDetector\nbuilds a deep diffusive network model to learn the representations of news articles, creators and subjects simultaneously. Extensive experiments have been done on a real-world\nfake news dataset to compare FakeDetector with several state-of-the-art models, and the experimental results have demonstrated the effectiveness of the proposed model. © 2019 IEEE."
+    }
+  ]
+}

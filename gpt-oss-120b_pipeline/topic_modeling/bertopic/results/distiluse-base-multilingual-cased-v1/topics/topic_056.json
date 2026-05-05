@@ -1,0 +1,45 @@
+{
+  "topic_id": 56,
+  "label": "T056",
+  "label_full": "Misinformation & Propaganda",
+  "keywords": [
+    "vietnamese",
+    "fake",
+    "news",
+    "glove",
+    "research",
+    "arabic",
+    "sdt",
+    "hipo",
+    "tsa",
+    "real"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 97,
+      "score": null,
+      "abstract": "Detecting fake news problems has been a topic of research noticed in recent years. However, at present, fake news detection research has only been conducted\nwith English data sets, no research has been conducted with Vietnamese datasets. Therefore, it is essentially important and urgent to do research on fake news\ndetection with the Vietnamese dataset. In this research, we proposed a detecting fake news method using a knowledge graph (KG) combined with a semi-supervised learning\nGraph Convolutional Networks (GCN) to predict whether the news is real or fake. Our research is implemented by collecting data including real and fake news\nfrom the datasets of online newspapers in Vietnamese including vnexpress, tuoitre, etc., and VFND-vietnamese-fake-news. In addition, we will not label news that has not been\nverified for authenticity. We build a knowledge graph for the dataset by embedding words into the dataset using the Glove library and building a knowledge\ngraph using the Word Mover’s Distance algorithm (WMD) combined with the K-nearest-neighbor algorithm (KNN). Detecting real or fake news models with input knowledge graph built\nand GCN algorithm and finally perform the tests with datasets. With our research, we have built a knowledge graph for the Vietnamese data set of\nreal and fake news collected from 2018 to 2023 combined with the VFND-vietnamese-fake-news dataset. Our proposed method can resolve to detect fake news problems by\nthe GCN algorithm. Research’s results have a high precision of up to 85%, in the case of labeled data accounting for 50% of the input\ndataset. © 2024, The Author(s), under exclusive license to Springer Nature Singapore Pte Ltd."
+    },
+    {
+      "document_id": 232,
+      "score": null,
+      "abstract": "In recent years, fake news has been a primary concern as it plays a significant role in influencing the political, economic, and social spheres. The\nscientific community has proposed several solutions to detect such fraudulent information. However, such solutions are unsuitable for social media posts since they cannot extract sufficient\ninformation from one-line textual and graphical content or are highly dependent on prior knowledge, which may be unavailable in the case of unprecedented events (e.g.,\nbreaking news). tackles this issue by proposing HiPo, a novel multi-modal historical post-based fake news detection method. By combining the features extracted from the graphical\nand textual content, HiPo assesses the truthfulness of a social media post by building its historical context from prior off-label posts with high similarity, therefore,\nachieving online detection without maintaining a context or knowledge database. We evaluate the performance of HiPo via an exhaustive set of experiments involving four real-world\ndatasets. Our method achieves a detection accuracy higher than 84\\%, outperforming the state-of-the-art methods in most experimental instances."
+    },
+    {
+      "document_id": 289,
+      "score": null,
+      "abstract": "Fake news is a growing problem in the digital age, spreading misinformation and affecting public opinion. Existing fake news detection is based on style analysis\nor news generator's behavior analysis, the former fails if the content is generated using existing news corpus while the latter requires a very specific data\nset. In this research, we aim to address the issue of fake news detection by employing deep learning-based time series analysis (TSA). We propose a\nTSA method to gauge the authenticity of the news based on previously available news content of a similar genre. We employed pre-trained models for encoding\nincluding GloVe and BERT and transformer-based sequence-to-sequence (Seq2Seq) for TSA. The results demonstrate 98% accuracy of pre-trained models, such as GloVe and BERT, over traditional\nencoding approaches having accuracy between 77% and 93%. Our study also compares the effectiveness of various deep learning methods, including Long-Short Term Memory (LSTM), Gated\nRecurrent Unit (GRU), LSTM with attention, GRU with attention, and Transformers with 8 and 16 multi-heads. The results show that Transformers with 8 and 16\nmulti-heads achieve 98% and 97% accuracy respectively as compared to LSTM (87%) and GRU (88%). Our work is useful for future research in TSA-based fake\nnews detection and proposes to use GloVe and BERT-based encoding and multi-head transform architecture. © 2023 IEEE."
+    },
+    {
+      "document_id": 365,
+      "score": null,
+      "abstract": "Fake news stories can polarize society, particularly during political events. They undermine confidence in the media in general. Current NLP systems are still lacking the\nability to properly interpret and classify Arabic fake news. Given the high stakes involved, determining truth in social media has recently become an emerging research\nthat is attracting tremendous attention. Our literature review indicates that applying the state-of-the-art approaches on news content address some challenges in detecting fake news’ characteristics,\nwhich needs auxiliary information to make a clear determination. Moreover, the ‘Social-context-based’ and ‘propagation-based’ approaches can be either an alternative or complementary strategy to content-based\napproaches. The main goal of our research is to develop a model capable of automatically detecting truth given an Arabic news or claim. In particular,\nwe propose a deep neural network approach that can classify fake and real news claims by exploiting ‘Convolutional Neuron Networks’. Our approach attempts to solve\nthe problem from the fact checking perspective, where the fact-checking task involves predicting whether a given news text claim is factually authentic or fake. We\nopt to use an Arabic balanced corpus to build our model because it unifies stance detection, stance rationale, relevant document retrieval and fact-checking. The model\nis trained on different well selected attributes. An extensive evaluation has been conducted to demonstrate the ability of the fact-checking task in detecting the Arabic\nfake news. Our model outperforms the performance of the state-of-the-art approaches when applied to the same Arabic dataset with the highest accuracy of 91\\%."
+    },
+    {
+      "document_id": 405,
+      "score": null,
+      "abstract": "Researchers across many disciplines seek to understand how misinformation spreads with a view toward limiting its impact. One important question in this research is how\npeople determine whether a given piece of news is real or fake. In the current article, we discuss the value of signal detection theory (SDT)\nin disentangling two distinct aspects in the identification of fake news: (a) ability to accurately distinguish between real news and fake news and (b) response\nbiases to judge news as real or fake regardless of news veracity. The value of SDT for understanding the determinants of fake-news beliefs is illustrated\nwith reanalyses of existing data sets, providing more nuanced insights into how partisan bias, cognitive reflection, and prior exposure influence the identification of fake news.\nImplications of SDT for the use of source-related information in the identification of fake news, interventions to improve people’s skills in detecting fake news, and\nthe debunking of misinformation are discussed. © The Author(s) 2021."
+    }
+  ]
+}

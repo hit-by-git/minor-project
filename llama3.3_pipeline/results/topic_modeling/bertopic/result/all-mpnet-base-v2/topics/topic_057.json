@@ -1,0 +1,45 @@
+{
+  "topic_id": 57,
+  "label": "T057",
+  "label_full": "5lcnn, phoney",
+  "keywords": [
+    "5lcnn",
+    "phoney",
+    "learning",
+    "deep",
+    "papers",
+    "news",
+    "way",
+    "rnn",
+    "online",
+    "machine"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 137,
+      "score": null,
+      "abstract": "False information that is reported as news and frequently intended to harm reputations or make money is called fake news. It has been used to\nrefer to all types of misleading information since it was first introduced in the 1890s and is frequently produced by adversarial foreign actors. Due to\nthe variety of fake news kinds, experts increasingly prefer the term “information disorder” as a neutral and educational word. The study addresses information overload and\nfiltering issues on social media by introducing a new approach to assessing news reliability. It uses Cosine Similarity based Retriever Augmented Generation (RAG) technique and\nclassification deep learning algorithm to classify news as fake or real, with the best-performing feature predicting its authenticity. The system achieved 91% accuracy in testing.\n© 2024 Taylor & Francis Group, London."
+    },
+    {
+      "document_id": 393,
+      "score": null,
+      "abstract": "Nowadays, getting news from online platforms, which include social media, news applications etc., is the most convenient and popular way, which is a positive. But\nthis way has negatives also, in which the bigger challenge is phoney or misleading information which is spread by the users for their own benefit.\nPhoney news has the capability to eliminate peace in society and always create conflicts at a higher level. This influence of this type of content\nis the subject of research to remove it from the online platforms to maintain the trustworthiness of the online news. In , we have summarized\nthe work of 23 research papers. The techniques used in the papers are based on machine learning and deep learning. We have further concluded the\noverview of different methodologies and datasets used in these papers and their significance in future research to improve the existing architecture of classification of phoney\nnews. © 2023 Bharati Vidyapeeth, New Delhi."
+    },
+    {
+      "document_id": 467,
+      "score": null,
+      "abstract": "With the advent of websites and social media technologies, the internet has been a great method of transmitting news and information around the globe. However,\ndue to lack of editorial scrutiny and monitoring by the media authorities, the news distribution has been seriously abused leading to the fast spreading of\nfake news. Fake news involves misleading broadcasting of information from sources that target to intentionally manipulate the way how people view some events or statements.\nThis study seeks to develop a fake news detection model which will be able to analyze the title and text information attached to the news\narticles. From the researches done by previous scholars, it showed that the models did not perform very well because of the lack of sufficient feature\nextraction and fine tuning of the classification of the text. This research will therefore, articulate the gap by employing 5L-CNN deep learning model which will\nuse inbuilt tokenizers for word embedding and will show better accuracy compared to the traditional machine learning models. In , we compare machine learning algorithms\n(Decision trees, Random Forest, Logistic Regression & Naive Bayes) and deep learning algorithms (RNN, 5L-CNN & LSTM) to classify the authenticity of news articles. The\nmodel developed in attained the best accuracy with 5L-CNN which had a result of 99.99%. © 2022 IEEE."
+    },
+    {
+      "document_id": 481,
+      "score": null,
+      "abstract": "Everyone relies on many online resources for news in today's world, where the internet is pervasive. As the use of social media platforms such as\nTwitter, Facebook, and others has grown, news has traveled quickly among millions of users in a short amount of time. Fake news has far-reaching effects,\nranging from the formation of biased opinions to manipulating election outcomes in favor of specific politicians. Furthermore, spammers profit from click-bait ads by utilizing appealing\nnews headlines. Sometimes, humans find it more difficult to determine the article’s authenticity without additional verification. In , we developed a classification model with the\nhelp of Deep Learning and Natural Language Processing Techniques, that classifies the article as real or fake news. The model has been tested on Indian\nnews source - Times Of India along with other sources such as Politifact and was able to give decent accuracy in verifying the authenticity of\nthe news. © 2022, The Author(s), under exclusive license to Springer Nature Switzerland AG."
+    },
+    {
+      "document_id": 634,
+      "score": null,
+      "abstract": "Due to the popularity of online media and especially social media, accessing news online through social media platforms has become the preferred way for people\nto obtain their news. However, it is now widely recognized that there is an increasing amount of fake news on the Internet. Fake news can\nbe very similar to real news, so it is often difficult for readers to distinguish the truth/veracity of the news they read. Machine learning and\ndeep learning models can help in this regard. In , we compare and analyse the performance of four machine learning models (Logistic regression, Random Forest,\nSupport Vector Machines (SVM), Naïve Bayes) and three deep learning models (Recurrent Neural Network (RNN), Long Short-Term Memory (LSTM) and BERT) on data sets comprising\nboth true and fake news. We explore different methods for extracting language features from the news and evaluate the performance of the model using accuracy\nas an evaluation indicator. We identified that the BERT model reached an accuracy of 86.76 and was most effective. © 2021 IEEE"
+    }
+  ]
+}

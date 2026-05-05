@@ -1,0 +1,7 @@
+pre_yes_rows=497
+matched_output_rows=404
+matched_unique_pre_rows=404
+matched_unique_doi=404
+unmatched_pre_rows=93
+output_matched=matched_yes_rows_by_doi.csv
+output_unmatched=unmatched_yes_rows_by_doi.csv

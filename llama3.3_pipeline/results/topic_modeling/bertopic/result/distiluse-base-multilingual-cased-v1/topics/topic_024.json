@@ -1,0 +1,65 @@
+{
+  "topic_id": 24,
+  "label": "T024",
+  "label_full": "Fact-Checking & Verification",
+  "keywords": [
+    "faxplainac",
+    "factchecking",
+    "claim",
+    "model",
+    "task",
+    "runs",
+    "checkworthiness",
+    "feedback",
+    "important",
+    "claims"
+  ],
+  "n_docs": 9,
+  "documents": [
+    {
+      "document_id": 555,
+      "score": null,
+      "abstract": "Most fact checking models for automatic fake news detection are based on reasoning: given a claim with associated evidence, the models aim to estimate the\nclaim veracity based on the supporting or refuting content within the evidence. When these models perform well, it is generally assumed to be due to\nthe models having learned to reason over the evidence with regards to the claim. In , we investigate this assumption of reasoning, by exploring the\nrelationship and importance of both claim and evidence. Surprisingly, we find on political fact checking datasets that most often the highest effectiveness is obtained by\nutilizing only the evidence, as the impact of including the claim is either negligible or harmful to the effectiveness. This highlights an important problem in\nwhat constitutes evidence in existing approaches for automatic fake news detection."
+    },
+    {
+      "document_id": 556,
+      "score": null,
+      "abstract": "Fact-checking on the Web has become the main mechanism through which we detect the credibility of the news or information. Existing fact-checkers verify the authenticity\nof the information (support or refute the claim) based on secondary sources of information. However, existing approaches do not consider the problem of model updates\ndue to constantly increasing training data due to user feedback. It is therefore important to conduct user studies to correct models' inference biases and improve\nthe model in a life-long learning manner in the future according to the user feedback. In , we present FaxPlainAC, a tool that gathers user\nfeedback on the output of explainable fact-checking models. FaxPlainAC outputs both the model decision, i.e., whether the input fact is true or not, along with\nthe supporting/refuting evidence considered by the model. Additionally, FaxPlainAC allows for accepting user feedback both on the prediction and explanation. Developed in Python, FaxPlainAC is\ndesigned as a modular and easily deployable tool. It can be integrated with other downstream tasks and allowing for fact-checking human annotation gathering and life-long\nlearning."
+    },
+    {
+      "document_id": 588,
+      "score": null,
+      "abstract": "Given current levels of misinformation spread, never before have fact-checking frameworks been so critical. Unfortunately, the performance of Automated Fact-checking systems is still poor due\nto the complexity of the task. In , we present an ablation study of a framework submitted to the FEVER 1.0 challenge. Based on our\nfindings, we explore how triple-based information retrieval, coreference resolution, and recent language model representations can impact the performance of each subtask. We show the importance\nof recall and precision in the retrieval of documents and sentences that can be provided to justify the veracity of a given claim. We reach\nstate-of-the-art results in the Document Retrieval task and we show promising results when using coreference resolution to improve the Sentence Retrieval task. © 2021 Owner/Author."
+    },
+    {
+      "document_id": 757,
+      "score": null,
+      "abstract": "We study the problem of automatic fact-checking, paying special attention to the impact of contextual and discourse information. We address two related tasks: (i)&nbsp;detecting check-worthy\nclaims and (ii)&nbsp;fact-checking claims. We develop supervised systems based on neural networks, kernel-based support vector machines, and combinations thereof, which make use of rich input\nrepresentations in terms of discourse cues and contextual features. For the check-worthiness estimation task, we focus on political debates, and we model the target claim\nin the context of the full intervention of a participant and the previous and following turns in the debate, taking into account contextual meta information.\nFor the fact-checking task, we focus on answer verification in a community forum, and we model the veracity of the answer with respect to the\nentire question–answer thread in which it occurs as well as with respect to other related posts from the entire forum. We develop annotated datasets for\nboth tasks and we run extensive experimental evaluation, confirming that both types of information—but especially contextual features—play an important role."
+    },
+    {
+      "document_id": 760,
+      "score": null,
+      "abstract": "Automated detection of text with misrepresentations such as fake reviews is an important task for online reputation management. The dataset of customer complaints - emotionally\ncharged texts which are very similar to reviews and include descriptions of problems customers experienced with certain businesses – is presented. It contains 2746 complaints\nabout banks and provides clear ground truth, based on available factual knowledge about the financial domain. Among them, 400 texts were manually tagged. Initial experiments\nwere performed in order to explore the links between implicit cues of the rhetoric structure of texts and the validity of arguments, and also how\ntruthful/deceptive are these texts."
+    },
+    {
+      "document_id": 808,
+      "score": null,
+      "abstract": "In recent years, we witnessed an incredible amount of misinformation spread over the Internet. However, it is extremely time consuming to analyze the veracity of\nevery claim made on the Internet. Thus, we urgently need automated systems that can prioritize claims based on their check-worthiness, helping fact-checkers to focus on\nimportant claims. In , we present our hybrid approach which combines rule-based and supervised methods for CLEF-2019 Check That! Lab's Check-Worthiness task. Our primary model\nranked 9th based on MAP, and 6th based on R-P, P@5, and P@20 metrics in the official evaluation of primary submissions. © 2019 CEUR-WS. All\nrights reserved."
+    },
+    {
+      "document_id": 824,
+      "score": null,
+      "abstract": "We present an automated approach to distinguish true, false, stretch, and dodge statements in questions and answers in the Canadian Parliament. We leverage the truthfulness\nannotations of a U.S. fact-checking corpus by training a neural net model and incorporating the prediction probabilities into our models. We find that in concert\nwith other linguistic features, these probabilities can improve the multi-class classification results. We further show that dodge statements can be detected with an F1 measure\nas high as 82.57% in binary classification settings."
+    },
+    {
+      "document_id": 856,
+      "score": null,
+      "abstract": "With the enormous amount of misinformation spread over the Internet, manual fact-checking is no longer feasible to prevent its negative impact. There is an urgent\nneed for automated systems that can make fact-checking process faster and effectively detect the veracity of claims. In , we present our participation in the\ntwo tasks of CLEF-2018 CheckThat! Lab. To rank claims based on their check-worthiness (Task 1), we propose a learning-to-rank approach with features extracted by natural\nlanguage processing such as named entity recognition and sentiment analysis. For veracity prediction (Task 2), we propose using an external Web search engine to retrieve\npotentially-relevant Web pages and extract features from relevant segments of those pages to predict the veracity. In the official evaluation, our best performing runs for\nTask 1 are ranked 4th (out of f 6 runs from 8 teams) and 1st (out of 5 runs from 2 teams) over the English\nand Arabic datasets respectively, while our best performing run for Task 2 is ranked 6th (out of 10 runs from 5 teams) over the English\ndatasets."
+    },
+    {
+      "document_id": 857,
+      "score": null,
+      "abstract": "Assessing the veracity of claims made on the Internet is an important, challenging, and timely problem. While automated fact-checking models have potential to help people\nbetter assess what they read, we argue such models must be explainable, accurate, and fast to be useful in practice; while prediction accuracy is clearly\nimportant, model transparency is critical in order for users to trust the system and integrate their own knowledge with model predictions. To achieve this, we\npropose a novel probabilistic graphical model (PGM) which combines machine learning with crowd annotations. Nodes in our model correspond to claim veracity, article stance regarding\nclaims, reputation of news sources, and annotator reliabilities. We introduce a fast variational method for parameter estimation. Evaluation across two real-world datasets and three scenarios\nshows that: (1) joint modeling of sources, claims and crowd annotators in a PGM improves the predictive performance and interpretability for predicting claim veracity; and\n(2) our variational inference method achieves scalably fast parameter estimation, with only modest degradation in performance compared to Gibbs sampling. Regarding model transparency, we designed\nand deployed a prototype fact-checker Web tool, including a visual interface for explaining model predictions. Results of a small user study indicate that model explanations\nimprove user satisfaction and trust in model predictions. We share our web demo, model source code, and the 13K crowd labels we collected. 1 Copyright\n© 2018, Association for the Advancement of Artificial Intelligence ( All rights reserved."
+    }
+  ]
+}

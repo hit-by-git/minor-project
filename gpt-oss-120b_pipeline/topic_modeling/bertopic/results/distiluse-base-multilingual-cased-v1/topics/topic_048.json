@@ -1,0 +1,45 @@
+{
+  "topic_id": 48,
+  "label": "T048",
+  "label_full": "Misinformation & Propaganda",
+  "keywords": [
+    "bert",
+    "title",
+    "news",
+    "networks",
+    "framework",
+    "fake",
+    "instrument",
+    "analysis",
+    "modeled",
+    "intelligent"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 86,
+      "score": null,
+      "abstract": "Fake news is a growing challenge for social networks and media. Detection of fake news always has been a problem for many years, but the\nevolution of social networks and increasing speed of news dissemination in recent years has been considered again. There are several approaches to solving this problem,\none of which is to detect fake news based on its text style using deep neural networks. In recent years, transfer learning with transformers is\none of the most used forms of deep neural networks for natural language processing. BERT is one of the most promising transformers that outperforms other\nmodels in many NLP benchmarks. In this article, we introduce MWPBert, which uses two parallel BERT networks to perform veracity detection on full-text news articles.\nOne of the BERT networks encodes news headline, and another encodes news bodies. Since the input length of the BERT network is limited and constant\nand the news body is usually a long text, we cannot feed the whole text into the BERT. Therefore, using the MaxWorth algorithm, we selected\nthe part of the news text that is more valuable for fact-checking, and fed it into the BERT network. Finally, we encode the output of\nthe two BERT networks to an output network to classify the news. The experiment results showed that the proposed model outperformed previous models regarding accuracy\nand other performance measures. © The Author(s), under exclusive licence to Springer Science+Business Media, LLC, part of Springer Nature 2023."
+    },
+    {
+      "document_id": 99,
+      "score": null,
+      "abstract": ", we introduce an innovative network architecture that synergizes fuzzy neural networks with positional self-attention mechanisms to enhance fake news detection. This approach effectively addresses\nemerging challenges posed by new fake news technologies, aiming to bolster detection accuracy, protect public interests, and support credible media development. By integrating diverse information\nsources, including textual content and semantic nuances, our model excels in processing ambiguous data and discerning subtle variances in news authenticity. The utilization of fuzzy\nneural networks allows for adept handling of uncertain information, while positional self-attention coding proficiently identifies the significance of different textual elements, offering a nuanced analysis\nof news veracity. Our extensive experiments on two datasets reveal a substantial improvement in detection accuracy, with the model achieving an accuracy increase of over\n15% compared to traditional methods. not only demonstrates a methodological advancement in tackling fake news but also contributes significantly to upholding social integrity and public\ntrust. © 2024, Strojarski Facultet. All rights reserved."
+    },
+    {
+      "document_id": 271,
+      "score": null,
+      "abstract": "Fake news production, accessibility, and consumption have all increased with the rise of internet-connected gadgets and social media platforms. A good fake news detection system\nis essential because the news readers receive can affect their opinions. Several works on fake news detection have been done using machine learning and deep\nlearning approaches. Recently, the deep learning approach has been preferred over machine learning because of its ability to comprehend the intricacies of textual data. The\nintroduction of transformer architecture changed the NLP paradigm and distinguished itself from recurrent models by enabling the processing of sentences as a whole rather than\nword by word. The attention mechanisms introduced in Transformers allowed them to understand the relationship between far-apart tokens in a sentence. Numerous deep learning works\non fake news detection have been published by focusing on different features to determine the authenticity of a news source. We performed an extensive analysis\nof the comprehensive NELA-GT 2020 dataset, which revealed that the title and content of a news source contain discernible information critical for determining its integrity.\nTo this objective, we introduce 'FakeNews Transformer' - a specialized Transformer-based architecture that considers the news story's title and content to assess its veracity. Our\nproposed work achieved an accuracy of 74.0% on a subset of the NELA-GT 2020 dataset. To our knowledge, FakeNews Transformer is the first published work\nthat considers both title and content for evaluating a news article; thus, we compare the performance of our work against two BERT and two LSTM\nmodels working independently on title and content. Our work outperformed the BERT and LSTM models working independently on title by 7.6% and 9.6%, while performing\nbetter than the BERT and LSTM models working independently on content by 8.9% and 10.5%, respectively. © 2023 - IOS Press. All rights reserved."
+    },
+    {
+      "document_id": 313,
+      "score": null,
+      "abstract": "Detecting the veracity of textual content, and distin-guishing between fake and real news, has been greatly improved with the advent of BERT-based transformers. However, an\nin-herent challenge arises when encountering news articles that fall within the borderline of the latent vector space between fake and real. In , we propose\na three-label framework to address this uncertainty issue and leverage an external data enrichment module, Google Fact Check, to handle such cases. Our approach utilizes\na constraint dataset for training both the CT-BERT and BERT base models. Experimental results demonstrate that while the BERT base model achieves an accuracy of\n80%, the accuracy of CT-BERT, our proposed framework, reaches 93%. This significant improvement in a ccuracy showcases the effectiveness of our approach in tackling uncertainty\nin fake news detection. © 2023 IEEE."
+    },
+    {
+      "document_id": 607,
+      "score": null,
+      "abstract": "Developing a framework for the detection of fake news that is based on a conceptual and intelligent framework will improve the detection of fake news\nin the social network platforms. It has been hypothesized that if not checked, the increasing spread of fake news may either be the immediate or\nremote cause of third world war. The existing frameworks suffer in two fundamentals of social concepts and artificial intelligence based revolutionary trends. The focus of\nthis research work is to propose a fake news detection framework that combines the structurally modeled fake news concepts and artificial neural network model. The\nstudy used a cross-sectional model testing correlational design which formed the basis of developing the intelligent framework. A simple random sampling technique was used to\ndetermine the sample size. The research instrument used was questionnaire administered through Google form survey. The instrument was validated using content, construct and criterion validity.\nDuring the pilot test, the reliability of the instrument was established with the standard value of = 0.7 as the benchmark. The method of data\nanalysis used was Pearson Product Moment Correlation Statistics within a significant level of 0.05. Analysis of moment structure tool was used to answer the research\nhypothesis using structural equation modeling technique. The data obtained from the questionnaires and the test were analyzed using the exploratory factor analysis process (a first\ngeneration statistical method of analysis), and the expected designed model, based on Structural Equation Modelling was evaluated using standard goodness of fit indices (GOF) of\nconfirmatory factor analysis (a second generation statistical method of analysis). The dataset generated, measured, analyzed and modeled formed the basis for the development of intelligent\nbased framework. The proposed artificial neural network framework comparatively achieved better detection rates over the conventional and structurally modeled datasets. The framework addresses the social\ndisposition and artificial intelligence based fake news detection gaps. © 2020. the authors. All Rights Reserved."
+    }
+  ]
+}

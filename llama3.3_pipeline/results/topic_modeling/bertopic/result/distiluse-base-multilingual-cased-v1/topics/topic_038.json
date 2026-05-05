@@ -1,0 +1,55 @@
+{
+  "topic_id": 38,
+  "label": "T038",
+  "label_full": "Misinformation & Propaganda",
+  "keywords": [
+    "misinformation",
+    "genetically",
+    "organisms",
+    "intent",
+    "md",
+    "modified",
+    "issues",
+    "disputes",
+    "features",
+    "peers"
+  ],
+  "n_docs": 7,
+  "documents": [
+    {
+      "document_id": 60,
+      "score": null,
+      "abstract": "Detecting false information on social media is critical in mitigating its negative societal impacts. To reduce the propagation of false information, automated detection provide scalable,\nunbiased, and cost-effective methods. However, there are three potential research areas identified which once solved improve detection. First, current AI-based solutions often provide a uni-dimensional\nanalysis on a complex, multi-dimensional issue, with solutions differing based on the features used. Furthermore, these methods do not account for the temporal and dynamic\nchanges observed within the document's life cycle. Second, there has been little research on the detection of coordinated information campaigns and in understanding the intent\nof the actors and the campaign. Thirdly, there is a lack of consideration of cross-platform analysis, with existing datasets focusing on a single platform, such\nas X, and detection models designed for specific platform. aims to develop methods for effective detection of false information and its propagation. To this end,\nfirstly we aim to propose the creation of an ensemble multi-faceted framework that leverages multiple aspects of false information. Secondly, we propose a method to\nidentify actors and their intent when working in coordination to manipulate a narrative. Thirdly, we aim to analyse the impact of cross-platform interactions on the\npropagation of false information via the creation of a new dataset."
+    },
+    {
+      "document_id": 61,
+      "score": null,
+      "abstract": "Various social media platforms, e.g., Twitter and Reddit, allow people to disseminate a plethora of information more efficiently and conveniently. However, they are inevitably full\nof misinformation, causing damage to diverse aspects of our daily lives. To reduce the negative impact, timely identification of misinformation, namely Misinformation Detection (MD), has\nbecome an active research topic receiving widespread attention. As a complex phenomenon, the veracity of an article is influenced by various aspects. In , we\nare inspired by the opposition of intents between misinformation and real information. Accordingly, we propose to reason the intent of articles and form the corresponding\nintent features to promote the veracity discrimination of article features. To achieve this, we build a hierarchy of a set of intents for both misinformation\nand real information by referring to the existing psychological theories, and we apply it to reason the intent of articles by progressively generating binary answers\nwith an encoder-decoder structure. We form the corresponding intent features and integrate it with the token features to achieve more discriminative article features for MD.\nUpon these ideas, we suggest a novel MD method, namely Detecting Misinformation by Integrating Intent featuRes (DM-INTER). To evaluate the performance of DM-INTER, we conduct\nextensive experiments on benchmark MD datasets. The experimental results validate that DM-INTER can outperform the existing baseline MD methods."
+    },
+    {
+      "document_id": 102,
+      "score": null,
+      "abstract": "Misinformation is rampant on social media, and existing platform-supplied interventions offer limited effectiveness. , we examine the effectiveness of credibility labels that dispute the accuracy\nof information when they are supplied by one's peers at different levels of relationship closeness and political agreement. We investigate four variants of these labels\nusing a 2 (strong vs. weak tie strength) x 2 (high vs. low political agreement) between-subjects factorial design. We find that credibility disputes raised by\none's co-partisans (peers with similar political beliefs) significantly reduced belief in misinformation, irrespective of one's relationship closeness with the peer. Our findings also reveal that\nin contrast to prior literature, a peer's knowledgeability may be more potent than trustworthiness in causing belief change, and that trust can sometimes manifest even\nin the credibility judgement of distant peers, when perceived to have expertise or a fact-checking tendency. We further highlight the dual nature of these credibility\nlabels, discussing scenarios in which disputes by hyper-partisan members of the opposite party can enforce belief in misinformation. We conclude by discussing how peer-supplied credibility\ndisputes can benefit social media, especially echo chambers with high political homophily, where disputes by a co-partisan may be met with less resistance and persuade\nsignificantly reduced belief in fake news. © 2024 The Author(s)"
+    },
+    {
+      "document_id": 378,
+      "score": null,
+      "abstract": "Misinformation on social media is a nonnegligible phenomenon that causes successive adverse impacts. Numerous scholarly efforts have been devoted to automatic misinformation detection to address\nthis problem. The effective feature is the key to achieving high identification performance. However, the effectiveness of the feature may change in different issues and\ntime considering the manifold social contextual reasons. Most extant literature on misinformation detection does not differentiate between topics, issues or domains. Although some research compares\ndetection across domains, they concentrate on the model's overall performance, neglecting the effectiveness of individual features. Furthermore, the comparison studies mainly incorporate single-domain issues rather\nthan issues that cover multiple domains. It is still difficult to determine which domain's misinformation characteristics will match those of multi-dimensional issues. Since the misinformation\nnowadays covers multiple domains, finding robust features in misinformation detection over issues and time is an urgent research agenda. , we collected datasets of two\nissues, climate change and genetically modified organisms (GMOs), between January 1st, 2010 and December 31st, 2020 on Weibo, manually annotated the veracity status of the\nposts, and compared the performance of the proposed features in identifying misinformation by applying logistic regression. The results demonstrate that (1) the predicting power of\ncontent-based features, including topic and sentiment, is relatively robust compared to user-based and propagation-based features across issues and time. (2) The feature effectiveness varied at\ndifferent time points. Our findings imply that future research could consider focusing more on content-based features, especially implicit features from the content in misinformation detection.\nMoreover, researchers should evaluate the feature effectiveness at different time stages to improve the efficiency of misinformation detection. © 2022 Elsevier Ltd"
+    },
+    {
+      "document_id": 462,
+      "score": null,
+      "abstract": "Misinformation propagation in social networks has emerged as a crucial problem that needs to be attended with prime importance. Despite the existence of several fact-checking\nmechanisms and misinformation detection tools, users of social media platforms continue to be the victims of misinformation propagation. This is because human cognition is a\nstrong factor that drives users in consuming and spreading misinformation. This article highlights the significance of cognitive psychology in misinformation propagation analysis and summarizes the\nchallenges faced by current misinformation detection mechanisms. The study shows that there is an immediate requirement for efficient mechanisms combining AI and cognitive psychology that\ncan support humans in making judgements regarding the information appearing on social networks. A cognitive AI framework is proposed that can augment humans' capability in\nassessing the veracity of the information online and reinforce positive information sharing behavior in individuals thereby reducing the spread of misinformation. © 1999-2012 IEEE."
+    },
+    {
+      "document_id": 650,
+      "score": null,
+      "abstract": "Using network analysis, this study investigates how information veracity and account verification influence the dissemination of information in the context of discourse about genetically modified\norganisms on social media. We discovered that misinformation and true information about genetically modified organisms demonstrated different dissemination patterns on social media. In general, the\ndissemination networks of misinformation about genetically modified organisms were found to have higher structural stability than those of true information about genetically modified organisms, as\nshown by the denser network structure with fewer distinct subgroups residing within the dissemination networks. More importantly, unverified account status significantly boosted the dissemination of\nmisinformation by increasing network density. In addition, we found that the posts about genetically modified organisms from unverified accounts received more reposts and had more\nlayers of information relay than those from the verified accounts. Theoretical and practical implications of these findings on combating misinformation are discussed in the article.\n© The Author(s) 2020."
+    },
+    {
+      "document_id": 683,
+      "score": null,
+      "abstract": "Recent work in the domain of misinformation detection has leveraged rich signals in the text and user identities associated with content on social media. But\ntext can be strategically manipulated and accounts reopened under different aliases, suggesting that these approaches are inherently brittle. In , we investigate an alternative modality\nthat is naturally robust: the pattern in which information propagates. Can the veracity of an unverified rumor spreading online be discerned solely on the basis\nof its pattern of diffusion through the social network? Using graph kernels to extract complex topological information from Twitter cascade structures, we train accurate predictive\nmodels that are blind to language, user identities, and time, demonstrating for the first time that such “sanitized” diffusion patterns are highly informative of veracity.\nOur results indicate that, with proper aggregation, the collective sharing pattern of the crowd may reveal powerful signals of rumor truth or falsehood, even in\nthe early stages of propagation."
+    }
+  ]
+}
