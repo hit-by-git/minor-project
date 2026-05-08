@@ -658,7 +658,15 @@ for idx, row in tqdm(df.iterrows(), total=len(df)):
   - **Negative Predictive Value (NPV)** – Est. ~98% (confidence that excluded papers are truly out-of-scope)
   - **Precision & Recall** (vs. expert annotations)
 
-**Status**: Under review; results to be pushed to repository at later date.
+**Status**: Completed and included in repository.
+
+Update (human audit completed):
+
+- **Audit sample**: 600 manually annotated "No" decisions. The annotations are stored at `llama3.3_pipeline/corset_FN` in the repository.
+- **Outcome**: 12 false negatives were identified out of 600 audited "No" cases (False Negative Rate = 12/600 = 2.00%).
+- **Negative Predictive Value (NPV)**: 588/600 = 98.00%.
+- **Files**: `llama3.3_pipeline/corset_FN/corset_FN.csv` and `llama3.3_pipeline/corset_FN/corset_FN.xlsx` contain the annotated records and notes.
+- **Repository update**: The audit files and documentation updates were committed with the message: "Add human-annotated ground-truth audit: 600 No samples; 12 FNs" and pushed to the configured Git remote.
 
 ---
 

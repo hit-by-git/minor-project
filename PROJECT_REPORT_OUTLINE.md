@@ -438,7 +438,14 @@ Output: structured explanation paragraph
   - Negative Predictive Value (NPV): # correctly excluded / # labeled "No"
   - Expected: FNR ≤ 2%, NPV ≥ 98%
 
-**Status**: Audit in progress; results to be integrated upon completion.
+**Status**: Completed — audit files added to repository.
+
+Update (human audit):
+
+- A human-annotated audit of 600 randomly sampled "No" decisions has been completed and is included at `llama3.3_pipeline/corset_FN`.
+- **Results**: 12 false negatives (FNs) were found among the 600 sampled exclusions (FNR = 12/600 = 2.00%).
+- **NPV**: 588/600 = 98.00%.
+- The audit datasets (`corset_FN.csv`, `corset_FN.xlsx`) and accompanying notebook are committed to the repo with message: "Add human-annotated ground-truth audit: 600 No samples; 12 FNs".
 
 ---
 
