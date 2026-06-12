@@ -1,0 +1,60 @@
+{
+  "topic_id": 13,
+  "label": "T013",
+  "label_full": "Fact-Checking & Verification",
+  "keywords": [
+    "task",
+    "time",
+    "temporal",
+    "fact",
+    "factchecking",
+    "claim",
+    "claims",
+    "scientific",
+    "sentences",
+    "wikipedia"
+  ],
+  "n_docs": 8,
+  "documents": [
+    {
+      "document_id": 132,
+      "score": null,
+      "abstract": "The task of fact-checking deals with assessing the veracity of factual claims based on credible evidence and background knowledge. In particular, scientific fact-checking is the\nvariation of the task concerned with verifying claims rooted in scientific knowledge. This task has received significant attention due to the growing importance of scientific\nand health discussions on online platforms. Automated scientific fact-checking methods based on NLP can help combat the spread of misinformation, assist researchers in knowledge discovery,\nand help individuals understand new scientific breakthroughs. In , we present a comprehensive survey of existing research in this emerging field and its related tasks.\nWe provide a task description, discuss the construction process of existing datasets, and analyze proposed models and approaches. Based on our findings, we identify intriguing\nchallenges and outline potential future directions to advance the field."
+    },
+    {
+      "document_id": 292,
+      "score": null,
+      "abstract": "In an effort to assist factcheckers in the process of factchecking, we tackle the claim detection task, one of the necessary stages prior to determining\nthe veracity of a claim. It consists of identifying the set of sentences, out of a long text, deemed capable of being factchecked. This article\nis a collaborative work between Full Fact, an independent factchecking charity, and academic partners. Leveraging the expertise of professional factcheckers, we develop an annotation schema\nand a benchmark for automated claim detection that is more consistent across time, topics, and annotators than are previous approaches. Our annotation schema has been\nused to crowdsource the annotation of a dataset with sentences from UK political TV shows. We introduce an approach based on universal sentence representations to\nperform the classification, achieving an F1 score of 0.83, with over 5% relative improvement over the state-of-the-art methods ClaimBuster and ClaimRank. The system was deployed\nin production and received positive user feedback."
+    },
+    {
+      "document_id": 293,
+      "score": null,
+      "abstract": "We study the fact-checking problem, which aims to identify the veracity of a given claim. Specifically, we focus on the task of Fact Extraction and\nVERification (FEVER) and its accompanied dataset. The task consists of the subtasks of retrieving the relevant documents (and sentences) from Wikipedia and validating whether the\ninformation in the documents supports or refutes a given claim. This task is essential and can be the building block of applications such as fake\nnews detection and medical claim verification. In this article, we aim at a better understanding of the challenges of the task by presenting the literature\nin a structured and comprehensive way. We describe the proposed methods by analyzing the technical perspectives of the different approaches and discussing the performance results\non the FEVER dataset, which is the most well-studied and formally structured dataset on the fact extraction and verification task. We also conduct the largest\nexperimental study to date on identifying beneficial loss functions for the sentence retrieval component. Our analysis indicates that sampling negative sentences is important for improving\nthe performance and decreasing the computational complexity. Finally, we describe open issues and future challenges, and we motivate future research in the task."
+    },
+    {
+      "document_id": 346,
+      "score": null,
+      "abstract": "Fact-checking is the task of verifying the veracity of claims by assessing their assertions against credible evidence. The vast majority of fact-checking studies focus exclusively\non political claims. Very little research explores fact-checking for other topics, specifically subject matters for which expertise is required. We present the first study of\nexplainable fact-checking for claims which require specific expertise. For our case study we choose the setting of public health. To support this case study we\nconstruct a new dataset PUBHEALTH of 11.8K claims accompanied by journalist crafted, gold standard explanations (i.e., judgments) to support the fact-check labels for claims. We\nexplore two tasks: veracity prediction and explanation generation. We also define and evaluate, with humans and computationally, three coherence properties of explanation quality. Our results\nindicate that, by training on in-domain data, gains can be made in explainable, automated fact-checking for claims which require specific expertise."
+    },
+    {
+      "document_id": 355,
+      "score": null,
+      "abstract": "The task of temporal slot filling (TSF) is to extract values of specific attributes for a given entity, called “facts”, as well as temporal tags\nof the facts, from text data. While existing work denoted the temporal tags as single time slots, in , we introduce and study the task\nof Precise TSF (PTSF), that is to fill two precise temporal slots including the beginning and ending time points. Based on our observation from a\nnews corpus, most of the facts should have the two points, however, fewer than 0.1% of them have time expressions in the documents. On the\nother hand, the documents’ post time, though often available, is not as precise as the time expressions of being the time a fact was valid.\nTherefore, directly decomposing the time expressions or using an arbitrary post-time period cannot provide accurate results for PTSF. The challenge of PTSF lies in finding\nprecise time tags in noisy and incomplete temporal contexts in the text. To address the challenge, we propose an unsupervised approach based on the philosophy\nof truth finding. The approach has two modules that mutually enhance each other: One is a reliability estimator of fact extractors conditionally on the temporal\ncontexts; the other is a fact trustworthiness estimator based on the extractor’s reliability. Commonsense knowledge (e.g., one country has only one president at a specific\ntime) was automatically generated from data and used for inferring false claims based on trustworthy facts. For the purpose of evaluation, we manually collect hundreds\nof temporal facts from Wikipedia as ground truth, including country’s presidential terms and sport team’s player career history. Experiments on a large news dataset demonstrate\nthe accuracy and efficiency of our proposed algorithm. © 2020, Springer-Verlag London Ltd., part of Springer Nature."
+    },
+    {
+      "document_id": 426,
+      "score": null,
+      "abstract": "Many tasks such as question answering and reading comprehension rely on information extracted from unreliable sources. These systems would thus benefit from knowing whether a\nstatement from an unreliable source is correct. We present experiments on the FEVER (Fact Extraction and VERification) task, a shared task that involves selecting sentences\nfrom Wikipedia and predicting whether a claim is supported by those sentences, refuted, or there is not enough information. Fact checking is a task that\nbenefits from not only asserting or disputing the veracity of a claim but also finding evidence for that position. As these tasks are dependent on\neach other, an ideal model would consider the veracity of the claim when finding evidence and also find only the evidence that is relevant. We\nthus jointly model sentence extraction and verification on the FEVER shared task. Among all participants, we ranked 5th on the blind test set (prior to\nany additional human evaluation of the evidence)."
+    },
+    {
+      "document_id": 427,
+      "score": null,
+      "abstract": "With huge amount of information generated every day on the web, fact checking is an important and challenging task which can help people identify the\nauthenticity of most claims as well as providing evidences selected from knowledge source like Wikipedia. Here we decompose this problem into two parts: an entity\nlinking task (retrieving relative Wikipedia pages) and recognizing textual entailment between the claim and selected pages. In , we present an end-to-end multi-task learning with\nbi-direction attention (EMBA) model to classify the claim as “supports”, “refutes” or “not enough info” with respect to the pages retrieved and detect sentences as\nevidence at the same time. We conduct experiments on the FEVER (Fact Extraction and VERification) paper test dataset and shared task test dataset, a new\npublic dataset for verification against textual sources. Experimental results show that our method achieves comparable performance compared with the baseline system."
+    },
+    {
+      "document_id": 488,
+      "score": null,
+      "abstract": "In we introduce the task of fact checking, i.e. the assessment of the truthfulness of a claim. The task is commonly performed manually by journalists\nverifying the claims made by public figures. Furthermore, ordinary citizens need to assess the truthfulness of the increasing volume of statements they consume. Thus, developing\nfact checking systems is likely to be of use to various members of society. We first define the task and detail the construction of a\npublicly available dataset using statements fact-checked by journalists available online. Then, we discuss baseline approaches for the task and the challenges that need to be\naddressed. Finally, we discuss how fact checking relates to mainstream natural language processing tasks and can stimulate further research. © 2014 Association for Computational Linguistics"
+    }
+  ]
+}

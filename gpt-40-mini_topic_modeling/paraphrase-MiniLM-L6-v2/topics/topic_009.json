@@ -1,0 +1,65 @@
+{
+  "topic_id": 9,
+  "label": "T009",
+  "label_full": "Misinformation & Propaganda",
+  "keywords": [
+    "news",
+    "features",
+    "fake",
+    "tweets",
+    "drn",
+    "elections",
+    "presidential",
+    "social",
+    "afatbased",
+    "qmfnd"
+  ],
+  "n_docs": 9,
+  "documents": [
+    {
+      "document_id": 7,
+      "score": null,
+      "abstract": "Automatic detection of fake content in social media such as Twitter is an enduring challenge. Technically, determining fake news on social media platforms is a\nstraightforward binary classification problem. However, manually fact-checking even a small fraction of daily tweets would be nearly impossible due to the sheer volume. To address\nthis challenge, we crawled and crowd-sourced one of the most extensive ground-truth tweet datasets. Utilizing Politifact and expert labeling as a base, it contains more\nthan 180 000 labels from 2009 to 2022, creating five- and three-label classification using Amazon Mechanical Turk. We utilized multiple levels of validation to ensure\nan accurate ground-truth benchmark dataset. Then, we created and implemented numerous machine learning and deep learning algorithms, including different variations of bidirectional encoder representations from\ntransformers (BERT)-based models and classical machine learning algorithms on the data to test the accuracy of real/fake tweet detection with both categories. Then, determining which\nversions gave us the highest result metrics. Further analysis is performed on the dataset by explicitly utilizing the DBSCAN text clustering algorithm combined with the\nYAKE keyword creation algorithm to determine topics' clustering and relationships. Finally, we analyzed each user in the dataset, determining their bot score, credibility score, and\ninfluence score for a better understanding of what type of Twitter user posts, their influence with each of their tweets, and if there were any\nunderlying patterns to be drawn from each score concerning the truthfulness of the tweet. The experiment's results illustrated profound improvement for models dealing with short-length\ntext in solving a real-life classification problem, such as automatically detecting fake content in social media. © 2014 IEEE."
+    },
+    {
+      "document_id": 64,
+      "score": null,
+      "abstract": "Fake news is frequently disseminated through social media, which significantly impacts public perception and individual decision-making. Accurate identification of fake news on social media is\nusually time-consuming, laborious, and difficult. Although the leveraging of machine learning technologies can facilitate automated authenticity checks, the time-sensitive and voluminous nature of the data\nbrings considerable challenge for fake news detection. To address this issue, proposes a quantum multimodal fusion-based model for fake news detection (QMFND). QMFND integrates the\nextracted images and textual features, and passes them through a proposed quantum convolutional neural network (QCNN) to obtain discriminative results. By testing QMFND on two\nsocial media datasets, Gossip and Politifact, it is proved that its detection performance is equal to or even surpasses that of classical models. The effects\nof various parameters are further investigated. The QCNN not only has good expressibility and entangling capability but also has good robustness against quantum noise. The\ncode is available at © 2023 Elsevier B.V."
+    },
+    {
+      "document_id": 77,
+      "score": null,
+      "abstract": "Fake news information on the internet has recently emerged as one of the challenging concerns that can have an impact on society and individuals. Furthermore,\nthe propagation of fake news on social media increases the risk of loss of trustworthiness and disseminates fake information across multiple online platforms. As a\nresult, recognizing fake news on the internet plays an important role in society and among individuals. Knowing this, this study proposed an improved fake news\ndetection model that uses the proposed Hybrid Time-Frequency-Inverse Document Frequency (TF-IDF) to extract features and the Adaptive boosting ensemble classifier, which is a combination of\nIterative Dichotomiser 3 (ID-3), Random Forest (RF), and Nave Bayes (NB) classifiers. The characteristics are chosen using the Least Absolute Shrinkage and Selection Operator (LASSO),\nand the news is classified as fake or true using the Adaptive Boosting (AdaBoost) ensemble classifier. The obtained results show that TF-IDF with AdaBoost ensemble\nclassifier has a higher classification accuracy of 98.98% than the existing N-Gram with TF-IDF and Bidirectional Encoder Representation from Transformer (BERT) and Word2Vec with Convolutional\nNeural Network-Bidirectional Long Short Term Memory (CNN-Bi LSTM) with 96.81% and 97.74%, respectively. © 2024 by the authors."
+    },
+    {
+      "document_id": 179,
+      "score": null,
+      "abstract": "In recent days, social media is termed a major source for several people residing over the world because of less cost, simpler accessibility, and quick\ndissemination. However, it comes with dubious trustworthiness and is of high risk in exposing fake news. Hence, the automated discovery of fake news is an\nessential task. An innovative model is provided to identify fake news considering social media. Here, the BERT model is utilized to perform tokenization in order\nto produce tokens. Multiple features linked with the data are analyzed for detecting the behavior using the deep model. The features, like Term Frequency-Inverse Document\nFrequency (TF-IDF), SentiWordNet scores, and sentence level features are obtained to automatically learn the features. Automatic discovery of fake news is done with Aquila Feedback\nArtificial tree-based Deep Residual Network (AFAT-based DRN). The optimum weight tuning of DRN is executed with AFAT and the AFAT is the fusion of Aquila\noptimizer (AO) and Feedback artificial tree (FAT). The impact detection of fake news is done with AFAT-based DRN, which helps to detect how many of\nthem shared the fake news. The AFAT-based DRN offered high competence with utmost sensitivity of 92.3%, testing accuracy of 91.6%, and specificity of 91.9%. ©\n2023 - IOS Press. All rights reserved."
+    },
+    {
+      "document_id": 193,
+      "score": null,
+      "abstract": "Easy and quick information diffusion on the web and especially in social media has been rapidly proliferating during the past decades. As information is posted\nwithout any kind of verification of its veracity, fake news has become a problem of great influence in our information driven society. Thus, to mitigate\nthe consequences of fake news and its propagation, automated approaches to detect malicious content were created. proposes an effective framework that utilizes only the text\nfeatures of the news. We evaluate several features for differentiating fake from real news and we identify the best performing feature set that maximizes performance,\nusing feature selection techniques. Text representation features were also explored as a potential solution. Additionally, the most popular Machine Learning and Deep Learning models were\ntested to conclude to the model that achieves the maximum accuracy. Our findings reveal that a combination of linguistic features and text-based word vector representations\nthrough ensemble methods can predict fake news with high accuracy. eXtreme Gradient Boosting (XGB) outperformed all other models, while linear Support Vector Machine (SVM) achieved\ncomparable results. © 2023, IFIP International Federation for Information Processing."
+    },
+    {
+      "document_id": 373,
+      "score": null,
+      "abstract": "In a scenario where more and more individuals use online social network platforms as an instrument to propagate news without any control, it is necessary\nto design and implement new methods and techniques that guarantee the veracity of the disseminated news. In , we propose a method to classify true\nand false news, commonly known as fake news, which exploits time series-based features extracted from the evolution of news, and features from the users involved\nin the news spreading. Applying our methodology over a real Twitter dataset of precategorized true and false news, we have obtained an accuracy of 84.61%\nin 10-fold cross-validation, and proved experimentally that all the selected features are relevant for this classification task. © 2020, Springer Nature Switzerland AG."
+    },
+    {
+      "document_id": 380,
+      "score": null,
+      "abstract": "In we investigate automated methods for understanding false news dissemination on Twitter in relation to one particular event: the 2019 Indonesian presidential election. We collected\na sample of 2,360 tweets related to topics addressed by fact-checking websites. The tweets were hand-labeled according to their trustworthiness. We trained several classification models\non the human-labelled data, using three groups of text features. The word n-gram features appeared to be the most effective, reaching a recall of 85%\nfor true news and 62% for false news. With this classifier we labeled a larger sample of tweets related to fact-checking topics in the context\nof the 2019 Indonesian presidential elections. We then analysed the dissemination of true news and false news in the underlying Twitter network using community detection\nand centrality measures. The top influential users in the network disseminate more false news, including a government institution account and a verified politician's account. Our\nresults show that the combination of text features and social network analysis can provide valuable insights in detecting and preventing the dissemination of false news.\nMoreover, we make the dataset used in this research available for reuse by the community. © 2020 CEUR-WS. All rights reserved."
+    },
+    {
+      "document_id": 443,
+      "score": null,
+      "abstract": "Presidential elections can impact world peace, global economics, and overall well-being. Recent news indicates that fraud on the Web has played a substantial role in\nelections, particularly in developing countries in South America and the public discourse, in general. To protect the trustworthiness of the Web, in , we present\na novel framework using statistical techniques to help detect veiled Web fraud attacks in Online Social Networks (OSN). Specific examples are used to demonstrate how\nsome statistical techniques, such as the Kalman Filter and the modified CUSUM, can be applied to detect various attack scenarios. A hybrid data set, consisting\nof both real user tweets collected from Twitter and simulated fake tweets is constructed for testing purposes. The efficacy of the proposed framework has been\nverified by computing metrics, such as Precision, Recall, and Area Under the ROC curve. The algorithms achieved up to 99.9% accuracy in some scenarios and\nare over 80% accurate for most of the other scenarios. © 2018 The Authors"
+    },
+    {
+      "document_id": 446,
+      "score": null,
+      "abstract": "In the wake of the 2016 US Presidential Election, the upsurge of fake news has been a subject of increased discussion and debate. In ,\nwe propose a general framework that can been adopted in future elections worldwide to augment humans in making better decisions when it comes to recognizing\nnews deception and identifying hidden bias of the author. For our study, we constructed a dataset comprising 200 tweets on »Hilary Clinton», while performing veracity\nassessment. We initially perform »text normalization» on tweets, explore techniques for feature extraction to classify news into categories, perform a comprehensive linguistic analysis on tweets,\nextract bag-of-words to find noticeable pattern, and finally apply k-nearest neighbor algorithm for classifying polarized news from credible. We later turn to some popular evaluation\nmetrics to quantify the success rate of our framework, discuss the results of implementing knn algorithm and discuss interconnected research domains and future research directions\nfor constructing an ideal model for fake news detection system around social media. © 2018 IEEE."
+    }
+  ]
+}

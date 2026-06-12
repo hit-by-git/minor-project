@@ -1,0 +1,50 @@
+{
+  "topic_id": 27,
+  "label": "T027",
+  "label_full": "search, statement",
+  "keywords": [
+    "search",
+    "statement",
+    "web",
+    "fact",
+    "statements",
+    "determine",
+    "ranking",
+    "answers",
+    "alternative",
+    "method"
+  ],
+  "n_docs": 6,
+  "documents": [
+    {
+      "document_id": 418,
+      "score": null,
+      "abstract": "Fact-checking aims to identify the veracity of the enormous amount of data generated on the web. It enhances and automates human effort in detecting harmful\nmisinformation. In , we present a description of the system with which we participated in three subtasks A, B, and D of Task2 at CLEF\n2019 Check That lab. For the subtask A, we propose an unsupervised approach that extracts information from the important parts of a document to rank\nweb pages based on their usefulness, and subsequently verify the target claim. Hence, we assign weights for important document fields in order to compute field\nscores that are employed besides field lengths to determine the overall score of a given web page. For the subtask B, we adopt a supervised\napproach that generates a model using an SVM classifier from training data, then we apply it on test data to determine the usefulness degree of\na web page. Subtask D aims to tag claim factuality as true or false. Thus, we use lemma, the morphology form that represents many inflected\nterms, in order to find the claim terms in target web pages. We proceed to detect stance, then we determine whether analyzed expressions confirm or\ncontradict a given claim. Copyright © 2019 for by its authors."
+    },
+    {
+      "document_id": 431,
+      "score": null,
+      "abstract": "Even though Web search engines play an important role in finding documents relevant to user queries, there is little to no attention given to how\nthey perform in terms of usefulness for fact-checking claims. In , we introduce a new research problem that addresses the ability of fact-checking systems to\ndistinguish Web search results that are useful in discovering the veracity of claims from the ones that are not.We also propose a re-ranking method to\nimprove ranking of search results for fact-checking. To evaluate our proposed method, we conducted a preliminary study for which we have developed a test collection\nthat includes 22 claims and 20 manually-annotated Web search results for each. Our experiments show that the proposed method outperforms the baseline represented by the\noriginal ranking of search results. The contributions this improvement brings to real-world applications is two-fold: it will help human fact-checkers find useful documents for their\ntask faster, and it will help automated fact-checking systems by pointing out which documents are useful and which are not."
+    },
+    {
+      "document_id": 457,
+      "score": null,
+      "abstract": "The volume of information generated online makes it impossible to manually fact-check all claims. Computational approaches for fact checking may be the key to help\nmitigate the risks of massive misinformation spread. Such approaches can be designed to not only be scalable and effective at assessing veracity of dubious claims,\nbut also to boost a human fact checker's productivity by surfacing relevant facts and patterns to aid their analysis. We present a novel, unsupervised network-flow\nbased approach to determine the truthfulness of a statement of fact expressed in the form of a triple. We view a knowledge graph of background\ninformation about real-world entities as a flow network, and show that computational fact checking then amounts to finding a 'knowledge stream' connecting the subject and\nobject of the triple. Evaluation on a range of real-world and hand-crafted datasets of facts reveals that this network-flow model can be very effective in\ndiscerning true statements from false ones, outperforming existing algorithms on many test cases. Moreover, the model is expressive in its ability to automatically discover several\nuseful patterns and surface relevant facts that may help a human fact checker. © 2017 IEEE."
+    },
+    {
+      "document_id": 478,
+      "score": null,
+      "abstract": "When people are not sure about certain facts, they tend to use the Web to find the answers. Two problems make finding correct answers from\nthe Web challenging. First, the Web contains a significant amount of untruthful information. Second, currently there is a lack of systems/tools that can verify the\ntruthfulness or untruthfulness of a random fact statement and also provide alternative answers. In , we propose a method that aims to determine whether a\ngiven statement is truthful and to identify alternative truthful statements that are highly relevant to the given statement. Existing solutions consider only statements with a\nsingle expected correct answer. In , we focus on statements that may have multiple relevant alternative answers. We first present a straightforward extension to the\nprevious method to solve such type of statements and show that such a simple extension is inadequate. We then present solutions to two types of\nsuch statements. Our evaluation indicates that our proposed solutions are very effective. Copyright © 2016 by SCITEPRESS - Science and Technology Publications, Lda. All rights\nreserved."
+    },
+    {
+      "document_id": 484,
+      "score": null,
+      "abstract": "Untruthful information spreads on the web, which may mislead users or have a negative impact on user experience. In , we propose a method, called\nMulti-verifier, to determine the truthfulness of a fact statement. The basic idea is that whether a fact statement is truthful or not depends on the\ninformation related to the fact statement. We utilize a popular search engine to collect the top-K search results that are most related to the target\nfact statement. We then propose support score to measure the extent to which a search result supports the fact statement based on semantic constituent analysis,\nand we make use of credibility ranking to rank the search results. At last, we combine the support score and credibility ranking value of a\nsearch result to evaluate its contribution to a fact statement determination. Based on the contributions of the search results, we determine the fact statement. Our\nproposals are evaluated by experiments and results show availability and high precision of the proposed method. © 2014, Springer Science+Business Media New York."
+    },
+    {
+      "document_id": 488,
+      "score": null,
+      "abstract": "In we introduce the task of fact checking, i.e. the assessment of the truthfulness of a claim. The task is commonly performed manually by journalists\nverifying the claims made by public figures. Furthermore, ordinary citizens need to assess the truthfulness of the increasing volume of statements they consume. Thus, developing\nfact checking systems is likely to be of use to various members of society. We first define the task and detail the construction of a\npublicly available dataset using statements fact-checked by journalists available online. Then, we discuss baseline approaches for the task and the challenges that need to be\naddressed. Finally, we discuss how fact checking relates to mainstream natural language processing tasks and can stimulate further research. © 2014 Association for Computational Linguistics"
+    }
+  ]
+}

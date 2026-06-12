@@ -1,0 +1,45 @@
+{
+  "topic_id": 31,
+  "label": "T031",
+  "label_full": "Misinformation & Propaganda",
+  "keywords": [
+    "recurrent",
+    "neural",
+    "bilstm",
+    "news",
+    "attentionbased",
+    "fake",
+    "hcan",
+    "9959",
+    "public",
+    "models"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 70,
+      "score": null,
+      "abstract": ", we introduce an innovative network architecture that synergizes fuzzy neural networks with positional self-attention mechanisms to enhance fake news detection. This approach effectively addresses\nemerging challenges posed by new fake news technologies, aiming to bolster detection accuracy, protect public interests, and support credible media development. By integrating diverse information\nsources, including textual content and semantic nuances, our model excels in processing ambiguous data and discerning subtle variances in news authenticity. The utilization of fuzzy\nneural networks allows for adept handling of uncertain information, while positional self-attention coding proficiently identifies the significance of different textual elements, offering a nuanced analysis\nof news veracity. Our extensive experiments on two datasets reveal a substantial improvement in detection accuracy, with the model achieving an accuracy increase of over\n15% compared to traditional methods. not only demonstrates a methodological advancement in tackling fake news but also contributes significantly to upholding social integrity and public\ntrust. © 2024, Strojarski Facultet. All rights reserved."
+    },
+    {
+      "document_id": 76,
+      "score": null,
+      "abstract": "Fake news transmission poses a major hazard to public debate and information integrity. The rise of fake news on many platforms has emphasized the vital\ndemand for verifying the accuracy of information. In recent years, the application of neural network designs, particularly recurrent models, has shown promise in determining the\nauthenticity of news reports and content. Gated Recurrent Units (GRUs), a variant of recurrent neural networks, stand up as a potential solution due to their\ninherent benefits in processing sequential input and finding specific patterns within textual content. Their potential to maintain crucial information while selectively decreasing noise enables more\npowerful identification of false patterns concealed inside news articles. Furthermore, GRUs offer computational efficiency compared to more advanced recurrent architectures, enabling faster training and inference.\nThis research seeks to examine and illustrate the utility of gated recurrent units in the realm of fake news identification. The proposed GRUs-based modified multi-layer\ndeep architecture model correctly predicts the news with an accuracy of 99.59%, 99.59% precision, and a recall of 99.59%. The proposed work surpasses nearly all\nrecent comparable research in terms of accuracy and efficiency. © 2024 IEEE."
+    },
+    {
+      "document_id": 156,
+      "score": null,
+      "abstract": "The rapid dissemination of information has been accompanied by the proliferation of fake news, posing significant challenges in discerning authentic news from fabricated narratives. This\nstudy addresses the urgent need for effective fake news detection mechanisms. The spread of fake news on digital platforms has necessitated the development of sophisticated\ntools for accurate detection and classification. Deep learning models, particularly Bi-LSTM and attention-based Bi-LSTM architectures, have shown promise in tackling this issue. This research utilized\nBi-LSTM and attention-based Bi-LSTM models, integrating an attention mechanism to assess the significance of different parts of the input data. The models were trained on\nan 80% subset of the data and tested on the remaining 20%, employing comprehensive evaluation metrics including Recall, Precision, F1-Score, Accuracy, and Loss. Comparative analysis\nwith existing models revealed the superior efficacy of the proposed architectures. The attention-based Bi-LSTM model demonstrated remarkable proficiency, outperforming other models in terms of accuracy\n(97.66%) and other key metrics. The study highlighted the potential of integrating advanced deep learning techniques in fake news detection. The proposed models set new\nstandards in the field, offering effective tools for combating misinformation. Limitations such as data dependency, potential for overfitting, and language and context specificity were acknowledged.\nThe research underscores the importance of leveraging cutting-edge deep learning methodologies, particularly attention mechanisms, in fake news identification. The innovative models presented pave the way\nfor more robust solutions to counter misinformation, thereby preserving the veracity of digital information. Future research should focus on enhancing data diversity, model efficiency, and\napplicability across various languages and contexts. Copyright © 2024 Padalko, Chomko and Chumachenko."
+    },
+    {
+      "document_id": 169,
+      "score": null,
+      "abstract": "In the current digital era, the popularity of social media platforms has expanded tremendously. Every one of us, no matter what age or gender or\nclass we belong to, are active on social media, sharing so much of our personal and professional life with the world. We are connected with\npeople, countries and borders apart via our phone now. News companies are also recognizing this change in the world and are now making business through\nthis by publishing information online. The rapid spread of an article on the internet by the normal public without checking for its authenticity is resulting\nin a surge in the amount of incorrect information available online. No end-user finds it simple to confirm the veracity of a given news article.\nThese fake articles are increasing rapidly and making it far more difficult for the real information to reach the public. The purpose of is to\ndevelop an efficient model for assessing the credibility of a news article. addresses the classification problem of Fake News, given just the news article's content\nand the author's name. The system proposed in works with Hierarchical Convolutional-Attention Network (HCAN) and Convolutional Neural Network to classify the fake news articles based\non the words and phrases used in the published piece. Hierarchical Convolutional-Attention Network (HCAN) is comprised of attention-enhanced word-level and sentence-level encoders as well as\na CNN to capture sequential correlation. We have also used Recurrent Neural Network (RNN) for word encoder and sentence encoder in our system. We carried\nout the experiment on our system using a dataset and compared the results with various baseline models like CNN, RCNN, BERT or LR. Extensive trials\ndemonstrate that HCAN outperforms the most advanced baseline models on a collected dataset. Results of our experiment shows that our model is achieving the F1\nscore of 0.98. © 2023 IEEE."
+    },
+    {
+      "document_id": 400,
+      "score": null,
+      "abstract": "With the rapid development of the internet, social media has become an essential tool for getting information, and attracted a large number of people join\nthe social media platforms because of its low cost, accessibility and amazing content. It greatly enriches our life. However, its rapid development and widespread also\nhave provided an excellent convenience for the range of fake news, people are constantly exposed to fake news and suffer from it all the time.\nFake news usually uses hyperbole to catch people’s eyes with dishonest intention. More importantly, it often misleads the reader and causes people to have wrong\nperceptions of society. It has the potential for negative impacts on society and individuals. Therefore, it is significative research on detecting fake news. In the\npaper, we built a model named SMHA-CNN (Self Multi-Head Attention-based Convolutional Neural Networks) that can judge the authenticity of news with high accuracy based only\non content by using convolutional neural networks and self multi-head attention mechanism. In order to prove its validity, we conducted experiments on a public dataset\nand achieved a precision rate of 95.5% with a recall rate of 95.6% under the 5-fold cross-validation. Our experimental result indicates that the model is\nmore effective at detecting fake news. © 2019 Fang et al. This is an open access article distributed under the terms of the Creative Commons\nAttribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited."
+    }
+  ]
+}

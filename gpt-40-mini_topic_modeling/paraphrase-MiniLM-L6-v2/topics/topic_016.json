@@ -1,0 +1,55 @@
+{
+  "topic_id": 16,
+  "label": "T016",
+  "label_full": "Rumor on Social Media",
+  "keywords": [
+    "rumour",
+    "rumours",
+    "2017",
+    "tweets",
+    "rumoureval",
+    "subtask",
+    "classifiers",
+    "verification",
+    "learning",
+    "pheme"
+  ],
+  "n_docs": 7,
+  "documents": [
+    {
+      "document_id": 116,
+      "score": null,
+      "abstract": "Despite recent progress in automated rumour verification, little has been done on evaluating rumours in a real-world setting. We advance the state-of-the-art on the PHEME\ndataset, which consists of Twitter response threads collected as a rumour was unfolding. We automatically collect evidence relevant to PHEME and use it to construct\nknowledge graphs in a time-sensitive manner, excluding information post-dating rumour emergence. We identify discrepancies between the evidence retrieved and PHEME's labels, which are discussed in\ndetail and amended to release an updated dataset. We develop a novel knowledge graph approach which finds paths linking disjoint fragments of evidence. Our rumour\nverification model which combines evidence from the graph outperforms the state-of-the-art on PHEME and has superior generisability when evaluated on a temporally distant rumour verification\ndataset. © 2024 ELRA Language Resource Association: CC BY-NC 4.0."
+    },
+    {
+      "document_id": 409,
+      "score": null,
+      "abstract": "Twitter has become a fertile ground for rumours as information can propagate to too many people in very short time. Rumours can create panic in\npublic and hence timely detection and blocking of rumour information is urgently required. We proposed and compare machine learning classifiers with a deep learning model\nusing Recurrent Neural Networks for classification of tweets into rumour and non-rumour classes. A total thirteen features based on tweet text and user characteristics were\ngiven as input to machine learning classifiers. Deep learning model was trained and tested with textual features and five user characteristic features. The findings indicate\nthat our models perform much better than machine learning based models. © 2019, IFIP International Federation for Information Processing."
+    },
+    {
+      "document_id": 410,
+      "score": null,
+      "abstract": "Information overload on Web has been a well-identified challenge which has amplified with the advent of social web. Good, bad, true, false, useful, useless all\nkinds of information disseminates through the social web platforms. It becomes exceedingly imperative to pro-actively resolve rumours and inhibit them from spreading among the Internet\nusers as it can jeopardize the well-being of the citizens. The task for rumour analysis intends to identify & classify a rumour either as true\n(factual), false (nonfactual) or unresolved. Determining the accuracy of a rumourous story, a.k.a. rumour veracity is hard owing to the noisy, ambiguous and heterogeneous use\nof natural language. This necessitates automation of the predictive task which classifies the questionable veracity of rumour accurately. The research presented in , is an\nempirical study to put forward an optimized learning model which classifies real-time tweets on the basis of truth value, facilitating rumour analysis. The study is\nconducted on a collection of nearly 14 k tweets pertaining to the recent mob lynching fuelled by rumours on suspected child-lifters in the Indian sub-continent\n(#moblynching) and run on five classical shallow classifiers to categorize tweets into true, false and unspecified using 13 attributes (features). Subsequently, the use of an\noptimal feature selection method, particle swarm algorithm is proposed to improve the classifier’s performance. The empirical analysis validates that the proposed implementation of particle swarm\noptimization (PSO) for feature subset selection in rumour veracity classification outperforms the baseline supervised learning algorithms. An average 11.28% improvement in accuracy and approximately 31%\naverage reduction in features are demonstrated using PSO. The highest accuracy with optimization of 96.15% is achieved by decision tree. © 2019, Springer Science+Business Media,\nLLC, part of Springer Nature."
+    },
+    {
+      "document_id": 419,
+      "score": null,
+      "abstract": "Since the first RumourEval shared task in 2017, interest in automated claim validation has greatly increased, as the danger of “fake news” has become a\nmainstream concern. However automated support for rumour verification remains in its infancy. It is therefore important that a shared task in this area continues to\nprovide a focus for effort, which is likely to increase. Rumour verification is characterised by the need to consider evolving conversations and news updates to\nreach a verdict on a rumour's veracity. As in RumourEval 2017 we provided a dataset of dubious posts and ensuing conversations in social media, annotated\nboth for stance and veracity. The social media rumours stem from a variety of breaking news stories and the dataset is expanded to include Reddit\nas well as new Twitter posts. There were two concrete tasks; rumour stance prediction and rumour verification, which we present in detail along with results\nachieved by participants. We received 22 system submissions (a 70% increase from RumourEval 2017) many of which used state-of-the-art methodology to tackle the challenges involved.\n© 2019 Association for Computational Linguistics"
+    },
+    {
+      "document_id": 453,
+      "score": null,
+      "abstract": "Automatic resolution of rumours is a challenging task that can be broken down into smaller components that make up a pipeline, including rumour detection, rumour\ntracking and stance classification, leading to the final outcome of determining the veracity of a rumour. In previous work, these steps in the process of\nrumour verification have been developed as separate components where the output of one feeds into the next. We propose a multi-task learning approach that allows\njoint training of the main and auxiliary tasks, improving the performance of rumour verification. We examine the connection between the dataset properties and the outcomes\nof the multi-task learning models used. © 2018 COLING 2018 - 27th International Conference on Computational Linguistics, Proceedings. All rights reserved."
+    },
+    {
+      "document_id": 464,
+      "score": null,
+      "abstract": "describes our approach for SemEval-2017 Task 8. We aim at detecting the stance of tweets and determining the veracity of the given rumor. We utilize\na convolutional neural network for short text categorization using multiple filter sizes. Our approach beats the baseline classifiers on different event data with good F1\nscores. The best of our submitted runs achieves rank 1st among all scores on subtask B. © 2017 Association for Computational Linguistics"
+    },
+    {
+      "document_id": 466,
+      "score": null,
+      "abstract": "describes our submissions to task 8 in SemEval 2017, i.e., Determining rumour veracity and support for rumours. Given a rumoured tweet and a plethora of\nreplied tweets, subtask A is to label whether these tweets are support, deny, query or comment, and subtask B aims to predict the veracity (i.e.,\ntrue, false, and unverified) with a confidence (in range of 0-1) of the given rumoured tweet. For both subtasks, we adopted supervised machine learning methods\nincorporating rich features. Since the training data is imbalanced, we specifically designed a two-step classifier to address subtask A. © 2017 Association for Computational Linguistics"
+    }
+  ]
+}

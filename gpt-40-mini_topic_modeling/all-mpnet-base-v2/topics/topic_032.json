@@ -1,0 +1,45 @@
+{
+  "topic_id": 32,
+  "label": "T032",
+  "label_full": "Journalism & Media Studies",
+  "keywords": [
+    "et",
+    "al",
+    "ai",
+    "model",
+    "svms",
+    "vector",
+    "social",
+    "forest",
+    "support",
+    "media"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 50,
+      "score": null,
+      "abstract": "In this research, we compare and contrast many different AI algorithms designed to improve the ability to spot false information on social media. In particular,\nit assesses the efficacy of Passive Aggressive Classifier (Crammer et al., J Mach Learn Res 7:551–585, 2006), Hugging Face (Devlin et al., Bert: pre-training of\ndeep bidirectional transformers for language understanding. Cornell University, 2018), and Support Vector Machine Algorithms (Hearst et al., IEEE Intel Syst Appl 13:18–28, 1998; Boser et\nal., Proceedings of fifth annual workshop computational learning theory, pp 144–152, 1992; Schlkopf et al., Advances in kernel methods support vector learning. Mass, Cambridge, 1998;\nCristianini and Shawe-Taylor, An introduction to support vector machines and other kernel-based learning methods. Cambridge University Press, 2000; Baarir et al., Algeria 2021:125–130, 2020). Amid\nthe increasing menace of misinformation on social media, the need for effective fake news detection mechanisms cannot be overstated. The study begins with an overview\nof the algorithms under review, followed by an explanation of their application in fake news detection. This analysis then moves into a comparison mode, assessing\neach method according to several criteria including computational complexity, accuracy, precision, and recall. The research goes further into the pros and cons of each model,\nilluminating how well they perform with various sets of data and varieties of disinformation. In order to create reliable and accurate false news detection systems,\nit is important to determine which algorithms are the most successful. The results of this comparison not only add to the body of knowledge on\ndisinformation identification, but they also provide concrete strategies for bolstering the trustworthiness of content shared on social media. © The Author(s), under exclusive license to\nSpringer Nature Singapore Pte Ltd. 2024."
+    },
+    {
+      "document_id": 139,
+      "score": null,
+      "abstract": "Fake news has found fertile ground on social media. A global health crisis such as COVID-19 further helps propagate fake news on social media. Much\nresearch has been done to develop AI systems that classify news as real or fake. However, there is a growing concern about trust in these\nAI systems. To this end, we attempt to improve the trustworthiness of AI text classification systems. We use tools to explore data, explain feature extraction\ntechniques, interpret the ML models implemented, and explain the decision-making progress of AI systems. , we compared five ML classifiers for our experiments: Naive Bayes,\nSupport Vector Machines (SVMs), Logistic Regression, Decision Tree, and Random Forest. The models were trained on 10700 tweets containing 5,600 real and 5,100 fake tweets\nrelated to COVID-19. In comparison, the SVMs model performance was the best, with a detection accuracy of 0.93 and F1 scores of 0.94 and 0.93\nfor real and fake news, respectively. Global and local explanations are included to understand the overall model behavior, ensuring transparency and fostering confidence in AI\nusers. We have chosen the SVMs model for the explanation section as it was the best model ."
+    },
+    {
+      "document_id": 269,
+      "score": null,
+      "abstract": "Social media serves as a platform to outsource all kinds of information from politics to entertainment, from health industry to the country’s administration. Some of\nthe posts on these platforms are reliable, but most of them have some proportion of misinformation. The diversity of posts, such as the use of\ndifferent languages, abbreviating words and messages with hidden meanings, make it more complex to identify the authenticity of the published information. This research will focus\non identifying a model to find the misinformation in social media using the NLP integrated hybrid framework that uses a combination of semi-supervised and supervised\nlearning. We use hybrid models that consist of two semi-supervised learning algorithms, namely Label Propagation and Label Spreading, with Logistic Regression and Random Forest as\nthe supervised components. Among them we found that the hybrid model combining Label Propagation and Logistic Regression gives better performance in terms of accuracy, precision,\nrecall, F1-score and AUC performance metrics in order to classify the online misinformation. © The Author(s), under exclusive license to Springer Nature Switzerland AG 2022."
+    },
+    {
+      "document_id": 277,
+      "score": null,
+      "abstract": "Twitter has become a popular platform to receive daily updates. The more the people rely on it, the more critical it becomes to get genuine\ninformation out. False information can easily be shared on Twitter, which influences people's feelings, especially if fake information is linked to COVID-19. Therefore, it is\nof utmost importance to detect fake information before it becomes uncontrollable. Real-time tweets were used as part of this study. A few features like tweet’s\ntext, sentiment etc., were extracted and analyzed. The project returns a set of statistics determining the tweet’s veracity. , various classifiers have been used to\nsee which of them works best with the proposed model in classifying the used dataset. The proposed model achieved the best accuracy of 84.54% and\nthe highest F1-score of 0.842 with Random Forest. With careful analysis while feature selection and using few features, the model developed is equivalent in performance\nto the other models that use a lot of features. This confirms that the model developed is less complex and highly dependable. © 2022, The\nAuthor(s), under exclusive licence to Springer Nature Singapore Pte Ltd."
+    },
+    {
+      "document_id": 369,
+      "score": null,
+      "abstract": "Social networking and micro-blogging services, such as Twitter, play an important role in sharing digital information. Despite the popularity and usefulness of social media, they\nare regularly abused by corrupt users. One of these nefarious activities is so-called fake news - a virus that has been spreading rapidly thanks to\nthe hospitable environment provided by social media platforms. The extensive spread of fake news is now becoming a major problem with far-reaching negative repercussions on\nboth individuals and society. Hence, the identification of fake news on social media is a problem of utmost importance that has attracted the interest not\nonly of the research community but most of the big players on both sides - such as Facebook, on the industry side, and political parties\non the societal one. In , we create a model through which we hope to be able to offer a solution that will instill trust\nin social network communities. Our model analyses the behaviour of 50, 000 politicians on Twitter and assigns an influence score for each evaluated user based\non several collected and analysed features and attributes. Next, we classify political Twitter users as either trustworthy or untrustworthy using random forest and support vector\nmachine classifiers. An active learning model has been used to classify any unlabeled ambiguous records from our dataset. Finally, to measure the performance of the\nproposed model, we used accuracy as the main evaluation metric. © 2020 IEEE."
+    }
+  ]
+}

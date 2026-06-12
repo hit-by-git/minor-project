@@ -1,0 +1,50 @@
+{
+  "topic_id": 24,
+  "label": "T024",
+  "label_full": "Misinformation & Propaganda",
+  "keywords": [
+    "workers",
+    "crowd",
+    "truthfulness",
+    "statements",
+    "crowdsourcing",
+    "assessments",
+    "crowdsourced",
+    "assess",
+    "quality",
+    "misinformation"
+  ],
+  "n_docs": 6,
+  "documents": [
+    {
+      "document_id": 4,
+      "score": null,
+      "abstract": "There is an important ongoing effort aimed to tackle misinformation and to perform reliable fact-checking by employing human assessors at scale, with a crowdsourcing-based approach.\nPrevious studies on the feasibility of employing crowdsourcing for the task of misinformation detection have provided inconsistent results: some of them seem to confirm the\neffectiveness of crowdsourcing for assessing the truthfulness of statements and claims, whereas others fail to reach an effectiveness level higher than automatic machine learning approaches,\nwhich are still unsatisfactory. In , we aim at addressing such inconsistency and understand if truthfulness assessment can indeed be crowdsourced effectively. To do so,\nwe build on top of previous studies; we select some of those reporting low effectiveness levels, we highlight their potential limitations, and we then reproduce\ntheir work attempting to improve their setup to address those limitations. We employ various approaches, data quality levels, and agreement measures to assess the reliability\nof crowd workers when assessing the truthfulness of (mis)information. Furthermore, we explore different worker features and compare the results obtained with different crowds. According to\nour findings, crowdsourcing can be used as an effective methodology to tackle misinformation at scale. When compared to previous studies, our results indicate that a\nsignificantly higher agreement between crowd workers and experts can be obtained by using a different, higher-quality, crowdsourcing platform and by improving the design of the\ncrowdsourcing task. Also, we find differences concerning task and worker features and how workers provide truthfulness assessments. © 2024 The Author(s)"
+    },
+    {
+      "document_id": 5,
+      "score": null,
+      "abstract": "Misinformation has been rapidly spreading online. The common approach to dealing with it is deploying expert fact-checkers who follow forensic processes to identify the veracity\nof statements. Unfortunately, such an approach does not scale well. To deal with this, crowdsourcing has been looked at as an opportunity to complement the\nwork done by trained journalists. In this article, we look at the effect of presenting the crowd with evidence from others while judging the veracity\nof statements. We implement variants of the judgment task design to understand whether and how the presented evidence may or may not affect the way\ncrowd workers judge truthfulness and their performance. Our results show that, in certain cases, the presented evidence and the way in which it is presented\nmay mislead crowd workers who would otherwise be more accurate if judging independently from others. Those who make appropriate use of the provided evidence, however,\ncan benefit from it and generate better judgments."
+    },
+    {
+      "document_id": 6,
+      "score": null,
+      "abstract": "Research on misinformation detection has primarily focused either on furthering Artificial Intelligence (AI) for automated detection or on studying humans' ability to deliver an effective\ncrowdsourced solution. Each of these directions however shows different benefits. This motivates our work to study hybrid human-AI approaches jointly leveraging the potential of large\nlanguage models and crowdsourcing, which is understudied to date. We propose novel combination strategies Model First, Worker First, and Meta Vote, which we evaluate along\nwith baseline methods such as mean, median, hard- and soft-voting. Using 120 statements from the PolitiFact dataset, and a combination of state-of-the-art AI models and\ncrowdsourced assessments, we evaluate the effectiveness of these combination strategies. Results suggest that the effectiveness varies with scales granularity, and that combining AI and human\njudgments enhances truthfulness assessments' effectiveness and robustness."
+    },
+    {
+      "document_id": 11,
+      "score": null,
+      "abstract": "Recently, the misinformation problem has been addressed with a crowdsourcing-based approach: to assess the truthfulness of a statement, instead of relying on a few experts,\na crowd of non-expert is exploited. We study whether crowdsourcing is an effective and reliable method to assess truthfulness during a pandemic, targeting statements related\nto COVID-19, thus addressing (mis)information that is both related to a sensitive and personal issue and very recent as compared to when the judgment is\ndone. In our experiments, crowd workers are asked to assess the truthfulness of statements, and to provide evidence for the assessments. Besides showing that the\ncrowd is able to accurately judge the truthfulness of the statements, we report results on workers’ behavior, agreement among workers, effect of aggregation functions, of\nscales transformations, and of workers background and bias. We perform a longitudinal study by re-launching the task multiple times with both novice and experienced workers,\nderiving important insights on how the behavior and quality change over time. Our results show that workers are able to detect and objectively categorize online\n(mis)information related to COVID-19; both crowdsourced and expert judgments can be transformed and aggregated to improve quality; worker background and other signals (e.g., source of\ninformation, behavior) impact the quality of the data. The longitudinal study demonstrates that the time-span has a major effect on the quality of the judgments,\nfor both novice and experienced workers. Finally, we provide an extensive failure analysis of the statements misjudged by the crowd-workers. © 2021, The Author(s)."
+    },
+    {
+      "document_id": 323,
+      "score": null,
+      "abstract": "Recent work has demonstrated the viability of using crowdsourcing as a tool for evaluating the truthfulness of public statements. Under certain conditions such as: (1)\nhaving a balanced set of workers with different backgrounds and cognitive abilities; (2) using an adequate set of mechanisms to control the quality of the\ncollected data; and (3) using a coarse grained assessment scale, the crowd can provide reliable identification of fake news. However, fake news are a subtle\nmatter: statements can be just biased (“cherrypicked”), imprecise, wrong, etc. and the unidimensional truth scale used in existing work cannot account for such differences. In\nwe propose a multidimensional notion of truthfulness and we ask the crowd workers to assess seven different dimensions of truthfulness selected based on existing literature:\nCorrectness, Neutrality, Comprehensibility, Precision, Completeness, Speaker's Trustworthiness, and Informativeness. We deploy a set of quality control mechanisms to ensure that the thousands of assessments collected\non 180 publicly available fact-checked statements distributed over two datasets are of adequate quality, including a custom search engine used by the crowd workers to\nfind web pages supporting their truthfulness assessments. A comprehensive analysis of crowdsourced judgments shows that: (1) the crowdsourced assessments are reliable when compared to an\nexpert-provided gold standard; (2) the proposed dimensions of truthfulness capture independent pieces of information; (3) the crowdsourcing task can be easily learned by the workers;\nand (4) the resulting assessments provide a useful basis for a more complete estimation of statement truthfulness. © 2021 Elsevier Ltd"
+    },
+    {
+      "document_id": 347,
+      "score": null,
+      "abstract": "Misinformation is an ever increasing problem that is difficult to solve for the research community and has a negative impact on the society at large.\nVery recently, the problem has been addressed with a crowdsourcing-based approach to scale up labeling efforts: to assess the truthfulness of a statement, instead of\nrelying on a few experts, a crowd of (non-expert) judges is exploited. We follow the same approach to study whether crowdsourcing is an effective and\nreliable method to assess statements truthfulness during a pandemic. We specifically target statements related to the COVID-19 health emergency, that is still ongoing at the\ntime of the study and has arguably caused an increase of the amount of misinformation that is spreading online (a phenomenon for which the term\n\"infodemic\" has been used). By doing so, we are able to address (mis)information that is both related to a sensitive and personal issue like health\nand very recent as compared to when the judgment is done: two issues that have not been analyzed in related work.In our experiment, crowd workers\nare asked to assess the truthfulness of statements, as well as to provide evidence for the assessments as a URL and a text justification. Besides\nshowing that the crowd is able to accurately judge the truthfulness of the statements, we also report results on many different aspects, including: agreement among\nworkers, the effect of different aggregation functions, of scales transformations, and of workers background / bias. We also analyze workers behavior, in terms of queries\nsubmitted, URLs found / selected, text justifications, and other behavioral data like clicks and mouse actions collected by means of an ad hoc logger."
+    }
+  ]
+}

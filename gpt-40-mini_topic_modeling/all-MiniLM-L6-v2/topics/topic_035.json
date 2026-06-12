@@ -1,0 +1,45 @@
+{
+  "topic_id": 35,
+  "label": "T035",
+  "label_full": "analytical, real",
+  "keywords": [
+    "analytical",
+    "real",
+    "news",
+    "blockchain",
+    "reasoning",
+    "associated",
+    "studies",
+    "ai",
+    "fulllength",
+    "contract"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 233,
+      "score": null,
+      "abstract": "Nowadays, information is taking on an increasingly central role in people’s lives. With the rise of internet, the amount of information has grown exponentially as\nthe ease of publishing content of all types has increased. At the same time, however, the risks deriving from the lack of checks on the\ntruthfulness of these have also increased. In fact, a”Fake” information content can lead to serious reputational, economic or health damages. To overcome the problem of\nverification, several studies have been carried out, but none of them appears to have been the subject of a significant commercial implementation. In all the\nprojects proposed so far there is a common thread, that is to act directly to the source of the news, examining, thanks to existing technologies,\nthe possible truthfulness of the same. On the other hand, lacking a real involvement of the reader, these projects were not suitable to increase the\nawareness of the end user. implements a technological platform able to provide a reliability value of a digital news, thus measuring the level of impartiality\nof the author through the evaluation of a defined series of parameters. © 2022 by SCITEPRESS – Science and Technology Publications, Lda. All rights reserved"
+    },
+    {
+      "document_id": 321,
+      "score": null,
+      "abstract": "The propagation of misinformation has become prevalent in recent years and is one of the predominant factors for social media myths and conspiracy theories. proposes\nand develops a solution to detect fake news and hence control misinformation broadcasting in social media. Existing solutions for detecting fake news involve either using\nMachine learning/AI or employing a crowdsourcing-based fact-checker to evaluate the reliability of the information. In our proposed solution - ABC-verify - we designed and developed\nan integrated framework combining both AI and a Proof-of-stake (PoS) smart contract algorithm for crowdsourcing to achieve better accuracy than AI-only or pure crowdsourcing. The\nadvantage of the proposed solution is two-fold. Firstly, the AI model can continuously learn from the output of the smart contract algorithm. Secondly, the validated\nnews that is added to the blockchain is immutable. The validators from the public Ethereum blockchain stake ERC721 tokens in exchange for a reward if\nthe information reliability were accurate. The prediction from the AI classification model is based on a pre-trained BERT model on a dataset of 10,000 labelled\nTwitter datasets. The AI classification model proxies as one of the validators in the PoS algorithm. The final verdict from the smart contract is then\nfed back into the training dataset to improve the AI classification model and achieve better overall accuracy of 93%. Unlike traditional crowdsourcing platforms, news stored\nwithin the blockchain is immutable. Furthermore, the Ethereum blockchain is transparent, and every transaction is recorded within the blockchain, hence enabling authenticity and trust between\npeer-to-peer transactions. © 2021 IEEE."
+    },
+    {
+      "document_id": 324,
+      "score": null,
+      "abstract": "The world is diving deeper into the digital age, and the sources of first information are moving towards social media and online news portals. The\nchances of being misinformed increase multifold as our reliance on sources of information are getting ambiguous. Traditional news sources followed strict codes of practice to\nverify stories, whereas today, users can upload news items on social media and unverified portals without proving their veracity. The absence of any determinants of\nsuch news articles’ truthfulness on the Internet calls for a novel approach to determine the realness quotient of unverified news items by leveraging technology. This\nstudy presents a dynamic model with a secure voting system, where news reviewers can provide feedback on news, and a probabilistic mathematical model is used\nfor predicting the truthfulness of the news item based on the feedback received. A blockchain-based model, ProBlock is proposed; so that correctness of information propagated\nis ensured. © 2021, The Author(s), under exclusive licence to Springer Science+Business Media, LLC, part of Springer Nature."
+    },
+    {
+      "document_id": 329,
+      "score": null,
+      "abstract": "Aim: Previous research has focused on accuracy associated with real and fake news presented in the form of news headlines only, which does not capture\nthe rich context news is frequently encountered in real life. Additionally, while previous studies on evaluation of real and fake news have mostly focused on\ncharacteristics of the evaluator (i.e., analytical reasoning), characteristics of the news stimuli (i.e., news source credibility) and the interplay between the two have been largely\nignored. To address these research gaps, this project examined the role of analytical reasoning and news source credibility on evaluation of real and fake full-length\nnews story articles. The project considered both accuracy and perceived credibility ratings as outcome variables, thus qualifying previous work focused solely on news detection accuracy.\nMethod: We conducted two independent but parallel studies, with Study 2 as a direct replication of Study 1, employing the same design but in a\nlarger sample (Study 1: N = 292 vs. Study 2: N = 357). In both studies, participants viewed 12 full-length news articles (6 real, 6\nfake), followed by prompts to evaluate each article’s veracity and credibility. Participants were randomly assigned to view articles with a credible or non-credible source and\ncompleted the Cognitive Reflection Test as well as short demographic questions. Findings: Consistent across both studies, higher analytical reasoning was associated with greater fake news\naccuracy, while analytical reasoning was not associated with real news accuracy. In addition, in both studies, higher analytical reasoning was associated with lower perceived credibility\nfor fake news, while analytical reasoning was not associated with perceived credibility for real news. Furthermore, lower analytical reasoning was associated with greater accuracy for\nreal (but not fake) news from credible compared to non-credible sources, with this effect only detected in Study 2. Conclusions: The novel results generated in\nthis research are discussed in light of classical vs. naturalistic accounts of decision-making as well as cognitive processes underlying news articles evaluation. The results extend\nprevious findings that analytical reasoning contributes to fake news detection to full-length news articles. Furthermore, news-related cues such as the credibility of the news source\nsystematically affected discrimination ability between real and fake news. © 2021, The Author(s)."
+    },
+    {
+      "document_id": 370,
+      "score": null,
+      "abstract": "In a world flooded with information, often irrelevant, lucidity is power. Never as in this historical period can anyone, thanks to new technologies, participate as\na protagonist in the debates raised about events and issues that affect our society. In this flood of information, remaining lucid and knowing how to\ndiscriminate between real and false becomes fundamental. In this scenario, a leading role is played by Fake News, information that is partly or entirely untrue,\ndivulged through the Web, the media, or digital communication technologies. Fake news is characterized by an apparent plausibility, the latter fed by a distorted system\nof public opinion expectations, and by an amplification of the prejudices based on it, which facilitates its sharing and diffusion even in the absence of\nverification of the sources. Fake News is becoming a severe problem that affects various sectors of society: medicine, politics, culture, history are some of the\nareas that suffer most from the phenomenon of fake news, which can often generate significant social problems. will introduce a probabilistic approach to determining the\ndegree of truthfulness of the information. The system is based on the definition of some features, identified after an analysis of fake news in the\nliterature through NLP-based approaches and statistical methods. The specified features will highlight the syntactic, semantic, and social features of the information. These features are combined\nin a Bayesian Network, previously trained on a dataset composed of fake news, to provide a probabilistic level of the truthfulness of the information analyzed.\nThe proposed method has been tested in some real cases with very satisfactory results. © 2020, Springer Nature Switzerland AG."
+    }
+  ]
+}

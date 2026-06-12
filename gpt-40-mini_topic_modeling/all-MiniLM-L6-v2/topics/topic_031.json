@@ -1,0 +1,45 @@
+{
+  "topic_id": 31,
+  "label": "T031",
+  "label_full": "reviews, opinions",
+  "keywords": [
+    "reviews",
+    "opinions",
+    "word",
+    "deceptive",
+    "features",
+    "online",
+    "classification",
+    "deposits",
+    "treebased",
+    "character"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 160,
+      "score": null,
+      "abstract": "The increasing prevalence of fake online reviews jeopardizes firms' profits, consumers' well-being, and the trustworthiness of e-commerce ecosystems. We face the significant challenge of accurately\ndetecting fake reviews. In , we undertake a comprehensive investigation of traditional and state-of-the-art machine learning models in classification, based on textual features, to detect\nfake online reviews. We attempt to examine existing and noteworthy models for fake online review detection, in terms of the effectiveness of textual features, the\nefficiency of sampling methods, and their performance of detection. Adopting a quantitative and data-driven approach, we scrutinize both tree-based and transformer-based detection models. Our comparative\nstudies evidence that transformer-based models (specifically BERT and GPT-3) outperform tree-based models (i.e., Random Forest and XGBoost), in terms of accuracy, precision, and recall metrics.\nWe use real data from online reviews on Yelp.com for implementation. The results demonstrate that our proposed approach can identify fraudulent reviews effectively and efficiently.\nSynthesizing ChatGPT-3, tree-based, and transformer-based models for fake online review detection is rather new but promising, highlights their potential for better detection of fake online\nreviews. © 2023 IEEE."
+    },
+    {
+      "document_id": 328,
+      "score": null,
+      "abstract": "With the changing era of digital technology and use of 5G networks it is ubiquitous to use portable devices on palm which facilitates users to\naccess information in abundance with low cost from different social media sites. It also provides common platform for everyone to share information very fast. So\nveracity of such information is important otherwise it can mislead the mass and create issues. So detection of such news or contents which are false\nor fake is a challenging task. analyses different machine learning techniques to detect whether the news contents are true or false. For this, multi-attribute relational\nfeatures of the LIAR dataset are used. Sentiment features of the news statements are used along with the metadata of the speaker, which is taken\nas relations. Experimental result shows that the proposed method gives an accuracy of 75% compared to other techniques used on this dataset. © 2021 IEEE."
+    },
+    {
+      "document_id": 337,
+      "score": null,
+      "abstract": "one of the central motivations behind NLP (Natural Language Processing) is distinguishing designs. Agreed a content report, errand of recognizing the setting is referred to\nbe as theme order. Text classification is an important advance in the characteristic non-standard speech process. It is also performed utilizing totally different classification algorithms.\nIts cut back is wide utilized in text classification to perform classification on large live of text information. However, Map Reduce needed plenty of your\ntime to perform the tasks thereby increasing latency and since the information is distributed over the cluster it builds time and so reducing process speed.\nAlso, It utilizes a long queue of code. driven by this, we propose a basic nonetheless compelling machine learning methodology that uses a Naïve mathematician\nclassifier for text information. In the Machine Learning approach, the classifier is made mechanically by learning the properties of classes from a collection of predefined\ncoaching information. Hence, it will method complicated moreover, multi assortment information in dynamic things. Here we tend to propose a naïve Bayes classifier that scales\ndirectly with a range of indicators and information points that may be used for each binary and multiclass classification issue. We tend to enforce the\nconferred schemes victimization Machine Learning tool. The experiment results demonstrate the performance improvement within the classification technique..This manuscript investigates the performance of three various classifiers\nto be specific Decision Tree, and Naive Bayes and KNN on a theme characterization commission (within six subject divisions). An Assessment is finished based on\nmeticulousness, truthfulness, recall, and f1-attain based outcomes. Along with those three previously mentione © 2021 IEEE."
+    },
+    {
+      "document_id": 352,
+      "score": null,
+      "abstract": "Opinions in reviews about the quality of products or services can be important information for readers. Unfortunately, such opinions may include deceptive ones posted for\nsome business reasons. To keep the opinions as a valuable and trusted source of information, we propose an approach to detecting deceptive and truthful opinions.\nSpecifically, we explore the use of word and character n-gram combinations, function words, and word syntactic n-grams (word sn-grams) as features for classifiers to deal\nwith this task. We also consider applying word correction to our utilized dataset. Our experiments show that classification results of using the word and character\nn-gram combination features could perform better than those of employing other features. Although the experiments indicate that applying the word correction might be insignificant, we\nnote that the deceptive opinions tend to have a smaller number of error words than the truthful ones. To examine robustness of our features, we\nthen perform cross-classification tests. Our latter experiments results suggest that using the word and character n-gram combination features could work well in detecting deceptive and\ntruthful opinions. Interestingly, the latter experimental results also indicate that using the word sn-grams as combination features could give good performance."
+    },
+    {
+      "document_id": 487,
+      "score": null,
+      "abstract": "Online repositories are providing business opportunities to gain feedback and opinions on products and services in the form of digital deposits. Such deposits are, in\nturn, capable of influencing the readers’ views and behaviours from the posting of misinformation intended to deceive or manipulate. Establishing the veracity of these digital\ndeposits could thus bring key benefits to both online businesses and internet users. Although machine learning techniques are well established for classifying text in terms\nof their content, techniques to categorise them in terms of their veracity remain a challenge for the domain of feature set extraction and analysis. To\ndate, text categorisation techniques for veracity have reported a wide and inconsistent range of accuracies between 57 and 90 per cent. This article evaluates the\naccuracy of detecting online deceptive text using a logistic regression classifier based on part of speech tags extracted from a corpus of known truthful and\ndeceptive statements. An accuracy of 72 per cent is achieved by reducing 42 extracted part of speech tags to a feature vector of six using\nprinciple component analysis. The results compare favourably to other studies. Improvements are anticipated by training machine learning algorithms on more complex feature vectors by combining\nthe key features identified with others from disparate feature domains. © 2014 Macmillan Publishers Ltd."
+    }
+  ]
+}

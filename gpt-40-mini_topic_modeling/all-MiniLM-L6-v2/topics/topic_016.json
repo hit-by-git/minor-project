@@ -1,0 +1,60 @@
+{
+  "topic_id": 16,
+  "label": "T016",
+  "label_full": "retrieval, fever",
+  "keywords": [
+    "retrieval",
+    "fever",
+    "sentences",
+    "task",
+    "claim",
+    "evidence",
+    "wikipedia",
+    "documents",
+    "document",
+    "sentence"
+  ],
+  "n_docs": 8,
+  "documents": [
+    {
+      "document_id": 202,
+      "score": null,
+      "abstract": "Modern fact verification systems have distanced themselves from the black box paradigm by providing the evidence used to infer their veracity judgments. Hence, evidence-backed fact\nverification systems’ performance heavily depends on the capabilities of their retrieval component to identify these facts. A popular evaluation benchmark for these systems is the\nFEVER task, which consists of determining the veracity of short claims using sentences extracted from Wikipedia. In , we present a novel approach to the\nthe retrieval steps of the FEVER task leveraging the graph structure of Wikipedia. The retrieval models surpass state of the art results at both sentence\nand document level. Additionally, we show that by feeding our retrieved evidence to the best-performing textual entailment model, we set a new state of the\nart in the FEVER competition. © 2023 Association for Computational Linguistics."
+    },
+    {
+      "document_id": 210,
+      "score": null,
+      "abstract": "Fact verification (FV) is a challenging task which aims to verify a claim using multiple evidential sentences from trustworthy corpora, e.g., Wikipedia. Most existing approaches\nfollow a three-step pipeline framework, including document retrieval, sentence retrieval and claim verification. High-quality evidences provided by the first two steps are the foundation of\nthe effective reasoning in the last step. Despite being important, high-quality evidences are rarely studied by existing works for FV, which often adopt the off-the-shelf\nmodels to retrieve relevant documents and sentences in an \"index-retrieve-then-rank'' fashion. This classical approach has clear drawbacks as follows: i) a large document index as\nwell as a complicated search process is required, leading to considerable memory and computational overhead; ii) independent scoring paradigms fail to capture the interactions among\ndocuments and sentences in ranking; iii) a fixed number of sentences are selected to form the final evidence set. In , we proposeGERE, the first\nsystem that retrieves evidences in a generative fashion, i.e., generating the document titles as well as evidence sentence identifiers. This enables us to mitigate the\naforementioned technical issues since: i) the memory and computational cost is greatly reduced because the document index is eliminated and the heavy ranking process is\nreplaced by a light generative process; ii) the dependency between documents and that between sentences could be captured via sequential generation process; iii) the generative\nformulation allows us to dynamically select a precise set of relevant evidences for each claim. The experimental results on the FEVER dataset show that GERE\nachieves significant improvements over the state-of-the-art baselines, with both time-efficiency and memory-efficiency."
+    },
+    {
+      "document_id": 231,
+      "score": null,
+      "abstract": "Verifying the veracity of claims requires reasoning over a large knowledge base, often in the form of corpora of trustworthy sources. A common approach consists\nin retrieving short portions of relevant text from the reference documents and giving them as input to a natural language inference module that determines whether\nthe claim can be inferred or contradicted from them. This approach, however, struggles when multiple pieces of evidence need to be collected and combined from\ndifferent documents, since the single documents are often barely related to the target claim and hence they are left out by the retrieval module. We\nconjecture that a graph-based approach can be beneficial to identify fragmented evidence. We tested this hypothesis by building, over the whole corpus, a large graph\nthat interconnects text portions by means of mentioned entities and exploiting such a graph for identifying candidate sets of evidence from multiple sources. Our experiments\nshow that leveraging on a graph structure is beneficial in identifying a reasonably small portion of passages related to a claim. © 2022, The Author(s),\nunder exclusive license to Springer Nature Switzerland AG."
+    },
+    {
+      "document_id": 293,
+      "score": null,
+      "abstract": "We study the fact-checking problem, which aims to identify the veracity of a given claim. Specifically, we focus on the task of Fact Extraction and\nVERification (FEVER) and its accompanied dataset. The task consists of the subtasks of retrieving the relevant documents (and sentences) from Wikipedia and validating whether the\ninformation in the documents supports or refutes a given claim. This task is essential and can be the building block of applications such as fake\nnews detection and medical claim verification. In this article, we aim at a better understanding of the challenges of the task by presenting the literature\nin a structured and comprehensive way. We describe the proposed methods by analyzing the technical perspectives of the different approaches and discussing the performance results\non the FEVER dataset, which is the most well-studied and formally structured dataset on the fact extraction and verification task. We also conduct the largest\nexperimental study to date on identifying beneficial loss functions for the sentence retrieval component. Our analysis indicates that sampling negative sentences is important for improving\nthe performance and decreasing the computational complexity. Finally, we describe open issues and future challenges, and we motivate future research in the task."
+    },
+    {
+      "document_id": 307,
+      "score": null,
+      "abstract": "In Automated Claim Verification, we retrieve evidence from a knowledge base to determine the veracity of a claim. Intuitively, the retrieval of the correct evidence\nplays a crucial role in this process. Often, evidence selection is tackled as a pairwise sentence classification task, i.e., we train a model to predict\nfor each sentence individually whether it is evidence for a claim. In , we fine-tune document level transformers to extract all evidence from a Wikipedia\ndocument at once. We show that this approach performs better than a comparable model classifying sentences individually on all relevant evidence selection metrics in FEVER.\nOur complete pipeline building on this evidence selection procedure produces a new state-of-the-art result on FEVER, a popular claim verification benchmark. © 2021 Association for\nComputational Linguistics."
+    },
+    {
+      "document_id": 308,
+      "score": null,
+      "abstract": "Given current levels of misinformation spread, never before have fact-checking frameworks been so critical. Unfortunately, the performance of Automated Fact-checking systems is still poor due\nto the complexity of the task. In , we present an ablation study of a framework submitted to the FEVER 1.0 challenge. Based on our\nfindings, we explore how triple-based information retrieval, coreference resolution, and recent language model representations can impact the performance of each subtask. We show the importance\nof recall and precision in the retrieval of documents and sentences that can be provided to justify the veracity of a given claim. We reach\nstate-of-the-art results in the Document Retrieval task and we show promising results when using coreference resolution to improve the Sentence Retrieval task. © 2021 Owner/Author."
+    },
+    {
+      "document_id": 426,
+      "score": null,
+      "abstract": "Many tasks such as question answering and reading comprehension rely on information extracted from unreliable sources. These systems would thus benefit from knowing whether a\nstatement from an unreliable source is correct. We present experiments on the FEVER (Fact Extraction and VERification) task, a shared task that involves selecting sentences\nfrom Wikipedia and predicting whether a claim is supported by those sentences, refuted, or there is not enough information. Fact checking is a task that\nbenefits from not only asserting or disputing the veracity of a claim but also finding evidence for that position. As these tasks are dependent on\neach other, an ideal model would consider the veracity of the claim when finding evidence and also find only the evidence that is relevant. We\nthus jointly model sentence extraction and verification on the FEVER shared task. Among all participants, we ranked 5th on the blind test set (prior to\nany additional human evaluation of the evidence)."
+    },
+    {
+      "document_id": 427,
+      "score": null,
+      "abstract": "With huge amount of information generated every day on the web, fact checking is an important and challenging task which can help people identify the\nauthenticity of most claims as well as providing evidences selected from knowledge source like Wikipedia. Here we decompose this problem into two parts: an entity\nlinking task (retrieving relative Wikipedia pages) and recognizing textual entailment between the claim and selected pages. In , we present an end-to-end multi-task learning with\nbi-direction attention (EMBA) model to classify the claim as “supports”, “refutes” or “not enough info” with respect to the pages retrieved and detect sentences as\nevidence at the same time. We conduct experiments on the FEVER (Fact Extraction and VERification) paper test dataset and shared task test dataset, a new\npublic dataset for verification against textual sources. Experimental results show that our method achieves comparable performance compared with the baseline system."
+    }
+  ]
+}

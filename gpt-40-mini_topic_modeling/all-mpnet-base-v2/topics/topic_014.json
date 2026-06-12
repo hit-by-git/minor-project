@@ -1,0 +1,65 @@
+{
+  "topic_id": 14,
+  "label": "T014",
+  "label_full": "claim, verification",
+  "keywords": [
+    "claim",
+    "verification",
+    "claimevidence",
+    "causal",
+    "evidence",
+    "pipeline",
+    "fact",
+    "labeled",
+    "debiasing",
+    "data"
+  ],
+  "n_docs": 9,
+  "documents": [
+    {
+      "document_id": 3,
+      "score": null,
+      "abstract": "Due to rapidly changing and advancing science, it is important to check the veracity of scientific claims and whether they are supported by research evidence.\nPrevious versions of this task depended on supervised training, where labeled datasets were constructed through manual claim writing and evidence identification, sometimes coupled with mining\ncitation relationships in papers. In , we investigate whether zero-shot scientific claim verification could be enabled using large language models (LLMs) and distant supervision examples\ntaken directly from citation texts. We derive an in-context learning (ICL) dataset, SCitance, consisting of citation sentences (“citances”), LLM-generated negations, evidence documents, and veracity labels,\nand find that prompting GPT-4 with ICL examples from this dataset yields comparable performance (within 1 point F1) to previous finetuned models trained on manually\ncurated claim-evidence pairs. Our results suggest that prompting LLMs with citance-evidence pairs directly poses a viable alternative to finetuning scientific claim verification models with manually-curated\ndata."
+    },
+    {
+      "document_id": 22,
+      "score": null,
+      "abstract": "Evaluating the veracity of everyday claims is time consuming and in some cases requires domain expertise. We empirically demonstrate that the commonly used fact checking\npipeline, known as the retriever-reader, suffers from performance deterioration when it is trained on the labeled data from one domain and used in another domain.\nAfterwards, we delve into each component of the pipeline and propose novel algorithms to address this problem. We propose an adversarial algorithm to make the\nretriever component robust against distribution shift. Our core idea is to initially train a bi-encoder on the labeled source data, and then, to adversarially train\ntwo separate document and claim encoders using unlabeled target data. We then focus on the reader component and propose to train it such that it\nis insensitive towards the order of claims and evidence documents. Our empirical evaluations support the hypothesis that such a reader shows a higher robustness against\ndistribution shift. To our knowledge, there is no publicly available multi-topic fact checking dataset. Thus, we propose a simple automatic method to re-purpose two well-known\nfact checking datasets. We then construct eight fact checking scenarios from these datasets, and compare our model to a set of strong baseline models, including\nrecent domain adaptation models that use GPT4 for generating synthetic data."
+    },
+    {
+      "document_id": 45,
+      "score": null,
+      "abstract": "Multi-hop fact verification aims to detect the veracity of the given claim by integrating and reasoning over multiple pieces of evidence. Conventional multi-hop fact verification\nmodels are prone to rely on spurious correlations from the annotation artifacts, leading to an obvious performance decline on unbiased datasets. Among the various debiasing\nworks, the causal inference-based methods become popular by performing theoretically guaranteed debiasing such as casual intervention or counterfactual reasoning. However, existing causal inference-based debiasing methods,\nwhich mainly formulate fact verification as a single-hop reasoning task to tackle shallow bias patterns, cannot deal with the complicated bias patterns hidden in multiple\nhops of evidence. To address the challenge, we propose Causal Walk, a novel method for debiasing multi-hop fact verification from a causal perspective with front-door\nadjustment. Specifically, in the structural causal model, the reasoning path between the treatment (the input claim-evidence graph) and the outcome (the veracity label) is introduced\nas the mediator to block the confounder. With the front-door adjustment, the causal effect between the treatment and the outcome is decomposed into the causal\neffect between the treatment and the mediator, which is estimated by applying the idea of random walk, and the causal effect between the mediator and\nthe outcome, which is estimated with normalized weighted geometric mean approximation. To investigate the effectiveness of the proposed method, an adversarial multi-hop fact verification dataset\nand a symmetric multi-hop fact verification dataset are proposed with the help of the large language model. Experimental results show that Causal Walk outperforms some\nprevious debiasing methods on both existing datasets and the newly constructed datasets. Code and data will be released at © 2024, Association for the Advancement\nof Artificial Intelligence ( All rights reserved."
+    },
+    {
+      "document_id": 110,
+      "score": null,
+      "abstract": "Evaluating the veracity of everyday claims is time consuming and in some cases requires domain expertise. We empirically demonstrate that the commonly used fact checking\npipeline, known as the retriever-reader, suffers from performance deterioration when it is trained on the labeled data from one domain and used in another domain.\nAfterwards, we delve into each component of the pipeline and propose novel algorithms to address this problem. We propose an adversarial algorithm to make the\nretriever component robust against distribution shift. Our core idea is to initially train a bi-encoder on the labeled source data, and then, to adversarially train\ntwo separate document and claim encoders using unlabeled target data. We then focus on the reader component and propose to train it such that it\nis insensitive towards the order of claims and evidence documents. Our empirical evaluations support the hypothesis that such a reader shows a higher robustness against\ndistribution shift. To our knowledge, there is no publicly available multitopic fact checking dataset. Thus, we propose a simple automatic method to re-purpose two well-known\nfact checking datasets. We then construct eight fact checking scenarios from these datasets, and compare our model to a set of strong baseline models, including\nrecent domain adaptation models that use GPT4 for generating synthetic data. © 2024 Association for Computational Linguistics."
+    },
+    {
+      "document_id": 112,
+      "score": null,
+      "abstract": "Claim verification is an essential step in the automated fact-checking pipeline which assesses the veracity of a claim against a piece of evidence. In ,\nwe explore the potential of few-shot claim verification, where only very limited data is available for supervision. We propose MAPLE (Micro Analysis of Pairwise Language\nEvolution), a pioneering approach that explores the alignment between a claim and its evidence with a small seq2seq model and a novel semantic measure. Its\ninnovative utilization of micro language evolution path leverages unlabelled pairwise data to facilitate claim verification while imposing low demand on data annotations and computing resources.\nMAPLE demonstrates significant performance improvements over SOTA baselines SEED, PET and LLaMA 2 across three fact-checking datasets: FEVER, Climate FEVER, and SciFact. Data and code\nare available here. © 2024 Association for Computational Linguistics."
+    },
+    {
+      "document_id": 136,
+      "score": null,
+      "abstract": "Fact verification aims to automatically judge the veracity of a claim according to several pieces of evidence. Due to the manual construction of datasets, spurious\ncorrelations between claim patterns and its veracity (i.e., biases) inevitably exist. Recent studies show that models usually learn such biases instead of understanding the semantic\nrelationship between the claim and evidence. Existing debiasing works can be roughly divided into data-augmentation-based and weight-regularization-based pipeline, where the former is inflexible and the\nlatter relies on the uncertain output on the training stage. Unlike previous works, we propose a novel method from a counterfactual view, namely CLEVER, which\nis augmentation-free and mitigates biases on the inference stage. Specifically, we train a claim-evidence fusion model and a claim-only model independently. Then, we obtain the\nfinal prediction via subtracting output of the claim-only model from output of the claim-evidence fusion model, which counteracts biases in two outputs so that the\nunbiased part is highlighted. Comprehensive experiments on several datasets have demonstrated the effectiveness of CLEVER."
+    },
+    {
+      "document_id": 228,
+      "score": null,
+      "abstract": "As part of an automated fact-checking pipeline, the claim verification task consists in determining if a claim is supported by an associated piece of evidence.\nThe complexity of gathering labelled claim-evidence pairs leads to a scarcity of datasets, particularly when dealing with new domains. In this article, we introduce Semantic\nEmbedding Element-wise Difference (SEED), a novel vector-based method to fewshot claim verification that aggregates pairwise semantic differences for claimevidence pairs. We build on the hypothesis\nthat we can simulate class representative vectors that capture average semantic differences for claim-evidence pairs in a class, which can then be used for classification\nof new instances. We compare the performance of our method with competitive baselines including fine-tuned Bidirectional Encoder Representations from Transformers (BERT)/Robustly Optimized BERT Pre-training Approach\n(RoBERTa) models, as well as the state-of-the-art few-shot claim verification method that leverages language model perplexity. Experiments conducted on the Fact Extraction and VERification (FEVER)\nand SCIFACT datasets show consistent improvements over competitive baselines in fewshot settings. Our code is available. © Copyright 2022 Sun et al. Distributed under Creative\nCommons CC-BY 4.0"
+    },
+    {
+      "document_id": 290,
+      "score": null,
+      "abstract": "We extend evidence-aware claim verification to the context of positive-unlabeled (PU) learning. Existing works assume the truth and the falsity of the claims are known\nfor training and form the task as a supervised learning problem. However, this assumption underestimates the difficulty of collecting false claims; we argue that claim\nverification is more challenging in the absence of negative labels. We consider a more practical setting, where only a comparatively small number of true claims\nare labeled and more claims remain unlabeled. Thus, we formulate the claim verification task as a PU learning problem. We decouple learning representation of claim-evidence\npair from PU learning and adopt a pre-trained universal language model to encode claim-evidence pairs. We further propose to use the generative adversarial network (GAN)\nto capture the latent alignment between encoded claim-evidence pair and the truthfulness. We leverage the verification as part of the GAN by extending previous GAN\nbased PU learning. We show that the proposed model achieves the best performance with a small amount of labeled data and is robust to the\ntruthfulness prior estimation. We conduct a thorough analysis of the model selection. The proposed approach performs the best under two practical scenarios: (i) the unlabeled\ndata is more than the labeled data; (ii) and the unlabeled positive data is more than the unlabeled negative data."
+    },
+    {
+      "document_id": 307,
+      "score": null,
+      "abstract": "In Automated Claim Verification, we retrieve evidence from a knowledge base to determine the veracity of a claim. Intuitively, the retrieval of the correct evidence\nplays a crucial role in this process. Often, evidence selection is tackled as a pairwise sentence classification task, i.e., we train a model to predict\nfor each sentence individually whether it is evidence for a claim. In , we fine-tune document level transformers to extract all evidence from a Wikipedia\ndocument at once. We show that this approach performs better than a comparable model classifying sentences individually on all relevant evidence selection metrics in FEVER.\nOur complete pipeline building on this evidence selection procedure produces a new state-of-the-art result on FEVER, a popular claim verification benchmark. © 2021 Association for\nComputational Linguistics."
+    }
+  ]
+}

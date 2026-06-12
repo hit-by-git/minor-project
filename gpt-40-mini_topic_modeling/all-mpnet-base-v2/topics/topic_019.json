@@ -1,0 +1,60 @@
+{
+  "topic_id": 19,
+  "label": "T019",
+  "label_full": "Rumor on Social Media",
+  "keywords": [
+    "rumor",
+    "dnn",
+    "models",
+    "gdart",
+    "learning",
+    "attention",
+    "information",
+    "extract",
+    "node",
+    "tweet"
+  ],
+  "n_docs": 8,
+  "documents": [
+    {
+      "document_id": 198,
+      "score": null,
+      "abstract": "With the rapid growth of the Internet, people are exposed to a significant increase in the amount of information. However, the dissemination of false news\nhas become rampant, causing adverse effects on society. Rumor detection has emerged as an important and challenging research direction aimed at accurately determining the authenticity\nof messages. proposes a novel rumor detection method based on a knowledge graph and graph attention networks. The method leverages the attention mechanism of graph\nattention networks to learn topic-enhanced news representations and extract features related to rumor propagation. It then compares the extracted entity features with the entity features\nin a knowledge base using an entity comparison network. The proposed method is validated on the publicly available SLN dataset, and experimental results demonstrate a\n2% improvement in micro F1 and macro F1 performance metrics compared to state-of-the-art baseline models. © 2023 IEEE."
+    },
+    {
+      "document_id": 229,
+      "score": null,
+      "abstract": "Due to the harmful impact of fabricated information on social media, many rumor verification techniques have been introduced in recent years. Advanced techniques like multi-task\nlearning (MTL), shared-private models suffer from many strategic limitations that restrict their capability of veracity identification on social media. These models are often reliant on\nmultiple tasks for the primary targeted objective. Even the most recent deep neural network (DNN) models like VRoC, Hierarchical-PSV, StA-HiTPLAN etc. based on VAE, GCN,\nTransformer respectively with improved modification are able to perform good on veracity identification task but with the help of additional auxiliary information, mostly. However, their\nrise is still not substantial with respect to the proposed model even though the proposed model is not using any additional information. To come up\nwith an improved DNN model architecture, we introduce globally Discrete Attention Representations from Transformers (gDART). Discrete-Attention mechanism in gDART is capable of capturing multifarious correlations\nveiled among the sequence of words which existing DNN models including Transformer often overlook. Our proposed framework uses a Branch-CoRR Attention Network to extract highly\ninformative features in branches, and employs Feature Fusion Network Component to identify deep embedded features and use them to make enhanced identification of veracity of\nan unverified claim. Moreover, to achieve its goal, gDART is not dependent on any costly auxiliary resource but on an unsupervised learning process. Extensive experiments\nreveal that gDART marks a considerable performance gain in veracity identification task over state-of-the-art models on two real world rumor datasets. gDART reports a gain\nof 36.76%, 40.85% on standard benchmark metrics. © 2022 Elsevier Ltd"
+    },
+    {
+      "document_id": 256,
+      "score": null,
+      "abstract": "The consequences of fake news and rumors have adversely affected social and political stability worldwide. Many such incidents have been reported, which resulted in mass\nchaos with the loss of lives and property. In response, many researchers have developed models for the veracity detection of rumors on social media. The\nrecent advances in veracity detection models incorporate the use of Deep Neural Networks (DNN) over statistical and traditional machine learning based models. Current veracity detection\napproaches leverage powerful DNN models such as Transformer, Adversarial Networks, Graph Convolutional Networks (GCN), Variational Autoencoder (VAE) etc., along with exploiting the intuition of Multi-task\nlearning (MTL) approach. In addition, most of these aforesaid well-known models rely on auxiliary (additional) information to a good extent. Presently, these recent models’ dependence\non (1) auxiliary information and multiple tasks restrain productivity and incur cost on resources. Moreover, (2) the structural constraints of these models put a limiting\neffect on model deliverance. These two shortcomings of the recent models result in poor resource utilization and unstructured feature organization of the objective task, resulting\nin a compromised output of the model. In , we present an efficient Segregated Non-overlapping and Collectively exhaustive DNN model (SeNoCe) which mitigates the effects\nof poor utilization of resources and enhances the model performance without the aid of auxiliary information or tasks which incur good manual efforts and costs.\nSeNoCe is capable of utilizing the fine-granularity of implicit features as attention for task identification. SeNoCe reports a major performance improvement over the state-of-the-art techniques\non standard benchmark metrics across two real-world rumor datasets. It records a minimum of 24.06−12.8%, 53.1−49.2% improvement in terms of Macro F and Accuracy, respectively\nover the best performing state-of-the-art. © 2022 Elsevier Ltd"
+    },
+    {
+      "document_id": 268,
+      "score": null,
+      "abstract": "In order to extract the relevant features of rumors effectively, proposes a novel rumor detection model with bidirectional graph attention network on the basis of\nconstructing a directed graph, named P-BiGAT. Firstly, this model builds the propagation tree and diffusion tree through the tweet comment and reposting relationship. Secondly, the\nimproved graph attention network (GAT) is used to extract the propagation feature and the diffusion feature through two different directions, and the multihead attention mechanism\nis used to extract the semantic information of the source tweet. Finally, the propagation feature, diffusion feature, and semantic information representation of the source tweet\nare connected together through a fully connected layer, and the mapping function is used to determine the authenticity of the information. In addition, also proposes\na new node update method and applies it to the model in order to select neighbor node information effectively. Specifically, it can select the neighbor\ninformation node with larger weight to update the node according to the weight of the neighbor node. The results of the experiment show that the\nmodel is better than the baseline method of comparison in accuracy, precision, recall, and F1 measure on the public datasets. © 2022 Xiaohui Yang et\nal."
+    },
+    {
+      "document_id": 274,
+      "score": null,
+      "abstract": "Twitter has become a fertile place for rumors, as information can spread to a large number of people immediately. Rumors can mislead public opinion, weaken\nsocial order, decrease the legitimacy of government, and lead to a significant threat to social stability. Therefore, timely detection and debunking rumor are urgently needed.\nIn , we proposed an Attention-based Long-Short Term Memory (LSTM) network that uses tweet text with thirteen different linguistic and user features to distinguish rumor\nand non-rumor tweets. The performance of the proposed Attention-based LSTM model is compared with several conventional machine and deep learning models. The proposed Attention-based LSTM\nmodel achieved an F1-score of 0.88 in classifying rumor and non-rumor tweets, which is better than the state-of-the-art results. The proposed system can reduce the\nimpact of rumors on society and weaken the loss of life, money, and build the firm trust of users with social media platforms. © 2020,\nThe Author(s)."
+    },
+    {
+      "document_id": 276,
+      "score": null,
+      "abstract": "A widely used social networking service like Twitter has the ability to disseminate information to large groups of people even during a pandemic. At the\nsame time, it is a convenient medium to share irrelevant and unverified information online and poses a potential threat to society. In this research, conventional\nmachine learning algorithms are analyzed to classify the data as either non-rumor data or rumor data. Machine learning techniques have limited tuning capability and make\ndecisions based on their learning. To tackle this problem the authors propose a deep learning-based Rumor Detection Neural Network model to predict the rumor tweet\nin real-world events. This model comprises three layers, AttCNN layer is used to extract local and position invariant features from the data, AttBi-LSTM layer to\nextract important semantic or contextual information and HPOOL to combine the down sampling patches of the input feature maps from the average and maximum pooling\nlayers. A dataset from Kaggle and ground dataset #gaja are used to train the proposed Rumor Detection Neural Network to determine the veracity of the\nrumor. The experimental results of the RDNN Classifier demonstrate an accuracy of 93.24% and 95.41% in identifying rumor tweets in real-time events. © 2022 Korean\nSociety for Internet Information. All rights reserved."
+    },
+    {
+      "document_id": 393,
+      "score": null,
+      "abstract": "In a recent survey, over half (54\\%) of a global sample agree or strongly agree that they are concerned about what is real and fake\nwhen thinking about online news. Rumors are spreading all the time and affect people’s perceptions and behavior. In , we apply several machine learning approaches,\nfrom simple supervised algorithms to deep learning models, for the stance classification and rumor verification tasks; and evaluate the impact of the stance information in\nthe performance of rumor veracity evaluation. According to the results, the traditional machine learning algorithms presented better performance than deep learning models, in both tasks,\nand the information of stance (denial or questioning) do not improve the results of the rumor verification task."
+    },
+    {
+      "document_id": 409,
+      "score": null,
+      "abstract": "Twitter has become a fertile ground for rumours as information can propagate to too many people in very short time. Rumours can create panic in\npublic and hence timely detection and blocking of rumour information is urgently required. We proposed and compare machine learning classifiers with a deep learning model\nusing Recurrent Neural Networks for classification of tweets into rumour and non-rumour classes. A total thirteen features based on tweet text and user characteristics were\ngiven as input to machine learning classifiers. Deep learning model was trained and tested with textual features and five user characteristic features. The findings indicate\nthat our models perform much better than machine learning based models. © 2019, IFIP International Federation for Information Processing."
+    }
+  ]
+}

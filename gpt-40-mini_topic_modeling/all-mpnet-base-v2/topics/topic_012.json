@@ -1,0 +1,65 @@
+{
+  "topic_id": 12,
+  "label": "T012",
+  "label_full": "fever, wikipedia",
+  "keywords": [
+    "fever",
+    "wikipedia",
+    "verification",
+    "task",
+    "claim",
+    "evidence",
+    "fact",
+    "retrieval",
+    "claims",
+    "documents"
+  ],
+  "n_docs": 9,
+  "documents": [
+    {
+      "document_id": 47,
+      "score": null,
+      "abstract": "Automated fact-checking has emerged as a safeguard against the spread of false information. Existing fact-checking approaches aim to determine whether a news claim is true\nor false, and they have achieved decent accuracy of veracity prediction. However, the current state-of-the-art models still face challenges, such as ambiguity in the claims\nand lack of contextual information. This study introduces a fact-checking model, Path-FC, which focuses on 1) augmenting the representations of claims and evidence by incorporating\nadditional context using the Knowledge Paths extracted from the external Knowledge Graph; 2) Identifying false claims by learning the differences between claims and evidence. The\nexperimental results demonstrate that Knowledge Path retrieval, combined with the multi-head attention technique, contributes to improved performance of fact-checking. The code is available at ©\n2024 Owner/Author."
+    },
+    {
+      "document_id": 202,
+      "score": null,
+      "abstract": "Modern fact verification systems have distanced themselves from the black box paradigm by providing the evidence used to infer their veracity judgments. Hence, evidence-backed fact\nverification systems’ performance heavily depends on the capabilities of their retrieval component to identify these facts. A popular evaluation benchmark for these systems is the\nFEVER task, which consists of determining the veracity of short claims using sentences extracted from Wikipedia. In , we present a novel approach to the\nthe retrieval steps of the FEVER task leveraging the graph structure of Wikipedia. The retrieval models surpass state of the art results at both sentence\nand document level. Additionally, we show that by feeding our retrieved evidence to the best-performing textual entailment model, we set a new state of the\nart in the FEVER competition. © 2023 Association for Computational Linguistics."
+    },
+    {
+      "document_id": 231,
+      "score": null,
+      "abstract": "Verifying the veracity of claims requires reasoning over a large knowledge base, often in the form of corpora of trustworthy sources. A common approach consists\nin retrieving short portions of relevant text from the reference documents and giving them as input to a natural language inference module that determines whether\nthe claim can be inferred or contradicted from them. This approach, however, struggles when multiple pieces of evidence need to be collected and combined from\ndifferent documents, since the single documents are often barely related to the target claim and hence they are left out by the retrieval module. We\nconjecture that a graph-based approach can be beneficial to identify fragmented evidence. We tested this hypothesis by building, over the whole corpus, a large graph\nthat interconnects text portions by means of mentioned entities and exploiting such a graph for identifying candidate sets of evidence from multiple sources. Our experiments\nshow that leveraging on a graph structure is beneficial in identifying a reasonably small portion of passages related to a claim. © 2022, The Author(s),\nunder exclusive license to Springer Nature Switzerland AG."
+    },
+    {
+      "document_id": 293,
+      "score": null,
+      "abstract": "We study the fact-checking problem, which aims to identify the veracity of a given claim. Specifically, we focus on the task of Fact Extraction and\nVERification (FEVER) and its accompanied dataset. The task consists of the subtasks of retrieving the relevant documents (and sentences) from Wikipedia and validating whether the\ninformation in the documents supports or refutes a given claim. This task is essential and can be the building block of applications such as fake\nnews detection and medical claim verification. In this article, we aim at a better understanding of the challenges of the task by presenting the literature\nin a structured and comprehensive way. We describe the proposed methods by analyzing the technical perspectives of the different approaches and discussing the performance results\non the FEVER dataset, which is the most well-studied and formally structured dataset on the fact extraction and verification task. We also conduct the largest\nexperimental study to date on identifying beneficial loss functions for the sentence retrieval component. Our analysis indicates that sampling negative sentences is important for improving\nthe performance and decreasing the computational complexity. Finally, we describe open issues and future challenges, and we motivate future research in the task."
+    },
+    {
+      "document_id": 299,
+      "score": null,
+      "abstract": "Fact verification aims to verify the authenticity of a given claim based on the retrieved evidence from Wikipedia articles. Existing works mainly focus on enhancing\nthe semantic representation of evidence, e.g., introducing the graph structure to model the evidence relation. However, previous methods can’t well distinguish semantic-similar claims and evidences\nwith distinct authenticity labels. In addition, the performances of graph-based models are limited by the over-smoothing problem of graph neural networks. To this end, we\npropose a graph-based contrastive learning method for fact verification abbreviated as CosG, which introduces a contrastive label-supervised task to help the encoder learn the discriminative\nrepresentations for different-label claim-evidence pairs, as well as an unsupervised graph-contrast task, to alleviate the unique node features loss in the graph propagation. We conduct\nexperiments on FEVER, a large benchmark dataset for fact verification. Experimental results show the superiority of our proposal against comparable baselines, especially for the claims\nthat need multiple-evidences to verify. In addition, CosG presents better model robustness on the low-resource scenario. © 2021 by the authors. Licensee MDPI, Basel, Switzerland."
+    },
+    {
+      "document_id": 340,
+      "score": null,
+      "abstract": "Fact verification is a challenging task of identifying the truthfulness of given claims based on the retrieval of relevant evidence texts. Many claims require understanding\nand reasoning over external entity information for precise verification. In , we propose a novel fact verification model using entity knowledge to enhance its performance.\nWe retrieve descriptive text from Wikipedia for each entity, and then encode these descriptions by a smaller lightweight network to be fed into the main\nverification model. Furthermore, we boost model performance by adopting and predicting the relatedness between the claim and each evidence as additional signals. We demonstrate experimentally\non a large-scale benchmark dataset FEVER that our framework achieves competitive results with a FEVER score of 72.89% on the test set. © 2021 Association\nfor Computational Linguistics."
+    },
+    {
+      "document_id": 396,
+      "score": null,
+      "abstract": "The increasing concern with false information has stimulated research in joint Fact Extraction and VERification (FEVER). Now we propose a system by deep learning which\ncan help people identify the authenticity of most claims as well as providing evidences selected from knowledge source like Wikipedia. In , we examine how\nto use deep learning method to improve the performance of the automatic fact verification system. Firstly, the inverted index of the knowledge base is established\nby using a Python package named Whoosh. Secondly, the claim is regularized by the Named Entity Recognition (NER) tool, and the most relevant documents are\nfiltered based on the relevance ranking algorithm. Thirdly, top 20 relevant sentences for each claim are filtered by word embeddings. Finally, the effectiveness of each\nsentence and the label of claim is judged based on the two-level pre-training model. Our approach achieved a 0.89 document. © 2019 IEEE."
+    },
+    {
+      "document_id": 426,
+      "score": null,
+      "abstract": "Many tasks such as question answering and reading comprehension rely on information extracted from unreliable sources. These systems would thus benefit from knowing whether a\nstatement from an unreliable source is correct. We present experiments on the FEVER (Fact Extraction and VERification) task, a shared task that involves selecting sentences\nfrom Wikipedia and predicting whether a claim is supported by those sentences, refuted, or there is not enough information. Fact checking is a task that\nbenefits from not only asserting or disputing the veracity of a claim but also finding evidence for that position. As these tasks are dependent on\neach other, an ideal model would consider the veracity of the claim when finding evidence and also find only the evidence that is relevant. We\nthus jointly model sentence extraction and verification on the FEVER shared task. Among all participants, we ranked 5th on the blind test set (prior to\nany additional human evaluation of the evidence)."
+    },
+    {
+      "document_id": 427,
+      "score": null,
+      "abstract": "With huge amount of information generated every day on the web, fact checking is an important and challenging task which can help people identify the\nauthenticity of most claims as well as providing evidences selected from knowledge source like Wikipedia. Here we decompose this problem into two parts: an entity\nlinking task (retrieving relative Wikipedia pages) and recognizing textual entailment between the claim and selected pages. In , we present an end-to-end multi-task learning with\nbi-direction attention (EMBA) model to classify the claim as “supports”, “refutes” or “not enough info” with respect to the pages retrieved and detect sentences as\nevidence at the same time. We conduct experiments on the FEVER (Fact Extraction and VERification) paper test dataset and shared task test dataset, a new\npublic dataset for verification against textual sources. Experimental results show that our method achieves comparable performance compared with the baseline system."
+    }
+  ]
+}

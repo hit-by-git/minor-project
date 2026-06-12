@@ -1,0 +1,45 @@
+{
+  "topic_id": 33,
+  "label": "T033",
+  "label_full": "Rumor on Social Media",
+  "keywords": [
+    "multimodal",
+    "contents",
+    "message",
+    "image",
+    "false",
+    "monitor",
+    "detection",
+    "reports",
+    "information",
+    "rumors"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 159,
+      "score": null,
+      "abstract": "Detecting the authenticity of news information published on social media has important practical significance. Due to the multimodal characteristics of false information such as information\ncontent, user related attributes, and information dissemination, existing false information detection technologies cannot effectively meet the multimodal detection requirements of false information. In , we\npropose a different and novel method. Firstly, we propose a multimodal false information detection model that integrates multiple layers such as front-end, midrange, and back-end;\nSecondly, we fused the relevant field information of the existing public data set of false information with the generated content of GPT's big model of\nartificial intelligence innovative learning ability in Natural language processing, expanding the public data set of false information; Finally, we utilized the extended false information public\ndataset based on GPT data fusion to train and validate this multi-layered fusion multimodal false information detection model. In actual detection, as long as the\noriginal tweet text content, user related attributes, and relevant evidence and other feature information are given, it can better predict whether the tweet news information\nis false information. Experiments have shown that compared with existing false information detection methods, the multimodal false information detection method based on knowledge distillation has\nsignificant accuracy advantages. © 2023 IEEE."
+    },
+    {
+      "document_id": 201,
+      "score": null,
+      "abstract": "The proliferation of rumors on social media has become a major concern due to its ability to create a devastating impact. Manually assessing the veracity\nof social media messages is a very time-consuming task that can be much helped by machine learning. Most message veracity verification methods only exploit textual\ncontents and metadata. Very few take both textual and visual contents, and more particularly images, into account. Moreover, prior works have used many classical machine\nlearning models to detect rumors. However, although recent studies have proven the effectiveness of ensemble machine learning approaches, such models have seldom been applied. Thus,\nin , we propose a set of advanced image features that are inspired from the field of image quality assessment, and introduce the Multimodal fusiON\nframework to assess message veracIty in social neTwORks (MONITOR), which exploits all message features by exploring various machine learning models. Moreover, we demonstrate the effectiveness\nof ensemble learning algorithms for rumor detection by using five metalearning models. Eventually, we conduct extensive experiments on two real-world datasets. Results show that MONITOR\noutperforms state-of-the-art machine learning baselines and that ensemble models significantly increase MONITOR’s performance. © 2022, The Author(s), under exclusive licence to Springer Science+Business Media, LLC,\npart of Springer Nature."
+    },
+    {
+      "document_id": 238,
+      "score": null,
+      "abstract": "Sharing information on social media has become a part of people's daily lives. However, without centralized management on user generated contents, increasing amount of rumors\nand misinformation are being spread in social media. On the one hand, most of the social platforms debunk rumors with manual verification by fact checking\norganizations, which are very inefficient. On the other hand, since it's common for rumors to contain inconsistent images and texts, it would be useful if\nwe could compare the semantics between multimodal contents in the same post for rumor detection. In , we propose to check multimodal content consistency with\ntransformers and self-attention-based Bi-GRU networks for rumor detection. Firstly, image semantic contents are extracted by image captioning module to generate captions. Then, the generated captions\nare semantically compared with texts using transformers for veracity assessment. Finally, Multi-cell bi-directional Recurrent Neural Networks (Bi-RNNs) with self-attention mechanism are used to find word\ndependency and learn the most important features for rumor detection. From the experimental results on tweets, the best F1-score of 0.92 can be obtained for\nour proposed approach to multimodal veracity assessment. This shows the potential of our proposed method in rumor detection. Further investigation is needed to verify the\nperformance using different multimodal features. © 2022 IEEE."
+    },
+    {
+      "document_id": 314,
+      "score": null,
+      "abstract": "Verifying fact of multimodal (text, image and/or videos) reports is emerging as an important challenge to prevent circulation of fake news reports in various online\nplatform. Moreover, such reports often being posted in local languages penetrate even faster, making the problem more complex. To tackle such problem many fact verifying\nweb sites have emerged, which deploys humans to manually find the truthfulness of such reports with the help of multimodal contents that are being used\nin such report. But in recent times, due to diversity of the problem owing to various political, and malicious motives, the existing (manual) system fails\nto handle the enormity. Existing content based approaches rely only on textual content of such reports and fail to handle the multimodal nature. On the\nother hand, existing multimodal based approaches rely only on the report based and user based features, and fail to interpret the fake contents with evidences.\nIn , we propose a novel end-to-end automated multimodal content based multilingual fact verification system, which automates the task of fact verifying web sites, and\nprovides evidences for every judgment. Evaluation results on three benchmark datasets show the robustness and effectiveness of our approach. © 2021 IEEE."
+    },
+    {
+      "document_id": 326,
+      "score": null,
+      "abstract": "Users of social networks tend to post and share content with little restraint. Hence, rumors and fake news can quickly spread on a huge scale.\nThis may pose a threat to the credibility of social media and can cause serious consequences in real life. Therefore, the task of rumor detection\nand verification has become extremely important. Assessing the veracity of a social media message (e.g., by fact checkers) is a very time-consuming task that can\nbe much helped by machine learning. In the literature, most message veracity verification methods only exploit textual contents and metadata. Very few take both textual\nand visual contents, and more particularly images, into account. In , we second the hypothesis that exploiting all of the components of a social media\npost enhances the accuracy of veracity detection. To further the state of the art, we first propose using a set of advanced image features that\nare inspired from the field of image quality assessment, Then, we introduce the Multimodal fusiON framework to assess message veracIty in social neTwORks (MONITOR), which\nexploits all message features (i.e., text, social context, and image features) by supervised machine learning. Extensive experiments are conducted on two multimedia datasets. The experimental\nresults show that MONITOR can outperform the state-of-the-art machine learning baselines. © 2021, Springer Nature Switzerland AG."
+    }
+  ]
+}

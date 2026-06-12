@@ -1,0 +1,55 @@
+{
+  "topic_id": 21,
+  "label": "T021",
+  "label_full": "Fact-Checking & Verification",
+  "keywords": [
+    "multimodal",
+    "evidence",
+    "retrieval",
+    "images",
+    "modalities",
+    "chartbert",
+    "factchecking",
+    "mocheg",
+    "different",
+    "claim"
+  ],
+  "n_docs": 7,
+  "documents": [
+    {
+      "document_id": 27,
+      "score": null,
+      "abstract": "The increasing proliferation of misinformation and its alarming impact have motivated both industry and academia to develop approaches for misinformation detection and fact checking. Recent\nadvances on large language models (LLMs) have shown remarkable performance in various tasks, but their potential in misinformation detection remains relatively underexplored. Most of existing\nstate-of-the-art approaches either do not consider evidence and solely focus on claim related features or assume the evidence is provided. Few approaches consider evidence retrieval\nas part of the misinformation detection but rely on fine-tuning models. In , we investigate the potential of LLMs for misinformation detection in a zero-shot\nsetting. We incorporate an evidence retrieval component as it is crucial to gather pertinent information from various sources to detect the veracity of claims. To\nthis end, we propose a novel re-ranking approach for multimodal evidence retrieval using both LLMs and large vision-language models (LVLM). The retrieved evidence samples (images\nand texts) serve as the input for an LVLM-based approach for multimodal fact verification (LVLM4FV). To enable a fair evaluation, we address the issue of\nincomplete ground truth in an existing evidence retrieval dataset by annotating a more complete set of evidence samples for both image and text retrieval. Our\nexperimental results on two datasets demonstrate the superiority of the proposed approach in both evidence retrieval and fact verification tasks, with a better generalization capability."
+    },
+    {
+      "document_id": 46,
+      "score": null,
+      "abstract": "Multimodal fact verification is an under-explored and emerging field that has gained increasing attention in recent years. The goal is to assess the veracity of\nclaims that involve multiple modalities by analyzing the retrieved evidence. The main challenge in this area is to effectively fuse features from different modalities to\nlearn meaningful multimodal representations. To this end, we propose a novel model named Multi-Source Knowledge-enhanced Graph Attention Network (MultiKE-GAT). MultiKE-GAT introduces external multimodal knowledge from\ndifferent sources and constructs a heterogeneous graph to capture complex cross-modal and cross-source interactions. We exploit a Knowledge-aware Graph Fusion (KGF) module to learn knowledge-enhanced\nrepresentations for each claim and evidence and eliminate inconsistencies and noises introduced by redundant entities. Experiments on two public benchmark datasets demonstrate that our model\noutperforms other comparison methods, showing the effectiveness and superiority of the proposed model. © 2024 IEEE."
+    },
+    {
+      "document_id": 108,
+      "score": null,
+      "abstract": "Fact-checking real-world claims often requires reviewing multiple multimodal documents to assess a claim's truthfulness, which is a highly laborious and time-consuming task. In , we\npresent a summarization model designed to generate claim-specific summaries useful for fact-checking from multimodal, multi-document datasets. The model takes inputs in the form of documents,\nimages, and a claim, with the objective of assisting in fact-checking tasks. We introduce a dynamic perceiver-based model that can handle inputs from multiple modalities\nof arbitrary lengths. To train our model, we leverage a novel reinforcement learning-based entailment objective to generate summaries that provide evidence distinguishing between different truthfulness\nlabels. To assess the efficacy of our approach, we conduct experiments on both an existing benchmark and a new dataset of multi-document claims that we\ncontribute. Our approach outperforms the SOTA approach by 4.6% in the claim verification task on the MOCHEG dataset and demonstrates strong performance on our new\nMulti-News-Fact-Checking dataset. © 2024 Association for Computational Linguistics."
+    },
+    {
+      "document_id": 138,
+      "score": null,
+      "abstract": "We propose end-to-end multimodal fact-checking and explanation generation, where the input is a claim and a large collection of web sources, including articles, images, videos,\nand tweets, and the goal is to assess the truthfulness of the claim by retrieving relevant evidence and predicting a truthfulness label (e.g., support, refute\nor not enough information), and to generate a statement to summarize and explain the reasoning and ruling process. To support this research, we construct MOCHEG,\na large-scale dataset consisting of 15,601 claims where each claim is annotated with a truthfulness label and a ruling statement, and 33,880 textual paragraphs and\n12,112 images in total as evidence. To establish baseline performances on MOCHEG, we experiment with several state-of-the-art neural architectures on the three pipelined subtasks: multimodal\nevidence retrieval, claim verification, and explanation generation, and demonstrate that the performance of the state-of-the-art end-to-end multimodal fact-checking does not provide satisfactory outcomes. To the\nbest of our knowledge, we are the first to build the benchmark dataset and solutions for end-to-end multimodal fact-checking and explanation generation. The dataset, source\ncode and model checkpoints are available at"
+    },
+    {
+      "document_id": 147,
+      "score": null,
+      "abstract": "Evidence data for automated fact-checking (AFC) can be in multiple modalities such as text, tables, images, audio, or video. While there is increasing interest in\nusing images for AFC, previous works mostly focus on detecting manipulated or fake images. We propose a novel task, chart-based fact-checking, and introduce ChartBERT as\nthe first model for AFC against chart evidence. ChartBERT leverages textual, structural and visual information of charts to determine the veracity of textual claims. For\nevaluation, we create ChartFC, a new dataset of 15, 886 charts. We systematically evaluate 75 different vision-language (VL) baselines and show that ChartBERT outperforms VL\nmodels, achieving 63.8% accuracy. Our results suggest that the task is complex yet feasible, with many challenges ahead. © 2023 Association for Computational Linguistics."
+    },
+    {
+      "document_id": 281,
+      "score": null,
+      "abstract": "Multi-modal fact verification has become an important but challenging issue on social media due to the mismatch between the text and images in the misinformation\nof news content, which has been addressed by considering cross-modalities to identify the veracity of the news in recent years. In , we propose the\nPre-CoFactv2 framework with new parameter-efficient foundation models for modeling fine-grained text and input embeddings with lightening parameters, multi-modal multi-type fusion for not only capturing relations\nfor the same and different modalities but also for different types (i.e., claim and document), and feature representations for explicitly providing metadata for each sample.\nIn addition, we introduce a unified ensemble method to boost model performance by adjusting the importance of each trained model with not only the weights\nbut also the powers. Extensive experiments show that Pre-CoFactv2 outperforms Pre-CoFact by a large margin and achieved new state-of-the-art results at the Factify challenge at\nAAAI 2023. We further illustrate model variations to verify the relative contributions of different components. Our team won the first prize (F1-score: 81.82%) and we\nmade our code publicly available1 © 2023 Copyright for by its authors."
+    },
+    {
+      "document_id": 285,
+      "score": null,
+      "abstract": "In , we present the Logically submissions to De-Factify 2 challenge (DE-FACTIFY 2023) on task 1 of Multi-Modal Fact Checking. We describe our submission to\nthis challenge including explored evidence retrieval and selection techniques, pre-trained cross-modal and unimodal models, and a cross-modal veracity model based on the well established Transformer\nEncoder (TE) architecture which heavily relies on the concept of self-attention. Exploratory analysis is also conducted on the Factify 2 data set that uncovers the\nsalient multi-modal patterns and hypothesis motivating the architecture proposed in . A series of preliminary experiments were done to investigate and benchmark different pre-trained embedding\nmodels, evidence retrieval settings and thresholds. The final system, a standard two-stage evidence based veracity detection system, yielded a weighted average F1 score of 0.79\non both the validation set and final blind test set of task 1, which achieved 3rd place with a small margin to the top performing\nsystems on the leaderboard among 9 participants. © 2023 Copyright for by its authors."
+    }
+  ]
+}

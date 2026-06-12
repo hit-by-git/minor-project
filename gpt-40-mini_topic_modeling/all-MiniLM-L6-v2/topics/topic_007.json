@@ -1,0 +1,85 @@
+{
+  "topic_id": 7,
+  "label": "T007",
+  "label_full": "Credibility Assessment",
+  "keywords": [
+    "users",
+    "twitter",
+    "tweets",
+    "centrality",
+    "credibility",
+    "social",
+    "used",
+    "popularity",
+    "trustworthiness",
+    "microblogs"
+  ],
+  "n_docs": 13,
+  "documents": [
+    {
+      "document_id": 1,
+      "score": null,
+      "abstract": "Social networking and micro-blogging services, such as Twitter, play an important role in sharing digital information. Despite the popularity and usefulness of social media, there\nhave been many instances where corrupted users found ways to abuse it, as for instance, through raising or lowering user's credibility. As a result, while\nsocial media facilitates an unprecedented ease of access to information, it also introduces a new challenge - that of ascertaining the credibility of shared information.\nCurrently, there is no automated way of determining which news or users are credible and which are not. Hence, establishing a system that can measure\nthe social media user's credibility has become an issue of great importance. Assigning a credibility score to a user has piqued the interest of not\nonly the research community but also most of the big players on both sides - such as Facebook, on the side of industry, and political\nparties on the societal one. In , we created a model which, we hope, will ultimately facilitate and support the increase of trust in the\nsocial network communities. Our model collected data and analysed the behaviour of 50,000 politicians on Twitter. Influence score, based on several chosen features, was assigned\nto each evaluated user. Further, we classified the political Twitter users as either trusted or untrusted using random forest, multilayer perceptron, and support vector machine.\nAn active learning model was used to classify any unlabelled ambiguous records from our dataset. Finally, to measure the performance of the proposed model, we\nused precision, recall, F1 score, and accuracy as the main evaluation metrics. © 2013 IEEE."
+    },
+    {
+      "document_id": 2,
+      "score": null,
+      "abstract": "There are both positive and negative aspects in the use of social media in news and information dissemination. To deal with the negative aspects, such\nas the spread of rumours and fake news, the flow of information should implicitly be filtered and marked to specific criteria such as credibility, trustworthiness,\nreputation, popularity, influence, and authenticity. proposes an approach that can enhance trustworthiness and content validity in the presence of information overload. We introduce Alethiometer, a\nframework for assessing truthfulness in social media that can be used by professional and general news users alike. We present different measures that delve into\nthe detailed analysis of the content, the contributors of the content and the underlying context. We further propose an approach for deriving a single metric\nthat considers, in a unified manner, the quality of a contributor and of the content provided by that contributor. Finally, we present some preliminary statistical\nresults from the examination of a set of 10 million twitter users, that provide useful insights on the characteristics of social media data."
+    },
+    {
+      "document_id": 220,
+      "score": null,
+      "abstract": "For the sake of determining the reliability of an event, proposes a method of identifying the authenticity of a microblog event based on human-machine collaboration.\nUsing the Weibo that was spoken in the incident and the public information of the users participating in the event to identify false incidents. Then\nseparately calculate the user's credibility and the emotional stance of Weibo and comments. The calculation of user credibility takes the complete information of the user\nas a static description of the user. When performing emotional standpoint detection, we divide it into two steps. For a piece of Weibo, its comments\nare tested for further computation, for different microblog, the emotions between microblog are tested. Building a graph model for an event. While processing the model,\nsome special microblogs are extracted. Human will deal with these microblogs and give feedback to the graph model. Then the model will be changed accordingly.\nFinally, GCN is leveraged to process the model to obtain the true and false of the event. Through extensive experiments to verify the proposed model\nand show a comparative performance, the accuracy is 89.34 and the F-score reaches0.9375."
+    },
+    {
+      "document_id": 284,
+      "score": null,
+      "abstract": "The rapid evolution of technology has led to the increasing use of social networks. These have allowed various users to post whatever they want without\nany guarantee of the exactitude of the content posted, which has led to the rapid spread of false information, with severe consequences for the community.\nDespite extensive field study, dealing with the trustworthiness of sources remains an unanswered question. The main problem is that there is no efficient way to\ndiscern the difference between a genuine and a false assertion. To address this challenge, we have developed a hybrid approach to verify the authenticity of\nthe information on Twitter based, on the one hand, on the stylistic analysis of the content of tweets, and the other hand, on the exploitation\nof the opinion of Twitter users by taking into account their reliability using the theory of evidence. Experimental assessments using publicly available datasets demonstrate very\noptimistic and better results when compared to other techniques. © 2022 Copyright for by its authors. Use permitted under Creative Commons License Attribution 4.0 International\n(CC BY 4.0)."
+    },
+    {
+      "document_id": 369,
+      "score": null,
+      "abstract": "Social networking and micro-blogging services, such as Twitter, play an important role in sharing digital information. Despite the popularity and usefulness of social media, they\nare regularly abused by corrupt users. One of these nefarious activities is so-called fake news - a virus that has been spreading rapidly thanks to\nthe hospitable environment provided by social media platforms. The extensive spread of fake news is now becoming a major problem with far-reaching negative repercussions on\nboth individuals and society. Hence, the identification of fake news on social media is a problem of utmost importance that has attracted the interest not\nonly of the research community but most of the big players on both sides - such as Facebook, on the industry side, and political parties\non the societal one. In , we create a model through which we hope to be able to offer a solution that will instill trust\nin social network communities. Our model analyses the behaviour of 50, 000 politicians on Twitter and assigns an influence score for each evaluated user based\non several collected and analysed features and attributes. Next, we classify political Twitter users as either trustworthy or untrustworthy using random forest and support vector\nmachine classifiers. An active learning model has been used to classify any unlabeled ambiguous records from our dataset. Finally, to measure the performance of the\nproposed model, we used accuracy as the main evaluation metric. © 2020 IEEE."
+    },
+    {
+      "document_id": 380,
+      "score": null,
+      "abstract": "In we investigate automated methods for understanding false news dissemination on Twitter in relation to one particular event: the 2019 Indonesian presidential election. We collected\na sample of 2,360 tweets related to topics addressed by fact-checking websites. The tweets were hand-labeled according to their trustworthiness. We trained several classification models\non the human-labelled data, using three groups of text features. The word n-gram features appeared to be the most effective, reaching a recall of 85%\nfor true news and 62% for false news. With this classifier we labeled a larger sample of tweets related to fact-checking topics in the context\nof the 2019 Indonesian presidential elections. We then analysed the dissemination of true news and false news in the underlying Twitter network using community detection\nand centrality measures. The top influential users in the network disseminate more false news, including a government institution account and a verified politician's account. Our\nresults show that the combination of text features and social network analysis can provide valuable insights in detecting and preventing the dissemination of false news.\nMoreover, we make the dataset used in this research available for reuse by the community. © 2020 CEUR-WS. All rights reserved."
+    },
+    {
+      "document_id": 406,
+      "score": null,
+      "abstract": "Across the globe, right from people who are technologically naive to people who are with high-technical knowledge, use, share, spread, and connect with each other\nthrough online social networks. People start believing and sharing the social network content without any proof of its authenticity. In several cases, the reliability of\nthe information that gets shared between the users remains questionable due to the anonymity of the information creators. In , a fuzzy detection algorithm is\nproposed to identify the trustable content in social media. The proposed methodology is evaluated on Twitter social network platform. By computing the predictive measures, the\nefficiency of the proposed approach is well established. © The Institution of Engineering and Technology 2019"
+    },
+    {
+      "document_id": 407,
+      "score": null,
+      "abstract": "Twitter is an important place to get access to breaking news and information. So, it is necessary to check the trustworthiness of tweets. Credibility is\nused to assess the quality of being believable or worthy of trust. Credibility analysis refers to attempt to an ascertain truthfulness in short lie detection.\nIn , credibility of the twitter data can be assessed using centrality measures. First the tweets are preprocessed using the preprocessing techniques. The preprocessing techniques\non tweets: a stop word removal, stemming, pos tagging etc. are used to improve the performance. Preprocessed twitter data can be used to identify the\ntweet and author features. Then the centrality measures are applied to the preprocessed dataset. The proposed centrality measures used in are Betweeness centrality, Eigenvector centrality,\nDegree centrality and Closeness centrality. The centrality measures are used to find out the trust between the users and it will be given as input\nto classifiers. The classifiers like Naïve Bayesian, Support Vector Machine and K Nearest Neighbor are used to classify the tweets based on credibility. © BEIESP."
+    },
+    {
+      "document_id": 443,
+      "score": null,
+      "abstract": "Presidential elections can impact world peace, global economics, and overall well-being. Recent news indicates that fraud on the Web has played a substantial role in\nelections, particularly in developing countries in South America and the public discourse, in general. To protect the trustworthiness of the Web, in , we present\na novel framework using statistical techniques to help detect veiled Web fraud attacks in Online Social Networks (OSN). Specific examples are used to demonstrate how\nsome statistical techniques, such as the Kalman Filter and the modified CUSUM, can be applied to detect various attack scenarios. A hybrid data set, consisting\nof both real user tweets collected from Twitter and simulated fake tweets is constructed for testing purposes. The efficacy of the proposed framework has been\nverified by computing metrics, such as Precision, Recall, and Area Under the ROC curve. The algorithms achieved up to 99.9% accuracy in some scenarios and\nare over 80% accurate for most of the other scenarios. © 2018 The Authors"
+    },
+    {
+      "document_id": 480,
+      "score": null,
+      "abstract": "Fake news spreading in social media severely jeopardizes the veracity of online content. Fortunately, with the interactive and open features of microblogs, skeptical and opposing\nvoices against fake news always arise along with it. The conflicting information, ignored by existing studies, is crucial for news verification. In , we take\nadvantage of this \"wisdom of crowds\" information to improve news verification by mining conflicting viewpoints in microblogs. First, we discover conflicting viewpoints in news tweets\nwith a topic model method. Based on identified tweets' viewpoints, we then build a credibility propagation network of tweets linked with supporting or opposing relations.\nFinally, with iterative deduction, the credibility propagation on the network generates the final evaluation result for news. Experiments conducted on a real-world data set show\nthat the news verification performance of our approach significantly outperforms those of the baseline approaches. © 2016, Association for the Advancement of Artificial Intelligence (\nAll rights reserved."
+    },
+    {
+      "document_id": 491,
+      "score": null,
+      "abstract": "The increasing popularity of Twitter and other microblogs makes improved trustworthiness and relevance assessment of microblogs evermore important. We propose a method of ranking of\ntweets considering trustworthiness and content based popularity. The analysis of trustworthiness and popularity exploits the implicit relationships between the tweets. We model microblog ecosystem as\na three-layer graph consisting of: (i) users (ii) tweets and (iii) web pages. We propose to derive trust and popularity scores of entities in these\nthree layers, and propagate the scores to tweets considering the inter-layer relations. Our preliminary evaluations show improvement in precision and trustworthiness over the baseline methods\nand acceptable computation timings. © 2012 ACM."
+    },
+    {
+      "document_id": 492,
+      "score": null,
+      "abstract": "Anonymity is one of the main virtues of the Internet, as it protects privacy and enables users to express opinions more freely. However, anonymity hinders\nthe assessment of the veracity of assertions that online users make about their identity attributes, such as age or profession. We propose FaceTrust, a system\nthat uses online social networks to provide lightweight identity credentials while preserving a user's anonymity. Face-Trust employs a \"game with a purpose\" design to elicit\nthe opinions of the friends of a user about the user's self-claimed identity attributes, and uses attack-resistant trust inference to assign veracity scores to identity\nattribute assertions. FaceTrust provides credentials, which a user can use to corroborate his assertions. We evaluate our proposal using a live Facebook deployment and simulations\non a crawled social graph. The results show that our veracity scores strongly correlate with the ground truth, even when a large fraction of the\nsocial network users is dishonest and employs the Sybil attack. © 2012 IEEE."
+    },
+    {
+      "document_id": 493,
+      "score": null,
+      "abstract": "We analyze the information credibility of news propagated through Twitter, a popular microblogging service. Previous research has shown that most of the messages posted on\nTwitter are truthful, but the service is also used to spread misinformation and false rumors, often unintentionally.On we focus on automatic methods for assessing the\ncredibility of a given set of tweets. Specifically, we analyze microblog postings related to \"trending\" topics, and classify them as credible or not credible, based\non features extracted from them. We use features from users' posting and re-posting (\"re-tweeting\") behavior, from the text of the posts, and from citations to\nexternal sources.We evaluate our methods using a significant number of human assessments about the credibility of items on a recent sample of Twitter postings. Our\nresults shows that there are measurable differences in the way messages propagate, that can be used to classify them automatically as credible or not credible,\nwith precision and recall in the range of 70\\% to 80\\%."
+    }
+  ]
+}

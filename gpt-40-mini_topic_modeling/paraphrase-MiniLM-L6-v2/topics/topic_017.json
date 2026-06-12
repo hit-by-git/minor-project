@@ -1,0 +1,55 @@
+{
+  "topic_id": 17,
+  "label": "T017",
+  "label_full": "Credibility Assessment",
+  "keywords": [
+    "tweets",
+    "twitter",
+    "centrality",
+    "used",
+    "users",
+    "credibility",
+    "messages",
+    "method",
+    "propagate",
+    "popularity"
+  ],
+  "n_docs": 7,
+  "documents": [
+    {
+      "document_id": 237,
+      "score": null,
+      "abstract": "Social media is a place where vast data is continually generated. These days news first surfaces on micro blogs before it pass to major media\noutlets. Micro blogging websites are rich sources of information, and Twitter is one of the micro blogging interfaces. Twitter is also much used to share\ninformation with other social network users. Event detection systems based on Twitter can get information from a huge number of tweets posted by users. It\nis among the main reasons Twitter is considered an effective source of data as it can provide substantial near real-time data to identify incidents. However,\nit also creates a low perception problem; this means that systems fail to identify events correctly if too much false information is included, which is\ncalled rumor. Rumor can be characterized as a proclamation whose real or true value is unverifiable or intentionally false. Rumor detection has recently been studied\nto allow for accurate event detection. Rumors can propagate to millions of users quickly without fact-checking, and it may cause significant harm. More precisely, the\ncurrent technique detects rumors by identifying and analyzing the content of the tweet, retweets count, sentiment of the tweet, follower count, etc., from the Twitter\nmetadata, which can be useful for classifying it as rumor or non-rumor. A systematic literature review of existing research work on various machine learning techniques\nfor misinformation detection was carried out to arrive at the optimal approach that can be taken for the paper. In , tweets during the Covid-19\nsituation have been taken into account for misinformation detection. In this research, a two-way approach has been taken to classify Twitter messages (Tweets) as rumor\nor non-rumor related. The first approach is text-based analysis, while the other is media-based analysis. For the first approach, different machine learning classifiers were performed\nand evaluated based on the F1-score. In the second approach, tweets containing images are extracted for Web Detection using Robotic Process Automation. In this, Google\nCloud Vision is used to match specified images with the images on the web to find their original or multiple sources and, thereby, authenticity. In\nthis way, text-based and media-based messages containing falsified details can be detected. © 2022 Author(s)."
+    },
+    {
+      "document_id": 277,
+      "score": null,
+      "abstract": "Twitter has become a popular platform to receive daily updates. The more the people rely on it, the more critical it becomes to get genuine\ninformation out. False information can easily be shared on Twitter, which influences people's feelings, especially if fake information is linked to COVID-19. Therefore, it is\nof utmost importance to detect fake information before it becomes uncontrollable. Real-time tweets were used as part of this study. A few features like tweet’s\ntext, sentiment etc., were extracted and analyzed. The project returns a set of statistics determining the tweet’s veracity. , various classifiers have been used to\nsee which of them works best with the proposed model in classifying the used dataset. The proposed model achieved the best accuracy of 84.54% and\nthe highest F1-score of 0.842 with Random Forest. With careful analysis while feature selection and using few features, the model developed is equivalent in performance\nto the other models that use a lot of features. This confirms that the model developed is less complex and highly dependable. © 2022, The\nAuthor(s), under exclusive licence to Springer Nature Singapore Pte Ltd."
+    },
+    {
+      "document_id": 407,
+      "score": null,
+      "abstract": "Twitter is an important place to get access to breaking news and information. So, it is necessary to check the trustworthiness of tweets. Credibility is\nused to assess the quality of being believable or worthy of trust. Credibility analysis refers to attempt to an ascertain truthfulness in short lie detection.\nIn , credibility of the twitter data can be assessed using centrality measures. First the tweets are preprocessed using the preprocessing techniques. The preprocessing techniques\non tweets: a stop word removal, stemming, pos tagging etc. are used to improve the performance. Preprocessed twitter data can be used to identify the\ntweet and author features. Then the centrality measures are applied to the preprocessed dataset. The proposed centrality measures used in are Betweeness centrality, Eigenvector centrality,\nDegree centrality and Closeness centrality. The centrality measures are used to find out the trust between the users and it will be given as input\nto classifiers. The classifiers like Naïve Bayesian, Support Vector Machine and K Nearest Neighbor are used to classify the tweets based on credibility. © BEIESP."
+    },
+    {
+      "document_id": 433,
+      "score": null,
+      "abstract": "The use of social media has become a regular habit for many and has changed the way people interact with each other. In this article,\nwe focus on analyzing whether news headlines support tweets and whether reviews are deceptive by analyzing the interaction or the influence that these texts have\non the others, thus exploiting contextual information. Concretely, we define a deep learning method for relation-based argument mining to extract argumentative relations of attack and\nsupport. We then use this method for determining whether news articles support tweets, a useful task in fact-checking settings, where determining agreement toward a statement\nis a useful step toward determining its truthfulness. Furthermore, we use our method for extracting bipolar argumentation frameworks from reviews to help detect whether they\nare deceptive. We show experimentally that our method performs well in both settings. In particular, in the case of deception detection, our method contributes a\nnovel argumentative feature that, when used in combination with other features in standard supervised classifiers, outperforms the latter even on small data sets."
+    },
+    {
+      "document_id": 476,
+      "score": null,
+      "abstract": "Twitter, as a popular social networking tool that allows its users to conveniently propagate information, has been widely used by politicians and political campaigners worldwide.\nIn the past years, Twitter has come under scrutiny due to its lack of filtering mechanisms, which lead to the propagation of trolling, bullying, and\nother unsocial behaviors. Rumors can also be easily created on Twitter, e.g., by extreme political campaigners, and widely spread by readers who cannot judge their\ntruthfulness. Current work on Twitter message assessment, however, focuses on credibility, which is subjective and can be affected by assessor’s bias. In , we focus\non the actual message truthfulness, and propose a rule-based method for detecting political rumors on Twitter based on identifying extreme users. We employ clustering methods\nto identify news tweets. In contrast with other methods that focus on the content of tweets, our unsupervised classification method employs five structural and timeline\nfeatures for the detection of extreme users. We show with extensive experiments that certain rules in our rule set provide accurate rumor detection with precision\nand recall both above 80 %, while some other rules provide 100% precision, although with lower recalls. © Springer International Publishing AG 2016."
+    },
+    {
+      "document_id": 491,
+      "score": null,
+      "abstract": "The increasing popularity of Twitter and other microblogs makes improved trustworthiness and relevance assessment of microblogs evermore important. We propose a method of ranking of\ntweets considering trustworthiness and content based popularity. The analysis of trustworthiness and popularity exploits the implicit relationships between the tweets. We model microblog ecosystem as\na three-layer graph consisting of: (i) users (ii) tweets and (iii) web pages. We propose to derive trust and popularity scores of entities in these\nthree layers, and propagate the scores to tweets considering the inter-layer relations. Our preliminary evaluations show improvement in precision and trustworthiness over the baseline methods\nand acceptable computation timings. © 2012 ACM."
+    },
+    {
+      "document_id": 493,
+      "score": null,
+      "abstract": "We analyze the information credibility of news propagated through Twitter, a popular microblogging service. Previous research has shown that most of the messages posted on\nTwitter are truthful, but the service is also used to spread misinformation and false rumors, often unintentionally.On we focus on automatic methods for assessing the\ncredibility of a given set of tweets. Specifically, we analyze microblog postings related to \"trending\" topics, and classify them as credible or not credible, based\non features extracted from them. We use features from users' posting and re-posting (\"re-tweeting\") behavior, from the text of the posts, and from citations to\nexternal sources.We evaluate our methods using a significant number of human assessments about the credibility of items on a recent sample of Twitter postings. Our\nresults shows that there are measurable differences in the way messages propagate, that can be used to classify them automatically as credible or not credible,\nwith precision and recall in the range of 70\\% to 80\\%."
+    }
+  ]
+}

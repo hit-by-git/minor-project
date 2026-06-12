@@ -1,0 +1,45 @@
+{
+  "topic_id": 29,
+  "label": "T029",
+  "label_full": "time, ftransform",
+  "keywords": [
+    "time",
+    "ftransform",
+    "temporal",
+    "bdo",
+    "ilp",
+    "precise",
+    "rules",
+    "energy",
+    "ptsf",
+    "logic"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 63,
+      "score": null,
+      "abstract": "The proliferation of fake news has raised concerns regarding its detection, posing a significant challenge. Motivated by the ongoing discussion on the sustainability of machine\nlearning algorithms, discusses the usefulness of data reduction for fake news detection. This is accomplished by using the fuzzy transform (or F-transform for short), which\nhas already been proven effective, in the literature, to reduce the training time. A Long Short Term Memory architecture is then employed for classification to\ndetermine the authenticity of the news. From the formal perspective, we discuss in general the role of the F-transform in a learning system. Regarding the\nnumerical experiments, we use five publicly available datasets, trying different compression ratios and different types of F-transform, assessing accuracy, F1 score, training time and energy\nconsumption with and without F-transform. Although the F-transform is a lossy compression technique, the results show a negligible variation in accuracy and F1-score when comparing\nresults with and without F-transform (i.e. 1%–3% in most cases and around 10% in one case). This seems to be congruent with the theoretical achievement.\nFurthermore, the approach yields substantial training time and energy savings, with over 50% reduction in energy consumption. © 2023 Elsevier B.V."
+    },
+    {
+      "document_id": 97,
+      "score": null,
+      "abstract": "The integration of Inductive Logic Programming (ILP) and Bottlenose Dolphin Optimization (BDO) in this research addresses a pressing issue in today's information-saturated landscape: the proliferation\nof fake news. In an era where misleading information can spread rapidly, traditional methods often fall short in effectively identifying deceptive content. To combat this\nchallenge, our approach harnesses the synergies of ILP and BDO. ILP plays a crucial role in constructing logical rules that capture intricate relationships within news\ndata. By doing so, it delves deep into the content, seeking out patterns and inconsistencies that may not be obvious at first glance. BDO, on\nthe other hand, takes inspiration from the social behavior of bottlenose dolphins to optimize the process of generating these rules. Just as dolphins collaborate and\ncommunicate to solve complex problems, BDO helps refine the logical rules for better accuracy. Ultimately, this research underscores the potential of bio-inspired optimization, such as\nBDO, combined with the precision of logic programming (ILP) to strengthen the integrity of information dissemination platforms. In an age where the veracity of information\nis paramount, this innovative approach offers a promising solution to combat the spread of fake news and promote the dissemination of authentic, reliable information. ©\n2024 IEEE."
+    },
+    {
+      "document_id": 120,
+      "score": null,
+      "abstract": "The proliferation of fake news has emerged as a severe societal problem, raising significant interest from industry and academia. While existing deep-learning based methods have\nmade progress in detecting fake news accurately, their reliability may be compromised caused by the non-transparent reasoning processes, poor generalization abilities and inherent risks of\nintegration with large language models (LLMs). To address this challenge, we propose TELLER, a novel framework for trustworthy fake news detection that prioritizes explainability, generalizability\nand controllability of models. This is achieved via a dual-system framework that integrates cognition and decision systems, adhering to the principles above. The cognition system\nharnesses human expertise to generate logical predicates, which guide LLMs in generating human-readable logic atoms. Meanwhile, the decision system deduces generalizable logic rules to aggregate\nthese atoms, enabling the identification of the truthfulness of the input news across diverse domains and enhancing transparency in the decision-making process. Finally, we present\ncomprehensive evaluation results on four datasets, demonstrating the feasibility and trustworthiness of our proposed framework. Our implementation is available at this link. © 2024 Association\nfor Computational Linguistics."
+    },
+    {
+      "document_id": 355,
+      "score": null,
+      "abstract": "The task of temporal slot filling (TSF) is to extract values of specific attributes for a given entity, called “facts”, as well as temporal tags\nof the facts, from text data. While existing work denoted the temporal tags as single time slots, in , we introduce and study the task\nof Precise TSF (PTSF), that is to fill two precise temporal slots including the beginning and ending time points. Based on our observation from a\nnews corpus, most of the facts should have the two points, however, fewer than 0.1% of them have time expressions in the documents. On the\nother hand, the documents’ post time, though often available, is not as precise as the time expressions of being the time a fact was valid.\nTherefore, directly decomposing the time expressions or using an arbitrary post-time period cannot provide accurate results for PTSF. The challenge of PTSF lies in finding\nprecise time tags in noisy and incomplete temporal contexts in the text. To address the challenge, we propose an unsupervised approach based on the philosophy\nof truth finding. The approach has two modules that mutually enhance each other: One is a reliability estimator of fact extractors conditionally on the temporal\ncontexts; the other is a fact trustworthiness estimator based on the extractor’s reliability. Commonsense knowledge (e.g., one country has only one president at a specific\ntime) was automatically generated from data and used for inferring false claims based on trustworthy facts. For the purpose of evaluation, we manually collect hundreds\nof temporal facts from Wikipedia as ground truth, including country’s presidential terms and sport team’s player career history. Experiments on a large news dataset demonstrate\nthe accuracy and efficiency of our proposed algorithm. © 2020, Springer-Verlag London Ltd., part of Springer Nature."
+    },
+    {
+      "document_id": 401,
+      "score": null,
+      "abstract": "The phenomenal growth in web information has nourished research endeavours for automatic fact checking, or fake news and/or misinformation detection. This is one of the\nvery emerging and challenging problems in Natural Language Processing (NLP), Machine Learning (ML) and Data Science. One such problem relates to estimating the veracity of\na news story, which is a complex and deep problem. The very recently released Fake News Challenge Stage 1 (FNC-1) dataset introduced the benchmark FNC\nstage-1: stance detection task. This task could be an effective first step towards building a robust fact checking system. In , we correlate this stance\ndetection problem with Textual Entailment (TE). We present the systems which are based on statistical machine learning (ML), Deep Learning (DL), and a combination of\nboth. Empirical evaluation shows encouraging performance, outperforming the state-of-the-art system. © 2019, Springer Nature Switzerland AG."
+    }
+  ]
+}

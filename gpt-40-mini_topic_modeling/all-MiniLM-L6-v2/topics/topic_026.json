@@ -1,0 +1,50 @@
+{
+  "topic_id": 26,
+  "label": "T026",
+  "label_full": "learning, machine",
+  "keywords": [
+    "news",
+    "learning",
+    "machine",
+    "bilstm",
+    "lstm",
+    "naive",
+    "feature",
+    "covid19",
+    "lstmrf",
+    "covaxreality"
+  ],
+  "n_docs": 6,
+  "documents": [
+    {
+      "document_id": 56,
+      "score": null,
+      "abstract": "Real-time news is widely disseminated through the Internet on a global scale. One of the factors contributing to its success is the simple and speedy\nspread of news. Social networking platforms have a huge user base that includes people of all ages, genders, and social backgrounds. Considering these positive aspects,\na serious drawback is the propagation of misinformation, as most individuals read and spread information without giving any thought to its veracity. Researching techniques for\nnews authenticity is so essential. To address this problem, a fake news identification system is created by training the COVID-19 tweets with roughly 12,427 records\ntaken from Kaggle and GitHub repository from three different sets, annotated manually as Fake (0) and Real (1) by cross-checking through websites that verify facts\nusing machine learning classifiers like RF, SVM, LR, NB, and Deep Learning classifiers LSTM and Bi-LSTM. The feature extraction process makes use of the Word2Vec\nword embedding technique. According to the findings, Bi-LSTM performed better than all the other models in terms of accuracy, scoring 87.3%. © The Author(s), under\nexclusive license to Springer Nature Singapore Pte Ltd. 2024."
+    },
+    {
+      "document_id": 72,
+      "score": null,
+      "abstract": "The rampant spread of misinformation undermines the credibility of social media platforms in today's digital landscape [1]. Machine learning techniques have become vital in detecting\nfake news and maintaining public confidence in media outlets [3]. This article surveys recent progress in machine learning for fake news detection, addressing the complexity\nof misinformation and evaluating the various technologies and methods used in this field. By examining current research, we outline the benefits and limitations of different\napproaches, including both traditional machine learning models and advanced deep learning algorithms [4]. Our findings reveal that traditional machine learning techniques achieve significant accuracy in\nidentifying fake news: Naive Bayes at 95.27%, Logistic Regression at 9 8. 8 4 %, Decision Tree at 9 9. 5 8 %, Random Forest\nat 9 9. 3 0 %, and SVM at 9 9. 4 0 %. Additionally, we showcase the practical use of these methods through a\nweb-based tool built with the Django framework, allowing users to determine the authenticity of news articles. This review provides essential insights for researchers, practitioners, and\npolicymakers to develop more effective strategies to combat misinformation and foster a well-informed society. Furthermore, we explore emerging trends such as automated content ethics and\nstress the importance of collaboration among machine learning experts, journalists, and social scientists. This review aims to serve as a valuable resource guiding future research\nand decision-making processes to reduce the spread of misinformation in the digital world. © 2024 IEEE."
+    },
+    {
+      "document_id": 75,
+      "score": null,
+      "abstract": "False information that is reported as news and frequently intended to harm reputations or make money is called fake news. It has been used to\nrefer to all types of misleading information since it was first introduced in the 1890s and is frequently produced by adversarial foreign actors. Due to\nthe variety of fake news kinds, experts increasingly prefer the term “information disorder” as a neutral and educational word. The study addresses information overload and\nfiltering issues on social media by introducing a new approach to assessing news reliability. It uses Cosine Similarity based Retriever Augmented Generation (RAG) technique and\nclassification deep learning algorithm to classify news as fake or real, with the best-performing feature predicting its authenticity. The system achieved 91% accuracy in testing.\n© 2024 Taylor & Francis Group, London."
+    },
+    {
+      "document_id": 146,
+      "score": null,
+      "abstract": "The dissemination of news and coverage of events, both domestically and internationally, is now mostly the responsibility of print, web, and broadcast media. Because of\nthe explosion of information available online, verifying the veracity of claims is more difficult than ever. It is extremely difficult to verify the veracity of\nfake news using conventional data processing techniques without seriously misinforming the public. Indeed, the difficulty for the government and the public is a matter of\ncase by case argument. Several sites were built specifically for this purpose, each using its own unique logic and algorithm to determine which stories were\nmore likely to be true or false. There needs to be a system in place for verifying the veracity of online claims, especially those that\ngarner thousands of shares and clicks before being disproved by credible sources. In this proposed approach to an LSTM-RF classifier was used to determine whether\nor not a news story was fabricated. The three-step process that makes up the suggested method is as follows: preprocessing; feature extraction and feature selection;\nand LSTM-RF model training. In preprocessing, you'll clean the data, get rid of stop words, tokenize it, and stem it. The TF-IDF and Extra Tree\nClassifier are used for feature selection. The model is trained with LS TM-RF. The proposed method achieves superior results compared to LSTM and RF. ©\n2023 IEEE."
+    },
+    {
+      "document_id": 171,
+      "score": null,
+      "abstract": "In the past few years, social media and online news platforms have played an essential role in distributing news content rapidly. Consequently. verification of the\nauthenticity of news has become a major challenge. During the COVID-19 outbreak, misinformation and fake news were major sources of confusion and insecurity among the\ngeneral public. In the first quarter of the year 2020, around 800 people died due to fake news relevant to COVID-19. The major goal of\nthis research was to discover the best learning model for achieving high accuracy and performance. A novel case study of the Fake News Classification using\nELECTRA model, which achieved 85.11% accuracy score, is thus reported in thismanuscript. In addition to that, a new novel dataset called COVAX-Reality containing COVID-19 vaccinerelated\nnews has been contributed. Using the COVAX-Reality dataset, the performance of FNEC is compared to several traditional learning models i.e., Support Vector Machine (SVM), Naive\nBayes (NB), Passive Aggressive Classifier (PAC), Long Short-Term Memory (LSTM), Bi-directional LSTM (Bi-LSTM) and Bi-directional Encoder Representations from Transformers (BERT). For the evaluation of FNEC,\nstandard metrics (Precision, Recall, Accuracy, and F1-Score) were utilized. © 2023, Tech Science Press. All rights reserved."
+    },
+    {
+      "document_id": 177,
+      "score": null,
+      "abstract": "The internet has made it simpler for people to obtain and share news and information from a variety of sources, but it also promotes the\nspread of false information. presents a technique for identifying bogus news that employs deep learning and machine learning and is implemented in Python. Four separate\nmodels - Naive Bayes, Decision Tree, Random Forest, and Bidirectional Long Short-Term Memory - are used in the research for this aim. The method is\nbased on disentangling false news from actual news by examining the linguistic characteristics of news pieces. The results emphasize the value of DL approaches in\ndetecting false news by showing that the BILSTM model is the most successful in doing so with an accuracy rate of 93%. The suggested strategy\nhas important ramifications for boosting news source trustworthiness and fostering media literacy. © 2023 IEEE."
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "topic_id": 24,
+  "label": "T024",
+  "label_full": "Misinformation & Propaganda",
+  "keywords": [
+    "social",
+    "berdledcd",
+    "media",
+    "weight",
+    "mbilstm",
+    "news",
+    "fake",
+    "optimization",
+    "drn",
+    "adam"
+  ],
+  "n_docs": 7,
+  "documents": [
+    {
+      "document_id": 17,
+      "score": null,
+      "abstract": "The widespread dissemination of deceptive content on social media presents a substantial challenge to preserving authenticity and trust. The epidemic growth of false news is\ndue to the greater use of social media to transmit news, rather than conventional mass media such as newspapers, magazines, radio, and television. Humans' incapacity\nto differentiate among true and false facts exposes fake news as a threat to logical truth, democracy, journalism, and government credibility. Using combination of advanced\nmethodologies, Deep learning (DL) methods, and Natural Language Processing (NLP) approaches, researchers and technology developers attempt to make robust systems proficient in discerning the subtle\nnuances that betray deceptive intent. Analysing conversational linguistic patterns of misleading data, these techniques’ purpose to progress the resilience of social platforms against the spread\nof deceptive content, eventually contributing to an additional informed and trustworthy online platform. proposed a Knowledge-Aware NLP-Driven AlBiruni Earth Radius Optimization Algorithm with Deep Learning\nTool for Enhanced Deceptive Content Detection (BER-DLEDCD) algorithm on Social Media. The purpose of the BER-DLEDCD system is to identify and classify the existence of\ndeceptive content utilizing NLP with optimal DL model. In the BER-DLEDCD technique, data pre-processing takes place to change the input data into compatible format. Furthermore,\nthe BER-DLEDCD approach applies hybrid DL technique encompassing Convolutional Neural Network with Long Short-Term Memory (CNN-LSTM) methodology for deceptive content detection. Moreover, the BER approach\nhas been deployed to boost hyperparameter choice of the CNN-LSTM technique which leads to enhanced detection performance. The simulation outcome of the BER-DLEDCD system has\nbeen examined employing benchmark database. The extensive outcomes stated the BER-DLEDCD system achieved excellent performance with the accuracy of 94 %, 94.83 % precision, 94.30\n% F-score with other recent approaches. © 2024 Elsevier Ltd"
+    },
+    {
+      "document_id": 168,
+      "score": null,
+      "abstract": "This research study presents an RNN-LSTM based fake news detection system to address the escalating problem of misinformation in the digital age. By leveraging Recurrent\nNeural Networks (RNNs) with Long Short-Term Memory (LSTM) units, the system effectively analyzes the sequential nature of textual data to distinguish the real and fake\nnews. Through preprocessing, word embedding, and training on a labeled dataset, the model learns to identify patterns that indicate the authenticity of news articles or\nstatements. The proposed system offers a promising solution to combat fake news, contributing to the promotion of reliable information dissemination in today's media landscape. ©\n2023 IEEE."
+    },
+    {
+      "document_id": 174,
+      "score": null,
+      "abstract": "The digital era is proliferating, and we are in a time where we interact with lots of information in many ways. Life has become more\nsensitive with social media, and in the present scenario, users’ activity on social media has become more frequent. The impact of social media and the\nnews shared over it directly impacts the user. Social media is a powerful tool that can spread word of mouth in a fraction of a\nsecond. There is a variety of content and information shared all over social media and other information sources. This mystifies the user to agree on\nwhether it is genuine or fake news. Social media has given so much power to the user that they immediately start expressing their views and\nconcerns without checking the authenticity of the posted content. As a result, the user shares the news and becomes a spreader of fake news. This\nis a challenging task for the government and the country’s citizens. The most popular form of unauthenticated information is rumors and fake news, and this\nshould be combated as early as possible before it takes any dramatic consequence. For this, we propose a solution where a long short term memory(LSTM)\nmodel is used to detect the fake news, and the proposed approach attained the accuracy of 98%. © 2023, The Author(s), under exclusive license to\nSpringer Nature Switzerland AG."
+    },
+    {
+      "document_id": 179,
+      "score": null,
+      "abstract": "In recent days, social media is termed a major source for several people residing over the world because of less cost, simpler accessibility, and quick\ndissemination. However, it comes with dubious trustworthiness and is of high risk in exposing fake news. Hence, the automated discovery of fake news is an\nessential task. An innovative model is provided to identify fake news considering social media. Here, the BERT model is utilized to perform tokenization in order\nto produce tokens. Multiple features linked with the data are analyzed for detecting the behavior using the deep model. The features, like Term Frequency-Inverse Document\nFrequency (TF-IDF), SentiWordNet scores, and sentence level features are obtained to automatically learn the features. Automatic discovery of fake news is done with Aquila Feedback\nArtificial tree-based Deep Residual Network (AFAT-based DRN). The optimum weight tuning of DRN is executed with AFAT and the AFAT is the fusion of Aquila\noptimizer (AO) and Feedback artificial tree (FAT). The impact detection of fake news is done with AFAT-based DRN, which helps to detect how many of\nthem shared the fake news. The AFAT-based DRN offered high competence with utmost sensitivity of 92.3%, testing accuracy of 91.6%, and specificity of 91.9%. ©\n2023 - IOS Press. All rights reserved."
+    },
+    {
+      "document_id": 185,
+      "score": null,
+      "abstract": "Social platform have disseminated the news in rapid speed and has been considered an important news resource for many people over worldwide because of easy\naccess and less cost benefits when compared with the traditional news organizations. Fake news is the news deliberately written by bad writers that manipulates the\noriginal contents and this rapid dissemination of fake news may mislead the people in the society. As a result, it is critical to investigate the\nveracity of the data leaked via social media platforms. Even so, the reliability of information reported via this platform is still doubtful and remains a\nsignificant obstacle. As a result, this study proposes a promising technique for identifying fake information in social media called Adam Adadelta Optimization based Deep Long\nShort-Term Memory (Deep LSTM). The tokenization operation in this case is carried out with the Bidirectional Encoder Representations from Transformers (BERT) approach. The measurement of\nthe features is reduced with the assistance of Kernel Linear Discriminant Analysis (LDA), and Singular Value Decomposition (SVD) and the top-N attributes are chosen by\nemploying Renyi joint entropy. Furthermore, the LSTM is applied to identify false information in social media, with Adam Adadelta Optimization, which comprises a combo of\nAdam Optimization and Adadelta Optimization. The Deep LSTM based on Adam Adadelta Optimization achieved maximum accuracy, sensitivity, specificity of 0.936, 0.942, and 0.925. © 2023\n- IOS Press. All rights reserved."
+    },
+    {
+      "document_id": 246,
+      "score": null,
+      "abstract": "The use of social media has increased tremendously during the past few decades and is considered one of the major sources of news. Social media\ndon’t have the authority to verify the authenticity of the news and because of this, it is considered as a significant reason behind the spread\nof fake news. Many existing methods have been applied to detect fake news in social media and all those have the drawbacks of lower efficiency\nand overfitting problem. In this research, structural features with the Modified Bi-directional Long Short Term Memory (MBi-LSTM) method are proposed to improve the efficiency of\nFake news detection. The attention layer is introduced in the Bi-LSTM to update the weight value of the input features and Term Frequency – Inverse\nDocument Frequency (TF-IDF), based on the scalar factor. This weight value is updated in the input gate weight value of the Bi-LSTM that helps to\nfind the relevant feature to store in cell. The proper weight in the Bi-LSTM model stores the features related to reliable information in long-term that\nhelps to improves the classification performance. The structural, user, content, and temporal features were extracted from the Twitter data and applied to the MBi-LSTM method.\n33 features were extracted for structural, user, content, and temporal features for the classification. The PolitiFact dataset is collected and used for testing the efficiency\nof the proposed MBi-LSTM method. Additionally, the CREDBANK dataset is also applied to test the effectiveness of the proposed MBi-LSTM method in the case of\na large dataset. The experimental result shows that the proposed MBi-LSTM method has an accuracy of 91% and the Bi-LSTM method has an accuracy of\n86.69% in PolitiFact’s dataset. © 2022, The Author(s), under exclusive licence to Springer Science+Business Media, LLC, part of Springer Nature."
+    },
+    {
+      "document_id": 317,
+      "score": null,
+      "abstract": "In today's society, social media plays a remarkable part in imparting information and news about various social events. Without consideration for the authenticity of these\nnews, some fake news is disseminated through social networking websites or platforms and reaches millions of individuals. This dissemination has a huge impact on human\nsocial lives as well as in the political realm. Therefore, detecting fake news is a rapidly evolving area of research to empower trust-based social networking.\nIn this research study, we proposed a stacked bi-directional LSTM based model for discriminating among fake and genuine news. In the initial step, we acquire\nthe data of news descriptions which is forwarded to the preprocessing stage followed by encoding the words or text into a dense vector representation. Subsequently,\nthe stacked bidirectional LSTM is employed to categorize the news articles into real or Fake. The suggested approach is validated using the Fake News Detection\ndatabase, which is a freely accessible benchmark database. Furthermore, we have performed a different set of experiments with various weight optimizers. It is observed that\nthe suggested technique shows encouraging outcomes in classifying the news as real or fake with 95% accuracy. © 2021 IEEE."
+    }
+  ]
+}

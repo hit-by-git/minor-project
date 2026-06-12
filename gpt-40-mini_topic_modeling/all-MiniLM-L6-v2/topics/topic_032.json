@@ -1,0 +1,45 @@
+{
+  "topic_id": 32,
+  "label": "T032",
+  "label_full": "Misinformation & Propaganda",
+  "keywords": [
+    "lstm",
+    "adadelta",
+    "adam",
+    "deep",
+    "optimization",
+    "news",
+    "5lcnn",
+    "media",
+    "learning",
+    "fake"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 168,
+      "score": null,
+      "abstract": "This research study presents an RNN-LSTM based fake news detection system to address the escalating problem of misinformation in the digital age. By leveraging Recurrent\nNeural Networks (RNNs) with Long Short-Term Memory (LSTM) units, the system effectively analyzes the sequential nature of textual data to distinguish the real and fake\nnews. Through preprocessing, word embedding, and training on a labeled dataset, the model learns to identify patterns that indicate the authenticity of news articles or\nstatements. The proposed system offers a promising solution to combat fake news, contributing to the promotion of reliable information dissemination in today's media landscape. ©\n2023 IEEE."
+    },
+    {
+      "document_id": 172,
+      "score": null,
+      "abstract": "Fake news is now widely disseminated through social media networking platforms. These stories have factual inaccuracies and crumbed material, and as a result of these\ninaccuracies, unfavorable events have arisen in society. Various verification methods and algorithms have been used on social media platforms to manage such content. In a\nprior study, the linguistic structures of text were employed to detect false or authentic contents, and machine learning and deep learning algorithms were used to\ndiscern temporal patterns. The complex models of neural network architecture have been employed in recent research to aid in the selection of the right parameters\nfrom the dataset as well as the calculation of superior outcomes. In order to identify whether certain articles or statements are true or fake, this\nstudy employed two separate datasets: one to train the model and the other to generate real-time authenticity scores. The deep neural networks’ LSTM and Bi-LSTM\ntechniques were used to train the suggested model. This research was successfully tested using real-time subreddit blogs, generating authenticity measures with their probability scores and\nverifying the blogs’ trustworthy sources. © The Author(s), under exclusive license to Springer Nature Singapore Pte Ltd. 2023."
+    },
+    {
+      "document_id": 185,
+      "score": null,
+      "abstract": "Social platform have disseminated the news in rapid speed and has been considered an important news resource for many people over worldwide because of easy\naccess and less cost benefits when compared with the traditional news organizations. Fake news is the news deliberately written by bad writers that manipulates the\noriginal contents and this rapid dissemination of fake news may mislead the people in the society. As a result, it is critical to investigate the\nveracity of the data leaked via social media platforms. Even so, the reliability of information reported via this platform is still doubtful and remains a\nsignificant obstacle. As a result, this study proposes a promising technique for identifying fake information in social media called Adam Adadelta Optimization based Deep Long\nShort-Term Memory (Deep LSTM). The tokenization operation in this case is carried out with the Bidirectional Encoder Representations from Transformers (BERT) approach. The measurement of\nthe features is reduced with the assistance of Kernel Linear Discriminant Analysis (LDA), and Singular Value Decomposition (SVD) and the top-N attributes are chosen by\nemploying Renyi joint entropy. Furthermore, the LSTM is applied to identify false information in social media, with Adam Adadelta Optimization, which comprises a combo of\nAdam Optimization and Adadelta Optimization. The Deep LSTM based on Adam Adadelta Optimization achieved maximum accuracy, sensitivity, specificity of 0.936, 0.942, and 0.925. © 2023\n- IOS Press. All rights reserved."
+    },
+    {
+      "document_id": 241,
+      "score": null,
+      "abstract": "With the advent of websites and social media technologies, the internet has been a great method of transmitting news and information around the globe. However,\ndue to lack of editorial scrutiny and monitoring by the media authorities, the news distribution has been seriously abused leading to the fast spreading of\nfake news. Fake news involves misleading broadcasting of information from sources that target to intentionally manipulate the way how people view some events or statements.\nThis study seeks to develop a fake news detection model which will be able to analyze the title and text information attached to the news\narticles. From the researches done by previous scholars, it showed that the models did not perform very well because of the lack of sufficient feature\nextraction and fine tuning of the classification of the text. This research will therefore, articulate the gap by employing 5L-CNN deep learning model which will\nuse inbuilt tokenizers for word embedding and will show better accuracy compared to the traditional machine learning models. In , we compare machine learning algorithms\n(Decision trees, Random Forest, Logistic Regression & Naive Bayes) and deep learning algorithms (RNN, 5L-CNN & LSTM) to classify the authenticity of news articles. The\nmodel developed in attained the best accuracy with 5L-CNN which had a result of 99.99%. © 2022 IEEE."
+    },
+    {
+      "document_id": 330,
+      "score": null,
+      "abstract": "Due to the popularity of online media and especially social media, accessing news online through social media platforms has become the preferred way for people\nto obtain their news. However, it is now widely recognized that there is an increasing amount of fake news on the Internet. Fake news can\nbe very similar to real news, so it is often difficult for readers to distinguish the truth/veracity of the news they read. Machine learning and\ndeep learning models can help in this regard. In , we compare and analyse the performance of four machine learning models (Logistic regression, Random Forest,\nSupport Vector Machines (SVM), Naïve Bayes) and three deep learning models (Recurrent Neural Network (RNN), Long Short-Term Memory (LSTM) and BERT) on data sets comprising\nboth true and fake news. We explore different methods for extracting language features from the news and evaluate the performance of the model using accuracy\nas an evaluation indicator. We identified that the BERT model reached an accuracy of 86.76 and was most effective. © 2021 IEEE"
+    }
+  ]
+}

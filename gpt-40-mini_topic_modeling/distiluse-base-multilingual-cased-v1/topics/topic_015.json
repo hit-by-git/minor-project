@@ -1,0 +1,60 @@
+{
+  "topic_id": 15,
+  "label": "T015",
+  "label_full": "Misinformation & Propaganda",
+  "keywords": [
+    "news",
+    "internet",
+    "people",
+    "fake",
+    "platforms",
+    "adam",
+    "adadelta",
+    "newspapers",
+    "propagation",
+    "social"
+  ],
+  "n_docs": 8,
+  "documents": [
+    {
+      "document_id": 56,
+      "score": null,
+      "abstract": "Real-time news is widely disseminated through the Internet on a global scale. One of the factors contributing to its success is the simple and speedy\nspread of news. Social networking platforms have a huge user base that includes people of all ages, genders, and social backgrounds. Considering these positive aspects,\na serious drawback is the propagation of misinformation, as most individuals read and spread information without giving any thought to its veracity. Researching techniques for\nnews authenticity is so essential. To address this problem, a fake news identification system is created by training the COVID-19 tweets with roughly 12,427 records\ntaken from Kaggle and GitHub repository from three different sets, annotated manually as Fake (0) and Real (1) by cross-checking through websites that verify facts\nusing machine learning classifiers like RF, SVM, LR, NB, and Deep Learning classifiers LSTM and Bi-LSTM. The feature extraction process makes use of the Word2Vec\nword embedding technique. According to the findings, Bi-LSTM performed better than all the other models in terms of accuracy, scoring 87.3%. © The Author(s), under\nexclusive license to Springer Nature Singapore Pte Ltd. 2024."
+    },
+    {
+      "document_id": 162,
+      "score": null,
+      "abstract": "The Internet has replaced many newspapers as the principal source of information as newspapers' popularity has declined. People have access to a variety of news\nsources on the Internet. The tremendous increase in everyday internet users has resulted from the decreased cost of internet services. The number of Internet users\nin India has increased by about 146% in the last five years. The most common news sources today are social media, despite the fact that\nonline newspapers were once very popular. Creating content and disseminating it to the public under the guise of true news from a reliable news source\nis a major concern. This has led to an increase in the frequency with which people consume 'false news.' The dissemination of fake news has\nsevere consequences, including the potential to influence election outcomes. This research focuses on using crowdsourcing to address the challenge of recognising bogus news on the\nInternet. Crowdsourcing is the practise of gathering data from a sizable number of people, usually online. An efficient method for crowdsourcing fact-checking has been revealed\nby prior research. In order to stop the spread of false information on the Internet, aims to solve the limitations of earlier research studies and\nbuild on them to make crowdsourcing a reliable method for fact-checking. concludes with an order for a person to be verified in a specific category,\nthey will need to post several comments and reviews that are continuously scored highly. This requirement ensures the authenticity of authenticated users and the fact-checking\nthey do. © 2023 IEEE."
+    },
+    {
+      "document_id": 185,
+      "score": null,
+      "abstract": "Social platform have disseminated the news in rapid speed and has been considered an important news resource for many people over worldwide because of easy\naccess and less cost benefits when compared with the traditional news organizations. Fake news is the news deliberately written by bad writers that manipulates the\noriginal contents and this rapid dissemination of fake news may mislead the people in the society. As a result, it is critical to investigate the\nveracity of the data leaked via social media platforms. Even so, the reliability of information reported via this platform is still doubtful and remains a\nsignificant obstacle. As a result, this study proposes a promising technique for identifying fake information in social media called Adam Adadelta Optimization based Deep Long\nShort-Term Memory (Deep LSTM). The tokenization operation in this case is carried out with the Bidirectional Encoder Representations from Transformers (BERT) approach. The measurement of\nthe features is reduced with the assistance of Kernel Linear Discriminant Analysis (LDA), and Singular Value Decomposition (SVD) and the top-N attributes are chosen by\nemploying Renyi joint entropy. Furthermore, the LSTM is applied to identify false information in social media, with Adam Adadelta Optimization, which comprises a combo of\nAdam Optimization and Adadelta Optimization. The Deep LSTM based on Adam Adadelta Optimization achieved maximum accuracy, sensitivity, specificity of 0.936, 0.942, and 0.925. © 2023\n- IOS Press. All rights reserved."
+    },
+    {
+      "document_id": 257,
+      "score": null,
+      "abstract": "Nowadays, online social media play a significant role in news broadcasts due to their convenience, speed, and accessibility. Social media platforms leverage the rapid production\nof a large volume of information and cause the propagation of untrustworthy and fake news. Since fake news is engineered to deceive a wide range\nof readers deliberately, it is not easy to detect them merely based on the news content. Hence, more information, such as the social context, is\nneeded. Moreover, to limit the impact of fake news on society, it is essential to detect them as early as possible. In , we have\ndeveloped an automated system “DSS” for the early detection of fake news wherein we leverage the propagation tree and the stance network simultaneously and dynamically.\nOur proposed model comprises three major components: Dynamic analysis, Static analysis, and Structural analysis. During dynamic analysis, a recurrent neural network is used to encode\nthe evolution pattern of the propagation tree and the stance network over time. The static analysis uses a fully connected network to precisely represent the\noverall characteristics of the propagation tree and the stance network at the end of a detection deadline. The node2vec algorithm is used during structural analysis\nas a graph embedding model to encode the structure of the propagation tree and the stance network. Finally, the outputs of these components are aggregated\nto determine the veracity of the news articles. Our proposed model is evaluated on the FakeNewsNet repository, comprising two recent well-known datasets in the field,\nnamely PolitiFact and GossipCop. Our results show encouraging performance, outperforming the state-of-the-art methods by 8.2% on the PolitiFact and 3% on the GossipCop datasets. Early\ndetection of fake news is the merit of the proposed model. The DSS model provides outstanding accuracy in the early stages of spreading, as well\nas the later stages. © 2022"
+    },
+    {
+      "document_id": 316,
+      "score": null,
+      "abstract": "Newspapers and radios are the things of the past, the current generation depends on the internet, specifically social media platforms to stay up to date\nwith the global news. The ease of access, affordability and widespread audience has made these platforms a perfect choice to reach the world. While this\nhas sped up and streamlined news consumption, it is not without drawbacks. The major issue is the proliferation of false/fake news which can have serious\nrepercussions in sensitive matters. Understanding the difference and authenticity of the news is becoming complicated everyday. Social media platforms and online newsletters are responsible for\nthe spread of fake news. However, this problem can be tackled using machine learning techniques and give verifiable news. The paper identifies counterfeit news using\nLogistic Regression. This model successfully labels a said article as “fake” or “real” with up to 80% accuracy. The paper ends with a review of\nthe model's feasibility and how it would be useful as an impactful mining method as well as proposes the scope of future improvements in the\nmodel which will help achieve greater accuracy in the prediction results. © 2021 IEEE"
+    },
+    {
+      "document_id": 364,
+      "score": null,
+      "abstract": "Online news platforms greatly influence our society and culture in both positive and negative ways. As online media becomes more dependent for source of information,\na lot of fake news is posted online, that widespread with people following it without any prior or complete information of event authenticity. Such misinformation\nhas the potential to manipulate public opinions. The exponential growth of fake news propagation have become a great threat to public for news trustworthiness. It\nhas become a compelling issue for which discovering, examining and dealing with fake news has increased in demand. However, with the limited availability of literature\non the issue of uncovering fake news, a number of potential methodologies and techniques remains unexplored. The primary aim of is to review existing methodologies,\nto propose and implement a method for automated deception detection. The proposed methodology uses deep learning in discourse-level structure analysis to formulate the structure that\ndifferentiates fake and real news. The baseline model achieved 74% accuracy. © 2020 IEEE."
+    },
+    {
+      "document_id": 373,
+      "score": null,
+      "abstract": "In a scenario where more and more individuals use online social network platforms as an instrument to propagate news without any control, it is necessary\nto design and implement new methods and techniques that guarantee the veracity of the disseminated news. In , we propose a method to classify true\nand false news, commonly known as fake news, which exploits time series-based features extracted from the evolution of news, and features from the users involved\nin the news spreading. Applying our methodology over a real Twitter dataset of precategorized true and false news, we have obtained an accuracy of 84.61%\nin 10-fold cross-validation, and proved experimentally that all the selected features are relevant for this classification task. © 2020, Springer Nature Switzerland AG."
+    },
+    {
+      "document_id": 400,
+      "score": null,
+      "abstract": "With the rapid development of the internet, social media has become an essential tool for getting information, and attracted a large number of people join\nthe social media platforms because of its low cost, accessibility and amazing content. It greatly enriches our life. However, its rapid development and widespread also\nhave provided an excellent convenience for the range of fake news, people are constantly exposed to fake news and suffer from it all the time.\nFake news usually uses hyperbole to catch people’s eyes with dishonest intention. More importantly, it often misleads the reader and causes people to have wrong\nperceptions of society. It has the potential for negative impacts on society and individuals. Therefore, it is significative research on detecting fake news. In the\npaper, we built a model named SMHA-CNN (Self Multi-Head Attention-based Convolutional Neural Networks) that can judge the authenticity of news with high accuracy based only\non content by using convolutional neural networks and self multi-head attention mechanism. In order to prove its validity, we conducted experiments on a public dataset\nand achieved a precision rate of 95.5% with a recall rate of 95.6% under the 5-fold cross-validation. Our experimental result indicates that the model is\nmore effective at detecting fake news. © 2019 Fang et al. This is an open access article distributed under the terms of the Creative Commons\nAttribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "topic_id": 34,
+  "label": "T034",
+  "label_full": "Fact-Checking & Verification",
+  "keywords": [
+    "scientific",
+    "claims",
+    "task",
+    "factchecking",
+    "citation",
+    "sentences",
+    "claim",
+    "expertise",
+    "given",
+    "dataset"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 3,
+      "score": null,
+      "abstract": "Due to rapidly changing and advancing science, it is important to check the veracity of scientific claims and whether they are supported by research evidence.\nPrevious versions of this task depended on supervised training, where labeled datasets were constructed through manual claim writing and evidence identification, sometimes coupled with mining\ncitation relationships in papers. In , we investigate whether zero-shot scientific claim verification could be enabled using large language models (LLMs) and distant supervision examples\ntaken directly from citation texts. We derive an in-context learning (ICL) dataset, SCitance, consisting of citation sentences (“citances”), LLM-generated negations, evidence documents, and veracity labels,\nand find that prompting GPT-4 with ICL examples from this dataset yields comparable performance (within 1 point F1) to previous finetuned models trained on manually\ncurated claim-evidence pairs. Our results suggest that prompting LLMs with citance-evidence pairs directly poses a viable alternative to finetuning scientific claim verification models with manually-curated\ndata."
+    },
+    {
+      "document_id": 132,
+      "score": null,
+      "abstract": "The task of fact-checking deals with assessing the veracity of factual claims based on credible evidence and background knowledge. In particular, scientific fact-checking is the\nvariation of the task concerned with verifying claims rooted in scientific knowledge. This task has received significant attention due to the growing importance of scientific\nand health discussions on online platforms. Automated scientific fact-checking methods based on NLP can help combat the spread of misinformation, assist researchers in knowledge discovery,\nand help individuals understand new scientific breakthroughs. In , we present a comprehensive survey of existing research in this emerging field and its related tasks.\nWe provide a task description, discuss the construction process of existing datasets, and analyze proposed models and approaches. Based on our findings, we identify intriguing\nchallenges and outline potential future directions to advance the field."
+    },
+    {
+      "document_id": 208,
+      "score": null,
+      "abstract": "Given the recent proliferation of false claims online, there has been a lot of manual fact-checking effort. As this is very time-consuming, human fact-checkers can\nbenefit from tools that can support them and make them more efficient. Here, we focus on building a system that could provide such support. Given\nan input document, it aims to detect all sentences that contain a claim that can be verified by some previously fact-checked claims (from a given\ndatabase). The output is a re-ranked list of the document sentences, so that those that can be verified are ranked as high as possible, together\nwith corresponding evidence. Unlike previous work, which has looked into claim retrieval, here we take a document-level perspective. We create a new manually annotated dataset\nfor the task, and we propose suitable evaluation measures. We further experiment with a learning-to-rank approach, achieving sizable performance gains over several strong baselines. Our\nanalysis demonstrates the importance of modeling text similarity and stance, while also taking into account the veracity of the retrieved previously fact-checked claims. We believe\nthat this research would be of interest to fact-checkers, journalists, media, and regulatory authorities."
+    },
+    {
+      "document_id": 293,
+      "score": null,
+      "abstract": "We study the fact-checking problem, which aims to identify the veracity of a given claim. Specifically, we focus on the task of Fact Extraction and\nVERification (FEVER) and its accompanied dataset. The task consists of the subtasks of retrieving the relevant documents (and sentences) from Wikipedia and validating whether the\ninformation in the documents supports or refutes a given claim. This task is essential and can be the building block of applications such as fake\nnews detection and medical claim verification. In this article, we aim at a better understanding of the challenges of the task by presenting the literature\nin a structured and comprehensive way. We describe the proposed methods by analyzing the technical perspectives of the different approaches and discussing the performance results\non the FEVER dataset, which is the most well-studied and formally structured dataset on the fact extraction and verification task. We also conduct the largest\nexperimental study to date on identifying beneficial loss functions for the sentence retrieval component. Our analysis indicates that sampling negative sentences is important for improving\nthe performance and decreasing the computational complexity. Finally, we describe open issues and future challenges, and we motivate future research in the task."
+    },
+    {
+      "document_id": 346,
+      "score": null,
+      "abstract": "Fact-checking is the task of verifying the veracity of claims by assessing their assertions against credible evidence. The vast majority of fact-checking studies focus exclusively\non political claims. Very little research explores fact-checking for other topics, specifically subject matters for which expertise is required. We present the first study of\nexplainable fact-checking for claims which require specific expertise. For our case study we choose the setting of public health. To support this case study we\nconstruct a new dataset PUBHEALTH of 11.8K claims accompanied by journalist crafted, gold standard explanations (i.e., judgments) to support the fact-check labels for claims. We\nexplore two tasks: veracity prediction and explanation generation. We also define and evaluate, with humans and computationally, three coherence properties of explanation quality. Our results\nindicate that, by training on in-domain data, gains can be made in explainable, automated fact-checking for claims which require specific expertise."
+    }
+  ]
+}

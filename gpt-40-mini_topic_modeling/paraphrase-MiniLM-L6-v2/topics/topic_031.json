@@ -1,0 +1,45 @@
+{
+  "topic_id": 31,
+  "label": "T031",
+  "label_full": "Credibility Assessment",
+  "keywords": [
+    "data",
+    "credibility",
+    "indicators",
+    "samples",
+    "news",
+    "probability",
+    "belief",
+    "evaluation",
+    "initial",
+    "information"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 2,
+      "score": null,
+      "abstract": "There are both positive and negative aspects in the use of social media in news and information dissemination. To deal with the negative aspects, such\nas the spread of rumours and fake news, the flow of information should implicitly be filtered and marked to specific criteria such as credibility, trustworthiness,\nreputation, popularity, influence, and authenticity. proposes an approach that can enhance trustworthiness and content validity in the presence of information overload. We introduce Alethiometer, a\nframework for assessing truthfulness in social media that can be used by professional and general news users alike. We present different measures that delve into\nthe detailed analysis of the content, the contributors of the content and the underlying context. We further propose an approach for deriving a single metric\nthat considers, in a unified manner, the quality of a contributor and of the content provided by that contributor. Finally, we present some preliminary statistical\nresults from the examination of a set of 10 million twitter users, that provide useful insights on the characteristics of social media data."
+    },
+    {
+      "document_id": 333,
+      "score": null,
+      "abstract": "The extensive digital communication among users around the world in various fields such as politics, sports, religious beliefs, product promotions, celebrities, etc. has given rise\nto a huge volume of unauthenticated and unverified information. So, it has become imperative in the current scenario to design methods for veracity analysis of\nonline information in various data formats mainly text and images. introduces a novel automatic fake news detection framework by utilizing the capabilities of Deep Neural\nNetworks namely VGG16 for Image, Bi-LSTM for Text and Title part of online news. The designed model is intended to be robust enough for handling\nthe forgeries present in the online news articles. Finally, the three parallel architectures for each part of the news are combined using the late fusion\napproach by some sets of normalized weights. Effective experimental analysis has been carried out on two different real-world news datasets which comprise of real and\nfake news articles. The highest classification accuracy achieved is 97.74% on the All Data dataset. The state-of-the-art comparison advocates the advantages of the proposed model\nover other contemporary techniques. © 2021 IEEE"
+    },
+    {
+      "document_id": 372,
+      "score": null,
+      "abstract": "An increase in news articles on various communication platforms or social media has resulted in higher possibilities of spread of non-factual or fake information. The\noverall volume and veracity of news makes it even more impossible to manually fact check each data and label them as true or false. Under\nsuch circumstances, we propose a belief index generator model that quantifies the belief to be associated with any random information making use of text analytic\nproximity measures. In the initial feature engineering, we use a modified TF-IDF algorithm. Post generation of word embeddings, various distance measures have been proposed and\ncompared as possible belief scores. The analysis has been carried out using 50K research articles on CoVid-19 to validate truths and The CoronaVirusFacts/DatosCoronaVirus Alliance Database\nto validate falsities in random CoVid related information. © 2020 IEEE."
+    },
+    {
+      "document_id": 374,
+      "score": null,
+      "abstract": "In today's Internet information explosion, all kinds of information floods in people's daily life. Meanwhile, the credibility of news has become one of the key\nissues that people pay attention to. In order to realize the evaluation of news credibility, mainly uses k-means clustering method to carry out quantitative analysis\non the training set data. After defining and judging indicators of different attributes, it carries out binomial distribution mapping of quantized attribute indicators, taking 0\nor 1 as the parameters of direct evaluation indicators. The optimized Bayes formula is used to calculate the probability of news credibility corresponding to different\nindicators, and the prior probability and posterior probability of news credibility of each attribute are obtained. After the evaluation, the appropriate probability is selected to\nrepresent. Finally, the sum of the confidence probabilities corresponding to the binomial distribution mapping of each index in each article is calculated and multiplied with\nthe correction parameters to obtain the final quantitative evaluation result of network news credibility. In , a mathematical model is established based on the given\ndata set. The model score is compared with the expert score, and the accuracy of the evaluation of the authenticity of each piece of news\nis evaluated by the residual squared and response model. Based on the established indicator framework of online news credibility evaluation, some Suggestions and Suggestions on\nhow to improve news credibility are proposed to news publishers or social media. © 2020 IEEE."
+    },
+    {
+      "document_id": 461,
+      "score": null,
+      "abstract": "The objective of a news veracity detection system is to identify various types of potentially misleading or false information, typically in a digital platform. A\ncritical challenge in this scenario is that there are large volumes of data available online. However, obtaining samples with annotations (i.e. ground-truth labels) is difficult\nand a known limiting factor for many data analytic tasks including the current problem of news veracity detection. In , we propose a human-machine collaborative\nlearning system to evaluate the veracity of a news content, with a limited amount of annotated data samples. In a semi-supervised scenario, an initial classifier\nis learnt on a small, limited amount of the annotated data followed by an interactive approach to gradually update the model by shortlisting only relevant\nsamples from the large pool of unlabeled data that are most likely to improve the classifier performance. Our prioritized active learning solution achieves faster convergence\nin terms of the classification performance, while requiring about 1-2 orders of magnitude fewer annotated samples compared to fully supervised solutions to attain a reasonably\nacceptable accuracy of nearly 80%. Unlike traditional deep learning architecture, the proposed active learning based deep model designed with a smaller number of more localized\nfilters per layer can efficiently learn from small relevant sample batches that can effectively improve performance in the weakly-supervised learning environment and thus is more\nsuitable for several practical applications. An effective dynamic domain adaptive feature weighting scheme can adjust the relative importance of feature dimensions iteratively. Insightful initial feedback\ngathered from two independent learning modules (a NLP shallow feature based classifier and a deep classifier), modeled to capture complementary information about data characteristics are\nfinally fused together to achieve an impressive 25% average gain in the detection performance. © 2017 IEEE."
+    }
+  ]
+}

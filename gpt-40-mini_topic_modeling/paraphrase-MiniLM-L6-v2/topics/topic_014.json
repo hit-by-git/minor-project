@@ -1,0 +1,60 @@
+{
+  "topic_id": 14,
+  "label": "T014",
+  "label_full": "Journalism & Media Studies",
+  "keywords": [
+    "content",
+    "social",
+    "reviews",
+    "use",
+    "recommendation",
+    "post",
+    "user",
+    "media",
+    "order",
+    "approach"
+  ],
+  "n_docs": 8,
+  "documents": [
+    {
+      "document_id": 154,
+      "score": null,
+      "abstract": "Lately, people have been impacted by the increased use of social media platforms like Twitter in disseminating the various news and information. However, a lot\nof this content has been shown to be false or unreliable. It takes a lot of time to manually evaluate the veracity of such contents.\nAs a result, research has been conducted to develop a classifier or credibility analyzer for fake/disinformation content utilizing different machine learning and deep learning techniques.\nThe majority of existing approaches rely on data that has been manually classified as authentic or fraudulent, but by ignoring the semantic context of the\ntext/content. Therefore, in , we study a method that analyzes the semantic meaning of the text/content and use the content that has been published on\nmultiple legitimate news websites as our source of truth. Core architecture of our approach consists of six different components that can be generalized to access\nthe credibility of text contents published in social media. Specifically, we employ a fine-tuned sentence transformers model to extract the semantic meaning from texts, use\nweb scraping to extract the news similar to the tweets from multiple sources and then compare them to assign a credibility score. Our results show\nthat our approach is more effective than existing approaches since it immediately validates the social media contents with multiple reliable news media. In , we\nuse Twitter for evaluation of our approach but the approach can be generalized over other social media. © 2023, The Author(s), under exclusive license to\nSpringer Nature Switzerland AG."
+    },
+    {
+      "document_id": 189,
+      "score": null,
+      "abstract": "The spread of fake news on social media continues to be one of the main challenges facing internet users, prohibiting them from discerning authentic from\nfabricated pieces of information. Hence, identifying the veracity of the content in social posts becomes an important challenge, especially with more people continuing to use\nsocial media as their main channel for news consumption. Although a number of machine learning models were proposed in the literature to tackle this challenge,\nthe majority rely on the textual content of the post to identify its veracity, which poses a limitation to the performance of such models, especially\non platforms where the content of the users’ post is limited (e.g., Twitter, where each post is limited to 140 characters). In , we propose\na deep-learning approach for tackling the fake news detection problem that incorporates the content of both the social post and the associated news article as\nwell as the context of the social post, coined TChecker. Throughout the experiments, we use the benchmark dataset FakeNewsNet to illustrate that our proposed model\n(TChecker) is able to achieve higher performance across all metrics against a number of baseline models that utilize the social content only as well as\nmodels combining both social and news content. © 2023 by the authors."
+    },
+    {
+      "document_id": 284,
+      "score": null,
+      "abstract": "The rapid evolution of technology has led to the increasing use of social networks. These have allowed various users to post whatever they want without\nany guarantee of the exactitude of the content posted, which has led to the rapid spread of false information, with severe consequences for the community.\nDespite extensive field study, dealing with the trustworthiness of sources remains an unanswered question. The main problem is that there is no efficient way to\ndiscern the difference between a genuine and a false assertion. To address this challenge, we have developed a hybrid approach to verify the authenticity of\nthe information on Twitter based, on the one hand, on the stylistic analysis of the content of tweets, and the other hand, on the exploitation\nof the opinion of Twitter users by taking into account their reliability using the theory of evidence. Experimental assessments using publicly available datasets demonstrate very\noptimistic and better results when compared to other techniques. © 2022 Copyright for by its authors. Use permitted under Creative Commons License Attribution 4.0 International\n(CC BY 4.0)."
+    },
+    {
+      "document_id": 339,
+      "score": null,
+      "abstract": "The recommendation system provides the user with their needed item or service by analyzing their preference history. In recent times the location-based recommendation has played\na significant role in our everyday life. User interaction towards the internet is based on the social relationships comprising User Generated Content (UGC) like online\nreviews. A collaborative filtering approach is a popular recommendation framework for making recommendations to a new user based on comparable user content. However, it is\nvulnerable to Shilling attacks, in which shills put any unethical data into the ratings or comments database in order to modify the recommendations. As a\nlacking of trust format, the risk of misinformation becomes a research and evaluation concern. proposes a trustworthy recommendation framework using the content features of the\nDeceptive opinion spam corpus dataset by employing the various deep learning algorithms in predicting the truthfulness of the reviews. Among the inspired models, the proposed\nhybrid combination of CNN-LSTM involving content feature excels in accuracy and prediction, thereby improving the performance and stability of the recommendation system. ©2021 Seventh Sense\nResearch Group®."
+    },
+    {
+      "document_id": 387,
+      "score": null,
+      "abstract": "Social media platforms are a plethora of misinformation and its potential negative influence on the public is a growing concern. This concern has drawn the\nattention of the research community on developing mechanisms to detect misinformation. The task of misinformation detection consists of classifying whether a claim is True or\nFalse. Most research concentrates on developing machine learning models, such as neural networks, that outputs a single value in order to predict the veracity of\na claim. One of the major problem faced by these models is the inability of representing the uncertainty of the prediction, which is due incomplete\nor finite available information about the claim being examined. We address this problem by proposing a Bayesian deep learning model. The Bayesian model outputs a\ndistribution used to represent both the prediction and its uncertainty. In addition to the claim content, we also encode auxiliary information given by people's replies\nto the claim. First, the model encodes a claim to be verified, and generate a prior belief distribution from which we sample a latent variable.\nSecond, the model encodes all the people's replies to the claim in a temporal order through a Long Short Term Memory network in order to\nsummarize their content. This summary is then used to update the prior belief generating the posterior belief. Moreover, in order to train this model, we\ndevelop a Stochastic Gradient Variational Bayes algorithm to approximate the analytically intractable posterior distribution. Experiments conducted on two public datasets demonstrate that our model outperforms\nthe state-of-the-art detection models."
+    },
+    {
+      "document_id": 406,
+      "score": null,
+      "abstract": "Across the globe, right from people who are technologically naive to people who are with high-technical knowledge, use, share, spread, and connect with each other\nthrough online social networks. People start believing and sharing the social network content without any proof of its authenticity. In several cases, the reliability of\nthe information that gets shared between the users remains questionable due to the anonymity of the information creators. In , a fuzzy detection algorithm is\nproposed to identify the trustable content in social media. The proposed methodology is evaluated on Twitter social network platform. By computing the predictive measures, the\nefficiency of the proposed approach is well established. © The Institution of Engineering and Technology 2019"
+    },
+    {
+      "document_id": 455,
+      "score": null,
+      "abstract": "The Social Web supports and fosters social interactions by means of different social media, which allow the spread of the so called User-Generated Content (UGC).\nIn this context, characterized by the absence of trusted third parties that verify the reliability of the sources and the believability of the content generated,\nthe issue of assessing the credibility of the information diffused by means of social media is receiving increasing attention. In the literature, this issue has\nbeen mainly tackled as a classification problem; information is categorized into genuine and fake, usually by implementing or applying classifiers that consider multiple kinds of\nfeatures (mainly textual and non-textual) to be evaluated in terms of credibility.In this article, unlike prior research, textual features are considered separately with respect to\nother kinds of features during the classification process. In particular, an Ensemble Method that combines the results produced by two text classifiers and the ones\nreturned by another classifier acting on non-textual features is proposed. This allows to have better results with respect to the use of a single classifier\non multiple features together. The effectiveness of the Ensemble Method has been assessed in the context of review sites, by means of a labeled dataset\ngathered from the Yelp.com site, where on-line reviews are already classified as recommended and not recommended."
+    },
+    {
+      "document_id": 463,
+      "score": null,
+      "abstract": "The Social Web is characterized by a massive diffusion of unfiltered content, directly generated by users via the spread of different social media platforms. In\nthis context, a challenging issue is to assess the veracity of the information generated within the sites of online reviews. To address this issue, a\ncommon practice in the literature is to select and analyze some veracity features associated with users and their reviews, by mostly applying machine learning techniques,\nto provide a classification in genuine and deceptive reviews. In , we do not focus on the feature selection and user behavior analysis issues, but\nwe concentrate on the aggregation process with respect to each single veracity feature. In most of the approaches based on machine learning techniques, the contribution\nof each feature in the classification process is not measurable by the user. For this reason, we propose a multicriteria decision making approach based both\non the assessment of multiple criteria and the use of aggregation operators with the aim of obtaining a veracity score associated with each review. Based\non this score, it is possible to detect fake reviews. The proposed model is evaluated on a Yelp data set by applying different aggregation schemes,\nand it is compared with well-known supervised machine learning techniques. © 2016 Wiley Periodicals, Inc."
+    }
+  ]
+}

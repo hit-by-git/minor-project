@@ -1,0 +1,45 @@
+{
+  "topic_id": 36,
+  "label": "T036",
+  "label_full": "Rumor on Social Media",
+  "keywords": [
+    "rumor",
+    "learning",
+    "layer",
+    "machine",
+    "rumors",
+    "network",
+    "deep",
+    "information",
+    "neural",
+    "layers"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 105,
+      "score": null,
+      "abstract": "The ubiquity of handheld devices and easy access to the Internet help users get easy and quick updates from social media. Generally, people share information\nwith their friends and groups without inspecting the posts’ veracity, which causes false information propagation in the network. Moreover, detecting false news and rumors in\nsuch a massive load of unstructured information is a very tedious task. Results, many literature papers explored different machine learning and deep learning approaches to\ndetect the presence of rumors on social media networks. Although detection of misleading news and rumors is not sufficient, therefore, we have proposed a model\nfor the detection and prevention of transmitted rumors in . In , we use blockchain technology to verify the credibility of information and design a\nframework with four layers: network layer, blockchain layer, machine layer, and device layer, to prevent the propagation of rumors in the network. We also use\ndeep learning techniques to identify the anomalies in the network. The Bi-directional Long Short Term Memory (Bi-LSTM) model is used to prevent the introduction of\nnew rumors by continuously monitoring incoming messages in the network. The experimental results demonstrate that the proposed Bi-LSTM model outperforms state-of-the-art machine learning methods and\nrecent baseline work. Performance is compared over different metrics such as accuracy, precision, recall, f1-score, and specificity. Experiment results show that our Bi-LSTM model outperforms\nall the other approaches and achieved 99.63 % accuracy. Additionally, the probability of incorrect detection is significantly low with only 0.13% false positive. © The\nAuthor(s), under exclusive licence to Springer-Verlag GmbH Germany, part of Springer Nature 2022."
+    },
+    {
+      "document_id": 275,
+      "score": null,
+      "abstract": "Twitter led a remarkable breakthrough in information sharing on online social media. The eminent technology can propagate a piece of rumor to a large community\nof people in a short period. The timely detection of rumor tweets in social media curtails panic among the public during critical situations. Traditional machine\nlearning techniques are not capable of categorizing rumor information effectively. To address this problem, the author has proposed a novel neural network approach called veracity\ndetection neural network for identifying the rumor-related Twitter posts' content in real-time events. This algorithm utilized the convolutional sentence encoder-bi-directional long short-term memory (CSE-BiLSTM) model\nwith pre-trained vectorization methods such as Word2vec, fastText and universal sentence encoder (USE). The hybrid CSE-BiLSTM with USE vectorization technique yields the best results for\nthe performance metrics of accuracy, F1-score, precision and recall. The proposed algorithm achieves 90.56%, 86.18% and 93.89% accuracy values to classify the tweet into rumor\nor non-rumor for the datasets such as PHEME, newly emerged rumors on Twitter and #gaja, respectively. Finally, a comparative study shows that the proposed neural\nnetwork model outperformed all other existing rumor text classification systems. © 2021 The British Computer Society 2021. All rights reserved. For permissions, please e-mail: journals.permissions@oup.com."
+    },
+    {
+      "document_id": 276,
+      "score": null,
+      "abstract": "A widely used social networking service like Twitter has the ability to disseminate information to large groups of people even during a pandemic. At the\nsame time, it is a convenient medium to share irrelevant and unverified information online and poses a potential threat to society. In this research, conventional\nmachine learning algorithms are analyzed to classify the data as either non-rumor data or rumor data. Machine learning techniques have limited tuning capability and make\ndecisions based on their learning. To tackle this problem the authors propose a deep learning-based Rumor Detection Neural Network model to predict the rumor tweet\nin real-world events. This model comprises three layers, AttCNN layer is used to extract local and position invariant features from the data, AttBi-LSTM layer to\nextract important semantic or contextual information and HPOOL to combine the down sampling patches of the input feature maps from the average and maximum pooling\nlayers. A dataset from Kaggle and ground dataset #gaja are used to train the proposed Rumor Detection Neural Network to determine the veracity of the\nrumor. The experimental results of the RDNN Classifier demonstrate an accuracy of 93.24% and 95.41% in identifying rumor tweets in real-time events. © 2022 Korean\nSociety for Internet Information. All rights reserved."
+    },
+    {
+      "document_id": 393,
+      "score": null,
+      "abstract": "In a recent survey, over half (54\\%) of a global sample agree or strongly agree that they are concerned about what is real and fake\nwhen thinking about online news. Rumors are spreading all the time and affect people’s perceptions and behavior. In , we apply several machine learning approaches,\nfrom simple supervised algorithms to deep learning models, for the stance classification and rumor verification tasks; and evaluate the impact of the stance information in\nthe performance of rumor veracity evaluation. According to the results, the traditional machine learning algorithms presented better performance than deep learning models, in both tasks,\nand the information of stance (denial or questioning) do not improve the results of the rumor verification task."
+    },
+    {
+      "document_id": 409,
+      "score": null,
+      "abstract": "Twitter has become a fertile ground for rumours as information can propagate to too many people in very short time. Rumours can create panic in\npublic and hence timely detection and blocking of rumour information is urgently required. We proposed and compare machine learning classifiers with a deep learning model\nusing Recurrent Neural Networks for classification of tweets into rumour and non-rumour classes. A total thirteen features based on tweet text and user characteristics were\ngiven as input to machine learning classifiers. Deep learning model was trained and tested with textual features and five user characteristic features. The findings indicate\nthat our models perform much better than machine learning based models. © 2019, IFIP International Federation for Information Processing."
+    }
+  ]
+}

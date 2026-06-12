@@ -1,0 +1,45 @@
+{
+  "topic_id": 33,
+  "label": "T033",
+  "label_full": "Misinformation & Propaganda",
+  "keywords": [
+    "mbilstm",
+    "news",
+    "social",
+    "fake",
+    "weight",
+    "media",
+    "bilstm",
+    "proposed",
+    "user",
+    "research"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 174,
+      "score": null,
+      "abstract": "The digital era is proliferating, and we are in a time where we interact with lots of information in many ways. Life has become more\nsensitive with social media, and in the present scenario, users’ activity on social media has become more frequent. The impact of social media and the\nnews shared over it directly impacts the user. Social media is a powerful tool that can spread word of mouth in a fraction of a\nsecond. There is a variety of content and information shared all over social media and other information sources. This mystifies the user to agree on\nwhether it is genuine or fake news. Social media has given so much power to the user that they immediately start expressing their views and\nconcerns without checking the authenticity of the posted content. As a result, the user shares the news and becomes a spreader of fake news. This\nis a challenging task for the government and the country’s citizens. The most popular form of unauthenticated information is rumors and fake news, and this\nshould be combated as early as possible before it takes any dramatic consequence. For this, we propose a solution where a long short term memory(LSTM)\nmodel is used to detect the fake news, and the proposed approach attained the accuracy of 98%. © 2023, The Author(s), under exclusive license to\nSpringer Nature Switzerland AG."
+    },
+    {
+      "document_id": 190,
+      "score": null,
+      "abstract": "The spread of fake news on social media platforms can have serious consequences for society, especially in urgent situations such as crises. Despite efforts to\ncombat it, fake news is still able to proliferate rapidly through social media, where users share and exchange a vast amount of information on a\ndaily basis. This information, however, is not always accurate, making it difficult to distinguish real news from fake news. To address this problem, this research\nproposes additional characteristics based on social interactions and content to identify fake news on social media platforms. These characteristics are designed to work in conjunction\nwith each other and are found to be more effective in identifying fake news compared to the current baseline criteria. In addition, a CNN-LSTM model\nis used to analyze the text and predict the veracity of news. Unlike early research that focuses on fake news that has been circulating for\na long time, this study tests the identification of fake news on a real-world dataset. The proposed features and machine learning models outperformed the baseline\nin terms of accuracy, recall, and F1 metrics, which are standard measures of classification model performance. © 2023 WITPress. All rights reserved."
+    },
+    {
+      "document_id": 194,
+      "score": null,
+      "abstract": "Fake news is an information that has been carefully manipulated to mislead readers by using false facts and figures. Since the introduction of the Internet\nand social media, fake news has grown to be a significant problem. Identifying fake news has become an important area of research in Natural Language\nProcessing (NLP). The key challenge is determining the veracity of news stories. There is an increasing difficulty in studying and designing a technological strategy to\ncombat fake news without compromising speed and collaborative access to high-quality information. Despite the fact that various technologies have been developed to assist in the\ndetection of false news, and despite significant breakthroughs, identifying fake news stays ineffective. In this research, a new framework has been proposed that utilizes Porter\nStemmer, TF-IDF vectorizer for pre-processing and double layer Bi-LSTM for extracting the refined features to obtain better learning. In this model, initially, the summarized input\nvector is formed by concatenating the most relevant text attributes such as headlines, news for further process. The performance of the proposed model has been\njustified by evaluating its performance on three experimental datasets namely Kaggle fake_real_news, Liar and Politifact Fake_Real. © 2023 IEEE."
+    },
+    {
+      "document_id": 246,
+      "score": null,
+      "abstract": "The use of social media has increased tremendously during the past few decades and is considered one of the major sources of news. Social media\ndon’t have the authority to verify the authenticity of the news and because of this, it is considered as a significant reason behind the spread\nof fake news. Many existing methods have been applied to detect fake news in social media and all those have the drawbacks of lower efficiency\nand overfitting problem. In this research, structural features with the Modified Bi-directional Long Short Term Memory (MBi-LSTM) method are proposed to improve the efficiency of\nFake news detection. The attention layer is introduced in the Bi-LSTM to update the weight value of the input features and Term Frequency – Inverse\nDocument Frequency (TF-IDF), based on the scalar factor. This weight value is updated in the input gate weight value of the Bi-LSTM that helps to\nfind the relevant feature to store in cell. The proper weight in the Bi-LSTM model stores the features related to reliable information in long-term that\nhelps to improves the classification performance. The structural, user, content, and temporal features were extracted from the Twitter data and applied to the MBi-LSTM method.\n33 features were extracted for structural, user, content, and temporal features for the classification. The PolitiFact dataset is collected and used for testing the efficiency\nof the proposed MBi-LSTM method. Additionally, the CREDBANK dataset is also applied to test the effectiveness of the proposed MBi-LSTM method in the case of\na large dataset. The experimental result shows that the proposed MBi-LSTM method has an accuracy of 91% and the Bi-LSTM method has an accuracy of\n86.69% in PolitiFact’s dataset. © 2022, The Author(s), under exclusive licence to Springer Science+Business Media, LLC, part of Springer Nature."
+    },
+    {
+      "document_id": 317,
+      "score": null,
+      "abstract": "In today's society, social media plays a remarkable part in imparting information and news about various social events. Without consideration for the authenticity of these\nnews, some fake news is disseminated through social networking websites or platforms and reaches millions of individuals. This dissemination has a huge impact on human\nsocial lives as well as in the political realm. Therefore, detecting fake news is a rapidly evolving area of research to empower trust-based social networking.\nIn this research study, we proposed a stacked bi-directional LSTM based model for discriminating among fake and genuine news. In the initial step, we acquire\nthe data of news descriptions which is forwarded to the preprocessing stage followed by encoding the words or text into a dense vector representation. Subsequently,\nthe stacked bidirectional LSTM is employed to categorize the news articles into real or Fake. The suggested approach is validated using the Fake News Detection\ndatabase, which is a freely accessible benchmark database. Furthermore, we have performed a different set of experiments with various weight optimizers. It is observed that\nthe suggested technique shows encouraging outcomes in classifying the news as real or fake with 95% accuracy. © 2021 IEEE."
+    }
+  ]
+}

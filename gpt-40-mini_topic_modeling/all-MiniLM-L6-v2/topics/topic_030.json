@@ -1,0 +1,50 @@
+{
+  "topic_id": 30,
+  "label": "T030",
+  "label_full": "facts, urref",
+  "keywords": [
+    "facts",
+    "urref",
+    "ontology",
+    "knowledge",
+    "fact",
+    "bases",
+    "uncertainty",
+    "source",
+    "patterns",
+    "triple"
+  ],
+  "n_docs": 6,
+  "documents": [
+    {
+      "document_id": 423,
+      "score": null,
+      "abstract": "The Uncertainty Representation and Reasoning Evaluation Framework (URREF) ontology addresses various semantic ambiguities associated with uncertainty. One of the main objectives of the URREF ontology\nis to define and articulate the criteria which enable the systematic reasoning about and evaluation of uncertainty representation and reasoning in information fusion systems. Towards\nassessing the merits of the URREF, information quality requires close attention for the measuring veracity and relevance. Veracity is measured from source sensitivity. Relevance is\ndetermined from precision and recall measures which are added to the URREF ontology. An example based on the Avionics Analytics Ontology (AAO) for Air Traffic\nManagement with multiple Automatic Dependent Surveillance-Broadcast (ADS-B) radars is provided. The use or the precision-recall, F1 score, and sensitivity provide useful analysis for semantically important\ndiscussions on 'relevance' as a complement of 'recall' in information fusion uncertainty assessment. © 2019 ISIF-International Society of Information Fusion."
+    },
+    {
+      "document_id": 434,
+      "score": null,
+      "abstract": "Among different characteristics of knowledge bases, data quality is one of the most relevant to maximize the benefits of the provided information. Knowledge base quality\nassessment poses a number of big data challenges such as high volume, variety, velocity, and veracity. In this article, we focus on answering questions related\nto the assessment of the veracity of facts through Deep Fact Validation (DeFacto), a triple validation framework designed to assess facts in RDF knowledge bases.\nDespite current developments in the research area, the underlying framework faces many challenges. This article pinpoints and discusses these issues and conducts a thorough analysis\nof its pipeline, aiming at reducing the error propagation through its components. Furthermore, we discuss recent developments related to this fact validation as well as\ndescribing advantages and drawbacks of state-of-the-art models. As a result of this exploratory analysis, we give insights and directions toward a better architecture to tackle\nthe complex task of fact-checking in knowledge bases."
+    },
+    {
+      "document_id": 440,
+      "score": null,
+      "abstract": "We tackle fact checking using Knowledge Graphs (KGs) as a source of background knowledge. Our approach leverages the KG schema to generate candidate evidence patterns,\nthat is, schema-level paths that capture the semantics of a target fact in alternative ways. Patterns verified in the data are used to both assemble\nsemantic evidence for a fact and provide a numerical assessment of its truthfulness. We present efficient algorithms to generate and verify evidence patterns, and assemble\nevidence. We also provide a translation of the core of our algorithms into the SPARQL query language. Not only our approach is faster than the\nstate of the art and offers comparable accuracy, but it can also use any SPARQL-enabled KG. © 2018 International Joint Conferences on Artificial Intelligence. All\nright reserved."
+    },
+    {
+      "document_id": 441,
+      "score": null,
+      "abstract": "To support intelligence analysis, lots of effort goes into the development of information extraction (IE) systems to ingest massive collections of both traditional sensor data\nand streaming data from both public domain and classified sources, classify them, distill evidence from them, and store that evidence as event and entity tuples\nin a knowledge base. focuses on an unmet challenge of this effort: determining the veracity of extracted information, in order to help analysts make balanced,\nrational judgments. © 2018 IEEE."
+    },
+    {
+      "document_id": 457,
+      "score": null,
+      "abstract": "The volume of information generated online makes it impossible to manually fact-check all claims. Computational approaches for fact checking may be the key to help\nmitigate the risks of massive misinformation spread. Such approaches can be designed to not only be scalable and effective at assessing veracity of dubious claims,\nbut also to boost a human fact checker's productivity by surfacing relevant facts and patterns to aid their analysis. We present a novel, unsupervised network-flow\nbased approach to determine the truthfulness of a statement of fact expressed in the form of a triple. We view a knowledge graph of background\ninformation about real-world entities as a flow network, and show that computational fact checking then amounts to finding a 'knowledge stream' connecting the subject and\nobject of the triple. Evaluation on a range of real-world and hand-crafted datasets of facts reveals that this network-flow model can be very effective in\ndiscerning true statements from false ones, outperforming existing algorithms on many test cases. Moreover, the model is expressive in its ability to automatically discover several\nuseful patterns and surface relevant facts that may help a human fact checker. © 2017 IEEE."
+    },
+    {
+      "document_id": 481,
+      "score": null,
+      "abstract": "The quality of web sources has been traditionally evaluated using exogenous signals such as the hyperlink structure of the graph. We propose a new approach\nthat relies on endogenous signals, namely, the correctness of factual information provided by the source. A source that has few false facts is considered to\nbe trustworthy.The facts are automatically extracted from each source by information extraction methods commonly used to construct knowledge bases. We propose a way to distinguish\nerrors made in the extraction process from factual errors in the web source per se, by using joint inference in a novel multi-layer probabilistic model.We\ncall the trustworthiness score we computed Knowledge-Based Trust (KBT). On synthetic data, we show that our method can reliably compute the true trustworthiness levels of\nthe sources. We then apply it to a database of 2.8B facts extracted from the web, and thereby estimate the trustworthiness of 119M webpages. Manual\nevaluation of a subset of the results confirms the effectiveness of the method."
+    }
+  ]
+}

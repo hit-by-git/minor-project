@@ -1,0 +1,60 @@
+{
+  "topic_id": 14,
+  "label": "T014",
+  "label_full": "fact, multiclaim",
+  "keywords": [
+    "fact",
+    "multiclaim",
+    "checking",
+    "statement",
+    "knowledge",
+    "graph",
+    "evidence",
+    "multiple",
+    "claims",
+    "kgs"
+  ],
+  "n_docs": 8,
+  "documents": [
+    {
+      "document_id": 44,
+      "score": null,
+      "abstract": "To inhibit the spread of rumorous information and its severe impacts, fact checking aims at retrieving relevant evidence to verify the veracity of a given\nstatement. Fact checking methods typically use knowledge graphs (KGs) as external repositories and develop reasoning mechanism to retrieve evidence for verifying the statement. Existing fact\nchecking methods have focused on verifying the statement of a single claim expressed by a clause. However, as real-world rumorous information is usually complex and\na textual statement is often composed of multiple clauses (i.e. represented as multiple claims instead of a single one), multi-claim fact checking is not only\nnecessary but more important for practical applications. Multi-claim statements imply rich contextual information and modeling the interactions of multiple claims can facilitate better verification. In\n, we propose a knowledge enhanced learning and semantic composition model for multi-claim fact checking. Our model consists of two modules, KG-based learning enhancement and\nmulti-claim semantic composition. To fully utilize the contextual information implied in multiple claims, the KG-based learning enhancement module learns the dynamic context-specific representations via selectively\naggregating relevant attributes of entities. To robustly verify multiple claims robustly, the multi-claim semantic composition module learns a unified representation for multiple claims by modeling\ninter-claim interactions, and then verify them as a whole on the basis of this. We conduct experimental studies to validate our proposed method, and the\nexperimental results on three typically datasets confirmed the efficacy of our model for multi-claim fact checking. © 2024 Elsevier B.V."
+    },
+    {
+      "document_id": 230,
+      "score": null,
+      "abstract": "To inhibit the spread of rumorous information, fact checking aims at retrieving relevant evidence to verify the veracity of a given claim. Previous work on\nfact checking typically uses knowledge graphs (KGs) as external repositories and develop reasoning methods to retrieve evidence from KGs. Domain knowledge structure, including category hierarchy\nand attribute relationships, can be utilized as discriminative information to facilitate KG based learning and verification. However, in previous fact checking research, category hierarchy and\nattribute information was often scattered in a KG and treated as the ordinary triple facts in the learning process like other types of information, or\nwas utilized in a limited way without the consideration of category hierarchy or the combination of category hierarchy with the learning process. Thus to better\nutilize category hierarchy and attribute relationships, in , we propose an end-to-end knowledge structure driven prototype learning and verification method for fact checking. For improving\nintra-category compactness and inter-category separation, we develop a hierarchical prototype learning technique that jointly learns a prototype for each sub-category to enhance entity embeddings and\noptimize embedding representations using high-level category. For further enhancing embedding learning, we propose a graph attention network to aggregate information from neighboring attribute nodes. We\nconstruct a real-world dataset on food domain, and experimental results on the benchmark datasets and our domain dataset show the effectiveness of our method compared\nto both previous fact checking methods and representative KG reasoning methods. © 2021 Elsevier B.V."
+    },
+    {
+      "document_id": 289,
+      "score": null,
+      "abstract": "To inhibit the spread of rumorous information, fact checking aims at retrieving evidence to verify the truthfulness of a given statement. Fact checking methods typically\nuse knowledge graphs (KGs) as external repositories and develop reasoning methods to retrieve evidence from KGs. As real-world statement is often complex and contains multiple\nclaims, multi-claim fact verification is not only necessary but more important for practical applications. However, existing methods only focus on verifying a single claim (i.e.\na single-claim statement). Multiple claims imply rich context information and modeling the interrelations between claims can facilitate better verification of a multi-claim statement as a\nwhole. In , we propose a computational method to model inter-claim interactions for multi-claim fact checking. To focus on relevant claims within a statement, our\nmethod first extracts topics from the statement and connects the triple claims in the statement to form a claim graph. It then learns a policy-based\nagent to sequentially select topic-related triples from the claim graph. To fully exploit information from the statement, our method further employs multiple agents and develops\na hierarchical attention mechanism to verify multiple claims as a whole. Experimental results on two real-world datasets show the effectiveness of our method for multi-claim\nfact verification."
+    },
+    {
+      "document_id": 298,
+      "score": null,
+      "abstract": "Fact verification aims to evaluate the authenticity of a given claim based on the evidence sentences retrieved from Wikipedia articles. Existing works mainly leverage the\nnatural language inference methods to model the semantic interaction of claim and evidence, or further employ the graph structure to capture the relation features between\nmultiple evidences. However, previous methods have limited representation ability in encoding complicated units of claim and evidences, and thus cannot support sophisticated reasoning. In addition,\na limited amount of supervisory signals lead to the graph encoder could not distinguish the distinctions of different graph structures and weaken the encoding ability.\nTo address the above issues, we propose a Knowledge-Enhanced Graph Attention network (KEGA) for fact verification, which introduces a knowledge integration module to enhance the\nrepresentation of claims and evidences by incorporating external knowledge. Moreover, KEGA leverages an auxiliary loss based on contrastive learning to fine-tune the graph attention encoder\nand learn the discriminative features for the evidence graph. Comprehensive experiments conducted on FEVER, a large-scale benchmark dataset for fact verification, demonstrate the superiority of\nour proposal in both the multi-evidences and single-evidence scenarios. In addition, our findings show that the background knowledge for words can effectively improve the model\nperformance. © 2021 by the authors. Licensee MDPI, Basel, Switzerland."
+    },
+    {
+      "document_id": 299,
+      "score": null,
+      "abstract": "Fact verification aims to verify the authenticity of a given claim based on the retrieved evidence from Wikipedia articles. Existing works mainly focus on enhancing\nthe semantic representation of evidence, e.g., introducing the graph structure to model the evidence relation. However, previous methods can’t well distinguish semantic-similar claims and evidences\nwith distinct authenticity labels. In addition, the performances of graph-based models are limited by the over-smoothing problem of graph neural networks. To this end, we\npropose a graph-based contrastive learning method for fact verification abbreviated as CosG, which introduces a contrastive label-supervised task to help the encoder learn the discriminative\nrepresentations for different-label claim-evidence pairs, as well as an unsupervised graph-contrast task, to alleviate the unique node features loss in the graph propagation. We conduct\nexperiments on FEVER, a large benchmark dataset for fact verification. Experimental results show the superiority of our proposal against comparable baselines, especially for the claims\nthat need multiple-evidences to verify. In addition, CosG presents better model robustness on the low-resource scenario. © 2021 by the authors. Licensee MDPI, Basel, Switzerland."
+    },
+    {
+      "document_id": 432,
+      "score": null,
+      "abstract": "With the increasing uptake of knowledge graphs comes an increasing need for validating the knowledge contained in these graphs. However, the sheer size and number\nof knowledge bases used in real-world applications makes manual fact checking impractical. In , we employ sentence coherence features gathered from trustworthy source documents to\noutperform the state of the art in fact checking. Our approach, FactCheck, uses this information to score how likely a fact is to be true\nand provides the user the evidence used to validate the input facts. We evaluated our approach on two different benchmark datasets and two different corpora.\nOur results show that FactCheck outperforms the state of the art by up to 13.3% in F-measure and 19.3% AUC. FactCheck is open-source and is\navailable at"
+    },
+    {
+      "document_id": 440,
+      "score": null,
+      "abstract": "We tackle fact checking using Knowledge Graphs (KGs) as a source of background knowledge. Our approach leverages the KG schema to generate candidate evidence patterns,\nthat is, schema-level paths that capture the semantics of a target fact in alternative ways. Patterns verified in the data are used to both assemble\nsemantic evidence for a fact and provide a numerical assessment of its truthfulness. We present efficient algorithms to generate and verify evidence patterns, and assemble\nevidence. We also provide a translation of the core of our algorithms into the SPARQL query language. Not only our approach is faster than the\nstate of the art and offers comparable accuracy, but it can also use any SPARQL-enabled KG. © 2018 International Joint Conferences on Artificial Intelligence. All\nright reserved."
+    },
+    {
+      "document_id": 467,
+      "score": null,
+      "abstract": "The main aim of truth-finding methods is to identify the most reliable and trustworthy data among a set of facts. Since existing methods assume a\nsingle true value, they cannot deal with numerous real-world use cases in which a set of true values exists for a given fact, even for\nfunctional predicate (e.g. Picasso is born in M\\`{a}laga and in Spain). studies how traditional truth-finding methods can be adapted to this setting. After introducing a\nnew definition of true value and discussing associated implications, we propose an approach that can be used to identify true values among a set of\nnon-conflicting claims; it takes advantage of belief functions to incorporate knowledge about value relationships in the form of a partial ordering of claimed values. By\nreducing the error rate up to 30\\% adapting classical approaches, the effectiveness and suitability of our proposal is clearly highlighted through empirical experiments performed on\nDBpedia."
+    }
+  ]
+}

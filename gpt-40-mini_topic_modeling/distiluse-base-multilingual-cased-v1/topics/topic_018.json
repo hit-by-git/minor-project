@@ -1,0 +1,55 @@
+{
+  "topic_id": 18,
+  "label": "T018",
+  "label_full": "Fact-Checking & Verification",
+  "keywords": [
+    "rumor",
+    "conversation",
+    "stances",
+    "stance",
+    "matnn",
+    "tweet",
+    "tree",
+    "veracity",
+    "graph",
+    "extract"
+  ],
+  "n_docs": 7,
+  "documents": [
+    {
+      "document_id": 28,
+      "score": null,
+      "abstract": "In , we present a multi-task learning framework consisting of two interrelated components for the joint modeling of stance classification and rumor veracity prediction on\nTwitter. The proposed hierarchical framework models a conversation sequence using a graph attention network, leveraging a BERT-based word representation augmented with user credibility information. The\nlower component of the framework models the conversation sequence of a claim in addition to the BERT-based user content representation to predict the stance of\nthe underlying tweets. It employs a modified graph attention network, which models a conversation thread by finding tweets path-to-root conversation sequences. Further, the learned stance\nrepresentation is augmented with the users' credibility information and content representation to predict rumor veracity. The experimental evaluation results over two benchmark datasets show that\nthe proposed approach outperforms the state-of-the-art methods."
+    },
+    {
+      "document_id": 116,
+      "score": null,
+      "abstract": "Despite recent progress in automated rumour verification, little has been done on evaluating rumours in a real-world setting. We advance the state-of-the-art on the PHEME\ndataset, which consists of Twitter response threads collected as a rumour was unfolding. We automatically collect evidence relevant to PHEME and use it to construct\nknowledge graphs in a time-sensitive manner, excluding information post-dating rumour emergence. We identify discrepancies between the evidence retrieved and PHEME's labels, which are discussed in\ndetail and amended to release an updated dataset. We develop a novel knowledge graph approach which finds paths linking disjoint fragments of evidence. Our rumour\nverification model which combines evidence from the graph outperforms the state-of-the-art on PHEME and has superior generisability when evaluated on a temporally distant rumour verification\ndataset. © 2024 ELRA Language Resource Association: CC BY-NC 4.0."
+    },
+    {
+      "document_id": 187,
+      "score": null,
+      "abstract": "Identifying public’s stances to rumors and detecting rumors’ veracity in each rumor conversation are two closely related tasks for distinguishing fake news on social networks.\nHowever, very few methods are specially designed for rumor conversations to extract their structural features and jointly address the two tasks in a single machine\nlearning model. In , we propose a Multi-task Attention Tree Neural Network (MATNN) to jointly classify stances and to detect rumor veracity. Specifically, the proposed\nMATNN specially designs a structural representation called Regular rumor Conversation Trees (RC-Trees) for rumor conversations, and irregular rumor conversation trees are transformed into regular RC-Trees.\nTo extract features from RC-Trees, the proposed MATNN designs Tree Self-Attention mechanism to extract local structural features to classify stances; Based on extracted stance features,\nthe MATNN designs Tree convolution and Tree pooling operations to extract global structural features to detect rumor veracity. Experiments on both stance classification and rumor\nveracity detection tasks show that the proposed RC-Trees are useful for the two tasks and the proposed MATNN achieves remarkable performance over the current state-of-arts.\n© 2022, The Author(s), under exclusive licence to Springer Science+Business Media, LLC, part of Springer Nature."
+    },
+    {
+      "document_id": 268,
+      "score": null,
+      "abstract": "In order to extract the relevant features of rumors effectively, proposes a novel rumor detection model with bidirectional graph attention network on the basis of\nconstructing a directed graph, named P-BiGAT. Firstly, this model builds the propagation tree and diffusion tree through the tweet comment and reposting relationship. Secondly, the\nimproved graph attention network (GAT) is used to extract the propagation feature and the diffusion feature through two different directions, and the multihead attention mechanism\nis used to extract the semantic information of the source tweet. Finally, the propagation feature, diffusion feature, and semantic information representation of the source tweet\nare connected together through a fully connected layer, and the mapping function is used to determine the authenticity of the information. In addition, also proposes\na new node update method and applies it to the model in order to select neighbor node information effectively. Specifically, it can select the neighbor\ninformation node with larger weight to update the node according to the weight of the neighbor node. The results of the experiment show that the\nmodel is better than the baseline method of comparison in accuracy, precision, recall, and F1 measure on the public datasets. © 2022 Xiaohui Yang et\nal."
+    },
+    {
+      "document_id": 304,
+      "score": null,
+      "abstract": "Existing rumor detection strategies typically provide detection labels while ignoring their explanation. Nonetheless, providing pieces of evidence to explain why a suspicious tweet is rumor\nis essential. As such, a novel model, LOSIRD, was proposed in . First, LOSIRD mines appropriate evidence sentences and classifies them by automatically checking the\nveracity of the relationship of the given claim and its evidence from about 5 million Wikipedia documents. LOSIRD then automatically constructs two heterogeneous graph objects\nto simulate the propagation layout of the tweets and code the relationship of evidence. Finally, a graphSAGE processing component is used in LOSIRD to provide\nthe label and evidence. To the best of our knowledge, we are the first one who combines objective facts and subjective views to verify rumor.\nThe experimental results on two real-world Twitter datasets showed that our model exhibited the best performance in the early rumor detection task and its rumor\ndetection performance outperformed other baseline and state-of-the-art models. Moreover, we confirmed that both objective information and subjective information are fundamental clues for rumor detection. ©\n2021 Association for Computational Linguistics"
+    },
+    {
+      "document_id": 383,
+      "score": null,
+      "abstract": "Automatically verifying rumorous information has become an important and challenging task in natural language processing and social media analytics. Previous studies reveal that people’s stances\ntowards rumorous messages can provide indicative clues for identifying the veracity of rumors, and thus determining the stances of public reactions is a crucial preceding\nstep for rumor veracity prediction. In , we propose a hierarchical multi-task learning framework for jointly predicting rumor stance and veracity on Twitter, which consists\nof two components. The bottom component of our framework classifies the stances of tweets in a conversation discussing a rumor via modeling the structural property\nbased on a novel graph convolutional network. The top component predicts the rumor veracity by exploiting the temporal dynamics of stance evolution. Experimental results on\ntwo benchmark datasets show that our method outperforms previous methods in both rumor stance classification and veracity prediction."
+    },
+    {
+      "document_id": 436,
+      "score": null,
+      "abstract": "Detecting rumors is a crucial task requiring significant time and manual effort in forms of investigative journalism. In social media such as Twitter, unverified information\ncan get disseminated rapidly making early detection of potentially false rumors critical. We observe that the early reactions of people towards an emerging claim can\nbe predictive of its veracity. We propose a novel neural network architecture using the stances of people engaging in a conversation on Twitter about a\nrumor for detecting its veracity. Our proposed solution comprises two key steps. We first detect the stance of each individual tweet, by considering the textual\ncontent of the tweet, its timestamp, as well as the sequential conversation structure leading up to the target tweet. Then we use the predicted stances\nof all tweets in a conversation tree to determine the veracity of the original rumor. We evaluate our model on the SemEval2017 rumor detection dataset\nand demonstrate that our solution outperforms the state-of-the-art approaches for both stance prediction and rumor veracity prediction tasks. © 2018 IEEE."
+    }
+  ]
+}

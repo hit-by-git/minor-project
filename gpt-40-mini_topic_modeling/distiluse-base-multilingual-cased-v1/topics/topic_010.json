@@ -1,0 +1,70 @@
+{
+  "topic_id": 10,
+  "label": "T010",
+  "label_full": "Credibility Assessment",
+  "keywords": [
+    "tweets",
+    "twitter",
+    "centrality",
+    "rumor",
+    "used",
+    "tweet",
+    "credibility",
+    "proposed",
+    "features",
+    "propagate"
+  ],
+  "n_docs": 10,
+  "documents": [
+    {
+      "document_id": 7,
+      "score": null,
+      "abstract": "Automatic detection of fake content in social media such as Twitter is an enduring challenge. Technically, determining fake news on social media platforms is a\nstraightforward binary classification problem. However, manually fact-checking even a small fraction of daily tweets would be nearly impossible due to the sheer volume. To address\nthis challenge, we crawled and crowd-sourced one of the most extensive ground-truth tweet datasets. Utilizing Politifact and expert labeling as a base, it contains more\nthan 180 000 labels from 2009 to 2022, creating five- and three-label classification using Amazon Mechanical Turk. We utilized multiple levels of validation to ensure\nan accurate ground-truth benchmark dataset. Then, we created and implemented numerous machine learning and deep learning algorithms, including different variations of bidirectional encoder representations from\ntransformers (BERT)-based models and classical machine learning algorithms on the data to test the accuracy of real/fake tweet detection with both categories. Then, determining which\nversions gave us the highest result metrics. Further analysis is performed on the dataset by explicitly utilizing the DBSCAN text clustering algorithm combined with the\nYAKE keyword creation algorithm to determine topics' clustering and relationships. Finally, we analyzed each user in the dataset, determining their bot score, credibility score, and\ninfluence score for a better understanding of what type of Twitter user posts, their influence with each of their tweets, and if there were any\nunderlying patterns to be drawn from each score concerning the truthfulness of the tweet. The experiment's results illustrated profound improvement for models dealing with short-length\ntext in solving a real-life classification problem, such as automatically detecting fake content in social media. © 2014 IEEE."
+    },
+    {
+      "document_id": 274,
+      "score": null,
+      "abstract": "Twitter has become a fertile place for rumors, as information can spread to a large number of people immediately. Rumors can mislead public opinion, weaken\nsocial order, decrease the legitimacy of government, and lead to a significant threat to social stability. Therefore, timely detection and debunking rumor are urgently needed.\nIn , we proposed an Attention-based Long-Short Term Memory (LSTM) network that uses tweet text with thirteen different linguistic and user features to distinguish rumor\nand non-rumor tweets. The performance of the proposed Attention-based LSTM model is compared with several conventional machine and deep learning models. The proposed Attention-based LSTM\nmodel achieved an F1-score of 0.88 in classifying rumor and non-rumor tweets, which is better than the state-of-the-art results. The proposed system can reduce the\nimpact of rumors on society and weaken the loss of life, money, and build the firm trust of users with social media platforms. © 2020,\nThe Author(s)."
+    },
+    {
+      "document_id": 275,
+      "score": null,
+      "abstract": "Twitter led a remarkable breakthrough in information sharing on online social media. The eminent technology can propagate a piece of rumor to a large community\nof people in a short period. The timely detection of rumor tweets in social media curtails panic among the public during critical situations. Traditional machine\nlearning techniques are not capable of categorizing rumor information effectively. To address this problem, the author has proposed a novel neural network approach called veracity\ndetection neural network for identifying the rumor-related Twitter posts' content in real-time events. This algorithm utilized the convolutional sentence encoder-bi-directional long short-term memory (CSE-BiLSTM) model\nwith pre-trained vectorization methods such as Word2vec, fastText and universal sentence encoder (USE). The hybrid CSE-BiLSTM with USE vectorization technique yields the best results for\nthe performance metrics of accuracy, F1-score, precision and recall. The proposed algorithm achieves 90.56%, 86.18% and 93.89% accuracy values to classify the tweet into rumor\nor non-rumor for the datasets such as PHEME, newly emerged rumors on Twitter and #gaja, respectively. Finally, a comparative study shows that the proposed neural\nnetwork model outperformed all other existing rumor text classification systems. © 2021 The British Computer Society 2021. All rights reserved. For permissions, please e-mail: journals.permissions@oup.com."
+    },
+    {
+      "document_id": 276,
+      "score": null,
+      "abstract": "A widely used social networking service like Twitter has the ability to disseminate information to large groups of people even during a pandemic. At the\nsame time, it is a convenient medium to share irrelevant and unverified information online and poses a potential threat to society. In this research, conventional\nmachine learning algorithms are analyzed to classify the data as either non-rumor data or rumor data. Machine learning techniques have limited tuning capability and make\ndecisions based on their learning. To tackle this problem the authors propose a deep learning-based Rumor Detection Neural Network model to predict the rumor tweet\nin real-world events. This model comprises three layers, AttCNN layer is used to extract local and position invariant features from the data, AttBi-LSTM layer to\nextract important semantic or contextual information and HPOOL to combine the down sampling patches of the input feature maps from the average and maximum pooling\nlayers. A dataset from Kaggle and ground dataset #gaja are used to train the proposed Rumor Detection Neural Network to determine the veracity of the\nrumor. The experimental results of the RDNN Classifier demonstrate an accuracy of 93.24% and 95.41% in identifying rumor tweets in real-time events. © 2022 Korean\nSociety for Internet Information. All rights reserved."
+    },
+    {
+      "document_id": 277,
+      "score": null,
+      "abstract": "Twitter has become a popular platform to receive daily updates. The more the people rely on it, the more critical it becomes to get genuine\ninformation out. False information can easily be shared on Twitter, which influences people's feelings, especially if fake information is linked to COVID-19. Therefore, it is\nof utmost importance to detect fake information before it becomes uncontrollable. Real-time tweets were used as part of this study. A few features like tweet’s\ntext, sentiment etc., were extracted and analyzed. The project returns a set of statistics determining the tweet’s veracity. , various classifiers have been used to\nsee which of them works best with the proposed model in classifying the used dataset. The proposed model achieved the best accuracy of 84.54% and\nthe highest F1-score of 0.842 with Random Forest. With careful analysis while feature selection and using few features, the model developed is equivalent in performance\nto the other models that use a lot of features. This confirms that the model developed is less complex and highly dependable. © 2022, The\nAuthor(s), under exclusive licence to Springer Nature Singapore Pte Ltd."
+    },
+    {
+      "document_id": 407,
+      "score": null,
+      "abstract": "Twitter is an important place to get access to breaking news and information. So, it is necessary to check the trustworthiness of tweets. Credibility is\nused to assess the quality of being believable or worthy of trust. Credibility analysis refers to attempt to an ascertain truthfulness in short lie detection.\nIn , credibility of the twitter data can be assessed using centrality measures. First the tweets are preprocessed using the preprocessing techniques. The preprocessing techniques\non tweets: a stop word removal, stemming, pos tagging etc. are used to improve the performance. Preprocessed twitter data can be used to identify the\ntweet and author features. Then the centrality measures are applied to the preprocessed dataset. The proposed centrality measures used in are Betweeness centrality, Eigenvector centrality,\nDegree centrality and Closeness centrality. The centrality measures are used to find out the trust between the users and it will be given as input\nto classifiers. The classifiers like Naïve Bayesian, Support Vector Machine and K Nearest Neighbor are used to classify the tweets based on credibility. © BEIESP."
+    },
+    {
+      "document_id": 409,
+      "score": null,
+      "abstract": "Twitter has become a fertile ground for rumours as information can propagate to too many people in very short time. Rumours can create panic in\npublic and hence timely detection and blocking of rumour information is urgently required. We proposed and compare machine learning classifiers with a deep learning model\nusing Recurrent Neural Networks for classification of tweets into rumour and non-rumour classes. A total thirteen features based on tweet text and user characteristics were\ngiven as input to machine learning classifiers. Deep learning model was trained and tested with textual features and five user characteristic features. The findings indicate\nthat our models perform much better than machine learning based models. © 2019, IFIP International Federation for Information Processing."
+    },
+    {
+      "document_id": 476,
+      "score": null,
+      "abstract": "Twitter, as a popular social networking tool that allows its users to conveniently propagate information, has been widely used by politicians and political campaigners worldwide.\nIn the past years, Twitter has come under scrutiny due to its lack of filtering mechanisms, which lead to the propagation of trolling, bullying, and\nother unsocial behaviors. Rumors can also be easily created on Twitter, e.g., by extreme political campaigners, and widely spread by readers who cannot judge their\ntruthfulness. Current work on Twitter message assessment, however, focuses on credibility, which is subjective and can be affected by assessor’s bias. In , we focus\non the actual message truthfulness, and propose a rule-based method for detecting political rumors on Twitter based on identifying extreme users. We employ clustering methods\nto identify news tweets. In contrast with other methods that focus on the content of tweets, our unsupervised classification method employs five structural and timeline\nfeatures for the detection of extreme users. We show with extensive experiments that certain rules in our rule set provide accurate rumor detection with precision\nand recall both above 80 %, while some other rules provide 100% precision, although with lower recalls. © Springer International Publishing AG 2016."
+    },
+    {
+      "document_id": 491,
+      "score": null,
+      "abstract": "The increasing popularity of Twitter and other microblogs makes improved trustworthiness and relevance assessment of microblogs evermore important. We propose a method of ranking of\ntweets considering trustworthiness and content based popularity. The analysis of trustworthiness and popularity exploits the implicit relationships between the tweets. We model microblog ecosystem as\na three-layer graph consisting of: (i) users (ii) tweets and (iii) web pages. We propose to derive trust and popularity scores of entities in these\nthree layers, and propagate the scores to tweets considering the inter-layer relations. Our preliminary evaluations show improvement in precision and trustworthiness over the baseline methods\nand acceptable computation timings. © 2012 ACM."
+    },
+    {
+      "document_id": 493,
+      "score": null,
+      "abstract": "We analyze the information credibility of news propagated through Twitter, a popular microblogging service. Previous research has shown that most of the messages posted on\nTwitter are truthful, but the service is also used to spread misinformation and false rumors, often unintentionally.On we focus on automatic methods for assessing the\ncredibility of a given set of tweets. Specifically, we analyze microblog postings related to \"trending\" topics, and classify them as credible or not credible, based\non features extracted from them. We use features from users' posting and re-posting (\"re-tweeting\") behavior, from the text of the posts, and from citations to\nexternal sources.We evaluate our methods using a significant number of human assessments about the credibility of items on a recent sample of Twitter postings. Our\nresults shows that there are measurable differences in the way messages propagate, that can be used to classify them automatically as credible or not credible,\nwith precision and recall in the range of 70\\% to 80\\%."
+    }
+  ]
+}

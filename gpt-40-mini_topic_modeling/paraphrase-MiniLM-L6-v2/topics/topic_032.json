@@ -1,0 +1,45 @@
+{
+  "topic_id": 32,
+  "label": "T032",
+  "label_full": "Misinformation & Propaganda",
+  "keywords": [
+    "states",
+    "propaganda",
+    "data",
+    "protext",
+    "using",
+    "dataset",
+    "vectorized",
+    "credeye",
+    "analysis",
+    "conveyed"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 157,
+      "score": null,
+      "abstract": "The spread of misinformation and disinformation online represents a significant challenge in today's society. proposes implementing a news verifier web application that uses artificial intelligence\ntechniques to determine the veracity of news provided by users. The system consists of three stages: user input validation, selection of relevant sources, and information\nanalysis. We trained a logistic regression model with an in-house dataset of 2000 sentences for input validation. We utilized cosine similarity and FastText for source\nselection. Finally, a large language model analyzes the context and coherence of selected articles to determine veracity. The transparent presentation of results fosters media literacy.\nWhile some implementation details may differ due to time constraints, provides the overall methodology and architecture of the system. © 2023 IEEE."
+    },
+    {
+      "document_id": 164,
+      "score": null,
+      "abstract": "Social media, fake news, and different propaganda strategies have all contributed to an increase in misinformation online during the past ten years. As a result\nof the scarcity of high-quality data, the present datasets cannot be used to train a deep-learning model, making it impossible to establish an identification. We\nused a natural language processing approach to the issue in order to create a system that uses deep learning to automatically identify propaganda in news\nitems. To assist the scholarly community in identifying propaganda in text news, this study suggested the propaganda texts (ProText) library. Truthfulness labels are assigned to\nProText repositories after being manually and automatically verified with fact-checking methods. Additionally, this study proposed using a fine-tuned Robustly Optimized BERT Pre-training Approach (RoBERTa) and\nword embedding using multi-label multi-class text classification. Through experimentation and comparative research analysis, we address critical issues and collaborate to discover answers. We achieved an\nevaluation performance accuracy of 90%, 75%, 68%, and 65% on ProText, PTC, TSHP-17, and Qprop, respectively. The big-data method, particularly with deep-learning models, can assist\nus in filling out unsatisfactory big data in a novel text classification strategy. We urge collaboration to inspire researchers to acquire, exchange datasets, and develop\na standard aimed at organizing, labeling, and fact-checking. © 2023 by the authors."
+    },
+    {
+      "document_id": 191,
+      "score": null,
+      "abstract": "A method of information dissemination that had never been seen before the digital era has emerged as a result of the use of social media\nplatforms like Facebook, Twitter & Instagram and the development of the World Wide Web. Through these social media sites, a significant quantity of information may\nbe fraudulent. Therefore, it is necessary to monitor this data. By feeding a new article or fact to the model, we may use a technique\ncalled machine learning-based fake news identification to determine its veracity. We will preprocess the data (in this example, text) before training the dataset. Preprocessing mostly\nentails eliminating redundant data. The dataset is then divided into two sections for testing and training. The data will next be vectorized using a variety\nof vectorization methods, including Countvectorizer, TF-IDF vectorizer, and n-grams. The various machine learning algorithms such as random forest, decision tree, logistic regression etc. are then\ntrained using the vectorized data. The accuracy of cutting-edge false news detection is then increased by incorporating these results into ensemble models. The timeline of\na dataset has an impact on how accurate the model is since newer information is not included in older datasets, making it impossible for the\nmodel to effectively forecast the veracity of newer information. After training, the model may be quickly tested using the testing dataset, and it will then\nbe ready for usage. © 2023 IEEE."
+    },
+    {
+      "document_id": 394,
+      "score": null,
+      "abstract": "Trillions of data are being created every day on the Internet due to the growing number of social platforms on the World Wide Web (WWW).\nProcessed data when given in context makes information of any knowledge. However, irresponsible use of the data or misinterpretation of data could be the reasons\nfor false information dissemination. Many researchers from various fields, such as computer science and social science, draw their focus on assessing the veracity of information.\nThere are many techniques to perceive this topic, for instance, social network behaviour, and semantic analysis. The common practice is using semantic analysis approach, where\nthe syntactic structure is analysed and polarity of the texts is determined. In , we approach the veracity assessment by using emotion analysis. We identified\nemotional states conveyed in news content and calculated the weight of each state in each news content. Contrary to popular belief, our finding showed that\nemotional, or affective states conveyed in false news are varied - positive and negative states. The distinct feature is the weight of the states in\nnews content. Using multi-layer perceptron, we classified the news and achieved 90\\% accuracy with our collected dataset and 85\\% using LIAR dataset."
+    },
+    {
+      "document_id": 429,
+      "score": null,
+      "abstract": "Rapid increase of misinformation online has emerged as one of the biggest challenges in this post-truth era. This has given rise to many fact-checking websites\nthat manually assess doubtful claims. However, the speed and scale at which misinformation spreads in online media inherently limits manual verification. Hence, the problem of\nautomatic credibility assessment has attracted great attention. In , we present CredEye, a system for automatic credibility assessment. It takes a natural language claim as\ninput from the user and automatically analyzes its credibility by considering relevant articles from the Web. Our system captures joint interaction between language style of\narticles, their stance towards a claim and the trustworthiness of the sources. In addition, extraction of supporting evidence in the form of enriched snippets makes\nthe verdicts of CredEye transparent and interpretable."
+    }
+  ]
+}

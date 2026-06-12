@@ -1,0 +1,45 @@
+{
+  "topic_id": 30,
+  "label": "T030",
+  "label_full": "Misinformation & Propaganda",
+  "keywords": [
+    "heterogeneous",
+    "gfake",
+    "subgraphs",
+    "news",
+    "disentangled",
+    "heterosgt",
+    "inrm",
+    "fake",
+    "studies",
+    "graph"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 33,
+      "score": null,
+      "abstract": "Fake news is pervasive on social media, inflicting substantial harm on public discourse and societal well-being. We investigate the explicit structural information and textual features\nof news pieces by constructing a heterogeneous graph concerning the relations among news topics, entities, and content. Through our study, we reveal that fake news\ncan be effectively detected in terms of the atypical heterogeneous subgraphs centered on them, which encapsulate the essential semantics and intricate relations between news elements.\nHowever, suffering from the heterogeneity, exploring such heterogeneous subgraphs remains an open problem. To bridge the gap, proposes a heterogeneous subgraph transformer HeteroSGT to exploit\nsubgraphs in our constructed heterogeneous graph. In HeteroSGT, we first employ a pre-trained language model to derive both word-level and sentence-level semantics. Then the random\nwalk with restart (RWR) is applied to extract subgraphs centered on each news, which are further fed to our proposed subgraph Transformer to quantify the\nauthenticity. Extensive experiments on five real-world datasets demonstrate the superior performance of HeteroSGT over five baselines. Further case and ablation studies validate our motivation and\ndemonstrate that performance improvement stems from our specially designed components."
+    },
+    {
+      "document_id": 170,
+      "score": null,
+      "abstract": "Detecting fake news on social media is an urgent task. Some early studies focus on capturing authenticity information from news content, while the single information\nsource results in limited clues. Recent studies have great concern about more clues derived from auxiliary knowledge, yet it is usually rare at the early\nstage of news propagation. Furthermore, such studies, with more attention on the intra-news properties of individual news, would impair the performance on newly emerged events.\nTo alleviate these issues, we propose a novel Inter-News Relation Mining (INRM) framework to mine inter-news relations. Whether for scenarios with little auxiliary knowledge or\nnewly emerged events, INRM can provide more effective credibility clues for verifying th e truth of news. Experiments illustrate that INRM outperforms state-of-the-art methods on\nboth conventional tasks and newly emerged event tasks. © 2023, The Author(s), under exclusive license to Springer Nature Switzerland AG."
+    },
+    {
+      "document_id": 192,
+      "score": null,
+      "abstract": "Widespread fake news on social media threatens public security and the cyber environment, making fake news detection an essential area of study. The majority of\nexisting fake news detection methods rely on news content (e.g., text and images) and/or social contexts (e.g., comment interactions between posts) to determine the veracity\nof news. However, existing methods still have the following drawbacks: (1) Overreliance on sufficient reliable labeled data. (2) Lack of robustness to noise and fraudster-designed\nharmful disguises. (3) Inability to differentiate between the multiple intentions behind retweet and comment behaviors, resulting in generating entangled representations. To address the above aforementioned\nthree issues, we introduce contrastive learning and disentangled representation learning for fake news detection. Specifically, to mine supervised signals from unlabeled data and improve the\nmodel's robustness, we design a hierarchical contrastive learning framework that includes multiple data augmentation strategies and three contrastive learning tasks. In addition, to infer the\nlatent intentions of retweets and comments between posts, we propose the disentangled graph encoder (Disen-GraphEnc) and disentangled sequence encoder (Disen-SeqEnc). Extensive experiments demonstrate the superiority\nof our model over other state-of-the-art methods and is resistant to limited training data and noise attacks. Our code is available on the GitHub (\n© 2023 Elsevier Inc."
+    },
+    {
+      "document_id": 242,
+      "score": null,
+      "abstract": "Detection of fake news is crucial to ensure the authenticity of information and maintain the news ecosystem's reliability. Recently, there has been an increase in\nfake news content due to the recent proliferation of social media and fake content generation techniques such as Deep-Fake. The majority of the existing modalities\nof fake news detection focus on content-based approaches. However, most of these techniques fail to deal with ultra-realistic synthesized media produced by generative models. Our\nrecent studies find that the propagation characteristics of authentic and fake news are distinguishable, irrespective of their modalities. In this regard, we have investigated the\nauxiliary information based on social context to detect fake news. has analyzed the social context of fake news detection with a hybrid graph neural network-based\napproach. This hybrid model is based on integrating a graph neural network on the propagation of news and bi-directional encoder representations from the transformers model\non news content to learn the text features. Thus this proposed approach learns the content as well as the context features and hence able to\noutperform the baseline models with an f1-score of 0.91 on Politifact and 0.93 on the Gossipcop dataset, respectively © 2022 IEEE."
+    },
+    {
+      "document_id": 252,
+      "score": null,
+      "abstract": "The propagation of fake news is an increasingly serious concern in social platforms, and designing methods to automatically detect them and limit their spread is\nan important research challenge. Most existing methods rely on inspecting the content of news to decide on their veracity, but this information is not always\navailable. In , we present G-Fake (Graph-Fake), the first fake-news detection method that is entirely network-based. G-Fake only relies on the sharing history of news\nitems. It does not assume any information on the content of these items (e.g. text or pictures), nor on the trustworthiness of users. In fact,\nG-Fake does not even require access to the underlying social graph, nor to the interactions between users. Our experimental evaluation conducted on real-world data shows\nthat G-Fake can limit the spread of fake news in the earliest stages of propagation with an accuracy of 96.8%. © 2022, The Author(s), under\nexclusive license to Springer Nature Singapore Pte Ltd."
+    }
+  ]
+}

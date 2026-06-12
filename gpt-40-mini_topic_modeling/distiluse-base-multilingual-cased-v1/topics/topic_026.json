@@ -1,0 +1,50 @@
+{
+  "topic_id": 26,
+  "label": "T026",
+  "label_full": "medical, health",
+  "keywords": [
+    "medical",
+    "health",
+    "healthrelated",
+    "online",
+    "medfact",
+    "trusted",
+    "information",
+    "binary",
+    "healthcare",
+    "sentences"
+  ],
+  "n_docs": 6,
+  "documents": [
+    {
+      "document_id": 0,
+      "score": null,
+      "abstract": "In the digital age, seeking health advice on the Internet has become a common practice. At the same time, determining the trustworthiness of online medical\ncontent is increasingly challenging. Fact-checking has emerged as an approach to assess the veracity of factual claims using evidence from credible knowledge sources. To help\nadvance automated Natural Language Processing (NLP) solutions for this task, in we introduce a novel dataset HealthFC. It consists of 750 health-related claims in German\nand English, labeled for veracity by medical experts and backed with evidence from systematic reviews and clinical trials. We provide an analysis of the dataset,\nhighlighting its characteristics and challenges. The dataset can be used for NLP tasks related to automated fact-checking, such as evidence retrieval, claim verification, or explanation\ngeneration. For testing purposes, we provide baseline systems based on different approaches, examine their performance, and discuss the findings. We show that the dataset is\na challenging test bed with a high potential for future use. © 2024 ELRA Language Resource Association: CC BY-NC 4.0."
+    },
+    {
+      "document_id": 52,
+      "score": null,
+      "abstract": "Disinformation in the medical field is a growing problem that carries a significant risk. Therefore, it is crucial to detect and combat it effectively. In\nthis article, we provide three elements to aid in this fight: 1) a new framework that collects health-related articles from verification entities and facilitates their\ncheck-worthiness and fact-checking annotation at the sentence level; 2) a corpus generated using this framework, composed of 10335 sentences annotated in these two concepts and\ngrouped into 327 articles, which we call KEANE (faKe nEws At seNtence lEvel); and 3) a new model for verifying fake news that combines specific\nidentifiers of the medical domain with triplets subject-predicate-object, using Transformers and feedforward neural networks at the sentence level. This model predicts the fact-checking of sentences\nand evaluates the veracity of the entire article. After training this model on our corpus, we achieved remarkable results in the binary classification of sentences\n(check-worthiness F1: 0.749, fact-checking F1: 0.698) and in the final classification of complete articles (F1: 0.703). We also tested its performance against another public dataset\nand found that it performed better than most systems evaluated on that dataset. Moreover, the corpus we provide differs from other existing corpora in its\nduality of sentence-article annotation, which can provide an additional level of justification of the prediction of truth or untruth made by the model. © 2024\nMartinez-Rico et al. This is an open access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and\nreproduction in any medium, provided the original author and source are credited."
+    },
+    {
+      "document_id": 142,
+      "score": null,
+      "abstract": "<jats:sec><jats:title>Introduction</jats:title><jats:p>People are today increasingly relying on health information they find online to make decisions that may impact both their physical and mental wellbeing. Therefore, there\nis a growing need for systems that can assess the truthfulness of such health information. Most of the current literature solutions use machine learning or\nknowledge-based approaches treating the problem as a binary classification task, discriminating between correct information and misinformation. Such solutions present several problems with regard to user\ndecision making, among which: (i) the binary classification task provides users with just two predetermined possibilities with respect to the truthfulness of the information, which\nusers should take for granted; indeed, (ii) the processes by which the results were obtained are often opaque and the results themselves have little or\nno interpretation.</jats:p></jats:sec><jats:sec><jats:title>Methods</jats:title><jats:p>To address these issues, we approach the problem as an<jats:italic>ad hoc</jats:italic>retrieval task rather than a classification task, with reference, in particular, to the Consumer\nHealth Search task. To do this, a previously proposed Information Retrieval model, which considers information truthfulness as a dimension of relevance, is used to obtain\na ranked list of both topically-relevant and truthful documents. The novelty of concerns the extension of such a model with a solution for the explainability\nof the results obtained, by relying on a knowledge base consisting of scientific evidence in the form of medical journal articles.</jats:p></jats:sec><jats:sec><jats:title>Results and discussion</jats:title><jats:p>We evaluate the\nproposed solution both quantitatively, as a standard classification task, and qualitatively, through a user study to examine the “explained” ranked list of documents. The results\nobtained illustrate the solution's effectiveness and usefulness in making the retrieved results more interpretable by Consumer Health Searchers, both with respect to topical relevance and\ntruthfulness.</jats:p></jats:sec>"
+    },
+    {
+      "document_id": 203,
+      "score": null,
+      "abstract": "Fact-checking of health-related claims has become necessary in this digital age, where any information posted online is easily available to everyone. The most effective way\nto verify such claims is by using evidences obtained from reliable sources of medical knowledge, such as PubMed. Recent advances in the field of NLP\nhave helped automate such fact-checking tasks. In , we propose a domain-specific BERT-based model using a transfer learning approach for the task of predicting the\nveracity of claim-evidence pairs for the verification of health-related facts. We also improvise on a method to combine multiple evidences retrieved for a single claim,\ntaking into consideration conflicting evidences as well. We also show how our model can be exploited when labelled data is available and how backtranslation can\nbe used to augment data when there is data scarcity. © 2023 Association for Computational Linguistics."
+    },
+    {
+      "document_id": 442,
+      "score": null,
+      "abstract": "Since the advent of Web 2.0 and social media, anyone with an Internet connection can create content online, even if it is uncertain or fake\ninformation, which has attracted significant attention recently. , we address the challenge of uncertain online health information by automating systematic approaches borrowed from evidence-based medicine.\nOur proposed algorithm, MedFact, enables recommendation of trusted medical information within health-related social media discussions and empowers online users to make informed decisions about the\ncredibility of online health information. MedFact automatically extracts relevant keywords from online discussions and queries trusted medical literature with the aim of embedding related factual\ninformation into the discussion. Our retrieval model takes into account layperson terminology and hierarchy of evidence. Consequently, MedFact is a departure from current consensus-based approaches\nfor determining credibility using “wisdom of the crowd”, binary “Like” votes and ratings, popular in social media. Moving away from subjective metrics, MedFact introduces objective\nmetrics. We also present preliminary work towards a granular veracity score by using supervised machine learning to compare statements within uncertain social media text and\ntrusted medical text. We evaluate our proposed algorithm on various data sets from existing health social media involving both patient and medic discussions, with promising\nresults and suggestions for ongoing improvements and future research. © Springer International Publishing AG, part of Springer Nature 2018."
+    },
+    {
+      "document_id": 489,
+      "score": null,
+      "abstract": "Currently, a large amount of data is produced in healthcare informatics due to the growth of web technologies like social networks, wikis, blogs and RSS\nfeeds. However, not all health information provided online is trustworthy. Even though many experts are involved in publishing trusted information, it is difficult for the\ngeneral population to determine the credibility of the information. Therefore, a reliable mechanism to automatically determine the trustworthiness of online healthcare information is highly desired.\nIn , we propose two novel approaches based on Topic Modeling and Hidden Markov Models (HMMs), that can be applied over a large volume of\nonline healthcare data to assess its trustworthiness. Traditional Topic Modeling is solely based on the 'bag-of-words' model, however, we also consider the semantics of the\ncontent to identify the underlying topics in a sentence. For the HMM approach, we built our trustworthy and suspicious models after analyzing the characteristics of\nsentences from such websites. Both methods perform well to assess the trustworthiness, however HMM is less sophisticated to capture the semantics of sentences. We evaluated\nour method on randomly chosen real dataset and are able to achieve about 90% accuracy in identifying the trustworthiness of the content. © 2013 IEEE."
+    }
+  ]
+}

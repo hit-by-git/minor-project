@@ -1,0 +1,50 @@
+{
+  "topic_id": 20,
+  "label": "T020",
+  "label_full": "Fact-Checking & Verification",
+  "keywords": [
+    "fact",
+    "knowledge",
+    "search",
+    "statement",
+    "faxplainac",
+    "facekeg",
+    "urref",
+    "ontology",
+    "factchecking",
+    "facts"
+  ],
+  "n_docs": 6,
+  "documents": [
+    {
+      "document_id": 288,
+      "score": null,
+      "abstract": "Fact-checking on the Web has become the main mechanism through which we detect the credibility of the news or information. Existing fact-checkers verify the authenticity\nof the information (support or refute the claim) based on secondary sources of information. However, existing approaches do not consider the problem of model updates\ndue to constantly increasing training data due to user feedback. It is therefore important to conduct user studies to correct models' inference biases and improve\nthe model in a life-long learning manner in the future according to the user feedback. In , we present FaxPlainAC, a tool that gathers user\nfeedback on the output of explainable fact-checking models. FaxPlainAC outputs both the model decision, i.e., whether the input fact is true or not, along with\nthe supporting/refuting evidence considered by the model. Additionally, FaxPlainAC allows for accepting user feedback both on the prediction and explanation. Developed in Python, FaxPlainAC is\ndesigned as a modular and easily deployable tool. It can be integrated with other downstream tasks and allowing for fact-checking human annotation gathering and life-long\nlearning."
+    },
+    {
+      "document_id": 291,
+      "score": null,
+      "abstract": "In recent years, a plethora of fact checking and fact verification techniques have been developed to detect the veracity or factuality of online information text\nfor various applications. However, limited efforts have been undertaken to understand the interpretability of such veracity detection, i.e. explaining why a particular piece of text\nis factually correct or incorrect. In , we seek to bridge this gap by proposing a technique, FACE-KEG, to automatically perform explainable fact checking. Given\nan input fact or claim, our proposed model constructs a relevant knowledge graph for it from a large-scale structured knowledge base. This graph is encoded\nvia a novel graph transforming encoder. Our model also simultaneously retrieves and encodes relevant textual context about the input text from the knowledge base. FACE-KEG\nthen jointly exploits both the concept-relationship structure of the knowledge graph as well as semantic contextual cues in order to (i) detect the veracity of\nan input fact, and (ii) generate a human-comprehensible natural language explanation justifying the fact's veracity. We conduct extensive experiments on three large-scale datasets, and demonstrate\nthe effectiveness of FACE-KEG while performing fact checking. Automatic and human evaluations further show that FACE-KEG significantly outperforms competitive baselines in learning concise, coherent and\ninformative explanations for the input facts."
+    },
+    {
+      "document_id": 357,
+      "score": null,
+      "abstract": "Increasing concerns about the prevalence of false information and fake news has led to calls for automated fact-checking systems that are capable of verifying the\ntruthfulness of statements, especially on the internet. Most previous automated fact-checking systems have focused on the use of grammar rules only for determining the properties\nof the language used in statements. Here, we demonstrate a novel approach to the fact-checking of natural language text, which uses a combination of all\nthe following techniques: knowledge extraction to establish a knowledge base, logical inference for fact-checking of claims not explicitly mentioned in the text through the verification\nof the consistency of a set of beliefs with established trusted knowledge, and a re-querying approach that enables continuous learning. The approach that is presented\nhere addresses the limitations of existing automated fact-checking systems via this novel procedure. This procedure is as follows: the approach investigates the consistency of presented\nfacts or claims while using probabilistic soft logic and a Knowledge Base, which is continuously updated through continuous learning strategies. We demonstrate this approach by\nfocusing on the task of checking facts about family-tree relationships against a corpus of web resources concerned with the UK Royal Family. © 2020 by\nthe authors."
+    },
+    {
+      "document_id": 423,
+      "score": null,
+      "abstract": "The Uncertainty Representation and Reasoning Evaluation Framework (URREF) ontology addresses various semantic ambiguities associated with uncertainty. One of the main objectives of the URREF ontology\nis to define and articulate the criteria which enable the systematic reasoning about and evaluation of uncertainty representation and reasoning in information fusion systems. Towards\nassessing the merits of the URREF, information quality requires close attention for the measuring veracity and relevance. Veracity is measured from source sensitivity. Relevance is\ndetermined from precision and recall measures which are added to the URREF ontology. An example based on the Avionics Analytics Ontology (AAO) for Air Traffic\nManagement with multiple Automatic Dependent Surveillance-Broadcast (ADS-B) radars is provided. The use or the precision-recall, F1 score, and sensitivity provide useful analysis for semantically important\ndiscussions on 'relevance' as a complement of 'recall' in information fusion uncertainty assessment. © 2019 ISIF-International Society of Information Fusion."
+    },
+    {
+      "document_id": 434,
+      "score": null,
+      "abstract": "Among different characteristics of knowledge bases, data quality is one of the most relevant to maximize the benefits of the provided information. Knowledge base quality\nassessment poses a number of big data challenges such as high volume, variety, velocity, and veracity. In this article, we focus on answering questions related\nto the assessment of the veracity of facts through Deep Fact Validation (DeFacto), a triple validation framework designed to assess facts in RDF knowledge bases.\nDespite current developments in the research area, the underlying framework faces many challenges. This article pinpoints and discusses these issues and conducts a thorough analysis\nof its pipeline, aiming at reducing the error propagation through its components. Furthermore, we discuss recent developments related to this fact validation as well as\ndescribing advantages and drawbacks of state-of-the-art models. As a result of this exploratory analysis, we give insights and directions toward a better architecture to tackle\nthe complex task of fact-checking in knowledge bases."
+    },
+    {
+      "document_id": 484,
+      "score": null,
+      "abstract": "Untruthful information spreads on the web, which may mislead users or have a negative impact on user experience. In , we propose a method, called\nMulti-verifier, to determine the truthfulness of a fact statement. The basic idea is that whether a fact statement is truthful or not depends on the\ninformation related to the fact statement. We utilize a popular search engine to collect the top-K search results that are most related to the target\nfact statement. We then propose support score to measure the extent to which a search result supports the fact statement based on semantic constituent analysis,\nand we make use of credibility ranking to rank the search results. At last, we combine the support score and credibility ranking value of a\nsearch result to evaluate its contribution to a fact statement determination. Based on the contributions of the search results, we determine the fact statement. Our\nproposals are evaluated by experiments and results show availability and high precision of the proposed method. © 2014, Springer Science+Business Media New York."
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "topic_id": 27,
+  "label": "T027",
+  "label_full": "Misinformation & Propaganda",
+  "keywords": [
+    "bert",
+    "transformers",
+    "news",
+    "fake",
+    "articles",
+    "results",
+    "generalisation",
+    "pam",
+    "networks",
+    "models"
+  ],
+  "n_docs": 7,
+  "documents": [
+    {
+      "document_id": 59,
+      "score": null,
+      "abstract": "Fake news is a growing challenge for social networks and media. Detection of fake news always has been a problem for many years, but the\nevolution of social networks and increasing speed of news dissemination in recent years has been considered again. There are several approaches to solving this problem,\none of which is to detect fake news based on its text style using deep neural networks. In recent years, transfer learning with transformers is\none of the most used forms of deep neural networks for natural language processing. BERT is one of the most promising transformers that outperforms other\nmodels in many NLP benchmarks. In this article, we introduce MWPBert, which uses two parallel BERT networks to perform veracity detection on full-text news articles.\nOne of the BERT networks encodes news headline, and another encodes news bodies. Since the input length of the BERT network is limited and constant\nand the news body is usually a long text, we cannot feed the whole text into the BERT. Therefore, using the MaxWorth algorithm, we selected\nthe part of the news text that is more valuable for fact-checking, and fed it into the BERT network. Finally, we encode the output of\nthe two BERT networks to an output network to classify the news. The experiment results showed that the proposed model outperformed previous models regarding accuracy\nand other performance measures. © The Author(s), under exclusive licence to Springer Science+Business Media, LLC, part of Springer Nature 2023."
+    },
+    {
+      "document_id": 85,
+      "score": null,
+      "abstract": "The fake news story refers to information falsified or made up to manipulate or deceive the public. It is a serious issue that undermines the\ncredibility of information sources and influences public opinion, discourse, and important decisions and outcomes. The content and source of news articles and stories must be\nconsidered when identifying and classifying fake news. Detecting fake news is an important and active research area with many potential applications and implications for society.\nMany challenges are involved in determining whether a news article is authentic. Several deep learning models that employ natural language processing (NLP) have shown excellent\nresults in detecting fake news. To assess the truthfulness of news articles, our methodology is based on state-of-the-art language models based on transformers. Bidirectional Encoder\nRepresentation from Transformers (BERT) and Robustly Optimized BERT Technique (RoBERTa) is one of the most advanced models. Our findings reveal that the BERT model achieved\nan accuracy of 64%, while the RoBERTa model slightly outperformed it with an accuracy of 66%. These results are particularly significant when compared to similar\nresearch in this domain, which reported a maximum accuracy of 62% for both models on Liar dataset. © 2024 IEEE."
+    },
+    {
+      "document_id": 87,
+      "score": null,
+      "abstract": ", we present a pioneering method aimed at discerning the veracity of news content by leveraging state- of-the-art embedding techniques. Recognizing the importance of capturing\nsemantic nuances, we employ sentence transformers to generate embeddings that encapsulate the essence of the news content. This process results in high-dimensional data, which, although\nrich in information, can be computationally intensive for subsequent analysis. To address this, we introduce a Variational Autoencoder (VAE) to achieve an effective dimensionality reduction\nwhile preserving critical information. However, given the intricate and hierarchical nature of news content, we integrate a topic modeling approach known as Pachinko Allocation Model\n(PAM) into our framework. PAM offers a more refined data representation by capturing the latent hierarchical relationships between various news topics, adding an extra layer\nof semantic understanding to our method. The enhanced data representations from the VAE and PAM processes are con- catenated, creating a comprehensive feature set. This\ncombined feature set is then used to train multiple classifiers to segregate real news from fake counterparts. Through this comprehensive numerical investigation, we have achieved\nan accuracy of 96.80% and an F1 score of 97% using the transformer-based sentence paraphrase- multilingual architecture. Our study's findings are not only significant in\nterms of accuracy but also underscore the potential of combining multiple advanced techniques to tackle the fake news challenge. © 2024 IEEE."
+    },
+    {
+      "document_id": 195,
+      "score": null,
+      "abstract": "Detecting the veracity of textual content, and distin-guishing between fake and real news, has been greatly improved with the advent of BERT-based transformers. However, an\nin-herent challenge arises when encountering news articles that fall within the borderline of the latent vector space between fake and real. In , we propose\na three-label framework to address this uncertainty issue and leverage an external data enrichment module, Google Fact Check, to handle such cases. Our approach utilizes\na constraint dataset for training both the CT-BERT and BERT base models. Experimental results demonstrate that while the BERT base model achieves an accuracy of\n80%, the accuracy of CT-BERT, our proposed framework, reaches 93%. This significant improvement in a ccuracy showcases the effectiveness of our approach in tackling uncertainty\nin fake news detection. © 2023 IEEE."
+    },
+    {
+      "document_id": 206,
+      "score": null,
+      "abstract": "In the digital age, the rapid dissemination of news via social media platforms has given rise to a significant challenge - the proliferation of fake\nnews. This phenomenon sows confusion among the public and threatens the foundations of informed discourse and democracy. Addressing this issue, the present study explores the\napplication of the Bidirectional Encoder Representations from Transformers (BERT) model for detecting fake news. With its deep learning architecture and contextual understanding of language, BERT\noffers a promising framework for this purpose. The model was trained and validated on a dataset distinguishing between 'Fake' and 'True' news, achieving an accuracy\nof 79.88% and an area under the receiver operating characteristic (ROC) curve (AUC) of 0.87. These metrics underscore the model's proficiency in classifying news articles\ncorrectly. The study's results demonstrate the potential of BERT in the realm of fake news detection, providing a novel tool for social media platforms to\ncombat misinformation. Despite its efficacy, the research also highlights the model's limitations, including fluctuations in validation accuracy and a tendency to misclassify true news as\nfake, indicating areas for future improvement. This study contributes to the ongoing efforts to ensure the integrity of news content and offers a foundation for\nsubsequent research in information authenticity. © 2023 Copyright for by its authors."
+    },
+    {
+      "document_id": 311,
+      "score": null,
+      "abstract": "New mass media paradigms for information distribution have emerged with the digital age. With new digital-enabled mass media, the communication process is centered around the\nuser, while multimedia content is the new identity of news. Thus, the media landscape has shifted from mass media to personalized social media. While this\nprogress brings advantages, it also carries the risk of being detrimental to society through the emergence of misinformation (false or inaccurate information) and disinformation (intentionally\nspreading misinformation) in the form of fake news. Fake news is a tool used to manipulate public opinion on particular topics, distort public perceptions, and\ngenerate social unrest while lacking the rigor of traditional journalism. Driven by this current and real-world problem, in , we train multiple Deep Learning architectures\nfor multi-class classification and compare their performance in detecting the veracity of the news articles. To achieve accurate models in detecting misinformation, we employ a\nlarge dataset containing 100 000 news articles labeled with ten classes (one with real news and the rest with different types of fake news). We\nuse two preprocessing techniques, i.e., one simple and another very aggressive, to clean the dataset. We also employ three word embeddings that preserve the word\ncontext, i.e., Word2Vec, FastText, and GloVe, pre-trained and trained on our dataset to vectorize the preprocessed dataset. For the misinformation task, we train a Logistic\nRegression as a baseline and compare its results with the performance of ten Deep Learning architectures. We obtain the best results using a Recurrent Convolutional\nNeural Network based architecture. The experimental results show that the models are highly dependable on text preprocessing and the word embedding employed. © 2021 IEEE."
+    },
+    {
+      "document_id": 332,
+      "score": null,
+      "abstract": "As online news has become increasingly popular and fake news increasingly prevalent, the ability to audit the veracity of online news content has become more\nimportant than ever. Such a task represents a binary classification challenge, for which transformers have achieved state-of-the-art results. Using the publicly available ISOT and Combined\nCorpus datasets, this study explores transformers' abilities to identify fake news, with particular attention given to investigating generalisation to unseen datasets with varying styles, topics\nand class distributions. Moreover, we explore the idea that opinion-based news articles cannot be classified as real or fake due to their subjective nature and\noften sensationalised language, and propose a novel two-step classification pipeline to remove such articles from both model training and the final deployed inference system. Experiments\nover the ISOT and Combined Corpus datasets show that transformers achieve an increase in F scores of up to 4.9% for out of distribution generalisation\ncompared to baseline approaches, with a further increase of 10.1% following the implementation of our two-step classification pipeline. To the best of our knowledge, this\nstudy is the first to investigate generalisation of transformers in this context. © 2021 IEEE."
+    }
+  ]
+}

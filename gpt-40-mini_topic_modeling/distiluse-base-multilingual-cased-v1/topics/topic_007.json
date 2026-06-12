@@ -1,0 +1,70 @@
+{
+  "topic_id": 7,
+  "label": "T007",
+  "label_full": "lab, task",
+  "keywords": [
+    "lab",
+    "task",
+    "checkthat",
+    "english",
+    "evaluation",
+    "pages",
+    "arabic",
+    "asks",
+    "tasks",
+    "clef"
+  ],
+  "n_docs": 10,
+  "documents": [
+    {
+      "document_id": 118,
+      "score": null,
+      "abstract": "The paper describes Team DEFAULT's submission at CheckThat! 2024 Task-5 on Rumor Verification based on Evidence from Authorities: In , we present an approach for\nrumor verification on Twitter, focusing on integrating evidence from authoritative accounts to determine the veracity of rumors. We propose an architecture and a training regime\nas the preferred method to ensure seamless gradient flow. We formulate rumor verification using evidence from authorities as a Retrieval-Augmented Classification (RAC) task. By re-parameterizing\nthe Top-K operator and applying Entropy-based Smoothing, our method addresses the discontinuity issues faced after retrieval, enhancing the accuracy of rumor verification. Using this classification-aware\nretrieval, the retriever achieves Recall@5 0.778, outperforming the baseline, placing team DEFAULT third on the test data leaderboard for retrieval. For classification, our approach performs\non par with the baseline. © 2024 Copyright for by its authors."
+    },
+    {
+      "document_id": 280,
+      "score": null,
+      "abstract": "This article describes the different approaches used by the NLPIR-UNED team1 in the CLEF2022 CheckThat! Lab to tackle the Task 3 - English. The goal\nof this task is to determine the veracity of the main claim made in a news article. It is a multi-class classification problem with four\npossible values: true, partially false, false, and other. For this task, we have evaluated three different approaches. The first has been based on a Longformer\ntransformer model that supports larger input sequence sizes than other transformer models such as BERT. The second approach uses transformer models where an extension of\nthe training set has been carried out. The last approach uses an ensemble classifier composed of a transformer model fed with the sequence of words\nof the article to be evaluated, and a feed forward neural network fed with features related, among other things, to the number of named entities\nin the article, and features extracted using the LIWC text analysis tool. With this last approach, we have made our main submission reaching the second\nposition among the twenty-five participating teams. © 2022 Copyright for by its authors."
+    },
+    {
+      "document_id": 286,
+      "score": null,
+      "abstract": "describes the results of the CheckThat! Lab 2022 Task 3. This is the fifth edition of the lab, which concentrates on the evaluation of technologies\nsupporting three tasks related to factuality. Task 3 is designed as a multi-class classification problem and focuses on the veracity of German and English news\narticles. The German subtask is ought to be solved using an cross-lingual approach while the English subtask was offered as mono-lingual task. The participants of\nthe lab were provided an English training, development and test dataset as well as a German test dataset. In total, 25 teams submitted successful runs\nfor the English subtask and 8 for the German subtask. The best performing system for the mono-lingual subtask achieved a macro F1-score of 0.339. The\nbest system for the cross-lingual task achieved a macro F1-score of 0.242. In the paper at hand we will elaborate on the process of data\ncollection, the task setup, the evaluation results and give a brief overview of the participating systems. © 2022 Copyright for by its authors."
+    },
+    {
+      "document_id": 342,
+      "score": null,
+      "abstract": "We describe the fourth edition of the CheckThat! Lab, part of the 2021 Conference and Labs of the Evaluation Forum (CLEF). The lab evaluates technology\nsupporting three tasks related to factuality, and it covers Arabic, Bulgarian, English, Spanish, and Turkish. Here, we present the task 2, which asks to detect\npreviously fact-checked claims (in two languages). A total of four teams participated in this task, submitted a total of sixteen runs, and most submissions managed\nto achieve sizable improvements over the baselines using transformer based models such as BERT, RoBERTa. In , we describe the process of data collection and\nthe task setup, including the evaluation measures used, and we give a brief overview of the participating systems. Last but not least, we release to\nthe research community all datasets from the lab as well as the evaluation scripts, which should enable further research in detecting previously fact-checked claims. ©\n2021 Copyright for by its authors. Use permitted under Creative Commons License Attribution 4.0 International (CC BY 4.0)."
+    },
+    {
+      "document_id": 344,
+      "score": null,
+      "abstract": "This article describes the different approaches used by the NLPIR@UNED team in the CLEF2021 CheckThat! Lab to tackle the tasks 1A-English, 1A-Spanish and 3A-English. The\ngoal of Task 1A in English is to determine which tweets within a set of COVID-19 related tweets are worth checking. Task 1A in Spanish\nis similar but in this case the tweets are related to political issues in Spain. In both tasks, transformer models have been used to identify\ncheck-worthy tweets, obtaining the first place in the task in English and the fourth place in the task in Spanish. Task 3A is focused on\ndetermining the veracity of a news article. It is a multi-class classification problem with four possible values: true, partially false, false, and other. For this\ntask we have used two different approaches: a gradient-boosting classifier with TF-IDF and LIWC features, and a transformer model fed with the first tokens of\neach news article. We got the fourth place out of 25 participants in this task. © 2021 Copyright for by its authors. Use permitted under\nCreative Commons License Attribution 4.0 International (CC BY 4.0)."
+    },
+    {
+      "document_id": 360,
+      "score": null,
+      "abstract": "We describe the third edition of the CheckThat! Lab, which is part of the 2020 Cross-Language Evaluation Forum (CLEF). CheckThat! proposes four complementary tasks and\na related task from previous lab editions, offered in English, Arabic, and Spanish. Task 1 asks to predict which tweets in a Twitter stream are\nworth fact-checking. Task 2 asks to determine whether a claim posted in a tweet can be verified using a set of previously fact-checked claims. Task\n3 asks to retrieve text snippets from a given set of Web pages that would be useful for verifying a target tweet’s claim. Task 4\nasks to predict the veracity of a target tweet’s claim using a set of potentially-relevant Web pages. Finally, the lab offers a fifth task that\nasks to predict the check-worthiness of the claims made in English political debates and speeches. CheckThat! features a full evaluation framework. The evaluation is carried\nout using mean average precision or precision at rank k for ranking tasks, and F1 for classification tasks. © Springer Nature Switzerland AG 2020."
+    },
+    {
+      "document_id": 399,
+      "score": null,
+      "abstract": "We present an overview of the second edition of the CheckThat! Lab at CLEF 2019. The lab featured two tasks in two different languages: English\nand Arabic. Task 1 (English) challenged the participating systems to predict which claims in a political debate or speech should be prioritized for fact-checking. Task\n2 (Arabic) asked to (A) rank a given set of Web pages with respect to a check-worthy claim based on their usefulness for fact-checking that\nclaim, (B) classify these same Web pages according to their degree of usefulness for fact-checking the target claim, (C) identify useful passages from these pages,\nand (D) use the useful pages to predict the claim’s factuality. CheckThat! provided a full evaluation framework, consisting of data in English (derived from fact-checking\nsources) and Arabic (gathered and annotated from scratch) and evaluation based on mean average precision (MAP) and normalized discounted cumulative gain (nDCG) for ranking, and\nF &#x0024;&#x0024;:1&#x0024;&#x0024; for classification. A total of 47 teams registered to participate in this lab, and fourteen of them actually submitted runs (compared to nine\nlast year). The evaluation results show that the most successful approaches to Task 1 used various neural networks and logistic regression. As for Task 2,\nlearning-to-rank was used by the highest scoring runs for subtask A, while different classifiers were used in the other subtasks. We release to the research\ncommunity all datasets from the lab as well as the evaluation scripts, which should enable further research in the important tasks of check-worthiness estimation and\nautomatic claim verification. © Springer Nature Switzerland AG 2019."
+    },
+    {
+      "document_id": 414,
+      "score": null,
+      "abstract": "We present an overview of Task 2 of the second edition of the CheckThat! Lab at CLEF 2019. Task 2 asked (A) to rank a\ngiven set of Web pages with respect to a check-worthy claim based on their usefulness for fact-checking that claim, (B) to classify these same Web\npages according to their degree of usefulness for fact-checking the target claim, (C) to identify useful passages from these pages, and (D) to use the\nuseful pages to predict the claim's factuality. Task 2 at CheckThat! provided a full evaluation framework, consisting of data in Arabic (gathered and annotated from\nscratch) and evaluation based on normalized discounted cumulative gain (nDCG) for ranking, and F1 for classification. Four teams submitted runs. The most successful approach to\nsubtask A used learning-to-rank, while different classifiers were used in the other subtasks. We release to the research community all datasets from the lab as\nwell as the evaluation scripts, which should enable further research in the important task of evidence-based automatic claim verification. © 2019 for by its authors.\nUse permitted under Creative Commons License Attribution 4.0 International (CC BY 4.0). CLEF 2019, 9-12 September 2019, Lugano, Switzerland."
+    },
+    {
+      "document_id": 415,
+      "score": null,
+      "abstract": "We present an overview of the 2nd edition of the CheckThat! Lab, part of CLEF 2019, with focus on Task 1: Check-Worthiness in political debates.\nThe task asks to predict which claims in a political debate should be prioritized for fact-checking. In particular, given a debate or a political speech,\nthe goal is to produce a ranked list of its sentences based on their worthiness for fact-checking. This year, we extended the 2018 dataset with\n16 more debates and speeches. A total of 47 teams registered to participate in the lab, and eleven of them actually submitted runs for Task\n1 (compared to seven last year). The evaluation results show that the most successful approaches to Task 1 used various neural networks and logistic regression.\nThe best system achieved mean average precision of 0.166 (0.250 on the speeches, and 0.054 on the debates). This leaves large room for improvement, and\nthus we release all datasets and scoring scripts, which should enable further research in check-worthiness estimation. © 2019 for by its authors. Use permitted under\nCreative Commons License Attribution 4.0 International (CC BY 4.0). CLEF 2019, 9-12 September 2019, Lugano, Switzerland."
+    },
+    {
+      "document_id": 438,
+      "score": null,
+      "abstract": "We present an overview of the CLEF-2018 CheckThat! Lab on Automatic Identification and Verification of Political Claims. In its starting year, the lab featured two\ntasks. Task 1 asked to predict which (potential) claims in a political debate should be prioritized for fact-checking; in particular, given a debate or a\npolitical speech, the goal was to produce a ranked list of its sentences based on their worthiness for fact-checking. Task 2 asked to assess whether\na given check-worthy claim made by a politician in the context of a debate/speech is factually true, half-true, or false. We offered both tasks in\nEnglish and in Arabic. In terms of data, for both tasks, we focused on debates from the 2016 US Presidential Campaign, as well as on\nsome speeches during and after the campaign (we also provided translations in Arabic), and we relied on comments and factuality judgments from factcheck.org and snopes.com,\nwhich we further refined manually. A total of 30 teams registered to participate in the lab, and 9 of them actually submitted runs. The evaluation\nresults show that the most successful approaches used various neural networks (esp. for Task 1) and evidence retrieval from the Web (esp. for Task 2).\nWe release all datasets, the evaluation scripts, and the submissions by the participants, which should enable further research in both check-worthiness estimation and automatic claim\nverification. © Springer Nature Switzerland AG 2018."
+    }
+  ]
+}

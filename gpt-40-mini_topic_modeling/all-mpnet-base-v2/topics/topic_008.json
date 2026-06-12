@@ -1,0 +1,70 @@
+{
+  "topic_id": 8,
+  "label": "T008",
+  "label_full": "Misinformation & Propaganda",
+  "keywords": [
+    "classifier",
+    "machine",
+    "classification",
+    "ensemble",
+    "classifiers",
+    "fake",
+    "news",
+    "learning",
+    "decision",
+    "information"
+  ],
+  "n_docs": 10,
+  "documents": [
+    {
+      "document_id": 32,
+      "score": null,
+      "abstract": "In recent years, fake news detection has become an important issue in our daily life. As information increases, many studies are devoted to automating fake\nnews detection recently. Therefore, this study applies text mining technique to explore the issue of fake news from the aspect of writing style. We train\nthe model by extracting four categories of style features, then construct a classifier that can automatically assess the authenticity of news articles. In addition, this\nstudy also evaluates the combinations of various style features and observe their differences in classification effectiveness. Meanwhile, this study compares four popular supervised learning classification\ntechniques, namely Support Vector Machine, Random Forest, AdaBoost and XGBoost, to provide a most suitable classification method."
+    },
+    {
+      "document_id": 93,
+      "score": null,
+      "abstract": "In recent years, the pervasive dissemination of misinformation and deliberately falsified content, commonly referred to as 'fake news,' has become a critical challenge in the\nrealm of information dissemination. With the exponential growth of digital media and online platforms, the ease and speed at which misleading information can be generated\nand spread have increased substantially. Addressing the formidable task of detecting fake news has thus become an imperative within the field of information technology. The\nsupervised model gives promising results. However, the availability of labelled data is critical in the realm of fake news detection. Leveraging unlabeled data alongside labelled\ndata is an effective approach, but it requires careful handling. explores the application of Semi-Supervised Learning for fake news detection by integrating Label Propagation and\nvarious ML models as base classifiers. By leveraging both labelled and unlabeled data, Label Propagation with CatBoost Classifier seeks to overcome traditional limitations, offering a\npromising avenue for bolstering the reliability of automated systems in distinguishing between authentic and deceptive information in the vast landscape of digital content. © 2024\nIEEE."
+    },
+    {
+      "document_id": 182,
+      "score": null,
+      "abstract": "introduces an ensemble-based technique that uses Natural Language Processing method to detect fake news. It uses Support Vector Machine, Decision Tree, Passive Aggressive Classifier, and\nArtificial Neural Network, four different types of classifiers. The research's dataset for the study consisted of news pieces with labels indicating their truthfulness. Pre-processing of\nthe data included text cleaning, tokenization, and stemming. Using the initially processed data, the classifiers were trained and evaluated, and their performance were measured using\nmetrics such as F1 score, accuracy, recall, as well as precision. The findings revealed that ensemble model with a voting classifier outperformed individual classifiers, achieving\nmaximum accuracy. The findings suggest that the proposed method for identifying false news is effective and has the potential to benefit various fields such as\njournalism, media, politics, and public policy. The usage of ensemble techniques for detecting fake news has gained popularity in recent years, and highlights a novel\nmethod that employs NLP and machine learning techniques. © 2023 IEEE."
+    },
+    {
+      "document_id": 183,
+      "score": null,
+      "abstract": "The purpose of this approach is to find out the effects and efficiently detect fake news by using a publicly available dataset. However, it is\ndifficult for human beings to judge an article's truthfulness manually, which is why mainly wanted to cure the effect and to found out an automated\nfake news detection system with benchmark accuracy by using a machine learning classifier, which must be higher than other recent research works. In essence, ’s\ntarget is to find out an efficient way to detect fake and real news, and it also the target is to compare with existing work\nwhere researchers used machine learning classifiers and deep learning architecture. The proposed approach depended on a systematic literature review and a publicly available dataset where\n7796 news data are recorded with 50% real and 50% fake news. The best and benchmark accuracy is 93.61%, achieved by the Support Vector Machine\n(SVM) among the used Random Forest, Decision Tree, KNN, and Logistics Regression classifiers, and the achieved accuracy is better than the exciting recent research works.\nMoreover, fake news is detected, people are able to differentiate between fake or real news, and effects are cured when people used SVM. © 2023\nby the authors. Licensee ESJ, Italy."
+    },
+    {
+      "document_id": 196,
+      "score": null,
+      "abstract": "People are finding it simpler to find and ingest news as a result of the information’s easy access, quick expansion, and profusion on social media\nand in traditional news outlets. However, it is becoming increasingly difficult to distinguish between true and false information, which has resulted in the proliferation of\nfake news. Fake news is a term that refers to comments and journalism that intentionally mislead readers. Additionally, the legitimacy of social media sites, where\nthis news is primarily shared, is at stake. These fake news stories can have significant negative effects on society, so it is becoming increasingly important\nfor researchers to focus on how to identify them. In this research paper, we have compared ensemble learning models for identifying fake news by analyzing\na report’s accuracy and determining its veracity. The paper’s objective is to use natural language processing (NLP) and machine learning (ML) algorithms to identify false\nnews based on the content of news stories. The algorithms like decision trees, random forests, AdaBoost, and XGBoost classification are used for the project. A\nweb application has been developed using Python Flask framework to mitigate the challenges associated with identifying false information. © The Author(s), under exclusive license to\nSpringer Nature Singapore Pte Ltd 2023."
+    },
+    {
+      "document_id": 309,
+      "score": null,
+      "abstract": "In the age of the Internet, access to information is no longer a concern, the credibility, however, is the new era challenge. Information reaches people\nin an unfiltered format and therefore raises questions about the authenticity, validity, and credibility. focuses on increasing the reliability of the news, concentrating on static\nanalysis of written text intending to detect possible disingenuous information. To achieve this goal, intelligent solutions were engaged, designed to detect patterns of fake articles\nthat can hint at the lack of knowledge or outright maliciously. The architecture, of the proposed fake news detection system is a composite solution of\ndifferent classification algorithms, with a final network output obtained through the use of the ensemble learning methods, respectively the comparison of three voting systems. The\nbaseline model allowed a satisfactory accuracy of 99% for the given dataset. © 2021 IEEE."
+    },
+    {
+      "document_id": 320,
+      "score": null,
+      "abstract": "In , we propose a novel hybrid method for fake news detection. Two approaches have been used to assess the authenticity of the news using\nweb-scrapped data. In the first approach the data is the pre-processed using NLP techniques like extraction of raw text, the removal of special-characters, white-spaces, and\nstop words. This is followed by lemmatization which groups words with similar meanings. After Lemmatization we apply, Term Frequency - Inverse Document Frequency (TF-IDF) Vectorization\nto form a corpus which is further used to train the models. We propose the use of cosine similarity score, obtained after performing topic modelling\nalong with the corpus to improve the classification accuracies. The classifiers are KNN, Decision Tree, Naive Bayes, Logistic Regression, Passive-aggressive Classifier, and SVM to determine\nthe news is reliable or unreliable. More focus has been given to improve the classification accuracies of the passive aggressive classifier which is the most\nwidely used classifier in fake news detection. In the second approach, we use ensemble learning technique called as stacking along with cosine similarity score to\ntrain another model which gives the result as reliable or unreliable. It is observed that the second approach shows good improvement in the accuracy of\nfake news detection. ©2021 IEEE"
+    },
+    {
+      "document_id": 337,
+      "score": null,
+      "abstract": "one of the central motivations behind NLP (Natural Language Processing) is distinguishing designs. Agreed a content report, errand of recognizing the setting is referred to\nbe as theme order. Text classification is an important advance in the characteristic non-standard speech process. It is also performed utilizing totally different classification algorithms.\nIts cut back is wide utilized in text classification to perform classification on large live of text information. However, Map Reduce needed plenty of your\ntime to perform the tasks thereby increasing latency and since the information is distributed over the cluster it builds time and so reducing process speed.\nAlso, It utilizes a long queue of code. driven by this, we propose a basic nonetheless compelling machine learning methodology that uses a Naïve mathematician\nclassifier for text information. In the Machine Learning approach, the classifier is made mechanically by learning the properties of classes from a collection of predefined\ncoaching information. Hence, it will method complicated moreover, multi assortment information in dynamic things. Here we tend to propose a naïve Bayes classifier that scales\ndirectly with a range of indicators and information points that may be used for each binary and multiclass classification issue. We tend to enforce the\nconferred schemes victimization Machine Learning tool. The experiment results demonstrate the performance improvement within the classification technique..This manuscript investigates the performance of three various classifiers\nto be specific Decision Tree, and Naive Bayes and KNN on a theme characterization commission (within six subject divisions). An Assessment is finished based on\nmeticulousness, truthfulness, recall, and f1-attain based outcomes. Along with those three previously mentione © 2021 IEEE."
+    },
+    {
+      "document_id": 361,
+      "score": null,
+      "abstract": "The advent of the World Wide Web and the rapid adoption of social media platforms (such as Facebook and Twitter) paved the way for information\ndissemination that has never been witnessed in the human history before. With the current usage of social media platforms, consumers are creating and sharing more\ninformation than ever before, some of which are misleading with no relevance to reality. Automated classification of a text article as misinformation or disinformation is\na challenging task. Even an expert in a particular domain has to explore multiple aspects before giving a verdict on the truthfulness of an article.\nIn , we propose to use machine learning ensemble approach for automated classification of news articles. Our study explores different textual properties that can be\nused to distinguish fake contents from real. By using those properties, we train a combination of different machine learning algorithms using various ensemble methods and\nevaluate their performance on 4 real world datasets. Experimental evaluation confirms the superior performance of our proposed ensemble learner approach in comparison to individual learners.\n© 2020 Iftikhar Ahmad et al."
+    },
+    {
+      "document_id": 367,
+      "score": null,
+      "abstract": "The problem of fake news is a complex problem and is accompanied with social and economic ramifications. Targeted individuals and entities may lose trustworthiness, credibility\nand ultimately, suffer from reputation damages to their brand. Economically, an individual or brand may see fluctuations in revenue streams. In addition, the complex nature\nof the human language makes the problem of fake news a complex problem to solve for currently available computational remedies. The fight against the spread\nof fake news is a multi-disciplinary effort that will require research, collaboration and rapid development of tools and paradigms aimed at understanding and combating false\ninformation dissemination. This study explores fake news detection techniques using machine learning technology. Using a feature set which captures article structure, readability, and the similarity\nbetween the title and body, we show such features can deliver promising results. In the experiment, we select 6 machine learning algorithms, namely, AdaBoost as\nAB, Decision Tree as DT, K-Nearest Neighbour as KNN, Random Forest as RF, Support Vector Machine as SVM and XGBoost as XGB. To quantify a\nclassifier's performance, we use the confusion matrix model and other performance metrics. Given the structure of the experiment, we show the Support Vector Machine classifier\nprovided the best overall results. © 2020 IEEE."
+    }
+  ]
+}

@@ -1,0 +1,3467 @@
+[
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":15,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":24,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":25,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":26,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":41,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":43,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":48,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":54,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":57,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":60,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":62,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":63,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":64,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":69,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":71,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":72,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":73,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":79,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":80,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":81,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":88,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":89,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":90,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":91,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":92,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":98,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":104,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":105,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":111,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":116,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":117,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":125,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":127,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":128,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":129,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":130,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":131,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":132,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":135,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":143,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":145,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":146,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":149,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":150,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":151,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":158,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":160,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":161,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":164,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":165,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":172,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":173,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":176,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":177,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":186,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":187,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":189,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":194,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":197,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":199,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":204,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":207,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":210,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":217,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":222,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":226,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":234,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":240,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":241,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":243,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":249,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":251,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":252,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":254,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":260,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":262,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":263,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":266,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":267,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":270,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":271,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":272,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":275,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":278,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":283,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":291,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":292,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":295,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":296,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":301,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":302,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":305,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":319,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":321,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":324,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":325,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":327,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":328,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":330,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":331,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":333,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":334,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":339,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":341,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":349,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":350,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":351,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":352,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":354,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":355,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":357,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":363,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":364,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":370,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":373,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":374,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":375,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":377,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":378,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":384,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":385,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":387,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":389,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":391,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":394,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":395,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":398,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":401,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":402,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":412,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":414,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":421,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":422,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":425,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":429,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":430,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":432,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":433,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":435,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":437,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":439,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":443,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":448,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":450,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":452,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":454,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":455,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":463,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":475,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":476,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":478,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":484,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":487,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":488,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":490,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":492,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":-1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":494,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":0,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":51,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":0,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":61,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":0,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":75,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":0,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":77,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":0,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":78,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":0,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":82,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":0,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":84,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":0,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":119,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":0,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":122,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":0,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":188,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":0,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":190,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":0,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":193,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":0,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":205,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":0,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":218,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":0,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":245,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":0,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":247,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":0,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":258,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":0,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":358,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":0,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":365,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":0,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":403,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":0,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":446,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":0,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":461,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":33,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":42,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":53,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":55,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":66,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":68,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":96,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":141,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":167,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":170,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":192,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":213,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":219,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":242,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":257,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":294,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":313,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":322,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":368,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":1,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":451,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":2,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":4,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":2,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":5,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":2,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":6,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":2,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":11,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":2,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":20,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":2,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":21,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":2,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":102,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":2,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":162,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":2,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":221,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":2,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":323,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":2,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":347,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":2,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":459,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":2,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":477,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":3,
+    "topic_label":"Fact-Checking & Verification",
+    "document_id":28,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":3,
+    "topic_label":"Fact-Checking & Verification",
+    "document_id":38,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":3,
+    "topic_label":"Fact-Checking & Verification",
+    "document_id":103,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":3,
+    "topic_label":"Fact-Checking & Verification",
+    "document_id":109,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":3,
+    "topic_label":"Fact-Checking & Verification",
+    "document_id":259,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":3,
+    "topic_label":"Fact-Checking & Verification",
+    "document_id":297,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":3,
+    "topic_label":"Fact-Checking & Verification",
+    "document_id":348,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":3,
+    "topic_label":"Fact-Checking & Verification",
+    "document_id":381,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":3,
+    "topic_label":"Fact-Checking & Verification",
+    "document_id":383,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":3,
+    "topic_label":"Fact-Checking & Verification",
+    "document_id":436,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":3,
+    "topic_label":"Fact-Checking & Verification",
+    "document_id":453,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":3,
+    "topic_label":"Fact-Checking & Verification",
+    "document_id":462,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":3,
+    "topic_label":"Fact-Checking & Verification",
+    "document_id":464,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":4,
+    "topic_label":"discovery, sensing",
+    "document_id":306,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":4,
+    "topic_label":"discovery, sensing",
+    "document_id":392,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":4,
+    "topic_label":"discovery, sensing",
+    "document_id":397,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":4,
+    "topic_label":"discovery, sensing",
+    "document_id":408,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":4,
+    "topic_label":"discovery, sensing",
+    "document_id":424,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":4,
+    "topic_label":"discovery, sensing",
+    "document_id":447,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":4,
+    "topic_label":"discovery, sensing",
+    "document_id":458,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":4,
+    "topic_label":"discovery, sensing",
+    "document_id":471,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":4,
+    "topic_label":"discovery, sensing",
+    "document_id":472,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":4,
+    "topic_label":"discovery, sensing",
+    "document_id":473,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":4,
+    "topic_label":"discovery, sensing",
+    "document_id":479,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":4,
+    "topic_label":"discovery, sensing",
+    "document_id":486,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":5,
+    "topic_label":"Fact-Checking & Verification",
+    "document_id":118,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":5,
+    "topic_label":"Fact-Checking & Verification",
+    "document_id":237,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":5,
+    "topic_label":"Fact-Checking & Verification",
+    "document_id":273,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":5,
+    "topic_label":"Fact-Checking & Verification",
+    "document_id":304,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":5,
+    "topic_label":"Fact-Checking & Verification",
+    "document_id":338,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":5,
+    "topic_label":"Fact-Checking & Verification",
+    "document_id":353,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":5,
+    "topic_label":"Fact-Checking & Verification",
+    "document_id":410,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":5,
+    "topic_label":"Fact-Checking & Verification",
+    "document_id":411,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":5,
+    "topic_label":"Fact-Checking & Verification",
+    "document_id":419,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":5,
+    "topic_label":"Fact-Checking & Verification",
+    "document_id":420,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":5,
+    "topic_label":"Fact-Checking & Verification",
+    "document_id":456,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":5,
+    "topic_label":"Fact-Checking & Verification",
+    "document_id":466,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":6,
+    "topic_label":"evidence, graph",
+    "document_id":39,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":6,
+    "topic_label":"evidence, graph",
+    "document_id":101,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":6,
+    "topic_label":"evidence, graph",
+    "document_id":115,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":6,
+    "topic_label":"evidence, graph",
+    "document_id":212,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":6,
+    "topic_label":"evidence, graph",
+    "document_id":214,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":6,
+    "topic_label":"evidence, graph",
+    "document_id":223,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":6,
+    "topic_label":"evidence, graph",
+    "document_id":298,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":6,
+    "topic_label":"evidence, graph",
+    "document_id":300,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":6,
+    "topic_label":"evidence, graph",
+    "document_id":303,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":6,
+    "topic_label":"evidence, graph",
+    "document_id":343,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":6,
+    "topic_label":"evidence, graph",
+    "document_id":345,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":6,
+    "topic_label":"evidence, graph",
+    "document_id":376,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":7,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":23,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":7,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":56,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":7,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":83,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":7,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":95,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":7,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":171,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":7,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":178,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":7,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":224,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":7,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":250,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":7,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":261,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":7,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":265,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":7,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":315,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":8,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":32,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":8,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":93,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":8,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":182,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":8,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":183,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":8,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":196,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":8,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":309,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":8,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":320,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":8,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":337,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":8,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":361,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":8,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":367,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":9,
+    "topic_label":"fact, checking",
+    "document_id":44,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":9,
+    "topic_label":"fact, checking",
+    "document_id":230,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":9,
+    "topic_label":"fact, checking",
+    "document_id":289,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":9,
+    "topic_label":"fact, checking",
+    "document_id":356,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":9,
+    "topic_label":"fact, checking",
+    "document_id":434,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":9,
+    "topic_label":"fact, checking",
+    "document_id":440,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":9,
+    "topic_label":"fact, checking",
+    "document_id":457,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":9,
+    "topic_label":"fact, checking",
+    "document_id":468,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":9,
+    "topic_label":"fact, checking",
+    "document_id":482,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":10,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":97,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":10,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":100,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":10,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":114,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":10,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":157,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":10,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":225,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":10,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":233,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":10,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":312,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":10,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":329,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":10,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":372,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":11,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":34,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":11,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":65,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":11,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":180,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":11,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":191,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":11,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":244,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":11,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":310,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":11,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":316,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":11,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":318,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":11,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":335,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":12,
+    "topic_label":"fever, wikipedia",
+    "document_id":47,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":12,
+    "topic_label":"fever, wikipedia",
+    "document_id":202,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":12,
+    "topic_label":"fever, wikipedia",
+    "document_id":231,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":12,
+    "topic_label":"fever, wikipedia",
+    "document_id":293,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":12,
+    "topic_label":"fever, wikipedia",
+    "document_id":299,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":12,
+    "topic_label":"fever, wikipedia",
+    "document_id":340,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":12,
+    "topic_label":"fever, wikipedia",
+    "document_id":396,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":12,
+    "topic_label":"fever, wikipedia",
+    "document_id":426,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":12,
+    "topic_label":"fever, wikipedia",
+    "document_id":427,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":13,
+    "topic_label":"sources, information",
+    "document_id":336,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":13,
+    "topic_label":"sources, information",
+    "document_id":382,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":13,
+    "topic_label":"sources, information",
+    "document_id":423,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":13,
+    "topic_label":"sources, information",
+    "document_id":441,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":13,
+    "topic_label":"sources, information",
+    "document_id":467,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":13,
+    "topic_label":"sources, information",
+    "document_id":469,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":13,
+    "topic_label":"sources, information",
+    "document_id":481,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":13,
+    "topic_label":"sources, information",
+    "document_id":483,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":13,
+    "topic_label":"sources, information",
+    "document_id":485,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":14,
+    "topic_label":"claim, verification",
+    "document_id":3,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":14,
+    "topic_label":"claim, verification",
+    "document_id":22,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":14,
+    "topic_label":"claim, verification",
+    "document_id":45,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":14,
+    "topic_label":"claim, verification",
+    "document_id":110,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":14,
+    "topic_label":"claim, verification",
+    "document_id":112,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":14,
+    "topic_label":"claim, verification",
+    "document_id":136,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":14,
+    "topic_label":"claim, verification",
+    "document_id":228,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":14,
+    "topic_label":"claim, verification",
+    "document_id":290,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":14,
+    "topic_label":"claim, verification",
+    "document_id":307,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":15,
+    "topic_label":"explanations, reasoning",
+    "document_id":19,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":15,
+    "topic_label":"explanations, reasoning",
+    "document_id":106,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":15,
+    "topic_label":"explanations, reasoning",
+    "document_id":113,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":15,
+    "topic_label":"explanations, reasoning",
+    "document_id":124,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":15,
+    "topic_label":"explanations, reasoning",
+    "document_id":211,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":15,
+    "topic_label":"explanations, reasoning",
+    "document_id":232,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":15,
+    "topic_label":"explanations, reasoning",
+    "document_id":346,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":15,
+    "topic_label":"explanations, reasoning",
+    "document_id":359,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":16,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":13,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":16,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":35,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":16,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":86,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":16,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":99,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":16,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":121,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":16,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":123,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":16,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":134,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":16,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":366,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":17,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":9,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":17,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":16,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":17,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":31,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":17,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":94,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":17,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":181,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":17,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":216,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":17,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":236,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":17,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":264,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":18,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":30,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":18,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":49,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":18,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":120,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":18,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":126,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":18,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":140,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":18,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":163,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":18,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":215,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":18,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":279,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":19,
+    "topic_label":"Rumor on Social Media",
+    "document_id":198,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":19,
+    "topic_label":"Rumor on Social Media",
+    "document_id":229,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":19,
+    "topic_label":"Rumor on Social Media",
+    "document_id":256,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":19,
+    "topic_label":"Rumor on Social Media",
+    "document_id":268,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":19,
+    "topic_label":"Rumor on Social Media",
+    "document_id":274,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":19,
+    "topic_label":"Rumor on Social Media",
+    "document_id":276,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":19,
+    "topic_label":"Rumor on Social Media",
+    "document_id":393,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":19,
+    "topic_label":"Rumor on Social Media",
+    "document_id":409,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":20,
+    "topic_label":"Fact-Checking & Verification",
+    "document_id":40,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":20,
+    "topic_label":"Fact-Checking & Verification",
+    "document_id":137,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":20,
+    "topic_label":"Fact-Checking & Verification",
+    "document_id":208,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":20,
+    "topic_label":"Fact-Checking & Verification",
+    "document_id":209,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":20,
+    "topic_label":"Fact-Checking & Verification",
+    "document_id":308,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":20,
+    "topic_label":"Fact-Checking & Verification",
+    "document_id":386,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":20,
+    "topic_label":"Fact-Checking & Verification",
+    "document_id":417,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":21,
+    "topic_label":"Fact-Checking & Verification",
+    "document_id":27,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":21,
+    "topic_label":"Fact-Checking & Verification",
+    "document_id":46,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":21,
+    "topic_label":"Fact-Checking & Verification",
+    "document_id":108,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":21,
+    "topic_label":"Fact-Checking & Verification",
+    "document_id":138,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":21,
+    "topic_label":"Fact-Checking & Verification",
+    "document_id":147,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":21,
+    "topic_label":"Fact-Checking & Verification",
+    "document_id":281,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":21,
+    "topic_label":"Fact-Checking & Verification",
+    "document_id":285,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":22,
+    "topic_label":"Fact-Checking & Verification",
+    "document_id":282,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":22,
+    "topic_label":"Fact-Checking & Verification",
+    "document_id":360,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":22,
+    "topic_label":"Fact-Checking & Verification",
+    "document_id":388,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":22,
+    "topic_label":"Fact-Checking & Verification",
+    "document_id":399,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":22,
+    "topic_label":"Fact-Checking & Verification",
+    "document_id":415,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":22,
+    "topic_label":"Fact-Checking & Verification",
+    "document_id":428,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":22,
+    "topic_label":"Fact-Checking & Verification",
+    "document_id":438,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":23,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":29,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":23,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":67,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":23,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":74,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":23,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":144,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":23,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":184,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":23,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":248,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":23,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":255,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":24,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":17,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":24,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":168,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":24,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":174,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":24,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":179,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":24,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":185,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":24,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":246,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":24,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":317,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":25,
+    "topic_label":"Fact-Checking & Verification",
+    "document_id":12,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":25,
+    "topic_label":"Fact-Checking & Verification",
+    "document_id":152,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":25,
+    "topic_label":"Fact-Checking & Verification",
+    "document_id":153,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":25,
+    "topic_label":"Fact-Checking & Verification",
+    "document_id":155,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":25,
+    "topic_label":"Fact-Checking & Verification",
+    "document_id":227,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":25,
+    "topic_label":"Fact-Checking & Verification",
+    "document_id":287,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":25,
+    "topic_label":"Fact-Checking & Verification",
+    "document_id":465,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":26,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":7,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":26,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":10,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":26,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":37,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":26,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":58,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":26,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":154,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":26,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":200,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":26,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":253,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":27,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":59,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":27,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":85,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":27,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":87,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":27,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":195,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":27,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":206,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":27,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":311,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":27,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":332,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":28,
+    "topic_label":"medical, health",
+    "document_id":0,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":28,
+    "topic_label":"medical, health",
+    "document_id":52,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":28,
+    "topic_label":"medical, health",
+    "document_id":142,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":28,
+    "topic_label":"medical, health",
+    "document_id":203,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":28,
+    "topic_label":"medical, health",
+    "document_id":442,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":28,
+    "topic_label":"medical, health",
+    "document_id":489,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":29,
+    "topic_label":"Credibility Assessment",
+    "document_id":1,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":29,
+    "topic_label":"Credibility Assessment",
+    "document_id":2,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":29,
+    "topic_label":"Credibility Assessment",
+    "document_id":284,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":29,
+    "topic_label":"Credibility Assessment",
+    "document_id":406,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":29,
+    "topic_label":"Credibility Assessment",
+    "document_id":407,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":29,
+    "topic_label":"Credibility Assessment",
+    "document_id":491,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":30,
+    "topic_label":"Rumor on Social Media",
+    "document_id":18,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":30,
+    "topic_label":"Rumor on Social Media",
+    "document_id":362,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":30,
+    "topic_label":"Rumor on Social Media",
+    "document_id":404,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":30,
+    "topic_label":"Rumor on Social Media",
+    "document_id":405,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":30,
+    "topic_label":"Rumor on Social Media",
+    "document_id":460,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":30,
+    "topic_label":"Rumor on Social Media",
+    "document_id":474,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":31,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":70,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":31,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":76,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":31,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":156,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":31,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":169,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":31,
+    "topic_label":"Misinformation & Propaganda",
+    "document_id":400,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":32,
+    "topic_label":"Journalism & Media Studies",
+    "document_id":50,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":32,
+    "topic_label":"Journalism & Media Studies",
+    "document_id":139,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":32,
+    "topic_label":"Journalism & Media Studies",
+    "document_id":269,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":32,
+    "topic_label":"Journalism & Media Studies",
+    "document_id":277,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":32,
+    "topic_label":"Journalism & Media Studies",
+    "document_id":369,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":33,
+    "topic_label":"Rumor on Social Media",
+    "document_id":159,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":33,
+    "topic_label":"Rumor on Social Media",
+    "document_id":201,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":33,
+    "topic_label":"Rumor on Social Media",
+    "document_id":238,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":33,
+    "topic_label":"Rumor on Social Media",
+    "document_id":314,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":33,
+    "topic_label":"Rumor on Social Media",
+    "document_id":326,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":34,
+    "topic_label":"title, layer",
+    "document_id":166,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":34,
+    "topic_label":"title, layer",
+    "document_id":371,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":34,
+    "topic_label":"title, layer",
+    "document_id":390,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":34,
+    "topic_label":"title, layer",
+    "document_id":444,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":34,
+    "topic_label":"title, layer",
+    "document_id":445,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":35,
+    "topic_label":"video, cheapfakes",
+    "document_id":36,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":35,
+    "topic_label":"video, cheapfakes",
+    "document_id":148,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":35,
+    "topic_label":"video, cheapfakes",
+    "document_id":175,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":35,
+    "topic_label":"video, cheapfakes",
+    "document_id":235,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":35,
+    "topic_label":"video, cheapfakes",
+    "document_id":239,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":36,
+    "topic_label":"Credibility Assessment",
+    "document_id":220,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":36,
+    "topic_label":"Credibility Assessment",
+    "document_id":380,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":36,
+    "topic_label":"Credibility Assessment",
+    "document_id":470,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":36,
+    "topic_label":"Credibility Assessment",
+    "document_id":480,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":36,
+    "topic_label":"Credibility Assessment",
+    "document_id":493,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":37,
+    "topic_label":"NLP Methods",
+    "document_id":280,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":37,
+    "topic_label":"NLP Methods",
+    "document_id":286,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":37,
+    "topic_label":"NLP Methods",
+    "document_id":342,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":37,
+    "topic_label":"NLP Methods",
+    "document_id":344,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":37,
+    "topic_label":"NLP Methods",
+    "document_id":379,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":38,
+    "topic_label":"Fact-Checking & Verification",
+    "document_id":8,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":38,
+    "topic_label":"Fact-Checking & Verification",
+    "document_id":14,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":38,
+    "topic_label":"Fact-Checking & Verification",
+    "document_id":107,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":38,
+    "topic_label":"Fact-Checking & Verification",
+    "document_id":133,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":38,
+    "topic_label":"Fact-Checking & Verification",
+    "document_id":288,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":39,
+    "topic_label":"Fact-Checking & Verification",
+    "document_id":413,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":39,
+    "topic_label":"Fact-Checking & Verification",
+    "document_id":416,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":39,
+    "topic_label":"Fact-Checking & Verification",
+    "document_id":418,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":39,
+    "topic_label":"Fact-Checking & Verification",
+    "document_id":431,
+    "score":null
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "topic_id":39,
+    "topic_label":"Fact-Checking & Verification",
+    "document_id":449,
+    "score":null
+  }
+]

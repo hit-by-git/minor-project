@@ -1,0 +1,586 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d2" for="edge" attr.name="weight" attr.type="long" />
+  <key id="d1" for="node" attr.name="community" attr.type="long" />
+  <key id="d0" for="node" attr.name="location" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="Ali Khan J.">
+      <data key="d0">Unknown</data>
+      <data key="d1">0</data>
+    </node>
+    <node id="Jin Y.">
+      <data key="d0">Unknown</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Nakov P.">
+      <data key="d0">Unknown</data>
+      <data key="d1">2</data>
+    </node>
+    <node id="Wang Y.">
+      <data key="d0">Unknown</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Wu H.">
+      <data key="d0">Unknown</data>
+      <data key="d1">4</data>
+    </node>
+    <node id="Riaz A.">
+      <data key="d0">Unknown</data>
+      <data key="d1">0</data>
+    </node>
+    <node id="Zhang H.">
+      <data key="d0">Unknown</data>
+      <data key="d1">4</data>
+    </node>
+    <node id="Wang L.">
+      <data key="d0">Unknown</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Fatima R.">
+      <data key="d0">Unknown</data>
+      <data key="d1">0</data>
+    </node>
+    <node id="Liu Y.">
+      <data key="d0">Alexandria, Virginia, USA</data>
+      <data key="d1">5</data>
+    </node>
+    <node id="Samad Shaikh N.">
+      <data key="d0">Unknown</data>
+      <data key="d1">0</data>
+    </node>
+    <node id="Nabeel M.">
+      <data key="d0">Unknown</data>
+      <data key="d1">0</data>
+    </node>
+    <node id="Zhao Y.">
+      <data key="d0">Los Angeles, CA, USA</data>
+      <data key="d1">6</data>
+    </node>
+    <node id="Liu Q.">
+      <data key="d0">Unknown</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Chen H.">
+      <data key="d0">Hakodate, Japan; Virtual Event, Queensland, Australia</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Wang D.">
+      <data key="d0">Unknown</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Hasanain M.">
+      <data key="d0">Unknown</data>
+      <data key="d1">2</data>
+    </node>
+    <node id="Yao S.">
+      <data key="d0">Unknown</data>
+      <data key="d1">6</data>
+    </node>
+    <node id="Elsayed T.">
+      <data key="d0">Unknown</data>
+      <data key="d1">2</data>
+    </node>
+    <node id="Meng Y.">
+      <data key="d0">Unknown</data>
+      <data key="d1">4</data>
+    </node>
+    <node id="Roitero K.">
+      <data key="d0">Unknown</data>
+      <data key="d1">7</data>
+    </node>
+    <node id="Yu H.">
+      <data key="d0">Unknown</data>
+      <data key="d1">4</data>
+    </node>
+    <node id="Atanasova P.">
+      <data key="d0">Unknown</data>
+      <data key="d1">2</data>
+    </node>
+    <node id="Yang S.">
+      <data key="d0">Unknown</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Portelli B.">
+      <data key="d0">Unknown</data>
+      <data key="d1">7</data>
+    </node>
+    <node id="Serra G.">
+      <data key="d0">Unknown</data>
+      <data key="d1">7</data>
+    </node>
+    <node id="Latif R.M.A.">
+      <data key="d0">Unknown</data>
+      <data key="d1">0</data>
+    </node>
+    <node id="Yu P.S.">
+      <data key="d0">Virtual Event, Queensland, Australia</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="El-Affendi M.A.">
+      <data key="d0">Unknown</data>
+      <data key="d1">0</data>
+    </node>
+    <node id="Li C.">
+      <data key="d0">Unknown</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Spina D.">
+      <data key="d0">Unknown</data>
+      <data key="d1">7</data>
+    </node>
+    <node id="Li Y.">
+      <data key="d0">Virtual Event, Queensland, Australia</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Li X.">
+      <data key="d0">Unknown</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Demartini G.">
+      <data key="d0">Unknown</data>
+      <data key="d1">7</data>
+    </node>
+    <node id="Zhang X.">
+      <data key="d0">Unknown</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Yasin A.">
+      <data key="d0">Unknown</data>
+      <data key="d1">0</data>
+    </node>
+    <node id="Wang Z.">
+      <data key="d0">Unknown</data>
+      <data key="d1">6</data>
+    </node>
+    <node id="Xu X.">
+      <data key="d0">Kyoto, Japan</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Shu K.">
+      <data key="d0">Virtual Event, Queensland, Australia</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Wang X.">
+      <data key="d0">Unknown</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Wang H.">
+      <data key="d0">Virtual Event, Queensland, Australia</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Soprano M.">
+      <data key="d0">Unknown</data>
+      <data key="d1">7</data>
+    </node>
+    <node id="Mizzaro S.">
+      <data key="d0">Unknown</data>
+      <data key="d1">7</data>
+    </node>
+    <node id="Ahmad S.">
+      <data key="d0">Unknown</data>
+      <data key="d1">0</data>
+    </node>
+    <node id="Shao H.">
+      <data key="d0">Unknown</data>
+      <data key="d1">6</data>
+    </node>
+    <node id="Wang S.">
+      <data key="d0">Unknown</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Qaiser A.">
+      <data key="d0">Chiang Mai, Thailand; Xi'an, China</data>
+      <data key="d1">3</data>
+    </node>
+    <node id="Zhang Y.">
+      <data key="d0">Virtual Event, Ireland; Virtual Event, Queensland, Australia</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Chen Z.">
+      <data key="d0">Unknown</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Alyamani K.A.Z.">
+      <data key="d0">Unknown</data>
+      <data key="d1">0</data>
+    </node>
+    <edge source="Ali Khan J." target="Fatima R.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Ali Khan J." target="Samad Shaikh N.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Ali Khan J." target="Riaz A.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Ali Khan J." target="Ahmad S.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Ali Khan J." target="El-Affendi M.A.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Ali Khan J." target="Alyamani K.A.Z.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Ali Khan J." target="Nabeel M.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Ali Khan J." target="Yasin A.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Ali Khan J." target="Latif R.M.A.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Jin Y." target="Liu Q.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Jin Y." target="Zhang Y.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Jin Y." target="Xu X.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Jin Y." target="Wang X.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Jin Y." target="Wang H.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Nakov P." target="Hasanain M.">
+      <data key="d2">3</data>
+    </edge>
+    <edge source="Nakov P." target="Elsayed T.">
+      <data key="d2">4</data>
+    </edge>
+    <edge source="Nakov P." target="Atanasova P.">
+      <data key="d2">2</data>
+    </edge>
+    <edge source="Wang Y." target="Zhang X.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Wang Y." target="Wang S.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Wang Y." target="Wang H.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Wang Y." target="Xu X.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Wang Y." target="Wang L.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Wu H." target="Meng Y.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Wu H." target="Yu H.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Wu H." target="Zhang H.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Riaz A." target="Fatima R.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Riaz A." target="Samad Shaikh N.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Riaz A." target="Ahmad S.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Riaz A." target="El-Affendi M.A.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Riaz A." target="Alyamani K.A.Z.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Riaz A." target="Nabeel M.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Riaz A." target="Yasin A.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Riaz A." target="Latif R.M.A.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Zhang H." target="Meng Y.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Zhang H." target="Yu H.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Wang L." target="Liu Q.">
+      <data key="d2">2</data>
+    </edge>
+    <edge source="Wang L." target="Wang S.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Fatima R." target="Samad Shaikh N.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Fatima R." target="Ahmad S.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Fatima R." target="El-Affendi M.A.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Fatima R." target="Alyamani K.A.Z.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Fatima R." target="Nabeel M.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Fatima R." target="Yasin A.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Fatima R." target="Latif R.M.A.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Samad Shaikh N." target="Ahmad S.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Samad Shaikh N." target="El-Affendi M.A.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Samad Shaikh N." target="Alyamani K.A.Z.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Samad Shaikh N." target="Nabeel M.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Samad Shaikh N." target="Yasin A.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Samad Shaikh N." target="Latif R.M.A.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Nabeel M." target="Ahmad S.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Nabeel M." target="El-Affendi M.A.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Nabeel M." target="Alyamani K.A.Z.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Nabeel M." target="Yasin A.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Nabeel M." target="Latif R.M.A.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Zhao Y." target="Shao H.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Zhao Y." target="Yao S.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Zhao Y." target="Wang Z.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Liu Q." target="Zhang Y.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Liu Q." target="Xu X.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Chen H." target="Wang H.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Chen H." target="Li Y.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Chen H." target="Zhang Y.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Chen H." target="Shu K.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Chen H." target="Yu P.S.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Wang D." target="Zhang Y.">
+      <data key="d2">2</data>
+    </edge>
+    <edge source="Hasanain M." target="Elsayed T.">
+      <data key="d2">3</data>
+    </edge>
+    <edge source="Hasanain M." target="Atanasova P.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Yao S." target="Shao H.">
+      <data key="d2">2</data>
+    </edge>
+    <edge source="Yao S." target="Wang Z.">
+      <data key="d2">2</data>
+    </edge>
+    <edge source="Elsayed T." target="Atanasova P.">
+      <data key="d2">2</data>
+    </edge>
+    <edge source="Meng Y." target="Yu H.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Roitero K." target="Soprano M.">
+      <data key="d2">2</data>
+    </edge>
+    <edge source="Roitero K." target="Demartini G.">
+      <data key="d2">2</data>
+    </edge>
+    <edge source="Roitero K." target="Spina D.">
+      <data key="d2">2</data>
+    </edge>
+    <edge source="Roitero K." target="Mizzaro S.">
+      <data key="d2">2</data>
+    </edge>
+    <edge source="Roitero K." target="Portelli B.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Roitero K." target="Serra G.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Yang S." target="Li X.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Yang S." target="Wang S.">
+      <data key="d2">2</data>
+    </edge>
+    <edge source="Yang S." target="Shu K.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Portelli B." target="Soprano M.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Portelli B." target="Spina D.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Portelli B." target="Serra G.">
+      <data key="d2">2</data>
+    </edge>
+    <edge source="Portelli B." target="Mizzaro S.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Portelli B." target="Demartini G.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Serra G." target="Soprano M.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Serra G." target="Spina D.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Serra G." target="Mizzaro S.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Serra G." target="Demartini G.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Latif R.M.A." target="Ahmad S.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Latif R.M.A." target="El-Affendi M.A.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Latif R.M.A." target="Alyamani K.A.Z.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Latif R.M.A." target="Yasin A.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Yu P.S." target="Wang H.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Yu P.S." target="Li Y.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Yu P.S." target="Zhang Y.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Yu P.S." target="Shu K.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="El-Affendi M.A." target="Ahmad S.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="El-Affendi M.A." target="Alyamani K.A.Z.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="El-Affendi M.A." target="Yasin A.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Li C." target="Li X.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Li C." target="Wang S.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Spina D." target="Soprano M.">
+      <data key="d2">2</data>
+    </edge>
+    <edge source="Spina D." target="Demartini G.">
+      <data key="d2">2</data>
+    </edge>
+    <edge source="Spina D." target="Mizzaro S.">
+      <data key="d2">2</data>
+    </edge>
+    <edge source="Li Y." target="Wang H.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Li Y." target="Zhang Y.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Li Y." target="Shu K.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Li X." target="Wang S.">
+      <data key="d2">2</data>
+    </edge>
+    <edge source="Demartini G." target="Soprano M.">
+      <data key="d2">2</data>
+    </edge>
+    <edge source="Demartini G." target="Mizzaro S.">
+      <data key="d2">2</data>
+    </edge>
+    <edge source="Zhang X." target="Wang S.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Zhang X." target="Wang H.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Yasin A." target="Ahmad S.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Yasin A." target="Alyamani K.A.Z.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Wang Z." target="Shao H.">
+      <data key="d2">2</data>
+    </edge>
+    <edge source="Xu X." target="Zhang Y.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Shu K." target="Wang H.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Shu K." target="Zhang Y.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Shu K." target="Wang S.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Wang X." target="Chen Z.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Wang H." target="Zhang Y.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Wang H." target="Wang S.">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="Soprano M." target="Mizzaro S.">
+      <data key="d2">2</data>
+    </edge>
+    <edge source="Ahmad S." target="Alyamani K.A.Z.">
+      <data key="d2">1</data>
+    </edge>
+  </graph>
+</graphml>

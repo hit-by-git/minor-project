@@ -1,0 +1,55 @@
+{
+  "topic_id": 16,
+  "label": "T016",
+  "label_full": "Misinformation & Propaganda",
+  "keywords": [
+    "branch",
+    "propaganda",
+    "protext",
+    "social",
+    "estimator",
+    "models",
+    "state",
+    "text",
+    "model",
+    "networks"
+  ],
+  "n_docs": 7,
+  "documents": [
+    {
+      "document_id": 15,
+      "score": null,
+      "abstract": "In the period of extensive social media use, unconventional formats for news sharing often lack reliability, with misleading information disseminated through graphics emerging as a\nunique tactic. While the verification of the authenticity of news is a broad research domain, scholars have mainly focused on textual data. The misleading information\ndetection model described in uses neural sleuth-based networks to capture image data from the freely accessible Fakeddit dataset. The results are scrutinized using a confusion\nmatrix, and a comprehensive evaluation of the model's performance metrics is conducted across six categories: “true,” “satire,” “false connection,” “imposter content,” “manipulated content,” and “misleading\ncontent.” contributes an inclusive analysis of the model's effectiveness as a problem posed by misleading information on social media. © The Author(s), under exclusive license\nto Springer Nature Switzerland AG 2025."
+    },
+    {
+      "document_id": 54,
+      "score": null,
+      "abstract": "The widespread utilization of social media for information consumption has significantly exacerbated the problem of information disorder. Recognizing the difficulty people face in discerning the\ntruth, automated assistance is urgently needed. Current state-of-the-art approaches often involve fine-tuning existing models with contributions from domain knowledge bases. The black-box nature and interpretability\nissues of deep neural networks (DNNs) have increased interest in hybrid approaches, giving rise to Deep Neural Fuzzy Systems (DNFSs). This research paper presents the\nHybrid Fact-Checking Framework (HFCF) leveraging a DNFS tailored to address the uncertainty inherent in fact verification tasks and enhance the reliability of model responses. The\nDNFS integrates a Large Language Model (LLM) with an Adaptive Neuro-Fuzzy Inference System (ANFIS) for automated fact verification. The framework utilizes relevant evidence from open-world\nand closed-world sources, leveraging deep language models and employing few-shot prompting without additional training to generate and justify verdicts. Including fuzzy rules and considering the\ntrustworthiness and relevance of retrieved evidence enhances response reliability, thereby improving overall effectiveness and outcome interpretability. Experimental validations have been conducted on three publicly available\ndatasets ranging in different domains of expertise: ClimateFEVER, SciFact, and FEVER. The results demonstrate that the proposed framework ensures better outcomes, transparency, and mindful decision-making.\nIEEE"
+    },
+    {
+      "document_id": 73,
+      "score": null,
+      "abstract": "The widespread dissemination of misinformation, commonly referred to as 'fake news,' through social media platforms has had profound negative effects on individuals' daily lives and\nhas even contributed to instances of civil unrest. In response to this pressing issue, introduces an innovative approach called Unsupervised Misinformation (Fake-News) Detection Technique (UMD).\nThis method combines user data, textual content, news dissemination patterns, and images using Bidirectional GRU (Bi-GRU) and Self-Attention layers within an autoencoder framework to extract\nlatent features and interrelations among them. Furthermore, the approach utilizes residual reconstruction to identify instances of fake news. Empirical evaluations conducted on two real-world datasets\nemploying four different methodologies demonstrate promising outcomes. The term 'misinformation' encompasses fabricated narratives designed to deceive or mislead individuals. This study presents a Deep Learning-based\nstrategy to combat the proliferation of fake news. Crafting fake news poses a considerable challenge, demanding models to possess a nuanced understanding of Natural Language\nintricacies. Leveraging technologies such as Artificial Intelligence (AI) and Natural Language Processing (NLP) tools holds great promise for researchers seeking automated solutions for identifying false\ninformation. However, detecting fake news remains a formidable task, as it necessitates models to contextualize news content and discern its authenticity relative to genuine news.\nMoreover, the subjective nature of comparing proposed news with original sources adds complexity to the classification process, introducing elements of subjectivity and bias. The overall\naccuracy of this model is 9 2. 8 2 % which is approximately 3% better when compared to the existing models like transformer model and\nhybrid CNN-RNN model. The proposed model is proven to be outstanding in terms of accuracy, precison and F1-score. © 2024 IEEE."
+    },
+    {
+      "document_id": 122,
+      "score": null,
+      "abstract": "The widespread dissemination of fake news on social media has brought about the various degrees of negative impact on society. To address the issue of\ninsufficient social context data in the early identification of erroneous information, we suggest a model that combines dual-branch network training. A max-pooling branch (MPB) and\na generalised mean pooling branch (GPB) are the two main parts of this approach. While the GPB adds trainable pooling layers to capture the underlying\nsemantic qualities of news articles, the MPB uses a convolutional neural network to extract text attributes from the articles. Additionally, every branch network evaluates the\nsemantic importance of the news headline about the body text. Ultimately, judgements about the veracity of the news are based on the combined output of\nthese two branch networks’ cooperative training. The experimental results show that the suggested model outperforms baseline models in evaluation metrics such as accuracy, recall, and\nF1-Score, with an astounding F1-score of 94.1%. © 2024, Ismail Saritas. All rights reserved."
+    },
+    {
+      "document_id": 164,
+      "score": null,
+      "abstract": "Social media, fake news, and different propaganda strategies have all contributed to an increase in misinformation online during the past ten years. As a result\nof the scarcity of high-quality data, the present datasets cannot be used to train a deep-learning model, making it impossible to establish an identification. We\nused a natural language processing approach to the issue in order to create a system that uses deep learning to automatically identify propaganda in news\nitems. To assist the scholarly community in identifying propaganda in text news, this study suggested the propaganda texts (ProText) library. Truthfulness labels are assigned to\nProText repositories after being manually and automatically verified with fact-checking methods. Additionally, this study proposed using a fine-tuned Robustly Optimized BERT Pre-training Approach (RoBERTa) and\nword embedding using multi-label multi-class text classification. Through experimentation and comparative research analysis, we address critical issues and collaborate to discover answers. We achieved an\nevaluation performance accuracy of 90%, 75%, 68%, and 65% on ProText, PTC, TSHP-17, and Qprop, respectively. The big-data method, particularly with deep-learning models, can assist\nus in filling out unsatisfactory big data in a novel text classification strategy. We urge collaboration to inspire researchers to acquire, exchange datasets, and develop\na standard aimed at organizing, labeling, and fact-checking. © 2023 by the authors."
+    },
+    {
+      "document_id": 353,
+      "score": null,
+      "abstract": "Recent work in the domain of misinformation detection has leveraged rich signals in the text and user identities associated with content on social media. But\ntext can be strategically manipulated and accounts reopened under different aliases, suggesting that these approaches are inherently brittle. In , we investigate an alternative modality\nthat is naturally robust: the pattern in which information propagates. Can the veracity of an unverified rumor spreading online be discerned solely on the basis\nof its pattern of diffusion through the social network? Using graph kernels to extract complex topological information from Twitter cascade structures, we train accurate predictive\nmodels that are blind to language, user identities, and time, demonstrating for the first time that such “sanitized” diffusion patterns are highly informative of veracity.\nOur results indicate that, with proper aggregation, the collective sharing pattern of the crowd may reveal powerful signals of rumor truth or falsehood, even in\nthe early stages of propagation."
+    },
+    {
+      "document_id": 479,
+      "score": null,
+      "abstract": "develops a simplified dependency model for sources on social networks that is shown to improve the quality of fact-finding - assessing veracity of observations shared\non social media. Recent literature developed a mathematical approach for exploiting social networks, such as Twitter, as noisy sensor networks that report observations on the\nstate of the physical world. It was shown that the quality of state estimation from such noisy data, known as fact-finding, was a function of\nassumptions made regarding the independence of sources or lack thereof. When sources propagate information they hear from others (without verification), correlated errors may arise that\ndegrade fact-finding performance. advances the state of the art by developing a simplified model of dependencies between sources and designing an improved dependency-aware estimator to\nassess veracity of observations, taking into account the observed dependency structure. A fundamental error bound is derived for this estimator to understand the gap in\nits performance from optimal. It is shown that the new estimator outperforms state of the art fact-finders and, in some cases, yields an accuracy close\nto the fundamental error bound. © 2016 IEEE."
+    }
+  ]
+}

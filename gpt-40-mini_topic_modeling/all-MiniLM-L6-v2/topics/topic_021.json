@@ -1,0 +1,55 @@
+{
+  "topic_id": 21,
+  "label": "T021",
+  "label_full": "Fact-Checking & Verification",
+  "keywords": [
+    "internet",
+    "healthcare",
+    "factchecking",
+    "algorithm",
+    "crowdsourcing",
+    "source",
+    "newspapers",
+    "checks",
+    "agent",
+    "online"
+  ],
+  "n_docs": 7,
+  "documents": [
+    {
+      "document_id": 57,
+      "score": null,
+      "abstract": "We formulate the problem of fake news detection using distributed fact-checkers (agents) with unknown reliability. The stream of news/statements is modeled as an independent and\nidentically distributed binary source (to represent true and false statements). Upon observing a news, agent i labels the news as true or false that reflects\nthe true validity of the statement with some probability 1-P. In other words, agent i misclassified each statement with error probability Pin(0,1), where the parameter\nP models the (un)trustworthiness of agent i. We present an algorithm to learn the unreliability parameters, resulting in a distributed fact checking algorithm. For the\ntwo-agent case, we extensively analyze the discrete-time limit of our algorithm. © 2024 AACC."
+    },
+    {
+      "document_id": 162,
+      "score": null,
+      "abstract": "The Internet has replaced many newspapers as the principal source of information as newspapers' popularity has declined. People have access to a variety of news\nsources on the Internet. The tremendous increase in everyday internet users has resulted from the decreased cost of internet services. The number of Internet users\nin India has increased by about 146% in the last five years. The most common news sources today are social media, despite the fact that\nonline newspapers were once very popular. Creating content and disseminating it to the public under the guise of true news from a reliable news source\nis a major concern. This has led to an increase in the frequency with which people consume 'false news.' The dissemination of fake news has\nsevere consequences, including the potential to influence election outcomes. This research focuses on using crowdsourcing to address the challenge of recognising bogus news on the\nInternet. Crowdsourcing is the practise of gathering data from a sizable number of people, usually online. An efficient method for crowdsourcing fact-checking has been revealed\nby prior research. In order to stop the spread of false information on the Internet, aims to solve the limitations of earlier research studies and\nbuild on them to make crowdsourcing a reliable method for fact-checking. concludes with an order for a person to be verified in a specific category,\nthey will need to post several comments and reviews that are continuously scored highly. This requirement ensures the authenticity of authenticated users and the fact-checking\nthey do. © 2023 IEEE."
+    },
+    {
+      "document_id": 225,
+      "score": null,
+      "abstract": "Due to the rapid growth of the Internet and the subsequent rise of social media users, sharing information has become more flexible than ever before.\nThis unrestricted freedom has also led to an increase in fake news. During the Covid-19 outbreak, fake news spread globally, negatively affecting authorities' decisions and\nthe health of individuals. As a result, governments, media agencies, and academics have established fact-checking units and developed automatic detection systems. Research approaches to verify\nthe veracity of news focused largely on writing styles, propagation patterns, and building knowledge bases that serve as a reference for fact checking. However, little\nwork has been done to assess the credibility of the source of the claim to be checked. proposes a general framework for detecting fake news\nthat uses external evidence to verify the veracity of online news in a multilingual setting. Search results from Google are used as evidence, and the\nclaim is cross-checked with the top five search results. Additionally, we associate a vector of credibility scores with each evidence source based on the domain\nname and website reputation metrics. All of these components are combined to derive better predictions of the veracity of claims. Further, we analyze the claim-evidence\nentailment relationship and select supporting and refuting evidence to cross-check with the claim. The approach without selection components yields better detection performance. In , we\nconsider as a case study Covid-19 related news. Our framework achieves an F1-score of 0.85 and 0.97 in distinguishing fake from true news on XFact\nand Constraint datasets respectively. With the achieved results, the proposed framework present a promising automatic fact checker for both early and late detection. © 2013\nIEEE."
+    },
+    {
+      "document_id": 240,
+      "score": null,
+      "abstract": "As in electronic era, data is transmitted via social network and web, people are harmed by false and deceptive content, such as misinformation. A fact-checker\nwill examine specific indicators of falsity to determine the veracity of a piece of content. To perform automated fact-checking, retrieving information from the web, cleaning\nthe contents, and using machine learning techniques are required. Prior research has focused on linguistic and literary characteristics as well as approaches based on similarity\nmeasurements. All the details and intricacies of the problem are not adequately covered by any of the papers referenced in the resource. We advanced a\nText Resemblance Index (TRI) algorithm with a veracity-scanning model for the purpose of automating fact-checking URLs in the healthcare industry. To execute fact-checking in a\njournalistic manner, a set of innovative content, domain-specific, and sentimental scores based on polarity are applied. The Text Resemblance Score (TRS), a newly generated feature,\noutscored comparable properties with an accuracy of 88.27%, according to a thorough analysis of the proposed approach in contrast to traditional distance measures. In comparison\nto the Jaccard distance-based algorithm accuracy of 75.56% when leveraging an algorithm, TRI showed enhanced accuracy of 90%. Compared to the prior study, the TRS\nfeature-based technique produced an accuracy improvement of 2.40%. © 2022 IEEE."
+    },
+    {
+      "document_id": 439,
+      "score": null,
+      "abstract": "In the actual scenario of ever-growing data consumption speed and quantity, factors like news source decentralization, citizen journalism and democratization of media, make the task\nof manually checking and correcting disinformation across the internet impractical or infeasible . Here, there is an imperative need for a fast and reliable way\nto account for the veracity of what is produced and spread as information: Automatic fact-checking. In we present the problem of fact-checking in the era\nof big data and post-truth. Some existing approaches for this task are presented and their main features discussed and compared. Concluding, a new approach inspired\non the best components of the existing ones is presented. © 2018 IW3C2 (International World Wide Web Conference Committee), published under Creative Commons CC BY\n4.0 License."
+    },
+    {
+      "document_id": 465,
+      "score": null,
+      "abstract": "The emergence of \"Fake News\" and misinformation via online news and social media has spurred an interest in computational tools to combat this phenomenon. In\nwe present a new \"Related Fact Checks\" service, which can help a reader critically evaluate an article and make a judgment on its veracity by\nbringing up fact checks that are relevant to the article. We describe the core technical problems that need to be solved in building a \"Related\nFact Checks\" service, and present results from an evaluation of an implementation. © 2017 CEUR-WS. All rights reserved."
+    },
+    {
+      "document_id": 489,
+      "score": null,
+      "abstract": "Currently, a large amount of data is produced in healthcare informatics due to the growth of web technologies like social networks, wikis, blogs and RSS\nfeeds. However, not all health information provided online is trustworthy. Even though many experts are involved in publishing trusted information, it is difficult for the\ngeneral population to determine the credibility of the information. Therefore, a reliable mechanism to automatically determine the trustworthiness of online healthcare information is highly desired.\nIn , we propose two novel approaches based on Topic Modeling and Hidden Markov Models (HMMs), that can be applied over a large volume of\nonline healthcare data to assess its trustworthiness. Traditional Topic Modeling is solely based on the 'bag-of-words' model, however, we also consider the semantics of the\ncontent to identify the underlying topics in a sentence. For the HMM approach, we built our trustworthy and suspicious models after analyzing the characteristics of\nsentences from such websites. Both methods perform well to assess the trustworthiness, however HMM is less sophisticated to capture the semantics of sentences. We evaluated\nour method on randomly chosen real dataset and are able to achieve about 90% accuracy in identifying the trustworthiness of the content. © 2013 IEEE."
+    }
+  ]
+}

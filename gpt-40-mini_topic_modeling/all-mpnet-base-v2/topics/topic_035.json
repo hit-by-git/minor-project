@@ -1,0 +1,45 @@
+{
+  "topic_id": 35,
+  "label": "T035",
+  "label_full": "video, cheapfakes",
+  "keywords": [
+    "video",
+    "cheapfakes",
+    "forgeries",
+    "images",
+    "manipulation",
+    "integrity",
+    "image",
+    "wcbnet",
+    "outofcontext",
+    "technique"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 36,
+      "score": null,
+      "abstract": "In today’s era dominated by digital manipulations, the identification of Cheapfakes, especially those involving out-of-context visuals, is imperative for upholding the integrity of information dissemination\nand fostering trust in multimedia content. This research introduces an innovative approach to detect cheapfakes, utilizing a hybrid methodology that merges real-time online verification with\nextensive training on a unified end-to-end network, augmented by generative synthetic data. This combined strategy offers a promising avenue for enhancing the accuracy and efficiency\nof cheapfake detection, thus addressing the pressing need to combat misinformation in the digital landscape. We focus our solutions on two problems of Contextual Integrity\nPrediction and Image-Caption Authenticity Analysis. Our experiments reveal that this innovative network achieves an impressive 85.70% accuracy on a public test dataset through training solely\non synthetic data for Contextual Integrity Prediction, also proving its effectiveness in Image-Caption Authenticity Analysis. This research highlights the immense promise of using our proposed\nhybrid method in the fight against Cheapfakes, making a significant contribution to preserving the integrity of multimedia content. Our source code is publicly available at"
+    },
+    {
+      "document_id": 148,
+      "score": null,
+      "abstract": "Image manipulation which can easily generate hard-to-perceive fake information by image editing tools has become a threat of spreading visual mis/disinformation. With the speed and\ngrowth of such visual information presence in social media with respect to the current geopolitical affairs, tools for highly accurate verification of the authenticity of\nimages are vital for AI-based fact checking. presents an efficient convolutional neural network (CNN) based approach for image manipulation detection. Our method, called WCBnet, starts\nwith extracting learned features from the signed-value error levels (SEL) of compressed images on hierarchical convolution blocks. This is followed by adaptively concatenating, weighting and\nfusing these multi-level features by considering self-attention over all blocks according to different error levels corresponding to different manipulation types. We evaluate the performance of\nthe proposed approach with respect to common manipulation datasets and compare with the state-of-the-art. WCBnet trained using around 2500 images of CASIA 2.0 dataset, resulted\nin the best F1-score for CASIA 1.0, Defacto, Coverage and Columbia datasets after fine-tuning by a small portion of those datasets. On average WCBnet improves\nthe F1 score with respect to the second-best performing methods by 27.5%, 34.3%, 16.2% and 6.1% for these four datasets, respectively. © 2023 IEEE."
+    },
+    {
+      "document_id": 175,
+      "score": null,
+      "abstract": "Fake news on social media platforms has become a pressing issue, undermining the reliability of factual information. Platforms like Twitter, Instagram, and Reddit lack measures\nto recognize falsified information that is circulated via images. The existing state of the art solutions can ascertain the origin of a text string generated\nby a neural language model, they encounter difficulties when it comes to recognizing human-made modifications to news content and detecting instances of fake news conveyed\nthrough images. To address this challenge, we propose a solution that utilizes the Optical Character Recognition (OCR) capabilities of the Google Cloud Vision API to\nextract text from news images. The extracted text is then cross-referenced with the New York Times (NYT) database to verify the authenticity of the news\narticles. Our testing on human-altered, fake, and real news images yielded a 84.54% accuracy in detecting falsified news articles. offers a promising approach to combat\nmisinformation in image-based news content shared on social media platforms, thereby contributing to the preservation of factual information integrity. © 2023 IEEE."
+    },
+    {
+      "document_id": 235,
+      "score": null,
+      "abstract": "With the use of easily available video editing gadgets and applications, the authenticity of digital video has now become a significant concern since the last\ndecade. Digital video forgeries based on inter and intra-frames are often used these days for generating false/unlawful means of evidence in many civil/criminal trials. In\n, a passive technique using the Polar Cosine Transform (PCT) and Neighborhood Binary Angular Pattern (NBAP) along with the GoogleNet model is proposed to detect\nand localize multiple forgeries in the video. The pre-processing algorithm is used to extract the frames from the input videos and transform 3-D RGB color\nspace to 2-D grayscale space. The features are then extracted using the PCT and NBAP methodologies. The extracted features are then fed to the pre-trained\nGoogleNet model to identify the forgeries in the video. The proposed technique can detect and localize both intra-frame forgeries and inter-frame forgeries present in the\nvideo. Besides, the proposed technique is robust enough to handle the multiple forgeries in the video, even if the video is subjected to noise exposures.\nWith the help of performance measures like accuracy, specificity, precision, recall, and F1-score, we conduct a comprehensive performance assessment to validate the effectiveness of the\nproposed technique. © 2021, The Author(s), under exclusive licence to Springer Science+Business Media, LLC, part of Springer Nature."
+    },
+    {
+      "document_id": 239,
+      "score": null,
+      "abstract": "The explosive growth of the social media community has increased many kinds of misinformation and is attracting tremendous attention from the research community. One of\nthe most prevalent ways of misleading news is cheapfakes. Cheapfakes utilize non-AI techniques such as unaltered images with false context news to create false news,\nwhich makes it easy and “cheap” to create and leads to an abundant amount in the social media community. Moreover, the development of deep learning\nalso opens and invents many domains relevant to news such as fake news detection, rumour detection, fact-checking, and verification of claimed images. Nevertheless, despite the\nimpact on and harmfulness of cheapfakes for the social community and the real world, there is little research on detecting cheapfakes in the computer science\ndomain. It is challenging to detect misused/false/out-of-context pairs of images and captions, even with human effort, because of the complex correlation between the attached image\nand the veracity of the caption content. Existing research focuses mostly on training and evaluating on given dataset, which makes the proposal limited in terms\nof categories, semantics and situations based on the characteristics of the dataset. In , to address these issues, we aimed to leverage textual semantics understanding\nfrom the large corpus and integrated with different combinations of text-image matching and image captioning methods via ANN/Transformer boosting schema to classify a triple of\n(image, caption1, caption2) into OOC (out-of-context) and NOOC (no out-of-context) labels. We customized these combinations according to various exceptional cases that we observed during data\nanalysis. We evaluate our approach using the dataset and evaluation metrics provided by the COSMOS baseline. Compared to other methods, including the baseline, our method\nachieves the highest Accuracy, Recall, and F1 scores. © 2022 by the authors."
+    }
+  ]
+}

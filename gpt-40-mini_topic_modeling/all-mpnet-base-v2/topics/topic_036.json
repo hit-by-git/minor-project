@@ -1,0 +1,45 @@
+{
+  "topic_id": 36,
+  "label": "T036",
+  "label_full": "Credibility Assessment",
+  "keywords": [
+    "event",
+    "microblog",
+    "tweets",
+    "microblogs",
+    "credibility",
+    "viewpoints",
+    "credible",
+    "false",
+    "topics",
+    "twitter"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 220,
+      "score": null,
+      "abstract": "For the sake of determining the reliability of an event, proposes a method of identifying the authenticity of a microblog event based on human-machine collaboration.\nUsing the Weibo that was spoken in the incident and the public information of the users participating in the event to identify false incidents. Then\nseparately calculate the user's credibility and the emotional stance of Weibo and comments. The calculation of user credibility takes the complete information of the user\nas a static description of the user. When performing emotional standpoint detection, we divide it into two steps. For a piece of Weibo, its comments\nare tested for further computation, for different microblog, the emotions between microblog are tested. Building a graph model for an event. While processing the model,\nsome special microblogs are extracted. Human will deal with these microblogs and give feedback to the graph model. Then the model will be changed accordingly.\nFinally, GCN is leveraged to process the model to obtain the true and false of the event. Through extensive experiments to verify the proposed model\nand show a comparative performance, the accuracy is 89.34 and the F-score reaches0.9375."
+    },
+    {
+      "document_id": 380,
+      "score": null,
+      "abstract": "In we investigate automated methods for understanding false news dissemination on Twitter in relation to one particular event: the 2019 Indonesian presidential election. We collected\na sample of 2,360 tweets related to topics addressed by fact-checking websites. The tweets were hand-labeled according to their trustworthiness. We trained several classification models\non the human-labelled data, using three groups of text features. The word n-gram features appeared to be the most effective, reaching a recall of 85%\nfor true news and 62% for false news. With this classifier we labeled a larger sample of tweets related to fact-checking topics in the context\nof the 2019 Indonesian presidential elections. We then analysed the dissemination of true news and false news in the underlying Twitter network using community detection\nand centrality measures. The top influential users in the network disseminate more false news, including a government institution account and a verified politician's account. Our\nresults show that the combination of text features and social network analysis can provide valuable insights in detecting and preventing the dissemination of false news.\nMoreover, we make the dataset used in this research available for reuse by the community. © 2020 CEUR-WS. All rights reserved."
+    },
+    {
+      "document_id": 470,
+      "score": null,
+      "abstract": "In recent years, there has been a growing trend to use publicly available social media sources within the field of journalism. Breaking news has tight\nreporting deadlines, measured in minutes not days, but content must still be checked and rumors verified. As such, journalists are looking at automated content analysis\nto prefilter large volumes of social media content prior to manual verification. This article describes a real-time social media analytics framework for journalists. We extend\nour previously published geoparsing approach to improve its scalability and efficiency. We develop and evaluate a novel approach to geosemantic feature extraction, classifying evidence in\nterms of situatedness, timeliness, confirmation, and validity. Our approach works for new unseen news topics. We report results from four experiments using five Twitter datasets\ncrawled during different English-language news events. One of our datasets is the standard TREC 2012 microblog corpus. Our classification results are promising, with F1 scores\nvarying by class from 0.64 to 0.92 for unseen event types. We lastly report results from two case studies during real-world news stories, showcasing different\nways our system can assist journalists filter and cross-check content as they examine the trust and veracity of content and sources."
+    },
+    {
+      "document_id": 480,
+      "score": null,
+      "abstract": "Fake news spreading in social media severely jeopardizes the veracity of online content. Fortunately, with the interactive and open features of microblogs, skeptical and opposing\nvoices against fake news always arise along with it. The conflicting information, ignored by existing studies, is crucial for news verification. In , we take\nadvantage of this \"wisdom of crowds\" information to improve news verification by mining conflicting viewpoints in microblogs. First, we discover conflicting viewpoints in news tweets\nwith a topic model method. Based on identified tweets' viewpoints, we then build a credibility propagation network of tweets linked with supporting or opposing relations.\nFinally, with iterative deduction, the credibility propagation on the network generates the final evaluation result for news. Experiments conducted on a real-world data set show\nthat the news verification performance of our approach significantly outperforms those of the baseline approaches. © 2016, Association for the Advancement of Artificial Intelligence (\nAll rights reserved."
+    },
+    {
+      "document_id": 493,
+      "score": null,
+      "abstract": "We analyze the information credibility of news propagated through Twitter, a popular microblogging service. Previous research has shown that most of the messages posted on\nTwitter are truthful, but the service is also used to spread misinformation and false rumors, often unintentionally.On we focus on automatic methods for assessing the\ncredibility of a given set of tweets. Specifically, we analyze microblog postings related to \"trending\" topics, and classify them as credible or not credible, based\non features extracted from them. We use features from users' posting and re-posting (\"re-tweeting\") behavior, from the text of the posts, and from citations to\nexternal sources.We evaluate our methods using a significant number of human assessments about the credibility of items on a recent sample of Twitter postings. Our\nresults shows that there are measurable differences in the way messages propagate, that can be used to classify them automatically as credible or not credible,\nwith precision and recall in the range of 70\\% to 80\\%."
+    }
+  ]
+}

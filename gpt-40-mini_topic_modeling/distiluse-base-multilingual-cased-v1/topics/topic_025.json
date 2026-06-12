@@ -1,0 +1,50 @@
+{
+  "topic_id": 25,
+  "label": "T025",
+  "label_full": "Fact-Checking & Verification",
+  "keywords": [
+    "veracity",
+    "metadata",
+    "premise",
+    "claims",
+    "prediction",
+    "dataset",
+    "articles",
+    "checking",
+    "fact",
+    "contribute"
+  ],
+  "n_docs": 6,
+  "documents": [
+    {
+      "document_id": 125,
+      "score": null,
+      "abstract": "Automated evaluation of text generation systems has recently seen increasing attention, particularly checking whether generated text stays truthful to input sources. Existing methods frequently rely\non an evaluation using task-specific language models, which in turn allows for little interpretability of generated scores. We introduce SRLScore, a reference-free evaluation metric designed\nwith text summarization in mind. Our approach generates fact tuples constructed from Semantic Role Labels, applied to both input and summary texts.A final factuality score\nis computed by an adjustable scoring mechanism, which allows for easy adaption of the method across domains. Correlation with human judgments on English summarization datasets\nshows that SRLScore is competitive with state-of-the-art methods and exhibits stable generalization across datasets without requiring further training or hyperparameter tuning. We experiment with an\noptional co-reference resolution step, but find that the performance boost is mostly outweighed by the additional compute required. Our metric is available online at:"
+    },
+    {
+      "document_id": 207,
+      "score": null,
+      "abstract": "We present a comprehensive work on automated veracity assessment from dataset creation to developing novel methods based on Natural Language Inference (NLI), focusing on misinformation\nrelated to the COVID-19 pandemic. We first describe the construction of the novel PANACEA dataset consisting of heterogeneous claims on COVID-19 and their respective information\nsources. The dataset construction includes work on retrieval techniques and similarity measurements to ensure a unique set of claims. We then propose novel techniques for\nautomated veracity assessment based on Natural Language Inference including graph convolutional networks and attention based approaches. We have carried out experiments on evidence retrieval and\nveracity assessment on the dataset using the proposed techniques and found them competitive with SOTA methods, and provided a detailed discussion."
+    },
+    {
+      "document_id": 209,
+      "score": null,
+      "abstract": "We contribute a new dataset for the task of automated fact checking and an evaluation of state of the art algorithms. The dataset includes claims\n(from speeches, interviews, social media and news articles), review articles published by professional fact checkers and premise articles used by those professional fact checkers to\nsupport their review and verify the veracity of the claims. An important challenge in the use of premise articles is the identification of relevant passages\nthat will help to infer the veracity of a claim. We show that transferring a dense passage retrieval model trained with review articles improves the\nretrieval quality of passages in premise articles. We report results for the prediction of claim veracity by inference from premise articles."
+    },
+    {
+      "document_id": 359,
+      "score": null,
+      "abstract": "Most existing work on automated fact checking is concerned with predicting the veracity of claims based on metadata, social network spread, language used in claims,\nand, more recently, evidence supporting or denying claims. A crucial piece of the puzzle that is still missing is to understand how to automate the\nmost elaborate part of the process - generating justifications for verdicts on claims. provides the first study of how these explanations can be generated automatically\nbased on available claim context, and how this task can be modelled jointly with veracity prediction. Our results indicate that optimising both objectives at the\nsame time, rather than training them separately, improves the performance of a fact checking system. The results of a manual evaluation further suggest that the\ninformativeness, coverage and overall quality of the generated explanations are also improved in the multi-task model. © 2020 Association for Computational Linguistics"
+    },
+    {
+      "document_id": 386,
+      "score": null,
+      "abstract": "We contribute the largest publicly available dataset of naturally occurring factual claims for the purpose of automatic claim verification. It is collected from 26 fact\nchecking websites in English, paired with textual sources and rich metadata, and labelled for veracity by human expert journalists. We present an in-depth analysis of\nthe dataset, highlighting characteristics and challenges. Further, we present results for automatic veracity prediction, both with established baselines and with a novel method for joint\nranking of evidence pages and predicting veracity that outperforms all baselines. Significant performance increases are achieved by encoding evidence, and by modelling metadata. Our best-performing\nmodel achieves a Macro F1 of 49.2%, showing that this is a challenging testbed for claim veracity prediction."
+    },
+    {
+      "document_id": 417,
+      "score": null,
+      "abstract": "We contribute the largest publicly available dataset of naturally occurring factual claims for the purpose of automatic claim verification. It is collected from 26 fact\nchecking websites in English, paired with textual sources and rich metadata, and labelled for veracity by human expert journalists. We present an in-depth analysis of\nthe dataset, highlighting characteristics and challenges. Further, we present results for automatic veracity prediction, both with established baselines and with a novel method for joint\nranking of evidence pages and predicting veracity that outperforms all baselines. Significant performance increases are achieved by encoding evidence, and by modelling metadata. Our best-performing\nmodel achieves a Macro F1 of 49.2%, showing that this is a challenging testbed for claim veracity prediction. © 2019 Association for Computational Linguistics"
+    }
+  ]
+}

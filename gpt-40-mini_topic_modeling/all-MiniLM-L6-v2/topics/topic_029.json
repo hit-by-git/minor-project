@@ -1,0 +1,50 @@
+{
+  "topic_id": 29,
+  "label": "T029",
+  "label_full": "Fact-Checking & Verification",
+  "keywords": [
+    "reasoning",
+    "process",
+    "pacar",
+    "folk",
+    "qacheck",
+    "factchecking",
+    "verification",
+    "claim",
+    "structure",
+    "fact"
+  ],
+  "n_docs": 6,
+  "documents": [
+    {
+      "document_id": 106,
+      "score": null,
+      "abstract": "With the growing complexity of fact verification tasks, the concern with “thoughtful” reasoning capabilities is increasing. However, recent fact verification benchmarks mainly focus on checking\na narrow scope of semantic factoids within claims and lack an explicit logical reasoning process. In , we introduce CHECKWHY, a challenging dataset tailored to\na novel causal fact verification task: checking the truthfulness of the causal relation within claims through rigorous reasoning steps. CHECKWHY consists of over 19K “why”\nclaim-evidence-argument structure triplets with supports, refutes, and not enough info labels. Each argument structure is composed of connected evidence, representing the reasoning process that begins\nwith foundational evidence and progresses toward claim establishment. Through extensive experiments on state-of-the-art models, we validate the importance of incorporating the argument structure for causal\nfact verification. Moreover, the automated and human evaluation of argument structure generation reveals the difficulty in producing satisfying argument structure by fine-tuned models or Chain-of-Thought\nprompted LLMs, leaving considerable room for future improvements. © 2024 Association for Computational Linguistics."
+    },
+    {
+      "document_id": 107,
+      "score": null,
+      "abstract": "In an era characterized by the rapid proliferation of information, the pervasive issues of misinformation and disinformation have significantly impacted numerous individuals. Consequently, the evaluation\nof information's truthfulness and accuracy has attracted substantial attention among researchers. In , we present a novel fact-checking framework called PACAR, fact-checking based on Planning\nAnd Customized Action Reasoning using LLMs. It comprises four modules: a claim decomposer with self-reflection, an LLM-centric planner module, an executor for carrying out planned\nactions, and a verifier module that assesses veracity and generates explanations based on the overall reasoning process. Unlike previous work that employs single-path decision-making and\nsingle-step veracity prediction, PACAR focuses on the use of LLMs in dynamic planning and execution of actions. Furthermore, in contrast to previous work that relied\nprimarily on general reasoning, we introduce tailored actions such as numerical reasoning and entity disambiguation to effectively address potential challenges in fact-checking. Our PACAR framework,\nincorporating LLM-centric planning along with customized action reasoning, significantly outperforms baseline methods across three datasets from different domains and with varying complexity levels. Additional experiments,\nincluding multidimensional and sliced observations, demonstrate the effectiveness of PACAR and offer valuable insights for the advancement of automated fact-checking. © 2024 ELRA Language Resource\nAssociation: CC BY-NC 4.0."
+    },
+    {
+      "document_id": 124,
+      "score": null,
+      "abstract": "Claim verification plays a crucial role in combating misinformation. While existing works on claim verification have shown promising results, a crucial piece of the puzzle\nthat remains unsolved is to understand how to verify claims without relying on human-annotated data, which is expensive to create at a large scale. Additionally,\nit is important for models to provide comprehensive explanations that can justify their decisions and assist human fact-checkers. presents First-Order-Logic-Guided Knowledge-Grounded (FOLK) Reasoning that can\nverify complex claims and generate explanations without the need for annotated evidence using Large Language Models (LLMs). FOLK leverages the in-context learning ability of LLMs\nto translate the claim into a First-Order-Logic (FOL) clause consisting of predicates, each corresponding to a sub-claim that needs to be verified. Then, FOLK performs\nFOL-Guided reasoning over a set of knowledge-grounded question-and-answer pairs to make veracity predictions and generate explanations to justify its decision-making process. This process makes our\nmodel highly explanatory, providing clear explanations of its reasoning process in human-readable form. Our experiment results indicate that FOLK outperforms strong baselines on three datasets\nencompassing various claim verification challenges. Our code and data are available."
+    },
+    {
+      "document_id": 127,
+      "score": null,
+      "abstract": "Automatic fact verification has received significant attention recently. Contemporary automatic fact-checking systems focus on estimating truthfulness using numerical scores which are not human-interpretable. A human\nfact-checker generally follows several logical steps to verify a verisimilitude claim and conclude whether it’s truthful or a mere masquerade. Popular fact-checking websites follow a\ncommon structure for fact categorization such as half true, half false, false, pants on fire, etc. Therefore, it is necessary to have an aspect-based (delineating\nwhich part(s) are true and which are false) explainable system that can assist human fact-checkers in asking relevant questions related to a fact, which can\nthen be validated separately to reach a final verdict. In , we propose a 5W framework (who, what, when, where, and why) for question-answer-based fact\nexplainability. To that end, we present a semi-automatically generated dataset called FACTIFY-5WQA, which consists of 391, 041 facts along with relevant 5W QAs – underscoring\nour major contribution to . A semantic role labeling system has been utilized to locate 5Ws, which generates QA pairs for claims using a masked\nlanguage model. Finally, we report a baseline QA system to automatically locate those answers from evidence documents, which can serve as a baseline for future\nresearch in the field. Lastly, we propose a robust fact verification system that takes paraphrased claims and automatically validates them. The dataset and the baseline\nmodel are available at //github.com/ankuranii/acl-5W-QA"
+    },
+    {
+      "document_id": 131,
+      "score": null,
+      "abstract": "Fact verification systems assess a claim’s veracity based on evidence. An important consideration in designing them is faithfulness, i.e. generating explanations that accurately reflect the\nreasoning of the model. Recent works have focused on natural logic, which operates directly on natural language by capturing the semantic relation of spans between\nan aligned claim with its evidence via set-theoretic operators. However, these approaches rely on substantial resources for training, which are only available for high-resource languages.\nTo this end, we propose to use question answering to predict natural logic operators, taking advantage of the generalization capabilities of instruction-tuned language models. Thus,\nwe obviate the need for annotated training data while still relying on a deterministic inference system. In a few-shot setting on FEVER, our approach outperforms\nthe best baseline by 4.3 accuracy points, including a state-of-the-art pre-trained seq2seq natural logic system, as well as a state-of-the-art prompt-based classifier. Our system demonstrates\nits robustness and portability, achieving competitive performance on a counterfactual dataset and surpassing all approaches without further annotation on a Danish verification dataset. A human\nevaluation indicates that our approach produces more plausible proofs with fewer erroneous natural logic operators than previous natural logic-based systems."
+    },
+    {
+      "document_id": 133,
+      "score": null,
+      "abstract": "Fact-checking real-world claims often requires intricate, multi-step reasoning due to the absence of direct evidence to support or refute them. However, existing fact-checking systems often\nlack transparency in their decision-making, making it challenging for users to comprehend their reasoning process. To address this, we propose the Question-guided Multi-hop Fact-Checking (QACheck)\nsystem, which guides the model’s reasoning process by asking a series of questions critical for verifying a claim. QACheck has five key modules: a claim\nverifier, a question generator, a question-answering module, a QA validator, and a reasoner. Users can input a claim into QACheck, which then predicts its veracity\nand provides a comprehensive report detailing its reasoning process, guided by a sequence of (question, answer) pairs. QACheck also provides the source of evidence supporting\neach question, fostering a transparent, explainable, and user-friendly fact-checking process."
+    }
+  ]
+}

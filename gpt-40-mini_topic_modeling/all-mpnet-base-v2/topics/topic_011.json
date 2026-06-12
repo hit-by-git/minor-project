@@ -1,0 +1,65 @@
+{
+  "topic_id": 11,
+  "label": "T011",
+  "label_full": "Misinformation & Propaganda",
+  "keywords": [
+    "machine",
+    "logistic",
+    "regression",
+    "news",
+    "svm",
+    "fake",
+    "platforms",
+    "false",
+    "social",
+    "result"
+  ],
+  "n_docs": 9,
+  "documents": [
+    {
+      "document_id": 34,
+      "score": null,
+      "abstract": "Fake news is termed as the news that spreads via the internet very fast which is not true i.e., false news. Since we are in\na society of modern living culture, we will be attracted to the trend easily. So, taking this as an advantage some business traders make this\nnews as their profit by clicking on that fake news. We can observe these types of issues in areas like Political issues, medical issues, Job\nrackets, etc. The tremendous increase in the spreading of fake news may result in less hope for real news. The main goal is to create\na resilient and effective system with the ability to automatically differentiate between authentic and falsified news articles. We can find whether the news is fake\nor real through machine learning algorithms with greater methodology. We have selected and implemented a few datasets using machine learning algorithms like Decision Tree, Naive\nBayes, SVM, Random Forest, Logistic Regression, and Passive aggressive classifier. Further, we come up with the algorithm which gives the highest performance measures. The results\nfrom the experiments exhibit encouraging performance metrics in identifying fake news, highlighting machine learning’s potential in countering misinformation. The outcomes imply that blending various feature\ntypes and advanced algorithms leads to better performance when contrasted with individual methods. We have applied these ML methods on two datasets and achieved accuracy\nof 99.69% with SVM, 99.06% with Logistic Regression and 99.64"
+    },
+    {
+      "document_id": 65,
+      "score": null,
+      "abstract": "In today's world, being the easy availability of the internet, almost everyone is connected. Every individual for their daily news relies on online resources, which\ngreatly impacts their quality of life. The development of social media platforms has grown tremendously. However, many of these platforms are spreading fake news that\npauses serious concern. It leads to a decrease in income for individuals or companies. Some people often create fake news for gaining fame, for election\npurposes, and for creating hatred towards other companies to reduce their revenue. All these can have negative consequences on society. Just by the use of\na single click, many people forward appealing headlines, photos, etc. to gain the attention of an individual, without even checking whether it is fake or\nnot. It is hard-core truth that many false websites give false news and checking their authenticity is really a challenge. presents a comparative analysis of\nmethods for the user to check the news whether that's real or fake by providing accuracy and recall using machine learning. The models used are\nnaïve Bayes (NB), decision tree classifier (DT), random forest (RF), and logistic regression (LR) for analysis to detect fake news. The result shows that the\nDT classifier achieved 99.56% accuracy as compared to RF (99.35%), LR (98.91%), and NB (94.89%). The recall also shows better results for DT and RF\nthan LR and NB. Lastly, it discusses some of the security threats and challenges faced while detecting fake news. © 2024 Author(s)."
+    },
+    {
+      "document_id": 180,
+      "score": null,
+      "abstract": "In this digital era, where we are connected to everyone through the Internet and various social media platforms, we require authentic knowledge, data and information\nsources. But it is very hard to find or detect it easily. However, there are multiple tools available to detect such trustworthiness. However, they lack\nthe proper detection of fake news. Hence sometimes, the detection does not happen up to a satisfactory level. In , we propose a scheme for\nthe detection of fake news. We use the machine learning models with the most recent data set available at authentic source. Further, the performance of\nthe proposed technique is estimated under various machine learning models, i.e., naive bayes classifier, logistic regression, and support vector machine (SVM). The proposed technique has\nperformed well under the support vector machine, achieving the highest accuracy value under this model. © 2023 IEEE."
+    },
+    {
+      "document_id": 191,
+      "score": null,
+      "abstract": "A method of information dissemination that had never been seen before the digital era has emerged as a result of the use of social media\nplatforms like Facebook, Twitter & Instagram and the development of the World Wide Web. Through these social media sites, a significant quantity of information may\nbe fraudulent. Therefore, it is necessary to monitor this data. By feeding a new article or fact to the model, we may use a technique\ncalled machine learning-based fake news identification to determine its veracity. We will preprocess the data (in this example, text) before training the dataset. Preprocessing mostly\nentails eliminating redundant data. The dataset is then divided into two sections for testing and training. The data will next be vectorized using a variety\nof vectorization methods, including Countvectorizer, TF-IDF vectorizer, and n-grams. The various machine learning algorithms such as random forest, decision tree, logistic regression etc. are then\ntrained using the vectorized data. The accuracy of cutting-edge false news detection is then increased by incorporating these results into ensemble models. The timeline of\na dataset has an impact on how accurate the model is since newer information is not included in older datasets, making it impossible for the\nmodel to effectively forecast the veracity of newer information. After training, the model may be quickly tested using the testing dataset, and it will then\nbe ready for usage. © 2023 IEEE."
+    },
+    {
+      "document_id": 244,
+      "score": null,
+      "abstract": "Fake news has become ingrained in our daily lives as a result of its rapid dissemination across various social media platforms. Because of the massive\npropagation of false news on social and news media, identifying false information has emerged as an essential study topic. To analyse the authenticity of the\ninformation to find out whether it is original or false, current false news detection methods mostly depend on idiomatic expression and different models inspired by\nartificial intelligence. Many traditional methodologies have yet to be seen to identify false news, but machine learning approaches attained a lot of admiration in the\ncurrent times. This inspired us to try a comparative analysis among ML classifiers to address the challenge of detecting fake news. In , an empirical\nanalysis of different machine learning classifiers is provided to spot false news using real-world networks. In our experiment, the support vector machine attained the highest\nfidelity in real-world networks. © 2022 IEEE."
+    },
+    {
+      "document_id": 310,
+      "score": null,
+      "abstract": "Social networking, information sharing, knowledge imparting, discussions on current happenings etc. are always a part of human society. With the fast pace of life and\nadvancement in technology; people rely more on online information, as a result of this web platforms have become a dominant place for social interactions. This\nhas given rise to unverified and unauthenticated news that has extremely negative effects. Fake news, rumor, misinformation, disinformation, satire, hoax, clickbait, propaganda are all different\nflavors of the same malice of information pollution. The research community is constantly trying to figure out a viable technical solution to this problem in\ndifferent ways. In , we designed a framework based on five independent supervised machine-learned classifiers Support Vector Machine, K-Nearest Neighbor, Logistic Regression, Naïve Bayes and\nRandom Forest for trustworthiness assessment of web information contents. The classifiers are being trained and tested on two different datasets: Fake News Detection (Jruvika/FND) and\nReal or Fake News that contains full news articles in the form of headline and body. Experiments and result analysis verify that the highest accuracy\nattained by the projected method is 96.61% on the Fake News Detection dataset using the SVM classifier. The work is also compared with other contemporary\ntechniques. © 2021 IEEE."
+    },
+    {
+      "document_id": 316,
+      "score": null,
+      "abstract": "Newspapers and radios are the things of the past, the current generation depends on the internet, specifically social media platforms to stay up to date\nwith the global news. The ease of access, affordability and widespread audience has made these platforms a perfect choice to reach the world. While this\nhas sped up and streamlined news consumption, it is not without drawbacks. The major issue is the proliferation of false/fake news which can have serious\nrepercussions in sensitive matters. Understanding the difference and authenticity of the news is becoming complicated everyday. Social media platforms and online newsletters are responsible for\nthe spread of fake news. However, this problem can be tackled using machine learning techniques and give verifiable news. The paper identifies counterfeit news using\nLogistic Regression. This model successfully labels a said article as “fake” or “real” with up to 80% accuracy. The paper ends with a review of\nthe model's feasibility and how it would be useful as an impactful mining method as well as proposes the scope of future improvements in the\nmodel which will help achieve greater accuracy in the prediction results. © 2021 IEEE"
+    },
+    {
+      "document_id": 318,
+      "score": null,
+      "abstract": "In recent years, the consumption of social media content to keep up with global news and to verify its authenticity has become a considerable challenge.\nSocial media enables us to easily access news anywhere, anytime, but it also gives rise to the spread of fake news, thereby delivering false information.\nThis also has a negative impact on society. Therefore, it is necessary to determine whether or not news spreading over social media is real. This\nwill allow for confusion among social media users to be avoided, and it is important in ensuring positive social development. proposes a novel solution by\ndetecting the authenticity of news through natural language processing techniques. Specifically, proposes a novel scheme comprising three steps, namely, stance detection, author credibility verification, and\nmachine learning-based classification, to verify the authenticity of news. In the last stage of the proposed pipeline, several machine learning techniques are applied, such as\ndecision trees, random forest, logistic regression, and support vector machine (SVM) algorithms. For this study, the fake news dataset was taken from Kaggle. The experimental\nresults show an accuracy of 93.15%, precision of 92.65%, recall of 95.71%, and F1-score of 94.15% for the support vector machine algorithm. The SVM is\nbetter than the second best classifier, i.e., logistic regression, by 6.82%. © 2021 by the authors. Licensee MDPI, Basel, Switzerland."
+    },
+    {
+      "document_id": 335,
+      "score": null,
+      "abstract": "As technology advances, there is a great deal of deceptive information revolving around the news websites and all-over the social media. This menace can only\nbe handled by automating the verification of authenticity of the websites rather than manually detecting them. This research presents a novel method for the verification\nof the credibility of the news. This method includes web-crawling, sentence scoring, and comparison with authentic websites. Initially, keywords for a topic from twelve verified\nwebsites are used for training the Relational Description Framework (RDF) based database. Then, a contextual semantic analysis of the news from a blog/website is done,\nand keywords are identified. These keywords are compared with the trained keywords of the RDF based database using Term Frequency-Inverse Document Frequency (TF-IDF) and Logistic\nRegression algorithms. The highest accuracy achieved is 82.8% after a blog/website content is compared with the database. This will help to identify only legitimate news.\n© 2021 IEEE."
+    }
+  ]
+}

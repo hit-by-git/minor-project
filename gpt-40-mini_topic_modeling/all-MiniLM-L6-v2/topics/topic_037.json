@@ -1,0 +1,45 @@
+{
+  "topic_id": 37,
+  "label": "T037",
+  "label_full": "Fact-Checking & Verification",
+  "keywords": [
+    "evidence",
+    "retrieval",
+    "relevance",
+    "multimodal",
+    "probability",
+    "final",
+    "claim",
+    "perevidence",
+    "mocheg",
+    "factchecking"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 27,
+      "score": null,
+      "abstract": "The increasing proliferation of misinformation and its alarming impact have motivated both industry and academia to develop approaches for misinformation detection and fact checking. Recent\nadvances on large language models (LLMs) have shown remarkable performance in various tasks, but their potential in misinformation detection remains relatively underexplored. Most of existing\nstate-of-the-art approaches either do not consider evidence and solely focus on claim related features or assume the evidence is provided. Few approaches consider evidence retrieval\nas part of the misinformation detection but rely on fine-tuning models. In , we investigate the potential of LLMs for misinformation detection in a zero-shot\nsetting. We incorporate an evidence retrieval component as it is crucial to gather pertinent information from various sources to detect the veracity of claims. To\nthis end, we propose a novel re-ranking approach for multimodal evidence retrieval using both LLMs and large vision-language models (LVLM). The retrieved evidence samples (images\nand texts) serve as the input for an LVLM-based approach for multimodal fact verification (LVLM4FV). To enable a fair evaluation, we address the issue of\nincomplete ground truth in an existing evidence retrieval dataset by annotating a more complete set of evidence samples for both image and text retrieval. Our\nexperimental results on two datasets demonstrate the superiority of the proposed approach in both evidence retrieval and fact verification tasks, with a better generalization capability."
+    },
+    {
+      "document_id": 108,
+      "score": null,
+      "abstract": "Fact-checking real-world claims often requires reviewing multiple multimodal documents to assess a claim's truthfulness, which is a highly laborious and time-consuming task. In , we\npresent a summarization model designed to generate claim-specific summaries useful for fact-checking from multimodal, multi-document datasets. The model takes inputs in the form of documents,\nimages, and a claim, with the objective of assisting in fact-checking tasks. We introduce a dynamic perceiver-based model that can handle inputs from multiple modalities\nof arbitrary lengths. To train our model, we leverage a novel reinforcement learning-based entailment objective to generate summaries that provide evidence distinguishing between different truthfulness\nlabels. To assess the efficacy of our approach, we conduct experiments on both an existing benchmark and a new dataset of multi-document claims that we\ncontribute. Our approach outperforms the SOTA approach by 4.6% in the claim verification task on the MOCHEG dataset and demonstrates strong performance on our new\nMulti-News-Fact-Checking dataset. © 2024 Association for Computational Linguistics."
+    },
+    {
+      "document_id": 129,
+      "score": null,
+      "abstract": "We present Claim-Dissector: a novel latent variable model for fact-checking and analysis, which given a claim and a set of retrieved evidence jointly learns to\nidentify: (i) the relevant evidences to the given claim (ii) the veracity of the claim. We propose to disentangle the per-evidence relevance probability and its\ncontribution to the final veracity probability in an interpretable way — the final veracity probability is proportional to a linear ensemble of per-evidence relevance probabilities.\nIn this way, the individual contributions of evidences towards the final predicted probability can be identified. In per-evidence relevance probability, our model can further distinguish\nwhether each relevant evidence is supporting (S) or refuting (R) the claim. This allows to quantify how much the S/R probability contributes to final verdict\nor to detect disagreeing evidence. Despite its interpretable nature, our system achieves results competetive with state-of-the-art on the FEVER dataset, as compared to typical two-stage\nsystem pipelines, while using significantly fewer parameters. Furthermore, our analysis shows that our model can learn fine-grained relevance cues while using coarse-grained supervision and we\ndemonstrate it in 2 ways. (i) We show that our model can achieve competitive sentence recall while using only paragraph-level relevance supervision. (ii) Traversing towards\nthe finest granularity of relevance, we show that our model is capable of identifying relevance at the token level. To do this, we present a\nnew benchmark TLR-FEVER focusing on token-level interpretability — humans annotate tokens in relevant evidences they considered essential when making their judgment. Then we measure how\nsimilar are these annotations to the tokens our model is focusing on."
+    },
+    {
+      "document_id": 138,
+      "score": null,
+      "abstract": "We propose end-to-end multimodal fact-checking and explanation generation, where the input is a claim and a large collection of web sources, including articles, images, videos,\nand tweets, and the goal is to assess the truthfulness of the claim by retrieving relevant evidence and predicting a truthfulness label (e.g., support, refute\nor not enough information), and to generate a statement to summarize and explain the reasoning and ruling process. To support this research, we construct MOCHEG,\na large-scale dataset consisting of 15,601 claims where each claim is annotated with a truthfulness label and a ruling statement, and 33,880 textual paragraphs and\n12,112 images in total as evidence. To establish baseline performances on MOCHEG, we experiment with several state-of-the-art neural architectures on the three pipelined subtasks: multimodal\nevidence retrieval, claim verification, and explanation generation, and demonstrate that the performance of the state-of-the-art end-to-end multimodal fact-checking does not provide satisfactory outcomes. To the\nbest of our knowledge, we are the first to build the benchmark dataset and solutions for end-to-end multimodal fact-checking and explanation generation. The dataset, source\ncode and model checkpoints are available at"
+    },
+    {
+      "document_id": 285,
+      "score": null,
+      "abstract": "In , we present the Logically submissions to De-Factify 2 challenge (DE-FACTIFY 2023) on task 1 of Multi-Modal Fact Checking. We describe our submission to\nthis challenge including explored evidence retrieval and selection techniques, pre-trained cross-modal and unimodal models, and a cross-modal veracity model based on the well established Transformer\nEncoder (TE) architecture which heavily relies on the concept of self-attention. Exploratory analysis is also conducted on the Factify 2 data set that uncovers the\nsalient multi-modal patterns and hypothesis motivating the architecture proposed in . A series of preliminary experiments were done to investigate and benchmark different pre-trained embedding\nmodels, evidence retrieval settings and thresholds. The final system, a standard two-stage evidence based veracity detection system, yielded a weighted average F1 score of 0.79\non both the validation set and final blind test set of task 1, which achieved 3rd place with a small margin to the top performing\nsystems on the leaderboard among 9 participants. © 2023 Copyright for by its authors."
+    }
+  ]
+}

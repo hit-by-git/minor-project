@@ -1,0 +1,45 @@
+{
+  "topic_id": 29,
+  "label": "T029",
+  "label_full": "Misinformation & Propaganda",
+  "keywords": [
+    "machine",
+    "learning",
+    "news",
+    "various",
+    "vector",
+    "false",
+    "fake",
+    "social",
+    "media",
+    "support"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 72,
+      "score": null,
+      "abstract": "The rampant spread of misinformation undermines the credibility of social media platforms in today's digital landscape [1]. Machine learning techniques have become vital in detecting\nfake news and maintaining public confidence in media outlets [3]. This article surveys recent progress in machine learning for fake news detection, addressing the complexity\nof misinformation and evaluating the various technologies and methods used in this field. By examining current research, we outline the benefits and limitations of different\napproaches, including both traditional machine learning models and advanced deep learning algorithms [4]. Our findings reveal that traditional machine learning techniques achieve significant accuracy in\nidentifying fake news: Naive Bayes at 95.27%, Logistic Regression at 9 8. 8 4 %, Decision Tree at 9 9. 5 8 %, Random Forest\nat 9 9. 3 0 %, and SVM at 9 9. 4 0 %. Additionally, we showcase the practical use of these methods through a\nweb-based tool built with the Django framework, allowing users to determine the authenticity of news articles. This review provides essential insights for researchers, practitioners, and\npolicymakers to develop more effective strategies to combat misinformation and foster a well-informed society. Furthermore, we explore emerging trends such as automated content ethics and\nstress the importance of collaboration among machine learning experts, journalists, and social scientists. This review aims to serve as a valuable resource guiding future research\nand decision-making processes to reduce the spread of misinformation in the digital world. © 2024 IEEE."
+    },
+    {
+      "document_id": 180,
+      "score": null,
+      "abstract": "In this digital era, where we are connected to everyone through the Internet and various social media platforms, we require authentic knowledge, data and information\nsources. But it is very hard to find or detect it easily. However, there are multiple tools available to detect such trustworthiness. However, they lack\nthe proper detection of fake news. Hence sometimes, the detection does not happen up to a satisfactory level. In , we propose a scheme for\nthe detection of fake news. We use the machine learning models with the most recent data set available at authentic source. Further, the performance of\nthe proposed technique is estimated under various machine learning models, i.e., naive bayes classifier, logistic regression, and support vector machine (SVM). The proposed technique has\nperformed well under the support vector machine, achieving the highest accuracy value under this model. © 2023 IEEE."
+    },
+    {
+      "document_id": 244,
+      "score": null,
+      "abstract": "Fake news has become ingrained in our daily lives as a result of its rapid dissemination across various social media platforms. Because of the massive\npropagation of false news on social and news media, identifying false information has emerged as an essential study topic. To analyse the authenticity of the\ninformation to find out whether it is original or false, current false news detection methods mostly depend on idiomatic expression and different models inspired by\nartificial intelligence. Many traditional methodologies have yet to be seen to identify false news, but machine learning approaches attained a lot of admiration in the\ncurrent times. This inspired us to try a comparative analysis among ML classifiers to address the challenge of detecting fake news. In , an empirical\nanalysis of different machine learning classifiers is provided to spot false news using real-world networks. In our experiment, the support vector machine attained the highest\nfidelity in real-world networks. © 2022 IEEE."
+    },
+    {
+      "document_id": 330,
+      "score": null,
+      "abstract": "Due to the popularity of online media and especially social media, accessing news online through social media platforms has become the preferred way for people\nto obtain their news. However, it is now widely recognized that there is an increasing amount of fake news on the Internet. Fake news can\nbe very similar to real news, so it is often difficult for readers to distinguish the truth/veracity of the news they read. Machine learning and\ndeep learning models can help in this regard. In , we compare and analyse the performance of four machine learning models (Logistic regression, Random Forest,\nSupport Vector Machines (SVM), Naïve Bayes) and three deep learning models (Recurrent Neural Network (RNN), Long Short-Term Memory (LSTM) and BERT) on data sets comprising\nboth true and fake news. We explore different methods for extracting language features from the news and evaluate the performance of the model using accuracy\nas an evaluation indicator. We identified that the BERT model reached an accuracy of 86.76 and was most effective. © 2021 IEEE"
+    },
+    {
+      "document_id": 435,
+      "score": null,
+      "abstract": "In the last few years, the impact of information spread through online social networks has continuously grown. For this reason, understanding the trustworthiness of news\nhas become one of the most important challenges for an Internet user, especially during crisis events or in political, health and social issues. As part\nof a more comprehensive project for the detection of fake news, proposes a machine learning method to evaluate the trustworthiness of a piece of information\nespecially considering its associated image. In the work described in , the training and test datasets have been first collected from the web, downloading more\nthan 1000 images related to trusted and fake Facebook pages. All collected images have been processed using the Google Vision online service for extracting their\nspecific internal details. For each image, various kinds of features have been considered, including its color composition, the recognized objects, the list of sites in\nwhich it is published, and eventually the contained text. These details have been then used for training a classifier using different algorithms which allowed us\nto reach an accuracy of about 85\\% in hoax identification. Future research will focus on social-network information related to images, to improve the system accuracy\nand acquire more knowledge about various types of news spread online."
+    }
+  ]
+}

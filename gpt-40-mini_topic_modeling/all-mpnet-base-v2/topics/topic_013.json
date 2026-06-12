@@ -1,0 +1,65 @@
+{
+  "topic_id": 13,
+  "label": "T013",
+  "label_full": "sources, information",
+  "keywords": [
+    "sources",
+    "information",
+    "discovery",
+    "trustworthiness",
+    "truth",
+    "source",
+    "values",
+    "claims",
+    "inferred",
+    "facts"
+  ],
+  "n_docs": 9,
+  "documents": [
+    {
+      "document_id": 336,
+      "score": null,
+      "abstract": "Link trustworthiness evaluation is a crucial task for information networks to evaluate the probability of a link being true in a heterogeneous information network (HIN).\nThis task can significantly influence the effectiveness of downstream analysis. However, the performance of existing evaluation methods is limited, as they can only utilize incomplete\nor one-sided information from a single HIN. To address this problem, we propose a novel multi-HIN link trustworthiness evaluation model that leverages information across multiple\nrelated HINs to accomplish link trustworthiness evaluation tasks inherently and efficiently. We present an effective method to evaluate and select informative pairs across HINs and\nan integrated training procedure to balance inner-HIN and inter-HIN trustworthiness. Experiments on a real-world dataset demonstrate that our proposed model outperforms baseline methods and achieves\nthe best accuracy and F1-score in downstream tasks of HINs. © 2021 Meng Wang et al."
+    },
+    {
+      "document_id": 382,
+      "score": null,
+      "abstract": "The information revolution brought with it information pollution. Information retrieval and extraction help us cope with abundant information from diverse sources. But some sources are\nof anonymous authorship, and some are of uncertain accuracy, so how can we determine what we should actually believe? Not all information sources are equally\ntrustworthy, and simply accepting the majority view is often wrong. develops a general framework for estimating the trustworthiness of information sources in an environment where\nmultiple sources provide claims and supporting evidence, and each claim can potentially be produced by multiple sources. We consider two settings: one in which information\nsources directly assert claims, and a more realistic and challenging one, in which claims are inferred from evidence provided by sources, via (possibly noisy) NLP\ntechniques. Our key contribution is to develop a family of probabilistic models that jointly estimate the trustworthiness of sources, and the credibility of claims they\nassert. This is done while accounting for the (possibly noisy) NLP needed to infer claims from evidence supplied by sources. We evaluate our framework on\nseveral datasets, showing strong results and significant improvement over baselines."
+    },
+    {
+      "document_id": 423,
+      "score": null,
+      "abstract": "The Uncertainty Representation and Reasoning Evaluation Framework (URREF) ontology addresses various semantic ambiguities associated with uncertainty. One of the main objectives of the URREF ontology\nis to define and articulate the criteria which enable the systematic reasoning about and evaluation of uncertainty representation and reasoning in information fusion systems. Towards\nassessing the merits of the URREF, information quality requires close attention for the measuring veracity and relevance. Veracity is measured from source sensitivity. Relevance is\ndetermined from precision and recall measures which are added to the URREF ontology. An example based on the Avionics Analytics Ontology (AAO) for Air Traffic\nManagement with multiple Automatic Dependent Surveillance-Broadcast (ADS-B) radars is provided. The use or the precision-recall, F1 score, and sensitivity provide useful analysis for semantically important\ndiscussions on 'relevance' as a complement of 'recall' in information fusion uncertainty assessment. © 2019 ISIF-International Society of Information Fusion."
+    },
+    {
+      "document_id": 441,
+      "score": null,
+      "abstract": "To support intelligence analysis, lots of effort goes into the development of information extraction (IE) systems to ingest massive collections of both traditional sensor data\nand streaming data from both public domain and classified sources, classify them, distill evidence from them, and store that evidence as event and entity tuples\nin a knowledge base. focuses on an unmet challenge of this effort: determining the veracity of extracted information, in order to help analysts make balanced,\nrational judgments. © 2018 IEEE."
+    },
+    {
+      "document_id": 467,
+      "score": null,
+      "abstract": "The main aim of truth-finding methods is to identify the most reliable and trustworthy data among a set of facts. Since existing methods assume a\nsingle true value, they cannot deal with numerous real-world use cases in which a set of true values exists for a given fact, even for\nfunctional predicate (e.g. Picasso is born in M\\`{a}laga and in Spain). studies how traditional truth-finding methods can be adapted to this setting. After introducing a\nnew definition of true value and discussing associated implications, we propose an approach that can be used to identify true values among a set of\nnon-conflicting claims; it takes advantage of belief functions to incorporate knowledge about value relationships in the form of a partial ordering of claimed values. By\nreducing the error rate up to 30\\% adapting classical approaches, the effectiveness and suitability of our proposal is clearly highlighted through empirical experiments performed on\nDBpedia."
+    },
+    {
+      "document_id": 469,
+      "score": null,
+      "abstract": "Data veracity is a grand challenge for various tasks on the Web. Since the web data sources are inherently unreliable and may provide conflicting information\nabout the same real-world entities, truth discovery is emerging as a countermeasure of resolving the conflicts by discovering the truth, which conforms to the reality,\nfrom the multi-source data. A major challenge related to truth discovery is that different data items may have varying numbers of true values (or multi-truth),\nwhich counters the assumption of existing truth discovery methods that each data item should have exactly one true value. In , we address this challenge\nby exploiting and leveraging the implications from multi-source data. In particular, we exploit three types of implications, namely the implicit negative claims, the distribution of\npositive/negative claims, and the co-occurrence of values in sources' claims, to facilitate multi-truth discovery. We propose a probabilistic approach with improvement measures that incorporate the\nthree implications in all stages of truth discovery process. In particular, incorporating the negative claims enables multi-truth discovery, considering the distribution of positive/negative claims relieves\ntruth discovery from the impact of sources' behavioral features in the specific datasets, and considering values' co-occurrence relationship compensates the information lost from evaluating each\nvalue in the same claims individually. Experimental results on three real-world datasets demonstrate the effectiveness of our approach."
+    },
+    {
+      "document_id": 481,
+      "score": null,
+      "abstract": "The quality of web sources has been traditionally evaluated using exogenous signals such as the hyperlink structure of the graph. We propose a new approach\nthat relies on endogenous signals, namely, the correctness of factual information provided by the source. A source that has few false facts is considered to\nbe trustworthy.The facts are automatically extracted from each source by information extraction methods commonly used to construct knowledge bases. We propose a way to distinguish\nerrors made in the extraction process from factual errors in the web source per se, by using joint inference in a novel multi-layer probabilistic model.We\ncall the trustworthiness score we computed Knowledge-Based Trust (KBT). On synthetic data, we show that our method can reliably compute the true trustworthiness levels of\nthe sources. We then apply it to a database of 2.8B facts extracted from the web, and thereby estimate the trustworthiness of 119M webpages. Manual\nevaluation of a subset of the results confirms the effectiveness of the method."
+    },
+    {
+      "document_id": 483,
+      "score": null,
+      "abstract": "Humans or intelligent software agents are increasingly faced with the challenge of making decisions based on large volumes of streaming information from diverse sources. Decision\nmakers must process the observed information by inferring additional information, estimating its reliability and orienting it for decision-making. In , we propose a stream-reasoning framework\nthat achieves all these goals. While information is streamed as unstructured reports (e.g., text in natural language) from unreliable sources, our framework first converts it\ninto a structured form using Controlled English and then it derives some facts that are useful for decision-making, and estimates the trust in these facts.\nLastly, various facts are fused based on their trustworthiness. This process is totally undertaken on streaming information resulting in new facts being inferred from incoming\ninformation which immediately goes through trust assessment framework and trust is propagated to the inferred fact. In , we propose a comprehensive framework where unstructured\nreports are streamed from heterogeneous and potentially untrustworthy information sources. These reports are processed to extract valuable uncertain information, which is represented using controlled natural\nlanguage and subjective logic. Additional information is inferred using deduction and abduction operations over subjective opinions derived from the reports. Before fusing extracted and inferred\nopinions, the framework estimates trustworthiness of these opinions, detects conflicts between them, and resolve these conflicts by analysing evidence about the reliability of their sources.\nLastly, we describe an implementation of the framework using International Technology Alliance (ITA) assets (Information Fabric Services and Controlled English Fact Store) and present an\nexperimental evaluation that quantifies the efficiency with respect to accuracy and overhead of the proposed framework. © 2015 Elsevier B.V. All rights reserved."
+    },
+    {
+      "document_id": 485,
+      "score": null,
+      "abstract": "In many real world applications, the same item may be described by multiple sources. As a consequence, conflicts among these sources are inevitable, which leads\nto an important task: how to identify which piece of information is trustworthy, i.e., the truth discovery task. Intuitively, if the piece of information is\nfrom a reliable source, then it is more trustworthy, and the source that provides trustworthy information is more reliable. Based on this principle, truth discovery\napproaches have been proposed to infer source reliability degrees and the most trustworthy information (i.e., the truth) simultaneously. However, existing approaches overlook the ubiquitous long-tail\nphenomenon in the tasks, i.e., most sources only provide a few claims and only a few sources make plenty of claims, which causes the source\nreliability estimation for small sources to be unreasonable. To tackle this challenge, we propose a confidence-aware truth discovery (CATD) method to automatically detect truths from\nconflicting data with long-tail phenomenon. The proposed method not only estimates source reliability, but also considers the confidence interval of the estimation, so that it\ncan effectively reflect real source reliability for sources with various levels of participation. Experiments on four real world tasks as well as simulated multi-source long-tail\ndatasets demonstrate that the proposed method outperforms existing state-of-the-art truth discovery approaches by successful discounting the effect of small sources."
+    }
+  ]
+}

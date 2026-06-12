@@ -1,0 +1,60 @@
+{
+  "topic_id": 19,
+  "label": "T019",
+  "label_full": "motive, recognition",
+  "keywords": [
+    "motive",
+    "recognition",
+    "lie",
+    "truth",
+    "deception",
+    "statements",
+    "humans",
+    "facial",
+    "rm",
+    "language"
+  ],
+  "n_docs": 8,
+  "documents": [
+    {
+      "document_id": 21,
+      "score": null,
+      "abstract": "Text-based false information permeates online discourses, yet evidence of people’s ability to discern truth from such deceptive textual content is scarce. We analyze a novel\nTV game show data where conversations in a high-stake environment between individuals with conflicting objectives result in lies. We investigate the manifestation of potentially verifiable\nlanguage cues of deception in the presence of objective truth, a distinguishing feature absent in previous text-based deception datasets. We show that there exists a\nclass of detectors (algorithms) that have similar truth detection performance compared to human subjects, even when the former accesses only the language cues while the\nlatter engages in conversations with complete access to all potential sources of cues (language and audio-visual). Our model, built on a large language model, employs\na bottleneck framework to learn discernible cues to determine truth, an act of reasoning in which human subjects often perform poorly, even with incentives. Our\nmodel detects novel but accurate language cues in many cases where humans failed to detect deception, opening up the possibility of humans collaborating with algorithms\nand ameliorating their ability to detect the truth."
+    },
+    {
+      "document_id": 102,
+      "score": null,
+      "abstract": "Humans often display a truth-bias—the perception that others are honest independent of message veracity—but does this phenomenon extend to generative artificial intelligence (AI)? We had\nhumans and large language models make nearly 1,000 veracity judgments across different prompts. Human detection accuracies were near chance (50%–53%) with notable truth-biases (59%–64%); AI\nhad a substantially greater truth-bias than humans (67%–99%). GPT-4 was also truth-default, not suspecting deception when veracity assessments were unprompted. Together, people and AI judge\nmost information to be true. © The Author(s) 2023."
+    },
+    {
+      "document_id": 271,
+      "score": null,
+      "abstract": "In , we present a hierarchical framework for complex paralinguistic analysis of speech including gender, emotions and deception recognition. The main idea of the framework\nis built upon the research on interrelation between various paralinguistic phenomena. It uses gender information to predict emotional states, and the outcome of the emotion\nrecognition to predict the truthfulness of the speech. We use multiple datasets (aGender, Ruslana, EmoDB and DSD) to perform within-corpus and cross-corpus experiments using various\nperformance measures. The experimental results reveal that gender-specific models improve the effectiveness of automatic speech emotion recognition in terms of Unweighted Average Recall up to\nan absolute 5.7%, and the integration of emotion predictions improves the F-score of automatic deception detection compared to our baseline by an absolute 4.7%. The\nobtained cross-validation results of 88.4±1.5% for deception detection beat the existing state-of-the-art by an absolute 2.8%. Copyright © 2022 ISCA."
+    },
+    {
+      "document_id": 272,
+      "score": null,
+      "abstract": "On the one hand facial expression recognition (FER) of a human to determine his emotional state is a wellstudied task. On the other hand, most\nof the existing approaches are focused on recognition of basic emotions or binary labels of emotional tone (positive or negative). However, facial micro-expression (FMiE) recognition\n(FMiER) is an understudied but growing area. The interest of researchers in this area is due to the unsolved problems of determining the subtle intentions\nof humans in situations with high stakes, such as lie detection, state of mind recognition, negotiation techniques recognition, human behavior patterns prediction. In contrast to\nfacial macro-expressions FMiEs are involuntary and transient facial expressions capable of revealing the genuine feelings that humans attempt to hide. These differences are reasons why\nFMiE detection relies heavily on expert experience and why FMiER is a difficult task which still requires additional research. In addition to FER, the human\nvoice also contains a lot of information about the internal state of a human and speech emotion recognition is an actively studied task as well.\nIn we consider the problem of lie detection, however we soften it to the problem of assessing the confidence of a person in a video.\nWe hypothesized that the use of information from two modalities and the joint exploring of this information through modalities can allow to predict the subtle\nfeelings of a human with high accuracy. We introduce a solution that extracts and analyzes person's facial and speech features on a video sequence using\nattention mechanisms in the task of truth determination. Our approach uses state-of-the-art methods and achieves 84.91% accuracy. The survey also includes a comparison of various\naudio and visual features combinations and shows that our approach shows comparable accuracy-performance ratio. © 2022 Elsevier B.V.. All rights reserved."
+    },
+    {
+      "document_id": 312,
+      "score": null,
+      "abstract": "We present an extensive study on disinformation, which is defined as information that is false and misleading and intentionally shared to cause harm. Through ,\nwe aim to answer the following questions:Can we automatically and accurately classify a news article as containing disinformation?What characteristics of disinformation differentiate it from other\ntypes of benign information? We conduct this study in the context of two significant events: the US elections of 2016 and the 2020 COVID pandemic.\nWe build a series of classifiers to (i) examine linguistic clues exhibited by different types of fake news articles, (ii) analyze “clickbaityness” of disinformation headlines,\nand (iii) finally, perform fine-grained, veracity-based article classification through a natural language inference (NLI) module for automated disinformation verification; this utilizes a manually curated set\nof evidence sources. For the latter, we built a new dataset that is annotated with generic, veracity-based labels and ground truth evidence supporting each label.\nThe veracity labels were formulated based on examining standards used by reputable fact-checking organizations. We show that disinformation derives features from both propaganda and mainstream\nnews, making it more challenging to detect. However, there is significant potential for automating the fact-checking process to incorporate the degree of veracity. We provide\nerror analysis that illustrates the challenges involved in the automated fact-checking task and identifies factors that may improve this process in future work. Finally, we\nalso describe the implementation of a web app that extracts important entities and actions from a given article and searches the web to gather evidence\nfrom credible sources. The evidence articles are then used to generate a veracity label that can assist manual fact-checkers engaged in combating disinformation. © 2021,\nThe Author(s), under exclusive licence to Springer Science+Business Media, LLC, part of Springer Nature."
+    },
+    {
+      "document_id": 375,
+      "score": null,
+      "abstract": "We investigated how information on a motive to lie impacts on the perceived content quality of a statement and its subsequent veracity rating. In an\nonline study, 300 participants rated a statement about an alleged sexual harassment on a scale based on Criteria-based Content Analysis (CBCA) and judged its veracity.\nIn a 3 × 3 between-subjects design, we varied prior information (motive to lie, no motive to lie, and no information on a motive), and\npresented three different statement versions of varying content quality (high, medium, and low). In addition to anticipating main effects of both independent variables (motive information\nand statement version), we predicted that the impact of motive information on both ratings would be highest for medium quality statements, because their assessment is\nespecially ambiguous (interaction effect). Contrary to our hypotheses, results showed that participants were unaffected by motive information and accurately reproduced the manipulated quality differences between\nstatement versions in their CBCA-based judgments. In line with the expected interaction effect, veracity ratings decreased in the motive-to-lie group compared to controls, but only\nwhen the medium- and the low-quality statements were rated (truth ratings dropped from approximately 80 to 50%). Veracity ratings in both the no-motive-to-lie group and\ncontrols did not differ across statement versions (≥82% truth ratings). In sum, information on a motive to lie thus encouraged participants to consider content quality\nin their veracity judgments by being critical only of statements of medium and low quality. Otherwise, participants judged statements to be true irrespective of content\nquality. © Copyright © 2020 Schemmel, Steinhagen, Ziegler and Volbert."
+    },
+    {
+      "document_id": 459,
+      "score": null,
+      "abstract": "Language in the high-stakes 2016 US presidential primary campaign was contentious, filled with name-calling, personal attacks, and insults. Language in debates served at least three\npolitical functions: for image making, to imagine potential realities currently not in practice, and to disavow facts. In past research, the reality monitoring (RM) framework\nhas discriminated accurately between truthful and deceptive accounts (~70% classification). Truthful accounts show greater sensory, time and space, and affective information, with little evidence of\ncognitive operations. An RM algorithm was used with Linguistic Inquiry and Word Count software to code candidates' language. RM scores were significantly higher in fact-checked\ntruth statements than in lies, and debate language in the 2016 primaries was as deceptive as fact-checked lies. In a binary logistic regression model, one\nRM criterion, cognitive processes, predicted veracity using computerized RM, classifying 87% of fact-checked truth statements but only 28% of fact-checked lie statements (63% classification overall).Copyright\n© 2017 John Wiley & Sons, Ltd. Copyright © 2017 John Wiley & Sons, Ltd."
+    },
+    {
+      "document_id": 494,
+      "score": null,
+      "abstract": "Our goal is to use natural language processing to identify deceptive and non-deceptive passages in transcribed narratives. We begin by motivating an analysis of language-based\ndeception that relies on specific linguistic indicators to discover deceptive statements. The indicator tags are assigned to a document using a mix of automated and\nmanual methods. Once the tags are assigned, an interpreter automatically discriminates between deceptive and truthful statements based on tag densities. The texts used in our\nstudy come entirely from \"real world\" sources---criminal statements, police interrogations and legal testimony. The corpus was hand-tagged for the truth value of all propositions that\ncould be externally verified as true or false. Classification and Regression Tree techniques suggest that the approach is feasible, with the model able to identify\n74.9\\% of the T/F propositions correctly. Implementation of an automatic tagger with a large subset of tags performed well on test data, producing an average\nscore of 68.6\\% recall and 85.3\\% precision when compared to the performance of human taggers on the same subset."
+    }
+  ]
+}

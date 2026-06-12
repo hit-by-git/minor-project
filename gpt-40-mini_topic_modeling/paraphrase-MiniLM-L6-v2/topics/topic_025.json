@@ -1,0 +1,50 @@
+{
+  "topic_id": 25,
+  "label": "T025",
+  "label_full": "Fact-Checking & Verification",
+  "keywords": [
+    "questionnaires",
+    "human",
+    "approaches",
+    "external",
+    "explanations",
+    "automated",
+    "deception",
+    "generating",
+    "factchecking",
+    "assessment"
+  ],
+  "n_docs": 6,
+  "documents": [
+    {
+      "document_id": 14,
+      "score": null,
+      "abstract": "In an era increasingly dominated by digital platforms, the spread of misinformation poses a significant challenge, highlighting the need for solutions capable of assessing information\nveracity. Our research contributes to the field of Explainable Artificial Antelligence (XAI) by developing transformer-based fact-checking models that contextualise and justify their decisions by generating\nhuman-accessible explanations. Importantly, we also develop models for automatic evaluation of explanations for fact-checking verdicts across different dimensions such as (self)-contradiction, hallucination, convincingness and overall\nquality. By introducing human-centred evaluation methods and developing specialised datasets, we emphasise the need for aligning Artificial Intelligence (AI)-generated explanations with human judgements. This approach\nnot only advances theoretical knowledge in XAI but also holds practical implications by enhancing the transparency, reliability and users’ trust in AI-driven fact-checking systems. Furthermore,\nthe development of our metric learning models is a first step towards potentially increasing efficiency and reducing reliance on extensive manual assessment. Based on experimental\nresults, our best performing generative model achieved a Recall-Oriented Understudy for Gisting Evaluation-1 (ROUGE-1) score of 47.77 demonstrating superior performance in generating fact-checking explanations, particularly\nwhen provided with high-quality evidence. Additionally, the best performing metric learning model showed a moderately strong correlation with human judgements on objective dimensions such as\n(self)-contradiction and hallucination, achieving a Matthews Correlation Coefficient (MCC) of around 0.7. © 2024 The Authors"
+    },
+    {
+      "document_id": 221,
+      "score": null,
+      "abstract": "Automatically detecting online misinformation at scale is a challenging and interdisciplinary problem. Deciding what is to be considered truthful information is sometimes controversial and also\ndifficult for educated experts. As the scale of the problem increases, human-in-the-loop approaches to truthfulness that combine both the scalability of machine learning (ML) and\nthe accuracy of human contributions have been considered.In , we look at the potential to automatically combine machine-based systems with human-based systems. The former exploit\nsuperviseds ML approaches; the latter involve either crowd workers (i.e., human non-experts) or human experts. Since both ML and crowdsourcing approaches can produce a score\nindicating the level of confidence on their truthfulness judgments (either algorithmic or self-reported, respectively), we address the question of whether it is feasible to make\nuse of such confidence scores to effectively and efficiently combine three approaches: (i) machine-based methods, (ii) crowd workers, and (iii) human experts. The three approaches\ndiffer significantly, as they range from available, cheap, fast, scalable, but less accurate to scarce, expensive, slow, not scalable, but highly accurate."
+    },
+    {
+      "document_id": 398,
+      "score": null,
+      "abstract": "Fake news, doubtful statements and other unreliable content not only differ with regard to the level of misinformation but also with respect to the underlying\nintents. Prior work on algorithmic truth assessment has mostly pursued binary classifiers—factual versus fake—and disregarded these finer shades of untruth. In manual analyses of questionable\ncontent, in contrast, more fine-grained distinctions have been proposed, such as distinguishing between hoaxes, irony and propaganda or the six-way truthfulness ratings by the PolitiFact\ncommunity. In , we present a principled automated approach to distinguish these different cases while assessing and classifying news articles and claims. Our method is\nbased on a hierarchy of five different kinds of fakeness and systematically explores a variety of signals from social media, capturing both the content and\nlanguage of posts and the sharing and dissemination among users. The paper provides experimental results on the performance of our fine-grained classifier and a detailed\nanalysis of the underlying features. © 2019, Springer-Verlag GmbH Austria, part of Springer Nature."
+    },
+    {
+      "document_id": 425,
+      "score": null,
+      "abstract": "Misinformation such as fake news is one of the big challenges of our society. Research on automated fact-checking has proposed methods based on supervised learning,\nbut these approaches do not consider external evidence apart from labeled training instances. Recent approaches counter this deficit by considering external sources related to a\nclaim. However, these methods require substantial feature modeling and rich lexicons. overcomes these limitations of prior work with an end-to-end model for evidence-aware credibility assessment\nof arbitrary textual claims, without any human intervention. It presents a neural network model that judiciously aggregates signals from external evidence articles, the language of\nthese articles and the trustworthiness of their sources. It also derives informative features for generating user-comprehensible explanations that makes the neural network predictions transparent to\nthe end-user. Experiments with four datasets and ablation studies show the strength of our method."
+    },
+    {
+      "document_id": 448,
+      "score": null,
+      "abstract": "Misinformation such as fake news is one of the big challenges of our society. Research on automated fact-checking has proposed methods based on supervised learning,\nbut these approaches do not consider external evidence apart from labeled training instances. Recent approaches counter this deficit by considering external sources related to a\nclaim. However, these methods require substantial feature modeling and rich lexicons. overcomes these limitations of prior work with an end-to-end model for evidence-aware credibility assessment\nof arbitrary textual claims, without any human intervention. It presents a neural network model that judiciously aggregates signals from external evidence articles, the language of\nthese articles and the trustworthiness of their sources. It also derives informative features for generating user-comprehensible explanations that makes the neural network predictions transparent to\nthe end-user. Experiments with four datasets and ablation studies show the strength of our method. © 2018 Association for Computational Linguistics"
+    },
+    {
+      "document_id": 477,
+      "score": null,
+      "abstract": "On-line questionnaires are today widely used for various tasks, from census data collection to knowledge testing in job interviews. However, there is currently no automated\nsystem that can help us decide if the answers from the questionnaires are reliable or estimate how reliable the are. Deception is a part of\neveryday human behavior and deception is also present when answering on-line questionnaires. People are trying to make themselves look better or are just withholding information\nfor malicious reasons. In our paper we present a method for automatic prediction of honesty for answers in a questionnaire. We demonstrate that by using\nnew technologies like eye-tracking, we can create an automated system which can help us estimate reliability and truthfulness of the answers from on-line questionnaires. In\nour paper we have proposed and evaluated several metrics that can be used for automated detection of user deception in on-line questionnaires and we have\nalso created and tested our first automated system for deception detection, based on these metrics. © 2016 IEEE."
+    }
+  ]
+}

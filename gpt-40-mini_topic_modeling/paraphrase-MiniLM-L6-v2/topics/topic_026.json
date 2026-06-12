@@ -1,0 +1,50 @@
+{
+  "topic_id": 26,
+  "label": "T026",
+  "label_full": "fnd, unimodal",
+  "keywords": [
+    "fnd",
+    "unimodal",
+    "ftransform",
+    "multimodal",
+    "reduction",
+    "mineruvs",
+    "detection",
+    "energy",
+    "capefnd",
+    "llm"
+  ],
+  "n_docs": 6,
+  "documents": [
+    {
+      "document_id": 13,
+      "score": null,
+      "abstract": "<jats:p>Fake news detection (FND) is a critical task in natural language processing (NLP) focused on identifying and mitigating the spread of misinformation. Large language models\n(LLMs) have recently shown remarkable abilities in understanding semantics and performing logical inference. However, their tendency to generate hallucinations poses significant challenges in accurately detecting\ndeceptive content, leading to suboptimal performance. In addition, existing FND methods often underutilize the extensive prior knowledge embedded within LLMs, resulting in less effective classification\noutcomes. To address these issues, we propose the CAPE–FND framework, context‐aware prompt engineering, designed for enhancing FND tasks. This framework employs unique veracity‐oriented context‐aware constraints,\nbackground information, and analogical reasoning to mitigate LLM hallucinations and utilizes self‐adaptive bootstrap prompting optimization to improve LLM predictions. It further refines initial LLM prompts\nthrough adaptive iterative optimization using a random search bootstrap algorithm, maximizing the efficacy of LLM prompting. Extensive zero‐shot and few‐shot experiments using GPT‐3.5‐turbo across multiple\npublic datasets demonstrate the effectiveness and robustness of our CAPE–FND framework, even surpassing advanced GPT‐4.0 and human performance in certain scenarios. To support further LLM–based\nFND, we have made our approach’s code publicly available on GitHub (our CAPE–FND code: <jats:ext-link xmlns:xlink=\" xlink:href=\" [Accessed on 2024.09]).</jats:p>"
+    },
+    {
+      "document_id": 63,
+      "score": null,
+      "abstract": "The proliferation of fake news has raised concerns regarding its detection, posing a significant challenge. Motivated by the ongoing discussion on the sustainability of machine\nlearning algorithms, discusses the usefulness of data reduction for fake news detection. This is accomplished by using the fuzzy transform (or F-transform for short), which\nhas already been proven effective, in the literature, to reduce the training time. A Long Short Term Memory architecture is then employed for classification to\ndetermine the authenticity of the news. From the formal perspective, we discuss in general the role of the F-transform in a learning system. Regarding the\nnumerical experiments, we use five publicly available datasets, trying different compression ratios and different types of F-transform, assessing accuracy, F1 score, training time and energy\nconsumption with and without F-transform. Although the F-transform is a lossy compression technique, the results show a negligible variation in accuracy and F1-score when comparing\nresults with and without F-transform (i.e. 1%–3% in most cases and around 10% in one case). This seems to be congruent with the theoretical achievement.\nFurthermore, the approach yields substantial training time and energy savings, with over 50% reduction in energy consumption. © 2023 Elsevier B.V."
+    },
+    {
+      "document_id": 66,
+      "score": null,
+      "abstract": "Fake news detection (FND) is an application-oriented hotspot in the field of artificial intelligence, whose task is to make neural networks to judge the authenticity\nof given news, and the challenge it faces is how to train neural networks effectively. Currently, state-of-the-art approaches typically employ the methods based on graph\nconvolutional neural networks (GCNs) to extract features of news dissemination. However, these methods cannot effectively represent temporal features and cannot handle the problem of imbalanced\npositive and negative samples. This motivates us to investigate the impact of temporal information on fake news detection and the impact of sample balance on\nmodel training. To this end, we propose a social media Fake News Detection model based on Bidirectional Temporal-delay Graph Convolution Network (BTGCN-FND). In BTGCN-FND, we\nextend unidirectional graphs to bidirectional graphs and design bidirectional temporal-delay graph convolutional networks to effectively represent graph-structured data. We further design heuristic graph-structured data enhancement\nstrategies to fully leverage information. Moreover, we introduce a graph contrastive learning method, which improves the model performance by computing the mutual information between positive\nand negative samples. We have conducted experimental researches on two publicly available real-world datasets. The experimental results show that compared with the current state-of-the-art methods,\nour model has achieved an average improvement of 2.2% in detection accuracy and 1.9% in F1-score. © 2024 Elsevier Ltd"
+    },
+    {
+      "document_id": 94,
+      "score": null,
+      "abstract": "Fake news spreads at unprecedented speeds through online social media, raising many concerns and negative impacts on a variety of domains. To control this issue,\nFake News Detection (FND) naturally becomes the chief task while multimodal FND has recently attracted more attention due to the fast-growing multimodal content in online\nsocial media. Commonly, the existing multimodal FND methods directly fuse the unimodal features into the multimodal features before detecting the veracity, however, such methods result\nin the neutralization effect problem caused by the veracity conflict between different modalities. To alleviate this problem, we propose a novel multimodal FND method, namely\nMultImodal fake NEws detectoR with Unimodal Veracity Signals (MINER-UVS). The basic idea of MINER-UVS is to incorporate an unimodal veracity classifier that can predict the\nveracity labels of each modality, and then use the unimodal veracity labels to weigh the unimodal features, so as to achieve more discriminative multimodal features.\nBecause the unimodal veracity labels are unknown, we formulate the unimodal veracity classification as the Positive and Unlabeled (PU) learning problem; and solve it by\nusing a variational PU learning method with a contrastive multimodal alignment regularization. To evaluate the effectiveness of MINER-UVS, we compare it with dozens of existing\nmultimodal FND methods across benchmark datasets. Experimental results demonstrate that MINER-UVS consistently outperforms the existing competitors. © 2024 Elsevier B.V."
+    },
+    {
+      "document_id": 144,
+      "score": null,
+      "abstract": "Fake News Detection (FND) is an essential field in natural language processing that aims to identify and check the truthfulness of significant claims in a\nnews article to decide the news veracity. FND finds its uses in preventing social, political, and national damage caused due to the misrepresentation of facts\nthat may harm a particular section of society. Further, with the explosive rise in fake news dissemination over social media, including images and text, it\nhas become imperative to identify fake news faster and more accurately. investigates a novel multimodal stacked ensemble-based framework (SEMI-FND) for fake news detection. Focus is\nalso kept on ensuring faster performance with fewer parameters. A deep unimodal analysis is done on the image modality to identify NasNet Mobile as the\nmost appropriate model to improve multimodal performance further. For text, an ensemble of BERT and ELECTRA has been used. The approach was evaluated on Twitter\nMediaEval Dataset and Weibo Corpus. The suggested framework offered 85.80% and 86.83% accuracy on the Twitter and Weibo datasets. These reported metrics are superior when\ncompared to similar recent works. also reports a reduction in training parameters compared to its potential counterparts. The developed framework offered an overall parameter reduction\nof at least 20% with a 2% and 60% reduction on the image and text modality, respectively. Therefore, based on the investigations presented, it is\nconcluded that applying a stacked ensembling significantly improves FND over other approaches while also improving speed. © 2022 Elsevier Ltd"
+    },
+    {
+      "document_id": 401,
+      "score": null,
+      "abstract": "The phenomenal growth in web information has nourished research endeavours for automatic fact checking, or fake news and/or misinformation detection. This is one of the\nvery emerging and challenging problems in Natural Language Processing (NLP), Machine Learning (ML) and Data Science. One such problem relates to estimating the veracity of\na news story, which is a complex and deep problem. The very recently released Fake News Challenge Stage 1 (FNC-1) dataset introduced the benchmark FNC\nstage-1: stance detection task. This task could be an effective first step towards building a robust fact checking system. In , we correlate this stance\ndetection problem with Textual Entailment (TE). We present the systems which are based on statistical machine learning (ML), Deep Learning (DL), and a combination of\nboth. Empirical evaluation shows encouraging performance, outperforming the state-of-the-art system. © 2019, Springer Nature Switzerland AG."
+    }
+  ]
+}

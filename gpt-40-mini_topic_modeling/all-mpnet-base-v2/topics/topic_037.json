@@ -1,0 +1,45 @@
+{
+  "topic_id": 37,
+  "label": "T037",
+  "label_full": "NLP Methods",
+  "keywords": [
+    "task",
+    "english",
+    "lab",
+    "transformer",
+    "german",
+    "subtask",
+    "article",
+    "copyright",
+    "arabic",
+    "bert"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 280,
+      "score": null,
+      "abstract": "This article describes the different approaches used by the NLPIR-UNED team1 in the CLEF2022 CheckThat! Lab to tackle the Task 3 - English. The goal\nof this task is to determine the veracity of the main claim made in a news article. It is a multi-class classification problem with four\npossible values: true, partially false, false, and other. For this task, we have evaluated three different approaches. The first has been based on a Longformer\ntransformer model that supports larger input sequence sizes than other transformer models such as BERT. The second approach uses transformer models where an extension of\nthe training set has been carried out. The last approach uses an ensemble classifier composed of a transformer model fed with the sequence of words\nof the article to be evaluated, and a feed forward neural network fed with features related, among other things, to the number of named entities\nin the article, and features extracted using the LIWC text analysis tool. With this last approach, we have made our main submission reaching the second\nposition among the twenty-five participating teams. © 2022 Copyright for by its authors."
+    },
+    {
+      "document_id": 286,
+      "score": null,
+      "abstract": "describes the results of the CheckThat! Lab 2022 Task 3. This is the fifth edition of the lab, which concentrates on the evaluation of technologies\nsupporting three tasks related to factuality. Task 3 is designed as a multi-class classification problem and focuses on the veracity of German and English news\narticles. The German subtask is ought to be solved using an cross-lingual approach while the English subtask was offered as mono-lingual task. The participants of\nthe lab were provided an English training, development and test dataset as well as a German test dataset. In total, 25 teams submitted successful runs\nfor the English subtask and 8 for the German subtask. The best performing system for the mono-lingual subtask achieved a macro F1-score of 0.339. The\nbest system for the cross-lingual task achieved a macro F1-score of 0.242. In the paper at hand we will elaborate on the process of data\ncollection, the task setup, the evaluation results and give a brief overview of the participating systems. © 2022 Copyright for by its authors."
+    },
+    {
+      "document_id": 342,
+      "score": null,
+      "abstract": "We describe the fourth edition of the CheckThat! Lab, part of the 2021 Conference and Labs of the Evaluation Forum (CLEF). The lab evaluates technology\nsupporting three tasks related to factuality, and it covers Arabic, Bulgarian, English, Spanish, and Turkish. Here, we present the task 2, which asks to detect\npreviously fact-checked claims (in two languages). A total of four teams participated in this task, submitted a total of sixteen runs, and most submissions managed\nto achieve sizable improvements over the baselines using transformer based models such as BERT, RoBERTa. In , we describe the process of data collection and\nthe task setup, including the evaluation measures used, and we give a brief overview of the participating systems. Last but not least, we release to\nthe research community all datasets from the lab as well as the evaluation scripts, which should enable further research in detecting previously fact-checked claims. ©\n2021 Copyright for by its authors. Use permitted under Creative Commons License Attribution 4.0 International (CC BY 4.0)."
+    },
+    {
+      "document_id": 344,
+      "score": null,
+      "abstract": "This article describes the different approaches used by the NLPIR@UNED team in the CLEF2021 CheckThat! Lab to tackle the tasks 1A-English, 1A-Spanish and 3A-English. The\ngoal of Task 1A in English is to determine which tweets within a set of COVID-19 related tweets are worth checking. Task 1A in Spanish\nis similar but in this case the tweets are related to political issues in Spain. In both tasks, transformer models have been used to identify\ncheck-worthy tweets, obtaining the first place in the task in English and the fourth place in the task in Spanish. Task 3A is focused on\ndetermining the veracity of a news article. It is a multi-class classification problem with four possible values: true, partially false, false, and other. For this\ntask we have used two different approaches: a gradient-boosting classifier with TF-IDF and LIWC features, and a transformer model fed with the first tokens of\neach news article. We got the fourth place out of 25 participants in this task. © 2021 Copyright for by its authors. Use permitted under\nCreative Commons License Attribution 4.0 International (CC BY 4.0)."
+    },
+    {
+      "document_id": 379,
+      "score": null,
+      "abstract": "Misinformation has many negative consequences on our daily life. While spread of misinformation is very fast, investigating veracity of claims is slow. Therefore, we urgently\nneed systems helping human fact checkers in the combat against misinformation. In , we present our participation in check-worthiness tasks (i.e., Task 1 and Task\n5) of CLEF-2020 Check That! Lab. For English Task 1, we use logistic regression with fined-tuned BERT predictions, POS tags, controversial topics and a hand-crafted\nword list as features. For English Task 5, we again use logistic regression with fined-tuned BERT predictions and word embeddings as features. For Arabic Task\n1, we use a hybrid approach of fined-tuned BERT model with the model used for English Task 5. For the Arabic task, we use AraBert\nas our Bert model. In the official evaluation of primary submissions, our primary models a) ranked 3rd in Arabic Task 1 based on P@30 and\nshared the 1st rank with another group based on P@5, b) ranked 5th in English Task 1 based on average precision and shared the 1st\nrank with five other groups based on reciprocal rank, P@1, P@3 and P@5 metrics, and c) ranked 3rd in Task 5 based on average precision.\nCopyright © 2020 for by its authors."
+    }
+  ]
+}

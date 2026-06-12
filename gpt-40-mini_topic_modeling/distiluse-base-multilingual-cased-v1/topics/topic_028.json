@@ -1,0 +1,45 @@
+{
+  "topic_id": 28,
+  "label": "T028",
+  "label_full": "Misinformation & Propaganda",
+  "keywords": [
+    "fake",
+    "machinegenerated",
+    "news",
+    "synthetic",
+    "information",
+    "mcbp",
+    "vector",
+    "data",
+    "proposed",
+    "text"
+  ],
+  "n_docs": 5,
+  "documents": [
+    {
+      "document_id": 74,
+      "score": null,
+      "abstract": "In Today's internet world, detecting Fake News is facing a difficult task. Data integrity has been of maximum importance in the current news era due\nto the extensive range of free text. Therefore, generating and developing fraudulent information is more painless than ever. The spreading of such fake news influences\nsociety from diverse inappropriate views. Online Social Networks has become increasingly popular to obtain news and information on the internet due to their widespread uses.\nHowever, false information has been spread widely due to the internet's rapid growth. As a result, detecting fabricated information is critical in our present culture.\nAs a resolution, in , a Deep learning approach is suggested to confirm the trustworthiness of news. It is also proposed as a Multimodal faked\ninformation detection method that utilizes both the textual and graphical content of the data to determine its authenticity. The first step is to pretrain the\nBERT model to achieve the textual feature representation vector. As a second step, pretraining the VGG-19 model generates a visual characteristic representation vector. Two MCBP\n(Multimodal Compact Bilinear Pooling) modules have been created based on the proposed methodology. Graphic feature representation vectors with alerts are obtained using the first MCBP\nmodule. MCBP's second module combines the visual feature with the attention process and the vector of textual elements. With a second MCBP module, the attention\nprocess and a textual feature vector are utilized to input visual quality. You may be able to exploit the linked vector to your advantage in\ndetecting fake information. In this article, a comparison is performed between the proposed method and two standard methods. EANN and Spot Fake approaches have been\ncompared in , and it has been found that the proposed strategy in this article outperforms both in terms of accuracy, precision, and recall. ©\n2024 Author(s)."
+    },
+    {
+      "document_id": 251,
+      "score": null,
+      "abstract": "In the modern era of information, data integrity is of utmost priority. With the rapid development in the field of Artificial Intelligence, one who has\ncredible data owns the key to build a reliable future. But with the breakneck development of communication over social media the reliability of data is\nno more guaranteed. “Fake News” is data that doesn’t have any real-world significance (or) a fact which has been modified by some middleman over the\nchain of communication. Spreading of such fake news affects humanity in various unacceptable perspectives. As a solution, in , a machine learning approach is proposed\nto verify the trustworthiness of news. Instead of just classifying the data as true or fake, various degrees of truth and falsehood are also explored.\nThe proposed methodology has been applied to “Liar, Liar Pants on Fire”, a benchmark data set for fake news detection. The proposed approach with 41.1%\naccuracy, outperforms the baseline approaches. © 2022, The Author(s), under exclusive license to Springer Nature Singapore Pte Ltd."
+    },
+    {
+      "document_id": 260,
+      "score": null,
+      "abstract": "Fake data is purposely or accidentally transmitted throughout the internet. It has long been a social issue, and in the digital age, the average person\nnow has easy access to all of the information available online. This is affecting a growing population of people who are technologically blind. One of\nthe most serious problems in the modern day is fake news, which has the capacity to affect people's minds and influence their judgments. On web\nbrowsers, there are a few plugins that provide real-time information about the veracity of news. The algorithms used to create these plugins have a significant\nimpact on them. The goal is to create a project that will propose which of the three implemented algorithms is the best for further development\nby the developer. Machine learning classification methods such as SVM, naive bayes, logistic regression, decision tree, and random forest are taught to detect if news\nis fake or real, and then compared based on metrics. © 2022 IEEE."
+    },
+    {
+      "document_id": 266,
+      "score": null,
+      "abstract": "The evolution of digitization and technology has increased the amount of data shared online, inevitably leading to the spread of false information. The issue has\nskyrocketed as COVID-19 spread across the globe and carried with it a sea-full of fake news. Recent technological advances, such as automatic text generators, have\nexacerbated the problem by interpolating synthetic text into the fake news. Current fake news detection approaches do not take into account the validity of synthetic\nnews (machine-generated news), thus classifying all machine-generated material as fake. In , the first-ever synthetic news classification model using CT-BERT is implemented, and a framework\nis proposed that not only distinguishes between human-authored and machine-generated text, but also considers the veracity of text to detect fake news. Moreover, a novel\nCOVID-19 based synthetically generated dataset has been introduced by fusing synthetic text generated by GPT-2 and Grover model. Further, whether the GPT-2 and Grover models\nare vulnerable to adversarial attacks or not has been investigated. An accuracy of 98.2% and 92.4% respectively in the fake news classification of human-authored and\nmachine-generated text have been achieved. © 2022 IEEE."
+    },
+    {
+      "document_id": 370,
+      "score": null,
+      "abstract": "In a world flooded with information, often irrelevant, lucidity is power. Never as in this historical period can anyone, thanks to new technologies, participate as\na protagonist in the debates raised about events and issues that affect our society. In this flood of information, remaining lucid and knowing how to\ndiscriminate between real and false becomes fundamental. In this scenario, a leading role is played by Fake News, information that is partly or entirely untrue,\ndivulged through the Web, the media, or digital communication technologies. Fake news is characterized by an apparent plausibility, the latter fed by a distorted system\nof public opinion expectations, and by an amplification of the prejudices based on it, which facilitates its sharing and diffusion even in the absence of\nverification of the sources. Fake News is becoming a severe problem that affects various sectors of society: medicine, politics, culture, history are some of the\nareas that suffer most from the phenomenon of fake news, which can often generate significant social problems. will introduce a probabilistic approach to determining the\ndegree of truthfulness of the information. The system is based on the definition of some features, identified after an analysis of fake news in the\nliterature through NLP-based approaches and statistical methods. The specified features will highlight the syntactic, semantic, and social features of the information. These features are combined\nin a Bayesian Network, previously trained on a dataset composed of fake news, to provide a probabilistic level of the truthfulness of the information analyzed.\nThe proposed method has been tested in some real cases with very satisfactory results. © 2020, Springer Nature Switzerland AG."
+    }
+  ]
+}
