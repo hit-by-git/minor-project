@@ -1,0 +1,20 @@
+===========================================================
+   3-WAY INTER-MODEL AGREEMENT: JEV vs GPT-120B vs LLAMA3.3
+===========================================================
+Total aligned papers evaluated: 12235
+
+=== Individual Inclusions ('Yes') ===
+Jev (TypeSafe System 1):   1789 papers (14.62%)
+gpt-oss-120b:              812 papers (6.64%)
+llama3.3:                  990 papers (8.09%)
+
+=== Pairwise Agreement ===
+Jev vs gpt-oss-120b:       11130/12235 (90.97%)
+Jev vs llama3.3:           11358/12235 (92.83%)
+gpt-oss-120b vs llama3.3:  11535/12235 (94.28%)
+
+=== 3-Way Consensus ===
+All 3 models agreed 'Yes': 545 papers (High-confidence gold inclusions)
+All 3 models agreed 'No':  10349 papers (High-confidence gold exclusions)
+Unanimous Agreement:      10894/12235 (89.04%)
+===========================================================

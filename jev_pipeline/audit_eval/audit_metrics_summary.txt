@@ -1,0 +1,28 @@
+===========================================================
+   GROUND-TRUTH AUDIT BENCHMARK: JEV DECISION MODEL
+===========================================================
+Total audited 'No' samples: 600
+Human Ground-Truth Positives (Llama 3.3 False Negatives): 12
+Human Ground-Truth True Negatives:                       588
+
+=== Jev Performance on Ground-Truth Positives ===
+Jev Correctly Salvaged (Classified as 'Yes'): 5/12 (41.7%)
+Jev Missed (Remaining False Negatives):        7/12
+
+=== Key Screening Reliability & Safety Metrics ===
+Jev False Negative Rate (FNR): 1.17% (Target: <= 2.0%)
+Jev Negative Predictive Value (NPV): 98.72% (Target: >= 98.0%)
+
+=== Benchmark Comparison ===
+Llama 3.3 Baseline FNR: 2.00% (12 FNs missed out of 600)
+Jev Decision Model FNR: 1.17% (7 FNs missed out of 600)
+Llama 3.3 Baseline NPV: 98.00%
+Jev Decision Model NPV: 98.72%
+===========================================================
+
+Papers Salvaged by Jev that Llama 3.3 Missed:
+  - [ID 4587] (Prob: 0.6500) From rumor to genetic mutation detection with explanations: a GAN
+  - [ID 2607] (Prob: 0.8300) Detection of New Crown Epidemic Rumors Based on Knowledge Graph
+  - [ID 4735] (Prob: 0.7600) Learning how to separate fake from real news: Scalable digital tu
+  - [ID 579] (Prob: 0.7100) Trust assessment in social networks
+  - [ID 1760] (Prob: 0.7500) Deep Fake Face Detection using Efficient Convolutional Neural Net

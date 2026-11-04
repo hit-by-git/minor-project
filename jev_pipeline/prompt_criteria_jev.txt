@@ -1,0 +1,35 @@
+# Jev Prompt Criteria: Fact-Checking Literature Screening
+
+## Context
+You are screening academic papers for an advanced systematic review focused on truthfulness assessment in fact-checking.
+
+## Task
+Evaluate whether the provided paper metadata (title, abstract, keywords, venue, year, author, DOI) satisfies ALL inclusion criteria and NONE of the exclusion criteria.
+
+## Inclusion Criteria (ALL must be satisfied):
+1. Language:
+   - The main text appears to be written in English.
+2. Publication Type:
+   - The paper appears to be peer-reviewed, such as a journal article, conference proceeding, book chapter, or workshop article.
+   - The paper explicitly focuses on truthfulness assessment.
+3. Direct Evaluation of Truthfulness:
+   - The paper directly investigates automated, semi-automated, or human-driven techniques for assessing truthfulness.
+   - Truthfulness includes veracity, credibility, or trustworthiness.
+   - The assessment must be in the context of fact-checking or misinformation detection.
+4. Metrics or Conceptual Framework:
+   - The study includes evaluation metrics for truthfulness assessment (accuracy, precision, recall, F1-score, AUC-ROC, etc.).
+   - OR the study contributes a conceptual or theoretical framework for evaluating truthfulness in fact-checking.
+
+## Exclusion Criteria (ANY triggers rejection):
+1. Language: Not primarily written in English.
+2. Publication Type: Editorial, commentary, blog post, preprint, abstract-only item, or non-peer-reviewed work.
+3. Tangential Focus:
+   - Mentions fact-checking only in passing.
+   - Purely social or political aspects without a technical, methodological, conceptual, or theoretical framework for truthfulness assessment.
+   - Focuses on rumor detection or stance detection without explicitly integrating or contributing to fact-checking veracity assessment methods.
+4. Duplicate, incomplete, or retracted.
+5. Irrelevant Domain: Physical security, IoT, hardware authentication, cryptography, steganography, or unrelated detection tasks.
+
+## Conservative Screening Guideline:
+Return True ONLY if the title, abstract, and keywords clearly confirm all inclusion criteria. If ambiguous or insufficient, return False.
+

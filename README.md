@@ -9,24 +9,38 @@ The **AIDME Pipeline** (AI-Aided Systematic Review Framework) is a comprehensive
 This framework processes a dataset of **12,236 academic papers** obtained through structured database queries, applying Chain-of-Thought (CoT) prompting to make deterministic yes/no inclusion decisions with structured explanations. The pipeline then applies BERTopic clustering and coauthorship network analysis to the included papers, generating insights about research trends, key contributors, and topic evolution in fact-checking.
 
 ### Core Models
-The AIDME Pipeline implements two parallel, independently validated models:
+The AIDME Pipeline implements three parallel, independently validated models:
 
 - **`gpt-oss:120b`** – An open-source 120-billion parameter language model executed via Ollama, emphasizing local deployment and transparency
 - **`llama3.3`** – Meta's Llama 3.3 large language model, providing an alternative open-source baseline for cross-validation
+- **`jev` (TypeSafe System 1)** – A non-autoregressive decision model executing schema-constrained, calibrated probabilistic evaluations via the TypeSafe API
 
-Both models process the same input dataset with identical prompts and configuration, enabling **inter-model agreement analysis** and **robustness validation** of the screening pipeline.
+All models process the same input dataset with aligned criteria and configuration, enabling **multi-model agreement analysis**, **ensemble screening**, and **robustness validation**.
 
 ### Key Findings
-- **Inter-Model Agreement**: 94.29% absolute agreement between gpt-oss:120b and llama3.3 across 12,235 aligned records
-  - Both models agreed "Yes": 551 papers
-  - Both models agreed "No": 10,986 papers
-  - Disagreements: 261 + 437 = 698 papers (5.71%)
+- **High Multi-Model Agreement**:
+  - **Jev vs. LLaMA 3.3**: 92.83% agreement ($\kappa = 0.6477$, Substantial Agreement)
+  - **Jev vs. GPT-120B**: 90.97% agreement ($\kappa = 0.5325$)
+  - **GPT-120B vs. LLaMA 3.3**: 94.28% agreement ($\kappa = 0.5810$)
+  - **3-Way Unanimous Consensus**: 89.04% (10,894 / 12,235 papers)
+  - **Consensus "Yes" (All 3 Models)**: 545 high-confidence gold inclusion papers
+  - **Majority Vote "Yes" ($\ge$ 2 Models)**: 1,160 papers
+  - **Consensus "No" (All 3 Models)**: 10,349 papers
+
+- **Screening Latency**:
+  - `jev`: **7m 45s** for the full 12,236 paper corpus (~26.3 papers/sec)
+  - `gpt-oss-120b`: ~10–12 hours
+  - `llama3.3`: ~6–8 hours
+
+- **Ground-Truth Audit Reliability**:
+  - `jev` achieved a False Negative Rate (FNR) of **1.17%** (7 missed / 600) and Negative Predictive Value (NPV) of **98.72%**, successfully salvaging 41.7% of the false negatives missed by LLaMA 3.3.
   
 - **Topic Coherence**: Multiple embedding models evaluated via BERTopic with Coherence (Cv) scores ranging from 0.43–0.53
   
 - **Inclusion Results**: 
   - gpt-oss-120b included: 812 papers
-  - llama3.3 included: 988 papers
+  - llama3.3 included: 990 papers
+  - jev included: 1,789 papers
 
 ---
 
