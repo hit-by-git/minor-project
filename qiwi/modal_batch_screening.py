@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
 """
 Modal Serverless Batch Screening for Qwen3-Next-80B
-Optimized for: NVIDIA H200 SXM (141GB VRAM) or NVIDIA H100 / A100-80GB
+Optimized for: NVIDIA H200 SXM (141GB VRAM) or 2x H200 (282GB VRAM)
 Billed strictly per-second on Modal (Runs well within the free $30 tier).
 
-Features:
-- Mounts persistent Modal Volumes for HF cache (/cache) and results (/results).
-- Direct vLLM PagedAttention offline batching (no HTTP overhead).
-- Strict temperature=0 determinism.
-- Streams results directly back to local machine upon completion.
-- Shuts down GPU immediately when finished (zero idle billing).
+Architecture Notes:
+- Qwen3-Next-80B in unquantized 16-bit BF16 is ~160GB, exceeding a single 141GB GPU.
+- The official FP8 checkpoint (`Qwen/Qwen3-Next-80B-A3B-Instruct-FP8`) is ~80GB,
+  fitting comfortably into a single H200 (141GB) with ~60GB free VRAM for KV cache.
+- To run unquantized BF16, set MODEL_ID="Qwen/Qwen3-Next-80B-A3B-Instruct", which
+  automatically switches to 2x H200 (`H200:2`) with tensor_parallel_size=2.
 """
 
 import os
@@ -24,8 +24,20 @@ import modal
 # ============================================================================
 
 APP_NAME = "qiwi-qwen3-next-screening"
-MODEL_ID = "Qwen/Qwen3-Next-80B-A3B-Instruct"
-GPU_TYPE = os.environ.get("MODAL_GPU", "H200") # "H200", "H100", or "A100-80GB"
+
+# Default to the official FP8 checkpoint to run on a single H200 (141GB VRAM).
+# If unquantized model is explicitly requested, auto-scale to 2x H200 (282GB VRAM).
+MODEL_ID = os.environ.get("MODEL_ID", "Qwen/Qwen3-Next-80B-A3B-Instruct-FP8")
+DEFAULT_GPU = "H200" if "FP8" in MODEL_ID else "H200:2"
+GPU_TYPE = os.environ.get("MODAL_GPU", DEFAULT_GPU)
+
+if ":" in GPU_TYPE:
+    try:
+        TENSOR_PARALLEL_SIZE = int(GPU_TYPE.split(":")[1])
+    except ValueError:
+        TENSOR_PARALLEL_SIZE = 1
+else:
+    TENSOR_PARALLEL_SIZE = 1
 
 app = modal.App(APP_NAME)
 
@@ -42,11 +54,11 @@ vllm_image = (
         "transformers>=4.48.0",
         "pandas>=2.2.0",
         "tqdm>=4.66.0",
-        "huggingface_hub[hf_transfer]",
     )
     .env({
-        "HF_HUB_ENABLE_HF_TRANSFER": "1",
         "HF_HOME": "/cache",
+        "PYTORCH_CUDA_ALLOC_CONF": "expandable_segments:True",
+        "VLLM_ALLOW_LONG_MAX_MODEL_LEN": "1",
     })
 )
 
@@ -178,25 +190,25 @@ def format_prompt(template: str, row: dict) -> str:
 # ============================================================================
 
 @app.cls(
-    gpu=GPU_TYPE, # Accepts string: "H200", "H100", or "A100-80GB"
+    gpu=GPU_TYPE,
     image=vllm_image,
     volumes={"/cache": model_cache_volume, "/results": results_volume},
-    timeout=3600, # 1 hour max runtime
+    timeout=3600,
 )
 class Qwen3BatchEngine:
     @modal.enter()
     def load_engine(self):
-        """Initializes vLLM engine on H200 GPU with PagedAttention."""
+        """Initializes vLLM engine on GPU with PagedAttention."""
         import os
         from vllm import LLM, SamplingParams
 
         os.environ["HF_HOME"] = "/cache"
-        print(f"🚀 Initializing vLLM Engine on {GPU_TYPE} for {MODEL_ID}...")
+        print(f"🚀 Initializing vLLM Engine on {GPU_TYPE} (TP={TENSOR_PARALLEL_SIZE}) for {MODEL_ID}...")
 
         # Explicit max_model_len prevents pre-allocating KV cache for 262k context
         self.llm = LLM(
             model=MODEL_ID,
-            tensor_parallel_size=1,
+            tensor_parallel_size=TENSOR_PARALLEL_SIZE,
             gpu_memory_utilization=0.90,
             max_model_len=8192,
             dtype="auto",
@@ -285,7 +297,9 @@ def main(
         out_path = Path(__file__).resolve().parent / out_path.name
 
     print("======================================================================")
-    print(f"  🚀 Launching Qwen3-Next-80B Serverless Screening on Modal ({GPU_TYPE})")
+    print(f"  🚀 Launching Qwen3-Next-80B Serverless Screening on Modal")
+    print(f"  Model ID: {MODEL_ID}")
+    print(f"  Hardware: {GPU_TYPE} (Tensor Parallel Size: {TENSOR_PARALLEL_SIZE})")
     print(f"  Dataset: {input_path}")
     print(f"  Target Output: {out_path}")
     print("======================================================================")
@@ -340,7 +354,7 @@ def main(
     print(f"  Saved locally to: {out_path}")
 
     # Cost Estimation
-    hourly_rate = 4.54 if "H200" in GPU_TYPE else (3.95 if "H100" in GPU_TYPE else 2.50)
+    hourly_rate = 4.54 * TENSOR_PARALLEL_SIZE if "H200" in GPU_TYPE else (3.95 * TENSOR_PARALLEL_SIZE if "H100" in GPU_TYPE else 2.50 * TENSOR_PARALLEL_SIZE)
     est_cost = (total_time / 3600.0) * hourly_rate
     print(f"  Estimated Modal Compute Cost: ~${est_cost:.2f} (from your $30 credit)")
     print("======================================================================")
