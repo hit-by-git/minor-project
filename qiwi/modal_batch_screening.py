@@ -264,6 +264,7 @@ def main(
     output_file: str = "qiwi/results_qwen3_next_80b.csv",
     chunk_size: int = 500,
     max_papers: int = 12236,
+    overwrite: bool = False,
 ):
     import pandas as pd
 
@@ -324,7 +325,7 @@ def main(
     # Check for existing checkpoint to resume
     processed_records = []
     processed_ids = set()
-    if out_path.exists():
+    if not overwrite and out_path.exists():
         try:
             prev_df = pd.read_csv(out_path)
             if "id" in prev_df.columns:
@@ -333,6 +334,8 @@ def main(
                 print(f"Resuming: found {len(processed_ids)} already screened papers in {out_path}.")
         except Exception as e:
             print(f"Could not read existing checkpoint: {e}")
+    elif overwrite and out_path.exists():
+        print(f"Overwrite flag is True: starting fresh screening for all {len(df_full)} papers.")
 
     remaining_df = df_full[~df_full["id"].isin(processed_ids)]
     print(f"Papers remaining to screen: {len(remaining_df)}")
@@ -374,24 +377,29 @@ def main(
     print("======================================================================")
 
     # Post-processing evaluation
-    root_dir = Path(__file__).resolve().parent.parent
-    compare_dir = Path(__file__).resolve().parent / "compare"
-    audit_dir = Path(__file__).resolve().parent / "audit_eval"
-
-    sys.path.insert(0, str(root_dir))
-    sys.path.insert(0, str(compare_dir))
-    sys.path.insert(0, str(audit_dir))
+    script_dir = Path(__file__).resolve().parent
+    sys.path.insert(0, str(script_dir.parent))
+    sys.path.insert(0, str(script_dir / "compare"))
+    sys.path.insert(0, str(script_dir / "audit_eval"))
 
     try:
         from compare.build_qwen_alignment_summary import main as run_alignment
         print("\n--- Running 4-Way Multi-Model Alignment ---")
         run_alignment()
-    except Exception as e:
-        print(f"Could not run alignment script: {e}")
+    except Exception:
+        try:
+            import build_qwen_alignment_summary
+            build_qwen_alignment_summary.main()
+        except Exception as e:
+            print(f"Could not run alignment script: {e}")
 
     try:
         from audit_eval.evaluate_ground_truth import main as run_audit
         print("\n--- Running Ground-Truth Audit Benchmark ---")
         run_audit()
-    except Exception as e:
-        print(f"Could not run audit script: {e}")
+    except Exception:
+        try:
+            import evaluate_ground_truth
+            evaluate_ground_truth.main()
+        except Exception as e:
+            print(f"Could not run audit script: {e}")

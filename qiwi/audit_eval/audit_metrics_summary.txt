@@ -1,0 +1,20 @@
+===========================================================
+   GROUND-TRUTH AUDIT BENCHMARK: QWEN3-NEXT-80B (qiwi)
+===========================================================
+Total audited 'No' samples: 1
+Human Ground-Truth Positives (Llama 3.3 False Negatives): 0
+Human Ground-Truth True Negatives:                       1
+
+=== Qwen3 Performance on Ground-Truth Positives ===
+0/0
+Missed (Remaining False Negatives):       0/0
+
+=== Key Screening Safety & Reliability Metrics ===
+Qwen3-Next-80B False Negative Rate (FNR): 0.00% (Target: <= 2.0%)
+Qwen3-Next-80B Negative Predictive Value: 0.00% (Target: >= 98.0%)
+
+=== Multi-Model Audit Comparison ===
+Llama 3.3 Baseline FNR: 2.00% (12 FNs missed / 600) | NPV: 98.00%
+Jev System 1 FNR:       1.17% (7 FNs missed / 600)  | NPV: 98.72%
+Qwen3-Next-80B FNR:     0.00% (0 FNs missed / 1) | NPV: 0.00%
+===========================================================
