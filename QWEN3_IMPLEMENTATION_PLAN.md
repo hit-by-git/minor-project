@@ -1,39 +1,40 @@
-# Implementation Plan: Running Qwen3-Next-80B on DAU HPC Cluster (Folder: `qiwi`)
+# Implementation Plan: Running Qwen3-Next-80B (Folder: `qiwi`)
 
-## 1. Executive Summary & Cluster Hardware
+## 1. Executive Summary & Hardware Profiles
 
-This implementation plan establishes the deployment and execution of **`Qwen3-Next-80B`** (MoE 80B total / ~3B active parameters) on the **Dhirubhai Ambani University (DAU) HPC Cluster** documented in [`DAU_user_Manual.pdf`](file:///Users/ap4320861gmail.com/Library/Mobile%20Documents/com~apple~CloudDocs/minor-project/DAU_user_Manual.pdf).
+This implementation plan establishes the deployment and execution of **`Qwen3-Next-80B`** (`Qwen/Qwen3-Next-80B-A3B-Instruct`, MoE 80B total / ~3B active parameters) across two high-performance compute environments:
 
-### Cluster Hardware & Partition Target:
-* **Target Node**: `GPUNODE-1` (Tyrone Camarero RDA200A2G-424)
-* **GPU**: **NVIDIA RTX PRO 6000 Blackwell Server Edition (96GB VRAM each, Qty: 2)**
-* **Slurm Partition**: **`rtx6000-fullgpu`**
-* **Slurm GRES Resource**: `--gres=gpu:rtx_pro:1` (or `gpu:rtx_pro:2`)
-* **Operating System**: Rocky Linux 9.4
-* **Master Node IP**: `10.100.71.161` (Login via SSH)
-* **Pre-compiled Modules**: `anaconda3-2025-12-2`, `cuda-13.0`, `ollama`, `vllm`
+1. **Lightning AI (Primary Target)**:
+   * **GPU**: **1x NVIDIA H200 SXM (141GB HBM3e VRAM, 4.8 TB/s memory bandwidth)**
+   * **Execution Environment**: Cloud Studio with persistent **`tmux`** session.
+   * **Throughput Advantage**: Massive 141GB VRAM easily fits the full model with native BF16/FP8 weights, while 4.8 TB/s memory bandwidth and 3B active parameters allow continuous PagedAttention batching at hundreds of tokens/sec.
+   * **Session Resilience**: Running inside `tmux` allows closing laptops, disconnecting network connections, and shutting browser tabs without interrupting the 12,236-paper screening process.
 
-> [!TIP]
-> The **96GB VRAM** of the RTX PRO 6000 Blackwell easily accommodates the 80B parameter model in FP8 or INT4 quantization without offloading, while the ~3B active parameter MoE routing guarantees high generation speeds across the 12,236 paper corpus.
+2. **Dhirubhai Ambani University (DAU) HPC Cluster (Alternative Target)**:
+   * **Target Node**: `GPUNODE-1` (Tyrone Camarero RDA200A2G-424)
+   * **GPU**: **NVIDIA RTX PRO 6000 Blackwell Server Edition (96GB VRAM each, Qty: 2)**
+   * **Slurm Partition**: **`rtx6000-fullgpu`** (`--gres=gpu:rtx_pro:1` or `2`)
+   * **Master Node IP**: `10.100.71.161` (Login via SSH)
 
 ---
 
-## 2. Scaffolded Structure (`qiwi/`)
+## 2. Directory Structure (`qiwi/`)
 
-The implementation has been scaffolded in the dedicated sub-folder **[`qiwi/`](file:///Users/ap4320861gmail.com/Library/Mobile%20Documents/com~apple~CloudDocs/minor-project/qiwi)**:
+The implementation is structured cleanly in the dedicated sub-folder **[`qiwi/`](file:///Users/ap4320861gmail.com/Library/Mobile%20Documents/com~apple~CloudDocs/minor-project/qiwi)**:
 
 ```
 minor-project/
 ├── qiwi/
-│   ├── input.csv                                 # Symlink to the 12,236 paper corpus
+│   ├── input.csv                                 # Symlink/fallback to 12,236 paper corpus
 │   ├── prompt_cot.txt                            # Verified Chain-of-Thought prompt template
-│   ├── requirements.txt                          # Cluster Python dependencies (vLLM, PyTorch, etc.)
-│   ├── sbatch_run_rtx6000.sh                     # Slurm batch job script for rtx6000-fullgpu
-│   ├── sbatch_vllm_server.sh                     # Slurm script for launching vLLM server
+│   ├── requirements.txt                          # Python dependencies (vLLM, PyTorch, etc.)
+│   ├── run_lightning_h200.sh                     # Automated runner for Lightning AI (H200 + tmux)
 │   ├── vllm_offline_batch.py                     # High-throughput direct offline vLLM runner
 │   ├── main.py                                   # Dual-backend runner (OpenAI & Ollama APIs)
 │   ├── test_sample.py                            # Smoke test script (10 benchmark papers)
-│   ├── README.md                                 # Cluster user guide (SSH, SCP, Slurm commands)
+│   ├── sbatch_run_rtx6000.sh                     # Slurm batch job script for DAU cluster
+│   ├── sbatch_vllm_server.sh                     # Slurm script for launching vLLM server
+│   ├── README.md                                 # Full execution guides (Lightning AI & DAU)
 │   │
 │   ├── compare/
 │   │   ├── compare_utils.py                      # Text & DOI normalization utilities
@@ -47,58 +48,36 @@ minor-project/
 
 ---
 
-## 3. High-Throughput Execution Architecture
-
-To maximize the compute efficiency of the 96GB RTX PRO 6000 Blackwell GPU, we support two deployment modes:
+## 3. Execution on Lightning AI with H200 & tmux
 
 ```mermaid
 flowchart TD
-    A["Slurm Submission (sbatch_run_rtx6000.sh)"] --> B["Compute Node: GPUNODE-1<br/>(rtx6000-fullgpu, 96GB VRAM)"]
-    B --> C["vLLM Engine (vllm_offline_batch.py)<br/>PagedAttention & Continuous Batching"]
-    C --> D["Chunked Generation (500 papers/chunk)"]
-    D --> E["Checkpoint Writer (every 50 records)<br/>results_qwen3_next_80b.csv"]
-    E --> F["Automated Comparison & Audit<br/>(compare/ and audit_eval/)"]
+    A["Create Studio on Lightning AI<br/>(1x NVIDIA H200 141GB)"] --> B["Clone Repository<br/>(git clone ... && cd minor-project/qiwi)"]
+    B --> C["Start Background Session<br/>(tmux new -s qiwi)"]
+    C --> D["Execute Runner<br/>(bash run_lightning_h200.sh)"]
+    D --> E["vLLM Batch Screening<br/>(12,236 papers with max-model-len 8192)"]
+    E --> F["Safe Detach: Ctrl+B then D<br/>(Close laptop / browser)"]
+    F --> G["Re-attach anytime: tmux attach -t qiwi<br/>(Monitor progress via vllm_batch.log)"]
+    G --> H["Automated Post-Screening<br/>(4-Way Model Comparison & Ground-Truth Audit)"]
 ```
 
-### Mode 1: High-Throughput vLLM Offline Batch (Recommended for HPC)
-* Script: [`qiwi/vllm_offline_batch.py`](file:///Users/ap4320861gmail.com/Library/Mobile%20Documents/com~apple~CloudDocs/minor-project/qiwi/vllm_offline_batch.py)
-* Directly instantiates `vllm.LLM` on the GPU node.
-* Uses PagedAttention with zero HTTP network overhead to process hundreds of papers concurrently.
-* **Estimated Runtime**: ~10–20 minutes for all 12,236 papers on a single 96GB Blackwell GPU.
-
-### Mode 2: Client-Server API Mode
-* Script: [`qiwi/sbatch_vllm_server.sh`](file:///Users/ap4320861gmail.com/Library/Mobile%20Documents/com~apple~CloudDocs/minor-project/qiwi/sbatch_vllm_server.sh) + [`qiwi/main.py`](file:///Users/ap4320861gmail.com/Library/Mobile%20Documents/com~apple~CloudDocs/minor-project/qiwi/main.py)
-* Starts a standard OpenAI-compatible API server on port 8000, queried asynchronously via Python.
+### Key Technical Optimizations for H200 & vLLM:
+* **`--tensor-parallel-size 1`**: The H200's 141GB VRAM comfortably fits the 80B MoE weights without multi-GPU sharding overhead.
+* **`--max-model-len 8192`**: Overrides the model's native 262k token context window during engine initialization to avoid massive KV-cache preallocation out-of-memory errors.
+* **`--gpu-memory-utilization 0.90`**: Leaves ample headroom (~14GB) for CUDA kernels and peak activation spikes while dedicating >120GB to KV cache for massive batch concurrency.
+* **`--chunk-size 500`**: Streams 500 papers at a time to vLLM's scheduler, saving partial progress every 50 records to `results_qwen3_next_80b.csv`.
 
 ---
 
-## 4. Execution Workflow on DAU HPC Cluster
+## 4. Verification & Validation Protocol
 
-### Step 1: Copy Code to Master Node
-```bash
-scp -r qiwi gpt-oss-120b_pipeline/input.csv username@10.100.71.161:~/minor-project/
-```
-
-### Step 2: SSH into Master Node
-```bash
-ssh username@10.100.71.161
-cd ~/minor-project/qiwi
-ln -sf ../input.csv input.csv
-```
-
-### Step 3: Submit the Slurm Job
-```bash
-sbatch sbatch_run_rtx6000.sh
-```
-
-### Step 4: Monitor Output
-```bash
-squeue
-tail -f qwen3_screening_*.out
-```
-
-### Step 5: Post-Processing & Benchmarking
-```bash
-python compare/build_qwen_alignment_summary.py
-python audit_eval/evaluate_ground_truth.py
-```
+1. **Pre-flight Smoke Test**:
+   ```bash
+   python test_sample.py --backend openai --model Qwen/Qwen3-Next-80B-A3B-Instruct
+   ```
+2. **Deterministic Output Guarantee**:
+   All inference strictly enforces `temperature=0.0` with `top_p=1.0` to guarantee reproducible classification.
+3. **Multi-Model Agreement Comparison**:
+   Automatic generation of Cohen's Kappa against `gpt-oss-120b`, `llama3.3`, and `jev`.
+4. **False Negative Rate (FNR) Benchmark**:
+   Automatic validation against the 600 human-audited exclusions (`corset_FN.csv`) to benchmark sensitivity against Jev (1.17%) and Llama 3.3 (2.00%).

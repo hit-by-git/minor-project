@@ -99,3 +99,4 @@ echo "  Logs:         ${SCRIPT_DIR}/vllm_batch.log"
 echo "  Alignment:    ${SCRIPT_DIR}/compare/QWEN3_MULTI_MODEL_ALIGNMENT_REPORT.md"
 echo "  Audit Report: ${SCRIPT_DIR}/audit_eval/audit_metrics_summary.txt"
 echo "======================================================================"
+
