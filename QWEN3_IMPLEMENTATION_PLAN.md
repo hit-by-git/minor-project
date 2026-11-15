@@ -2,19 +2,21 @@
 
 ## 1. Executive Summary & Hardware Profiles
 
-This implementation plan establishes the deployment and execution of **`Qwen3-Next-80B`** (`Qwen/Qwen3-Next-80B-A3B-Instruct`, MoE 80B total / ~3B active parameters) across two high-performance compute environments:
+This implementation plan establishes the deployment and execution of **`Qwen3-Next-80B`** (`Qwen/Qwen3-Next-80B-A3B-Instruct`, MoE 80B total / ~3B active parameters) across three high-performance compute environments:
 
-1. **Lightning AI (Primary Target)**:
+1. **Modal (Serverless Cloud - Most Cost-Effective & Fastest)**:
    * **GPU**: **1x NVIDIA H200 SXM (141GB HBM3e VRAM, 4.8 TB/s memory bandwidth)**
-   * **Execution Environment**: Cloud Studio with persistent **`tmux`** session.
-   * **Throughput Advantage**: Massive 141GB VRAM easily fits the full model with native BF16/FP8 weights, while 4.8 TB/s memory bandwidth and 3B active parameters allow continuous PagedAttention batching at hundreds of tokens/sec.
-   * **Session Resilience**: Running inside `tmux` allows closing laptops, disconnecting network connections, and shutting browser tabs without interrupting the 12,236-paper screening process.
+   * **Billing**: Strictly per-second ($0.001261/sec ≈ $4.54/hr).
+   * **$30 Credit Utilization**: Screening all 12,236 papers takes only ~10–20 minutes of compute time with vLLM PagedAttention continuous batching, consuming **~$1.50 to $3.00 total** (<10% of the $30 free credit).
+   * **Zero Idle Billing**: Container terminates immediately when done; results stream straight back to your local machine.
 
-2. **Dhirubhai Ambani University (DAU) HPC Cluster (Alternative Target)**:
-   * **Target Node**: `GPUNODE-1` (Tyrone Camarero RDA200A2G-424)
-   * **GPU**: **NVIDIA RTX PRO 6000 Blackwell Server Edition (96GB VRAM each, Qty: 2)**
-   * **Slurm Partition**: **`rtx6000-fullgpu`** (`--gres=gpu:rtx_pro:1` or `2`)
-   * **Master Node IP**: `10.100.71.161` (Login via SSH)
+2. **Lightning AI (Persistent Cloud Studio)**:
+   * **GPU**: **1x NVIDIA H200 SXM (141GB VRAM)**
+   * **Execution**: Cloud Studio with persistent **`tmux`** session (`bash run_lightning_h200.sh`).
+
+3. **Dhirubhai Ambani University (DAU) HPC Cluster**:
+   * **GPU**: **2x NVIDIA RTX PRO 6000 Blackwell Server Edition (96GB VRAM each)**
+   * **Slurm Partition**: **`rtx6000-fullgpu`** (`sbatch sbatch_run_rtx6000.sh`).
 
 ---
 
@@ -27,14 +29,15 @@ minor-project/
 ├── qiwi/
 │   ├── input.csv                                 # Symlink/fallback to 12,236 paper corpus
 │   ├── prompt_cot.txt                            # Verified Chain-of-Thought prompt template
-│   ├── requirements.txt                          # Python dependencies (vLLM, PyTorch, etc.)
+│   ├── requirements.txt                          # Python dependencies (vLLM, Modal, PyTorch, etc.)
+│   ├── modal_batch_screening.py                  # Serverless Modal runner for H200 ($30 free tier)
 │   ├── run_lightning_h200.sh                     # Automated runner for Lightning AI (H200 + tmux)
 │   ├── vllm_offline_batch.py                     # High-throughput direct offline vLLM runner
 │   ├── main.py                                   # Dual-backend runner (OpenAI & Ollama APIs)
 │   ├── test_sample.py                            # Smoke test script (10 benchmark papers)
 │   ├── sbatch_run_rtx6000.sh                     # Slurm batch job script for DAU cluster
 │   ├── sbatch_vllm_server.sh                     # Slurm script for launching vLLM server
-│   ├── README.md                                 # Full execution guides (Lightning AI & DAU)
+│   ├── README.md                                 # Full execution guides (Modal, Lightning AI & DAU)
 │   │
 │   ├── compare/
 │   │   ├── compare_utils.py                      # Text & DOI normalization utilities
@@ -48,32 +51,26 @@ minor-project/
 
 ---
 
-## 3. Execution on Lightning AI with H200 & tmux
+## 3. Serverless Modal Execution Workflow
 
 ```mermaid
 flowchart TD
-    A["Create Studio on Lightning AI<br/>(1x NVIDIA H200 141GB)"] --> B["Clone Repository<br/>(git clone ... && cd minor-project/qiwi)"]
-    B --> C["Start Background Session<br/>(tmux new -s qiwi)"]
-    C --> D["Execute Runner<br/>(bash run_lightning_h200.sh)"]
-    D --> E["vLLM Batch Screening<br/>(12,236 papers with max-model-len 8192)"]
-    E --> F["Safe Detach: Ctrl+B then D<br/>(Close laptop / browser)"]
-    F --> G["Re-attach anytime: tmux attach -t qiwi<br/>(Monitor progress via vllm_batch.log)"]
-    G --> H["Automated Post-Screening<br/>(4-Way Model Comparison & Ground-Truth Audit)"]
+    A["modal setup<br/>(Link your free $30 credit)"] --> B["modal run qiwi/modal_batch_screening.py<br/>(--detach or live terminal stream)"]
+    B --> C["Modal Cloud spins up H200 Container<br/>(141GB HBM3e VRAM, billed $0.00126/sec)"]
+    C --> D["vLLM Engine loads Qwen3-Next-80B<br/>(Mounted HF cache volume, max-model-len 8192)"]
+    D --> E["PagedAttention Continuous Batching<br/>(12,236 papers screened in ~10-20 min)"]
+    E --> F["Automatic Stream back to Mac<br/>(Saved to qiwi/results_qwen3_next_80b.csv)"]
+    F --> G["GPU Container Shuts Down<br/>(Billing terminates immediately: ~$2 spent)"]
+    G --> H["Automated Post-Screening Evaluation<br/>(4-Way Model Comparison & Ground-Truth Audit)"]
 ```
-
-### Key Technical Optimizations for H200 & vLLM:
-* **`--tensor-parallel-size 1`**: The H200's 141GB VRAM comfortably fits the 80B MoE weights without multi-GPU sharding overhead.
-* **`--max-model-len 8192`**: Overrides the model's native 262k token context window during engine initialization to avoid massive KV-cache preallocation out-of-memory errors.
-* **`--gpu-memory-utilization 0.90`**: Leaves ample headroom (~14GB) for CUDA kernels and peak activation spikes while dedicating >120GB to KV cache for massive batch concurrency.
-* **`--chunk-size 500`**: Streams 500 papers at a time to vLLM's scheduler, saving partial progress every 50 records to `results_qwen3_next_80b.csv`.
 
 ---
 
 ## 4. Verification & Validation Protocol
 
-1. **Pre-flight Smoke Test**:
+1. **Pre-flight Smoke Test on Modal**:
    ```bash
-   python test_sample.py --backend openai --model Qwen/Qwen3-Next-80B-A3B-Instruct
+   modal run qiwi/modal_batch_screening.py --max-papers 10
    ```
 2. **Deterministic Output Guarantee**:
    All inference strictly enforces `temperature=0.0` with `top_p=1.0` to guarantee reproducible classification.

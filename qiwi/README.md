@@ -1,66 +1,79 @@
 # Qwen3-Next-80B Pipeline (`qiwi`)
 
-This directory (`qiwi/`) contains the complete automated screening pipeline for **Qwen3-Next-80B** (`Qwen/Qwen3-Next-80B-A3B-Instruct`), supporting both **Lightning AI (NVIDIA H200 GPU)** and the **DAU HPC Cluster (RTX PRO 6000 96GB)**.
+This directory (`qiwi/`) contains the complete automated screening pipeline for **Qwen3-Next-80B** (`Qwen/Qwen3-Next-80B-A3B-Instruct`), supporting **Modal (Serverless H200)**, **Lightning AI (Persistent H200 + `tmux`)**, and the **DAU HPC Cluster (RTX PRO 6000 96GB)**.
 
 ---
 
-## ⚡ Option 1: Running on Lightning AI (NVIDIA H200 GPU + `tmux`) [Recommended]
+## 🚀 Option 1: Running on Modal (Serverless H200 with $30 Free Credit) [Easiest & Cheapest]
 
-Lightning AI provides cloud access to **NVIDIA H200 SXM (141GB HBM3e VRAM, 4.8 TB/s memory bandwidth)**. Thanks to the massive memory and high bandwidth, the entire Qwen3-Next-80B model loads onto a single H200 (`tensor_parallel_size=1`) and achieves maximum throughput via vLLM PagedAttention continuous batching.
+Modal is a serverless cloud compute platform that charges **strictly per second**. Because `Qwen3-Next-80B` is an MoE architecture with only ~3B active parameters per token, batch inference with vLLM processes **20 to 50+ papers per second** on an **NVIDIA H200 SXM (141GB VRAM)**.
 
-Running inside **`tmux`** ensures that your screening process runs in the background on the cloud instance. You can safely close your laptop or browser tabs without terminating the job.
+### Why Modal is Ideal for Your $30 Free Credit:
+* **Cost**: Modal bills the H200 at ~$4.54/hour ($0.001261/sec). Screening all 12,236 papers takes only **~10–20 minutes of compute time**, costing **~$1.50 to $3.00 total** — using less than 10% of your $30 credit!
+* **Zero Idle Risk**: The container spins up on demand, screens the dataset, streams results directly to your local machine, and **terminates immediately**. You never get charged for idle time.
+* **No `tmux` or Cloud Setup Required**: Run it with one command from your local Mac terminal. You can even run `--detach` and track execution live on the web dashboard.
+
+### Step-by-Step Instructions:
+
+#### 1. Authenticate Modal CLI (One-time)
+From your local terminal:
+```bash
+pip install modal
+modal setup
+```
+*(This opens a browser tab to log into your Modal account and link your \$30 free credit).*
+
+#### 2. (Optional) Run a 10-Paper Smoke Test (~30 seconds, cost: < $0.05)
+```bash
+modal run qiwi/modal_batch_screening.py --max-papers 10
+```
+
+#### 3. Run the Full 12,236 Paper Screening Job
+```bash
+modal run qiwi/modal_batch_screening.py
+```
+*(Optional: add `--detach` if you want the job to continue on Modal's cloud even if you turn off your Mac: `modal run --detach qiwi/modal_batch_screening.py`)*
+
+#### 4. Automatic Completion
+Once complete:
+* The screened results are saved directly to `qiwi/results_qwen3_next_80b.csv`.
+* Downstream multi-model alignment (`qiwi/compare/`) and ground-truth audit benchmarks (`qiwi/audit_eval/`) execute automatically.
+* The GPU container shuts down instantly.
+
+---
+
+## ⚡ Option 2: Running on Lightning AI (NVIDIA H200 GPU + `tmux`)
+
+If you prefer a persistent cloud workstation:
 
 ### Step 1: Create or Open a Lightning AI Studio
-1. Log into your [Lightning AI](https://lightning.ai/) account.
-2. Create a new Studio or open an existing one.
-3. In the Studio hardware selector (top right or settings), select **1x NVIDIA H200 (141 GB)**.
-4. **Important**: Under Studio settings, set **Auto-sleep** to **Never** (or a generous timeout) so the studio does not suspend while screening.
+1. Open [Lightning AI](https://lightning.ai/) and select **1x NVIDIA H200 (141 GB)**.
+2. In Studio settings, set **Auto-sleep** to **Never** so the studio does not suspend while screening.
 
 ### Step 2: Clone the Repository & Enter `qiwi/`
-In the Lightning AI terminal:
 ```bash
 git clone https://github.com/hit-by-git/minor-project.git
 cd minor-project/qiwi
 ```
 
 ### Step 3: Start a Persistent `tmux` Session
-Start a named tmux session:
 ```bash
 tmux new -s qiwi
 ```
 
 ### Step 4: Run the Automated Launcher
-Inside the `tmux` session, execute:
 ```bash
 bash run_lightning_h200.sh
 ```
-This script will:
-1. Verify the H200 GPU with `nvidia-smi`.
-2. Install all dependencies from `requirements.txt` (including `vllm`).
-3. Automatically locate the dataset (`input.csv`).
-4. Execute `vllm_offline_batch.py` with `--max-model-len 8192` and chunked continuous batching.
-5. Checkpoint results every 500 papers into `results_qwen3_next_80b.csv`.
-6. Automatically run multi-model alignment (`compare/build_qwen_alignment_summary.py`) and ground-truth audit benchmarks (`audit_eval/evaluate_ground_truth.py`) upon completion.
 
 ### Step 5: Detach from `tmux` (Safe to Close Browser/Laptop)
-To detach from the tmux session while leaving the pipeline running:
 * Press **`Ctrl + B`**, release both keys, then press **`D`**.
-* You will see: `[detached (from session qiwi)]`.
-* You can now safely close your browser tab, turn off your laptop, or work on other things.
-
-### Step 6: Re-attaching & Checking Progress
-To re-attach to the running session at any time:
-```bash
-tmux attach -t qiwi
-```
-To monitor live logs without attaching to tmux:
-```bash
-tail -f minor-project/qiwi/vllm_batch.log
-```
+* Re-attach anytime with: `tmux attach -t qiwi`.
+* Monitor live logs: `tail -f minor-project/qiwi/vllm_batch.log`.
 
 ---
 
-## 🏛️ Option 2: Running on DAU HPC Cluster (Slurm + RTX PRO 6000 96GB)
+## 🏛️ Option 3: Running on DAU HPC Cluster (Slurm + RTX PRO 6000 96GB)
 
 If using the Dhirubhai Ambani University (DAU) HPC Cluster:
 
