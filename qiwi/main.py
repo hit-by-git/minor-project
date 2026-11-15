@@ -277,9 +277,14 @@ async def process_single_row(
 # ============================================================================
 
 async def run_pipeline(args):
-    if not Config.INPUT_CSV.exists():
-        logger.error(f"Input file not found: {Config.INPUT_CSV}")
-        sys.exit(1)
+    input_path = Path(args.input) if hasattr(args, "input") and args.input else Config.INPUT_CSV
+    if not input_path.exists():
+        fallback = Config.CURRENT_DIR.parent / "gpt-oss-120b_pipeline" / "input.csv"
+        if fallback.exists():
+            input_path = fallback
+        else:
+            logger.error(f"Input file not found at {input_path} or {fallback}")
+            sys.exit(1)
     if not Config.PROMPT_FILE.exists():
         logger.error(f"Prompt template file not found: {Config.PROMPT_FILE}")
         sys.exit(1)
@@ -287,7 +292,7 @@ async def run_pipeline(args):
     with open(Config.PROMPT_FILE, "r", encoding="utf-8") as f:
         prompt_template = f.read()
 
-    df_full = pd.read_csv(Config.INPUT_CSV)
+    df_full = pd.read_csv(input_path)
     missing = [c for c in Config.REQUIRED_COLUMNS if c not in df_full.columns]
     if missing:
         raise ValueError(f"Input CSV is missing required columns: {missing}")

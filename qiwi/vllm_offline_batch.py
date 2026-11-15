@@ -207,11 +207,16 @@ def save_results(results: list[dict], input_columns: list[str], output_path: Pat
 
 def main():
     parser = argparse.ArgumentParser(description="vLLM Offline Batch Screening for Qwen3-Next-80B on DAU HPC")
-    parser.add_argument("--model", type=str, default=Config.DEFAULT_MODEL, help="Model name or local path on /apps")
-    parser.add_argument("--tensor-parallel-size", type=int, default=1, choices=[1, 2],
-                        help="Number of GPUs to parallelize across (1 for 1x96GB, 2 for 2x96GB)")
+    parser.add_argument("--input", type=str, default=None, help="Path to input.csv (auto-detected if omitted)")
+    parser.add_argument("--model", type=str, default=Config.DEFAULT_MODEL, help="Model name or local path")
+    parser.add_argument("--tensor-parallel-size", type=int, default=1, choices=[1, 2, 4, 8],
+                        help="Number of GPUs to parallelize across (1 for single H200/RTX6000)")
     parser.add_argument("--gpu-memory-utilization", type=float, default=0.90,
                         help="Fraction of GPU VRAM to allocate to vLLM (default: 0.90)")
+    parser.add_argument("--max-model-len", type=int, default=8192,
+                        help="Maximum context length for KV cache (default: 8192, prevents OOM on 262k models)")
+    parser.add_argument("--dtype", type=str, default="auto", choices=["auto", "bfloat16", "float16"],
+                        help="Data type for model weights and KV cache (default: auto)")
     parser.add_argument("--chunk-size", type=int, default=Config.CHUNK_SIZE,
                         help="Batch chunk size for vLLM generate (default: 500)")
     parser.add_argument("--start", type=int, default=Config.START_INDEX, help="Start row index.")
@@ -224,9 +229,15 @@ def main():
         logger.error("vLLM package is not installed! Run: pip install vllm")
         sys.exit(1)
 
-    if not Config.INPUT_CSV.exists():
-        logger.error(f"Input file not found: {Config.INPUT_CSV}")
-        sys.exit(1)
+    input_path = Path(args.input) if args.input else Config.INPUT_CSV
+    if not input_path.exists():
+        fallback = Config.CURRENT_DIR.parent / "gpt-oss-120b_pipeline" / "input.csv"
+        if fallback.exists():
+            input_path = fallback
+        else:
+            logger.error(f"Input file not found at {input_path} or {fallback}")
+            sys.exit(1)
+
     if not Config.PROMPT_FILE.exists():
         logger.error(f"Prompt template file not found: {Config.PROMPT_FILE}")
         sys.exit(1)
@@ -234,13 +245,13 @@ def main():
     with open(Config.PROMPT_FILE, "r", encoding="utf-8") as f:
         prompt_template = f.read()
 
-    df_full = pd.read_csv(Config.INPUT_CSV)
+    df_full = pd.read_csv(input_path)
     input_columns = list(df_full.columns)
 
     start_idx = max(0, args.start)
     end_idx = min(len(df_full), args.end)
     df_batch = df_full.iloc[start_idx:end_idx].copy()
-    logger.info(f"Loaded dataset: {len(df_full)} papers. Sliced batch [{start_idx}:{end_idx}] ({len(df_batch)} papers).")
+    logger.info(f"Loaded dataset: {len(df_full)} papers from {input_path}. Sliced batch [{start_idx}:{end_idx}] ({len(df_batch)} papers).")
 
     output_path = Path(args.output)
     processed_records = []
@@ -267,11 +278,15 @@ def main():
     logger.info(f"Initializing vLLM Engine with model: {args.model}")
     logger.info(f"  Tensor Parallel Size: {args.tensor_parallel_size} GPU(s)")
     logger.info(f"  GPU Memory Utilization: {args.gpu_memory_utilization}")
+    logger.info(f"  Max Model Context Len: {args.max_model_len}")
+    logger.info(f"  Data Type (dtype): {args.dtype}")
 
     llm = LLM(
         model=args.model,
         tensor_parallel_size=args.tensor_parallel_size,
         gpu_memory_utilization=args.gpu_memory_utilization,
+        max_model_len=args.max_model_len,
+        dtype=args.dtype,
         trust_remote_code=True,
     )
 
