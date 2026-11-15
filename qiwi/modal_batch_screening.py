@@ -8,8 +8,8 @@ Architecture Notes:
 - Qwen3-Next-80B in unquantized 16-bit BF16 is ~160GB, exceeding a single 141GB GPU.
 - The official FP8 checkpoint (`Qwen/Qwen3-Next-80B-A3B-Instruct-FP8`) is ~80GB,
   fitting comfortably into a single H200 (141GB) with ~60GB free VRAM for KV cache.
-- To run unquantized BF16, set MODEL_ID="Qwen/Qwen3-Next-80B-A3B-Instruct", which
-  automatically switches to 2x H200 (`H200:2`) with tensor_parallel_size=2.
+- Base image uses nvidia/cuda:12.8.0-devel-ubuntu22.04 with nvcc and ninja installed,
+  and VLLM_GDN_PREFILL_BACKEND=triton to eliminate JIT compilation bottlenecks.
 """
 
 import os
@@ -45,20 +45,24 @@ app = modal.App(APP_NAME)
 model_cache_volume = modal.Volume.from_name("qwen3-model-cache", create_if_missing=True)
 results_volume = modal.Volume.from_name("qiwi-results", create_if_missing=True)
 
-# Container image with vLLM and CUDA dependencies
+# Container image with full CUDA 12.8 Devel (includes nvcc & ninja) + vLLM
 vllm_image = (
-    modal.Image.debian_slim(python_version="3.11")
+    modal.Image.from_registry("nvidia/cuda:12.8.0-devel-ubuntu22.04", add_python="3.11")
     .pip_install(
         "vllm>=0.7.0",
         "torch>=2.4.0",
         "transformers>=4.48.0",
         "pandas>=2.2.0",
         "tqdm>=4.66.0",
+        "ninja",
     )
     .env({
         "HF_HOME": "/cache",
+        "CUDA_HOME": "/usr/local/cuda",
+        "PATH": "/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
         "PYTORCH_CUDA_ALLOC_CONF": "expandable_segments:True",
         "VLLM_ALLOW_LONG_MAX_MODEL_LEN": "1",
+        "VLLM_GDN_PREFILL_BACKEND": "triton",
     })
 )
 
@@ -203,6 +207,12 @@ class Qwen3BatchEngine:
         from vllm import LLM, SamplingParams
 
         os.environ["HF_HOME"] = "/cache"
+        os.environ["CUDA_HOME"] = "/usr/local/cuda"
+        os.environ["PATH"] = f"/usr/local/cuda/bin:{os.environ.get('PATH', '')}"
+        os.environ["VLLM_GDN_PREFILL_BACKEND"] = "triton"
+        os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "expandable_segments:True"
+        os.environ["VLLM_ALLOW_LONG_MAX_MODEL_LEN"] = "1"
+
         print(f"🚀 Initializing vLLM Engine on {GPU_TYPE} (TP={TENSOR_PARALLEL_SIZE}) for {MODEL_ID}...")
 
         # Explicit max_model_len prevents pre-allocating KV cache for 262k context
@@ -223,21 +233,27 @@ class Qwen3BatchEngine:
     @modal.method()
     def screen_batch(self, chunk_rows: list[dict], prompt_template: str) -> list[dict]:
         """Runs offline continuous batch inference over a list of paper rows."""
-        prompts = [format_prompt(prompt_template, r) for r in chunk_rows]
-        outputs = self.llm.generate(prompts, self.sampling_params)
+        import traceback
 
-        results = []
-        for row, out in zip(chunk_rows, outputs):
-            raw_text = out.outputs[0].text if out.outputs else ""
-            answer, explanation = parse_llm_response(raw_text, row)
-            res = dict(row)
-            res["model_answer"] = answer
-            res["model_explanation"] = explanation
-            res["version"] = f"qwen3-next-80b-modal-{GPU_TYPE.lower()}"
-            res["raw_llm_output"] = raw_text
-            results.append(res)
+        try:
+            prompts = [format_prompt(prompt_template, r) for r in chunk_rows]
+            outputs = self.llm.generate(prompts, self.sampling_params)
 
-        return results
+            results = []
+            for row, out in zip(chunk_rows, outputs):
+                raw_text = out.outputs[0].text if out.outputs else ""
+                answer, explanation = parse_llm_response(raw_text, row)
+                res = dict(row)
+                res["model_answer"] = answer
+                res["model_explanation"] = explanation
+                res["version"] = f"qwen3-next-80b-modal-{GPU_TYPE.lower()}"
+                res["raw_llm_output"] = raw_text
+                results.append(res)
+
+            return results
+        except Exception as e:
+            tb = traceback.format_exc()
+            raise RuntimeError(f"Error during vLLM batch generation: {e}\n{tb}")
 
 
 # ============================================================================
