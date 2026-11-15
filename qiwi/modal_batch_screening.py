@@ -178,9 +178,14 @@ def parse_llm_response(raw_output: str, row: dict) -> tuple[str, str]:
     return "Error", f"Could not parse binary decision from: {raw_output[:100]}"
 
 
-def format_prompt(template: str, row: dict) -> str:
+def format_prompt(template: str, row: dict, max_abstract_chars: int = 12000) -> str:
+    row_copy = dict(row)
+    if "abstract" in row_copy and isinstance(row_copy["abstract"], str):
+        if len(row_copy["abstract"]) > max_abstract_chars:
+            row_copy["abstract"] = row_copy["abstract"][:max_abstract_chars] + "... [truncated]"
+
     formatted = template
-    for key, val in row.items():
+    for key, val in row_copy.items():
         placeholder = f"{{row['{key}']}}"
         val_str = str(val) if val is not None and str(val) != "nan" else ""
         formatted = formatted.replace(placeholder, val_str)

@@ -152,11 +152,13 @@ def build_yes_explanation(row: pd.Series) -> str:
 # PROMPT FORMATTING & PARSING
 # ============================================================================
 
-def format_prompt(template: str, row: pd.Series) -> str:
+def format_prompt(template: str, row: pd.Series, max_abstract_chars: int = 12000) -> str:
     formatted = template
     for col in row.index:
         placeholder = f"{{row['{col}']}}"
         val = str(row[col]) if pd.notna(row[col]) else ""
+        if col == "abstract" and len(val) > max_abstract_chars:
+            val = val[:max_abstract_chars] + "... [truncated]"
         formatted = formatted.replace(placeholder, val)
     return formatted
 
