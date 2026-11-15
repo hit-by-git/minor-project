@@ -1,0 +1,10 @@
+# Requirements for Qwen3-Next-80B on DAU HPC Cluster (RTX PRO 6000 96GB)
+openai>=1.50.0
+vllm>=0.7.0
+transformers>=4.48.0
+accelerate>=1.2.0
+torch>=2.4.0
+pandas>=2.2.0
+tqdm>=4.66.0
+tiktoken>=0.8.0
+

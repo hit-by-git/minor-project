@@ -122,6 +122,34 @@ minor-project/
 │                   ├── distiluse-base-multilingual-cased-v1/
 │                   └── paraphrase-MiniLM-L6-v2/
 │
+├── jev_pipeline/                                   # Pipeline implementation using TypeSafe Jev model
+│   ├── main.py                                     # Jev batch screening runner (async concurrency)
+│   ├── results_jev.csv                             # Full screening results with calibrated probabilities
+│   ├── prompt_criteria_jev.txt                     # Jev criteria rubric
+│   ├── test_sample.py                              # Smoke testing script
+│   ├── compare/                                    # 3-Way inter-model comparison & consensus datasets
+│   │   ├── build_3way_alignment_summary.py
+│   │   ├── run_comprehensive_comparison.py
+│   │   ├── consensus_3way_yes.csv
+│   │   └── COMPREHENSIVE_INTERMODEL_COMPARISON.md
+│   └── audit_eval/                                 # Ground-truth audit benchmark (600 samples)
+│       ├── evaluate_ground_truth.py
+│       └── audit_metrics_summary.txt
+│
+├── qiwi/                                           # Pipeline implementation for Qwen3-Next-80B (MoE 80B/3B)
+│   ├── sbatch_run_rtx6000.sh                       # Slurm batch job script for DAU HPC (RTX PRO 6000 96GB)
+│   ├── sbatch_vllm_server.sh                       # Slurm script for vLLM OpenAI-compatible server
+│   ├── vllm_offline_batch.py                       # High-throughput vLLM continuous batching runner
+│   ├── main.py                                     # Dual-backend screening script (OpenAI & Ollama APIs)
+│   ├── test_sample.py                              # Smoke testing script
+│   ├── prompt_cot.txt                              # CoT prompt template
+│   ├── requirements.txt                            # Cluster dependencies
+│   ├── QWEN3_IMPLEMENTATION_PLAN.md                # HPC architecture & execution plan
+│   ├── compare/                                    # 4-way multi-model alignment
+│   └── audit_eval/                                 # Ground-truth audit benchmark
+│
+├── QWEN3_IMPLEMENTATION_PLAN.md                    # Implementation plan for Qwen3-Next-80B on DAU cluster
+├── DAU_user_Manual.pdf                             # Dhirubhai Ambani University HPC cluster manual
 └── root_file_structure.tex                         # LaTeX document of project structure
 ```
 
