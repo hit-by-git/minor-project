@@ -173,29 +173,37 @@ def format_prompt(template: str, row: pd.Series) -> str:
 
 def parse_llm_response(raw_output: str, row: pd.Series) -> tuple[str, str]:
     """Parses Yes/No decision and explanation from LLM output."""
-    cleaned = raw_output.strip()
-    first_line = cleaned.split("\n")[0].strip().lower()
+    if not raw_output or not str(raw_output).strip():
+        return "Error", "Empty response from LLM."
 
-    if first_line.startswith("yes"):
-        answer = "Yes"
-        # Extract remaining lines as explanation
-        parts = cleaned.split("\n", 1)
-        explanation = parts[1].strip() if len(parts) > 1 else ""
-        if len(explanation.split()) < 8:
-            explanation = build_yes_explanation(row)
-        return answer, explanation
-    elif first_line.startswith("no"):
+    text = str(raw_output).strip()
+    lines = [l.strip() for l in text.split("\n") if l.strip()]
+
+    # Check line by line (skipping prompt echo lines)
+    for i, line in enumerate(lines):
+        clean = line.lower()
+        if (
+            clean.startswith("do not output")
+            or clean.startswith("note:")
+            or clean.startswith("instruction:")
+            or clean.startswith("output format:")
+        ):
+            continue
+        if clean.startswith("yes"):
+            exp = "\n".join(lines[i + 1 :]).strip() or build_yes_explanation(row)
+            return "Yes", exp
+        elif clean.startswith("no"):
+            exp = "\n".join(lines[i + 1 :]).strip()
+            return "No", exp
+
+    # Fallback search
+    norm = text.lower()
+    if "decision: yes" in norm or "answer: yes" in norm:
+        return "Yes", build_yes_explanation(row)
+    if "decision: no" in norm or "answer: no" in norm:
         return "No", ""
-    else:
-        # Fallback check inside response text
-        match_yes = re.search(r"\b(yes)\b", cleaned[:50], re.IGNORECASE)
-        match_no = re.search(r"\b(no)\b", cleaned[:50], re.IGNORECASE)
-        if match_yes and not match_no:
-            explanation = build_yes_explanation(row)
-            return "Yes", explanation
-        elif match_no and not match_yes:
-            return "No", ""
-        return "Error", f"Unrecognized format: {cleaned[:100]}"
+
+    return "Error", f"Unrecognized format: {raw_output[:100]}"
 
 
 # ============================================================================

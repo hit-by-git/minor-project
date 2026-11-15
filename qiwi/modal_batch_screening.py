@@ -127,11 +127,12 @@ def build_yes_explanation(row: dict) -> str:
 
 
 def parse_llm_response(raw_output: str, row: dict) -> tuple[str, str]:
-    if not raw_output or not raw_output.strip():
+    if not raw_output or not str(raw_output).strip():
         return "Error", "Empty response from LLM."
 
-    text = raw_output.strip()
+    text = str(raw_output).strip()
     norm = text.lower()
+    lines = [l.strip() for l in text.split("\n") if l.strip()]
 
     # Format 1: JSON output
     json_match = re.search(r"\{[^{}]*\}", text, re.DOTALL)
@@ -151,25 +152,22 @@ def parse_llm_response(raw_output: str, row: dict) -> tuple[str, str]:
         except Exception:
             pass
 
-    # Format 2: Line by line
-    first_line = norm.split("\n")[0].strip()
-    if first_line.startswith("yes"):
-        exp = ""
-        for line in text.split("\n")[1:]:
-            cleaned = line.strip()
-            if cleaned and not cleaned.lower().startswith("decision:"):
-                exp = cleaned
-                break
-        return "Yes", exp if exp else build_yes_explanation(row)
-
-    if first_line.startswith("no"):
-        exp = ""
-        for line in text.split("\n")[1:]:
-            cleaned = line.strip()
-            if cleaned and not cleaned.lower().startswith("decision:"):
-                exp = cleaned
-                break
-        return "No", exp if exp else "Paper does not satisfy inclusion criteria."
+    # Format 2: Line by line (skipping prompt echo lines)
+    for i, line in enumerate(lines):
+        clean = line.lower()
+        if (
+            clean.startswith("do not output")
+            or clean.startswith("note:")
+            or clean.startswith("instruction:")
+            or clean.startswith("output format:")
+        ):
+            continue
+        if clean.startswith("yes"):
+            exp = "\n".join(lines[i + 1 :]).strip() or build_yes_explanation(row)
+            return "Yes", exp
+        elif clean.startswith("no"):
+            exp = "\n".join(lines[i + 1 :]).strip() or "Paper does not satisfy inclusion criteria."
+            return "No", exp
 
     # Format 3: Substring search
     if "decision: yes" in norm or "answer: yes" in norm:
