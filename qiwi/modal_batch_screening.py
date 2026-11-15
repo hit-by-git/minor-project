@@ -25,6 +25,7 @@ import modal
 
 APP_NAME = "qiwi-qwen3-next-screening"
 MODEL_ID = "Qwen/Qwen3-Next-80B-A3B-Instruct"
+GPU_TYPE = os.environ.get("MODAL_GPU", "H200") # "H200", "H100", or "A100-80GB"
 
 app = modal.App(APP_NAME)
 
@@ -177,7 +178,7 @@ def format_prompt(template: str, row: dict) -> str:
 # ============================================================================
 
 @app.cls(
-    gpu=modal.gpu.H200(count=1), # 1x NVIDIA H200 SXM (141GB VRAM, ~$4.54/hr, billed per-sec)
+    gpu=GPU_TYPE, # Accepts string: "H200", "H100", or "A100-80GB"
     image=vllm_image,
     volumes={"/cache": model_cache_volume, "/results": results_volume},
     timeout=3600, # 1 hour max runtime
@@ -190,7 +191,7 @@ class Qwen3BatchEngine:
         from vllm import LLM, SamplingParams
 
         os.environ["HF_HOME"] = "/cache"
-        print(f"🚀 Initializing vLLM Engine on H200 (141GB VRAM) for {MODEL_ID}...")
+        print(f"🚀 Initializing vLLM Engine on {GPU_TYPE} for {MODEL_ID}...")
 
         # Explicit max_model_len prevents pre-allocating KV cache for 262k context
         self.llm = LLM(
@@ -205,7 +206,7 @@ class Qwen3BatchEngine:
             temperature=0.0,
             max_tokens=512,
         )
-        print("✅ vLLM Engine initialized successfully on H200!")
+        print(f"✅ vLLM Engine initialized successfully on {GPU_TYPE}!")
 
     @modal.method()
     def screen_batch(self, chunk_rows: list[dict], prompt_template: str) -> list[dict]:
@@ -220,7 +221,7 @@ class Qwen3BatchEngine:
             res = dict(row)
             res["model_answer"] = answer
             res["model_explanation"] = explanation
-            res["version"] = "qwen3-next-80b-modal-h200"
+            res["version"] = f"qwen3-next-80b-modal-{GPU_TYPE.lower()}"
             res["raw_llm_output"] = raw_text
             results.append(res)
 
@@ -240,35 +241,59 @@ def main(
 ):
     import pandas as pd
 
-    # Resolve input dataset
-    input_path = Path(input_file)
-    if not input_path.exists():
-        fallback = Path("gpt-oss-120b_pipeline/input.csv")
-        if fallback.exists():
-            input_path = fallback
-        else:
-            print(f"❌ Error: Cannot find input dataset at {input_path} or {fallback}")
-            return
+    # Resolve input dataset robustly
+    candidate_inputs = [
+        Path(input_file),
+        Path("qiwi/input.csv"),
+        Path("input.csv"),
+        Path(__file__).resolve().parent / "input.csv",
+        Path("gpt-oss-120b_pipeline/input.csv"),
+        Path(__file__).resolve().parent.parent / "gpt-oss-120b_pipeline" / "input.csv",
+    ]
+    input_path = None
+    for cand in candidate_inputs:
+        if cand.exists():
+            input_path = cand
+            break
 
-    prompt_path = Path("qiwi/prompt_cot.txt")
-    if not prompt_path.exists():
-        print(f"❌ Error: Cannot find prompt template at {prompt_path}")
+    if input_path is None:
+        print(f"❌ Error: Cannot find input dataset at any of: {[str(c) for c in candidate_inputs]}")
+        return
+
+    # Resolve prompt template
+    candidate_prompts = [
+        Path("qiwi/prompt_cot.txt"),
+        Path("prompt_cot.txt"),
+        Path(__file__).resolve().parent / "prompt_cot.txt",
+    ]
+    prompt_path = None
+    for cand in candidate_prompts:
+        if cand.exists():
+            prompt_path = cand
+            break
+
+    if prompt_path is None:
+        print(f"❌ Error: Cannot find prompt template at any of: {[str(c) for c in candidate_prompts]}")
         return
 
     with open(prompt_path, "r", encoding="utf-8") as f:
         prompt_template = f.read()
 
+    # Resolve output file path
+    out_path = Path(output_file)
+    if not out_path.is_absolute() and not out_path.parent.exists():
+        out_path = Path(__file__).resolve().parent / out_path.name
+
     print("======================================================================")
-    print("  🚀 Launching Qwen3-Next-80B Serverless Screening on Modal (H200)    ")
+    print(f"  🚀 Launching Qwen3-Next-80B Serverless Screening on Modal ({GPU_TYPE})")
     print(f"  Dataset: {input_path}")
-    print(f"  Target Output: {output_file}")
+    print(f"  Target Output: {out_path}")
     print("======================================================================")
 
     df_full = pd.read_csv(input_path).head(max_papers)
     print(f"Loaded {len(df_full)} papers from {input_path}.")
 
     # Check for existing checkpoint to resume
-    out_path = Path(output_file)
     processed_records = []
     processed_ids = set()
     if out_path.exists():
@@ -277,7 +302,7 @@ def main(
             if "id" in prev_df.columns:
                 processed_ids = set(prev_df["id"].dropna().tolist())
                 processed_records = prev_df.to_dict("records")
-                print(f"Resuming: found {len(processed_ids)} already screened papers in {output_file}.")
+                print(f"Resuming: found {len(processed_ids)} already screened papers in {out_path}.")
         except Exception as e:
             print(f"Could not read existing checkpoint: {e}")
 
@@ -296,7 +321,7 @@ def main(
     t_start = time.time()
     for i in range(num_chunks):
         chunk = rows_to_process[i * chunk_size : (i + 1) * chunk_size]
-        print(f"\n[Chunk {i+1}/{num_chunks}] Submitting {len(chunk)} papers to Modal H200...")
+        print(f"\n[Chunk {i+1}/{num_chunks}] Submitting {len(chunk)} papers to Modal {GPU_TYPE}...")
         t0 = time.time()
 
         chunk_results = engine.screen_batch.remote(chunk, prompt_template)
@@ -307,29 +332,37 @@ def main(
         print(f"  ✅ Finished Chunk {i+1} in {elapsed:.1f}s ({speed:.1f} papers/sec). Total progress: {len(processed_records)}/{len(df_full)}")
 
         # Save checkpoint locally
-        pd.DataFrame(processed_records).to_csv(output_file, index=False)
+        pd.DataFrame(processed_records).to_csv(out_path, index=False)
 
     total_time = time.time() - t_start
     print("\n======================================================================")
     print(f"  🎉 All {len(processed_records)} papers screened in {total_time/60:.2f} minutes!")
-    print(f"  Saved locally to: {output_file}")
-    
+    print(f"  Saved locally to: {out_path}")
+
     # Cost Estimation
-    # Modal H200 is ~$4.54/hr ($0.001261/sec)
-    est_cost = (total_time / 3600.0) * 4.54
+    hourly_rate = 4.54 if "H200" in GPU_TYPE else (3.95 if "H100" in GPU_TYPE else 2.50)
+    est_cost = (total_time / 3600.0) * hourly_rate
     print(f"  Estimated Modal Compute Cost: ~${est_cost:.2f} (from your $30 credit)")
     print("======================================================================")
 
-    # Trigger post-processing evaluation scripts if available
+    # Post-processing evaluation
+    root_dir = Path(__file__).resolve().parent.parent
+    compare_dir = Path(__file__).resolve().parent / "compare"
+    audit_dir = Path(__file__).resolve().parent / "audit_eval"
+
+    sys.path.insert(0, str(root_dir))
+    sys.path.insert(0, str(compare_dir))
+    sys.path.insert(0, str(audit_dir))
+
     try:
-        from qiwi.compare.build_qwen_alignment_summary import main as run_alignment
+        from compare.build_qwen_alignment_summary import main as run_alignment
         print("\n--- Running 4-Way Multi-Model Alignment ---")
         run_alignment()
     except Exception as e:
         print(f"Could not run alignment script: {e}")
 
     try:
-        from qiwi.audit_eval.evaluate_ground_truth import main as run_audit
+        from audit_eval.evaluate_ground_truth import main as run_audit
         print("\n--- Running Ground-Truth Audit Benchmark ---")
         run_audit()
     except Exception as e:
